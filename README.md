@@ -49,6 +49,17 @@ mantener coherencia con su mapa del sitio.
 La portada incluye un buscador que filtra las 154 lecciones en vivo, sin servidor
 ni internet: los datos van embebidos en `assets/js/search-data.js`.
 
+## Tablas gramaticales en HTML
+
+Los charts de gramática del sitio original eran imágenes (JPG/PNG). Aquí están
+convertidos a tablas HTML reales (`<table class="gtable">`), con los mismos
+colores e intención visual: 40 imágenes reemplazadas en 28 lecciones
+(tiempos verbales, adjetivos, adverbios, pronombres, verbos, reported speech,
+voz pasiva, condicionales, etc.). Las imágenes que ya no usa ninguna página
+fueron eliminadas del repo. Las tablas se generan de forma reproducible con
+`../efy-build/tables/apply_tables.py` (fragmentos + manifiestos en
+`../efy-build/tables/`), que `build.py` ejecuta automáticamente al regenerar.
+
 ## Publicarlo online (opcional)
 
 Es un sitio 100% estático: súbelo a GitHub Pages, Netlify o Vercel tal cual.

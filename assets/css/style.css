@@ -123,6 +123,24 @@ img { max-width: 100%; height: auto; }
 .lesson-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
 .lesson-content strong { color: #0f172a; }
 
+/* ---------- grammar tables (converted from chart images) ---------- */
+.gtable { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .95rem; display: block; overflow-x: auto; background: var(--surface); border-radius: 10px; box-shadow: var(--shadow); }
+.gtable caption { caption-side: top; text-align: left; font-weight: 700; font-size: 1.05rem; padding: .8rem 1rem .4rem; color: var(--ink); }
+.gtable th, .gtable td { border: 1px solid #cbd5e1; padding: .6rem .8rem; text-align: center; vertical-align: middle; }
+.gtable tbody th, .gtable td.rowhead { font-weight: 700; background: #f1f5f9; }
+.gtable thead th { color: #1e293b; font-weight: 700; }
+.gtable thead th.g-pos  { background: #8bc34a; color: #14310a; }
+.gtable thead th.g-neg  { background: #f4a95c; color: #3d2205; }
+.gtable thead th.g-q    { background: #ffd54f; color: #3d2e05; }
+.gtable thead th.g-nq   { background: #90caf9; color: #0d2b4d; }
+.gtable thead th.g-blue { background: #2563eb; color: #fff; }
+.gtable thead th.g-purple { background: #7c3aed; color: #fff; }
+.gtable thead th.g-teal { background: #0d9488; color: #fff; }
+.gtable tbody tr:nth-child(even) td { background: #f8fafc; }
+.gtable td.hl { font-weight: 600; }
+.gtable .formula { font-weight: 600; color: var(--primary-dark); }
+.gnote { font-size: .88rem; color: var(--muted); background: #f8fafc; border: 1px solid var(--border); border-radius: 10px; padding: .75rem 1rem; margin: 0 0 1.5rem; }
+
 /* ---------- footer ---------- */
 .site-footer { border-top: 1px solid var(--border); background: var(--surface); margin-top: 1rem; }
 .footer-inner { padding-top: 1.75rem; padding-bottom: 1.75rem; color: var(--muted); font-size: .9rem; }
