@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn English for Free — English for Yourself</title>
+<meta name="description" content="Free English lessons: grammar, verb tenses, vocabulary, phrasal verbs, collocations, idioms and printable worksheets.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href=""><span class="brand-mark">EfY</span><span class="brand-name">English for Yourself</span></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Sections"><ul><li><a href="english-verb-tenses-2/">Verb Tenses</a></li><li><a href="vocabulary/">Vocabulary</a></li><li><a href="ways-to-say/">Ways to Say</a></li><li><a href="phrasal-verbs/">Phrasal Verbs</a></li><li><a href="collocations/">Collocations</a></li><li><a href="idioms/">Idioms</a></li><li><a href="grammar-information-section/">Grammar</a></li><li><a href="english-grammar-exercises-worksheets/">Worksheets</a></li></ul></nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="wrap">
+    <h1>Learn English for free 📘</h1>
+    <p class="hero-sub">Clear grammar explanations, vocabulary lists and exercises with answers — 154 lessons, no sign-up.</p>
+    <div class="search-box">
+      <input id="search" type="search" placeholder="Search lessons… e.g. &quot;present perfect&quot;, &quot;idioms&quot;" autocomplete="off" aria-label="Search lessons">
+      <div id="results" class="search-results" hidden></div>
+    </div>
+  </div>
+</section>
+<main class="wrap">
+  <h2 class="section-title">Browse by topic</h2>
+  <div class="cards">
+<a class="card" href="english-verb-tenses-2/">
+      <div class="card-icon">⏱</div>
+      <h3>Verb Tenses</h3>
+      <p>Present, past and future — simple, continuous, perfect.</p>
+      <span class="card-count">15 lessons</span>
+    </a>
+<a class="card" href="vocabulary/">
+      <div class="card-icon">📚</div>
+      <h3>Vocabulary</h3>
+      <p>Word lists by topic: animals, food, travel, work and more.</p>
+      <span class="card-count">52 lessons</span>
+    </a>
+<a class="card" href="ways-to-say/">
+      <div class="card-icon">💬</div>
+      <h3>Ways to Say</h3>
+      <p>Everyday expressions: greetings, thanks, opinions, advice.</p>
+      <span class="card-count">14 lessons</span>
+    </a>
+<a class="card" href="phrasal-verbs/">
+      <div class="card-icon">🧩</div>
+      <h3>Phrasal Verbs</h3>
+      <p>Lists and verbs by particle: get, break, come, take…</p>
+      <span class="card-count">13 lessons</span>
+    </a>
+<a class="card" href="collocations/">
+      <div class="card-icon">🔗</div>
+      <h3>Collocations</h3>
+      <p>Natural word combinations with do, make, take, get…</p>
+      <span class="card-count">15 lessons</span>
+    </a>
+<a class="card" href="idioms/">
+      <div class="card-icon">💡</div>
+      <h3>Idioms</h3>
+      <p>Common idioms and idioms by topic, with examples.</p>
+      <span class="card-count">3 lessons</span>
+    </a>
+<a class="card" href="grammar-information-section/">
+      <div class="card-icon">📝</div>
+      <h3>Grammar</h3>
+      <p>Adjectives, articles, conditionals, passive voice and more.</p>
+      <span class="card-count">41 lessons</span>
+    </a>
+<a class="card" href="english-grammar-exercises-worksheets/">
+      <div class="card-icon">✏️</div>
+      <h3>Worksheets</h3>
+      <p>Printable PDF exercises with answers.</p>
+      <span class="card-count">1 lesson</span>
+    </a>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p><strong>English for Yourself</strong> — free English lessons: grammar, vocabulary, phrasal verbs, idioms &amp; more.</p>
+    <p class="footer-legal"><a href="cookie-policy/">Cookie Policy</a> <a href="wpautoterms/privacy-policy/">Privacy Policy</a> <a href="wpautoterms/terms-and-conditions/">Terms</a></p>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/search-data.js"></script>
+<script>
+const input = document.getElementById('search');
+const results = document.getElementById('results');
+input.addEventListener('input', () => {
+  const q = input.value.trim().toLowerCase();
+  if (q.length < 2) { results.hidden = true; results.innerHTML = ''; return; }
+  const hits = PAGES.filter(p => (p.t + ' ' + p.s).toLowerCase().includes(q)).slice(0, 8);
+  if (!hits.length) {
+    results.innerHTML = '<div class="no-hit">No lessons found for &quot;' + input.value.replace(/</g,'&lt;') + '&quot;</div>';
+  } else {
+    results.innerHTML = hits.map(h =>
+      '<a href="' + h.p + '"><span class="r-title">' + h.t + '</span><span class="r-sec">' + h.s + '</span></a>'
+    ).join('');
+  }
+  results.hidden = false;
+});
+document.addEventListener('click', e => { if (!e.target.closest('.search-box')) results.hidden = true; });
+</script>
+</body>
+</html>
