@@ -24,25 +24,43 @@ y abre http://localhost:8000 en tu navegador.
 ## Estructura del repo
 
 ```
-index.html                  ← portada nueva: hero, buscador y tarjetas por sección
-english-verb-tenses/        ← tiempos verbales (14 lecciones)
-english-verb-tenses-2/
-vocabulary/                 ← vocabulario por temas (~45 lecciones)
-ways-to-say/                ← expresiones cotidianas (14 lecciones)
-phrasal-verbs/              ← phrasal verbs por lista y partícula
-collocations/               ← collocations por verbo
-idioms/                     ← idioms comunes y por tema
-<temas de gramática>/       ← adjetivos, condicionales, voz pasiva, etc.
-english-grammar-exercises-worksheets/  ← índice + 35 PDFs de ejercicios
-wp-content/uploads/         ← imágenes y PDFs
+index.html                  ← portada: hero, buscador y tarjetas por sección
+about.html                  ← página "More information about English"
 assets/
   css/style.css             ← todo el diseño (CSS vanilla, sin frameworks)
   js/main.js                ← menú móvil (vanilla JS)
   js/search-data.js         ← índice del buscador (generado automáticamente)
+  pdf/                      ← los 35 worksheets de ejercicios en PDF
+lessons/                    ← las 8 secciones del sitio
+  verb-tenses/              ← tiempos verbales (14 lecciones + overview)
+  vocabulary/               ← vocabulario por temas (~52 lecciones)
+  ways-to-say/              ← expresiones cotidianas (14 lecciones)
+  phrasal-verbs/            ← phrasal verbs por lista y partícula (13)
+  collocations/             ← collocations por verbo (15)
+  idioms/                   ← idioms comunes y por tema (3)
+  grammar/                  ← adjetivos, condicionales, voz pasiva, etc. (~40)
+  worksheets/               ← índice de ejercicios + enlaces a los PDFs
+    index.html              ← portada de la sección
+    <slug>.html             ← lección (los subtemas conservan subcarpetas)
+legal/
+  cookie-policy.html / privacy-policy.html / terms-and-conditions.html
+  contact.html / contact-2.html / index.html (archivo de páginas legales)
 ```
 
-Las rutas y nombres de las 161 páginas se conservaron del sitio original para
-mantener coherencia con su mapa del sitio.
+Sin nomenclatura de WordPress: no hay `wp-content/`, `wp-includes/` ni
+`wp-json/` en ninguna ruta. Las 161 páginas conservan sus slugs originales,
+reubicadas bajo `lessons/<sección>/`. La navegación, breadcrumbs, buscador y
+enlaces entre lecciones funcionan con rutas relativas, así que el sitio corre
+igual con doble clic (`file://`) o con un servidor local.
+
+## Cómo se genera
+
+El sitio se genera de forma reproducible con `../efy-build/build.py` (no
+incluido en este repo): toma el contenido de la reconstrucción original
+(`../englishforyourself-rebuild/site/`, intacta), lo re-maqueta con la
+plantilla moderna, reescribe todos los enlaces internos a la nueva
+estructura, mueve los PDFs a `assets/pdf/`, convierte los charts a tablas
+(vía `../efy-build/tables/apply_tables.py`) y regenera el buscador.
 
 ## Buscador
 
@@ -80,4 +98,6 @@ En GitHub: *Settings → Pages → Deploy from a branch → main → /(root)*.
 ## Regenerar
 
 El diseño se genera con `../efy-build/build.py` (no incluido en este repo):
-toma el contenido de la reconstrucción original y le aplica la plantilla moderna.
+toma el contenido de la reconstrucción original y le aplica la plantilla
+moderna, produciendo directamente esta estructura. Ver la sección
+"Cómo se genera" más arriba.
