@@ -60,6 +60,18 @@ fueron eliminadas del repo. Las tablas se generan de forma reproducible con
 `../efy-build/tables/apply_tables.py` (fragmentos + manifiestos en
 `../efy-build/tables/`), que `build.py` ejecuta automáticamente al regenerar.
 
+## Correcciones de contenido
+
+El contenido heredado del sitio original pasó por una auditoría de calidad
+(2026-09-29): se corrigieron typos ("perferct" → "perfect", "Positve" →
+"Positive", "hobbie" → "hobby", etc.), errores factuales de gramática
+("He have lived" → "He has lived", "She suggested me to arrive" →
+"She suggested arriving", regla "suggest + to infinitive" corregida a
+gerundio/that-clause), definiciones erróneas de idioms y phrasal verbs,
+collocations inexistentes eliminadas y duplicados limpiados. Los cambios se
+hicieron en la fuente (`englishforyourself-rebuild/site/` y fragmentos en
+`../efy-build/tables/`) para que `build.py` los conserve al regenerar.
+
 ## Publicarlo online (opcional)
 
 Es un sitio 100% estático: súbelo a GitHub Pages, Netlify o Vercel tal cual.
