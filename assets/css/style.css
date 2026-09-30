@@ -11,6 +11,12 @@
   --radius: 14px;
   --shadow: 0 1px 3px rgba(15, 23, 42, .08), 0 4px 14px rgba(15, 23, 42, .06);
   --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* Canonical mood colors: Positive (green), Negative (orange), Question (yellow).
+     Used site-wide so every Positive/Negative/Question header, cell and badge
+     speaks the same visual language. */
+  --pos: #8bc34a;  --pos-ink: #14310a;  --pos-soft: #edf6df;
+  --neg: #f4a95c;  --neg-ink: #3d2205;  --neg-soft: #fdf0dc;
+  --q:   #ffd54f;  --q-ink:   #3d2e05;  --q-soft:   #fff6da;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -129,9 +135,25 @@ img { max-width: 100%; height: auto; }
 .gtable th, .gtable td { border: 1px solid #cbd5e1; padding: .6rem .8rem; text-align: center; vertical-align: middle; }
 .gtable tbody th, .gtable td.rowhead { font-weight: 700; background: #f1f5f9; }
 .gtable thead th { color: #1e293b; font-weight: 700; }
-.gtable thead th.g-pos  { background: #8bc34a; color: #14310a; }
-.gtable thead th.g-neg  { background: #f4a95c; color: #3d2205; }
-.gtable thead th.g-q    { background: #ffd54f; color: #3d2e05; }
+/* Canonical Positive / Negative / Question headers (variables, so the whole
+   site shares one palette). .pos/.neg/.q are generic utilities; .g-pos/.g-neg/.g-q
+   keep working as the gtable-scoped aliases. */
+.pos, .gtable thead th.g-pos   { background: var(--pos); color: var(--pos-ink); }
+.neg, .gtable thead th.g-neg   { background: var(--neg); color: var(--neg-ink); }
+.q,   .gtable thead th.g-q     { background: var(--q);   color: var(--q-ink); }
+/* Mood-colored body cells: soft tints so dense tables stay readable */
+.gtable td.g-pos, .gtable td .g-pos { background: var(--pos-soft); color: var(--pos-ink); }
+.gtable td.g-neg, .gtable td .g-neg { background: var(--neg-soft); color: var(--neg-ink); }
+.gtable td.g-q,   .gtable td .g-q   { background: var(--q-soft);   color: var(--q-ink); }
+.gtable td .g-pos, .gtable td .g-neg, .gtable td .g-q { border-radius: 6px; padding: .15rem .5rem; margin: .15rem 0; }
+/* Mood words inside a colored header cell: pill badges */
+.gtable thead th .g-pos { background: var(--pos); color: var(--pos-ink); border-radius: 999px; padding: .1rem .65rem; white-space: nowrap; }
+.gtable thead th .g-neg { background: var(--neg); color: var(--neg-ink); border-radius: 999px; padding: .1rem .65rem; white-space: nowrap; }
+.gtable thead th .g-q   { background: var(--q);   color: var(--q-ink);   border-radius: 999px; padding: .1rem .65rem; white-space: nowrap; }
+/* English Tenses Chart: one distinct background per column header */
+.gtable thead th.th-tense  { background: #4f46e5; color: #fff; }
+.gtable thead th.th-struct { background: #64748b; color: #fff; }
+.gtable thead th.th-ex     { background: #0d9488; color: #fff; }
 .gtable thead th.g-nq   { background: #90caf9; color: #0d2b4d; }
 .gtable thead th.g-blue { background: #2563eb; color: #fff; }
 .gtable thead th.g-purple { background: #7c3aed; color: #fff; }
