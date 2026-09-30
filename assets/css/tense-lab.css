@@ -115,13 +115,41 @@
 .full-chart .full-chart-body { padding: 0 1.25rem 1.25rem; }
 
 /* ---------- responsive ---------- */
+
+/* Ultrawide: match the widened site container */
+@media (min-width: 1600px) {
+  .tense-lab { max-width: 1200px; }
+}
+
+/* Small tablets: two tracks side-by-side need a slimmer badge column */
+@media (max-width: 900px) {
+  .mood-row { grid-template-columns: 40px 1fr 1fr; gap: 12px; }
+}
+
 @media (max-width: 768px) {
   .mood-row { grid-template-columns: 44px 1fr; }
-  .mood-row .sentence-track + .sentence-track { grid-column: 2; }
+  .mood-row .track-wrap + .track-wrap { grid-column: 2; }
   .tense-card-header { flex-direction: column; align-items: flex-start; }
+  .visual-legend { padding: 12px 14px; }
 }
-@media (max-width: 520px) {
-  .mood-row { grid-template-columns: 1fr; gap: 10px; }
-  .mood-row .sentence-track + .sentence-track { grid-column: 1; }
-  .mood-badge { width: 34px; height: 34px; }
+
+/* Phones */
+@media (max-width: 560px) {
+  .tense-card { padding: 16px; margin-bottom: 1.25rem; }
+  .tense-name { font-size: clamp(1.1rem, 4.5vw, 1.35rem); }
+  .visual-legend-title { flex-basis: 100%; margin-bottom: 2px; }
+  /* pronoun switch: full-width rows, >=44px touch targets */
+  .subject-switch { display: flex; width: 100%; }
+  .subject-switch button {
+    flex: 1 1 0; min-height: 44px; padding: 10px 8px;
+    font-size: .8rem; white-space: nowrap;
+  }
+  .mood-row { grid-template-columns: 1fr; gap: 10px; padding: 12px; }
+  .mood-row .track-wrap + .track-wrap { grid-column: 1; }
+  .mood-badge { width: 40px; height: 40px; flex: none; }
+  .syn-block { font-size: .85rem; padding: 5px 9px; }
+  .track-caption { font-size: .64rem; }
+  .full-chart summary { padding: .9rem 1rem; font-size: .98rem; }
+  .full-chart .full-chart-body { padding: 0 1rem 1rem; }
+  .tense-lesson-link { white-space: normal; }
 }

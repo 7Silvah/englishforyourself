@@ -50,7 +50,7 @@ img { max-width: 100%; height: auto; }
 .brand-name { font-size: 1.05rem; }
 .site-nav { margin-left: auto; }
 .site-nav ul { display: flex; gap: .25rem; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
-.site-nav a { display: block; padding: .5rem .7rem; border-radius: 8px; color: var(--ink); font-size: .92rem; font-weight: 500; }
+.site-nav a { display: block; padding: .5rem .55rem; border-radius: 8px; color: var(--ink); font-size: .88rem; font-weight: 500; white-space: nowrap; }
 .site-nav a:hover { background: #eef2ff; color: var(--primary-dark); text-decoration: none; }
 .nav-toggle { display: none; margin-left: auto; background: none; border: 1px solid var(--border); border-radius: 8px; padding: .5rem .6rem; cursor: pointer; }
 .nav-toggle span { display: block; width: 20px; height: 2px; background: var(--ink); margin: 4px 0; border-radius: 2px; }
@@ -170,13 +170,69 @@ img { max-width: 100%; height: auto; }
 .footer-legal a { margin-right: 1rem; }
 
 /* ---------- responsive ---------- */
-@media (max-width: 860px) {
-  .nav-toggle { display: block; }
+
+/* Ultrawide: keep line length readable, let the layout breathe */
+@media (min-width: 1600px) {
+  .wrap { max-width: 1200px; }
+  .lesson { max-width: 900px; }
+  .hero { padding: 5rem 0 4.5rem; }
+}
+
+/* Tablet landscape and below: 8 nav links need room, collapse earlier */
+@media (max-width: 1024px) {
+  .nav-toggle { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; }
   .site-nav { display: none; position: absolute; top: 64px; left: 0; right: 0; background: #fff; border-bottom: 1px solid var(--border); box-shadow: var(--shadow); }
-  .site-nav.open { display: block; }
+  .site-nav.open { display: block; max-height: calc(100vh - 70px); max-height: calc(100dvh - 70px); overflow-y: auto; }
   .site-nav ul { flex-direction: column; padding: .5rem; }
-  .site-nav a { padding: .75rem 1rem; }
+  .site-nav a { padding: .85rem 1rem; } /* >=44px touch targets */
   .header-inner { position: relative; }
+}
+
+@media (max-width: 860px) {
   .hero { padding: 2.75rem 0 2.5rem; }
+  .hero-sub { font-size: 1rem; }
   .lesson { padding: 1.25rem; }
+  .lesson-content { font-size: 1rem; }
+  .search-results a { padding: .9rem 1rem; } /* comfortable tap targets */
+}
+
+/* Phones */
+@media (max-width: 560px) {
+  .wrap { padding: 0 1rem; }
+  .header-inner { height: 58px; gap: .6rem; }
+  .site-nav { top: 58px; }
+  .brand-mark { width: 34px; height: 34px; font-size: .78rem; }
+  .brand-name { font-size: .95rem; }
+  .hero { padding: 2.25rem 0 2rem; }
+  .search-box input { padding: .85rem 1.1rem; } /* font-size stays >=16px: no iOS zoom */
+  .section-title { font-size: 1.25rem; margin: 2rem 0 1rem; }
+  /* two-column card grid that fits 360px screens */
+  .cards { grid-template-columns: 1fr 1fr; gap: .8rem; padding-bottom: 2.5rem; }
+  .card { padding: 1rem .8rem; gap: .3rem; }
+  .card-icon { font-size: 1.5rem; }
+  .card h3 { font-size: .98rem; }
+  .card p { font-size: .82rem; }
+  .card-count { font-size: .72rem; }
+  /* breadcrumbs scroll horizontally instead of wrapping awkwardly */
+  .breadcrumbs .wrap { white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .breadcrumbs .wrap::-webkit-scrollbar { display: none; }
+  .article-wrap { padding-top: 1.25rem; }
+  .lesson-content h2 { font-size: 1.25rem; }
+  .lesson-content h3 { font-size: 1.1rem; }
+  .lesson-content th, .lesson-content td,
+  .gtable th, .gtable td { padding: .45rem .55rem; font-size: .88rem; }
+  .footer-inner { font-size: .85rem; }
+}
+
+/* Small-height landscape phones: keep hero compact */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero { padding: 1.75rem 0 1.5rem; }
+  .hero h1 { font-size: 1.7rem; }
+  .hero-sub { margin-bottom: 1rem; }
+}
+
+/* Motion-sensitive users */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
