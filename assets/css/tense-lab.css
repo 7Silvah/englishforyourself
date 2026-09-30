@@ -30,6 +30,10 @@
 .tense-name { font-size: 1.35rem; font-weight: 800; color: var(--ink); margin: 0; }
 .tense-lesson-link { font-size: .85rem; font-weight: 600; white-space: nowrap; }
 
+/* smooth fade/slide when the pronoun switch rebuilds the mood rows */
+.tense-card-body { transition: opacity .17s ease, transform .17s ease; }
+.tense-card-body.is-switching { opacity: 0; transform: translateY(10px); }
+
 /* ---------- pronoun switch ---------- */
 .subject-switch {
   display: inline-flex; background: #f1f5f9; border-radius: 9999px; padding: 4px; gap: 4px;
