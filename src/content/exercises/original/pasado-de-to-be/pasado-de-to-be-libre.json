@@ -1,0 +1,84 @@
+{
+  "title": "Past of to be: free practice",
+  "titleEs": "Was y were: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-de-to-be",
+  "topics": [
+    "past-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "My grandparents ___ (to be) teachers.",
+      "blanks": [
+        {
+          "answers": [
+            "were"
+          ]
+        }
+      ],
+      "explanationEs": "Plural (they): were."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "It ___ (to be) very hot yesterday.",
+      "blanks": [
+        {
+          "answers": [
+            "was"
+          ]
+        }
+      ],
+      "explanationEs": "Con it: was."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "___ there a problem with the car? No, there wasn't.",
+      "blanks": [
+        {
+          "answers": [
+            "Was"
+          ]
+        }
+      ],
+      "explanationEs": "Una cosa: was there…?"
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "She was happy.",
+      "to": "neg",
+      "answers": [
+        "She wasn't happy."
+      ],
+      "explanationEs": "Negativa: was + not."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "They were in London last week.",
+      "to": "q",
+      "answers": [
+        "Were they in London last week?"
+      ],
+      "explanationEs": "Pregunta: were antes de they."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "I had 10 years in that photo.",
+      "wrong": "had 10 years",
+      "answers": [
+        "was 10 years old",
+        "was 10"
+      ],
+      "explanationEs": "La edad, también en pasado, se dice con to be: I was 10."
+    }
+  ]
+}

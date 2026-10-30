@@ -1,0 +1,74 @@
+{
+  "title": "Past simple: guided practice",
+  "titleEs": "Pasado simple: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-simple",
+  "topics": [
+    "past-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Last summer we ___ to Mexico.",
+      "options": [
+        "went",
+        "goed",
+        "go"
+      ],
+      "answer": 0,
+      "explanationEs": "Go es irregular: went."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "She ___ the email yesterday.",
+      "options": [
+        "didn't read",
+        "didn't readed",
+        "not read"
+      ],
+      "answer": 0,
+      "explanationEs": "Negativa: didn't + verbo en forma base."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I watched a good film last night.",
+      "answer": true,
+      "explanationEs": "Verbo regular: watch + -ed."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Did you saw my keys?",
+      "answer": false,
+      "explanationEs": "Después de did, forma base: Did you see…?"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Where did you buy that jacket?"
+      ],
+      "distractors": [
+        "bought"
+      ],
+      "explanationEs": "Pregunta: did + sujeto + forma base (buy, no bought)."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "They didn't come to the party."
+      ],
+      "distractors": [
+        "came"
+      ],
+      "explanationEs": "Después de didn't, forma base: come."
+    }
+  ]
+}

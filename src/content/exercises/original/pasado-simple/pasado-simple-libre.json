@@ -1,0 +1,84 @@
+{
+  "title": "Past simple: free practice",
+  "titleEs": "Pasado simple: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-simple",
+  "topics": [
+    "past-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (to study) English last night.",
+      "blanks": [
+        {
+          "answers": [
+            "studied"
+          ]
+        }
+      ],
+      "explanationEs": "Consonante + y → -ied: studied."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "We ___ (to have) a great time at the beach.",
+      "blanks": [
+        {
+          "answers": [
+            "had"
+          ]
+        }
+      ],
+      "explanationEs": "Have es irregular: had."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "He ___ (not / call) me yesterday.",
+      "blanks": [
+        {
+          "answers": [
+            "didn't call",
+            "did not call"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa: didn't + call."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "She plays the guitar.",
+      "to": "past",
+      "answers": [
+        "She played the guitar."
+      ],
+      "explanationEs": "Pasado de un verbo regular: play + -ed."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "You saw the accident.",
+      "to": "q",
+      "answers": [
+        "Did you see the accident?"
+      ],
+      "explanationEs": "Pregunta: did + you + see (forma base)."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "I didn't went to work on Monday.",
+      "wrong": "went",
+      "answers": [
+        "go"
+      ],
+      "explanationEs": "Después de didn't, el verbo va en forma base."
+    }
+  ]
+}

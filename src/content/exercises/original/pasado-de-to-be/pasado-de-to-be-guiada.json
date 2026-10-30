@@ -1,0 +1,74 @@
+{
+  "title": "Past of to be: guided practice",
+  "titleEs": "Was y were: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-de-to-be",
+  "topics": [
+    "past-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I ___ at the cinema last night.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "answer": 0,
+      "explanationEs": "Con I, el pasado de to be es was."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "___ you at work yesterday?",
+      "options": [
+        "Were",
+        "Was",
+        "Did"
+      ],
+      "answer": 0,
+      "explanationEs": "Con you se usa were. To be no usa did."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "We was very tired after the trip.",
+      "answer": false,
+      "explanationEs": "Con we se usa were."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "There were many people at the party.",
+      "answer": true,
+      "explanationEs": "Plural: there were."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Where were you last weekend?"
+      ],
+      "distractors": [
+        "was"
+      ],
+      "explanationEs": "Pregunta: were antes de you."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "The exam wasn't difficult."
+      ],
+      "distractors": [
+        "didn't"
+      ],
+      "explanationEs": "Negativa de to be: wasn't. No se usa didn't."
+    }
+  ]
+}

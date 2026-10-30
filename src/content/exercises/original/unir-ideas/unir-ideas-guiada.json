@@ -1,0 +1,75 @@
+{
+  "title": "Linking ideas: guided practice",
+  "titleEs": "Unir ideas: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "unir-ideas",
+  "topics": [
+    "conjunctions",
+    "adverbs"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I was hungry, ___ I made a sandwich.",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "answer": 0,
+      "explanationEs": "Consecuencia: so."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Do you want tea ___ coffee?",
+      "options": [
+        "or",
+        "and",
+        "but"
+      ],
+      "answer": 0,
+      "explanationEs": "Para elegir entre opciones: or."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I like very much chocolate.",
+      "answer": false,
+      "explanationEs": "El adverbio no va entre el verbo y el objeto: I like chocolate very much."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She stayed at home because she was ill.",
+      "answer": true,
+      "explanationEs": "Causa: because."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "He speaks English very well."
+      ],
+      "distractors": [
+        "good"
+      ],
+      "explanationEs": "Verbo + objeto juntos, y después cómo: very well."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "We play football in the park on Sundays."
+      ],
+      "distractors": [
+        "at"
+      ],
+      "explanationEs": "Orden: qué, dónde y cuándo."
+    }
+  ]
+}

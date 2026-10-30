@@ -1,0 +1,88 @@
+{
+  "title": "Imperative and can: free practice",
+  "titleEs": "Imperativo y can: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "imperativo-y-can",
+  "topics": [
+    "imperative",
+    "can"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "___ (not / run) in the corridor!",
+      "blanks": [
+        {
+          "answers": [
+            "Don't run",
+            "Do not run"
+          ]
+        }
+      ],
+      "explanationEs": "Prohibir: Don't + verbo."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I ___ (can / not) swim very well.",
+      "blanks": [
+        {
+          "answers": [
+            "can't",
+            "cannot",
+            "can not"
+          ]
+        }
+      ],
+      "explanationEs": "La negativa de can es can't o cannot."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "___ go to the cinema tonight. It's a good idea!",
+      "blanks": [
+        {
+          "answers": [
+            "Let's"
+          ]
+        }
+      ],
+      "explanationEs": "Para proponer un plan: Let's + verbo."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "He can cook.",
+      "to": "neg",
+      "answers": [
+        "He can't cook.",
+        "He cannot cook."
+      ],
+      "explanationEs": "Negativa: can't + verbo."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "You can come to the party.",
+      "to": "q",
+      "answers": [
+        "Can you come to the party?"
+      ],
+      "explanationEs": "Pregunta: can va antes del sujeto."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "She can to drive a truck.",
+      "wrong": "can to drive",
+      "answers": [
+        "can drive"
+      ],
+      "explanationEs": "Después de can el verbo va sin to."
+    }
+  ]
+}

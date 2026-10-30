@@ -1,0 +1,75 @@
+{
+  "title": "Imperative and can: guided practice",
+  "titleEs": "Imperativo y can: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "imperativo-y-can",
+  "topics": [
+    "imperative",
+    "can"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ the window, please. It's cold.",
+      "options": [
+        "Close",
+        "You close",
+        "Closing"
+      ],
+      "answer": 0,
+      "explanationEs": "El imperativo es el verbo en forma base, sin sujeto: Close the window."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "My sister ___ play the piano.",
+      "options": [
+        "can",
+        "cans",
+        "can to"
+      ],
+      "answer": 0,
+      "explanationEs": "Can no cambia nunca y va seguido del verbo sin to."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Don't touch the oven. It's hot.",
+      "answer": true,
+      "explanationEs": "Imperativo negativo: Don't + verbo."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Do you can speak French?",
+      "answer": false,
+      "explanationEs": "Can no usa do: Can you speak French?"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Can I open the window?"
+      ],
+      "distractors": [
+        "Do"
+      ],
+      "explanationEs": "Para pedir permiso: Can I…? Sin do."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "Let's go to the beach."
+      ],
+      "distractors": [
+        "we"
+      ],
+      "explanationEs": "Let's + verbo para proponer algo. No lleva sujeto."
+    }
+  ]
+}

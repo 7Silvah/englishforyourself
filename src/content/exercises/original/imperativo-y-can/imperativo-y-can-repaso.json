@@ -1,0 +1,98 @@
+{
+  "title": "Imperative and can: review",
+  "titleEs": "Imperativo y can: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "imperativo-y-can",
+  "topics": [
+    "imperative",
+    "can"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ you help me with my bag?",
+      "options": [
+        "Can",
+        "Do",
+        "Are"
+      ],
+      "answer": 0,
+      "explanationEs": "Para pedir un favor: Can you…?"
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "___ late, please.",
+      "options": [
+        "Don't be",
+        "Not be",
+        "No be"
+      ],
+      "answer": 0,
+      "explanationEs": "Imperativo negativo: Don't + verbo, también con be."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "He cans speak three languages.",
+      "answer": false,
+      "explanationEs": "Can no lleva -s: He can speak."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Let's have lunch now.",
+      "answer": true,
+      "explanationEs": "Let's + verbo para proponer algo."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Please sit down."
+      ],
+      "distractors": [
+        "you"
+      ],
+      "explanationEs": "El imperativo no lleva sujeto."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "___ you swim? Yes, I can.",
+      "blanks": [
+        {
+          "answers": [
+            "Can"
+          ]
+        }
+      ],
+      "explanationEs": "La respuesta corta repite can: la pregunta empieza con can."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "We can park here.",
+      "to": "q",
+      "answers": [
+        "Can we park here?"
+      ],
+      "explanationEs": "Pregunta: can + we + verbo."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "No open the door, please.",
+      "wrong": "No open",
+      "answers": [
+        "Don't open",
+        "Do not open"
+      ],
+      "explanationEs": "El imperativo negativo es Don't + verbo, no No + verbo."
+    }
+  ]
+}
