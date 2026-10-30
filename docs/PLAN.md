@@ -9,7 +9,7 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
@@ -124,7 +124,7 @@ Ideas que se evalúan una a una cuando lleguen, ver §13.
 | Elemento | Cantidad / ubicación | Destino en la app nueva |
 |---|---|---|
 | Lecciones HTML | 161 páginas en `lessons/<sección>/` | Biblioteca: MDX (`article`) o JSON (`wordlist`) |
-| Secciones | 8: verb-tenses, vocabulary, ways-to-say, phrasal-verbs, collocations, idioms, grammar, worksheets | `src/content/sections.ts` |
+| Secciones | 8: verb-tenses, vocabulary, ways-to-say, phrasal-verbs, collocations, idioms, grammar, worksheets | `src/content/sections.ts` (7; *worksheets* pasa a `/ejercicios`) |
 | Tablas gramaticales | ~40 `<table class="gtable">` en ~28 lecciones | JSON + componente `<GrammarTable>` |
 | **Worksheets PDF** | 35 en `assets/pdf/`, **todos con el mismo formato**: instrucción, 10 frases con hueco `__________`, pista entre paréntesis y *Answer key* | **350 ejercicios interactivos** en `src/content/exercises/worksheets/` + versión imprimible generada |
 | Tense Lab | `assets/js/tense-lab.js` (datos embebidos) | `src/content/data/tenses.ts` + `features/tense-lab/` |
@@ -492,17 +492,20 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
 | `/ejercicios/$id` | Jugar un set |
 | `/ejercicios/$id/imprimir` | Versión imprimible con la clave |
 | `/repaso` | Repasar mis errores y repaso mixto (F12) |
-| `/biblioteca` | Las 8 secciones de la Biblioteca |
-| `/$section` · `/$section/$` | Sección y lección de la Biblioteca (slugs actuales, splat para subcarpetas) |
+| `/biblioteca` | Las 7 secciones de la Biblioteca (la de *worksheets* pasa a `/ejercicios`) |
+| `/biblioteca/$section` · `/biblioteca/$section/$` | Sección y lección de la Biblioteca (slugs actuales, splat para subcarpetas) |
 | `/herramientas/tense-lab?tense=` | Tense Lab (F10) |
 | `/practicar/flashcards?lista=` | Flashcards (F13) |
 | `/progreso` | Resumen de progreso |
 | `/buscar?q=` | Resultados de búsqueda (F11) |
 | `/acerca` · `/legal/$slug` | Informativas |
+| `/dev/ui` | Sistema de diseño (solo en desarrollo) |
 
-- TanStack Router prioriza las rutas estáticas (`/curso`, `/ejercicios`…)
-  sobre `/$section`. `content:check` prohíbe slugs de sección que coincidan con
-  una ruta estática.
+- La Biblioteca vive bajo `/biblioteca/` (decidido en F3) para que los
+  breadcrumbs salgan de la URL y ninguna sección pueda chocar con `/curso`,
+  `/ejercicios`, etc.
+- Breadcrumbs: cada ruta que aporta una miga devuelve `{ crumb }` en su
+  `loader`, y las carpetas con `route.tsx` aportan la miga de su nivel.
 - URLs viejas (`/lessons/…/x.html`, `/assets/pdf/X.pdf`) → `public/_redirects`
   hacia la lección o el set de ejercicios equivalente.
 
@@ -617,7 +620,7 @@ Cada fase indica qué conceptos vas a aprender en ella.
 - [x] Textos para lectores de pantalla de `components/ui` traducidos (Cerrar, Más, Ruta de navegación, Buscar); import sin uso en `scroll-area` eliminado.
 - [x] Primario = azul de la marca (`#2563eb`) y `brand` = violeta. Tokens `@theme`: `pos/neg/q/nq` (`-ink`, `-soft`) con los colores del sitio original, bloques `subj/aux/verb/obj` (`-border`, `-fg`) con los del Tense Lab y estados `correct/almost/wrong`; todos con versión `.dark`.
 - [x] `ThemeProvider` propio (`components/layout/theme-provider.tsx` + `hooks/use-theme.ts`), en lugar de `next-themes`, cuyo script inline provoca un aviso de React en apps sin servidor. Script en `index.html` contra el destello blanco y `ThemeToggle` (Claro / Oscuro / Sistema).
-- [x] `/_dev/ui` (`src/dev/ui-showcase.tsx`), solo en desarrollo y fuera del build. `prettier-plugin-tailwindcss` ordena las clases.
+- [x] `/dev/ui` (`src/dev/ui-showcase.tsx`; en F2 era `/_dev/ui`, pero en TanStack Router un `_` inicial significa ruta sin URL), solo en desarrollo y fuera del build. `prettier-plugin-tailwindcss` ordena las clases.
 
 **Nota de tamaño:** la base (React + Base UI + sonner) ocupa unos 139 KB gzip de JS. Hay que vigilarla frente al presupuesto de 200 KB (F18); las rutas de F3 se cargarán por separado.
 
@@ -625,23 +628,27 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F3 — Rutas y layout
 *Aprendes: enrutado file-based, layouts, parámetros tipados, code splitting.*
-- [ ] `npm i @tanstack/react-router`, `npm i -D @tanstack/router-plugin`.
-- [ ] `tanstackRouter({ target: "react", autoCodeSplitting: true })` **antes** de `react()`.
-- [ ] `__root.tsx`: header (Curso · Ejercicios · Biblioteca · Progreso; `Sheet` en móvil), footer y `<Outlet/>`.
-- [ ] `src/i18n/es.ts`.
-- [ ] Rutas vacías de §8 para la etapa 1 (`/`, `/curso`, `/curso/$unidad`, `/ejercicios`, `/ejercicios/$id`, `/biblioteca`, `/$section`, `/$section/$`, `/progreso`, `/acerca`), además de la 404 y `Breadcrumbs`.
+- [x] `@tanstack/react-router` 1.170; `@tanstack/router-plugin` y `@tanstack/react-router-devtools` (cargadas solo en desarrollo) en `devDependencies`.
+- [x] `tanstackRouter({ target: "react", autoCodeSplitting: true })` **antes** de `react()`; `src/routeTree.gen.ts` generado y versionado (sin él `tsc -b` falla en un clon nuevo), excluido de Prettier y oxlint.
+- [x] `__root.tsx`: enlace “Saltar al contenido”, `SiteHeader` (Curso · Ejercicios · Biblioteca · Progreso, enlace activo resaltado; `Sheet` en móvil que se cierra al navegar), `Breadcrumbs`, `<main id="contenido">`, `SiteFooter` y `HeadContent` (títulos de pestaña por ruta).
+- [x] `src/i18n/es.ts` con navegación, portada, páginas y 404.
+- [x] Rutas: `/`, `/curso`, `/curso/$unidad`, `/ejercicios`, `/ejercicios/$id`, `/biblioteca`, `/biblioteca/$section` (valida la sección; si no existe → 404), `/biblioteca/$section/$`, `/progreso`, `/acerca`, `/dev/ui`, además de la 404 global.
+- [x] Adelantado de F4: `src/content/sections.ts` (7 secciones con nombre y descripción en español), necesario para la Biblioteca y la 404 de secciones.
+- [x] Portada real (hero + tres pilares) y Biblioteca con tarjetas por sección; el resto con el marcador `ComingSoon` que indica la fase.
+- [x] oxlint: `only-export-components` desactivada en `src/routes/` (el code splitting del plugin se ocupa del fast refresh).
+- [x] Probado en el navegador: navegación, breadcrumbs con subcarpetas, 404, títulos y móvil a 390 px (sin scroll horizontal, menú lateral).
 
 **Listo cuando:** se navega entre páginas vacías.
 
 #### F4 — Contenido + migración
 *Aprendes: MDX, `import.meta.glob`, Zod, scripts Node.*
 - [ ] `npm i zod @mdx-js/react`; `npm i -D @mdx-js/rollup remark-frontmatter remark-mdx-frontmatter remark-gfm rehype-slug`; plugin MDX con `enforce: "pre"`.
-- [ ] `content/schema.ts`, `sections.ts`, `index.ts` (manifiesto con `getUnit`, `getExerciseSet`, `getLesson`, `getPrevNext`).
+- [ ] `content/schema.ts`, `index.ts` (`sections.ts` ya existe desde F3) (manifiesto con `getUnit`, `getExerciseSet`, `getLesson`, `getPrevNext`).
 - [ ] `features/exercises/schema.ts` (todos los tipos de §7.1 definidos, aunque solo se rendericen los de F5).
 - [ ] Migración de lecciones (§10.1): `npm i -D tsx cheerio unified rehype-parse rehype-remark remark-stringify`.
 - [ ] Migración de PDFs (§10.2): `npm i -D unpdf`; `worksheet-map.ts`; revisión manual de los 350 ítems.
 - [ ] Componentes de `lesson/` y rutas reales de la Biblioteca.
-- [ ] `npm run content:check`: esquemas, ids únicos, enlaces, `answers` no vacías, que la `answer` de `multiple-choice` exista, que las fichas de `word-order` formen la respuesta, colisión de slugs y cobertura de traducción.
+- [ ] `npm run content:check`: esquemas, ids únicos, enlaces, `answers` no vacías, que la `answer` de `multiple-choice` exista, que las fichas de `word-order` formen la respuesta y cobertura de traducción.
 
 **Listo cuando:** las 161 lecciones se ven en la app, hay 35 sets JSON y `content:check` pasa.
 

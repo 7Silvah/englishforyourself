@@ -1,9 +1,8 @@
-// Página de muestra del sistema de diseño: solo existe en desarrollo (/_dev/ui).
+// Página de muestra del sistema de diseño: solo existe en desarrollo (/dev/ui).
 // Sus textos van sueltos a propósito: no es interfaz para el estudiante.
 import { CircleAlert, CircleCheck, CircleX } from "lucide-react";
 import type { ReactNode } from "react";
 import { toast } from "sonner";
-import { ThemeToggle } from "@/components/layout/theme-toggle";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -105,13 +104,10 @@ const states = [
 
 export function UiShowcase() {
   return (
-    <main className="mx-auto max-w-5xl space-y-12 px-4 py-10">
-      <header className="flex items-center justify-between gap-4">
-        <div>
-          <h1 className="font-heading text-2xl font-bold">Sistema de diseño</h1>
-          <p className="text-muted-foreground">Tokens y componentes · /_dev/ui</p>
-        </div>
-        <ThemeToggle />
+    <div className="space-y-12">
+      <header>
+        <h1 className="font-heading text-2xl font-bold">Sistema de diseño</h1>
+        <p className="text-muted-foreground">Tokens y componentes · /dev/ui</p>
       </header>
 
       <Section title="Marca">
@@ -271,6 +267,6 @@ export function UiShowcase() {
           </Button>
         </div>
       </Section>
-    </main>
+    </div>
   );
 }

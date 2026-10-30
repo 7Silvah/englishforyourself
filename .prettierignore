@@ -9,3 +9,7 @@ package-lock.json
 *.md
 
 .claude/
+
+# Generado por @tanstack/router-plugin
+src/routeTree.gen.ts
+.tanstack/

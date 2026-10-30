@@ -73,9 +73,18 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/i18n/es.ts` | Todos los textos de la UI | **Ningún texto de UI suelto en JSX.** |
 | `src/lib/` | Utilidades puras (`cn`, `speak`, slugs) | |
 | `src/hooks/` | Hooks compartidos (`use-theme`) | Si un archivo exporta un componente, el hook o el contexto van en otro archivo (lo exige fast refresh). |
-| `src/dev/` | Páginas solo de desarrollo (`/_dev/ui`) | Se cargan con `lazy` detrás de `import.meta.env.DEV`; nunca llegan al build. |
+| `src/dev/` | Páginas solo de desarrollo (`/dev/ui`) | Se cargan con `lazy` detrás de `import.meta.env.DEV`; nunca llegan al build. |
 
 Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
+
+### Rutas (TanStack Router)
+
+- Un archivo en `src/routes/` = una URL. `route.tsx` dentro de una carpeta es la ruta contenedora de ese nivel; `index.tsx` es su página; `$param.tsx` es un parámetro y `$.tsx` captura el resto de la URL (`_splat`).
+- `src/routeTree.gen.ts` lo genera el plugin de Vite: **no se edita a mano**, pero se versiona.
+- Para aparecer en los breadcrumbs, el `loader` de la ruta devuelve `{ crumb: "Texto" }`. Para el título de la pestaña, `head: () => ({ meta: [{ title: pageTitle("Texto") }] })`.
+- Si un parámetro no corresponde a contenido existente, el `loader` lanza `notFound()`.
+- Para leer datos de una ruta padre, usa `getRouteApi("/ruta/padre").useLoaderData()`.
+- Enlaces siempre con `<Link to="…">` del router (tipado). Para que un enlace parezca botón: `className={buttonVariants()}`.
 
 ## Convenciones de código
 
@@ -83,7 +92,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Componentes de función, nombrados en PascalCase, un componente principal por archivo y exportación con nombre (`export function WordList`).
 - Archivos en kebab-case (`grammar-table.tsx`), igual que los que genera shadcn.
 - Identificadores de código en **inglés**; textos visibles en **español** (vía `es.ts`); comentarios en español y solo cuando expliquen un *por qué*.
-- Estilos solo con clases de Tailwind y `cn()`. Nada de colores hex en componentes: usa los tokens (`bg-pos-soft`, `text-neg-ink`, `bg-primary`, `bg-subj border-subj-border text-subj-fg`, `bg-correct`). Están definidos en `src/index.css` y se ven todos en `/_dev/ui`.
+- Estilos solo con clases de Tailwind y `cn()`. Nada de colores hex en componentes: usa los tokens (`bg-pos-soft`, `text-neg-ink`, `bg-primary`, `bg-subj border-subj-border text-subj-fg`, `bg-correct`). Están definidos en `src/index.css` y se ven todos en `/dev/ui`.
 - Los componentes de shadcn usan **Base UI**: para que un trigger sea otro componente se usa `render={<Button />}`, no `asChild` (eso era Radix). Fíjate en esto al copiar ejemplos de internet.
 - Estado: `useState` local → URL search params (filtros, tiempo verbal seleccionado) → Zustand solo para lo que persiste entre páginas (progreso, ajustes).
 - Sin `useEffect` para derivar datos; calcula durante el render o usa `useMemo` si es caro.
