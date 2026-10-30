@@ -1,0 +1,155 @@
+{
+  "title": "Present simple: more practice",
+  "titleEs": "Presente simple: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "presente-simple",
+  "topics": [
+    "present-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "have",
+          "right": "has"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        }
+      ],
+      "explanationEs": "Con he, she e it: -s, -es, -ies, o has para have."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "-s",
+          "items": [
+            "works",
+            "plays",
+            "likes"
+          ]
+        },
+        {
+          "label": "-es",
+          "items": [
+            "watches",
+            "goes",
+            "does"
+          ]
+        },
+        {
+          "label": "-ies",
+          "items": [
+            "studies",
+            "flies",
+            "tries"
+          ]
+        }
+      ],
+      "explanationEs": "-es tras s, sh, ch, x, o; consonante + y → -ies; el resto, -s."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Mi hermana no come carne.",
+      "answers": [
+        "My sister doesn't eat meat."
+      ],
+      "wordBank": [
+        "My",
+        "sister",
+        "doesn't",
+        "eat",
+        "meat.",
+        "don't",
+        "eats"
+      ],
+      "explanationEs": "My sister = she: doesn't + verbo sin -s."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "He usually walks to work.",
+      "explanationEs": "Adverbio de frecuencia antes del verbo, y -s con he."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Work",
+      "columns": [
+        "Positive",
+        "Negative"
+      ],
+      "rows": [
+        {
+          "header": "I",
+          "cells": [
+            {
+              "answers": [
+                "I work."
+              ]
+            },
+            {
+              "answers": [
+                "I don't work.",
+                "I do not work."
+              ]
+            }
+          ]
+        },
+        {
+          "header": "she",
+          "cells": [
+            "She works.",
+            {
+              "answers": [
+                "She doesn't work.",
+                "She does not work."
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they",
+          "cells": [
+            {
+              "answers": [
+                "They work."
+              ]
+            },
+            "They don't work."
+          ]
+        }
+      ],
+      "explanationEs": "Solo he, she e it cambian: -s en afirmativa, doesn't en negativa."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "She watches TV every night.",
+      "options": [
+        "She watches TV every night.",
+        "She watch TV every night.",
+        "They watch TV every night."
+      ],
+      "answer": 0,
+      "explanationEs": "Con she el verbo lleva -es: watches."
+    }
+  ]
+}

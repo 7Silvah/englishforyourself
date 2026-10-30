@@ -1,0 +1,151 @@
+{
+  "title": "Articles and plurals: more practice",
+  "titleEs": "Artículos y plurales: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "articulos-y-plurales",
+  "topics": [
+    "articles",
+    "plurals"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "man",
+          "right": "men"
+        },
+        {
+          "left": "child",
+          "right": "children"
+        },
+        {
+          "left": "foot",
+          "right": "feet"
+        },
+        {
+          "left": "person",
+          "right": "people"
+        }
+      ],
+      "explanationEs": "Plurales irregulares: hay que aprenderlos de memoria."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "a",
+          "items": [
+            "book",
+            "university",
+            "car"
+          ]
+        },
+        {
+          "label": "an",
+          "items": [
+            "apple",
+            "hour",
+            "umbrella"
+          ]
+        }
+      ],
+      "explanationEs": "Depende del sonido: university suena /ju/ (a); en hour la h no suena (an)."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Soy profesora.",
+      "answers": [
+        "I am a teacher."
+      ],
+      "wordBank": [
+        "I",
+        "am",
+        "a",
+        "an",
+        "teacher."
+      ],
+      "explanationEs": "Las profesiones llevan a/an: I am a teacher."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "I have two children.",
+      "explanationEs": "Child tiene plural irregular: children."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Plurales",
+      "columns": [
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        {
+          "header": "-s",
+          "cells": [
+            "book",
+            {
+              "answers": [
+                "books"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "-es",
+          "cells": [
+            "box",
+            {
+              "answers": [
+                "boxes"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "-ies",
+          "cells": [
+            "city",
+            {
+              "answers": [
+                "cities"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "irregular",
+          "cells": [
+            "woman",
+            {
+              "answers": [
+                "women"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "-es después de s, sh, ch, x, o; consonante + y → -ies."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "I am an engineer.",
+      "options": [
+        "I am an engineer.",
+        "I am a engineer.",
+        "I am engineer."
+      ],
+      "answer": 0,
+      "explanationEs": "Profesión con artículo; engineer empieza con sonido de vocal: an."
+    }
+  ]
+}

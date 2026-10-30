@@ -1,0 +1,162 @@
+{
+  "title": "Past simple: more practice",
+  "titleEs": "Pasado simple: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-simple",
+  "topics": [
+    "past-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        }
+      ],
+      "explanationEs": "Verbos irregulares muy frecuentes."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "/t/",
+          "labelEs": "suena /t/",
+          "items": [
+            "worked",
+            "watched",
+            "stopped"
+          ]
+        },
+        {
+          "label": "/d/",
+          "labelEs": "suena /d/",
+          "items": [
+            "played",
+            "lived",
+            "called"
+          ]
+        },
+        {
+          "label": "/ɪd/",
+          "labelEs": "una sílaba más",
+          "items": [
+            "wanted",
+            "needed",
+            "visited"
+          ]
+        }
+      ],
+      "explanationEs": "-ed suena /ɪd/ después de t y d; /t/ después de p, k, s, sh, ch; /d/ en el resto."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "No fui a trabajar ayer.",
+      "answers": [
+        "I didn't go to work yesterday."
+      ],
+      "wordBank": [
+        "I",
+        "didn't",
+        "go",
+        "to",
+        "work",
+        "yesterday.",
+        "went"
+      ],
+      "explanationEs": "Después de didn't, el verbo en forma base: go, no went."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "Did you see the film?",
+      "explanationEs": "Pregunta en pasado: did + sujeto + forma base."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Past simple",
+      "columns": [
+        "Past"
+      ],
+      "rows": [
+        {
+          "header": "work",
+          "cells": [
+            {
+              "answers": [
+                "worked"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "study",
+          "cells": [
+            {
+              "answers": [
+                "studied"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "take",
+          "cells": [
+            {
+              "answers": [
+                "took"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "come",
+          "cells": [
+            {
+              "answers": [
+                "came"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Regulares con -ed (study → studied); irregulares de memoria."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "She wanted a coffee.",
+      "options": [
+        "She wanted a coffee.",
+        "She wants a coffee.",
+        "She want a coffee."
+      ],
+      "answer": 0,
+      "explanationEs": "Wanted: el -ed después de t suena como una sílaba más."
+    }
+  ]
+}

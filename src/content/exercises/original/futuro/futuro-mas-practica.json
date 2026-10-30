@@ -1,0 +1,143 @@
+{
+  "title": "Future: more practice",
+  "titleEs": "Futuro: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "futuro",
+  "topics": [
+    "future-will",
+    "future-going-to"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Voy a estudiar.",
+          "right": "I'm going to study."
+        },
+        {
+          "left": "Te ayudo.",
+          "right": "I'll help you."
+        },
+        {
+          "left": "No se lo diré a nadie.",
+          "right": "I won't tell anyone."
+        },
+        {
+          "left": "¿Vas a venir?",
+          "right": "Are you going to come?"
+        }
+      ],
+      "explanationEs": "Planes con going to; decisiones al momento y promesas con will."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "past",
+          "labelEs": "pasado",
+          "items": [
+            "yesterday",
+            "last week",
+            "two days ago"
+          ]
+        },
+        {
+          "label": "future",
+          "labelEs": "futuro",
+          "items": [
+            "tomorrow",
+            "next week",
+            "tonight"
+          ]
+        }
+      ],
+      "explanationEs": "Expresiones de tiempo: te dicen qué tiempo verbal usar."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Creo que va a llover.",
+      "answers": [
+        "I think it is going to rain.",
+        "I think it's going to rain.",
+        "I think it will rain."
+      ],
+      "explanationEs": "Predicción: going to (si ves pruebas) o will (opinión)."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "I won't forget your birthday.",
+      "explanationEs": "Won't = will not: una promesa en negativa."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Future",
+      "columns": [
+        "Positive",
+        "Negative",
+        "Question"
+      ],
+      "rows": [
+        {
+          "header": "will / they win",
+          "cells": [
+            {
+              "answers": [
+                "They will win.",
+                "They'll win."
+              ]
+            },
+            {
+              "answers": [
+                "They won't win."
+              ]
+            },
+            {
+              "answers": [
+                "Will they win?"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "going to / she study",
+          "cells": [
+            "She is going to study.",
+            {
+              "answers": [
+                "She isn't going to study.",
+                "She's not going to study."
+              ]
+            },
+            {
+              "answers": [
+                "Is she going to study?"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Will no cambia (won't en negativa). Going to necesita am, is o are."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "I'll call you later.",
+      "options": [
+        "I'll call you later.",
+        "I call you later.",
+        "I called you later."
+      ],
+      "answer": 0,
+      "explanationEs": "I'll = I will: escucha la l del final."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "title": "Imperative and can: more practice",
+  "titleEs": "Imperativo y can: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "imperativo-y-can",
+  "topics": [
+    "imperative",
+    "can"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Siéntate.",
+          "right": "Sit down."
+        },
+        {
+          "left": "Cierra la puerta.",
+          "right": "Close the door."
+        },
+        {
+          "left": "No toques eso.",
+          "right": "Don't touch that."
+        },
+        {
+          "left": "Vamos a la playa.",
+          "right": "Let's go to the beach."
+        }
+      ],
+      "explanationEs": "El imperativo es el verbo sin sujeto; en negativa, Don't; para proponer, Let's."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "ability",
+          "labelEs": "habilidad",
+          "items": [
+            "I can swim.",
+            "She can cook."
+          ]
+        },
+        {
+          "label": "permission",
+          "labelEs": "permiso",
+          "items": [
+            "Can I go out?",
+            "Can I sit here?"
+          ]
+        }
+      ],
+      "explanationEs": "Can sirve para hablar de lo que sabes hacer y para pedir permiso."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "¿Puedes ayudarme?",
+      "answers": [
+        "Can you help me?"
+      ],
+      "wordBank": [
+        "Can",
+        "you",
+        "help",
+        "me?",
+        "Do",
+        "to"
+      ],
+      "explanationEs": "Can va antes del sujeto en la pregunta, sin do ni to."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "Don't be late, please.",
+      "explanationEs": "Imperativo negativo: Don't + verbo."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Can",
+      "columns": [
+        "Positive",
+        "Negative",
+        "Question"
+      ],
+      "rows": [
+        {
+          "header": "she / drive",
+          "cells": [
+            {
+              "answers": [
+                "She can drive."
+              ]
+            },
+            {
+              "answers": [
+                "She can't drive.",
+                "She cannot drive."
+              ]
+            },
+            {
+              "answers": [
+                "Can she drive?"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Can no cambia y no usa do."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "I can't swim.",
+      "options": [
+        "I can't swim.",
+        "I can swim.",
+        "I can to swim."
+      ],
+      "answer": 0,
+      "explanationEs": "Can't es la negativa. Escucha la t final y la vocal más larga."
+    }
+  ]
+}

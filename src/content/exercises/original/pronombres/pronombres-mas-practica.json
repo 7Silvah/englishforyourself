@@ -1,0 +1,166 @@
+{
+  "title": "Personal pronouns: more practice",
+  "titleEs": "Pronombres personales: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "pronombres",
+  "topics": [
+    "pronouns"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "me"
+        },
+        {
+          "left": "he",
+          "right": "him"
+        },
+        {
+          "left": "she",
+          "right": "her"
+        },
+        {
+          "left": "we",
+          "right": "us"
+        },
+        {
+          "left": "they",
+          "right": "them"
+        }
+      ],
+      "explanationEs": "Cada pronombre sujeto tiene su forma de objeto (después del verbo o de una preposición)."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "subject",
+          "labelEs": "pronombres sujeto",
+          "items": [
+            "I",
+            "she",
+            "we",
+            "they"
+          ]
+        },
+        {
+          "label": "object",
+          "labelEs": "pronombres objeto",
+          "items": [
+            "me",
+            "her",
+            "us",
+            "them"
+          ]
+        }
+      ],
+      "explanationEs": "Los pronombres sujeto van antes del verbo; los de objeto, después."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Los conozco.",
+      "answers": [
+        "I know them."
+      ],
+      "wordBank": [
+        "I",
+        "know",
+        "them.",
+        "they.",
+        "him."
+      ],
+      "explanationEs": "En español «los» va antes del verbo; en inglés el objeto va después: I know them."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "We visit them every week.",
+      "explanationEs": "We es sujeto; them es objeto, después del verbo."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Pronombres",
+      "columns": [
+        "Subject",
+        "Object"
+      ],
+      "rows": [
+        {
+          "header": "yo",
+          "cells": [
+            {
+              "answers": [
+                "I"
+              ]
+            },
+            {
+              "answers": [
+                "me"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "él",
+          "cells": [
+            {
+              "answers": [
+                "he"
+              ]
+            },
+            {
+              "answers": [
+                "him"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "ella",
+          "cells": [
+            "she",
+            {
+              "answers": [
+                "her"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "nosotros",
+          "cells": [
+            {
+              "answers": [
+                "we"
+              ]
+            },
+            "us"
+          ]
+        }
+      ],
+      "explanationEs": "Sujeto antes del verbo, objeto después."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "I see him every day.",
+      "options": [
+        "I see him every day.",
+        "I see he every day.",
+        "I see her every day."
+      ],
+      "answer": 0,
+      "explanationEs": "Después del verbo va el objeto: him (no he)."
+    }
+  ]
+}

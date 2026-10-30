@@ -1,0 +1,152 @@
+{
+  "title": "Comparatives and superlatives: more practice",
+  "titleEs": "Comparativos y superlativos: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "comparativos-y-superlativos",
+  "topics": [
+    "comparatives",
+    "superlatives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "good",
+          "right": "better"
+        },
+        {
+          "left": "bad",
+          "right": "worse"
+        },
+        {
+          "left": "far",
+          "right": "further"
+        },
+        {
+          "left": "big",
+          "right": "bigger"
+        }
+      ],
+      "explanationEs": "Good, bad y far son irregulares; big dobla la g."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "-er",
+          "items": [
+            "old",
+            "cheap",
+            "small"
+          ]
+        },
+        {
+          "label": "more",
+          "items": [
+            "expensive",
+            "beautiful",
+            "interesting"
+          ]
+        }
+      ],
+      "explanationEs": "Adjetivos cortos con -er; largos con more."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Mi hermano es más alto que yo.",
+      "answers": [
+        "My brother is taller than me."
+      ],
+      "wordBank": [
+        "My",
+        "brother",
+        "is",
+        "taller",
+        "than",
+        "me.",
+        "more",
+        "that",
+        "tall"
+      ],
+      "explanationEs": "Tall es corto: taller. «Que» es than."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "This is the best restaurant in town.",
+      "explanationEs": "Good → the best. Con lugares, in."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Comparatives",
+      "columns": [
+        "Comparative",
+        "Superlative"
+      ],
+      "rows": [
+        {
+          "header": "happy",
+          "cells": [
+            {
+              "answers": [
+                "happier"
+              ]
+            },
+            {
+              "answers": [
+                "the happiest"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "expensive",
+          "cells": [
+            {
+              "answers": [
+                "more expensive"
+              ]
+            },
+            {
+              "answers": [
+                "the most expensive"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "good",
+          "cells": [
+            "better",
+            {
+              "answers": [
+                "the best"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "-y → -ier/-iest; largos con more/most; good es irregular."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "It's the biggest house in the street.",
+      "options": [
+        "It's the biggest house in the street.",
+        "It's the bigger house in the street.",
+        "It's the most big house in the street."
+      ],
+      "answer": 0,
+      "explanationEs": "Superlativo de big: the biggest."
+    }
+  ]
+}

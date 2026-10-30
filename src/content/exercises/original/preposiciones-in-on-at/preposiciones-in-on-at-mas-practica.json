@@ -1,0 +1,160 @@
+{
+  "title": "In, on and at: more practice",
+  "titleEs": "In, on y at: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "preposiciones-in-on-at",
+  "topics": [
+    "prepositions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "in",
+          "right": "July"
+        },
+        {
+          "left": "on",
+          "right": "Monday"
+        },
+        {
+          "left": "at",
+          "right": "7 o'clock"
+        }
+      ],
+      "explanationEs": "In con meses, on con días, at con horas."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "in",
+          "items": [
+            "July",
+            "2030",
+            "the morning",
+            "summer"
+          ]
+        },
+        {
+          "label": "on",
+          "items": [
+            "Monday",
+            "my birthday",
+            "the table"
+          ]
+        },
+        {
+          "label": "at",
+          "items": [
+            "night",
+            "home",
+            "the bus stop"
+          ]
+        }
+      ],
+      "explanationEs": "In para lo grande o de dentro; on para días y superficies; at para puntos y horas."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Estoy en casa.",
+      "answers": [
+        "I am at home."
+      ],
+      "wordBank": [
+        "I",
+        "am",
+        "at",
+        "in",
+        "home."
+      ],
+      "explanationEs": "Se dice at home."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "The meeting is on Friday at ten.",
+      "explanationEs": "On con el día y at con la hora."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "In, on or at?",
+      "columns": [
+        "Preposition"
+      ],
+      "rows": [
+        {
+          "header": "June",
+          "cells": [
+            {
+              "answers": [
+                "in"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Monday",
+          "cells": [
+            {
+              "answers": [
+                "on"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "9 o'clock",
+          "cells": [
+            {
+              "answers": [
+                "at"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "the table",
+          "cells": [
+            {
+              "answers": [
+                "on"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "school",
+          "cells": [
+            {
+              "answers": [
+                "at"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "In para meses; on para días y superficies; at para horas y lugares de actividad."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "See you on Monday.",
+      "options": [
+        "See you on Monday.",
+        "See you in Monday.",
+        "See you at Monday."
+      ],
+      "answer": 0,
+      "explanationEs": "Con los días: on."
+    }
+  ]
+}

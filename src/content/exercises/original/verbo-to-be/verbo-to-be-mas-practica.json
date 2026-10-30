@@ -1,0 +1,133 @@
+{
+  "title": "The verb to be: more practice",
+  "titleEs": "El verbo to be: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "verbo-to-be",
+  "topics": [
+    "verb-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am"
+        },
+        {
+          "left": "she",
+          "right": "is"
+        },
+        {
+          "left": "we",
+          "right": "are"
+        }
+      ],
+      "explanationEs": "Am con I; is con he, she, it; are con you, we, they."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "is",
+          "items": [
+            "she",
+            "it",
+            "my brother"
+          ]
+        },
+        {
+          "label": "are",
+          "items": [
+            "we",
+            "they",
+            "my parents"
+          ]
+        }
+      ],
+      "explanationEs": "Una persona o cosa (salvo you): is. Varias: are."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Tengo 20 años.",
+      "answers": [
+        "I am 20 years old.",
+        "I'm 20 years old.",
+        "I am 20.",
+        "I'm 20."
+      ],
+      "explanationEs": "La edad se dice con to be: I am 20 (years old)."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "Are you from Mexico?",
+      "explanationEs": "Pregunta con to be: el verbo va antes del sujeto."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "To be: tired",
+      "columns": [
+        "Positive",
+        "Negative",
+        "Question"
+      ],
+      "rows": [
+        {
+          "header": "she",
+          "cells": [
+            "She is tired.",
+            {
+              "answers": [
+                "She isn't tired.",
+                "She's not tired."
+              ]
+            },
+            {
+              "answers": [
+                "Is she tired?"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they",
+          "cells": [
+            {
+              "answers": [
+                "They are tired.",
+                "They're tired."
+              ]
+            },
+            "They aren't tired.",
+            {
+              "answers": [
+                "Are they tired?"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Negativa: añade not. Pregunta: el verbo va antes del sujeto."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "She isn't here.",
+      "options": [
+        "She isn't here.",
+        "She is here.",
+        "Is she here?"
+      ],
+      "answer": 0,
+      "explanationEs": "Isn't es la negativa: is + not."
+    }
+  ]
+}
