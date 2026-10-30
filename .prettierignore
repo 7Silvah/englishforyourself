@@ -13,3 +13,7 @@ package-lock.json
 # Generado por @tanstack/router-plugin
 src/routeTree.gen.ts
 .tanstack/
+
+# Contenido generado por la migración y editado a mano (formato propio)
+src/content/**/*.json
+src/content/**/*.mdx

@@ -12,7 +12,7 @@ en **inglés**.
 La app tiene tres pilares: el **Curso de Fundamentos** (estructura gramatical
 explicada en español, unidad por unidad), los **ejercicios interactivos** (los
 35 worksheets PDF migrados más ejercicios nuevos de 12 tipos) y la
-**Biblioteca** (161 lecciones de consulta).
+**Biblioteca** (145 lecciones de consulta).
 
 ## Etapas y fases
 
@@ -69,7 +69,8 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/components/lesson/` | Piezas de lección usadas desde MDX | Solo presentación; se registran en `mdx-components.tsx`. |
 | `src/features/exercises/` | Motor de ejercicios: `schema.ts`, `check.ts`, `player/`, `types/` (un componente por tipo), `generators/` | Un tipo nuevo = esquema en la unión discriminada + componente en `types/` + tests. La corrección siempre pasa por `check.ts`. |
 | `src/features/<x>/` | Otras funcionalidades con estado o lógica (course, progress, search, tense-lab, flashcards) | La lógica pura va en `logic.ts` con tests; el store en `store.ts`. |
-| `src/content/` | Contenido como datos: unidades del curso, ejercicios, lecciones, wordlists, tablas, `tenses.ts` | Sin JSX salvo en `.mdx`. Todo pasa por los esquemas de Zod. |
+| `src/content/` | Contenido como datos: `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
+| `scripts/` | `content-check.ts`, `migrate/` (HTML/PDF → contenido), `vite-plugin-content-meta.ts` | Se ejecutan con `tsx` y usan `tsconfig.scripts.json`. |
 | `src/i18n/es.ts` | Todos los textos de la UI | **Ningún texto de UI suelto en JSX.** |
 | `src/lib/` | Utilidades puras (`cn`, `speak`, slugs) | |
 | `src/hooks/` | Hooks compartidos (`use-theme`) | Si un archivo exporta un componente, el hook o el contexto van en otro archivo (lo exige fast refresh). |
@@ -88,7 +89,10 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 
 ## Convenciones de código
 
-- TypeScript strict. Sin `any` ni `as` para silenciar errores; valida con Zod lo que venga de fuera (JSON, `localStorage`, URL).
+- TypeScript strict. Sin `any` ni `as` para silenciar errores.
+- **Contenido: se valida al compilar, no en el navegador.** Los esquemas de Zod (`content/schema.ts`, `features/exercises/schema.ts`) los usa `content:check`; la app importa solo sus tipos (`import type`) y confía en el contenido a través de `trusted()` en `content/index.ts`. **No importes Zod en código de `src/` que llegue al navegador** (pesa unos 27 KB gzip). Para datos realmente externos (`localStorage`, URL) usa `zod/mini` cuando haga falta.
+- Los campos opcionales del contenido no tienen valor por defecto: contempla que falten (`meta.tags ?? []`).
+- Metadatos frente a cuerpo: el manifiesto importa `archivo?meta` (solo metadatos, al inicio) y el cuerpo con carga diferida. No importes un `.mdx`/`.json` de contenido directamente desde un componente: rompería esa separación.
 - Componentes de función, nombrados en PascalCase, un componente principal por archivo y exportación con nombre (`export function WordList`).
 - Archivos en kebab-case (`grammar-table.tsx`), igual que los que genera shadcn.
 - Identificadores de código en **inglés**; textos visibles en **español** (vía `es.ts`); comentarios en español y solo cuando expliquen un *por qué*.
@@ -98,6 +102,8 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Sin `useEffect` para derivar datos; calcula durante el render o usa `useMemo` si es caro.
 
 ## Reglas de contenido
+
+- **No vuelvas a ejecutar `npm run migrate`** salvo que te lo pidan: regenera `src/content/lessons`, `wordlists`, `tables` y los worksheets desde `legacy/` y borraría cualquier cambio hecho a mano (traducciones, correcciones). Las erratas de los worksheets se corrigen en `FIXES` de `scripts/migrate/worksheets.ts` mientras exista la migración.
 
 - **No traduzcas ni reescribas los ejemplos en inglés** del contenido original. Si ves un error, señálalo y corrígelo en un commit aparte.
 - Las traducciones van en campos `*Es` / `es`, en español **neutro** y con **tuteo**. Si no estás seguro de una traducción, déjala vacía antes que inventarla.

@@ -10,6 +10,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { PageHeader } from "@/components/layout/page-header";
+import { getAllLessons } from "@/content";
 import { sections, type SectionSlug } from "@/content/sections";
 import { es } from "@/i18n/es";
 
@@ -47,6 +48,11 @@ function LibraryPage() {
                     {section.titleEs}
                   </h2>
                   <p className="mt-1 text-sm text-muted-foreground">{section.descriptionEs}</p>
+                  <p className="mt-2 text-xs font-medium text-primary">
+                    {es.library.lessonsCount(
+                      getAllLessons().filter((l) => l.section === section.slug).length,
+                    )}
+                  </p>
                 </div>
               </Link>
             </li>

@@ -34,7 +34,7 @@ Las piezas principales son:
   completar tablas y escuchar y elegir. La corrección es instantánea, acepta
   contracciones y avisa de las faltas de ortografía. Cada set tiene una
   versión imprimible.
-- **Biblioteca**: 161 lecciones de consulta (tiempos verbales, gramática,
+- **Biblioteca**: 145 lecciones de consulta (tiempos verbales, gramática,
   vocabulario, phrasal verbs, collocations, idioms, *ways to say*).
 - **Progreso** guardado en tu navegador, sin cuentas ni servidor.
 - Colores coherentes en todo el sitio: verde = afirmativa, naranja = negativa,
@@ -67,7 +67,8 @@ Abre http://localhost:5173.
 | `npm run format:check` | Comprueba el formato sin cambiar archivos |
 | `npm test` | Tests unitarios (Vitest) |
 | `npm run e2e` | Tests end-to-end (Playwright) |
-| `npm run content:check` | Valida lecciones, tablas, enlaces, PDFs y cobertura de traducción |
+| `npm run content:check` | Valida todo `src/content` (esquemas, MDX, enlaces, ejercicios) e informa de la traducción. Se ejecuta también en `npm run build` |
+| `npm run migrate` | Regenera el contenido desde `legacy/` (lecciones, worksheets PDF y `public/_redirects`). Sobrescribe `src/content/lessons`, `wordlists` y `tables` |
 
 ## Stack
 
@@ -115,18 +116,23 @@ docs/PLAN.md     plan de implementación por etapas
 
 ## Añadir contenido
 
-**Una lección en prosa** → crea `src/content/lessons/<sección>/<slug>.mdx`:
+**Una lección en prosa** → crea `src/content/lessons/<sección>/<slug>.mdx` (la sección y el slug salen de la ruta):
 
 ```mdx
 ---
-section: grammar
+kind: article
 title: Articles
 titleEs: Artículos
 summaryEs: Cuándo usar a, an y the.
 level: A1
 ---
 
-<Explain>En español decimos “soy profesor”; en inglés: **I am a teacher**.</Explain>
+<Examples>
+
+- I am a teacher.
+- She is an engineer.
+
+</Examples>
 
 ## A or An
 ...
@@ -136,11 +142,10 @@ level: A1
 con `kind: "wordlist"` y grupos de `{ en, es }`. Se convierte sola en flashcards
 y ejercicios.
 
-**Un set de ejercicios** → crea `src/content/exercises/original/<unidad>/<id>.json`:
+**Un set de ejercicios** → crea `src/content/exercises/original/<unidad>/<id>.json` (el id es el nombre del archivo):
 
 ```json
 {
-  "id": "u07-complete",
   "titleEs": "Presente simple: completa la frase",
   "instructionEs": "Escribe el verbo en presente simple.",
   "source": "original",

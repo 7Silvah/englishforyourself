@@ -9,7 +9,7 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
@@ -22,7 +22,7 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## 0. Resumen
 
-Convertir el sitio estático actual (161 páginas HTML y 35 worksheets en PDF) en
+Convertir el sitio estático actual (145 lecciones HTML y 35 worksheets en PDF) en
 una aplicación **Vite + React + TypeScript + Tailwind + shadcn/ui** para
 **aprender inglés desde el español**, con tres pilares:
 
@@ -33,7 +33,7 @@ una aplicación **Vite + React + TypeScript + Tailwind + shadcn/ui** para
    dentro de la app, con corrección instantánea y explicaciones. Además se
    crean **ejercicios nuevos de muchos tipos** (ordenar palabras, transformar,
    corregir errores, dictado, traducir…), no solo los que ya existían.
-3. **Biblioteca.** Las 161 lecciones existentes como material de consulta,
+3. **Biblioteca.** Las 145 lecciones existentes como material de consulta,
    migradas a datos (MDX/JSON) y enlazadas desde el curso.
 
 Las funciones se añaden **por etapas**: cada etapa deja la app usable y mejor
@@ -123,13 +123,13 @@ Ideas que se evalúan una a una cuando lleguen, ver §13.
 
 | Elemento | Cantidad / ubicación | Destino en la app nueva |
 |---|---|---|
-| Lecciones HTML | 161 páginas en `lessons/<sección>/` | Biblioteca: MDX (`article`) o JSON (`wordlist`) |
+| Lecciones HTML | 161 páginas; **145 lecciones** (el resto son índices de sección, páginas legales y la portada) | Biblioteca: 55 MDX (`article`) + 90 JSON (`wordlist`) |
 | Secciones | 8: verb-tenses, vocabulary, ways-to-say, phrasal-verbs, collocations, idioms, grammar, worksheets | `src/content/sections.ts` (7; *worksheets* pasa a `/ejercicios`) |
-| Tablas gramaticales | ~40 `<table class="gtable">` en ~28 lecciones | JSON + componente `<GrammarTable>` |
+| Tablas | 56 `gtable` + tablas simples: 82 en total | `src/content/tables/**.json` + `<GrammarTable>` |
 | **Worksheets PDF** | 35 en `assets/pdf/`, **todos con el mismo formato**: instrucción, 10 frases con hueco `__________`, pista entre paréntesis y *Answer key* | **350 ejercicios interactivos** en `src/content/exercises/worksheets/` + versión imprimible generada |
 | Tense Lab | `assets/js/tense-lab.js` (datos embebidos) | `src/content/data/tenses.ts` + `features/tense-lab/` |
 | Buscador | `assets/js/search-data.js` | MiniSearch sobre el manifiesto |
-| Páginas legales / about | `legal/`, `about.html` | `/legal/*`, `/acerca` (MDX) |
+| Páginas legales / about | `legal/`, `about.html` | `/acerca` (texto propio). Las legales **no se migran**: son del sitio original; textos propios antes de publicar (F19) |
 | Colores pos/neg/q | `style.css` | tokens de Tailwind |
 
 Detalles de los PDF que afectan a la migración:
@@ -217,7 +217,7 @@ englishforyourself/
 │  │  ├─ wordlists/<sección>/<slug>.json
 │  │  ├─ tables/<id>.json
 │  │  ├─ data/tenses.ts
-│  │  └─ pages/              ← acerca.mdx, legal/*.mdx
+│  │  ├─ sections.ts         ← secciones de la Biblioteca
 │  ├─ i18n/es.ts             ← textos de UI
 │  ├─ lib/                   ← cn(), speech, normalize, random con semilla
 │  └─ test/
@@ -642,15 +642,21 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F4 — Contenido + migración
 *Aprendes: MDX, `import.meta.glob`, Zod, scripts Node.*
-- [ ] `npm i zod @mdx-js/react`; `npm i -D @mdx-js/rollup remark-frontmatter remark-mdx-frontmatter remark-gfm rehype-slug`; plugin MDX con `enforce: "pre"`.
-- [ ] `content/schema.ts`, `index.ts` (`sections.ts` ya existe desde F3) (manifiesto con `getUnit`, `getExerciseSet`, `getLesson`, `getPrevNext`).
-- [ ] `features/exercises/schema.ts` (todos los tipos de §7.1 definidos, aunque solo se rendericen los de F5).
-- [ ] Migración de lecciones (§10.1): `npm i -D tsx cheerio unified rehype-parse rehype-remark remark-stringify`.
-- [ ] Migración de PDFs (§10.2): `npm i -D unpdf`; `worksheet-map.ts`; revisión manual de los 350 ítems.
-- [ ] Componentes de `lesson/` y rutas reales de la Biblioteca.
-- [ ] `npm run content:check`: esquemas, ids únicos, enlaces, `answers` no vacías, que la `answer` de `multiple-choice` exista, que las fichas de `word-order` formen la respuesta y cobertura de traducción.
+- [x] MDX con `@mdx-js/rollup` (`remark-frontmatter`, `remark-gfm`, `rehype-slug`), sin `@mdx-js/react`: los componentes se pasan con `<Content components={mdxComponents} />`.
+- [x] **Plugin `content-meta`** (`scripts/vite-plugin-content-meta.ts`): `x.mdx?meta` / `x.json?meta` devuelve solo los metadatos. El índice de la Biblioteca y el catálogo cargan los metadatos al inicio y el cuerpo de cada lección o set va en su propio archivo (unos 200). Si se importara el mismo archivo de las dos formas, Vite lo metería entero en el paquete principal.
+- [x] `content/schema.ts` y `features/exercises/schema.ts` (los 12 tipos de §7.1). **La sección y el slug salen de la ruta del archivo**, no del frontmatter. Los campos opcionales no tienen valor por defecto (el código usa `?? []`) y los objetos son estrictos (una clave mal escrita da error).
+- [x] **Validación al compilar, no en el navegador:** Zod solo se usa en `content:check` y en la migración. La app importa los tipos y confía en el contenido (`trusted()` en `content/index.ts`). Así se ahorran unos 27 KB gzip de Zod en la carga inicial. `npm run build` ejecuta `content:check` primero.
+- [x] `content/index.ts`: manifiesto con `getLesson`, `getSectionLessons`, `getChildLessons` (lecciones hijas por carpeta), `getPrevNext`, `getExerciseSet`, `getExerciseSetsForLesson`. `getUnit` llega en F6.
+- [x] Migración de los PDF (§10.2), `npm run migrate:worksheets`: 35 sets y 350 ítems `fill-blank`, revisados uno a uno. Se corrigieron 4 erratas del original (se listan al migrar) y se añadieron las contracciones ambiguas (’d, ’s) y las variantes UK/US.
+- [x] Migración de lecciones (§10.1), `npm run migrate:lessons`: **145 lecciones** (las 161 páginas incluían índices de sección, páginas legales y la portada) → 55 artículos MDX + 90 listas JSON + 82 tablas JSON. La navegación del sitio antiguo (subpáginas, "Read more…") se quita porque la app la genera.
+- [x] `npm run migrate:redirects`: `public/_redirects` con 190 redirecciones de URLs viejas + fallback de SPA.
+- [x] Componentes `lesson/`: `GrammarTable` (tonos, `rowspan`/`colspan`, fórmulas, deslizable en móvil si tiene más de 3 columnas), `Examples`, `WordList`, `ChildLessons`, `LessonFooter` (ejercicios relacionados + anterior/siguiente), `mdx-components`.
+- [x] Rutas reales: `/biblioteca` (con número de lecciones), `/biblioteca/$section` (lecciones con sus hijas), `/biblioteca/$section/$` (carga diferida del cuerpo en el `loader`), `/ejercicios/$id` (título real o 404).
+- [x] `npm run content:check`: esquemas, MDX que compila, tablas importadas que existen, ids únicos, huecos `___` = respuestas, índices de `answer`, enlaces internos, `related`/`lessons` válidos, más un informe de traducción y de sets sin revisar. Se probó que detecta errores a propósito.
+- [x] **No migrado (decisión):** las páginas legales y de contacto del sitio original no describen esta app (no hay cookies, servidor ni formularios). Habrá que escribir textos propios antes de publicar (F19).
+- [x] Los PDF se quedan en `legacy/` hasta F11; ya no se copian a `public/` porque son interactivos.
 
-**Listo cuando:** las 161 lecciones se ven en la app, hay 35 sets JSON y `content:check` pasa.
+**Listo cuando:** las 145 lecciones se ven en la app, hay 35 sets JSON y `content:check` pasa. ✅
 
 #### F5 — Motor de ejercicios (tipos básicos)
 *Aprendes: componentes controlados, formularios, eventos de teclado, tests de lógica, Zustand.*
