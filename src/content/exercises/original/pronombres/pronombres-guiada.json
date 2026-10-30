@@ -1,0 +1,74 @@
+{
+  "title": "Personal pronouns: guided practice",
+  "titleEs": "Pronombres personales: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "pronombres",
+  "topics": [
+    "pronouns"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ is my sister.",
+      "options": [
+        "She",
+        "Her",
+        "He"
+      ],
+      "answer": 0,
+      "explanationEs": "Antes del verbo va un pronombre sujeto. Para una mujer: she."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "This book is for ___.",
+      "options": [
+        "me",
+        "I",
+        "my"
+      ],
+      "answer": 0,
+      "explanationEs": "Después de una preposición (for) va un pronombre objeto: me."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I see he every day.",
+      "answer": false,
+      "explanationEs": "Después del verbo va el pronombre objeto: I see him every day."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "My phone is new. It is very small.",
+      "answer": true,
+      "explanationEs": "Para cosas se usa it."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "We visit them every week."
+      ],
+      "distractors": [
+        "they"
+      ],
+      "explanationEs": "They es sujeto; después del verbo visit va el objeto them."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "He is with her."
+      ],
+      "distractors": [
+        "she"
+      ],
+      "explanationEs": "Después de la preposición with va el objeto her, no she."
+    }
+  ]
+}

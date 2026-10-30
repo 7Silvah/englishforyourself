@@ -1,0 +1,87 @@
+{
+  "title": "The sentence: free practice",
+  "titleEs": "La oración: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "la-oracion",
+  "topics": [
+    "sentence-order",
+    "subject",
+    "adjectives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "___ is ten o'clock.",
+      "blanks": [
+        {
+          "answers": [
+            "It"
+          ]
+        }
+      ],
+      "explanationEs": "Para decir la hora se usa it como sujeto: It is ten o'clock."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I have a ___ (cat / black).",
+      "blanks": [
+        {
+          "answers": [
+            "black cat"
+          ]
+        }
+      ],
+      "hintEs": "Primero el adjetivo, después el sustantivo.",
+      "explanationEs": "El adjetivo va delante: a black cat (no a cat black)."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "We are ___ (friends / good).",
+      "blanks": [
+        {
+          "answers": [
+            "good friends"
+          ]
+        }
+      ],
+      "explanationEs": "El adjetivo va delante y no lleva -s: good friends."
+    },
+    {
+      "id": "4",
+      "type": "error-correction",
+      "sentence": "I have a dog small.",
+      "wrong": "dog small",
+      "answers": [
+        "small dog"
+      ],
+      "explanationEs": "El adjetivo small va antes del sustantivo dog: a small dog."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "Is very hot today.",
+      "wrong": "Is",
+      "answers": [
+        "It is",
+        "It's"
+      ],
+      "explanationEs": "Falta el sujeto: It is very hot today. Para el tiempo se usa it."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "They are bigs houses.",
+      "wrong": "bigs",
+      "answers": [
+        "big"
+      ],
+      "explanationEs": "Los adjetivos no tienen plural en inglés: big houses."
+    }
+  ]
+}

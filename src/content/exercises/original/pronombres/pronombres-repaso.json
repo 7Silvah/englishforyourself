@@ -1,0 +1,99 @@
+{
+  "title": "Personal pronouns: review",
+  "titleEs": "Pronombres personales: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "pronombres",
+  "topics": [
+    "pronouns"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ are my friends.",
+      "options": [
+        "They",
+        "Them",
+        "Their"
+      ],
+      "answer": 0,
+      "explanationEs": "Sujeto plural antes del verbo: they."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Anna is nice. I like ___.",
+      "options": [
+        "her",
+        "she",
+        "hers"
+      ],
+      "answer": 0,
+      "explanationEs": "Después del verbo like va el objeto: her."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Me am tired.",
+      "answer": false,
+      "explanationEs": "El sujeto es I, no me: I am tired."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "This gift is for you.",
+      "answer": true,
+      "explanationEs": "You sirve como sujeto y como objeto."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "I study with them."
+      ],
+      "distractors": [
+        "they"
+      ],
+      "explanationEs": "Después de with va el objeto them."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "The cat is black. ___ is very small.",
+      "blanks": [
+        {
+          "answers": [
+            "It"
+          ]
+        }
+      ],
+      "explanationEs": "Para animales y cosas se usa it."
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "Juan and Ana are here. I see ___.",
+      "blanks": [
+        {
+          "answers": [
+            "them"
+          ]
+        }
+      ],
+      "explanationEs": "Objeto plural después del verbo: them."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "We are with they.",
+      "wrong": "they",
+      "answers": [
+        "them"
+      ],
+      "explanationEs": "Después de una preposición va el objeto: with them."
+    }
+  ]
+}

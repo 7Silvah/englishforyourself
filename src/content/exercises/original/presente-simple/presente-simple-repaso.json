@@ -1,0 +1,97 @@
+{
+  "title": "Present simple: review",
+  "titleEs": "Presente simple: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "presente-simple",
+  "topics": [
+    "present-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "It ___ a lot in winter.",
+      "options": [
+        "rains",
+        "rain",
+        "is rain"
+      ],
+      "answer": 0,
+      "explanationEs": "Con it el verbo lleva -s: it rains."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I ___ late for class.",
+      "options": [
+        "am never",
+        "never am",
+        "never"
+      ],
+      "answer": 0,
+      "explanationEs": "Con to be, el adverbio de frecuencia va después del verbo: I am never late."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "He has two cars.",
+      "answer": true,
+      "explanationEs": "Have pasa a has con he, she e it."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She doesn't works on Sundays.",
+      "answer": false,
+      "explanationEs": "Después de doesn't el verbo va sin -s: She doesn't work."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "We always have breakfast at home."
+      ],
+      "distractors": [
+        "has"
+      ],
+      "explanationEs": "Always va antes del verbo. Con we, have (no has)."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Tom ___ (to go) to the gym every day.",
+      "blanks": [
+        {
+          "answers": [
+            "goes"
+          ]
+        }
+      ],
+      "explanationEs": "Go añade -es con he/she/it: goes."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "She lives in London.",
+      "to": "neg",
+      "answers": [
+        "She doesn't live in London."
+      ],
+      "explanationEs": "Negativa: doesn't + live (sin -s)."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "I no understand.",
+      "wrong": "no",
+      "answers": [
+        "don't",
+        "do not"
+      ],
+      "explanationEs": "En inglés la negativa necesita el auxiliar: I don't understand."
+    }
+  ]
+}

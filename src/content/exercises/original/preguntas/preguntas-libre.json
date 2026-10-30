@@ -1,0 +1,82 @@
+{
+  "title": "Asking questions: free practice",
+  "titleEs": "Hacer preguntas: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "preguntas",
+  "topics": [
+    "questions",
+    "present-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "___ she like chocolate? Yes, she does.",
+      "blanks": [
+        {
+          "answers": [
+            "Does"
+          ]
+        }
+      ],
+      "explanationEs": "Con she, la pregunta empieza con does."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Are you a student? No, I ___.",
+      "blanks": [
+        {
+          "answers": [
+            "am not",
+            "'m not"
+          ]
+        }
+      ],
+      "explanationEs": "Respuesta corta con to be: No, I'm not."
+    },
+    {
+      "id": "3",
+      "type": "transform",
+      "source": "They work on Saturdays.",
+      "to": "q",
+      "answers": [
+        "Do they work on Saturdays?"
+      ],
+      "explanationEs": "Pregunta: do + they + work."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "She likes music.",
+      "to": "q",
+      "answers": [
+        "Does she like music?"
+      ],
+      "explanationEs": "Pregunta: does + she + like (sin -s)."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "Where you live?",
+      "wrong": "you live",
+      "answers": [
+        "do you live"
+      ],
+      "explanationEs": "Falta el auxiliar: Where do you live?"
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "Do you are hungry?",
+      "wrong": "Do you are",
+      "answers": [
+        "Are you"
+      ],
+      "explanationEs": "Con to be no se usa do: Are you hungry?"
+    }
+  ]
+}

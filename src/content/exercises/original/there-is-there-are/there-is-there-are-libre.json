@@ -1,0 +1,86 @@
+{
+  "title": "There is / there are: free practice",
+  "titleEs": "There is / there are: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "there-is-there-are",
+  "topics": [
+    "there-is",
+    "countable-uncountable"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "There ___ a problem with my phone.",
+      "blanks": [
+        {
+          "answers": [
+            "is"
+          ]
+        }
+      ],
+      "explanationEs": "Una sola cosa: there is."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "There ___ some apples on the table.",
+      "blanks": [
+        {
+          "answers": [
+            "are"
+          ]
+        }
+      ],
+      "explanationEs": "Plural: there are."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "How ___ sugar is there?",
+      "blanks": [
+        {
+          "answers": [
+            "much"
+          ]
+        }
+      ],
+      "explanationEs": "Sugar es incontable: how much."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "There is a cat in the garden.",
+      "to": "neg",
+      "answers": [
+        "There isn't a cat in the garden.",
+        "There's no cat in the garden.",
+        "There is no cat in the garden."
+      ],
+      "explanationEs": "Negativa: there isn't a… o there is no…"
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "There are some chairs in the room.",
+      "to": "q",
+      "answers": [
+        "Are there any chairs in the room?"
+      ],
+      "explanationEs": "Pregunta: are antes de there, y some pasa a any."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "There is two banks on my street.",
+      "wrong": "is",
+      "answers": [
+        "are"
+      ],
+      "explanationEs": "Two banks es plural: there are."
+    }
+  ]
+}

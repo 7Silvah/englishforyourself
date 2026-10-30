@@ -1,0 +1,100 @@
+{
+  "title": "Articles and plurals: review",
+  "titleEs": "Artículos y plurales: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "articulos-y-plurales",
+  "topics": [
+    "articles",
+    "plurals"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "She is ___ honest person.",
+      "options": [
+        "an",
+        "a",
+        "—"
+      ],
+      "answer": 0,
+      "explanationEs": "En honest la h no suena, así que empieza con sonido de vocal: an honest person."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I like ___.",
+      "options": [
+        "cats",
+        "the cats",
+        "a cats"
+      ],
+      "answer": 0,
+      "explanationEs": "Para hablar en general se usa el plural sin the: I like cats."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "My feet are cold.",
+      "answer": true,
+      "explanationEs": "Foot tiene plural irregular: feet."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I have three tomatos.",
+      "answer": false,
+      "explanationEs": "Tomato forma el plural con -es: tomatoes."
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "Ten ___ (person) are in the room.",
+      "blanks": [
+        {
+          "answers": [
+            "people"
+          ]
+        }
+      ],
+      "explanationEs": "El plural de person es people."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "My mother is ___ nurse.",
+      "blanks": [
+        {
+          "answers": [
+            "a"
+          ]
+        }
+      ],
+      "explanationEs": "Profesión con artículo; nurse empieza con consonante: a nurse."
+    },
+    {
+      "id": "7",
+      "type": "word-order",
+      "answers": [
+        "It is an easy exercise."
+      ],
+      "distractors": [
+        "a"
+      ],
+      "explanationEs": "Easy empieza con sonido de vocal: an easy exercise."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "I am engineer.",
+      "wrong": "am engineer",
+      "answers": [
+        "am an engineer"
+      ],
+      "explanationEs": "Las profesiones llevan artículo: I am an engineer."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Possessives and demonstratives: guided practice",
+  "titleEs": "Posesivos y demostrativos: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "posesivos-y-demostrativos",
+  "topics": [
+    "possessives",
+    "demonstratives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Laura is with ___ brother.",
+      "options": [
+        "her",
+        "his",
+        "she"
+      ],
+      "answer": 0,
+      "explanationEs": "El posesivo depende de quién tiene la cosa: Laura es una mujer, así que her."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "___ is my phone, here in my hand.",
+      "options": [
+        "This",
+        "These",
+        "That"
+      ],
+      "answer": 0,
+      "explanationEs": "Una cosa cerca de ti: this."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "This is my parents' house.",
+      "answer": true,
+      "explanationEs": "Con plurales que terminan en -s, solo se añade el apóstrofo: parents'."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Pedro is with her wife.",
+      "answer": false,
+      "explanationEs": "El poseedor es Pedro (un hombre): his wife."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "That is Ana's car."
+      ],
+      "distractors": [
+        "of"
+      ],
+      "explanationEs": "Para decir de quién es algo se usa 's: Ana's car, no the car of Ana."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "These are our books."
+      ],
+      "distractors": [
+        "This"
+      ],
+      "explanationEs": "These es el plural de this."
+    }
+  ]
+}

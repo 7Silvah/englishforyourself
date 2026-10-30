@@ -1,0 +1,74 @@
+{
+  "title": "Present simple: guided practice",
+  "titleEs": "Presente simple: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "presente-simple",
+  "topics": [
+    "present-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "My father ___ in a hospital.",
+      "options": [
+        "works",
+        "work",
+        "is work"
+      ],
+      "answer": 0,
+      "explanationEs": "Con he, she o it el verbo lleva -s: works."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "They ___ meat.",
+      "options": [
+        "don't eat",
+        "doesn't eat",
+        "no eat"
+      ],
+      "answer": 0,
+      "explanationEs": "Con they la negativa es don't + verbo."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "She doesn't speak French.",
+      "answer": true,
+      "explanationEs": "Negativa con she: doesn't + verbo sin -s."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "He watchs TV every night.",
+      "answer": false,
+      "explanationEs": "Los verbos terminados en -ch añaden -es: watches."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "I usually walk to work."
+      ],
+      "distractors": [
+        "walks"
+      ],
+      "explanationEs": "El adverbio de frecuencia va antes del verbo. Con I, el verbo no lleva -s."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "She doesn't like coffee."
+      ],
+      "distractors": [
+        "don't"
+      ],
+      "explanationEs": "Con she la negativa es doesn't."
+    }
+  ]
+}
