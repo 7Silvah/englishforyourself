@@ -65,7 +65,8 @@ Abre http://localhost:5173.
 | `npm run lint` | Revisa el código con oxlint |
 | `npm run format` | Formatea con Prettier |
 | `npm run format:check` | Comprueba el formato sin cambiar archivos |
-| `npm test` | Tests unitarios (Vitest) |
+| `npm test` | Tests unitarios y de componentes (Vitest + Testing Library) |
+| `npm run test:watch` | Lo mismo, repitiendo los tests al guardar |
 | `npm run e2e` | Tests end-to-end (Playwright) |
 | `npm run content:check` | Valida todo `src/content` (esquemas, MDX, enlaces, ejercicios) e informa de la traducción. Se ejecuta también en `npm run build` |
 | `npm run migrate` | Regenera el contenido desde `legacy/` (lecciones, worksheets PDF y `public/_redirects`). Sobrescribe `src/content/lessons`, `wordlists` y `tables` |

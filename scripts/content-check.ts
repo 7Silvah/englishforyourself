@@ -113,6 +113,8 @@ for (const file of await files(`${ROOT}/exercises`, ".json")) {
     const where = `${file} ítem ${item.id}`;
     if (itemIds.has(item.id)) errors.push(`${where}: id de ítem repetido`);
     itemIds.add(item.id);
+    if (set.source === "original" && !item.explanationEs)
+      errors.push(`${where}: falta explanationEs (obligatoria en los sets original)`);
     switch (item.type) {
       case "fill-blank": {
         const holes = item.text.split("___").length - 1;
@@ -129,7 +131,18 @@ for (const file of await files(`${ROOT}/exercises`, ".json")) {
       case "error-correction":
         if (!item.sentence.includes(item.wrong))
           errors.push(`${where}: "${item.wrong}" no está en la frase`);
+        else if (item.sentence.indexOf(item.wrong) !== item.sentence.lastIndexOf(item.wrong))
+          errors.push(`${where}: "${item.wrong}" aparece más de una vez en la frase`);
         break;
+      case "word-order": {
+        // Las fichas salen de la primera respuesta: las demás deben usar las mismas
+        const tiles = (s: string) => s.split(/\s+/).filter(Boolean).sort().join(" ");
+        const first = tiles(item.answers[0] ?? "");
+        for (const answer of item.answers.slice(1))
+          if (tiles(answer) !== first)
+            errors.push(`${where}: "${answer}" no usa las mismas fichas que la primera respuesta`);
+        break;
+      }
     }
   }
 }

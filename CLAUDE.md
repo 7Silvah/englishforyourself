@@ -67,7 +67,7 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/components/ui/` | Componentes generados por shadcn | Se añaden con `npx shadcn@latest add <x>`. Edítalos lo mínimo y nunca los reescribas a mano desde cero. |
 | `src/components/layout/` | Header, footer, breadcrumbs, theme toggle | |
 | `src/components/lesson/` | Piezas de lección usadas desde MDX | Solo presentación; se registran en `mdx-components.tsx`. |
-| `src/features/exercises/` | Motor de ejercicios: `schema.ts`, `check.ts`, `player/`, `types/` (un componente por tipo), `generators/` | Un tipo nuevo = esquema en la unión discriminada + componente en `types/` + tests. La corrección siempre pasa por `check.ts`. |
+| `src/features/exercises/` | Motor de ejercicios: `schema.ts`, `check.ts` (corrección), `solution.ts` (qué solución se muestra), `player/`, `types/` (un componente por tipo), `generators/` | Un tipo nuevo = esquema en la unión discriminada + `ItemResponse` y `checkItem` en `check.ts` + componente controlado en `types/` (recibe `ItemProps`) + `case` en `player/item-view.tsx` + tests. La corrección siempre pasa por `check.ts`. |
 | `src/features/<x>/` | Otras funcionalidades con estado o lógica (course, progress, search, tense-lab, flashcards) | La lógica pura va en `logic.ts` con tests; el store en `store.ts`. |
 | `src/content/` | Contenido como datos: `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
 | `scripts/` | `content-check.ts`, `migrate/` (HTML/PDF → contenido), `vite-plugin-content-meta.ts` | Se ejecutan con `tsx` y usan `tsconfig.scripts.json`. |
@@ -100,6 +100,14 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Los componentes de shadcn usan **Base UI**: para que un trigger sea otro componente se usa `render={<Button />}`, no `asChild` (eso era Radix). Fíjate en esto al copiar ejemplos de internet.
 - Estado: `useState` local → URL search params (filtros, tiempo verbal seleccionado) → Zustand solo para lo que persiste entre páginas (progreso, ajustes).
 - Sin `useEffect` para derivar datos; calcula durante el render o usa `useMemo` si es caro.
+- Para reiniciar el estado de un componente (siguiente ítem, nueva ronda, otro set), cámbiale la `key` en lugar de resetear cada `useState` a mano.
+- Lo que importa una ruta fuera de su `component` (`validateSearch`, `loader`) va en el paquete principal. Importa ahí solo módulos pequeños (`@/content/levels`), nunca un componente.
+
+## Tests
+
+- Vitest + Testing Library, archivos `*.test.ts(x)` junto al código. Configuración en `vitest.config.ts` y `src/test/setup.ts`; ítems de ejemplo en `src/test/fixtures.ts`.
+- Lógica pura (`check.ts`, `logic.ts`): casos concretos, incluidos los límites. Componentes: busca por rol y nombre accesible (`getByRole("textbox", { name: "Hueco 1" })`), como lo haría un lector de pantalla; prueba también el teclado.
+- Componentes con `<Link>`: envuélvelos en un router de memoria (ver `exercise-session.test.tsx`).
 
 ## Reglas de contenido
 

@@ -159,6 +159,11 @@ const exerciseSets: ExerciseSetEntry[] = Object.entries(exerciseMeta).flatMap(([
     },
   ];
 });
+// Del nivel más fácil al más difícil y, dentro de cada nivel, por título
+exerciseSets.sort(
+  (a, b) =>
+    a.meta.level.localeCompare(b.meta.level) || a.meta.titleEs.localeCompare(b.meta.titleEs, "es"),
+);
 const setsById = new Map(exerciseSets.map((s) => [s.id, s]));
 
 export function getExerciseSet(id: string): ExerciseSetEntry | undefined {
@@ -167,6 +172,17 @@ export function getExerciseSet(id: string): ExerciseSetEntry | undefined {
 
 export function getAllExerciseSets(): ExerciseSetEntry[] {
   return exerciseSets;
+}
+
+/** El set que va después en el catálogo (para "Siguiente ejercicio") */
+export function getNextExerciseSet(id: string): ExerciseSetEntry | undefined {
+  const i = exerciseSets.findIndex((s) => s.id === id);
+  return i < 0 ? undefined : exerciseSets[i + 1];
+}
+
+/** Sección de la Biblioteca a la que pertenece un set (la de su primera lección) */
+export function getExerciseSetSection(set: ExerciseSetEntry): string | undefined {
+  return set.meta.lessons?.[0]?.split("/")[0];
 }
 
 /** Sets de ejercicios relacionados con una lección ("seccion/slug") */

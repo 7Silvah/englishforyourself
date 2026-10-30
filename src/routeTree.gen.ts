@@ -21,9 +21,11 @@ import { Route as CursoIndexRouteImport } from './routes/curso/index'
 import { Route as CursoUnidadRouteImport } from './routes/curso/$unidad'
 import { Route as DevUiRouteImport } from './routes/dev/ui'
 import { Route as EjerciciosIndexRouteImport } from './routes/ejercicios/index'
-import { Route as EjerciciosIdRouteImport } from './routes/ejercicios/$id'
+import { Route as EjerciciosIdRouteRouteImport } from './routes/ejercicios/$id/route'
 import { Route as BibliotecaSectionIndexRouteImport } from './routes/biblioteca/$section/index'
 import { Route as BibliotecaSectionSplatRouteImport } from './routes/biblioteca/$section/$'
+import { Route as EjerciciosIdIndexRouteImport } from './routes/ejercicios/$id/index'
+import { Route as EjerciciosIdImprimirRouteImport } from './routes/ejercicios/$id/imprimir'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -85,7 +87,7 @@ const EjerciciosIndexRoute = EjerciciosIndexRouteImport.update({
   path: '/',
   getParentRoute: () => EjerciciosRouteRoute,
 } as any)
-const EjerciciosIdRoute = EjerciciosIdRouteImport.update({
+const EjerciciosIdRouteRoute = EjerciciosIdRouteRouteImport.update({
   id: '/$id',
   path: '/$id',
   getParentRoute: () => EjerciciosRouteRoute,
@@ -100,6 +102,16 @@ const BibliotecaSectionSplatRoute = BibliotecaSectionSplatRouteImport.update({
   path: '/$',
   getParentRoute: () => BibliotecaSectionRouteRoute,
 } as any)
+const EjerciciosIdIndexRoute = EjerciciosIdIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => EjerciciosIdRouteRoute,
+} as any)
+const EjerciciosIdImprimirRoute = EjerciciosIdImprimirRouteImport.update({
+  id: '/imprimir',
+  path: '/imprimir',
+  getParentRoute: () => EjerciciosIdRouteRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -109,14 +121,16 @@ export interface FileRoutesByFullPath {
   '/acerca': typeof AcercaRoute
   '/progreso': typeof ProgresoRoute
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
+  '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
-  '/ejercicios/$id': typeof EjerciciosIdRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
   '/biblioteca/$section/$': typeof BibliotecaSectionSplatRoute
+  '/ejercicios/$id/imprimir': typeof EjerciciosIdImprimirRoute
   '/biblioteca/$section/': typeof BibliotecaSectionIndexRoute
+  '/ejercicios/$id/': typeof EjerciciosIdIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -124,12 +138,13 @@ export interface FileRoutesByTo {
   '/progreso': typeof ProgresoRoute
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
-  '/ejercicios/$id': typeof EjerciciosIdRoute
   '/biblioteca': typeof BibliotecaIndexRoute
   '/curso': typeof CursoIndexRoute
   '/ejercicios': typeof EjerciciosIndexRoute
   '/biblioteca/$section/$': typeof BibliotecaSectionSplatRoute
+  '/ejercicios/$id/imprimir': typeof EjerciciosIdImprimirRoute
   '/biblioteca/$section': typeof BibliotecaSectionIndexRoute
+  '/ejercicios/$id': typeof EjerciciosIdIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -140,14 +155,16 @@ export interface FileRoutesById {
   '/acerca': typeof AcercaRoute
   '/progreso': typeof ProgresoRoute
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
+  '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
-  '/ejercicios/$id': typeof EjerciciosIdRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
   '/biblioteca/$section/$': typeof BibliotecaSectionSplatRoute
+  '/ejercicios/$id/imprimir': typeof EjerciciosIdImprimirRoute
   '/biblioteca/$section/': typeof BibliotecaSectionIndexRoute
+  '/ejercicios/$id/': typeof EjerciciosIdIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -159,14 +176,16 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/progreso'
     | '/biblioteca/$section'
+    | '/ejercicios/$id'
     | '/curso/$unidad'
     | '/dev/ui'
-    | '/ejercicios/$id'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
     | '/biblioteca/$section/$'
+    | '/ejercicios/$id/imprimir'
     | '/biblioteca/$section/'
+    | '/ejercicios/$id/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -174,12 +193,13 @@ export interface FileRouteTypes {
     | '/progreso'
     | '/curso/$unidad'
     | '/dev/ui'
-    | '/ejercicios/$id'
     | '/biblioteca'
     | '/curso'
     | '/ejercicios'
     | '/biblioteca/$section/$'
+    | '/ejercicios/$id/imprimir'
     | '/biblioteca/$section'
+    | '/ejercicios/$id'
   id:
     | '__root__'
     | '/'
@@ -189,14 +209,16 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/progreso'
     | '/biblioteca/$section'
+    | '/ejercicios/$id'
     | '/curso/$unidad'
     | '/dev/ui'
-    | '/ejercicios/$id'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
     | '/biblioteca/$section/$'
+    | '/ejercicios/$id/imprimir'
     | '/biblioteca/$section/'
+    | '/ejercicios/$id/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -299,7 +321,7 @@ declare module '@tanstack/react-router' {
       id: '/ejercicios/$id'
       path: '/$id'
       fullPath: '/ejercicios/$id'
-      preLoaderRoute: typeof EjerciciosIdRouteImport
+      preLoaderRoute: typeof EjerciciosIdRouteRouteImport
       parentRoute: typeof EjerciciosRouteRoute
     }
     '/biblioteca/$section/': {
@@ -315,6 +337,20 @@ declare module '@tanstack/react-router' {
       fullPath: '/biblioteca/$section/$'
       preLoaderRoute: typeof BibliotecaSectionSplatRouteImport
       parentRoute: typeof BibliotecaSectionRouteRoute
+    }
+    '/ejercicios/$id/': {
+      id: '/ejercicios/$id/'
+      path: '/'
+      fullPath: '/ejercicios/$id/'
+      preLoaderRoute: typeof EjerciciosIdIndexRouteImport
+      parentRoute: typeof EjerciciosIdRouteRoute
+    }
+    '/ejercicios/$id/imprimir': {
+      id: '/ejercicios/$id/imprimir'
+      path: '/imprimir'
+      fullPath: '/ejercicios/$id/imprimir'
+      preLoaderRoute: typeof EjerciciosIdImprimirRouteImport
+      parentRoute: typeof EjerciciosIdRouteRoute
     }
   }
 }
@@ -363,13 +399,26 @@ const CursoRouteRouteWithChildren = CursoRouteRoute._addFileChildren(
   CursoRouteRouteChildren,
 )
 
+interface EjerciciosIdRouteRouteChildren {
+  EjerciciosIdImprimirRoute: typeof EjerciciosIdImprimirRoute
+  EjerciciosIdIndexRoute: typeof EjerciciosIdIndexRoute
+}
+
+const EjerciciosIdRouteRouteChildren: EjerciciosIdRouteRouteChildren = {
+  EjerciciosIdImprimirRoute: EjerciciosIdImprimirRoute,
+  EjerciciosIdIndexRoute: EjerciciosIdIndexRoute,
+}
+
+const EjerciciosIdRouteRouteWithChildren =
+  EjerciciosIdRouteRoute._addFileChildren(EjerciciosIdRouteRouteChildren)
+
 interface EjerciciosRouteRouteChildren {
-  EjerciciosIdRoute: typeof EjerciciosIdRoute
+  EjerciciosIdRouteRoute: typeof EjerciciosIdRouteRouteWithChildren
   EjerciciosIndexRoute: typeof EjerciciosIndexRoute
 }
 
 const EjerciciosRouteRouteChildren: EjerciciosRouteRouteChildren = {
-  EjerciciosIdRoute: EjerciciosIdRoute,
+  EjerciciosIdRouteRoute: EjerciciosIdRouteRouteWithChildren,
   EjerciciosIndexRoute: EjerciciosIndexRoute,
 }
 

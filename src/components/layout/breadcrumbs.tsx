@@ -21,7 +21,7 @@ export function Breadcrumbs() {
   if (crumbs.length < 2) return null;
 
   return (
-    <Breadcrumb className="mx-auto max-w-6xl px-4 pt-4">
+    <Breadcrumb className="mx-auto max-w-6xl px-4 pt-4 print:hidden">
       <BreadcrumbList>
         {crumbs.map((match, i) => {
           const isLast = i === crumbs.length - 1;

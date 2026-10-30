@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ComingSoon } from "@/components/layout/coming-soon";
 import { PageHeader } from "@/components/layout/page-header";
+import { ProgressOverview } from "@/features/progress/progress-overview";
 import { es } from "@/i18n/es";
 import { pageTitle } from "@/lib/page-title";
 
@@ -14,7 +14,7 @@ function ProgressPage() {
   return (
     <>
       <PageHeader title={es.progress.title} description={es.progress.description} />
-      <ComingSoon phase="F5" />
+      <ProgressOverview />
     </>
   );
 }

@@ -9,7 +9,7 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
@@ -419,11 +419,18 @@ experiencia:
   están en `answers`.
 - **Variantes UK/US** (*travelled/traveled*, *organise/organize*): se añaden en
   `answers`. `content:check` avisa de palabras conocidas con variantes.
-- **“Casi”**: si la respuesta está a distancia 1 (Levenshtein) de una válida,
-  se muestra “Revisa la ortografía” y se permite reintentar sin contar el
-  fallo. Si coincide con la respuesta de otro hueco o con el error típico
-  declarado, se muestra la explicación específica.
-- Resultado: `{ status: "correct" | "almost" | "wrong", expected, feedbackEs }`.
+- **“Casi”**: si la respuesta está a distancia 1 de una válida (Levenshtein
+  contando el intercambio de dos letras, *recieve*), se muestra “Revisa la
+  ortografía” y se permite reintentar **una vez** sin contar el fallo (solo en
+  práctica; en examen cuenta como fallo). No se aplica a respuestas de menos de
+  5 letras (*a/an*) ni a cambios **al final de una palabra** (*work/works*,
+  *play/played*): eso son errores de gramática, justo lo que se practica.
+  También detecta el apóstrofo olvidado (*dont*). *Pendiente (backlog):
+  explicación específica si coincide con la respuesta de otro hueco o con un
+  error típico declarado.*
+- Resultado: `{ status: "correct" | "almost" | "wrong", parts? }`; `parts` da el
+  estado de cada hueco (fill-blank) o paso (error-correction). La solución que
+  se muestra la calcula `solution.ts`.
 
 ### 7.4 Experiencia de juego (`ExercisePlayer`)
 
@@ -439,7 +446,10 @@ experiencia:
   “Repetir solo los fallados” y “Siguiente set”.
 - **Versión imprimible** (`/ejercicios/$id/imprimir`): hoja con estilos de
   impresión y la clave de respuestas al final. Sustituye a los PDF.
-- Orden de ítems y opciones barajado con semilla (reproducible en tests).
+- Fichas (`word-order`) y opciones (`multiple-choice`) barajadas con semilla
+  (`src/lib/random.ts`, reproducible en tests); las fichas nunca salen ya
+  ordenadas. **Los ítems mantienen su orden** (el del worksheet y el de la hoja
+  impresa).
 
 ### 7.5 Ejercicios generados (F10, F14)
 
@@ -660,15 +670,18 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F5 — Motor de ejercicios (tipos básicos)
 *Aprendes: componentes controlados, formularios, eventos de teclado, tests de lógica, Zustand.*
-- [ ] `check.ts` + tests (normalización, contracciones, casi, varias respuestas).
-- [ ] `ExercisePlayer`, `ResultScreen`, modos práctica y examen.
-- [ ] Tipos: `fill-blank`, `multiple-choice`, `true-false`, `word-order` (tocar fichas; arrastrar en F9), `transform`, `error-correction`.
-- [ ] `/ejercicios` (catálogo con filtros) y `/ejercicios/$id`.
-- [ ] `/ejercicios/$id/imprimir` (estilos de impresión + clave).
-- [ ] `npm i zustand`; store de progreso (§7.6), salvo el repaso de errores.
-- [ ] Tests de componente para cada tipo con Testing Library.
+- [x] `check.ts` + tests (normalización, contracciones, casi, varias respuestas). La regla del “casi” está en §7.3.
+- [x] `ExercisePlayer`, `ResultScreen`, modos práctica y examen. El modo va en la URL (`?modo=examen`); cada ítem es un `ItemStep` con `key` para que su estado se reinicie solo. “Repetir los fallados” no cuenta como intento.
+- [x] Tipos: `fill-blank`, `multiple-choice`, `true-false`, `word-order` (tocar fichas; arrastrar en F9), `transform`, `error-correction`. Los sets con tipos de F9 se saltan esos ítems.
+- [x] `/ejercicios` (catálogo con filtros de nivel y tema en la URL, ordenado por nivel) y `/ejercicios/$id` (`$id/route.tsx` carga el set una vez para el player y la versión imprimible).
+- [x] `/ejercicios/$id/imprimir` (estilos de impresión + clave en página aparte). Cabecera, migas y pie llevan `print:hidden`; los colores oscuros solo se aplican en `@media screen`, así que en papel siempre sale en claro.
+- [x] `npm i zustand`; store de progreso (§7.6), salvo el repaso de errores: notas por set, fallos, racha y último set (`efy-progress`, `version: 1`). Página `/progreso` con resumen y “Borrar mi progreso”. Sin `zod/mini` de momento: los datos solo los escribe la propia app.
+- [x] Tests de componente para cada tipo con Testing Library, más un test del flujo completo (práctica, casi, examen, repetir fallados). Vitest con `vitest.config.ts` propio (sin el plugin del router ni MDX). 61 tests.
+- [x] `content:check` añade: `explanationEs` obligatoria en sets `original`, fichas iguales en todas las respuestas de un `word-order` y fragmento único en `error-correction`.
+- [x] Set de muestra `original/muestra-tipos-basicos.json` (12 ítems, 2 por tipo, A1, `reviewed: false`) para probar los tipos que no usan los worksheets.
+- **Pendiente → backlog:** modo lista en escritorio (§7.4), aviso de `content:check` sobre variantes UK/US (§7.3) y explicación específica del “casi”.
 
-**Listo cuando:** los 35 worksheets se juegan de principio a fin, los resultados se guardan y la versión imprimible sale bien en papel/PDF del navegador.
+**Listo cuando:** los 35 worksheets se juegan de principio a fin, los resultados se guardan y la versión imprimible sale bien en papel/PDF del navegador. ✅
 
 #### F6 — Curso de Fundamentos I (unidades 1–8)
 *Aprendes: componer páginas a partir de datos, MDX con componentes propios.*
@@ -767,6 +780,10 @@ una etapa nueva:
 - Exportar e importar el progreso (JSON).
 - Modo profesor: crear sets propios y compartirlos por enlace.
 - Otros idiomas de origen (portugués…).
+- Motor de ejercicios (pendientes de F5): modo lista en escritorio como el
+  worksheet original; explicación específica del “casi” cuando coincide con
+  otro hueco o con un error típico; aviso de `content:check` sobre palabras
+  con variantes UK/US que no estén en `answers`.
 
 ## 14. Decisiones pendientes
 
