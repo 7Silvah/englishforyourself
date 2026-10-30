@@ -1,0 +1,5 @@
+# Cabeceras HTTP (formato de Cloudflare Pages y Netlify).
+# Mientras el despliegue sea privado (docs/DESPLIEGUE.md), los buscadores no deben indexar
+# la web. Quitar en F19, cuando se publique.
+/*
+  X-Robots-Tag: noindex, nofollow

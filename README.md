@@ -71,6 +71,14 @@ Abre http://localhost:5173.
 | `npm run content:check` | Valida todo `src/content` (esquemas, MDX, enlaces, ejercicios) e informa de la traducción. Se ejecuta también en `npm run build` |
 | `npm run migrate` | Regenera el contenido desde `legacy/` (lecciones, worksheets PDF y `public/_redirects`). Sobrescribe `src/content/lessons`, `wordlists` y `tables` |
 
+## CI y despliegue
+
+- **CI** (GitHub Actions): en cada pull request y en cada push a `main` se
+  ejecutan tipos, lint, formato, tests, `content:check` y build.
+- **Despliegue privado** en Cloudflare Pages protegido con Cloudflare Access,
+  mientras no se confirmen los derechos del contenido. Pasos en
+  [docs/DESPLIEGUE.md](docs/DESPLIEGUE.md).
+
 ## Stack
 
 | | |

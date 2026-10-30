@@ -1,0 +1,49 @@
+# Integración continua: en cada pull request y en cada push a main se comprueba
+# que el proyecto compila, pasa los tests y que el contenido es válido.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: # permite lanzarla a mano desde la pestaña Actions
+
+# Si llega un push nuevo a la misma rama, se cancela la ejecución anterior
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Tipos, lint, tests y build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      # npm ci instala exactamente lo que dice package-lock.json
+      - run: npm ci
+
+      - name: Tipos
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Formato
+        run: npm run format:check
+
+      - name: Tests
+        run: npm test
+
+      # build ejecuta antes content:check (esquemas, enlaces, ejercicios)
+      - name: Validar contenido y compilar
+        run: npm run build

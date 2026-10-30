@@ -46,6 +46,10 @@ npm run e2e            # playwright
 npm run content:check  # valida src/content/**
 ```
 
+La CI (`.github/workflows/ci.yml`) ejecuta además `format:check` y `build` (que incluye `content:check`): si cambias un paso aquí, cámbialo también allí. El despliegue está en `docs/DESPLIEGUE.md`.
+
+**No ejecutes `npm ci` en local** si hay un `npm run dev` abierto: en Windows el servidor bloquea binarios nativos (rolldown), `npm ci` borra `node_modules` y falla a medias. Para comprobar el lockfile usa `npm ci --dry-run`.
+
 Antes de dar una tarea por terminada, ejecuta `npm run typecheck && npm run lint && npm test`.
 Si tocaste `src/content/` o los esquemas, ejecuta también `npm run content:check`.
 Informa del resultado real: si algo falla, muéstralo.

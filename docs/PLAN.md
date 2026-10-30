@@ -9,7 +9,7 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI lista; falta activar el despliegue) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
@@ -707,8 +707,9 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F7 — Despliegue privado + CI
 *Aprendes: GitHub Actions, despliegues de previsualización.*
-- [ ] GitHub Actions: `typecheck`, `lint`, `test`, `content:check` y `build` en cada PR.
-- [ ] Cloudflare Pages o Netlify con acceso restringido (o URL no publicada); fallback SPA.
+- [x] GitHub Actions (`.github/workflows/ci.yml`): `typecheck`, `lint`, `format:check`, `test`, `content:check` y `build` en cada PR, en cada push a `main` y a mano. Node fijado en `.node-version` (24) para local, CI y Cloudflare. Probado en local con los mismos pasos; `npm ci --dry-run` confirma que el lockfile está sincronizado e incluye los binarios de Linux.
+- [x] Configuración de despliegue: **Cloudflare Pages + Cloudflare Access** (gratis hasta 50 personas; la protección de Netlify es de pago). Fallback SPA en `public/_redirects` y `X-Robots-Tag: noindex` en `public/_headers` mientras sea privado. Pasos en [DESPLIEGUE.md](DESPLIEGUE.md).
+- [ ] **Pendiente del dueño del repo:** subir la rama a GitHub, crear el proyecto en Cloudflare Pages y activar Access (requiere su cuenta). Hasta fusionar `migracion-react` en `main`, usar la vista previa de la rama o ponerla como rama de producción.
 
 **Listo cuando:** cada push a `main` despliega y la CI está en verde.
 
