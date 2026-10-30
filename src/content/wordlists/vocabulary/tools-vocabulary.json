@@ -1,0 +1,128 @@
+{
+  "kind": "wordlist",
+  "title": "Tools Vocabulary",
+  "order": 32,
+  "legacyPath": "lessons/vocabulary/tools-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about tools in English.",
+  "groups": [
+    {
+      "title": "Tools vocabulary",
+      "items": [
+        {
+          "en": "Adjustable wrench"
+        },
+        {
+          "en": "Anvil"
+        },
+        {
+          "en": "Backsaw"
+        },
+        {
+          "en": "Bolt"
+        },
+        {
+          "en": "Brace"
+        },
+        {
+          "en": "Bradawl"
+        },
+        {
+          "en": "Caulking gun"
+        },
+        {
+          "en": "Chainsaw"
+        },
+        {
+          "en": "Chisel"
+        },
+        {
+          "en": "Coping saw"
+        },
+        {
+          "en": "Cutting pliers"
+        },
+        {
+          "en": "Drill"
+        },
+        {
+          "en": "Drill bit"
+        },
+        {
+          "en": "Electric drill"
+        },
+        {
+          "en": "File"
+        },
+        {
+          "en": "Gimlet"
+        },
+        {
+          "en": "Hacksaw"
+        },
+        {
+          "en": "Hammer"
+        },
+        {
+          "en": "Handsaw"
+        },
+        {
+          "en": "Level"
+        },
+        {
+          "en": "Mallet"
+        },
+        {
+          "en": "Nail"
+        },
+        {
+          "en": "Nut"
+        },
+        {
+          "en": "Pick"
+        },
+        {
+          "en": "Pipe wrench"
+        },
+        {
+          "en": "Pliers"
+        },
+        {
+          "en": "Plunger"
+        },
+        {
+          "en": "Pocketknife"
+        },
+        {
+          "en": "Screw"
+        },
+        {
+          "en": "Screwdriver"
+        },
+        {
+          "en": "Shears"
+        },
+        {
+          "en": "Slip joint pliers"
+        },
+        {
+          "en": "Spanner / monkey wrench"
+        },
+        {
+          "en": "Stepladder"
+        },
+        {
+          "en": "Tape measure"
+        },
+        {
+          "en": "Toolbox"
+        },
+        {
+          "en": "Vise"
+        },
+        {
+          "en": "Wrench"
+        }
+      ]
+    }
+  ]
+}

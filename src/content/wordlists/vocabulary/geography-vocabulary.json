@@ -1,0 +1,104 @@
+{
+  "kind": "wordlist",
+  "title": "Geography Vocabulary",
+  "order": 43,
+  "legacyPath": "lessons/vocabulary/geography-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about geography in English.",
+  "groups": [
+    {
+      "title": "Geography vocabulary",
+      "items": [
+        {
+          "en": "Bay"
+        },
+        {
+          "en": "Beach"
+        },
+        {
+          "en": "Border"
+        },
+        {
+          "en": "Canal"
+        },
+        {
+          "en": "Cape"
+        },
+        {
+          "en": "Capital"
+        },
+        {
+          "en": "Cliff"
+        },
+        {
+          "en": "Coast"
+        },
+        {
+          "en": "Coast line"
+        },
+        {
+          "en": "Continent"
+        },
+        {
+          "en": "Desert"
+        },
+        {
+          "en": "Dune"
+        },
+        {
+          "en": "Earth"
+        },
+        {
+          "en": "Equator"
+        },
+        {
+          "en": "Forest"
+        },
+        {
+          "en": "Frontier"
+        },
+        {
+          "en": "Glacier"
+        },
+        {
+          "en": "Hemisphere"
+        },
+        {
+          "en": "Island"
+        },
+        {
+          "en": "Jungle"
+        },
+        {
+          "en": "Lagoon"
+        },
+        {
+          "en": "Lake"
+        },
+        {
+          "en": "Latitude"
+        },
+        {
+          "en": "Longitude"
+        },
+        {
+          "en": "Meadow"
+        },
+        {
+          "en": "Mountain"
+        },
+        {
+          "en": "Ocean"
+        },
+        {
+          "en": "River"
+        },
+        {
+          "en": "Sea"
+        },
+        {
+          "en": "Waterfall"
+        }
+      ]
+    }
+  ]
+}

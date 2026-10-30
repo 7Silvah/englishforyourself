@@ -1,0 +1,159 @@
+{
+  "title": "Past Perfect – Negative Form",
+  "titleEs": "Pasado perfecto: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "verb-tenses/past-perfect-tense"
+  ],
+  "topics": [
+    "past-perfect",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Past-Perfect-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / finish) my project before the deadline.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t finished",
+            "had not finished",
+            "’d not finished"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "It was midnight when I realized I ___ (not / write) a single line of my essay.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t written",
+            "had not written",
+            "’d not written"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "They ___ (not / forget) what happened at the festival when they saw me.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t forgotten",
+            "had not forgotten",
+            "’d not forgotten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "She ___ (not / hear) the news when I told her.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t heard",
+            "had not heard",
+            "’d not heard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "Jason ___ (not / wake up) by the time his mother came into his room.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t woken up",
+            "had not woken up",
+            "’d not woken up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "We ___ (not / visit) our grandparents in years.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t visited",
+            "had not visited",
+            "’d not visited"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "I ___ (not / paint) the room before my friends arrived.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t painted",
+            "had not painted",
+            "’d not painted"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "He ___ (not / receive) any phone calls when I got to the office.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t received",
+            "had not received",
+            "’d not received"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "The family ___ (not / encounter) any difficulties during their trip until that moment.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t encountered",
+            "had not encountered",
+            "’d not encountered"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "She ___ (not / drop) her phone on the floor when she saw the message.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t dropped",
+            "had not dropped",
+            "’d not dropped"
+          ]
+        }
+      ]
+    }
+  ]
+}

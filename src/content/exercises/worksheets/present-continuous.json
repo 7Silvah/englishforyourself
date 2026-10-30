@@ -1,0 +1,149 @@
+{
+  "title": "Present Continuous",
+  "titleEs": "Presente continuo",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "A2",
+  "lessons": [
+    "verb-tenses/present-continuous-tense"
+  ],
+  "topics": [
+    "present-continuous",
+    "positive"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Present-Continous-or-Progressive-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (to watch) my favourite TV show.",
+      "blanks": [
+        {
+          "answers": [
+            "am watching",
+            "’m watching"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Leo ___ (to meet) with his parents tomorrow.",
+      "blanks": [
+        {
+          "answers": [
+            "is meeting",
+            "’s meeting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "She ___ (to eat) strawberry cake.",
+      "blanks": [
+        {
+          "answers": [
+            "is eating",
+            "’s eating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "You ___ (to renovate) your house.",
+      "blanks": [
+        {
+          "answers": [
+            "are renovating",
+            "’re renovating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "They ___ (to open) a new restaurant.",
+      "blanks": [
+        {
+          "answers": [
+            "are opening",
+            "’re opening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "He ___ (to receive) letters from his fans.",
+      "blanks": [
+        {
+          "answers": [
+            "is receiving",
+            "’s receiving"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "I ___ (to play) chess.",
+      "blanks": [
+        {
+          "answers": [
+            "am playing",
+            "’m playing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "The police officer ___ (to arrest) the thief.",
+      "blanks": [
+        {
+          "answers": [
+            "is arresting",
+            "’s arresting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "Julia ___ (to compare) the prices of the bags.",
+      "blanks": [
+        {
+          "answers": [
+            "is comparing",
+            "’s comparing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "We ___ (to greet) the guests.",
+      "blanks": [
+        {
+          "answers": [
+            "are greeting",
+            "’re greeting"
+          ]
+        }
+      ]
+    }
+  ]
+}

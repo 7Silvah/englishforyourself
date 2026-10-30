@@ -1,0 +1,162 @@
+{
+  "title": "Future Perfect Continuous – Negative Form",
+  "titleEs": "Futuro perfecto continuo: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "B2",
+  "lessons": [
+    "verb-tenses/future-perfect-continuous-tense"
+  ],
+  "topics": [
+    "future-perfect-continuous",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Future-Perfect-Continous-or-Progressive-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / play) volleyball for seven hours by 7 o’clock.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been playing",
+            "’ll not have been playing",
+            "will not have been playing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "They ___ (not / run) all morning.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been running",
+            "’ll not have been running",
+            "will not have been running"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "She ___ (not / exercise) for four hours by the time you get to the gym.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been exercising",
+            "’ll not have been exercising",
+            "will not have been exercising"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "He ___ (not / talk) on the phone with his dad for hours.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been talking",
+            "’ll not have been talking",
+            "will not have been talking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "We ___ (not / work) on the presentation the whole day.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been working",
+            "’ll not have been working",
+            "will not have been working"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (not / practice) my speaking skills for five hours by 2 o’clock.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been practicing",
+            "’ll not have been practicing",
+            "will not have been practicing",
+            "won’t have been practising",
+            "’ll not have been practising",
+            "will not have been practising"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "They ___ (not / hike) in the mountains for two hours.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been hiking",
+            "’ll not have been hiking",
+            "will not have been hiking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "She ___ (not / make) a fruit salad for 30 minutes.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been making",
+            "’ll not have been making",
+            "will not have been making"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "It ___ (not / rain) for days by the end of the week.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been raining",
+            "’ll not have been raining",
+            "will not have been raining"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "I ___ (not / study) for four hours by the end of the day.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have been studying",
+            "’ll not have been studying",
+            "will not have been studying"
+          ]
+        }
+      ]
+    }
+  ]
+}

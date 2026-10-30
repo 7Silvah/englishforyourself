@@ -1,0 +1,159 @@
+{
+  "title": "Past Perfect",
+  "titleEs": "Pasado perfecto",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "verb-tenses/past-perfect-tense"
+  ],
+  "topics": [
+    "past-perfect",
+    "positive"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Past-Perfect-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (to visit) Brazil before.",
+      "blanks": [
+        {
+          "answers": [
+            "had visited",
+            "’d visited"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "We ___ (to finish) our homework before going out.",
+      "blanks": [
+        {
+          "answers": [
+            "had finished",
+            "’d finished"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "She ___ (to misplace) her passport and couldn’t find it anywhere.",
+      "blanks": [
+        {
+          "answers": [
+            "had misplaced",
+            "’d misplaced"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "By the time we got there, the bus ___ already ___ (to leave).",
+      "blanks": [
+        {
+          "answers": [
+            "had",
+            "’d"
+          ]
+        },
+        {
+          "answers": [
+            "left"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "They ___ (to complete) the puzzle when you came in.",
+      "blanks": [
+        {
+          "answers": [
+            "had completed",
+            "’d completed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Jennie ___ (to book) a hotel room before you did.",
+      "blanks": [
+        {
+          "answers": [
+            "had booked",
+            "’d booked"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "When you joined the company, Sarah ___ (to receive) a promotion.",
+      "blanks": [
+        {
+          "answers": [
+            "had received",
+            "’d received"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "He ___ (to pack) his suitcase for the trip when you called him.",
+      "blanks": [
+        {
+          "answers": [
+            "had packed",
+            "’d packed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "The concert ___ already ___ (to start) by the time we got there.",
+      "blanks": [
+        {
+          "answers": [
+            "had",
+            "’d"
+          ]
+        },
+        {
+          "answers": [
+            "started"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "I ___ (to memorize) all the information before going to the office.",
+      "blanks": [
+        {
+          "answers": [
+            "had memorized",
+            "’d memorized"
+          ]
+        }
+      ]
+    }
+  ]
+}

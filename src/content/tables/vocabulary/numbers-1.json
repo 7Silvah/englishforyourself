@@ -1,0 +1,223 @@
+{
+  "variant": "plain",
+  "head": [
+    [
+      "Number",
+      "Word"
+    ]
+  ],
+  "body": [
+    [
+      "1",
+      "One"
+    ],
+    [
+      "2",
+      "Two"
+    ],
+    [
+      "3",
+      "Three"
+    ],
+    [
+      "4",
+      "Four"
+    ],
+    [
+      "5",
+      "Five"
+    ],
+    [
+      "6",
+      "Six"
+    ],
+    [
+      "7",
+      "Seven"
+    ],
+    [
+      "8",
+      "Eight"
+    ],
+    [
+      "9",
+      "Nine"
+    ],
+    [
+      "10",
+      "Ten"
+    ],
+    [
+      "11",
+      "Eleven"
+    ],
+    [
+      "12",
+      "Twelve"
+    ],
+    [
+      "13",
+      "Thirteen"
+    ],
+    [
+      "14",
+      "Fourteen"
+    ],
+    [
+      "15",
+      "Fifteen"
+    ],
+    [
+      "16",
+      "Sixteen"
+    ],
+    [
+      "17",
+      "Seventeen"
+    ],
+    [
+      "18",
+      "Eighteen"
+    ],
+    [
+      "19",
+      "Nineteen"
+    ],
+    [
+      "20",
+      "Twenty"
+    ],
+    [
+      "21",
+      "Twenty-one"
+    ],
+    [
+      "22",
+      "Twenty-two"
+    ],
+    [
+      "23",
+      "Twenty-three"
+    ],
+    [
+      "24",
+      "Twenty-four"
+    ],
+    [
+      "25",
+      "Twenty-five"
+    ],
+    [
+      "26",
+      "Twenty-six"
+    ],
+    [
+      "27",
+      "Twenty-seven"
+    ],
+    [
+      "28",
+      "Twenty-eight"
+    ],
+    [
+      "29",
+      "Twenty-nine"
+    ],
+    [
+      "30",
+      "Thirty"
+    ],
+    [
+      "40",
+      "Forty"
+    ],
+    [
+      "50",
+      "Fifty"
+    ],
+    [
+      "60",
+      "Sixty"
+    ],
+    [
+      "70",
+      "Seventy"
+    ],
+    [
+      "80",
+      "Eighty"
+    ],
+    [
+      "90",
+      "Ninety"
+    ],
+    [
+      "100",
+      "A / one hundred"
+    ],
+    [
+      "150",
+      "A / one hundred and fifty"
+    ],
+    [
+      "155",
+      "A / one hundred and fifty-five"
+    ],
+    [
+      "200",
+      "Two hundred"
+    ],
+    [
+      "300",
+      "Three hundred"
+    ],
+    [
+      "400",
+      "Four hundred"
+    ],
+    [
+      "500",
+      "Five hundred"
+    ],
+    [
+      "600",
+      "Six hundred"
+    ],
+    [
+      "700",
+      "Seven hundred"
+    ],
+    [
+      "800",
+      "Eight hundred"
+    ],
+    [
+      "900",
+      "Nine hundred"
+    ],
+    [
+      "1,000",
+      "A / one thousand"
+    ],
+    [
+      "1,150",
+      "A / one thousand and one hundred and fifty"
+    ],
+    [
+      "1,155",
+      "A / one thousand and one hundred and fifty-five"
+    ],
+    [
+      "10,000",
+      "Ten thousand"
+    ],
+    [
+      "100,000",
+      "One hundred thousand"
+    ],
+    [
+      "1,000,000",
+      "One million"
+    ]
+  ]
+}

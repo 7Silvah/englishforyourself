@@ -1,0 +1,62 @@
+{
+  "caption": "Present Perfect Tense – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true,
+        "rowSpan": 2
+      },
+      {
+        "text": "I – You – We – They + have + verb (past participle)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I – You – We – They + have not / haven’t + verb (past participle)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Have + I – You – We – They + verb (past participle)",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "He – She – It + has + verb (past participle)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "He – She – It + has not / hasn’t + verb (past participle)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Has + He – She – It + verb (past participle)",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

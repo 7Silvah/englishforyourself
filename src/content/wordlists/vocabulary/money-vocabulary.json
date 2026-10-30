@@ -1,0 +1,137 @@
+{
+  "kind": "wordlist",
+  "title": "Money Vocabulary",
+  "order": 48,
+  "legacyPath": "lessons/vocabulary/money-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about money in English.",
+  "groups": [
+    {
+      "title": "Money vocabulary",
+      "items": [
+        {
+          "en": "Assets"
+        },
+        {
+          "en": "Balance"
+        },
+        {
+          "en": "Bank"
+        },
+        {
+          "en": "Bank account"
+        },
+        {
+          "en": "Bank charges"
+        },
+        {
+          "en": "Bank statement"
+        },
+        {
+          "en": "Banknote (UK) / note (US)"
+        },
+        {
+          "en": "Bills"
+        },
+        {
+          "en": "Bonds"
+        },
+        {
+          "en": "Buck"
+        },
+        {
+          "en": "Budget"
+        },
+        {
+          "en": "Cash"
+        },
+        {
+          "en": "Cash machine"
+        },
+        {
+          "en": "Check"
+        },
+        {
+          "en": "Coin"
+        },
+        {
+          "en": "Coupon"
+        },
+        {
+          "en": "Credit card"
+        },
+        {
+          "en": "Currency"
+        },
+        {
+          "en": "Deflation"
+        },
+        {
+          "en": "Dollars"
+        },
+        {
+          "en": "Euros"
+        },
+        {
+          "en": "Exchange rate"
+        },
+        {
+          "en": "Finance"
+        },
+        {
+          "en": "Fund(s)"
+        },
+        {
+          "en": "Gold bar"
+        },
+        {
+          "en": "Hire purchase"
+        },
+        {
+          "en": "Income"
+        },
+        {
+          "en": "Inflation"
+        },
+        {
+          "en": "Installment plan"
+        },
+        {
+          "en": "Mortgage"
+        },
+        {
+          "en": "Pounds"
+        },
+        {
+          "en": "Poverty"
+        },
+        {
+          "en": "Retail"
+        },
+        {
+          "en": "Retailer"
+        },
+        {
+          "en": "Savings account"
+        },
+        {
+          "en": "Shares"
+        },
+        {
+          "en": "Silver bar"
+        },
+        {
+          "en": "Token"
+        },
+        {
+          "en": "Vault"
+        },
+        {
+          "en": "Wealth"
+        },
+        {
+          "en": "Withdrawal"
+        }
+      ]
+    }
+  ]
+}

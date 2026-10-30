@@ -1,0 +1,100 @@
+{
+  "kind": "wordlist",
+  "title": "Expressions for Agreeing and Disagreeing",
+  "order": 2,
+  "legacyPath": "lessons/ways-to-say/expressions-for-agreeing-and-disagreeing.html",
+  "intro": "In this section you will learn expressions for agreeing and disagreeing in English.",
+  "groups": [
+    {
+      "title": "Expressions for agreeing",
+      "items": [
+        {
+          "en": "Absolutely!"
+        },
+        {
+          "en": "I agree with you."
+        },
+        {
+          "en": "I couldn’t agree more."
+        },
+        {
+          "en": "I feel the same."
+        },
+        {
+          "en": "I share the same opinion."
+        },
+        {
+          "en": "I think so too."
+        },
+        {
+          "en": "That’s a good point."
+        },
+        {
+          "en": "That’s all true."
+        },
+        {
+          "en": "That’s exactly what I think."
+        },
+        {
+          "en": "That’s true"
+        },
+        {
+          "en": "That’s true."
+        },
+        {
+          "en": "We see eye to eye."
+        },
+        {
+          "en": "We’re on the same page."
+        },
+        {
+          "en": "You’re absolutely right."
+        },
+        {
+          "en": "You’ve hit the nail on the head."
+        }
+      ]
+    },
+    {
+      "title": "Expressions for disagreeing",
+      "items": [
+        {
+          "en": "I can’t share that view."
+        },
+        {
+          "en": "I disagree."
+        },
+        {
+          "en": "I don’t agree with you."
+        },
+        {
+          "en": "I don’t think so."
+        },
+        {
+          "en": "I doubt it."
+        },
+        {
+          "en": "I see things differently."
+        },
+        {
+          "en": "I see what you mean but…"
+        },
+        {
+          "en": "I’m afraid I disagree."
+        },
+        {
+          "en": "I’m not sure about that."
+        },
+        {
+          "en": "Respectfully, I don’t agree."
+        },
+        {
+          "en": "That’s not entirely true."
+        },
+        {
+          "en": "We’ll have to disagree."
+        }
+      ]
+    }
+  ]
+}

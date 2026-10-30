@@ -1,0 +1,124 @@
+{
+  "kind": "wordlist",
+  "title": "Science Vocabulary",
+  "order": 49,
+  "legacyPath": "lessons/vocabulary/science-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about science in English.",
+  "groups": [
+    {
+      "items": [
+        {
+          "en": "Science"
+        },
+        {
+          "en": "Atom"
+        },
+        {
+          "en": "Electron"
+        },
+        {
+          "en": "Neutron"
+        },
+        {
+          "en": "Proton"
+        },
+        {
+          "en": "Nucleus"
+        },
+        {
+          "en": "Alcohol burner"
+        },
+        {
+          "en": "Bacteria"
+        },
+        {
+          "en": "Barometer"
+        },
+        {
+          "en": "Beaker"
+        },
+        {
+          "en": "Bunsen burner"
+        },
+        {
+          "en": "Cell"
+        },
+        {
+          "en": "Cell culture"
+        },
+        {
+          "en": "Chemical"
+        },
+        {
+          "en": "DNA"
+        },
+        {
+          "en": "Dropper"
+        },
+        {
+          "en": "Erlenmeyer flask"
+        },
+        {
+          "en": "Experiment"
+        },
+        {
+          "en": "Flask"
+        },
+        {
+          "en": "Funnel"
+        },
+        {
+          "en": "Genetics"
+        },
+        {
+          "en": "Graduated cylinder"
+        },
+        {
+          "en": "Laboratory / lab"
+        },
+        {
+          "en": "Magnet"
+        },
+        {
+          "en": "Magnifier"
+        },
+        {
+          "en": "Microscope"
+        },
+        {
+          "en": "Molecule"
+        },
+        {
+          "en": "Organism"
+        },
+        {
+          "en": "Periodic table"
+        },
+        {
+          "en": "Pipettes"
+        },
+        {
+          "en": "Scale"
+        },
+        {
+          "en": "Scientist"
+        },
+        {
+          "en": "Test tube"
+        },
+        {
+          "en": "Test tube racks"
+        },
+        {
+          "en": "Theory"
+        },
+        {
+          "en": "Thermometer"
+        },
+        {
+          "en": "Virus"
+        }
+      ]
+    }
+  ]
+}

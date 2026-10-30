@@ -1,0 +1,146 @@
+{
+  "kind": "wordlist",
+  "title": "Common Phrasal Verbs list 3",
+  "order": 11,
+  "legacyPath": "lessons/phrasal-verbs/common-phrasal-verbs-list-3.html",
+  "intro": "Learn the most common phrasal verbs in English with the following list.",
+  "groups": [
+    {
+      "title": "Common phrasal verbs in English",
+      "items": [
+        {
+          "en": "To look ahead",
+          "meanings": [
+            "To physically see something in front of you.",
+            "To anticipate future situations."
+          ]
+        },
+        {
+          "en": "To look down on",
+          "meanings": [
+            "To physically see something from a high place.",
+            "When you consider someone or something inferior."
+          ]
+        },
+        {
+          "en": "To look forward to",
+          "meanings": [
+            "When you get excited about an upcoming event."
+          ]
+        },
+        {
+          "en": "To look out",
+          "meanings": [
+            "To pay attention to your surroundings because a potential danger."
+          ]
+        },
+        {
+          "en": "To look over",
+          "meanings": [
+            "To examine or inspect something either briefly or thoroughly."
+          ]
+        },
+        {
+          "en": "To look up to",
+          "meanings": [
+            "When you have respect for someone else."
+          ]
+        },
+        {
+          "en": "To look upon",
+          "meanings": [
+            "To view or gaze at something.",
+            "To consider something in a particular way."
+          ]
+        },
+        {
+          "en": "To make off",
+          "meanings": [
+            "To flee."
+          ]
+        },
+        {
+          "en": "To make out something / to make something out",
+          "meanings": [
+            "To comprehend something.",
+            "To see something when it was impossible to notice."
+          ]
+        },
+        {
+          "en": "To make up for something",
+          "meanings": [
+            "To compensate."
+          ]
+        },
+        {
+          "en": "To make up something / to make something up",
+          "meanings": [
+            "To invent something false.",
+            "To reconcile with someone."
+          ]
+        },
+        {
+          "en": "To pass out",
+          "meanings": [
+            "To faint.",
+            "To distribute something to people."
+          ]
+        },
+        {
+          "en": "To pay back",
+          "meanings": [
+            "To return money you owe to someone.",
+            "To take revenge on someone."
+          ]
+        },
+        {
+          "en": "To pick out",
+          "meanings": [
+            "To select someone from a group of people.",
+            "To recognize or identify someone or something."
+          ]
+        },
+        {
+          "en": "To pick up",
+          "meanings": [
+            "To raise something from the floor.",
+            "To learn something new.",
+            "To give someone a ride.",
+            "To collect something from somewhere."
+          ]
+        },
+        {
+          "en": "To point out",
+          "meanings": [
+            "To highlight or indicate something for someone else to see it."
+          ]
+        },
+        {
+          "en": "To pull over",
+          "meanings": [
+            "To move a vehicle to the side of the road."
+          ]
+        },
+        {
+          "en": "To put up",
+          "meanings": [
+            "To hang something.",
+            "To increase the prices."
+          ]
+        },
+        {
+          "en": "To put up with",
+          "meanings": [
+            "To endure an unpleasant situation."
+          ]
+        },
+        {
+          "en": "To run into someone",
+          "meanings": [
+            "When you suddenly meet someone"
+          ]
+        }
+      ]
+    }
+  ]
+}

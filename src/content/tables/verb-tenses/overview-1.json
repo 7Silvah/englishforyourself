@@ -1,0 +1,277 @@
+{
+  "caption": "English Tenses Chart",
+  "variant": "grammar",
+  "head": [
+    [
+      "Tense",
+      "Structure ([[pos:Positive]] – [[neg:Negative]] – [[q:Question]])",
+      "Examples"
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Simple Present",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – We – They + verb",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – We – They + do not / don’t + verb",
+            "tone": "neg"
+          },
+          {
+            "text": "Do + I – You – We – They + verb",
+            "tone": "q"
+          },
+          {
+            "text": "He – She – It + verb",
+            "tone": "pos"
+          },
+          {
+            "text": "He – She – It + does not / doesn’t + verb",
+            "tone": "neg"
+          },
+          {
+            "text": "Does + He – She – It + verb",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I love comics",
+          "They don’t love comics",
+          "Do we love comics?",
+          "She loves comics",
+          "He doesn’t love comics",
+          "Does it love comics?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present Continuous/Progressive",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I + am + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "I + am not + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Am + I + verb (ing) ?",
+            "tone": "q"
+          },
+          {
+            "text": "You – We – They + are + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "You – We – They + are not / aren’t + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Are + You – We – They + verb (ing) ?",
+            "tone": "q"
+          },
+          {
+            "text": "He – She – It + is + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "He – She – It + is not / isn’t + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Is + He – She – It + verb (ing) ?",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I am taking pictures",
+          "I’m not taking pictures",
+          "Am I taking pictures?",
+          "You’re taking pictures",
+          "We are not taking pictures",
+          "Are they taking pictures?",
+          "He is taking pictures",
+          "She is not taking pictures",
+          "Is she taking pictures?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present Perfect",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – We – They + have + verb (past participle)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – We – They + have not / haven’t + verb (past participle)",
+            "tone": "neg"
+          },
+          {
+            "text": "Have + I – You – We – They + verb (past participle)",
+            "tone": "q"
+          },
+          {
+            "text": "He – She – It + has + verb (past participle)",
+            "tone": "pos"
+          },
+          {
+            "text": "He – She – It + has not / hasn’t + verb (past participle)",
+            "tone": "neg"
+          },
+          {
+            "text": "Has + He – She – It + verb (past participle)",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I have fixed the TV",
+          "They haven’t fixed the TV",
+          "Have you fixed the TV?",
+          "She has fixed the TV",
+          "She hasn’t fixed the TV",
+          "Has he fixed the TV?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present Perfect Continuous/Progressive",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – We – They + have + been + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – We – They + have not / haven’t + been + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Have + I – You – We – They + been + verb (ing)",
+            "tone": "q"
+          },
+          {
+            "text": "He – She – It + has + been + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "He – She – It + has not / hasn’t + been + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Has + He – She – It + been + verb (ing)",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I have been playing videogames",
+          "You haven’t been playing videogames",
+          "Have they been playing videogames?",
+          "She has been playing videogames",
+          "He’s not been playing videogames",
+          "Has he been playing videogames?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Simple Past",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – He – She – It – We – They + verb (past simple)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – He – She – It – We – They + did not / didn’t + verb",
+            "tone": "neg"
+          },
+          {
+            "text": "Did + I – You – He – She – It – We – They + verb",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "We closed the window",
+          "He didn’t close the window",
+          "Did you close the window?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past Continuous/Progressive",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – He – She – It + was + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – He – She – It + was not / wasn’t + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Was + I – He – She – It + verb (ing)",
+            "tone": "q"
+          },
+          {
+            "text": "You – We – They + were + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "You – We – They + were not / weren’t + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Were + You – We – They + verb (ing)",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "He was studying",
+          "I was not studying",
+          "Was she studying?",
+          "We were studying",
+          "You weren’t studying",
+          "Were they studying?"
+        ]
+      }
+    ]
+  ]
+}

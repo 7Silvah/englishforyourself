@@ -1,0 +1,143 @@
+{
+  "kind": "wordlist",
+  "title": "Arts Vocabulary",
+  "order": 36,
+  "legacyPath": "lessons/vocabulary/arts-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about arts in English.",
+  "groups": [
+    {
+      "title": "Arts vocabulary",
+      "items": [
+        {
+          "en": "Abstract art"
+        },
+        {
+          "en": "Acrylics"
+        },
+        {
+          "en": "Applause"
+        },
+        {
+          "en": "Architecture"
+        },
+        {
+          "en": "Art critic"
+        },
+        {
+          "en": "Art gallery"
+        },
+        {
+          "en": "Art school"
+        },
+        {
+          "en": "Artist"
+        },
+        {
+          "en": "Audience"
+        },
+        {
+          "en": "Ballet"
+        },
+        {
+          "en": "Bust"
+        },
+        {
+          "en": "Canvas"
+        },
+        {
+          "en": "Ceramics"
+        },
+        {
+          "en": "Collage"
+        },
+        {
+          "en": "Constructivism cubism"
+        },
+        {
+          "en": "Design"
+        },
+        {
+          "en": "Drawing"
+        },
+        {
+          "en": "Easel"
+        },
+        {
+          "en": "Expressionism"
+        },
+        {
+          "en": "Frame"
+        },
+        {
+          "en": "Glitter"
+        },
+        {
+          "en": "Landscape"
+        },
+        {
+          "en": "Lighting"
+        },
+        {
+          "en": "Model"
+        },
+        {
+          "en": "Oil"
+        },
+        {
+          "en": "Oil pastel"
+        },
+        {
+          "en": "Opera"
+        },
+        {
+          "en": "Paint"
+        },
+        {
+          "en": "Paint brushes"
+        },
+        {
+          "en": "Painter"
+        },
+        {
+          "en": "Painting"
+        },
+        {
+          "en": "Palette"
+        },
+        {
+          "en": "Pedestal"
+        },
+        {
+          "en": "Perspective"
+        },
+        {
+          "en": "Poetry"
+        },
+        {
+          "en": "Portfolio"
+        },
+        {
+          "en": "Portrait"
+        },
+        {
+          "en": "Sculptor"
+        },
+        {
+          "en": "Sculpture"
+        },
+        {
+          "en": "Sketch"
+        },
+        {
+          "en": "Stickers"
+        },
+        {
+          "en": "Surrealism"
+        },
+        {
+          "en": "Watercolors"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "variant": "plain",
+  "head": [
+    [
+      "Hour",
+      "Analogue",
+      "Timetables"
+    ]
+  ],
+  "body": [
+    [
+      "7:00",
+      "Seven o’clock",
+      "Seven o’clock"
+    ],
+    [
+      "7:05",
+      "Five past seven",
+      "Seven oh five"
+    ],
+    [
+      "7:10",
+      "Ten past seven",
+      "Seven ten"
+    ],
+    [
+      "7:15",
+      "A quarter past seven",
+      "Seven fifteen"
+    ],
+    [
+      "7:20",
+      "Twenty past seven",
+      "Seven twenty"
+    ],
+    [
+      "7:25",
+      "Twenty-five past seven",
+      "Seven twenty-five"
+    ],
+    [
+      "7:30",
+      "Half past seven",
+      "Seven thirty"
+    ],
+    [
+      "7:35",
+      "Twenty-five to eight",
+      "Seven thirty-five"
+    ],
+    [
+      "7:40",
+      "Twenty to eight",
+      "Seven forty"
+    ],
+    [
+      "7:45",
+      "A quarter to eight",
+      "Seven forty-five"
+    ],
+    [
+      "7:50",
+      "Ten to eight",
+      "Seven fifty"
+    ],
+    [
+      "7:55",
+      "Five to eight",
+      "Seven fifty-five"
+    ],
+    [
+      "8:00",
+      "Eight o’clock",
+      "Eight o’clock"
+    ]
+  ]
+}

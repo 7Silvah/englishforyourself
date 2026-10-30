@@ -1,0 +1,451 @@
+{
+  "kind": "wordlist",
+  "title": "Foods and Drinks Vocabulary",
+  "order": 8,
+  "legacyPath": "lessons/vocabulary/foods-and-drinks-vocabulary.html",
+  "intro": "In this section of English vocabulary, you will find vocabulary about different types of foods, drinks and beverages, dairy products, sweets and desserts, condiments and herbs.",
+  "groups": [
+    {
+      "title": "Foods vocabulary",
+      "items": [
+        {
+          "en": "Chips (UK) / fries (US)"
+        },
+        {
+          "en": "Crisps (UK) / potato chips (US)"
+        },
+        {
+          "en": "Sandwich"
+        },
+        {
+          "en": "Salad"
+        },
+        {
+          "en": "Roast beef"
+        },
+        {
+          "en": "Roast chicken"
+        },
+        {
+          "en": "Fried fish"
+        },
+        {
+          "en": "Soup"
+        },
+        {
+          "en": "Pizza"
+        },
+        {
+          "en": "Spaghetti"
+        },
+        {
+          "en": "Sausage"
+        },
+        {
+          "en": "Boiled eggs"
+        },
+        {
+          "en": "Scrambled eggs"
+        },
+        {
+          "en": "Fried eggs"
+        },
+        {
+          "en": "Honey"
+        },
+        {
+          "en": "White bread"
+        },
+        {
+          "en": "Bread rolls"
+        },
+        {
+          "en": "Pasta"
+        },
+        {
+          "en": "Rice"
+        },
+        {
+          "en": "Custard"
+        },
+        {
+          "en": "Popcorn"
+        },
+        {
+          "en": "Hamburger"
+        },
+        {
+          "en": "Cereal"
+        },
+        {
+          "en": "Omelette"
+        },
+        {
+          "en": "Mustard"
+        },
+        {
+          "en": "Mayonnaise"
+        },
+        {
+          "en": "Kebab"
+        },
+        {
+          "en": "Ham"
+        },
+        {
+          "en": "Bacon"
+        },
+        {
+          "en": "Hot dog"
+        },
+        {
+          "en": "Waffles"
+        },
+        {
+          "en": "Hot chocolate"
+        },
+        {
+          "en": "Pancakes"
+        },
+        {
+          "en": "Croissants"
+        },
+        {
+          "en": "Porridge"
+        },
+        {
+          "en": "Noodles"
+        },
+        {
+          "en": "Hummus"
+        },
+        {
+          "en": "Bagel"
+        },
+        {
+          "en": "Fried chicken"
+        },
+        {
+          "en": "Pretzel"
+        },
+        {
+          "en": "Breadstick"
+        }
+      ]
+    },
+    {
+      "title": "Dairy products vocabulary",
+      "items": [
+        {
+          "en": "Cheese"
+        },
+        {
+          "en": "Butter"
+        },
+        {
+          "en": "Milk"
+        },
+        {
+          "en": "Ice cream"
+        },
+        {
+          "en": "Yogurt or yoghurt"
+        },
+        {
+          "en": "Cream"
+        },
+        {
+          "en": "Sour cream"
+        },
+        {
+          "en": "Condensed milk"
+        },
+        {
+          "en": "Cottage cheese"
+        },
+        {
+          "en": "Cream cheese"
+        },
+        {
+          "en": "Mozzarella cheese"
+        },
+        {
+          "en": "Whipped cream"
+        }
+      ]
+    },
+    {
+      "title": "Sweets and desserts vocabulary",
+      "items": [
+        {
+          "en": "Biscuits (UK) / cookies (US)"
+        },
+        {
+          "en": "Brownie(s)"
+        },
+        {
+          "en": "Cake"
+        },
+        {
+          "en": "Candy"
+        },
+        {
+          "en": "Chewing gum"
+        },
+        {
+          "en": "Chocolate"
+        },
+        {
+          "en": "Cotton candy or candy floss"
+        },
+        {
+          "en": "Cupcakes or muffins"
+        },
+        {
+          "en": "Doughnut(s) (UK) / donut (US)"
+        },
+        {
+          "en": "Hard candies"
+        },
+        {
+          "en": "Jam"
+        },
+        {
+          "en": "Jelly beans"
+        },
+        {
+          "en": "Jelly candies"
+        },
+        {
+          "en": "Lollipop"
+        },
+        {
+          "en": "Macaroons"
+        },
+        {
+          "en": "Marshmallow"
+        },
+        {
+          "en": "Milkshake"
+        },
+        {
+          "en": "Mousse"
+        },
+        {
+          "en": "Pie"
+        },
+        {
+          "en": "Popsicle"
+        },
+        {
+          "en": "Pudding"
+        },
+        {
+          "en": "Sundae"
+        },
+        {
+          "en": "Tart"
+        },
+        {
+          "en": "Tiramisu"
+        }
+      ]
+    },
+    {
+      "title": "Drinks and beverages vocabulary",
+      "items": [
+        {
+          "en": "Alcohol"
+        },
+        {
+          "en": "Almond milk"
+        },
+        {
+          "en": "Apple juice"
+        },
+        {
+          "en": "Beer"
+        },
+        {
+          "en": "Black coffee"
+        },
+        {
+          "en": "Booze"
+        },
+        {
+          "en": "Champagne"
+        },
+        {
+          "en": "Cider"
+        },
+        {
+          "en": "Cocktail"
+        },
+        {
+          "en": "Cocoa"
+        },
+        {
+          "en": "Coconut water"
+        },
+        {
+          "en": "Coffee"
+        },
+        {
+          "en": "Decaffeinated coffee"
+        },
+        {
+          "en": "Espresso coffee"
+        },
+        {
+          "en": "Fruit juice"
+        },
+        {
+          "en": "Ginger ale"
+        },
+        {
+          "en": "Herbal tea"
+        },
+        {
+          "en": "Hot chocolate"
+        },
+        {
+          "en": "Iced tea"
+        },
+        {
+          "en": "Lemonade"
+        },
+        {
+          "en": "Liqueur"
+        },
+        {
+          "en": "Milk"
+        },
+        {
+          "en": "Mineral water"
+        },
+        {
+          "en": "Non-alcoholic drink"
+        },
+        {
+          "en": "Oat milk"
+        },
+        {
+          "en": "Orange juice"
+        },
+        {
+          "en": "Rum"
+        },
+        {
+          "en": "Smoothie"
+        },
+        {
+          "en": "Soda"
+        },
+        {
+          "en": "Soft drink"
+        },
+        {
+          "en": "Soy milk or soya milk"
+        },
+        {
+          "en": "Sparkling mineral water"
+        },
+        {
+          "en": "Still mineral water"
+        },
+        {
+          "en": "Tea"
+        },
+        {
+          "en": "Vodka"
+        },
+        {
+          "en": "Water"
+        },
+        {
+          "en": "Whisky"
+        },
+        {
+          "en": "Wine"
+        }
+      ]
+    },
+    {
+      "title": "Condiments and herbs vocabulary",
+      "items": [
+        {
+          "en": "Barbeque sauce"
+        },
+        {
+          "en": "Basil"
+        },
+        {
+          "en": "Bay leaves"
+        },
+        {
+          "en": "Chili powder"
+        },
+        {
+          "en": "Cilantro or coriander"
+        },
+        {
+          "en": "Cinnamon powder"
+        },
+        {
+          "en": "Clove"
+        },
+        {
+          "en": "Cumin"
+        },
+        {
+          "en": "Curry powder"
+        },
+        {
+          "en": "Garlic powder"
+        },
+        {
+          "en": "Ginger"
+        },
+        {
+          "en": "Mint leaves"
+        },
+        {
+          "en": "Olive oil"
+        },
+        {
+          "en": "Onion powder"
+        },
+        {
+          "en": "Paprika"
+        },
+        {
+          "en": "Parsley"
+        },
+        {
+          "en": "Pepper"
+        },
+        {
+          "en": "Rosemary"
+        },
+        {
+          "en": "Saffron"
+        },
+        {
+          "en": "Salt"
+        },
+        {
+          "en": "Soy sauce"
+        },
+        {
+          "en": "Thyme"
+        },
+        {
+          "en": "Turmeric"
+        },
+        {
+          "en": "Vinegar"
+        }
+      ]
+    }
+  ]
+}

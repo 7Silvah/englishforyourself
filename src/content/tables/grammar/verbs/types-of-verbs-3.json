@@ -1,0 +1,282 @@
+{
+  "caption": "Modal Verbs",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Modal",
+        "tone": "pos"
+      },
+      {
+        "text": "Use",
+        "tone": "neg"
+      },
+      {
+        "text": "Example",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Can",
+        "header": true,
+        "tone": "pos",
+        "rowSpan": 5
+      },
+      {
+        "text": "1-Ability",
+        "header": true
+      },
+      "Noah can learn many languages at the same time."
+    ],
+    [
+      {
+        "text": "*To be able to (expression with the same function)",
+        "header": true
+      },
+      "Leo is able to speak Spanish fluently."
+    ],
+    [
+      {
+        "text": "2-Permission",
+        "header": true
+      },
+      "Can I borrow your notes to study?"
+    ],
+    [
+      {
+        "text": "3-Possibility",
+        "header": true
+      },
+      "They can visit the museum in their free time."
+    ],
+    [
+      {
+        "text": "4-Offers",
+        "header": true
+      },
+      "We can buy food at the convenience store."
+    ],
+    [
+      {
+        "text": "Could",
+        "header": true,
+        "tone": "neg",
+        "rowSpan": 5
+      },
+      {
+        "text": "1-Ability (in the past)",
+        "header": true
+      },
+      "Noah could learn many languages when he was a child"
+    ],
+    [
+      {
+        "text": "2-Permission (very formal)",
+        "header": true
+      },
+      "Could I take a photo of your dog?"
+    ],
+    [
+      {
+        "text": "3-Possibility",
+        "header": true
+      },
+      "Gabriel could be at the park."
+    ],
+    [
+      {
+        "text": "4-Offers",
+        "header": true
+      },
+      "Could I help you organize the invitations?"
+    ],
+    [
+      {
+        "text": "5-Probability",
+        "header": true
+      },
+      "It could rain today."
+    ],
+    [
+      {
+        "text": "Should / Ought to",
+        "header": true,
+        "tone": "q",
+        "rowSpan": 2
+      },
+      {
+        "text": "1-Necessity",
+        "header": true
+      },
+      "All tourists should/ought to follow the guide’s instructions."
+    ],
+    [
+      {
+        "text": "2-Advice",
+        "header": true
+      },
+      "You should/ought to rest for the next days."
+    ],
+    [
+      {
+        "text": "Have to",
+        "header": true,
+        "tone": "nq"
+      },
+      {
+        "text": "1-Necessity",
+        "header": true
+      },
+      "The students have to finish the activity before leaving."
+    ],
+    [
+      {
+        "text": "Don’t have to / Don’t need to / Needn’t",
+        "header": true,
+        "tone": "purple"
+      },
+      {
+        "text": "1-Absence of necessity",
+        "header": true
+      },
+      {
+        "lines": [
+          "You don’t have to cook this week.",
+          "She doesn’t need to bring the snacks.",
+          "She needn’t present the project in front of everyone."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "May",
+        "header": true,
+        "tone": "teal",
+        "rowSpan": 3
+      },
+      {
+        "text": "1-Permission (formal)",
+        "header": true
+      },
+      "May I go to the library for the books?"
+    ],
+    [
+      {
+        "text": "2-Possibility",
+        "header": true
+      },
+      "Mia may be with her sister in her room."
+    ],
+    [
+      {
+        "text": "3-Probability",
+        "header": true
+      },
+      "Our teacher will be absent today. She may cancel today’s class."
+    ],
+    [
+      {
+        "text": "Might",
+        "header": true,
+        "tone": "blue",
+        "rowSpan": 2
+      },
+      {
+        "text": "1-Possibility",
+        "header": true
+      },
+      "I might go to the mall tonight."
+    ],
+    [
+      {
+        "text": "2-Probability",
+        "header": true
+      },
+      "Our teacher will be absent today. She might cancel today’s class."
+    ],
+    [
+      {
+        "text": "Can’t / Mustn’t",
+        "header": true,
+        "tone": "neg"
+      },
+      {
+        "text": "1-Prohibition",
+        "header": true
+      },
+      {
+        "lines": [
+          "People under eighteen years old can’t enter this area.",
+          "You mustn’t touch the animals."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Must",
+        "header": true,
+        "tone": "q",
+        "rowSpan": 2
+      },
+      {
+        "text": "1-Obligation",
+        "header": true
+      },
+      "I must attend the lecture."
+    ],
+    [
+      {
+        "text": "2-Deduction or assumption",
+        "header": true
+      },
+      "Ava has been working out for two hours; she must be thirsty."
+    ],
+    [
+      {
+        "text": "Would",
+        "header": true,
+        "tone": "nq"
+      },
+      {
+        "text": "1-Offers",
+        "header": true
+      },
+      "Would you like some ice tea?"
+    ],
+    [
+      {
+        "text": "Will",
+        "header": true,
+        "tone": "pos"
+      },
+      {
+        "text": "1-Probability",
+        "header": true
+      },
+      "The new book will become the best seller of the year."
+    ],
+    [
+      {
+        "text": "Shall",
+        "header": true,
+        "tone": "teal",
+        "rowSpan": 2
+      },
+      {
+        "text": "1-Advice",
+        "header": true
+      },
+      "Shall we meet at the cinema tomorrow?"
+    ],
+    [
+      {
+        "text": "2-Offers",
+        "header": true
+      },
+      "Shall I drive you to the bus station?"
+    ]
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "caption": "Irregular Comparative Adjectives",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Adjective",
+        "tone": "q"
+      },
+      {
+        "text": "Comparative",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      "Good",
+      "Better"
+    ],
+    [
+      "Bad",
+      "Worse"
+    ],
+    [
+      "Little",
+      "Less"
+    ],
+    [
+      "Far",
+      "Further or farther (for distance)"
+    ],
+    [
+      "Well",
+      "Better"
+    ],
+    [
+      "Many",
+      "More"
+    ],
+    [
+      "Much",
+      "More"
+    ]
+  ]
+}

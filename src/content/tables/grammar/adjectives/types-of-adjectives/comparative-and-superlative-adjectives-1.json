@@ -1,0 +1,49 @@
+{
+  "caption": "Comparative Adjectives — Comparative adjectives with two forms",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Adjective",
+        "tone": "pos"
+      },
+      {
+        "text": "Comparatives",
+        "tone": "neg",
+        "colSpan": 2
+      }
+    ]
+  ],
+  "body": [
+    [
+      "Polite",
+      "Politer",
+      "More polite"
+    ],
+    [
+      "Narrow",
+      "Narrower",
+      "More narrow"
+    ],
+    [
+      "Clever",
+      "Cleverer",
+      "More clever"
+    ],
+    [
+      "Friendly",
+      "Friendlier",
+      "More friendly"
+    ],
+    [
+      "Gentle",
+      "Gentler",
+      "More gentle"
+    ],
+    [
+      "Common",
+      "Commoner",
+      "More common"
+    ]
+  ]
+}

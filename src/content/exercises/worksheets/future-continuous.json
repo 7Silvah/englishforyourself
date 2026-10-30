@@ -1,0 +1,151 @@
+{
+  "title": "Future Continuous",
+  "titleEs": "Futuro continuo",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "verb-tenses/future-continuous-tense"
+  ],
+  "topics": [
+    "future-continuous",
+    "positive"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Future-Continous-or-Progressive-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (to fly) to Mexico next weekend.",
+      "blanks": [
+        {
+          "answers": [
+            "will be flying",
+            "’ll be flying"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Nora ___ (to sleep) on the couch the whole night.",
+      "blanks": [
+        {
+          "answers": [
+            "will be sleeping",
+            "’ll be sleeping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "He ___ (to celebrate) his mother’s birthday tomorrow.",
+      "blanks": [
+        {
+          "answers": [
+            "will be celebrating",
+            "’ll be celebrating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "They ___ (to cheer) for their favourite team.",
+      "blanks": [
+        {
+          "answers": [
+            "will be cheering",
+            "’ll be cheering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "I ___ (to prepare) dinner by the time you arrive.",
+      "blanks": [
+        {
+          "answers": [
+            "will be preparing",
+            "’ll be preparing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "By the end of the month, we ___ (to travel) to the beach.",
+      "blanks": [
+        {
+          "answers": [
+            "will be travelling",
+            "’ll be travelling",
+            "will be traveling",
+            "’ll be traveling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "She ___ (to do) her homework when you call her.",
+      "blanks": [
+        {
+          "answers": [
+            "will be doing",
+            "’ll be doing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "They ___ (to play) in the park when their father surprises them.",
+      "blanks": [
+        {
+          "answers": [
+            "will be playing",
+            "’ll be playing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "I ___ (to read) a book while waiting for the bus.",
+      "blanks": [
+        {
+          "answers": [
+            "will be reading",
+            "’ll be reading"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "We ___ (to rehearse) for the play.",
+      "blanks": [
+        {
+          "answers": [
+            "will be rehearsing",
+            "’ll be rehearsing"
+          ]
+        }
+      ]
+    }
+  ]
+}

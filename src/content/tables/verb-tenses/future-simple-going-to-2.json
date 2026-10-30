@@ -1,0 +1,97 @@
+{
+  "caption": "Future Simple Tense (Going to) – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I am / I’m going to order pizza",
+      "I am not / I’m not going to order pizza",
+      "Am I going to order pizza?",
+      "Am I not going to order pizza?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You are / you’re going to order pizza",
+      "You are not / you’re not / you aren’t going to order pizza",
+      "Are you going to order pizza?",
+      "Are you not / aren’t you going to order pizza?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He is / he’s going to order pizza",
+      "He is not / he’s not / he isn’t going to order pizza",
+      "Is he going to order pizza?",
+      "Is he not / isn’t he going to order pizza?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She is / she’s going to order pizza",
+      "She is not / she’s not / she isn’t going to order pizza",
+      "Is she going to order pizza?",
+      "Is she not / isn’t she going to order pizza?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It is / it’s going to order pizza",
+      "It is not / it’s not / it isn’t going to order pizza",
+      "Is it going to order pizza?",
+      "Is it not / isn’t it going to order pizza?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We are / we’re going to order pizza",
+      "We are not / we’re not / we aren’t going to order pizza",
+      "Are we going to order pizza?",
+      "Are we not / aren’t we going to order pizza?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They are / they’re going to order pizza",
+      "They are not / they’re not / they aren’t going to order pizza",
+      "Are they going to order pizza?",
+      "Are they not / aren’t they going to order pizza?"
+    ]
+  ]
+}

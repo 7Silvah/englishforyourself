@@ -1,0 +1,139 @@
+{
+  "title": "Gerund and Infinitive",
+  "titleEs": "Gerundio e infinitivo",
+  "instruction": "write the correct gerund or infinitive.",
+  "instructionEs": "Escribe el gerundio (verbo + -ing) o el infinitivo (to + verbo) correcto.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "grammar/verbs/verb-forms"
+  ],
+  "topics": [
+    "gerund",
+    "infinitive"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Gerund-and-Infinitive-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I suggest ___ (call) in ten minutes.",
+      "blanks": [
+        {
+          "answers": [
+            "calling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "They don’t mind ___ (listen) to that song.",
+      "blanks": [
+        {
+          "answers": [
+            "listening"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Anna can afford ___ (travel) around the world.",
+      "blanks": [
+        {
+          "answers": [
+            "to travel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "He dislikes ___ (go) to crowded places.",
+      "blanks": [
+        {
+          "answers": [
+            "going"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "I hope ___ (see) very soon.",
+      "blanks": [
+        {
+          "answers": [
+            "to see"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Casey enjoys ___ (visit) the most famous museums around the world.",
+      "blanks": [
+        {
+          "answers": [
+            "visiting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "We decided ___ (leave) the meeting because they were being rude.",
+      "blanks": [
+        {
+          "answers": [
+            "to leave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "She misses ___ (play) the violin in her free time.",
+      "blanks": [
+        {
+          "answers": [
+            "playing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "I like ___ (dance) at parties.",
+      "blanks": [
+        {
+          "answers": [
+            "dancing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "You promised ___ (give) me my money back.",
+      "blanks": [
+        {
+          "answers": [
+            "to give"
+          ]
+        }
+      ]
+    }
+  ]
+}

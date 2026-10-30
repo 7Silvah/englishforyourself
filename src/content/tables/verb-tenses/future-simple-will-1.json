@@ -1,0 +1,44 @@
+{
+  "caption": "Future Simple Tense (Will) – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true
+      },
+      {
+        "text": "I – You – He – She – It – We – They + will + verb",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I – You – He – She – It – We – They + will not / won’t + verb",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Will + I – You – He – She – It – We – They + verb",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

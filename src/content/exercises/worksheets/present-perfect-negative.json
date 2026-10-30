@@ -1,0 +1,153 @@
+{
+  "title": "Present Perfect – Negative Form",
+  "titleEs": "Presente perfecto: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "verb-tenses/present-perfect-tense"
+  ],
+  "topics": [
+    "present-perfect",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Present-Perfect-Tense-Negative-Form-Exercises.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / thank) him for helping me out.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t thanked",
+            "have not thanked"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "My parents ___ (not / catch) the flu.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t caught",
+            "have not caught"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Nathan ___ (not / come) to see me.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t come",
+            "has not come",
+            "’s not come"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "We ___ (not / sell) the house.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t sold",
+            "have not sold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "Amery ___ (not / take) photographs for 1 month.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t taken",
+            "has not taken",
+            "’s not taken"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (not / think) about your proposal.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t thought",
+            "have not thought"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "You ___ (not / deliver) the package.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t delivered",
+            "have not delivered"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "We ___ (not / reach) a conclusion.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t reached",
+            "have not reached"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "He ___ (not / finish) his assignment.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t finished",
+            "has not finished",
+            "’s not finished"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "She ___ (not / participate) in the debate.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t participated",
+            "has not participated",
+            "’s not participated"
+          ]
+        }
+      ]
+    }
+  ]
+}

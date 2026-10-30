@@ -1,0 +1,23 @@
+{
+  "variant": "plain",
+  "head": [
+    [
+      "Relative pronoun",
+      "Use"
+    ]
+  ],
+  "body": [
+    [
+      "Who / that",
+      "People"
+    ],
+    [
+      "Which / that",
+      "Objects, places, animals"
+    ],
+    [
+      "Whose",
+      "Possessions"
+    ]
+  ]
+}

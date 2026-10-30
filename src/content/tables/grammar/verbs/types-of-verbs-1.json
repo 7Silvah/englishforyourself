@@ -1,0 +1,259 @@
+{
+  "caption": "Auxiliary Verbs",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Auxiliary verb",
+        "tone": "pos"
+      },
+      {
+        "text": "Tense",
+        "tone": "neg"
+      },
+      {
+        "text": "Examples",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Be",
+        "header": true,
+        "tone": "pos",
+        "rowSpan": 6
+      },
+      {
+        "text": "Present tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I am a student.",
+          "We are students.",
+          "She is a student."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present continuous / progressive tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I am working.",
+          "We are working.",
+          "He is working."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past continuous / progressive tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I was eating.",
+          "You were eating."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present perfect continuous /progressive tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I have been swimming.",
+          "He has been swimming."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past perfect continuous /progressive tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I had",
+          "been sleeping."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Passive voice",
+        "header": true
+      },
+      {
+        "lines": [
+          "The door is locked.",
+          "The door was locked.",
+          "A new book has been written.",
+          "A new book had been written.",
+          "A new cellphone will be launched today."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Have",
+        "header": true,
+        "tone": "neg",
+        "rowSpan": 5
+      },
+      {
+        "text": "Present perfect tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I have lived here for five years.",
+          "He has lived here for five years."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past perfect tense",
+        "header": true
+      },
+      "I had skipped classes."
+    ],
+    [
+      {
+        "text": "Present perfect continuous/progressive tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I have been dancing.",
+          "She has been dancing."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past perfect continuous/progressive tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "We had",
+          "been writing."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Passive voice",
+        "header": true
+      },
+      {
+        "lines": [
+          "A new restaurant has been opened.",
+          "A new restaurant had been opened."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Do",
+        "header": true,
+        "tone": "q",
+        "rowSpan": 3
+      },
+      {
+        "text": "Present simple tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I do not study.",
+          "She does not study."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past simple tense",
+        "header": true
+      },
+      "We did not study."
+    ],
+    [
+      {
+        "text": "Questions and answers",
+        "header": true
+      },
+      {
+        "lines": [
+          "Do they work?",
+          "Yes, they do.",
+          "No, they don’t.",
+          "Does he work?",
+          "Yes, he does.",
+          "No, he doesn’t"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Will",
+        "header": true,
+        "tone": "nq",
+        "rowSpan": 5
+      },
+      {
+        "text": "Future simple tense",
+        "header": true
+      },
+      "I will pay the bill."
+    ],
+    [
+      {
+        "text": "Future continuous/progressive tense",
+        "header": true
+      },
+      "We will be meeting tomorrow."
+    ],
+    [
+      {
+        "text": "Future perfect tense",
+        "header": true
+      },
+      "You will have arrived by tomorrow."
+    ],
+    [
+      {
+        "text": "Future perfect continuous/progressive tense",
+        "header": true
+      },
+      {
+        "lines": [
+          "I will have been",
+          "learning English."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Questions and answers",
+        "header": true
+      },
+      {
+        "lines": [
+          "Will you go today?",
+          "Yes, I will.",
+          "No, I won’t."
+        ]
+      }
+    ]
+  ]
+}

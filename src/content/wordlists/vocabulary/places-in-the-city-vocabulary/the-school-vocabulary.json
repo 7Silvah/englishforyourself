@@ -1,0 +1,222 @@
+{
+  "kind": "wordlist",
+  "title": "The School Vocabulary",
+  "order": 25,
+  "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-school-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the school in English.",
+  "groups": [
+    {
+      "title": "The school",
+      "items": [
+        {
+          "en": "Subjects:"
+        },
+        {
+          "en": "Arithmetic"
+        },
+        {
+          "en": "Art"
+        },
+        {
+          "en": "Biology"
+        },
+        {
+          "en": "Chemistry"
+        },
+        {
+          "en": "Drama"
+        },
+        {
+          "en": "English"
+        },
+        {
+          "en": "Geography"
+        },
+        {
+          "en": "History"
+        },
+        {
+          "en": "Information technology"
+        },
+        {
+          "en": "Literature"
+        },
+        {
+          "en": "Mathematics / maths / math"
+        },
+        {
+          "en": "Music"
+        },
+        {
+          "en": "Physical education or PE"
+        },
+        {
+          "en": "Physics"
+        },
+        {
+          "en": "Science"
+        }
+      ]
+    },
+    {
+      "title": "Classroom objects vocabulary",
+      "items": [
+        {
+          "en": "Agenda"
+        },
+        {
+          "en": "Backpack"
+        },
+        {
+          "en": "Ballpoints"
+        },
+        {
+          "en": "Binder clips"
+        },
+        {
+          "en": "Binders"
+        },
+        {
+          "en": "Blackboard"
+        },
+        {
+          "en": "Books"
+        },
+        {
+          "en": "Calculator"
+        },
+        {
+          "en": "Chair"
+        },
+        {
+          "en": "Clips"
+        },
+        {
+          "en": "Clock"
+        },
+        {
+          "en": "Coloured pencils (UK) / colored pencils (US)"
+        },
+        {
+          "en": "Compass"
+        },
+        {
+          "en": "Crayons"
+        },
+        {
+          "en": "Desk"
+        },
+        {
+          "en": "Glue"
+        },
+        {
+          "en": "Highlighter"
+        },
+        {
+          "en": "Hole puncher"
+        },
+        {
+          "en": "Map"
+        },
+        {
+          "en": "Notebooks"
+        },
+        {
+          "en": "Notepad"
+        },
+        {
+          "en": "Paper"
+        },
+        {
+          "en": "Pencil case"
+        },
+        {
+          "en": "Pencil sharpener"
+        },
+        {
+          "en": "Pencils"
+        },
+        {
+          "en": "Pins"
+        },
+        {
+          "en": "Protractor"
+        },
+        {
+          "en": "Rubber (UK) / eraser (US)"
+        },
+        {
+          "en": "Ruler"
+        },
+        {
+          "en": "Scissors"
+        },
+        {
+          "en": "Scotch tape"
+        },
+        {
+          "en": "Stapler"
+        },
+        {
+          "en": "Whiteboard"
+        }
+      ]
+    },
+    {
+      "title": "Other school vocabulary",
+      "items": [
+        {
+          "en": "Classmates"
+        },
+        {
+          "en": "Coach"
+        },
+        {
+          "en": "Computer"
+        },
+        {
+          "en": "Fan"
+        },
+        {
+          "en": "Janitor"
+        },
+        {
+          "en": "Librarian"
+        },
+        {
+          "en": "Principal"
+        },
+        {
+          "en": "Projector"
+        },
+        {
+          "en": "School bell"
+        },
+        {
+          "en": "School bus"
+        },
+        {
+          "en": "Students"
+        },
+        {
+          "en": "Teacher"
+        },
+        {
+          "en": "The bathroom"
+        },
+        {
+          "en": "The classroom"
+        },
+        {
+          "en": "The library"
+        },
+        {
+          "en": "The lockers"
+        },
+        {
+          "en": "The principal’s office"
+        }
+      ]
+    }
+  ]
+}

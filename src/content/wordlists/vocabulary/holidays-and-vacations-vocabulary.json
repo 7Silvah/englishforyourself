@@ -1,0 +1,128 @@
+{
+  "kind": "wordlist",
+  "title": "Holidays and Vacations Vocabulary",
+  "order": 40,
+  "legacyPath": "lessons/vocabulary/holidays-and-vacations-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about holidays and vacations in English.",
+  "groups": [
+    {
+      "title": "Holiday and vacations vocabulary",
+      "items": [
+        {
+          "en": "Accommodation"
+        },
+        {
+          "en": "Brochure"
+        },
+        {
+          "en": "Campsite"
+        },
+        {
+          "en": "Car hire (UK) / car rental (US)"
+        },
+        {
+          "en": "Caravan"
+        },
+        {
+          "en": "Check-in"
+        },
+        {
+          "en": "City centre (UK) / downtown (US)"
+        },
+        {
+          "en": "Cruise"
+        },
+        {
+          "en": "Destination"
+        },
+        {
+          "en": "Excursion"
+        },
+        {
+          "en": "Expedition"
+        },
+        {
+          "en": "Guide"
+        },
+        {
+          "en": "High season / peak season"
+        },
+        {
+          "en": "Holiday season"
+        },
+        {
+          "en": "Hostel"
+        },
+        {
+          "en": "Hotel"
+        },
+        {
+          "en": "Inn"
+        },
+        {
+          "en": "Lodging"
+        },
+        {
+          "en": "Low season"
+        },
+        {
+          "en": "Map"
+        },
+        {
+          "en": "One-way ticket"
+        },
+        {
+          "en": "Resort"
+        },
+        {
+          "en": "Road trip"
+        },
+        {
+          "en": "Round-trip ticket"
+        },
+        {
+          "en": "Safari"
+        },
+        {
+          "en": "Sightseeing tour"
+        },
+        {
+          "en": "Sightseer"
+        },
+        {
+          "en": "Souvenir"
+        },
+        {
+          "en": "Ticket"
+        },
+        {
+          "en": "To book a flight"
+        },
+        {
+          "en": "To go sightseeing"
+        },
+        {
+          "en": "To make a reservation"
+        },
+        {
+          "en": "To travel"
+        },
+        {
+          "en": "Tour"
+        },
+        {
+          "en": "Tourists"
+        },
+        {
+          "en": "Travel agency"
+        },
+        {
+          "en": "Traveler"
+        },
+        {
+          "en": "Voyage"
+        }
+      ]
+    }
+  ]
+}

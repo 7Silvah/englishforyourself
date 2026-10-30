@@ -1,0 +1,82 @@
+{
+  "caption": "Parts of Speech",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Part of speech",
+        "tone": "pos"
+      },
+      {
+        "text": "Example",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Nouns",
+        "header": true,
+        "tone": "pos"
+      },
+      "I like *butterflies*."
+    ],
+    [
+      {
+        "text": "Adverbs",
+        "header": true,
+        "tone": "neg"
+      },
+      "I *carefully* planned the wedding."
+    ],
+    [
+      {
+        "text": "Pronouns",
+        "header": true,
+        "tone": "q"
+      },
+      "I like chocolate *cake*."
+    ],
+    [
+      {
+        "text": "Prepositions",
+        "header": true,
+        "tone": "nq"
+      },
+      "We're going to meet *at* 5 o'clock."
+    ],
+    [
+      {
+        "text": "Verbs",
+        "header": true,
+        "tone": "purple"
+      },
+      "I decided *to go* to the party."
+    ],
+    [
+      {
+        "text": "Conjunctions",
+        "header": true,
+        "tone": "teal"
+      },
+      "She is brave *and* confident."
+    ],
+    [
+      {
+        "text": "Adjectives",
+        "header": true,
+        "tone": "neg"
+      },
+      "She is a *creative* student."
+    ],
+    [
+      {
+        "text": "Interjections",
+        "header": true,
+        "tone": "blue"
+      },
+      "*Hey*! Where are you going?"
+    ]
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Future Continuous – Negative Form",
+  "titleEs": "Futuro continuo: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "verb-tenses/future-continuous-tense"
+  ],
+  "topics": [
+    "future-continuous",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Future-Continous-or-Progressive-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / travel) to Argentina next week.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be travelling",
+            "will not be travelling",
+            "’ll not be travelling",
+            "won’t be traveling",
+            "will not be traveling",
+            "’ll not be traveling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "She ___ (not / chat) with Emily.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be chatting",
+            "will not be chatting",
+            "’ll not be chatting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "He ___ (not / work) at the construction on Monday.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be working",
+            "will not be working",
+            "’ll not be working"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "They ___ (not / run) the marathon next weekend.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be running",
+            "will not be running",
+            "’ll not be running"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "I ___ (not / use) my bike this week.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be using",
+            "will not be using",
+            "’ll not be using"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "By the end of the month, it ___ (not / snow) heavily.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be snowing",
+            "will not be snowing",
+            "’ll not be snowing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "She ___ (not / come) to the theater with us.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be coming",
+            "will not be coming",
+            "’ll not be coming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "They ___ (not / host) a graduation party this year.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be hosting",
+            "will not be hosting",
+            "’ll not be hosting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "I ___ (not / organize) the event this semester.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be organizing",
+            "will not be organizing",
+            "’ll not be organizing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "We ___ (not / practice) for the soccer match next month.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t be practicing",
+            "will not be practicing",
+            "’ll not be practicing",
+            "won’t be practising",
+            "will not be practising",
+            "’ll not be practising"
+          ]
+        }
+      ]
+    }
+  ]
+}

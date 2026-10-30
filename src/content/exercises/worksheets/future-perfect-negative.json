@@ -1,0 +1,159 @@
+{
+  "title": "Future Perfect – Negative Form",
+  "titleEs": "Futuro perfecto: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "B2",
+  "lessons": [
+    "verb-tenses/future-perfect-tense"
+  ],
+  "topics": [
+    "future-perfect",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Future-Perfect-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / finish) painting the walls by 10 o’clock.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have finished",
+            "’ll not have finished",
+            "will not have finished"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "They ___ (not / eat) their vegetables by then.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have eaten",
+            "’ll not have eaten",
+            "will not have eaten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "She ___ (not / find) a new apartment by the end of the month.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have found",
+            "’ll not have found",
+            "will not have found"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "We ___ (not / solve) the math problem by the end of the class.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have solved",
+            "’ll not have solved",
+            "will not have solved"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "He ___ (not / repair) the motorcycle by the time you call.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have repaired",
+            "’ll not have repaired",
+            "will not have repaired"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (not / visit) the museum by the end of the day.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have visited",
+            "’ll not have visited",
+            "will not have visited"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "You ___ (not / complete) the task by now.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have completed",
+            "’ll not have completed",
+            "will not have completed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "It ___ (not / stop) raining heavily by the time you arrive home.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have stopped",
+            "’ll not have stopped",
+            "will not have stopped"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "I ___ (not / return) the borrowed books by Friday.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have returned",
+            "’ll not have returned",
+            "will not have returned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "He ___ (not / reach) his destination by 5 o’clock.",
+      "blanks": [
+        {
+          "answers": [
+            "won’t have reached",
+            "’ll not have reached",
+            "will not have reached"
+          ]
+        }
+      ]
+    }
+  ]
+}

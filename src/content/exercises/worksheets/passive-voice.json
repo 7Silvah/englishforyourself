@@ -1,0 +1,140 @@
+{
+  "title": "Passive Voice",
+  "titleEs": "Voz pasiva",
+  "instruction": "write the correct form of the verb given in passive voice.",
+  "instructionEs": "Escribe el verbo en voz pasiva, en el tiempo indicado.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "grammar/active-and-passive-voice"
+  ],
+  "topics": [
+    "passive-voice"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Passive-Voice-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "The wedding picture ___ by my cousin. (to take - past simple).",
+      "blanks": [
+        {
+          "answers": [
+            "was taken"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "The bathrooms ___ every week. (to clean – present simple)",
+      "blanks": [
+        {
+          "answers": [
+            "are cleaned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "A new song ___ tomorrow. (to release – future simple ’will’)",
+      "blanks": [
+        {
+          "answers": [
+            "will be released"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "We ___ by strange people. (to follow – past continuous / progressive)",
+      "blanks": [
+        {
+          "answers": [
+            "were being followed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "Our house ___ by termites. (to infest – present perfect)",
+      "blanks": [
+        {
+          "answers": [
+            "has been infested",
+            "’s been infested"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "The front door ___ by someone. (to break – past simple)",
+      "blanks": [
+        {
+          "answers": [
+            "was broken"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "The documents ___ by the trainee. (to print – present continuous / progressive)",
+      "blanks": [
+        {
+          "answers": [
+            "are being printed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "The event ___ in the old theater. (to hold – future simple ’will’)",
+      "blanks": [
+        {
+          "answers": [
+            "will be held"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "The carrot cake ___ by my mom. (to bake – present perfect)",
+      "blanks": [
+        {
+          "answers": [
+            "has been baked",
+            "’s been baked"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "The plants ___ by the gardener three times a week. (to water – present simple)",
+      "blanks": [
+        {
+          "answers": [
+            "are watered"
+          ]
+        }
+      ]
+    }
+  ]
+}

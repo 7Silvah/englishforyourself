@@ -1,0 +1,210 @@
+{
+  "kind": "wordlist",
+  "title": "Parts of the Body Vocabulary",
+  "order": 13,
+  "legacyPath": "lessons/vocabulary/parts-of-the-body-vocabulary.html",
+  "intro": "In this section you will learn vocabulary words about the parts of the body. In addition, you will also learn vocabulary words about the face.",
+  "groups": [
+    {
+      "title": "Parts of the Body Vocabulary",
+      "items": [
+        {
+          "en": "Arm"
+        },
+        {
+          "en": "Armpit"
+        },
+        {
+          "en": "Back"
+        },
+        {
+          "en": "Bellybutton"
+        },
+        {
+          "en": "Bottom"
+        },
+        {
+          "en": "Buttock"
+        },
+        {
+          "en": "Calf"
+        },
+        {
+          "en": "Chest"
+        },
+        {
+          "en": "Elbow"
+        },
+        {
+          "en": "Forearm"
+        },
+        {
+          "en": "Hand"
+        },
+        {
+          "en": "Head"
+        },
+        {
+          "en": "Hip"
+        },
+        {
+          "en": "Knee"
+        },
+        {
+          "en": "Leg"
+        },
+        {
+          "en": "Neck"
+        },
+        {
+          "en": "Nipple"
+        },
+        {
+          "en": "Shoulder"
+        },
+        {
+          "en": "Stomach / abdomen"
+        },
+        {
+          "en": "Thigh"
+        },
+        {
+          "en": "Upper arm"
+        },
+        {
+          "en": "Wrist"
+        },
+        {
+          "en": "Foot"
+        },
+        {
+          "en": "Heel"
+        },
+        {
+          "en": "Ankle"
+        },
+        {
+          "en": "Arch"
+        },
+        {
+          "en": "Toes"
+        },
+        {
+          "en": "Big toes"
+        },
+        {
+          "en": "Hand"
+        },
+        {
+          "en": "Palm"
+        },
+        {
+          "en": "Thumb"
+        },
+        {
+          "en": "Index finger"
+        },
+        {
+          "en": "Middle finger"
+        },
+        {
+          "en": "Ring finger"
+        },
+        {
+          "en": "Little finger / pinkie"
+        },
+        {
+          "en": "Finger"
+        },
+        {
+          "en": "Fingernail"
+        },
+        {
+          "en": "Knuckle"
+        }
+      ]
+    },
+    {
+      "title": "The face vocabulary",
+      "items": [
+        {
+          "en": "Cheek"
+        },
+        {
+          "en": "Chin"
+        },
+        {
+          "en": "Ear"
+        },
+        {
+          "en": "Ear lobe"
+        },
+        {
+          "en": "Eye"
+        },
+        {
+          "en": "Eyebrow"
+        },
+        {
+          "en": "Eyelash"
+        },
+        {
+          "en": "Eyelid"
+        },
+        {
+          "en": "Forehead"
+        },
+        {
+          "en": "Hair"
+        },
+        {
+          "en": "Iris"
+        },
+        {
+          "en": "Jaw"
+        },
+        {
+          "en": "Lips"
+        },
+        {
+          "en": "Mouth"
+        },
+        {
+          "en": "Nose"
+        },
+        {
+          "en": "Nostril"
+        },
+        {
+          "en": "Pupil"
+        },
+        {
+          "en": "Temple"
+        },
+        {
+          "en": "Tongue"
+        }
+      ]
+    },
+    {
+      "title": "Senses in English",
+      "items": [
+        {
+          "en": "Hearing"
+        },
+        {
+          "en": "Sight"
+        },
+        {
+          "en": "Smell"
+        },
+        {
+          "en": "Taste"
+        },
+        {
+          "en": "Touch"
+        }
+      ]
+    }
+  ]
+}

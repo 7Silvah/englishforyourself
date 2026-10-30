@@ -1,0 +1,122 @@
+{
+  "kind": "wordlist",
+  "title": "Flowers Vocabulary",
+  "order": 44,
+  "legacyPath": "lessons/vocabulary/flowers-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about flowers in English.",
+  "groups": [
+    {
+      "title": "Flowers vocabulary",
+      "items": [
+        {
+          "en": "Allium"
+        },
+        {
+          "en": "Begonia"
+        },
+        {
+          "en": "Bellflower"
+        },
+        {
+          "en": "Bluebell"
+        },
+        {
+          "en": "Bouquet"
+        },
+        {
+          "en": "Buttercup"
+        },
+        {
+          "en": "Camellia"
+        },
+        {
+          "en": "Carnation"
+        },
+        {
+          "en": "Daffodil"
+        },
+        {
+          "en": "Dahlia"
+        },
+        {
+          "en": "Daisy"
+        },
+        {
+          "en": "Fern"
+        },
+        {
+          "en": "Gardenia"
+        },
+        {
+          "en": "Gladiolus"
+        },
+        {
+          "en": "Hyacinth"
+        },
+        {
+          "en": "Hydrangea"
+        },
+        {
+          "en": "Iris"
+        },
+        {
+          "en": "Jasmine"
+        },
+        {
+          "en": "Lavender"
+        },
+        {
+          "en": "Lilac"
+        },
+        {
+          "en": "Lilly"
+        },
+        {
+          "en": "Lobelia"
+        },
+        {
+          "en": "Lotus"
+        },
+        {
+          "en": "Lupine"
+        },
+        {
+          "en": "Magnolia"
+        },
+        {
+          "en": "Marigold"
+        },
+        {
+          "en": "Mimosa"
+        },
+        {
+          "en": "Oleander"
+        },
+        {
+          "en": "Orchid"
+        },
+        {
+          "en": "Primrose"
+        },
+        {
+          "en": "Rose"
+        },
+        {
+          "en": "Snowdrop"
+        },
+        {
+          "en": "Sunflower"
+        },
+        {
+          "en": "Tulip"
+        },
+        {
+          "en": "Violet"
+        },
+        {
+          "en": "Wisteria"
+        }
+      ]
+    }
+  ]
+}

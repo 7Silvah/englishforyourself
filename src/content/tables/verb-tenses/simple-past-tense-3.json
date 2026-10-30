@@ -1,0 +1,62 @@
+{
+  "caption": "Simple Past – Verb to Be Tense – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure Verb to be",
+        "header": true,
+        "rowSpan": 2
+      },
+      {
+        "text": "I – He – She – It + was + complement",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I – He – She – It + was not / wasn’t + complement",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Was + I – He – She – It + complement",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "You – We – They + were + complement",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "You – We – They + were not / weren’t + complement",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Were + You – We – They + complement",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

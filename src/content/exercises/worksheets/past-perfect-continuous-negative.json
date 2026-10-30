@@ -1,0 +1,162 @@
+{
+  "title": "Past Perfect Continuous – Negative Form",
+  "titleEs": "Pasado perfecto continuo: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "B2",
+  "lessons": [
+    "verb-tenses/past-perfect-continuous"
+  ],
+  "topics": [
+    "past-perfect-continuous",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Past-Perfect-Continous-or-Progressive-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / drive) to work for the past week.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been driving",
+            "had not been driving",
+            "’d not been driving"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Joyce and Emily ___ (not / go) to the gym before their membership ended.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been going",
+            "had not been going",
+            "’d not been going"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "He ___ (not / practice) the saxophone for months.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been practicing",
+            "had not been practicing",
+            "’d not been practicing",
+            "hadn’t been practising",
+            "had not been practising",
+            "’d not been practising"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "The little girl ___ (not / play) in the park for days.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been playing",
+            "had not been playing",
+            "’d not been playing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "Max ___ (not / wash) his car since last month before I told him to do it.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been washing",
+            "had not been washing",
+            "’d not been washing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (not / study) English consistently when I noticed my skills had worsened.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been studying",
+            "had not been studying",
+            "’d not been studying"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "They ___ (not / spend) a lot of time outside before they saw what had changed in the country.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been spending",
+            "had not been spending",
+            "’d not been spending"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "She ___ (not / keep) in touch with her friends for a long time before they called her.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been keeping",
+            "had not been keeping",
+            "’d not been keeping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "I ___ (not / follow) the news closely before someone told me what was happening.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been following",
+            "had not been following",
+            "’d not been following"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "Ayden ___ (not / clean) the house regularly when he noticed how messy it had become.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn’t been cleaning",
+            "had not been cleaning",
+            "’d not been cleaning"
+          ]
+        }
+      ]
+    }
+  ]
+}

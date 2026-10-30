@@ -1,0 +1,97 @@
+{
+  "caption": "Simple Past Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I closed the window",
+      "I did not / didn’t close the window",
+      "Did I close the window?",
+      "Did I not / didn’t I close the window?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You closed the window",
+      "You did not / didn’t close the window",
+      "Did you close the window?",
+      "Did you not / didn’t you close the window?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He closed the window",
+      "He did not / didn’t close the window",
+      "Did he close the window?",
+      "Did he not / didn’t he close the window?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She closed the window",
+      "She did not / didn’t close the window",
+      "Did she close the window?",
+      "Did she not / didn’t she close the window?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It closed the window",
+      "It did not / didn’t close the window",
+      "Did it close the window?",
+      "Did it not / didn’t it close the window?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We closed the window",
+      "We did not / didn’t close the window",
+      "Did we close the window?",
+      "Did we not / didn’t we close the window?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They closed the window",
+      "They did not / didn’t close the window",
+      "Did they close the window?",
+      "Did they not / didn’t they close the window?"
+    ]
+  ]
+}

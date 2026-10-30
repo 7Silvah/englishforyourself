@@ -1,0 +1,23 @@
+{
+  "variant": "plain",
+  "head": [
+    [
+      "Relative adverb",
+      "Use"
+    ]
+  ],
+  "body": [
+    [
+      "Where",
+      "Place"
+    ],
+    [
+      "When",
+      "Time"
+    ],
+    [
+      "Why",
+      "Reason"
+    ]
+  ]
+}

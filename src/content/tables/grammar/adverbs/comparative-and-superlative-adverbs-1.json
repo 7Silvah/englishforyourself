@@ -1,0 +1,38 @@
+{
+  "caption": "Irregular Comparative Adverbs",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Adverb",
+        "tone": "q"
+      },
+      {
+        "text": "Comparative",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      "Well",
+      "Better"
+    ],
+    [
+      "Badly",
+      "Worse"
+    ],
+    [
+      "Little",
+      "Less"
+    ],
+    [
+      "Far",
+      "Further or farther (for distance)"
+    ],
+    [
+      "Much",
+      "More"
+    ]
+  ]
+}

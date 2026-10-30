@@ -1,0 +1,320 @@
+{
+  "kind": "wordlist",
+  "title": "Jobs and Occupations",
+  "order": 17,
+  "legacyPath": "lessons/vocabulary/jobs-and-occupations.html",
+  "intro": "In this section you will learn about the different types of jobs and occupations in English.",
+  "groups": [
+    {
+      "title": "Jobs and occupations",
+      "items": [
+        {
+          "en": "Accountant"
+        },
+        {
+          "en": "Actor / actress"
+        },
+        {
+          "en": "Architect"
+        },
+        {
+          "en": "Artist"
+        },
+        {
+          "en": "Astronomer"
+        },
+        {
+          "en": "Author"
+        },
+        {
+          "en": "Baker"
+        },
+        {
+          "en": "Bank clerk"
+        },
+        {
+          "en": "Barber"
+        },
+        {
+          "en": "Barman (UK) / bartender (US)"
+        },
+        {
+          "en": "Beekeeper"
+        },
+        {
+          "en": "Bellboy"
+        },
+        {
+          "en": "Bishop"
+        },
+        {
+          "en": "Bricklayer"
+        },
+        {
+          "en": "Bus driver"
+        },
+        {
+          "en": "Butcher"
+        },
+        {
+          "en": "Cameraman"
+        },
+        {
+          "en": "Caretaker"
+        },
+        {
+          "en": "Carpenter"
+        },
+        {
+          "en": "Cashier"
+        },
+        {
+          "en": "Chauffeur"
+        },
+        {
+          "en": "Chef / cook"
+        },
+        {
+          "en": "Cleaner"
+        },
+        {
+          "en": "Clown"
+        },
+        {
+          "en": "Computer programmer"
+        },
+        {
+          "en": "Construction worker"
+        },
+        {
+          "en": "Consultant"
+        },
+        {
+          "en": "Customs officer"
+        },
+        {
+          "en": "Delivery man"
+        },
+        {
+          "en": "Dentist"
+        },
+        {
+          "en": "Designer"
+        },
+        {
+          "en": "Doctor"
+        },
+        {
+          "en": "Electrician"
+        },
+        {
+          "en": "Engineer"
+        },
+        {
+          "en": "Entrepreneur"
+        },
+        {
+          "en": "Factory worker"
+        },
+        {
+          "en": "Farmer"
+        },
+        {
+          "en": "Fashion designer"
+        },
+        {
+          "en": "Firefighter"
+        },
+        {
+          "en": "Fisherman"
+        },
+        {
+          "en": "Flight attendant"
+        },
+        {
+          "en": "Florist"
+        },
+        {
+          "en": "Gardener"
+        },
+        {
+          "en": "Graphic designer"
+        },
+        {
+          "en": "Hairdresser"
+        },
+        {
+          "en": "Interior designer"
+        },
+        {
+          "en": "Interpreter"
+        },
+        {
+          "en": "Janitor"
+        },
+        {
+          "en": "Jeweller (UK) / jeweler (US)"
+        },
+        {
+          "en": "Journalist"
+        },
+        {
+          "en": "Judge"
+        },
+        {
+          "en": "Lawyer"
+        },
+        {
+          "en": "Lecturer"
+        },
+        {
+          "en": "Librarian"
+        },
+        {
+          "en": "Lifeguard"
+        },
+        {
+          "en": "Maid"
+        },
+        {
+          "en": "Mechanic"
+        },
+        {
+          "en": "Miner"
+        },
+        {
+          "en": "Model"
+        },
+        {
+          "en": "Nanny"
+        },
+        {
+          "en": "Newsreader"
+        },
+        {
+          "en": "Nurse"
+        },
+        {
+          "en": "Office worker"
+        },
+        {
+          "en": "Optician"
+        },
+        {
+          "en": "Painter"
+        },
+        {
+          "en": "Pharmacist"
+        },
+        {
+          "en": "Photographer"
+        },
+        {
+          "en": "Pilot"
+        },
+        {
+          "en": "Plumber"
+        },
+        {
+          "en": "Policewoman / policeman"
+        },
+        {
+          "en": "Politician"
+        },
+        {
+          "en": "Postman"
+        },
+        {
+          "en": "Priest"
+        },
+        {
+          "en": "Psychiatrist"
+        },
+        {
+          "en": "Psychologist"
+        },
+        {
+          "en": "Real estate agent"
+        },
+        {
+          "en": "Receptionist"
+        },
+        {
+          "en": "Refuse collector / dustman"
+        },
+        {
+          "en": "Reporter"
+        },
+        {
+          "en": "Sailor"
+        },
+        {
+          "en": "Saleswoman / salesman"
+        },
+        {
+          "en": "Scientist"
+        },
+        {
+          "en": "Secretary"
+        },
+        {
+          "en": "Shoemaker"
+        },
+        {
+          "en": "Shop assistant"
+        },
+        {
+          "en": "Singer"
+        },
+        {
+          "en": "Soldier"
+        },
+        {
+          "en": "Sports instructor"
+        },
+        {
+          "en": "Stockbroker"
+        },
+        {
+          "en": "Street vendor"
+        },
+        {
+          "en": "Surgeon"
+        },
+        {
+          "en": "Tailor / seamstress"
+        },
+        {
+          "en": "Taxi driver"
+        },
+        {
+          "en": "Teacher"
+        },
+        {
+          "en": "Therapist"
+        },
+        {
+          "en": "Tourist guide"
+        },
+        {
+          "en": "Traffic warden"
+        },
+        {
+          "en": "Translator"
+        },
+        {
+          "en": "Travel agent"
+        },
+        {
+          "en": "Veterinary"
+        },
+        {
+          "en": "Waiter / waitress"
+        },
+        {
+          "en": "Window cleaner"
+        }
+      ]
+    }
+  ]
+}

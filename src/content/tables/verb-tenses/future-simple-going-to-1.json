@@ -1,0 +1,79 @@
+{
+  "caption": "Future Simple Tense (Going to) – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true,
+        "rowSpan": 3
+      },
+      {
+        "text": "I + am + going to + verb",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I + am not + going to + verb",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Am + I + going to + verb",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "He – She – It + is + going to + verb",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "He – She – It + is not / isn’t + going to + verb",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Is + He – She – It + going to + verb",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "You – We – They + are + going to + verb",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "You – We – They + are not / aren’t + going to + verb",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Are + You – We – They + going to + verb",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

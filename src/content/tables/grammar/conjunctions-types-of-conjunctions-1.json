@@ -1,0 +1,67 @@
+{
+  "caption": "Subordinating Conjunctions",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Type",
+        "tone": "pos"
+      },
+      {
+        "text": "Subordinating conjunctions",
+        "tone": "neg"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Time",
+        "header": true
+      },
+      "when, while, as, before, after, until, since, as soon as"
+    ],
+    [
+      {
+        "text": "Comparison",
+        "header": true
+      },
+      "as…as, than, whereas"
+    ],
+    [
+      {
+        "text": "Concession",
+        "header": true
+      },
+      "although, though, even though, while, whereas"
+    ],
+    [
+      {
+        "text": "Condition",
+        "header": true
+      },
+      "if, unless, provided (that), as long as, in case"
+    ],
+    [
+      {
+        "text": "Place",
+        "header": true
+      },
+      "where, wherever"
+    ],
+    [
+      {
+        "text": "Manner",
+        "header": true
+      },
+      "as, as if, as though, like"
+    ],
+    [
+      {
+        "text": "Cause and effect",
+        "header": true
+      },
+      "because, since, as, so that, so…that"
+    ]
+  ]
+}

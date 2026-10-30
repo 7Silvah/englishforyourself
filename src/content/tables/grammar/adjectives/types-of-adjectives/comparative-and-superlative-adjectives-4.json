@@ -1,0 +1,46 @@
+{
+  "caption": "Irregular Superlative Adjectives",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Adjective",
+        "tone": "q"
+      },
+      {
+        "text": "Superlatives",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      "Good",
+      "Best"
+    ],
+    [
+      "Bad",
+      "Worst"
+    ],
+    [
+      "Little",
+      "Least"
+    ],
+    [
+      "Far",
+      "Furthest or farthest (for distance)"
+    ],
+    [
+      "Well",
+      "Best"
+    ],
+    [
+      "Many",
+      "Most"
+    ],
+    [
+      "Much",
+      "Most"
+    ]
+  ]
+}

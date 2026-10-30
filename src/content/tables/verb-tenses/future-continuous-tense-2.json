@@ -1,0 +1,97 @@
+{
+  "caption": "Future Continuous / Progressive Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I will / I’ll be singing",
+      "I will not / won’t be singing",
+      "Will I be singing?",
+      "Will I not / won’t I be singing?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You will / you’ll be singing",
+      "You will not / won’t be singing",
+      "Will you be singing?",
+      "Will you not / won’t you be singing?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He will / he’ll be singing",
+      "He will not / won’t be singing",
+      "Will he be singing?",
+      "Will he not / won’t he be singing?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She will / she’ll be singing",
+      "She will not / won’t be singing",
+      "Will she be singing?",
+      "Will she not / won’t she be singing?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It will / it’ll be singing",
+      "It will not / won’t be singing",
+      "Will it be singing?",
+      "Will it not / won’t it be singing?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We will / we’ll be singing",
+      "We will not / won’t be singing",
+      "Will we be singing?",
+      "Will we not / won’t we be singing?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They will / they’ll be singing",
+      "They will not / won’t be singing",
+      "Will they be singing?",
+      "Will they not / won’t they be singing?"
+    ]
+  ]
+}

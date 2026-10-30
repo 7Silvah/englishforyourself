@@ -1,0 +1,125 @@
+{
+  "kind": "wordlist",
+  "title": "The Office Vocabulary",
+  "order": 28,
+  "legacyPath": "lessons/vocabulary/the-office-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the office in English.",
+  "groups": [
+    {
+      "title": "The office vocabulary",
+      "items": [
+        {
+          "en": "Bin"
+        },
+        {
+          "en": "Box"
+        },
+        {
+          "en": "Briefcase"
+        },
+        {
+          "en": "Bulletin board"
+        },
+        {
+          "en": "Calendar"
+        },
+        {
+          "en": "Clipboard"
+        },
+        {
+          "en": "Computer"
+        },
+        {
+          "en": "Copier"
+        },
+        {
+          "en": "Cubicle"
+        },
+        {
+          "en": "Desk"
+        },
+        {
+          "en": "Drawer"
+        },
+        {
+          "en": "Envelope"
+        },
+        {
+          "en": "Fax machine"
+        },
+        {
+          "en": "File"
+        },
+        {
+          "en": "File folder"
+        },
+        {
+          "en": "Filing cabinet"
+        },
+        {
+          "en": "Keyboard"
+        },
+        {
+          "en": "Marker"
+        },
+        {
+          "en": "Monitor"
+        },
+        {
+          "en": "Mouse"
+        },
+        {
+          "en": "Paperclip"
+        },
+        {
+          "en": "Pencil"
+        },
+        {
+          "en": "Pencil holder"
+        },
+        {
+          "en": "Photocopier"
+        },
+        {
+          "en": "Photocopy"
+        },
+        {
+          "en": "Scanner"
+        },
+        {
+          "en": "Scotch tape"
+        },
+        {
+          "en": "Sheet of paper"
+        },
+        {
+          "en": "Shredder"
+        },
+        {
+          "en": "Staple"
+        },
+        {
+          "en": "Staple remover"
+        },
+        {
+          "en": "Stapler"
+        },
+        {
+          "en": "Tape"
+        },
+        {
+          "en": "Telephone"
+        },
+        {
+          "en": "Waste bin"
+        },
+        {
+          "en": "Water cooler"
+        },
+        {
+          "en": "White board"
+        }
+      ]
+    }
+  ]
+}

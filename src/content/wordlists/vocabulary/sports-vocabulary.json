@@ -1,0 +1,137 @@
+{
+  "kind": "wordlist",
+  "title": "Sports Vocabulary",
+  "order": 10,
+  "legacyPath": "lessons/vocabulary/sports-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the sports in English.",
+  "groups": [
+    {
+      "title": "Sports vocabulary",
+      "items": [
+        {
+          "en": "Aerobics"
+        },
+        {
+          "en": "Archery"
+        },
+        {
+          "en": "Badminton"
+        },
+        {
+          "en": "Baseball"
+        },
+        {
+          "en": "Basketball"
+        },
+        {
+          "en": "Biking"
+        },
+        {
+          "en": "Bowling"
+        },
+        {
+          "en": "Boxing"
+        },
+        {
+          "en": "Canoeing"
+        },
+        {
+          "en": "Dancing"
+        },
+        {
+          "en": "Fencing"
+        },
+        {
+          "en": "Fishing"
+        },
+        {
+          "en": "Football (UK) / soccer (US)"
+        },
+        {
+          "en": "Golf"
+        },
+        {
+          "en": "Golfing"
+        },
+        {
+          "en": "Gymnastics"
+        },
+        {
+          "en": "Handball"
+        },
+        {
+          "en": "Hockey"
+        },
+        {
+          "en": "Horseback riding"
+        },
+        {
+          "en": "Ice hockey (UK) / hockey (US)"
+        },
+        {
+          "en": "Judo"
+        },
+        {
+          "en": "Karate"
+        },
+        {
+          "en": "Kayaking"
+        },
+        {
+          "en": "Martial arts"
+        },
+        {
+          "en": "Motorcycling"
+        },
+        {
+          "en": "Paddle boarding"
+        },
+        {
+          "en": "Parachuting"
+        },
+        {
+          "en": "Running"
+        },
+        {
+          "en": "Sailing"
+        },
+        {
+          "en": "Scuba diving"
+        },
+        {
+          "en": "Skateboarding"
+        },
+        {
+          "en": "Skiing"
+        },
+        {
+          "en": "Skydiving"
+        },
+        {
+          "en": "Snowboarding"
+        },
+        {
+          "en": "Taekwondo"
+        },
+        {
+          "en": "Track and field"
+        },
+        {
+          "en": "Volleyball"
+        },
+        {
+          "en": "Water polo"
+        },
+        {
+          "en": "Weightlifting"
+        },
+        {
+          "en": "Windsurfing"
+        },
+        {
+          "en": "Wrestling"
+        }
+      ]
+    }
+  ]
+}

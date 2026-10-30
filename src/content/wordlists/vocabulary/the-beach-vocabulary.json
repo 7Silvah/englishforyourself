@@ -1,0 +1,116 @@
+{
+  "kind": "wordlist",
+  "title": "The Beach Vocabulary",
+  "order": 29,
+  "legacyPath": "lessons/vocabulary/the-beach-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the beach in English.",
+  "groups": [
+    {
+      "title": "Beach vocabulary",
+      "items": [
+        {
+          "en": "Air mattress"
+        },
+        {
+          "en": "Beach ball"
+        },
+        {
+          "en": "Beach umbrella"
+        },
+        {
+          "en": "Bikini"
+        },
+        {
+          "en": "Binoculars"
+        },
+        {
+          "en": "Bucket"
+        },
+        {
+          "en": "Cooler / cool box"
+        },
+        {
+          "en": "Deckchair (UK) / beach chair (US)"
+        },
+        {
+          "en": "Diver"
+        },
+        {
+          "en": "Diving mask"
+        },
+        {
+          "en": "Flip-flops"
+        },
+        {
+          "en": "Goggles"
+        },
+        {
+          "en": "Life guard"
+        },
+        {
+          "en": "Life jacket (UK) / life vest (US)"
+        },
+        {
+          "en": "Life preserver / buoy"
+        },
+        {
+          "en": "Lighthouse"
+        },
+        {
+          "en": "Raft"
+        },
+        {
+          "en": "Regulator"
+        },
+        {
+          "en": "Sand"
+        },
+        {
+          "en": "Sandcastle"
+        },
+        {
+          "en": "Sea"
+        },
+        {
+          "en": "Seashore"
+        },
+        {
+          "en": "Seaweed"
+        },
+        {
+          "en": "Shell"
+        },
+        {
+          "en": "Snorkel"
+        },
+        {
+          "en": "Sunglasses"
+        },
+        {
+          "en": "Sunscreen"
+        },
+        {
+          "en": "Surfboard"
+        },
+        {
+          "en": "Swim ring"
+        },
+        {
+          "en": "Swimming suit / bathing suit"
+        },
+        {
+          "en": "Swimming trunks"
+        },
+        {
+          "en": "Swimsuit"
+        },
+        {
+          "en": "Towel"
+        },
+        {
+          "en": "Wave"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "caption": "Present Simple Tense – Verb to Be – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I am an easy-going person",
+      "I am not / I’m not an easy-going person",
+      "Am I an easy-going person?",
+      "Am I not an easy-going person?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You are an easy-going person",
+      "You are not / you’re not / you aren’t an easy-going person",
+      "Are you an easy-going person?",
+      "Are you not / aren’t you an easy-going person?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He is an easy-going person",
+      "He is not / he’s not / he isn’t an easy-going person",
+      "Is he an easy-going person?",
+      "Is he not/ isn’t he an easy-going person?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She is an easy-going person",
+      "She is not / she’s not / she isn’t an easy-going person",
+      "Is she an easy-going person?",
+      "Is she not / isn’t she an easy-going person?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It is cold",
+      "It is not / it’s not / it isn’t cold",
+      "Is it cold?",
+      "Is it not / isn’t it cold?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We are easy-going people",
+      "We are not / we’re not / we aren’t easy-going people",
+      "Are we easy-going people?",
+      "Are we not / aren’t we easy-going people?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They are easy-going people",
+      "They are not / they’re not / they aren’t easy-going people",
+      "Are they easy-going people?",
+      "Are they not / aren’t they easy-going people?"
+    ]
+  ]
+}

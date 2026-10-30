@@ -1,0 +1,101 @@
+{
+  "kind": "wordlist",
+  "title": "Daily Routines Vocabulary",
+  "order": 16,
+  "legacyPath": "lessons/vocabulary/daily-routines-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about daily routines in English.",
+  "groups": [
+    {
+      "title": "Daily routines vocabulary",
+      "items": [
+        {
+          "en": "To wake up"
+        },
+        {
+          "en": "To get up"
+        },
+        {
+          "en": "To make my bed"
+        },
+        {
+          "en": "To take a shower"
+        },
+        {
+          "en": "To brush my teeth"
+        },
+        {
+          "en": "To comb my hair"
+        },
+        {
+          "en": "To get dressed"
+        },
+        {
+          "en": "To have breakfast"
+        },
+        {
+          "en": "To drive / go to work"
+        },
+        {
+          "en": "To start work"
+        },
+        {
+          "en": "To finish work"
+        },
+        {
+          "en": "To get / arrive home"
+        },
+        {
+          "en": "To go to school"
+        },
+        {
+          "en": "To eat lunch"
+        },
+        {
+          "en": "To do my homework"
+        },
+        {
+          "en": "To study"
+        },
+        {
+          "en": "To watch television"
+        },
+        {
+          "en": "To do the laundry"
+        },
+        {
+          "en": "To iron the clothes"
+        },
+        {
+          "en": "To hang the clothes"
+        },
+        {
+          "en": "To sweep the floor"
+        },
+        {
+          "en": "To vacuum the floor"
+        },
+        {
+          "en": "To do the dishes"
+        },
+        {
+          "en": "To take out the rubbish"
+        },
+        {
+          "en": "To read the paper"
+        },
+        {
+          "en": "To wash the car"
+        },
+        {
+          "en": "To have dinner"
+        },
+        {
+          "en": "To go to bed"
+        },
+        {
+          "en": "To fall asleep / sleep"
+        }
+      ]
+    }
+  ]
+}

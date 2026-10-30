@@ -1,0 +1,243 @@
+{
+  "caption": "Direct and Indirect / Reported Speech",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Direct speech",
+        "tone": "pos"
+      },
+      {
+        "text": "Indirect or reported speech",
+        "tone": "neg"
+      },
+      {
+        "text": "Examples",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Simple present",
+        "header": true
+      },
+      "Past simple",
+      {
+        "lines": [
+          "Direct speech: “I play soccer,” she said.",
+          "Reported speech: she said that she played soccer."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present continuous / progressive",
+        "header": true
+      },
+      "Past continuous / progressive",
+      {
+        "lines": [
+          "Direct speech: “I’m eating cereal,” he said.",
+          "Reported speech: he said that he was eating cereal."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present perfect",
+        "header": true
+      },
+      "Past perfect",
+      {
+        "lines": [
+          "Direct speech: “We have visited Greece five times,” they said.",
+          "Reported speech: they said that they had visited Greece five times."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Present perfect continuous / progressive",
+        "header": true
+      },
+      "Past perfect continuous / progressive",
+      {
+        "lines": [
+          "Direct speech: “I have been drinking a lot of water,” she said.",
+          "Reported speech: she said that she had been drinking a lot of water."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past simple",
+        "header": true
+      },
+      "Past simple or past perfect",
+      {
+        "lines": [
+          "Direct speech: “I danced with Tommy,” she said.",
+          "Reported speech: she said that she danced / had danced with Tommy."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past continuous / progressive",
+        "header": true
+      },
+      "Past continuous or past perfect continuous",
+      {
+        "lines": [
+          "Direct speech: “I was avoiding my responsibilities,” Matt said",
+          "Reported speech: Matt said that he was avoiding / had been avoiding his responsibilities."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past perfect",
+        "header": true
+      },
+      "Past perfect",
+      {
+        "lines": [
+          "Direct speech: “I had accepted the offer,” you said.",
+          "Reported speech: you said that you had accepted the offer."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past perfect continuous / progressive",
+        "header": true
+      },
+      "Past perfect continuous / progressive",
+      {
+        "lines": [
+          "Direct speech: “I had been learning English for seven years,” she said.",
+          "Reported speech: she said that she had been learning English for seven years."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Future simple (will)",
+        "header": true
+      },
+      "Would",
+      {
+        "lines": [
+          "Direct speech: “I will buy it tomorrow,” Brian said.",
+          "Reported speech: Brian said that he would buy it the next / following day."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Future (going to)",
+        "header": true
+      },
+      "Was / were going to",
+      {
+        "lines": [
+          "Direct speech: “I’m going to the city,” she said.",
+          "Reported speech: she said that she was going to go to the city."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Would",
+        "header": true
+      },
+      "Would",
+      {
+        "lines": [
+          "Direct speech: “I would guess the answer,” he said.",
+          "Reported speech: he said that he would guess the answer."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Can",
+        "header": true
+      },
+      "Could",
+      {
+        "lines": [
+          "Direct speech: “I can explain the topic,” Amanda said.",
+          "Reported speech: Amanda said that she could explain the topic."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Could",
+        "header": true
+      },
+      "Could",
+      {
+        "lines": [
+          "Direct speech: “I could go,” she said.",
+          "Reported speech: She said that she could go."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Should",
+        "header": true
+      },
+      "Should",
+      {
+        "lines": [
+          "Direct speech: “I should drink more water,” James said.",
+          "Reported speech: James said that he should drink more water."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Must",
+        "header": true
+      },
+      "Had to",
+      {
+        "lines": [
+          "Direct speech: “I must write the essay,” Jennifer said.",
+          "Reported speech: Jennifer said that she had to write the essay."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "May",
+        "header": true
+      },
+      "Might",
+      {
+        "lines": [
+          "Direct speech: “I may go to the park,” he said.",
+          "Reported speech: He said that he might go to the park."
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Might",
+        "header": true
+      },
+      "Might",
+      {
+        "lines": [
+          "Direct speech: “I might identify the problem,” she said.",
+          "Reported speech: she said that she might identify the problem."
+        ]
+      }
+    ]
+  ]
+}

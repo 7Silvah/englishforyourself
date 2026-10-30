@@ -1,0 +1,22 @@
+{
+  "variant": "plain",
+  "head": [
+    [
+      "Position",
+      "Singular",
+      "Plural"
+    ]
+  ],
+  "body": [
+    [
+      "Near",
+      "This",
+      "These"
+    ],
+    [
+      "Far",
+      "That",
+      "Those"
+    ]
+  ]
+}

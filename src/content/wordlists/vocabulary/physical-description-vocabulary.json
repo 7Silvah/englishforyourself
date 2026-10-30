@@ -1,0 +1,110 @@
+{
+  "kind": "wordlist",
+  "title": "Physical Description Vocabulary",
+  "order": 12,
+  "legacyPath": "lessons/vocabulary/physical-description-vocabulary.html",
+  "intro": "In this section, you will learn physical description vocabulary words in English.",
+  "groups": [
+    {
+      "title": "Physical descriptions vocabulary",
+      "items": [
+        {
+          "en": "Tall"
+        },
+        {
+          "en": "Small"
+        },
+        {
+          "en": "Short"
+        },
+        {
+          "en": "Medium height"
+        },
+        {
+          "en": "Young"
+        },
+        {
+          "en": "Old"
+        },
+        {
+          "en": "Skinny"
+        },
+        {
+          "en": "Thin"
+        },
+        {
+          "en": "Slim"
+        },
+        {
+          "en": "Chubby"
+        },
+        {
+          "en": "Overweight or fat"
+        },
+        {
+          "en": "Large"
+        },
+        {
+          "en": "Muscular"
+        },
+        {
+          "en": "Slender"
+        },
+        {
+          "en": "Well-built"
+        },
+        {
+          "en": "Beautiful"
+        },
+        {
+          "en": "Pretty"
+        },
+        {
+          "en": "Handsome"
+        },
+        {
+          "en": "Sun-tanned"
+        },
+        {
+          "en": "Pale"
+        },
+        {
+          "en": "Long hair"
+        },
+        {
+          "en": "Short hair"
+        },
+        {
+          "en": "Straight hair"
+        },
+        {
+          "en": "Wavy hair"
+        },
+        {
+          "en": "Curly hair"
+        },
+        {
+          "en": "Brown / black / blonde / red / dyed hair"
+        },
+        {
+          "en": "Blue / green / brown eyes"
+        },
+        {
+          "en": "(A) small / big / long nose"
+        },
+        {
+          "en": "Bald"
+        },
+        {
+          "en": "Beard"
+        },
+        {
+          "en": "Pimples"
+        },
+        {
+          "en": "Scruffy"
+        }
+      ]
+    }
+  ]
+}

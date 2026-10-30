@@ -1,0 +1,104 @@
+{
+  "kind": "wordlist",
+  "title": "Camping Vocabulary",
+  "order": 37,
+  "legacyPath": "lessons/vocabulary/camping-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about camping in English.",
+  "groups": [
+    {
+      "title": "Camping vocabulary",
+      "items": [
+        {
+          "en": "Axe"
+        },
+        {
+          "en": "Backpack"
+        },
+        {
+          "en": "Bedroll"
+        },
+        {
+          "en": "Binoculars"
+        },
+        {
+          "en": "Camper van"
+        },
+        {
+          "en": "Campfire"
+        },
+        {
+          "en": "Compass"
+        },
+        {
+          "en": "Cooler / portable freezer"
+        },
+        {
+          "en": "Deck chair"
+        },
+        {
+          "en": "First aid kit"
+        },
+        {
+          "en": "Fishing rod"
+        },
+        {
+          "en": "Hammock"
+        },
+        {
+          "en": "Hatchet"
+        },
+        {
+          "en": "Hiking boots"
+        },
+        {
+          "en": "Kettle"
+        },
+        {
+          "en": "Knife"
+        },
+        {
+          "en": "Lantern"
+        },
+        {
+          "en": "Lighter"
+        },
+        {
+          "en": "Map"
+        },
+        {
+          "en": "Marshmallows"
+        },
+        {
+          "en": "Matches"
+        },
+        {
+          "en": "Mug"
+        },
+        {
+          "en": "Pocketknife"
+        },
+        {
+          "en": "Repellent"
+        },
+        {
+          "en": "Rope"
+        },
+        {
+          "en": "Sleeping bag"
+        },
+        {
+          "en": "Tent"
+        },
+        {
+          "en": "Thermos"
+        },
+        {
+          "en": "Tinned food (UK) / canned food (US)"
+        },
+        {
+          "en": "Torch (UK) / flashlight (US)"
+        }
+      ]
+    }
+  ]
+}

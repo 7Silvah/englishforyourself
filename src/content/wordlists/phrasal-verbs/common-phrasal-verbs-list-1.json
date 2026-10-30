@@ -1,0 +1,139 @@
+{
+  "kind": "wordlist",
+  "title": "Common Phrasal Verbs list 1",
+  "order": 9,
+  "legacyPath": "lessons/phrasal-verbs/common-phrasal-verbs-list-1.html",
+  "intro": "Learn the most common phrasal verbs in English with the following list.",
+  "groups": [
+    {
+      "title": "Common phrasal verbs in English",
+      "items": [
+        {
+          "en": "To abide by",
+          "meanings": [
+            "To obey or to follow a rule."
+          ]
+        },
+        {
+          "en": "To call for",
+          "meanings": [
+            "To require or request someone or something."
+          ]
+        },
+        {
+          "en": "To call off",
+          "meanings": [
+            "To cancel an event."
+          ]
+        },
+        {
+          "en": "To call up",
+          "meanings": [
+            "To phone someone."
+          ]
+        },
+        {
+          "en": "To calm down",
+          "meanings": [
+            "To become less anxious."
+          ]
+        },
+        {
+          "en": "To carry away",
+          "meanings": [
+            "When you get overwhelmed by a situation."
+          ]
+        },
+        {
+          "en": "To carry on",
+          "meanings": [
+            "To continue doing something; an activity, a performance, etc.",
+            "To behave in a way that is not appropriate."
+          ]
+        },
+        {
+          "en": "To carry out",
+          "meanings": [
+            "To execute a plan."
+          ]
+        },
+        {
+          "en": "To carry over",
+          "meanings": [
+            "To extend something from one time to another."
+          ]
+        },
+        {
+          "en": "To dive into",
+          "meanings": [
+            "To start doing something you like with enthusiasm."
+          ]
+        },
+        {
+          "en": "To draw in",
+          "meanings": [
+            "To make someone get interested in something.",
+            "To approach someone or something."
+          ]
+        },
+        {
+          "en": "To draw out",
+          "meanings": [
+            "To make something prolong how long it lasts.",
+            "To obtain or elicit something."
+          ]
+        },
+        {
+          "en": "To draw up",
+          "meanings": [
+            "To write or plan something."
+          ]
+        },
+        {
+          "en": "To dress up",
+          "meanings": [
+            "To wear formal clothes for a special event."
+          ]
+        },
+        {
+          "en": "To end up",
+          "meanings": [
+            "To find yourself in a particular situation or place."
+          ]
+        },
+        {
+          "en": "To fall apart",
+          "meanings": [
+            "When something breaks into pieces.",
+            "When you experience a breakdown in a relationship or something planned"
+          ]
+        },
+        {
+          "en": "To fall out",
+          "meanings": [
+            "When you disagree with someone else.",
+            "When something becomes detached."
+          ]
+        },
+        {
+          "en": "To figure out",
+          "meanings": [
+            "When you understand something through reasoning."
+          ]
+        },
+        {
+          "en": "To fill in for somebody",
+          "meanings": [
+            "When you take someone’s place in their job temporarily because of their absence."
+          ]
+        },
+        {
+          "en": "To fill in",
+          "meanings": [
+            "To provide information in a document."
+          ]
+        }
+      ]
+    }
+  ]
+}

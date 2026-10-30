@@ -1,0 +1,98 @@
+{
+  "caption": "Personal Pronouns",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      "",
+      {
+        "text": "Subject",
+        "tone": "nq"
+      },
+      {
+        "text": "Object",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Singular",
+        "header": true,
+        "tone": "neg",
+        "rowSpan": 3
+      },
+      {
+        "text": "1st person",
+        "header": true,
+        "tone": "pos"
+      },
+      "I",
+      "Me"
+    ],
+    [
+      {
+        "text": "2nd person",
+        "header": true,
+        "tone": "pos"
+      },
+      "You",
+      "You"
+    ],
+    [
+      {
+        "text": "3rd person",
+        "header": true,
+        "tone": "pos"
+      },
+      {
+        "lines": [
+          "He",
+          "She",
+          "It"
+        ]
+      },
+      {
+        "lines": [
+          "Him",
+          "Her",
+          "It"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Plural",
+        "header": true,
+        "tone": "purple",
+        "rowSpan": 3
+      },
+      {
+        "text": "1st person",
+        "header": true,
+        "tone": "purple"
+      },
+      "We",
+      "Us"
+    ],
+    [
+      {
+        "text": "2nd person",
+        "header": true,
+        "tone": "purple"
+      },
+      "You",
+      "You"
+    ],
+    [
+      {
+        "text": "3rd person",
+        "header": true,
+        "tone": "purple"
+      },
+      "They",
+      "Them"
+    ]
+  ]
+}

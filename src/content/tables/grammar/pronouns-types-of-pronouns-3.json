@@ -1,0 +1,86 @@
+{
+  "caption": "Reflexive Pronouns",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Subject",
+        "tone": "nq"
+      },
+      {
+        "text": "Reflexive pronoun",
+        "tone": "q"
+      },
+      {
+        "text": "Example",
+        "tone": "pos"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "myself",
+      "I cut **myself** while playing with the scissors."
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "yourself",
+      "You should be proud of **yourself**."
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "himself",
+      "He came to the store **himself**."
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "herself",
+      "Lucy bought **herself** a new pair of boots."
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "itself",
+      "The TV turned **itself** on."
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "ourselves",
+      "We served **ourselves** dinner."
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "yourselves",
+      "Take care of **yourselves**."
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "themselves",
+      "They hurt **themselves**."
+    ]
+  ]
+}

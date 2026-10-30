@@ -1,0 +1,50 @@
+{
+  "kind": "wordlist",
+  "title": "Expressions to Show Concern",
+  "order": 3,
+  "legacyPath": "lessons/ways-to-say/expressions-to-show-concern.html",
+  "intro": "In this section you will learn expressions to show concern in English.",
+  "groups": [
+    {
+      "title": "Ways to show concern in English",
+      "items": [
+        {
+          "en": "Are you alright?"
+        },
+        {
+          "en": "Are you feeling okay?"
+        },
+        {
+          "en": "Can I help in any way?"
+        },
+        {
+          "en": "Do you need a shoulder to cry on?"
+        },
+        {
+          "en": "Do you want to talk about it?"
+        },
+        {
+          "en": "Is everything alright?"
+        },
+        {
+          "en": "Is there anything I can do?"
+        },
+        {
+          "en": "What’s the matter?"
+        },
+        {
+          "en": "What’s wrong?"
+        },
+        {
+          "en": "Why the long face?"
+        },
+        {
+          "en": "You don’t seem like yourself today."
+        },
+        {
+          "en": "You seem upset."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "title": "First Conditional",
+  "titleEs": "Primer condicional",
+  "instruction": "write the correct form of the verbs in brackets.",
+  "instructionEs": "Escribe los verbos entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "grammar/conditionals"
+  ],
+  "topics": [
+    "conditionals",
+    "first-conditional"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/First-Conditional-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "If I ___ (to finish) my homework, I ___ (to watch) TV.",
+      "blanks": [
+        {
+          "answers": [
+            "finish"
+          ]
+        },
+        {
+          "answers": [
+            "will watch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "If John ___ (to spend) all of his savings, he ___ (not / have) enough money to pay the rent.",
+      "blanks": [
+        {
+          "answers": [
+            "spends"
+          ]
+        },
+        {
+          "answers": [
+            "won’t have",
+            "’ll not have",
+            "will not have"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "If she ___ (to finish) eating, she ___ (to take) a nap.",
+      "blanks": [
+        {
+          "answers": [
+            "finishes"
+          ]
+        },
+        {
+          "answers": [
+            "will take",
+            "’ll take"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "If you ___ (to call) me, I ___ (to answer) you.",
+      "blanks": [
+        {
+          "answers": [
+            "call"
+          ]
+        },
+        {
+          "answers": [
+            "will answer",
+            "’ll answer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "They ___ (to miss) the play if they ___ (not / leave) soon.",
+      "blanks": [
+        {
+          "answers": [
+            "will miss",
+            "’ll miss"
+          ]
+        },
+        {
+          "answers": [
+            "don’t leave",
+            "do not leave"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "If I ___ (not / drink) coffee, I ___ (to get) a headache.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t drink",
+            "do not drink"
+          ]
+        },
+        {
+          "answers": [
+            "will get",
+            "’ll get"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "Olivia ___ (to walk) to work if her car ___ (to break down).",
+      "blanks": [
+        {
+          "answers": [
+            "will walk"
+          ]
+        },
+        {
+          "answers": [
+            "breaks down"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "If he ___ (not / take) a break from work, he ___ (to get) exhausted.",
+      "blanks": [
+        {
+          "answers": [
+            "doesn’t take",
+            "does not take"
+          ]
+        },
+        {
+          "answers": [
+            "will get"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "If you ___ (not / clean) your desk, it ___ (to get) dirtier.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t clean",
+            "do not clean"
+          ]
+        },
+        {
+          "answers": [
+            "will get"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "We ___ (to be) congratulated if we ___ (to do) an excellent presentation.",
+      "blanks": [
+        {
+          "answers": [
+            "will be",
+            "’ll be"
+          ]
+        },
+        {
+          "answers": [
+            "do"
+          ]
+        }
+      ]
+    }
+  ]
+}

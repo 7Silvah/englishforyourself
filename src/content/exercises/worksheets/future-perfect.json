@@ -1,0 +1,148 @@
+{
+  "title": "Future Perfect",
+  "titleEs": "Futuro perfecto",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B2",
+  "lessons": [
+    "verb-tenses/future-perfect-tense"
+  ],
+  "topics": [
+    "future-perfect",
+    "positive"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Future-Perfect-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (to choose) my dress by the time you arrive at the boutique.",
+      "blanks": [
+        {
+          "answers": [
+            "will have chosen",
+            "’ll have chosen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Riley ___ (to graduate) by the end of May.",
+      "blanks": [
+        {
+          "answers": [
+            "will have graduated"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "We ___ (to clean) the house by the time your friends arrive.",
+      "blanks": [
+        {
+          "answers": [
+            "will have cleaned",
+            "’ll have cleaned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "He ___ (to write) the report by 9 o’clock.",
+      "blanks": [
+        {
+          "answers": [
+            "will have written",
+            "’ll have written"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "They ___ (to adopt) five dogs by the end of the month.",
+      "blanks": [
+        {
+          "answers": [
+            "will have adopted",
+            "’ll have adopted"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (to learn) English by the end of the year.",
+      "blanks": [
+        {
+          "answers": [
+            "will have learned",
+            "’ll have learned"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "She ___ (to develop) two apps for the company by August.",
+      "blanks": [
+        {
+          "answers": [
+            "will have developed",
+            "’ll have developed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "It ___ (to stop) snowing by the end of the day.",
+      "blanks": [
+        {
+          "answers": [
+            "will have stopped",
+            "’ll have stopped"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "We ___ (to save) enough money to buy a house by then.",
+      "blanks": [
+        {
+          "answers": [
+            "will have saved",
+            "’ll have saved"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "You ___ (to find) an answer to the problem by now.",
+      "blanks": [
+        {
+          "answers": [
+            "will have found",
+            "’ll have found"
+          ]
+        }
+      ]
+    }
+  ]
+}

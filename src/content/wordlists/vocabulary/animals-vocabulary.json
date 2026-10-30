@@ -1,0 +1,752 @@
+{
+  "kind": "wordlist",
+  "title": "Animals Vocabulary",
+  "order": 6,
+  "legacyPath": "lessons/vocabulary/animals-vocabulary.html",
+  "intro": "In this section of English vocabulary, you will learn vocabulary about animals: mammals, birds, reptiles, amphibians, marine animals, insects and arachnids.",
+  "groups": [
+    {
+      "title": "Mammals vocabulary",
+      "items": [
+        {
+          "en": "Anteater"
+        },
+        {
+          "en": "Antelope"
+        },
+        {
+          "en": "Armadillo"
+        },
+        {
+          "en": "Badger"
+        },
+        {
+          "en": "Bat"
+        },
+        {
+          "en": "Bear"
+        },
+        {
+          "en": "Beaver"
+        },
+        {
+          "en": "Boar"
+        },
+        {
+          "en": "Buck"
+        },
+        {
+          "en": "Bullock"
+        },
+        {
+          "en": "Camel"
+        },
+        {
+          "en": "Cat"
+        },
+        {
+          "en": "Cheetah"
+        },
+        {
+          "en": "Chimpanzee"
+        },
+        {
+          "en": "Chipmunk"
+        },
+        {
+          "en": "Cow"
+        },
+        {
+          "en": "Coyote"
+        },
+        {
+          "en": "Dachshund"
+        },
+        {
+          "en": "Deer"
+        },
+        {
+          "en": "Doe"
+        },
+        {
+          "en": "Dog"
+        },
+        {
+          "en": "Elephant"
+        },
+        {
+          "en": "Elk or moose"
+        },
+        {
+          "en": "Fawn"
+        },
+        {
+          "en": "Fox"
+        },
+        {
+          "en": "Gazelle"
+        },
+        {
+          "en": "Gerbil"
+        },
+        {
+          "en": "Gibbon"
+        },
+        {
+          "en": "Giraffe"
+        },
+        {
+          "en": "Goat"
+        },
+        {
+          "en": "Gopher"
+        },
+        {
+          "en": "Gorilla"
+        },
+        {
+          "en": "Guinea pig"
+        },
+        {
+          "en": "Hamster"
+        },
+        {
+          "en": "Hare"
+        },
+        {
+          "en": "Hedgehog"
+        },
+        {
+          "en": "Horse"
+        },
+        {
+          "en": "Hyena"
+        },
+        {
+          "en": "Kangaroo"
+        },
+        {
+          "en": "Koala"
+        },
+        {
+          "en": "Leopard"
+        },
+        {
+          "en": "Lion"
+        },
+        {
+          "en": "Llama"
+        },
+        {
+          "en": "Lynx"
+        },
+        {
+          "en": "Mammoth"
+        },
+        {
+          "en": "Mink"
+        },
+        {
+          "en": "Mole"
+        },
+        {
+          "en": "Mongoose"
+        },
+        {
+          "en": "Monkey"
+        },
+        {
+          "en": "Mouse"
+        },
+        {
+          "en": "Mule"
+        },
+        {
+          "en": "Orangutan"
+        },
+        {
+          "en": "Otter"
+        },
+        {
+          "en": "Panda"
+        },
+        {
+          "en": "Pig"
+        },
+        {
+          "en": "Polar bear"
+        },
+        {
+          "en": "Pony"
+        },
+        {
+          "en": "Puma"
+        },
+        {
+          "en": "Rabbit"
+        },
+        {
+          "en": "Raccoon"
+        },
+        {
+          "en": "Ram"
+        },
+        {
+          "en": "Rat"
+        },
+        {
+          "en": "Reindeer"
+        },
+        {
+          "en": "Rhinoceros"
+        },
+        {
+          "en": "Sheep"
+        },
+        {
+          "en": "Skunk"
+        },
+        {
+          "en": "Sloth"
+        },
+        {
+          "en": "Squirrel"
+        },
+        {
+          "en": "Tiger"
+        },
+        {
+          "en": "Weasel"
+        },
+        {
+          "en": "Wolf"
+        },
+        {
+          "en": "Zebra"
+        }
+      ]
+    },
+    {
+      "title": "Birds vocabulary",
+      "items": [
+        {
+          "en": "Albatross"
+        },
+        {
+          "en": "Canary"
+        },
+        {
+          "en": "Chicken"
+        },
+        {
+          "en": "Crane"
+        },
+        {
+          "en": "Crow"
+        },
+        {
+          "en": "Cuckoo"
+        },
+        {
+          "en": "Dove"
+        },
+        {
+          "en": "Duck"
+        },
+        {
+          "en": "Eagle"
+        },
+        {
+          "en": "Falcon"
+        },
+        {
+          "en": "Finch"
+        },
+        {
+          "en": "Flamingo"
+        },
+        {
+          "en": "Goose"
+        },
+        {
+          "en": "Gull"
+        },
+        {
+          "en": "Hawk"
+        },
+        {
+          "en": "Hen"
+        },
+        {
+          "en": "Heron"
+        },
+        {
+          "en": "Hornbill"
+        },
+        {
+          "en": "Hummingbird"
+        },
+        {
+          "en": "Jackdaw"
+        },
+        {
+          "en": "Kestrel"
+        },
+        {
+          "en": "Kingfisher"
+        },
+        {
+          "en": "Kite"
+        },
+        {
+          "en": "Kiwi"
+        },
+        {
+          "en": "Mynah"
+        },
+        {
+          "en": "Nightingale"
+        },
+        {
+          "en": "Ostrich"
+        },
+        {
+          "en": "Owl"
+        },
+        {
+          "en": "Parrot"
+        },
+        {
+          "en": "Partridge"
+        },
+        {
+          "en": "Peacock"
+        },
+        {
+          "en": "Pelican"
+        },
+        {
+          "en": "Penguin"
+        },
+        {
+          "en": "Pigeon"
+        },
+        {
+          "en": "Quail"
+        },
+        {
+          "en": "Robin"
+        },
+        {
+          "en": "Rooster"
+        },
+        {
+          "en": "Skylark"
+        },
+        {
+          "en": "Sparrow"
+        },
+        {
+          "en": "Stork"
+        },
+        {
+          "en": "Swallow"
+        },
+        {
+          "en": "Swan"
+        },
+        {
+          "en": "Swift"
+        },
+        {
+          "en": "Tailorbird"
+        },
+        {
+          "en": "Turkey"
+        },
+        {
+          "en": "Vulture"
+        },
+        {
+          "en": "Weaver"
+        },
+        {
+          "en": "Woodpecker"
+        },
+        {
+          "en": "Wren"
+        }
+      ]
+    },
+    {
+      "title": "Reptiles vocabulary",
+      "items": [
+        {
+          "en": "Alligator"
+        },
+        {
+          "en": "Anaconda"
+        },
+        {
+          "en": "Black mamba"
+        },
+        {
+          "en": "Blindworm"
+        },
+        {
+          "en": "Boa"
+        },
+        {
+          "en": "Caiman"
+        },
+        {
+          "en": "Chameleon"
+        },
+        {
+          "en": "Cobra"
+        },
+        {
+          "en": "Constrictor"
+        },
+        {
+          "en": "Copperhead"
+        },
+        {
+          "en": "Coral snake"
+        },
+        {
+          "en": "Cottonmouth"
+        },
+        {
+          "en": "Crocodile"
+        },
+        {
+          "en": "Gavialis"
+        },
+        {
+          "en": "Gecko"
+        },
+        {
+          "en": "Gharial"
+        },
+        {
+          "en": "Iguana"
+        },
+        {
+          "en": "Lizard"
+        },
+        {
+          "en": "Python"
+        },
+        {
+          "en": "Rattlesnake"
+        },
+        {
+          "en": "Saurian"
+        },
+        {
+          "en": "Sea snake"
+        },
+        {
+          "en": "Skink"
+        },
+        {
+          "en": "Taipan"
+        },
+        {
+          "en": "Terrapin"
+        },
+        {
+          "en": "Tortoise or turtle"
+        },
+        {
+          "en": "Viper"
+        },
+        {
+          "en": "Worm lizard"
+        }
+      ]
+    },
+    {
+      "title": "Amphibians vocabulary",
+      "items": [
+        {
+          "en": "Axolotl"
+        },
+        {
+          "en": "Bullfrog"
+        },
+        {
+          "en": "Caecilian"
+        },
+        {
+          "en": "Frog"
+        },
+        {
+          "en": "Frogspawn"
+        },
+        {
+          "en": "Hyla"
+        },
+        {
+          "en": "Mudpuppy"
+        },
+        {
+          "en": "Newt"
+        },
+        {
+          "en": "Salamander"
+        },
+        {
+          "en": "Tadpole"
+        },
+        {
+          "en": "Toad"
+        }
+      ]
+    },
+    {
+      "title": "Marine animals vocabulary",
+      "items": [
+        {
+          "en": "Catfish"
+        },
+        {
+          "en": "Clams"
+        },
+        {
+          "en": "Clownfish"
+        },
+        {
+          "en": "Coral"
+        },
+        {
+          "en": "Cormorant"
+        },
+        {
+          "en": "Crab"
+        },
+        {
+          "en": "Cuttlefish"
+        },
+        {
+          "en": "Dolphin"
+        },
+        {
+          "en": "Eel"
+        },
+        {
+          "en": "Goldfish"
+        },
+        {
+          "en": "Jellyfish"
+        },
+        {
+          "en": "Killer whale"
+        },
+        {
+          "en": "Lobster"
+        },
+        {
+          "en": "Narwhal"
+        },
+        {
+          "en": "Octopus"
+        },
+        {
+          "en": "Otter"
+        },
+        {
+          "en": "Oyster"
+        },
+        {
+          "en": "Pelican"
+        },
+        {
+          "en": "Piranha"
+        },
+        {
+          "en": "Platypus"
+        },
+        {
+          "en": "Prawn"
+        },
+        {
+          "en": "Sea anemone"
+        },
+        {
+          "en": "Seahorse"
+        },
+        {
+          "en": "Seal"
+        },
+        {
+          "en": "Sea urchin"
+        },
+        {
+          "en": "Shark"
+        },
+        {
+          "en": "Sea turtle"
+        },
+        {
+          "en": "Shell"
+        },
+        {
+          "en": "Sea lion"
+        },
+        {
+          "en": "Shrimp"
+        },
+        {
+          "en": "Squid"
+        },
+        {
+          "en": "Starfish"
+        },
+        {
+          "en": "Sturgeon"
+        },
+        {
+          "en": "Tuna"
+        },
+        {
+          "en": "Walrus"
+        },
+        {
+          "en": "Whale"
+        }
+      ]
+    },
+    {
+      "title": "Insects vocabulary",
+      "items": [
+        {
+          "en": "Ant"
+        },
+        {
+          "en": "Aphid"
+        },
+        {
+          "en": "Bed bug"
+        },
+        {
+          "en": "Bee"
+        },
+        {
+          "en": "Beetle"
+        },
+        {
+          "en": "Bumblebee"
+        },
+        {
+          "en": "Butterfly"
+        },
+        {
+          "en": "Caterpillar"
+        },
+        {
+          "en": "Centipede"
+        },
+        {
+          "en": "Cicada"
+        },
+        {
+          "en": "Cockroach"
+        },
+        {
+          "en": "Cocoon"
+        },
+        {
+          "en": "Cricket"
+        },
+        {
+          "en": "Dragonfly"
+        },
+        {
+          "en": "Earwig"
+        },
+        {
+          "en": "Firefly"
+        },
+        {
+          "en": "Flea"
+        },
+        {
+          "en": "Fly"
+        },
+        {
+          "en": "Gadfly"
+        },
+        {
+          "en": "Grasshopper"
+        },
+        {
+          "en": "Ladybug"
+        },
+        {
+          "en": "Larva"
+        },
+        {
+          "en": "Leaf insect"
+        },
+        {
+          "en": "Locust"
+        },
+        {
+          "en": "Louse"
+        },
+        {
+          "en": "Maggot"
+        },
+        {
+          "en": "Midge"
+        },
+        {
+          "en": "Millipede"
+        },
+        {
+          "en": "Mosquito"
+        },
+        {
+          "en": "Moth"
+        },
+        {
+          "en": "Nymph"
+        },
+        {
+          "en": "Praying mantis"
+        },
+        {
+          "en": "Stick insect"
+        },
+        {
+          "en": "Termite"
+        },
+        {
+          "en": "Wasp"
+        }
+      ]
+    },
+    {
+      "title": "Arachnids vocabulary",
+      "items": [
+        {
+          "en": "Scorpion"
+        },
+        {
+          "en": "Spider"
+        },
+        {
+          "en": "Tarantula"
+        },
+        {
+          "en": "Tick"
+        },
+        {
+          "en": "Water spider"
+        }
+      ]
+    }
+  ]
+}

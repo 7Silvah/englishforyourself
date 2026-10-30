@@ -1,0 +1,35 @@
+{
+  "kind": "wordlist",
+  "title": "Continents",
+  "order": 41,
+  "legacyPath": "lessons/vocabulary/continents.html",
+  "intro": "In this section you will learn the continents in English.",
+  "groups": [
+    {
+      "title": "Continents vocabulary",
+      "items": [
+        {
+          "en": "North America"
+        },
+        {
+          "en": "South America"
+        },
+        {
+          "en": "Africa"
+        },
+        {
+          "en": "Europe"
+        },
+        {
+          "en": "Asia"
+        },
+        {
+          "en": "Australia / Oceania"
+        },
+        {
+          "en": "Antarctica"
+        }
+      ]
+    }
+  ]
+}

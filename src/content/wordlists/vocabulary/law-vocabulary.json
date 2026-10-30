@@ -1,0 +1,179 @@
+{
+  "kind": "wordlist",
+  "title": "Law Vocabulary",
+  "order": 47,
+  "legacyPath": "lessons/vocabulary/law-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about law in English.",
+  "groups": [
+    {
+      "title": "Law vocabulary",
+      "items": [
+        {
+          "en": "Acquittal"
+        },
+        {
+          "en": "Advocate"
+        },
+        {
+          "en": "Alibi"
+        },
+        {
+          "en": "Allegation"
+        },
+        {
+          "en": "Appeal"
+        },
+        {
+          "en": "Arrest"
+        },
+        {
+          "en": "Attorney"
+        },
+        {
+          "en": "Barrister"
+        },
+        {
+          "en": "Burglar"
+        },
+        {
+          "en": "Confession"
+        },
+        {
+          "en": "Convict"
+        },
+        {
+          "en": "Court"
+        },
+        {
+          "en": "Courthouse"
+        },
+        {
+          "en": "Courtroom"
+        },
+        {
+          "en": "Crime"
+        },
+        {
+          "en": "Criminal"
+        },
+        {
+          "en": "Custody"
+        },
+        {
+          "en": "Death sentence"
+        },
+        {
+          "en": "Defendant"
+        },
+        {
+          "en": "Detective"
+        },
+        {
+          "en": "Embezzlement"
+        },
+        {
+          "en": "Evidence"
+        },
+        {
+          "en": "Felony"
+        },
+        {
+          "en": "Fine"
+        },
+        {
+          "en": "Fingerprint"
+        },
+        {
+          "en": "Fraud"
+        },
+        {
+          "en": "Fugitive"
+        },
+        {
+          "en": "Guilty"
+        },
+        {
+          "en": "Handcuffs"
+        },
+        {
+          "en": "Hearing"
+        },
+        {
+          "en": "Hefty fine"
+        },
+        {
+          "en": "Innocent"
+        },
+        {
+          "en": "Judge"
+        },
+        {
+          "en": "Juror"
+        },
+        {
+          "en": "Jury"
+        },
+        {
+          "en": "Justice"
+        },
+        {
+          "en": "Juvenile court"
+        },
+        {
+          "en": "Lawsuit"
+        },
+        {
+          "en": "Lawyer"
+        },
+        {
+          "en": "Libel"
+        },
+        {
+          "en": "Magistrate"
+        },
+        {
+          "en": "Manslaughter"
+        },
+        {
+          "en": "Mugging"
+        },
+        {
+          "en": "Notary"
+        },
+        {
+          "en": "Prosecution"
+        },
+        {
+          "en": "Prosecutor"
+        },
+        {
+          "en": "Punishment"
+        },
+        {
+          "en": "Securities fraud"
+        },
+        {
+          "en": "Sentence"
+        },
+        {
+          "en": "Supreme Court"
+        },
+        {
+          "en": "Testimony"
+        },
+        {
+          "en": "Trial"
+        },
+        {
+          "en": "Vandalism"
+        },
+        {
+          "en": "Verdict"
+        },
+        {
+          "en": "Witness"
+        }
+      ]
+    }
+  ]
+}

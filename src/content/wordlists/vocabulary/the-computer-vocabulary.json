@@ -1,0 +1,95 @@
+{
+  "kind": "wordlist",
+  "title": "The Computer Vocabulary",
+  "order": 34,
+  "legacyPath": "lessons/vocabulary/the-computer-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the computer in English.",
+  "groups": [
+    {
+      "title": "The computer vocabulary",
+      "items": [
+        {
+          "en": "Monitor"
+        },
+        {
+          "en": "Screen"
+        },
+        {
+          "en": "Keyboard"
+        },
+        {
+          "en": "Function keys"
+        },
+        {
+          "en": "Escape keys"
+        },
+        {
+          "en": "Tab"
+        },
+        {
+          "en": "Alt key"
+        },
+        {
+          "en": "Arrow keys"
+        },
+        {
+          "en": "Caps lock"
+        },
+        {
+          "en": "Control key"
+        },
+        {
+          "en": "Numerical key pad"
+        },
+        {
+          "en": "Return"
+        },
+        {
+          "en": "Shift key"
+        },
+        {
+          "en": "Spacebar"
+        },
+        {
+          "en": "Button"
+        },
+        {
+          "en": "Case"
+        },
+        {
+          "en": "CPU"
+        },
+        {
+          "en": "Ethernet cable"
+        },
+        {
+          "en": "Hard drive"
+        },
+        {
+          "en": "Laptop"
+        },
+        {
+          "en": "Memory"
+        },
+        {
+          "en": "Microchip"
+        },
+        {
+          "en": "Microphone"
+        },
+        {
+          "en": "Modem"
+        },
+        {
+          "en": "Motherboard"
+        },
+        {
+          "en": "Mouse"
+        },
+        {
+          "en": "USB cable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "kind": "wordlist",
+  "title": "The Cinema Vocabulary",
+  "order": 22,
+  "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-cinema-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the cinema in English.",
+  "groups": [
+    {
+      "title": "Cinema vocabulary",
+      "items": [
+        {
+          "en": "Film (UK) / movie (US)"
+        },
+        {
+          "en": "Full-length film / movie"
+        },
+        {
+          "en": "Short film / movie"
+        },
+        {
+          "en": "Actor"
+        },
+        {
+          "en": "Actress"
+        },
+        {
+          "en": "Box office"
+        },
+        {
+          "en": "Cameraman"
+        },
+        {
+          "en": "Cast"
+        },
+        {
+          "en": "Character"
+        },
+        {
+          "en": "Critic"
+        },
+        {
+          "en": "Dialogue"
+        },
+        {
+          "en": "Director"
+        },
+        {
+          "en": "Editor"
+        },
+        {
+          "en": "Hairstylist"
+        },
+        {
+          "en": "Lighting"
+        },
+        {
+          "en": "Movie stars"
+        },
+        {
+          "en": "Plot"
+        },
+        {
+          "en": "Premiere"
+        },
+        {
+          "en": "Prequel"
+        },
+        {
+          "en": "Producer"
+        },
+        {
+          "en": "Role"
+        },
+        {
+          "en": "Scene"
+        },
+        {
+          "en": "Screenwriter"
+        },
+        {
+          "en": "Sequel"
+        },
+        {
+          "en": "Set"
+        },
+        {
+          "en": "Soundtrack"
+        },
+        {
+          "en": "Special effects"
+        },
+        {
+          "en": "Supporting actor"
+        },
+        {
+          "en": "Supporting role"
+        }
+      ]
+    },
+    {
+      "title": "Genres (of films, books) vocabulary",
+      "items": [
+        {
+          "en": "Action"
+        },
+        {
+          "en": "Adventure"
+        },
+        {
+          "en": "Animated"
+        },
+        {
+          "en": "Comedy"
+        },
+        {
+          "en": "Crime"
+        },
+        {
+          "en": "Documentary"
+        },
+        {
+          "en": "Drama"
+        },
+        {
+          "en": "Fantasy"
+        },
+        {
+          "en": "Historical"
+        },
+        {
+          "en": "Horror"
+        },
+        {
+          "en": "Musical"
+        },
+        {
+          "en": "Mystery"
+        },
+        {
+          "en": "Paranormal"
+        },
+        {
+          "en": "Psychological"
+        },
+        {
+          "en": "Romance"
+        },
+        {
+          "en": "Sci-fi"
+        },
+        {
+          "en": "Sport"
+        },
+        {
+          "en": "Suspense"
+        },
+        {
+          "en": "Thriller"
+        },
+        {
+          "en": "Western"
+        }
+      ]
+    }
+  ]
+}

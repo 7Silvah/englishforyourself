@@ -1,0 +1,399 @@
+{
+  "kind": "wordlist",
+  "title": "Holidays Vocabulary",
+  "order": 50,
+  "legacyPath": "lessons/vocabulary/holidays-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the holidays in English.",
+  "groups": [
+    {
+      "title": "Holidays",
+      "items": [
+        {
+          "en": "April Fools’ Day"
+        },
+        {
+          "en": "Christmas"
+        },
+        {
+          "en": "Earth Day"
+        },
+        {
+          "en": "Easter"
+        },
+        {
+          "en": "Father’s Day"
+        },
+        {
+          "en": "Halloween"
+        },
+        {
+          "en": "Mother’s Day"
+        },
+        {
+          "en": "New Year’s Eve"
+        },
+        {
+          "en": "Thanksgiving Day"
+        },
+        {
+          "en": "Valentine’s Day"
+        }
+      ]
+    },
+    {
+      "title": "Halloween vocabulary",
+      "items": [
+        {
+          "en": "Bat"
+        },
+        {
+          "en": "Black cat"
+        },
+        {
+          "en": "Blood"
+        },
+        {
+          "en": "Bones"
+        },
+        {
+          "en": "Candle"
+        },
+        {
+          "en": "Candy bags / treat bags"
+        },
+        {
+          "en": "Cauldron"
+        },
+        {
+          "en": "Coffin"
+        },
+        {
+          "en": "Costume"
+        },
+        {
+          "en": "Crystal ball"
+        },
+        {
+          "en": "Fairy"
+        },
+        {
+          "en": "Frankenstein"
+        },
+        {
+          "en": "Full moon"
+        },
+        {
+          "en": "Ghost"
+        },
+        {
+          "en": "Goblin"
+        },
+        {
+          "en": "Gravestone"
+        },
+        {
+          "en": "Graveyard / cemetery"
+        },
+        {
+          "en": "Halloween decorations"
+        },
+        {
+          "en": "Haunted house"
+        },
+        {
+          "en": "Jack-o’-lantern"
+        },
+        {
+          "en": "Magic"
+        },
+        {
+          "en": "Mask"
+        },
+        {
+          "en": "Monster"
+        },
+        {
+          "en": "Mummy"
+        },
+        {
+          "en": "Owl"
+        },
+        {
+          "en": "Pirate"
+        },
+        {
+          "en": "Potion"
+        },
+        {
+          "en": "Pumpkin"
+        },
+        {
+          "en": "Scarecrow"
+        },
+        {
+          "en": "Skeleton"
+        },
+        {
+          "en": "Skull"
+        },
+        {
+          "en": "Spell"
+        },
+        {
+          "en": "Spider"
+        },
+        {
+          "en": "Spiderweb"
+        },
+        {
+          "en": "Sweets (UK) / candy (US)"
+        },
+        {
+          "en": "Trick or treat"
+        },
+        {
+          "en": "Troll"
+        },
+        {
+          "en": "Vampire"
+        },
+        {
+          "en": "Werewolf"
+        },
+        {
+          "en": "Witch"
+        },
+        {
+          "en": "Wizard"
+        },
+        {
+          "en": "Zombie"
+        }
+      ]
+    },
+    {
+      "title": "Christmas vocabulary",
+      "items": [
+        {
+          "en": "Bow"
+        },
+        {
+          "en": "Candy cane"
+        },
+        {
+          "en": "Carol"
+        },
+        {
+          "en": "Christmas card"
+        },
+        {
+          "en": "Cracker"
+        },
+        {
+          "en": "Christmas Eve"
+        },
+        {
+          "en": "Christmas tree"
+        },
+        {
+          "en": "Fireplace"
+        },
+        {
+          "en": "Fireworks"
+        },
+        {
+          "en": "Garlands"
+        },
+        {
+          "en": "Gifts / presents"
+        },
+        {
+          "en": "Gingerbread man"
+        },
+        {
+          "en": "Holly"
+        },
+        {
+          "en": "Lights"
+        },
+        {
+          "en": "Mistletoe"
+        },
+        {
+          "en": "Nativity"
+        },
+        {
+          "en": "New Year’s Eve"
+        },
+        {
+          "en": "Ornaments"
+        },
+        {
+          "en": "Pudding"
+        },
+        {
+          "en": "Reindeer"
+        },
+        {
+          "en": "Santa Claus / Father Christmas"
+        },
+        {
+          "en": "Snow globe"
+        },
+        {
+          "en": "Snowflake"
+        },
+        {
+          "en": "snowman"
+        },
+        {
+          "en": "Star"
+        },
+        {
+          "en": "Stocking"
+        },
+        {
+          "en": "Turkey"
+        },
+        {
+          "en": "Wreath"
+        }
+      ]
+    },
+    {
+      "title": "Thanksgiving Day vocabulary",
+      "items": [
+        {
+          "en": "Corn"
+        },
+        {
+          "en": "Cranberry"
+        },
+        {
+          "en": "Feast"
+        },
+        {
+          "en": "Football"
+        },
+        {
+          "en": "Gravy"
+        },
+        {
+          "en": "Harvest"
+        },
+        {
+          "en": "Mashed potatoes"
+        },
+        {
+          "en": "Parade"
+        },
+        {
+          "en": "Pilgrim"
+        },
+        {
+          "en": "Pumpkin pie"
+        },
+        {
+          "en": "Squash"
+        },
+        {
+          "en": "Turkey"
+        }
+      ]
+    },
+    {
+      "title": "Valentine’s day vocabulary",
+      "items": [
+        {
+          "en": "Arrow"
+        },
+        {
+          "en": "Balloon"
+        },
+        {
+          "en": "Candy"
+        },
+        {
+          "en": "Chocolate"
+        },
+        {
+          "en": "Couple"
+        },
+        {
+          "en": "Cupid"
+        },
+        {
+          "en": "Date"
+        },
+        {
+          "en": "February"
+        },
+        {
+          "en": "Flowers"
+        },
+        {
+          "en": "Gift / present"
+        },
+        {
+          "en": "Heart"
+        },
+        {
+          "en": "Hug"
+        },
+        {
+          "en": "Kiss"
+        },
+        {
+          "en": "Love"
+        },
+        {
+          "en": "Lover"
+        },
+        {
+          "en": "Poem"
+        },
+        {
+          "en": "Rose"
+        },
+        {
+          "en": "Teddy bear"
+        },
+        {
+          "en": "Valentine card"
+        }
+      ]
+    },
+    {
+      "title": "Easter Day vocabulary",
+      "items": [
+        {
+          "en": "Basket"
+        },
+        {
+          "en": "Chocolate"
+        },
+        {
+          "en": "Crucifixion"
+        },
+        {
+          "en": "Easter bunny"
+        },
+        {
+          "en": "Holy week"
+        },
+        {
+          "en": "Easter egg"
+        },
+        {
+          "en": "Easter egg hunt"
+        },
+        {
+          "en": "Patterns"
+        },
+        {
+          "en": "Resurrection"
+        }
+      ]
+    }
+  ]
+}
