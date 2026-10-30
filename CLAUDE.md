@@ -157,3 +157,10 @@ responder). El resultado de cada respuesta se anuncia con `aria-live`. Hay que m
 - Commits pequeños, con el mensaje en español y en imperativo (“Añadir buscador con MiniSearch”).
 - El contenido generado por scripts va en un commit separado del código que lo genera.
 - No hagas commit ni push sin que te lo pidan.
+
+## Ramas (regla fija)
+
+- La única rama de trabajo es **`desarrollo`**. Todos los commits van ahí, sean de la fase que sean (F8, F9, F10…).
+- **Nunca crees, cambies, renombres ni borres ramas.** Si crees que hace falta otra rama, detente y pregúntale a Frank antes de tocar nada.
+- `main` es la rama estable: no se commitea directo en ella; el trabajo entra solo por pull request, que abre Frank.
+- Al terminar una tarea: commit en `desarrollo` y `git push origin desarrollo`. Nada más.
