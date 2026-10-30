@@ -52,7 +52,7 @@ Informa del resultado real: si algo falla, muéstralo.
 
 ## Stack (no cambiar sin preguntar)
 
-Vite · React 19 · TypeScript strict · Tailwind CSS v4 · shadcn/ui · lucide-react ·
+Vite 8 · React 19 · TypeScript 7 strict · oxlint + Prettier · Tailwind CSS v4 · shadcn/ui · lucide-react ·
 TanStack Router (file-based) · MDX + Zod · Zustand · MiniSearch · @dnd-kit ·
 Web Speech API · Vitest · Testing Library · Playwright.
 

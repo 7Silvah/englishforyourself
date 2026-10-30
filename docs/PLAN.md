@@ -9,7 +9,7 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
@@ -164,8 +164,8 @@ migración parte del HTML y los PDF versionados aquí.
 
 | Capa | Elección | Por qué |
 |---|---|---|
-| Build | **Vite** (última estable) | Arranque instantáneo y HMR. |
-| UI | **React 19** + **TypeScript** strict | Tipos para contenido, ejercicios y componentes. |
+| Build | **Vite 8** | Arranque instantáneo y HMR. |
+| UI | **React 19** + **TypeScript 7** strict | Tipos para contenido, ejercicios y componentes. TS 7 es el compilador nativo y es mucho más rápido. |
 | Estilos | **Tailwind CSS v4** (`@tailwindcss/vite`) | Tokens en CSS (`@theme`). |
 | Componentes | **shadcn/ui** + **lucide-react** | Componentes accesibles y legibles dentro del repo. |
 | Rutas | **TanStack Router** (file-based) | Parámetros tipados; migración sencilla a TanStack Start para el prerender. |
@@ -175,7 +175,7 @@ migración parte del HTML y los PDF versionados aquí.
 | Búsqueda | **MiniSearch** | Búsqueda difusa en el cliente, sin acentos. |
 | Audio | **Web Speech API** | Pronunciación y dictado sin archivos de audio. |
 | PDF → texto | **unpdf** (solo en el script de migración) | Extrae el texto sin depender de herramientas del sistema. |
-| Calidad | ESLint + Prettier + **Vitest** + Testing Library + **Playwright** + axe | |
+| Calidad | **oxlint** + Prettier + **Vitest** + Testing Library + **Playwright** + axe | oxlint viene en la plantilla de Vite: es mucho más rápido que ESLint y no necesita configuración. |
 | Offline | **vite-plugin-pwa** (F18) | |
 | Runtime | Node 24 LTS, **npm** | |
 
@@ -600,11 +600,12 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F1 — Esqueleto Vite + React + TS
 *Aprendes: Vite, componentes, JSX, TypeScript strict, alias `@/`.*
-- [ ] `npm create vite@latest . -- --template react-ts`.
-- [ ] `tsconfig`: `strict`, `noUncheckedIndexedAccess`, alias `@/*` → `./src/*` (en `tsconfig.json` y `tsconfig.app.json`).
-- [ ] `npm i -D @types/node`; alias en `vite.config.ts` con `path.resolve(__dirname, "./src")`.
-- [ ] ESLint + Prettier + `prettier-plugin-tailwindcss`.
-- [ ] Scripts `dev`, `build`, `preview`, `typecheck`, `lint`, `format`.
+- [x] Plantilla `react-ts` de create-vite 9 (Vite 8, React 19.3, TypeScript 7), generada aparte y copiada sin la demo.
+- [x] `tsconfig`: `strict`, `noUncheckedIndexedAccess`, alias `@/*` → `./src/*` (en `tsconfig.json` y `tsconfig.app.json`). Sin `baseUrl`, que TypeScript 7 ya no usa; `paths` es relativo al tsconfig.
+- [x] Alias en `vite.config.ts` con `fileURLToPath(new URL("./src", import.meta.url))` (forma ESM; `__dirname` no existe en ESM).
+- [x] **oxlint** (el linter que trae ahora la plantilla, en lugar de ESLint) con `rules-of-hooks` y `exhaustive-deps`; ignora `legacy/`. Prettier con `.prettierignore`. `prettier-plugin-tailwindcss` pasa a F2, cuando ya esté Tailwind.
+- [x] Scripts `dev`, `build`, `preview`, `typecheck`, `lint`, `format`, `format:check`.
+- [x] `.vscode/` con extensiones recomendadas y formato al guardar; `index.html` en español; favicon EfY.
 
 **Listo cuando:** `npm run dev` y `npm run build` funcionan.
 

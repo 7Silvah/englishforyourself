@@ -43,7 +43,7 @@ Las piezas principales son:
 ## Requisitos
 
 - [Node.js](https://nodejs.org) 24 LTS (incluye `npm`)
-- Un editor con soporte de TypeScript (VS Code recomendado, con las extensiones ESLint, Prettier y Tailwind CSS IntelliSense)
+- Un editor con soporte de TypeScript (VS Code recomendado: al abrir el repo te sugerirá las extensiones de Prettier, oxc, Tailwind CSS IntelliSense y EditorConfig)
 
 ## Empezar
 
@@ -62,8 +62,9 @@ Abre http://localhost:5173.
 | `npm run build` | Compila la app a `dist/` |
 | `npm run preview` | Sirve `dist/` para probar el build |
 | `npm run typecheck` | Revisa los tipos de TypeScript |
-| `npm run lint` | ESLint |
-| `npm run format` | Prettier |
+| `npm run lint` | Revisa el código con oxlint |
+| `npm run format` | Formatea con Prettier |
+| `npm run format:check` | Comprueba el formato sin cambiar archivos |
 | `npm test` | Tests unitarios (Vitest) |
 | `npm run e2e` | Tests end-to-end (Playwright) |
 | `npm run content:check` | Valida lecciones, tablas, enlaces, PDFs y cobertura de traducción |

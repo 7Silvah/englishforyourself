@@ -1,0 +1,9 @@
+# Sitio antiguo: se conserva tal cual hasta F11
+legacy/
+
+dist/
+coverage/
+package-lock.json
+
+# Documentación escrita a mano (tablas y saltos de línea propios)
+*.md
