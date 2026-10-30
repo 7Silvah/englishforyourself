@@ -7,3 +7,5 @@ package-lock.json
 
 # Documentación escrita a mano (tablas y saltos de línea propios)
 *.md
+
+.claude/

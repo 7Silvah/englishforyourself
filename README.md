@@ -76,7 +76,7 @@ Abre http://localhost:5173.
 | Build | Vite |
 | UI | React 19 + TypeScript (strict) |
 | Estilos | Tailwind CSS v4 |
-| Componentes | shadcn/ui (Radix) + lucide-react |
+| Componentes | shadcn/ui (Base UI) + lucide-react |
 | Rutas | TanStack Router (file-based) |
 | Contenido | MDX + JSON validados con Zod |
 | Estado | Zustand (persistido en `localStorage`) |

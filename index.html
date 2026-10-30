@@ -9,6 +9,17 @@
       content="Aprende inglés desde el español: gramática, vocabulario y ejercicios interactivos."
     />
     <title>English for Yourself</title>
+    <!-- Aplica el tema oscuro antes de pintar para evitar un destello blanco.
+         Usa la misma clave (STORAGE_KEY) que src/components/layout/theme-provider.tsx. -->
+    <script>
+      try {
+        const t = localStorage.getItem("efy-theme");
+        const dark =
+          t === "dark" ||
+          ((!t || t === "system") && matchMedia("(prefers-color-scheme: dark)").matches);
+        if (dark) document.documentElement.classList.add("dark");
+      } catch {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

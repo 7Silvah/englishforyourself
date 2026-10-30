@@ -52,7 +52,7 @@ Informa del resultado real: si algo falla, muéstralo.
 
 ## Stack (no cambiar sin preguntar)
 
-Vite 8 · React 19 · TypeScript 7 strict · oxlint + Prettier · Tailwind CSS v4 · shadcn/ui · lucide-react ·
+Vite 8 · React 19 · TypeScript 7 strict · oxlint + Prettier · Tailwind CSS v4 · shadcn/ui (Base UI) · lucide-react ·
 TanStack Router (file-based) · MDX + Zod · Zustand · MiniSearch · @dnd-kit ·
 Web Speech API · Vitest · Testing Library · Playwright.
 
@@ -72,6 +72,8 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/content/` | Contenido como datos: unidades del curso, ejercicios, lecciones, wordlists, tablas, `tenses.ts` | Sin JSX salvo en `.mdx`. Todo pasa por los esquemas de Zod. |
 | `src/i18n/es.ts` | Todos los textos de la UI | **Ningún texto de UI suelto en JSX.** |
 | `src/lib/` | Utilidades puras (`cn`, `speak`, slugs) | |
+| `src/hooks/` | Hooks compartidos (`use-theme`) | Si un archivo exporta un componente, el hook o el contexto van en otro archivo (lo exige fast refresh). |
+| `src/dev/` | Páginas solo de desarrollo (`/_dev/ui`) | Se cargan con `lazy` detrás de `import.meta.env.DEV`; nunca llegan al build. |
 
 Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 
@@ -81,7 +83,8 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Componentes de función, nombrados en PascalCase, un componente principal por archivo y exportación con nombre (`export function WordList`).
 - Archivos en kebab-case (`grammar-table.tsx`), igual que los que genera shadcn.
 - Identificadores de código en **inglés**; textos visibles en **español** (vía `es.ts`); comentarios en español y solo cuando expliquen un *por qué*.
-- Estilos solo con clases de Tailwind y `cn()`. Nada de colores hex en componentes: usa los tokens (`bg-pos-soft`, `text-neg-ink`, `bg-primary`).
+- Estilos solo con clases de Tailwind y `cn()`. Nada de colores hex en componentes: usa los tokens (`bg-pos-soft`, `text-neg-ink`, `bg-primary`, `bg-subj border-subj-border text-subj-fg`, `bg-correct`). Están definidos en `src/index.css` y se ven todos en `/_dev/ui`.
+- Los componentes de shadcn usan **Base UI**: para que un trigger sea otro componente se usa `render={<Button />}`, no `asChild` (eso era Radix). Fíjate en esto al copiar ejemplos de internet.
 - Estado: `useState` local → URL search params (filtros, tiempo verbal seleccionado) → Zustand solo para lo que persiste entre páginas (progreso, ajustes).
 - Sin `useEffect` para derivar datos; calcula durante el render o usa `useMemo` si es caro.
 
@@ -114,7 +117,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 
 ## Accesibilidad
 
-Componentes de shadcn/Radix para todo lo interactivo (diálogos, tabs, menús).
+Componentes de shadcn (Base UI) para todo lo interactivo (diálogos, tabs, menús).
 Los botones de solo icono llevan `aria-label` en español. El foco tiene que ser
 visible y todo debe funcionar con teclado (ejercicios: Enter comprueba y pasa al
 siguiente, fichas con Tab y Espacio; flashcards: Espacio para girar, 1/2 para

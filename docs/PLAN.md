@@ -9,7 +9,7 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
@@ -167,7 +167,7 @@ migración parte del HTML y los PDF versionados aquí.
 | Build | **Vite 8** | Arranque instantáneo y HMR. |
 | UI | **React 19** + **TypeScript 7** strict | Tipos para contenido, ejercicios y componentes. TS 7 es el compilador nativo y es mucho más rápido. |
 | Estilos | **Tailwind CSS v4** (`@tailwindcss/vite`) | Tokens en CSS (`@theme`). |
-| Componentes | **shadcn/ui** + **lucide-react** | Componentes accesibles y legibles dentro del repo. |
+| Componentes | **shadcn/ui** (Base UI, preset Nova) + **lucide-react** | Componentes accesibles y legibles dentro del repo. |
 | Rutas | **TanStack Router** (file-based) | Parámetros tipados; migración sencilla a TanStack Start para el prerender. |
 | Contenido | **MDX** (`@mdx-js/rollup`) + **Zod** | Prosa con componentes; esquemas que fallan en el build. |
 | Arrastrar y soltar | **@dnd-kit** (F9) | Ordenar palabras y categorizar, accesible con teclado. |
@@ -523,7 +523,7 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
   y en el Tense Lab, para que el estudiante relacione la explicación con la
   práctica.
 - Estados de corrección: correcto, casi y fallo, siempre con icono y texto.
-- Modo oscuro con su propia paleta (contraste AA). Fuente Inter Variable.
+- Modo oscuro con su propia paleta (contraste AA). Fuente Geist Variable (la del preset Nova).
 
 ### 9.3 Funciones pensadas para hispanohablantes
 - Explicaciones en español con equivalencias y diferencias respecto al español.
@@ -611,12 +611,15 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F2 — Tailwind v4 + shadcn/ui + tema
 *Aprendes: utility-first CSS, tokens de diseño, shadcn.*
-- [ ] `npm i tailwindcss @tailwindcss/vite`; `@import "tailwindcss";`.
-- [ ] Plugins: `react()`, `tailwindcss()`.
-- [ ] `npx shadcn@latest init` (base *slate*, variables CSS).
-- [ ] Componentes: `button card badge tabs table tooltip dialog sheet command separator scroll-area switch progress sonner breadcrumb navigation-menu radio-group input toggle-group`.
-- [ ] Tokens `@theme`: `pos/neg/q/nq` (`-ink`, `-soft`), bloques `subj/aux/verb/obj`, estados `correct/almost/wrong`; versión `.dark`.
-- [ ] `ThemeProvider` + `ThemeToggle`; página `/_dev/ui` con todos los tokens.
+- [x] Tailwind 4.3 (`tailwindcss` + `@tailwindcss/vite`, en `devDependencies`); plugins `react()`, `tailwindcss()`.
+- [x] `npx shadcn@latest init -t vite -b base -p nova`: **Base UI** (el valor por defecto de shadcn desde julio de 2026, en lugar de Radix; se usa `render={<Button/>}` en vez de `asChild`), preset *Nova* (iconos Lucide, fuente Geist).
+- [x] Componentes: `button card badge tabs table tooltip dialog sheet command separator scroll-area switch progress sonner breadcrumb navigation-menu radio-group input toggle-group dropdown-menu` (+ dependencias que trae shadcn: `textarea toggle input-group`).
+- [x] Textos para lectores de pantalla de `components/ui` traducidos (Cerrar, Más, Ruta de navegación, Buscar); import sin uso en `scroll-area` eliminado.
+- [x] Primario = azul de la marca (`#2563eb`) y `brand` = violeta. Tokens `@theme`: `pos/neg/q/nq` (`-ink`, `-soft`) con los colores del sitio original, bloques `subj/aux/verb/obj` (`-border`, `-fg`) con los del Tense Lab y estados `correct/almost/wrong`; todos con versión `.dark`.
+- [x] `ThemeProvider` propio (`components/layout/theme-provider.tsx` + `hooks/use-theme.ts`), en lugar de `next-themes`, cuyo script inline provoca un aviso de React en apps sin servidor. Script en `index.html` contra el destello blanco y `ThemeToggle` (Claro / Oscuro / Sistema).
+- [x] `/_dev/ui` (`src/dev/ui-showcase.tsx`), solo en desarrollo y fuera del build. `prettier-plugin-tailwindcss` ordena las clases.
+
+**Nota de tamaño:** la base (React + Base UI + sonner) ocupa unos 139 KB gzip de JS. Hay que vigilarla frente al presupuesto de 200 KB (F18); las rutas de F3 se cargarán por separado.
 
 **Listo cuando:** la página de muestra se ve bien en claro y en oscuro.
 
