@@ -1,0 +1,96 @@
+{
+  "title": "In, on and at: review",
+  "titleEs": "In, on y at: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "preposiciones-in-on-at",
+  "topics": [
+    "prepositions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I live ___ Barcelona.",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": 0,
+      "explanationEs": "Ciudades y países: in."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "The party is ___ Saturday.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explanationEs": "Días: on."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "It's very cold in winter.",
+      "answer": true,
+      "explanationEs": "Estaciones: in."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I'm in the bus stop.",
+      "answer": false,
+      "explanationEs": "Un punto concreto: at the bus stop."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "The cat is sleeping on the sofa."
+      ],
+      "distractors": [
+        "in"
+      ],
+      "explanationEs": "Encima de una superficie: on."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "We have dinner ___ night.",
+      "blanks": [
+        {
+          "answers": [
+            "at"
+          ]
+        }
+      ],
+      "explanationEs": "At night (pero in the morning)."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "Your bag is in the car.",
+      "to": "q",
+      "answers": [
+        "Is your bag in the car?"
+      ],
+      "explanationEs": "Pregunta: is antes de your bag."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "I am in home.",
+      "wrong": "in home",
+      "answers": [
+        "at home"
+      ],
+      "explanationEs": "Se dice at home."
+    }
+  ]
+}

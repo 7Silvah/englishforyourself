@@ -1,0 +1,74 @@
+{
+  "title": "In, on and at: guided practice",
+  "titleEs": "In, on y at: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "preposiciones-in-on-at",
+  "topics": [
+    "prepositions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "The keys are ___ the table.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0,
+      "explanationEs": "Sobre una superficie: on."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "My birthday is ___ June.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "explanationEs": "Con los meses: in."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I start work at 9 o'clock.",
+      "answer": true,
+      "explanationEs": "Con las horas: at."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "See you in Monday!",
+      "answer": false,
+      "explanationEs": "Con los días: on Monday."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "She is at home now."
+      ],
+      "distractors": [
+        "in"
+      ],
+      "explanationEs": "At home, sin artículo y con at."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "We don't work on Sundays."
+      ],
+      "distractors": [
+        "in"
+      ],
+      "explanationEs": "Con los días de la semana: on."
+    }
+  ]
+}

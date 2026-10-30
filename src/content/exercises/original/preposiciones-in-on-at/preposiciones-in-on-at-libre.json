@@ -1,0 +1,83 @@
+{
+  "title": "In, on and at: free practice",
+  "titleEs": "In, on y at: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "preposiciones-in-on-at",
+  "topics": [
+    "prepositions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I always drink coffee ___ the morning.",
+      "blanks": [
+        {
+          "answers": [
+            "in"
+          ]
+        }
+      ],
+      "explanationEs": "Partes del día: in the morning, in the afternoon, in the evening."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "The children are ___ school.",
+      "blanks": [
+        {
+          "answers": [
+            "at"
+          ]
+        }
+      ],
+      "explanationEs": "Lugar donde se hace una actividad: at school, at work."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "There is a picture ___ the wall.",
+      "blanks": [
+        {
+          "answers": [
+            "on"
+          ]
+        }
+      ],
+      "explanationEs": "Sobre una superficie, también vertical: on the wall."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "The museum opens on Monday.",
+      "to": "neg",
+      "answers": [
+        "The museum doesn't open on Monday."
+      ],
+      "explanationEs": "Negativa en presente simple: doesn't + open."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "The shop is on the corner.",
+      "to": "q",
+      "answers": [
+        "Is the shop on the corner?"
+      ],
+      "explanationEs": "Pregunta con to be: is antes del sujeto."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "We have a meeting on 10 o'clock.",
+      "wrong": "on",
+      "answers": [
+        "at"
+      ],
+      "explanationEs": "Con las horas: at."
+    }
+  ]
+}

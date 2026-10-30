@@ -9,8 +9,8 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI lista; falta activar el despliegue) |
-| 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
+| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
@@ -716,7 +716,10 @@ Cada fase indica qué conceptos vas a aprender en ella.
 ### Etapa 2 — Fundamentos II + herramientas
 
 #### F8 — Curso de Fundamentos II (unidades 9–16)
-- [ ] Unidades 9–16 según §6.1 y §6.2, con sus worksheets enlazados.
+- [x] Unidades 9–16 según §6.1 y §6.2, con sus worksheets enlazados: presente continuo (2), pasado simple (2), futuro (3) y comparativos y superlativos (1). Solo usan estructuras ya enseñadas (nada de pasado antes de la 12, nada de futuro antes de la 14).
+- [x] Sets de muestra por unidad, como en F6: guiada (6), libre (6) y repaso (8), nivel A2, 160 ítems, todos `reviewed: false` (D1). Las unidades 15 y 16 no usan `transform` (sus estructuras no encajan en sus opciones): los tipos de F9 completarán los 6 tipos por unidad que pide la etapa.
+
+**Listo cuando:** las unidades 9–16 se ven en `/curso`, enlazan sus worksheets y `content:check` pasa. ✅
 
 #### F9 — Más tipos de ejercicio
 *Aprendes: arrastrar y soltar accesible, Web Speech API.*

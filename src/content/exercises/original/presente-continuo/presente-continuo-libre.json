@@ -1,0 +1,85 @@
+{
+  "title": "Present continuous: free practice",
+  "titleEs": "Presente continuo: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "presente-continuo",
+  "topics": [
+    "present-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "We ___ (to watch) a film at the moment.",
+      "blanks": [
+        {
+          "answers": [
+            "are watching"
+          ]
+        }
+      ],
+      "explanationEs": "At the moment = ahora: are + watching."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Ana ___ (to make) dinner now.",
+      "blanks": [
+        {
+          "answers": [
+            "is making"
+          ]
+        }
+      ],
+      "explanationEs": "Make termina en -e: se quita la e y se añade -ing. Making."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "I ___ (not / work) this week.",
+      "blanks": [
+        {
+          "answers": [
+            "am not working",
+            "'m not working"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con I: am not + verbo-ing."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "She is reading a book.",
+      "to": "neg",
+      "answers": [
+        "She isn't reading a book.",
+        "She's not reading a book."
+      ],
+      "explanationEs": "Negativa: is + not + reading."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "They are playing football.",
+      "to": "q",
+      "answers": [
+        "Are they playing football?"
+      ],
+      "explanationEs": "Pregunta: are va antes de they."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "He is runing in the park.",
+      "wrong": "runing",
+      "answers": [
+        "running"
+      ],
+      "explanationEs": "Run termina en vocal + consonante: se dobla la n. Running."
+    }
+  ]
+}

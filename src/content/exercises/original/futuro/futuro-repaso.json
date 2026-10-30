@@ -1,0 +1,99 @@
+{
+  "title": "Future: review",
+  "titleEs": "Futuro: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "futuro",
+  "topics": [
+    "future-will",
+    "future-going-to"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Look at the sky! It ___ snow.",
+      "options": [
+        "is going to",
+        "will to",
+        "going"
+      ],
+      "answer": 0,
+      "explanationEs": "Predicción con algo que ves: going to."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "___ you help me, please?",
+      "options": [
+        "Will",
+        "Are",
+        "Going"
+      ],
+      "answer": 0,
+      "explanationEs": "Pedir algo: Will you…?"
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "We are going to have a party on Saturday.",
+      "answer": true,
+      "explanationEs": "Plan decidido: going to."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I think she won't comes.",
+      "answer": false,
+      "explanationEs": "Después de won't, verbo sin -s: won't come."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What are you going to do tomorrow?"
+      ],
+      "distractors": [
+        "will"
+      ],
+      "explanationEs": "Palabra interrogativa + are + you + going to + verbo."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I'm cold. I ___ (will / close) the window.",
+      "blanks": [
+        {
+          "answers": [
+            "'ll close",
+            "will close"
+          ]
+        }
+      ],
+      "explanationEs": "Decisión en el momento: I'll close."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "They play tennis.",
+      "to": "future",
+      "answers": [
+        "They will play tennis.",
+        "They are going to play tennis."
+      ],
+      "explanationEs": "Futuro con will o con going to."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "She going to study medicine.",
+      "wrong": "going",
+      "answers": [
+        "is going"
+      ],
+      "explanationEs": "Going to necesita to be: She is going to."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Comparatives and superlatives: guided practice",
+  "titleEs": "Comparativos y superlativos: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "comparativos-y-superlativos",
+  "topics": [
+    "comparatives",
+    "superlatives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "My car is ___ than yours.",
+      "options": [
+        "older",
+        "more old",
+        "oldest"
+      ],
+      "answer": 0,
+      "explanationEs": "Adjetivo corto (una sílaba): -er. Older."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "This is the ___ restaurant in town.",
+      "options": [
+        "best",
+        "goodest",
+        "better"
+      ],
+      "answer": 0,
+      "explanationEs": "Good es irregular: better, the best."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "English is more easy than Chinese.",
+      "answer": false,
+      "explanationEs": "Easy termina en -y: easier."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Madrid is bigger than Valencia.",
+      "answer": true,
+      "explanationEs": "Big dobla la g: bigger."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "She is taller than her brother."
+      ],
+      "distractors": [
+        "that"
+      ],
+      "explanationEs": "«Que» en una comparación es than."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "It's the most expensive hotel in the city."
+      ],
+      "distractors": [
+        "more"
+      ],
+      "explanationEs": "Adjetivo largo: the most + adjetivo."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Present continuous: review",
+  "titleEs": "Presente continuo: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "presente-continuo",
+  "topics": [
+    "present-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Usually I walk to work, but today I ___ the bus.",
+      "options": [
+        "am taking",
+        "take",
+        "taking"
+      ],
+      "answer": 0,
+      "explanationEs": "Today es algo temporal, distinto de la rutina: presente continuo."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "___ you listening to me?",
+      "options": [
+        "Are",
+        "Do",
+        "Is"
+      ],
+      "answer": 0,
+      "explanationEs": "Pregunta en presente continuo con you: Are you…?"
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I am wanting a coffee.",
+      "answer": false,
+      "explanationEs": "Want es un verbo de estado: I want a coffee."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "It's raining a lot today.",
+      "answer": true,
+      "explanationEs": "Lo que pasa hoy, ahora: presente continuo."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Why is she crying?"
+      ],
+      "distractors": [
+        "does"
+      ],
+      "explanationEs": "Palabra interrogativa + is + sujeto + verbo-ing."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "My parents ___ (to travel) in Italy this month.",
+      "blanks": [
+        {
+          "answers": [
+            "are travelling",
+            "are traveling"
+          ]
+        }
+      ],
+      "explanationEs": "This month = temporal. En inglés británico se dobla la l (travelling); en el estadounidense, no."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "You are sitting in my chair.",
+      "to": "q",
+      "answers": [
+        "Are you sitting in my chair?"
+      ],
+      "explanationEs": "Pregunta: are antes de you."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "She working at the moment.",
+      "wrong": "working",
+      "answers": [
+        "is working"
+      ],
+      "explanationEs": "Falta el auxiliar: She is working."
+    }
+  ]
+}

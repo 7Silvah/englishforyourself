@@ -1,0 +1,87 @@
+{
+  "title": "Future: free practice",
+  "titleEs": "Futuro: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "futuro",
+  "topics": [
+    "future-will",
+    "future-going-to"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "We ___ (going to / move) to a new house next year.",
+      "blanks": [
+        {
+          "answers": [
+            "are going to move",
+            "'re going to move"
+          ]
+        }
+      ],
+      "explanationEs": "Plan: are going to + move."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I think Brazil ___ (will / win) the match.",
+      "blanks": [
+        {
+          "answers": [
+            "will win"
+          ]
+        }
+      ],
+      "explanationEs": "Opinión sobre el futuro: will + verbo."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Don't worry, I ___ (will / not / forget) your birthday.",
+      "blanks": [
+        {
+          "answers": [
+            "won't forget",
+            "will not forget"
+          ]
+        }
+      ],
+      "explanationEs": "Promesa en negativa: won't + verbo."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "He is going to cook tonight.",
+      "to": "neg",
+      "answers": [
+        "He isn't going to cook tonight.",
+        "He's not going to cook tonight."
+      ],
+      "explanationEs": "Negativa: isn't going to."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "You will be at home tomorrow.",
+      "to": "q",
+      "answers": [
+        "Will you be at home tomorrow?"
+      ],
+      "explanationEs": "Pregunta: will antes del sujeto."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "I will to call you later.",
+      "wrong": "will to call",
+      "answers": [
+        "will call"
+      ],
+      "explanationEs": "Will + verbo sin to."
+    }
+  ]
+}

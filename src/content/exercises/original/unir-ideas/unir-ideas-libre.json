@@ -1,0 +1,84 @@
+{
+  "title": "Linking ideas: free practice",
+  "titleEs": "Unir ideas: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "unir-ideas",
+  "topics": [
+    "conjunctions",
+    "adverbs"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I like cats, ___ I don't like dogs.",
+      "blanks": [
+        {
+          "answers": [
+            "but"
+          ]
+        }
+      ],
+      "explanationEs": "Contraste: but."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "We took a taxi ___ it was raining.",
+      "blanks": [
+        {
+          "answers": [
+            "because"
+          ]
+        }
+      ],
+      "explanationEs": "Causa: because."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "The shop was closed, ___ we went home.",
+      "blanks": [
+        {
+          "answers": [
+            "so"
+          ]
+        }
+      ],
+      "explanationEs": "Consecuencia: so."
+    },
+    {
+      "id": "4",
+      "type": "error-correction",
+      "sentence": "Because I was tired, so I went to bed.",
+      "wrong": "so I went",
+      "answers": [
+        "I went"
+      ],
+      "explanationEs": "No se usan because y so en la misma frase: o uno o el otro."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "She plays very well the piano.",
+      "wrong": "plays very well the piano",
+      "answers": [
+        "plays the piano very well"
+      ],
+      "explanationEs": "El verbo y su objeto van juntos; el adverbio, después."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "Do you prefer the beach and the mountains?",
+      "wrong": "and",
+      "answers": [
+        "or"
+      ],
+      "explanationEs": "Para elegir: or."
+    }
+  ]
+}

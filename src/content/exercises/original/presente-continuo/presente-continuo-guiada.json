@@ -1,0 +1,74 @@
+{
+  "title": "Present continuous: guided practice",
+  "titleEs": "Presente continuo: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "presente-continuo",
+  "topics": [
+    "present-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "The baby ___ right now.",
+      "options": [
+        "is sleeping",
+        "sleeps",
+        "sleeping"
+      ],
+      "answer": 0,
+      "explanationEs": "Para lo que pasa ahora mismo: am/is/are + verbo-ing. Sin is, la frase no tiene verbo completo."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I ___ the answer.",
+      "options": [
+        "know",
+        "am knowing",
+        "knowing"
+      ],
+      "answer": 0,
+      "explanationEs": "Know es un verbo de estado: no se usa en continuo."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "She is studying for an exam this week.",
+      "answer": true,
+      "explanationEs": "El presente continuo también sirve para situaciones temporales (this week)."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "They are swiming in the pool.",
+      "answer": false,
+      "explanationEs": "Swim termina en vocal + consonante: se dobla la m. Swimming."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What are you doing?"
+      ],
+      "distractors": [
+        "do"
+      ],
+      "explanationEs": "Pregunta en presente continuo: are + sujeto + verbo-ing. No se usa do como auxiliar."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "He isn't working today."
+      ],
+      "distractors": [
+        "doesn't"
+      ],
+      "explanationEs": "Negativa: isn't + verbo-ing. Doesn't es del presente simple."
+    }
+  ]
+}

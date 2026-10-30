@@ -1,0 +1,96 @@
+{
+  "title": "Past simple: review",
+  "titleEs": "Pasado simple: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-simple",
+  "topics": [
+    "past-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ you enjoy the concert?",
+      "options": [
+        "Did",
+        "Were",
+        "Was"
+      ],
+      "answer": 0,
+      "explanationEs": "Pregunta en pasado con un verbo que no es to be: did."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "My father ___ in a factory for 20 years.",
+      "options": [
+        "worked",
+        "work",
+        "works"
+      ],
+      "answer": 0,
+      "explanationEs": "Algo terminado en el pasado: worked."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "We stoped at a small café.",
+      "answer": false,
+      "explanationEs": "Stop dobla la p: stopped."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Yesterday I got up at 7.",
+      "answer": true,
+      "explanationEs": "Get es irregular: got."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What did she say?"
+      ],
+      "distractors": [
+        "said"
+      ],
+      "explanationEs": "Pregunta: what + did + sujeto + forma base (say)."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "They ___ (to buy) a new car last month.",
+      "blanks": [
+        {
+          "answers": [
+            "bought"
+          ]
+        }
+      ],
+      "explanationEs": "Buy es irregular: bought."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "He eats breakfast at home.",
+      "to": "past",
+      "answers": [
+        "He ate breakfast at home."
+      ],
+      "explanationEs": "Eat es irregular: ate."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "Yesterday I go to the supermarket.",
+      "wrong": "go",
+      "answers": [
+        "went"
+      ],
+      "explanationEs": "Yesterday pide pasado: went."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Comparatives and superlatives: review",
+  "titleEs": "Comparativos y superlativos: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "comparativos-y-superlativos",
+  "topics": [
+    "comparatives",
+    "superlatives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Your phone is ___ than mine.",
+      "options": [
+        "more modern",
+        "moderner",
+        "most modern"
+      ],
+      "answer": 0,
+      "explanationEs": "Modern tiene dos sílabas: more modern."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Which is the ___ planet in our solar system?",
+      "options": [
+        "largest",
+        "larger",
+        "most large"
+      ],
+      "answer": 0,
+      "explanationEs": "Superlativo de un adjetivo corto: the -est."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "My exam results were worse than yours.",
+      "answer": true,
+      "explanationEs": "Bad → worse."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "He is more better at maths than me.",
+      "answer": false,
+      "explanationEs": "Better ya es comparativo: no lleva more."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Who is the youngest student in the class?"
+      ],
+      "distractors": [
+        "most"
+      ],
+      "explanationEs": "Superlativo corto: the youngest."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Cats are ___ (quiet) than dogs.",
+      "blanks": [
+        {
+          "answers": [
+            "quieter",
+            "more quiet"
+          ]
+        }
+      ],
+      "explanationEs": "Quiet admite las dos formas."
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "That was the ___ (good) day of my life.",
+      "blanks": [
+        {
+          "answers": [
+            "best"
+          ]
+        }
+      ],
+      "explanationEs": "Good → the best."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "My house is bigger that your house.",
+      "wrong": "that",
+      "answers": [
+        "than"
+      ],
+      "explanationEs": "En las comparaciones, «que» es than."
+    }
+  ]
+}

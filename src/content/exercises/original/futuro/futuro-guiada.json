@@ -1,0 +1,75 @@
+{
+  "title": "Future: guided practice",
+  "titleEs": "Futuro: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "futuro",
+  "topics": [
+    "future-will",
+    "future-going-to"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I ___ visit my grandmother next weekend. I have the tickets.",
+      "options": [
+        "am going to",
+        "will to",
+        "going to"
+      ],
+      "answer": 0,
+      "explanationEs": "Un plan ya decidido: am going to + verbo."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "The phone is ringing. ___ answer it.",
+      "options": [
+        "I'll",
+        "I will to",
+        "I'm answer"
+      ],
+      "answer": 0,
+      "explanationEs": "Una decisión en el momento: will (I'll) + verbo."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "It's going to rain. Look at those clouds!",
+      "answer": true,
+      "explanationEs": "Predicción con pruebas que ves: going to."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She will to start a new job.",
+      "answer": false,
+      "explanationEs": "Después de will el verbo va sin to."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Are you going to buy a car?"
+      ],
+      "distractors": [
+        "will"
+      ],
+      "explanationEs": "Pregunta con going to: are + you + going to + verbo."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "I won't tell anyone."
+      ],
+      "distractors": [
+        "don't"
+      ],
+      "explanationEs": "Negativa de will: won't + verbo."
+    }
+  ]
+}

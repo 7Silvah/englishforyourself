@@ -1,0 +1,97 @@
+{
+  "title": "Past of to be: review",
+  "titleEs": "Was y were: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-de-to-be",
+  "topics": [
+    "past-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "The weather ___ terrible last summer.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": 0,
+      "explanationEs": "The weather = it: was."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Where ___ your parents yesterday?",
+      "options": [
+        "were",
+        "was",
+        "did"
+      ],
+      "answer": 0,
+      "explanationEs": "Your parents = they: were."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Was the film good? Yes, it was.",
+      "answer": true,
+      "explanationEs": "Respuesta corta con was."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Did you be at home?",
+      "answer": false,
+      "explanationEs": "To be no usa did: Were you at home?"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "There was a cat in the garden."
+      ],
+      "distractors": [
+        "were"
+      ],
+      "explanationEs": "Una cosa: there was."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "We ___ (not / be) at school last Friday.",
+      "blanks": [
+        {
+          "answers": [
+            "weren't",
+            "were not"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con we: weren't."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "He is at the office.",
+      "to": "past",
+      "answers": [
+        "He was at the office."
+      ],
+      "explanationEs": "Is pasa a was en pasado."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "They was very kind to me.",
+      "wrong": "was",
+      "answers": [
+        "were"
+      ],
+      "explanationEs": "Con they: were."
+    }
+  ]
+}

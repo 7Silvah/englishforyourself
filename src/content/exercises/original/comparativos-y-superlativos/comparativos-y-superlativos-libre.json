@@ -1,0 +1,87 @@
+{
+  "title": "Comparatives and superlatives: free practice",
+  "titleEs": "Comparativos y superlativos: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "comparativos-y-superlativos",
+  "topics": [
+    "comparatives",
+    "superlatives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "Today is ___ (hot) than yesterday.",
+      "blanks": [
+        {
+          "answers": [
+            "hotter"
+          ]
+        }
+      ],
+      "explanationEs": "Hot dobla la t: hotter."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "This exercise is ___ (difficult) than the first one.",
+      "blanks": [
+        {
+          "answers": [
+            "more difficult"
+          ]
+        }
+      ],
+      "explanationEs": "Adjetivo largo: more + adjetivo."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "He is the ___ (funny) person in my family.",
+      "blanks": [
+        {
+          "answers": [
+            "funniest"
+          ]
+        }
+      ],
+      "explanationEs": "-y → -iest: funniest."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "My cold is ___ (bad) today than yesterday.",
+      "blanks": [
+        {
+          "answers": [
+            "worse"
+          ]
+        }
+      ],
+      "explanationEs": "Bad es irregular: worse, the worst."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "My sister is more young than me.",
+      "wrong": "more young",
+      "answers": [
+        "younger"
+      ],
+      "explanationEs": "Young es corto: younger."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "This is the best pizza of the world.",
+      "wrong": "of",
+      "answers": [
+        "in"
+      ],
+      "explanationEs": "Con lugares se usa in: the best in the world."
+    }
+  ]
+}
