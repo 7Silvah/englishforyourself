@@ -2,7 +2,7 @@ import { CircleAlert, CircleCheck, CircleX } from "lucide-react";
 import { SpeakButton } from "@/components/lesson/speak-button";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
-import type { CheckResult, Status, SupportedItem } from "../check";
+import type { CheckResult, Status, ExerciseItem } from "../check";
 import { canListen, solutionSentence, solutionText } from "../solution";
 import { statusClasses } from "../types/item-props";
 
@@ -15,7 +15,7 @@ const icons: Record<Status, typeof CircleCheck> = {
 };
 
 // Corrección de un ítem: icono + texto (nunca solo color), la solución y el porqué
-export function Feedback({ item, result }: { item: SupportedItem; result: CheckResult }) {
+export function Feedback({ item, result }: { item: ExerciseItem; result: CheckResult }) {
   const Icon = icons[result.status];
   const listen = canListen(item);
   const showSolution = result.status === "wrong" || (result.status === "correct" && listen);

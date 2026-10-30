@@ -1,0 +1,141 @@
+{
+  "title": "Asking questions: more practice",
+  "titleEs": "Hacer preguntas: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "preguntas",
+  "topics": [
+    "questions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "what",
+          "right": "qué"
+        },
+        {
+          "left": "where",
+          "right": "dónde"
+        },
+        {
+          "left": "when",
+          "right": "cuándo"
+        },
+        {
+          "left": "who",
+          "right": "quién"
+        },
+        {
+          "left": "why",
+          "right": "por qué"
+        }
+      ],
+      "explanationEs": "Palabras interrogativas: van al principio de la pregunta."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "do",
+          "items": [
+            "you",
+            "they",
+            "we"
+          ]
+        },
+        {
+          "label": "does",
+          "items": [
+            "she",
+            "he",
+            "it"
+          ]
+        }
+      ],
+      "explanationEs": "Does con he, she e it; do con el resto."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "¿Dónde vives?",
+      "answers": [
+        "Where do you live?"
+      ],
+      "wordBank": [
+        "Where",
+        "do",
+        "you",
+        "live?",
+        "does",
+        "are"
+      ],
+      "explanationEs": "Palabra interrogativa + do + sujeto + verbo."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "What time do you get up?",
+      "explanationEs": "Palabra interrogativa (what time) + do + you + verbo."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Questions",
+      "columns": [
+        "Question",
+        "Short answer (yes)"
+      ],
+      "rows": [
+        {
+          "header": "you / like tea",
+          "cells": [
+            {
+              "answers": [
+                "Do you like tea?"
+              ]
+            },
+            {
+              "answers": [
+                "Yes, I do."
+              ]
+            }
+          ]
+        },
+        {
+          "header": "she / work here",
+          "cells": [
+            {
+              "answers": [
+                "Does she work here?"
+              ]
+            },
+            {
+              "answers": [
+                "Yes, she does."
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Pregunta con do/does; respuesta corta con el mismo auxiliar."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "Does he play tennis?",
+      "options": [
+        "Does he play tennis?",
+        "Do he play tennis?",
+        "Does he plays tennis?"
+      ],
+      "answer": 0,
+      "explanationEs": "Does con he, y el verbo sin -s."
+    }
+  ]
+}

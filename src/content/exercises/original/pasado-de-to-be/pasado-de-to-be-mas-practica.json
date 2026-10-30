@@ -1,0 +1,141 @@
+{
+  "title": "Past of to be: more practice",
+  "titleEs": "Was y were: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-de-to-be",
+  "topics": [
+    "past-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Estuve en casa.",
+          "right": "I was at home."
+        },
+        {
+          "left": "Estaban cansados.",
+          "right": "They were tired."
+        },
+        {
+          "left": "¿Dónde estabas?",
+          "right": "Where were you?"
+        },
+        {
+          "left": "No hacía frío.",
+          "right": "It wasn't cold."
+        }
+      ],
+      "explanationEs": "Era, estaba, fue, estuve: todo es was o were."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "was",
+          "items": [
+            "I",
+            "he",
+            "it",
+            "my mother"
+          ]
+        },
+        {
+          "label": "were",
+          "items": [
+            "you",
+            "we",
+            "they",
+            "my parents"
+          ]
+        }
+      ],
+      "explanationEs": "Was con una persona o cosa (salvo you); were con you y los plurales."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Tenía diez años.",
+      "answers": [
+        "I was ten years old.",
+        "I was 10 years old.",
+        "I was ten.",
+        "I was 10."
+      ],
+      "explanationEs": "La edad en pasado también va con to be: I was ten."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "Where were you last night?",
+      "explanationEs": "Pregunta: were antes de you."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Was / were",
+      "columns": [
+        "Positive",
+        "Negative",
+        "Question"
+      ],
+      "rows": [
+        {
+          "header": "it / cold",
+          "cells": [
+            {
+              "answers": [
+                "It was cold."
+              ]
+            },
+            {
+              "answers": [
+                "It wasn't cold."
+              ]
+            },
+            {
+              "answers": [
+                "Was it cold?"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they / late",
+          "cells": [
+            "They were late.",
+            {
+              "answers": [
+                "They weren't late."
+              ]
+            },
+            {
+              "answers": [
+                "Were they late?"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Negativa: wasn't, weren't. Pregunta: was o were antes del sujeto."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "There were two cats.",
+      "options": [
+        "There were two cats.",
+        "There was two cats.",
+        "There are two cats."
+      ],
+      "answer": 0,
+      "explanationEs": "Plural en pasado: there were."
+    }
+  ]
+}

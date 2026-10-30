@@ -1,9 +1,10 @@
 import { Volume2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useEnglishVoice } from "@/hooks/use-english-voice";
 import { es } from "@/i18n/es";
-import { canSpeak, speak } from "@/lib/speak";
+import { speak } from "@/lib/speech";
 
-// Botón 🔊 que lee una frase en inglés. Si el navegador no puede hablar, no se muestra.
+// Botón 🔊 que lee una frase en inglés. Si no hay voces en inglés, no se muestra.
 export function SpeakButton({
   text,
   label = es.exercises.player.listen,
@@ -11,7 +12,8 @@ export function SpeakButton({
   text: string;
   label?: string;
 }) {
-  if (!canSpeak()) return null;
+  const available = useEnglishVoice();
+  if (!available) return null;
   return (
     <Button
       type="button"

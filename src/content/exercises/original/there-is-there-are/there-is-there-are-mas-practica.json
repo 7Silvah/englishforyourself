@@ -1,0 +1,150 @@
+{
+  "title": "There is / there are: more practice",
+  "titleEs": "There is / there are: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "there-is-there-are",
+  "topics": [
+    "there-is",
+    "countable-uncountable"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Hay un banco.",
+          "right": "There is a bank."
+        },
+        {
+          "left": "Hay dos bancos.",
+          "right": "There are two banks."
+        },
+        {
+          "left": "No hay leche.",
+          "right": "There isn't any milk."
+        },
+        {
+          "left": "¿Hay huevos?",
+          "right": "Are there any eggs?"
+        }
+      ],
+      "explanationEs": "«Hay» es there is (una cosa) o there are (varias)."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "countable",
+          "labelEs": "contable",
+          "items": [
+            "apple",
+            "chair",
+            "egg"
+          ]
+        },
+        {
+          "label": "uncountable",
+          "labelEs": "incontable",
+          "items": [
+            "milk",
+            "water",
+            "information"
+          ]
+        }
+      ],
+      "explanationEs": "Los contables tienen plural; los incontables no."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Hay muchos parques en mi ciudad.",
+      "answers": [
+        "There are many parks in my city."
+      ],
+      "wordBank": [
+        "There",
+        "are",
+        "many",
+        "parks",
+        "in",
+        "my",
+        "city.",
+        "have",
+        "is"
+      ],
+      "explanationEs": "«Hay» con plural: there are. No se usa have."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "Is there a bank near here?",
+      "explanationEs": "Pregunta: is va antes de there."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "There is / there are",
+      "columns": [
+        "Positive",
+        "Negative",
+        "Question"
+      ],
+      "rows": [
+        {
+          "header": "a bank",
+          "cells": [
+            {
+              "answers": [
+                "There is a bank.",
+                "There's a bank."
+              ]
+            },
+            {
+              "answers": [
+                "There isn't a bank.",
+                "There's no bank.",
+                "There is no bank."
+              ]
+            },
+            "Is there a bank?"
+          ]
+        },
+        {
+          "header": "some eggs",
+          "cells": [
+            "There are some eggs.",
+            {
+              "answers": [
+                "There aren't any eggs.",
+                "There are no eggs."
+              ]
+            },
+            {
+              "answers": [
+                "Are there any eggs?"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "En negativas y preguntas, some pasa a any."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "How much water is there?",
+      "options": [
+        "How much water is there?",
+        "How many water is there?",
+        "How much waters are there?"
+      ],
+      "answer": 0,
+      "explanationEs": "Water es incontable: how much y sin plural."
+    }
+  ]
+}

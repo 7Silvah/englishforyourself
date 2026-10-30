@@ -1,0 +1,151 @@
+{
+  "title": "Linking ideas: more practice",
+  "titleEs": "Unir ideas: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "unir-ideas",
+  "topics": [
+    "conjunctions",
+    "adverbs"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "and",
+          "right": "y"
+        },
+        {
+          "left": "but",
+          "right": "pero"
+        },
+        {
+          "left": "or",
+          "right": "o"
+        },
+        {
+          "left": "because",
+          "right": "porque"
+        },
+        {
+          "left": "so",
+          "right": "así que"
+        }
+      ],
+      "explanationEs": "Los cinco conectores básicos."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "how",
+          "labelEs": "cómo",
+          "items": [
+            "slowly",
+            "well",
+            "fast"
+          ]
+        },
+        {
+          "label": "where",
+          "labelEs": "dónde",
+          "items": [
+            "at home",
+            "in the park",
+            "here"
+          ]
+        },
+        {
+          "label": "when",
+          "labelEs": "cuándo",
+          "items": [
+            "yesterday",
+            "on Sundays",
+            "every day"
+          ]
+        }
+      ],
+      "explanationEs": "Orden en la frase: cómo, dónde y cuándo."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Me gusta mucho el chocolate.",
+      "answers": [
+        "I like chocolate very much."
+      ],
+      "wordBank": [
+        "I",
+        "like",
+        "chocolate",
+        "very",
+        "much."
+      ],
+      "explanationEs": "El verbo y su objeto van juntos; very much, al final."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "I was tired, so I went to bed.",
+      "explanationEs": "So introduce la consecuencia."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "and, but, or, because, so",
+      "columns": [
+        "Connector"
+      ],
+      "rows": [
+        {
+          "header": "I like tea, ___ I don't like coffee.",
+          "cells": [
+            {
+              "answers": [
+                "but"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "I stayed home ___ I was ill.",
+          "cells": [
+            {
+              "answers": [
+                "because"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "It was cold, ___ I wore a coat.",
+          "cells": [
+            {
+              "answers": [
+                "so"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "But: contraste. Because: causa. So: consecuencia."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "Do you want tea or coffee?",
+      "options": [
+        "Do you want tea or coffee?",
+        "Do you want tea and coffee?",
+        "Do you want tea of coffee?"
+      ],
+      "answer": 0,
+      "explanationEs": "Para elegir entre opciones: or."
+    }
+  ]
+}

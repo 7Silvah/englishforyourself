@@ -1,0 +1,162 @@
+{
+  "title": "Possessives and demonstratives: more practice",
+  "titleEs": "Posesivos y demostrativos: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "posesivos-y-demostrativos",
+  "topics": [
+    "possessives",
+    "demonstratives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "my"
+        },
+        {
+          "left": "he",
+          "right": "his"
+        },
+        {
+          "left": "she",
+          "right": "her"
+        },
+        {
+          "left": "we",
+          "right": "our"
+        },
+        {
+          "left": "they",
+          "right": "their"
+        }
+      ],
+      "explanationEs": "Cada pronombre tiene su posesivo."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "near",
+          "labelEs": "cerca",
+          "items": [
+            "this",
+            "these",
+            "here"
+          ]
+        },
+        {
+          "label": "far",
+          "labelEs": "lejos",
+          "items": [
+            "that",
+            "those",
+            "there"
+          ]
+        }
+      ],
+      "explanationEs": "This y these para lo cercano; that y those para lo lejano."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "El coche de mi padre.",
+      "answers": [
+        "My father's car."
+      ],
+      "wordBank": [
+        "My",
+        "father's",
+        "car.",
+        "the",
+        "of"
+      ],
+      "explanationEs": "Para decir de quién es algo se usa 's, no of."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "These are our books.",
+      "explanationEs": "These (plural de this) y our (posesivo de we)."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Posesivos",
+      "columns": [
+        "Possessive"
+      ],
+      "rows": [
+        {
+          "header": "he",
+          "cells": [
+            {
+              "answers": [
+                "his"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "she",
+          "cells": [
+            {
+              "answers": [
+                "her"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "it",
+          "cells": [
+            {
+              "answers": [
+                "its"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "we",
+          "cells": [
+            {
+              "answers": [
+                "our"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they",
+          "cells": [
+            {
+              "answers": [
+                "their"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Its sin apóstrofo es el posesivo de it."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "Those are their children.",
+      "options": [
+        "Those are their children.",
+        "These are their children.",
+        "Those are our children."
+      ],
+      "answer": 0,
+      "explanationEs": "Those = aquellos (lejos); their = de ellos."
+    }
+  ]
+}

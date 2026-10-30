@@ -3,9 +3,11 @@
 import { seededShuffle } from "@/lib/random";
 import type { ExerciseItem, ExerciseType } from "./schema";
 
+export type { ExerciseItem, ExerciseType };
+
 export type Status = "correct" | "almost" | "wrong";
 
-/** Resultado de un ítem. "parts" detalla cada hueco o paso cuando hay varios. */
+/** Resultado de un ítem. "parts" detalla cada hueco, pareja o paso cuando hay varios. */
 export type CheckResult = { status: Status; parts?: Status[] };
 
 /** Respuesta del estudiante, con la misma "type" que el ítem */
@@ -15,41 +17,46 @@ export type ItemResponse =
   | { type: "true-false"; choice: boolean | null }
   | { type: "word-order"; tokens: number[] } // índices de wordOrderTokens(), en el orden elegido
   | { type: "transform"; text: string }
-  | { type: "error-correction"; token: number | null; text: string };
+  | { type: "error-correction"; token: number | null; text: string }
+  | { type: "match"; pairs: (number | null)[] } // por cada elemento de la izquierda, el de la derecha elegido
+  | { type: "categorize"; placed: (number | null)[] } // por cada palabra (categorizeItems), su categoría
+  | { type: "translate"; text: string; tokens: number[] } // text si se escribe; tokens si hay wordBank
+  | { type: "dictation"; text: string }
+  | { type: "table-fill"; values: string[] } // un valor por hueco (tableBlanks), en orden de lectura
+  | { type: "listen-choose"; choice: number | null };
 
-// Tipos que ya tienen componente (F5). El resto llega en F9.
-export const SUPPORTED_TYPES = [
-  "fill-blank",
-  "multiple-choice",
-  "true-false",
-  "word-order",
-  "transform",
-  "error-correction",
-] as const satisfies readonly ExerciseType[];
-
-export type SupportedType = (typeof SUPPORTED_TYPES)[number];
 export type ItemOf<T extends ExerciseType> = Extract<ExerciseItem, { type: T }>;
-export type ResponseOf<T extends SupportedType> = Extract<ItemResponse, { type: T }>;
-export type SupportedItem = ItemOf<SupportedType>;
+export type ResponseOf<T extends ExerciseType> = Extract<ItemResponse, { type: T }>;
 
-export function isSupported(item: ExerciseItem): item is SupportedItem {
-  return SUPPORTED_TYPES.some((type) => type === item.type);
+/** Ítems que necesitan la voz del navegador: si no hay voces en inglés, se saltan */
+export function needsAudio(item: ExerciseItem): boolean {
+  return item.type === "dictation" || item.type === "listen-choose";
 }
 
-export function emptyResponse(item: SupportedItem): ItemResponse {
+export function emptyResponse(item: ExerciseItem): ItemResponse {
   switch (item.type) {
     case "fill-blank":
       return { type: item.type, values: item.blanks.map(() => "") };
     case "multiple-choice":
+    case "listen-choose":
       return { type: item.type, choice: null };
     case "true-false":
       return { type: item.type, choice: null };
     case "word-order":
       return { type: item.type, tokens: [] };
     case "transform":
+    case "dictation":
       return { type: item.type, text: "" };
     case "error-correction":
       return { type: item.type, token: null, text: "" };
+    case "match":
+      return { type: item.type, pairs: item.pairs.map(() => null) };
+    case "categorize":
+      return { type: item.type, placed: categorizeItems(item).map(() => null) };
+    case "translate":
+      return { type: item.type, text: "", tokens: [] };
+    case "table-fill":
+      return { type: item.type, values: tableBlanks(item).map(() => "") };
   }
 }
 
@@ -156,6 +163,20 @@ export function combine(parts: readonly Status[]): Status {
 
 // ---------- Ayudas por tipo ----------
 
+/** Índices de 0 a n-1 barajados con semilla */
+function shuffledIndices(n: number, seed: string): number[] {
+  return seededShuffle(
+    Array.from({ length: n }, (_, i) => i),
+    seed,
+  );
+}
+
+/** Barajado que nunca deja la lista en su orden original (sería la solución) */
+function shuffledNotSolved(n: number, seed: string): number[] {
+  const shuffled = shuffledIndices(n, seed);
+  return shuffled.every((v, i) => v === i) ? shuffled.reverse() : shuffled;
+}
+
 /** Fichas de un word-order: las palabras de la primera respuesta más los distractores */
 export function wordOrderTokens(item: ItemOf<"word-order">): string[] {
   const words = (item.answers[0] ?? "").split(/\s+/).filter(Boolean);
@@ -164,17 +185,12 @@ export function wordOrderTokens(item: ItemOf<"word-order">): string[] {
 
 /** Orden en que se muestran las fichas: barajado, pero nunca ya resuelto */
 export function wordOrderDisplay(item: ItemOf<"word-order">, seed: string): number[] {
-  const indices = wordOrderTokens(item).map((_, i) => i);
-  const shuffled = seededShuffle(indices, seed);
-  return shuffled.every((n, i) => n === i) ? shuffled.reverse() : shuffled;
+  return shuffledNotSolved(wordOrderTokens(item).length, seed);
 }
 
-/** Orden en que se muestran las opciones de una pregunta de opción múltiple */
-export function choiceDisplay(item: ItemOf<"multiple-choice">, seed: string): number[] {
-  return seededShuffle(
-    item.options.map((_, i) => i),
-    seed,
-  );
+/** Orden en que se muestran las opciones (multiple-choice, listen-choose) */
+export function choiceDisplay(item: { options: readonly string[] }, seed: string): number[] {
+  return shuffledIndices(item.options.length, seed);
 }
 
 /** Palabras de la frase de un error-correction */
@@ -197,9 +213,41 @@ export function wrongTokenIndices(item: ItemOf<"error-correction">): number[] {
   return result;
 }
 
+/** Orden en que se muestra la columna derecha de un match (la izquierda va en orden) */
+export function matchDisplay(item: ItemOf<"match">, seed: string): number[] {
+  return shuffledNotSolved(item.pairs.length, seed);
+}
+
+/** Todas las palabras de un categorize, cada una con su categoría correcta */
+export function categorizeItems(item: ItemOf<"categorize">): { text: string; category: number }[] {
+  return item.categories.flatMap((c, category) => c.items.map((text) => ({ text, category })));
+}
+
+export function categorizeDisplay(item: ItemOf<"categorize">, seed: string): number[] {
+  return shuffledIndices(categorizeItems(item).length, seed);
+}
+
+/** Huecos de un table-fill, en orden de lectura (fila a fila) */
+export function tableBlanks(
+  item: ItemOf<"table-fill">,
+): { row: number; col: number; answers: string[] }[] {
+  return item.rows.flatMap((r, row) =>
+    r.cells.flatMap((cell, col) =>
+      typeof cell === "string" ? [] : [{ row, col, answers: cell.answers }],
+    ),
+  );
+}
+
+/** Orden de las fichas del banco de palabras de un translate */
+export function translateDisplay(item: ItemOf<"translate">, seed: string): number[] {
+  return shuffledNotSolved(item.wordBank?.length ?? 0, seed);
+}
+
 // ---------- Corrección de un ítem ----------
 
-export function checkItem(item: SupportedItem, response: ItemResponse): CheckResult {
+const right = (ok: boolean): Status => (ok ? "correct" : "wrong");
+
+export function checkItem(item: ExerciseItem, response: ItemResponse): CheckResult {
   switch (item.type) {
     case "fill-blank": {
       const values = response.type === "fill-blank" ? response.values : [];
@@ -208,16 +256,14 @@ export function checkItem(item: SupportedItem, response: ItemResponse): CheckRes
     }
     case "multiple-choice":
       return {
-        status:
-          response.type === "multiple-choice" && response.choice === item.answer
-            ? "correct"
-            : "wrong",
+        status: right(response.type === "multiple-choice" && response.choice === item.answer),
+      };
+    case "listen-choose":
+      return {
+        status: right(response.type === "listen-choose" && response.choice === item.answer),
       };
     case "true-false":
-      return {
-        status:
-          response.type === "true-false" && response.choice === item.answer ? "correct" : "wrong",
-      };
+      return { status: right(response.type === "true-false" && response.choice === item.answer) };
     case "word-order": {
       if (response.type !== "word-order") return { status: "wrong" };
       const tokens = wordOrderTokens(item);
@@ -230,12 +276,42 @@ export function checkItem(item: SupportedItem, response: ItemResponse): CheckRes
       };
     case "error-correction": {
       if (response.type !== "error-correction") return { status: "wrong" };
-      const found =
-        response.token !== null && wrongTokenIndices(item).includes(response.token)
-          ? "correct"
-          : "wrong";
+      const found = right(
+        response.token !== null && wrongTokenIndices(item).includes(response.token),
+      );
       const fixed = checkText(response.text, item.answers);
       return { status: combine([found, fixed]), parts: [found, fixed] };
+    }
+    case "match": {
+      const pairs = response.type === "match" ? response.pairs : [];
+      const parts = item.pairs.map((_, i) => right(pairs[i] === i));
+      return { status: combine(parts), parts };
+    }
+    case "categorize": {
+      const placed = response.type === "categorize" ? response.placed : [];
+      const parts = categorizeItems(item).map((w, i) => right(placed[i] === w.category));
+      return { status: combine(parts), parts };
+    }
+    case "translate": {
+      if (response.type !== "translate") return { status: "wrong" };
+      // Con banco de palabras se responde con fichas: no hay faltas de ortografía posibles
+      if (item.wordBank) {
+        const sentence = response.tokens.map((i) => item.wordBank?.[i] ?? "").join(" ");
+        return { status: checkText(sentence, item.answers, { allowAlmost: false }) };
+      }
+      return { status: checkText(response.text, item.answers) };
+    }
+    case "dictation":
+      return {
+        status:
+          response.type === "dictation"
+            ? checkText(response.text, [item.text, ...(item.answers ?? [])])
+            : "wrong",
+      };
+    case "table-fill": {
+      const values = response.type === "table-fill" ? response.values : [];
+      const parts = tableBlanks(item).map((blank, i) => checkText(values[i] ?? "", blank.answers));
+      return { status: combine(parts), parts };
     }
   }
 }
@@ -244,15 +320,24 @@ export function checkItem(item: SupportedItem, response: ItemResponse): CheckRes
 export function hasAnswer(response: ItemResponse): boolean {
   switch (response.type) {
     case "fill-blank":
+    case "table-fill":
       return response.values.some((v) => v.trim() !== "");
     case "multiple-choice":
     case "true-false":
+    case "listen-choose":
       return response.choice !== null;
     case "word-order":
       return response.tokens.length > 0;
     case "transform":
+    case "dictation":
       return response.text.trim() !== "";
     case "error-correction":
       return response.token !== null;
+    case "match":
+      return response.pairs.some((p) => p !== null);
+    case "categorize":
+      return response.placed.some((p) => p !== null);
+    case "translate":
+      return response.text.trim() !== "" || response.tokens.length > 0;
   }
 }

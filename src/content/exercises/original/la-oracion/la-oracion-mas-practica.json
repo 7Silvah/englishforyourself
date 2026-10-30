@@ -1,0 +1,139 @@
+{
+  "title": "The sentence: more practice",
+  "titleEs": "La oración: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A1",
+  "unit": "la-oracion",
+  "topics": [
+    "sentence-order"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Hace frío.",
+          "right": "It is cold."
+        },
+        {
+          "left": "Es tarde.",
+          "right": "It is late."
+        },
+        {
+          "left": "Es lunes.",
+          "right": "It is Monday."
+        },
+        {
+          "left": "Es mi cumpleaños.",
+          "right": "It is my birthday."
+        }
+      ],
+      "explanationEs": "Para el tiempo, la hora y las fechas, el sujeto en inglés es it."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "noun",
+          "labelEs": "sustantivo",
+          "items": [
+            "house",
+            "car",
+            "friend"
+          ]
+        },
+        {
+          "label": "adjective",
+          "labelEs": "adjetivo",
+          "items": [
+            "big",
+            "red",
+            "good"
+          ]
+        }
+      ],
+      "explanationEs": "El sustantivo nombra cosas o personas; el adjetivo las describe y va delante del sustantivo."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Tengo un coche rojo.",
+      "answers": [
+        "I have a red car."
+      ],
+      "wordBank": [
+        "I",
+        "have",
+        "a",
+        "red",
+        "car.",
+        "reds"
+      ],
+      "explanationEs": "Sujeto (I) + verbo (have) + complemento. El adjetivo red va delante de car y no lleva plural."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "It is cold today.",
+      "explanationEs": "Fíjate en el sujeto it al principio: en inglés no se omite."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "¿Cómo se dice en inglés?",
+      "columns": [
+        "In English"
+      ],
+      "rows": [
+        {
+          "header": "una casa grande",
+          "cells": [
+            {
+              "answers": [
+                "a big house"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "un buen amigo",
+          "cells": [
+            {
+              "answers": [
+                "a good friend"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "Hace frío.",
+          "cells": [
+            {
+              "answers": [
+                "It is cold.",
+                "It's cold."
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Adjetivo delante del sustantivo, y sujeto it para el tiempo."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "It is late.",
+      "options": [
+        "It is late.",
+        "Is late.",
+        "It late."
+      ],
+      "answer": 0,
+      "explanationEs": "La frase tiene sujeto (it) y verbo (is)."
+    }
+  ]
+}

@@ -2,13 +2,7 @@ import { Lightbulb } from "lucide-react";
 import { useState, type FormEvent, type KeyboardEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { es } from "@/i18n/es";
-import {
-  checkItem,
-  emptyResponse,
-  hasAnswer,
-  type CheckResult,
-  type SupportedItem,
-} from "../check";
+import { checkItem, emptyResponse, hasAnswer, type CheckResult, type ExerciseItem } from "../check";
 import { Feedback } from "./feedback";
 import { ItemView } from "./item-view";
 import { finalResult, type ItemRecord, type Mode } from "./logic";
@@ -16,7 +10,7 @@ import { finalResult, type ItemRecord, type Mode } from "./logic";
 const t = es.exercises.player;
 
 type Props = {
-  item: SupportedItem;
+  item: ExerciseItem;
   mode: Mode;
   seed: string;
   isLast: boolean;

@@ -1,6 +1,5 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { useState } from "react";
 import { describe, expect, it, vi } from "vitest";
 import {
   errorCorrection,
@@ -10,34 +9,7 @@ import {
   trueFalse,
   wordOrder,
 } from "@/test/fixtures";
-import { emptyResponse, type CheckResult, type ItemResponse, type SupportedItem } from "../check";
-import { ItemView } from "../player/item-view";
-
-// Guarda la respuesta en estado, como hace el player, y avisa de cada cambio
-function Harness({
-  item,
-  result = null,
-  onChange,
-}: {
-  item: SupportedItem;
-  result?: CheckResult | null;
-  onChange?: (response: ItemResponse) => void;
-}) {
-  const [response, setResponse] = useState(() => emptyResponse(item));
-  return (
-    <ItemView
-      item={item}
-      response={response}
-      onChange={(next) => {
-        setResponse(next);
-        onChange?.(next);
-      }}
-      result={result}
-      locked={result !== null}
-      seed="test"
-    />
-  );
-}
+import { Harness } from "@/test/item-harness";
 
 function lastCall(fn: ReturnType<typeof vi.fn>) {
   return fn.mock.calls.at(-1)?.[0];

@@ -1,0 +1,149 @@
+{
+  "title": "Present continuous: more practice",
+  "titleEs": "Presente continuo: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "presente-continuo",
+  "topics": [
+    "present-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "making"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        },
+        {
+          "left": "study",
+          "right": "studying"
+        },
+        {
+          "left": "lie",
+          "right": "lying"
+        }
+      ],
+      "explanationEs": "Reglas del -ing: quitar la -e, doblar la consonante, -ie → -ying."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "state verbs",
+          "labelEs": "verbos de estado (sin continuo)",
+          "items": [
+            "know",
+            "like",
+            "want"
+          ]
+        },
+        {
+          "label": "action verbs",
+          "labelEs": "verbos de acción",
+          "items": [
+            "run",
+            "cook",
+            "read"
+          ]
+        }
+      ],
+      "explanationEs": "Los verbos de estado no van en presente continuo."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "¿Qué estás haciendo?",
+      "answers": [
+        "What are you doing?"
+      ],
+      "wordBank": [
+        "What",
+        "are",
+        "you",
+        "doing?",
+        "do",
+        "is"
+      ],
+      "explanationEs": "Ahora mismo: presente continuo, are + you + doing."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "They aren't working today.",
+      "explanationEs": "Negativa: aren't + verbo-ing."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Present continuous",
+      "columns": [
+        "Positive",
+        "Negative",
+        "Question"
+      ],
+      "rows": [
+        {
+          "header": "he / read",
+          "cells": [
+            {
+              "answers": [
+                "He is reading.",
+                "He's reading."
+              ]
+            },
+            {
+              "answers": [
+                "He isn't reading.",
+                "He's not reading."
+              ]
+            },
+            {
+              "answers": [
+                "Is he reading?"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "you / work",
+          "cells": [
+            "You are working.",
+            {
+              "answers": [
+                "You aren't working.",
+                "You're not working."
+              ]
+            },
+            {
+              "answers": [
+                "Are you working?"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "am/is/are + verbo-ing; en la pregunta, am/is/are va primero."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "She is swimming.",
+      "options": [
+        "She is swimming.",
+        "She swims.",
+        "She is singing."
+      ],
+      "answer": 0,
+      "explanationEs": "Is + swimming: lo que hace ahora."
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 | Etapa | Fases | Estado |
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
-| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ |
+| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
@@ -723,10 +723,13 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F9 — Más tipos de ejercicio
 *Aprendes: arrastrar y soltar accesible, Web Speech API.*
-- [ ] `npm i @dnd-kit/core @dnd-kit/sortable`; arrastrar en `word-order` y `categorize`.
-- [ ] `match`, `categorize`, `translate`, `dictation`, `table-fill`, `listen-choose`.
-- [ ] `lib/speech.ts`: voz `en-*`, velocidad ajustable y detección de soporte. `dictation` y `listen-choose` se ocultan si no hay voces.
-- [ ] Añadir sets de estos tipos a las unidades 1–16.
+- [x] `npm i @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities` (API estable v6; `@dnd-kit/react` sigue en 0.x). Arrastrar en `word-order` (reordenar la frase, también en `translate` con banco: componente común `TileBuilder`) y en `categorize`. Solo con ratón o dedo (`PointerSensor`, se activa a 6 px para no confundirse con un clic); con teclado se usa tocar con Tab + Espacio, que ya era accesible. Avisos de dnd-kit traducidos al español.
+- [x] `match` (un `<select>` nativo por fila), `categorize` (arrastrar, o tocar palabra + “Colocar aquí”), `translate` (banco de palabras o escribir), `dictation`, `table-fill`, `listen-choose`. Ya no hay tipos “no soportados”: se quitaron `SUPPORTED_TYPES`/`isSupported`.
+- [x] `lib/speech.ts` (sustituye a `speak.ts`): voz `en-US` → `en-GB` → cualquier `en-*`, velocidad normal y lenta (botón “Más despacio”) y detección de voces con `useSyncExternalStore` (`hooks/use-english-voice.ts`). Sin voces en inglés, los ítems de audio se saltan y el botón 🔊 no aparece.
+- [x] Sets de estos tipos en las unidades 1–16: un set “más práctica” por unidad (6 ítems, uno por tipo nuevo; 96 en total, `reviewed: false`), en `free`. Todas las unidades tienen ya al menos 6 tipos.
+- [x] `content:check`: columnas sin repetidos en `match`, palabras únicas en `categorize`, respuestas de `translate` formables con su `wordBank` y filas completas con algún hueco en `table-fill`. Versión imprimible de los tipos nuevos (los de audio llevan una nota). 92 tests.
+
+**Listo cuando:** los 12 tipos se juegan, se corrigen e imprimen, y cada unidad usa al menos 6. ✅
 
 #### F10 — Tense Lab + ejercicios generados
 - [ ] Tense Lab en React (`?tense=` en la URL), con colores pos/neg/q y bloques.
