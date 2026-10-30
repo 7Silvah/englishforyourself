@@ -69,7 +69,7 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/components/lesson/` | Piezas de lección usadas desde MDX | Solo presentación; se registran en `mdx-components.tsx`. |
 | `src/features/exercises/` | Motor de ejercicios: `schema.ts`, `check.ts` (corrección), `solution.ts` (qué solución se muestra), `player/`, `types/` (un componente por tipo), `generators/` | Un tipo nuevo = esquema en la unión discriminada + `ItemResponse` y `checkItem` en `check.ts` + componente controlado en `types/` (recibe `ItemProps`) + `case` en `player/item-view.tsx` + tests. La corrección siempre pasa por `check.ts`. |
 | `src/features/<x>/` | Otras funcionalidades con estado o lógica (course, progress, search, tense-lab, flashcards) | La lógica pura va en `logic.ts` con tests; el store en `store.ts`. |
-| `src/content/` | Contenido como datos: `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
+| `src/content/` | Contenido como datos: `course/units/NN-slug.mdx`, `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`, `levels.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
 | `scripts/` | `content-check.ts`, `migrate/` (HTML/PDF → contenido), `vite-plugin-content-meta.ts` | Se ejecutan con `tsx` y usan `tsconfig.scripts.json`. |
 | `src/i18n/es.ts` | Todos los textos de la UI | **Ningún texto de UI suelto en JSX.** |
 | `src/lib/` | Utilidades puras (`cn`, `speak`, slugs) | |
@@ -127,6 +127,8 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Explicaciones cortas, en español y para principiantes. Si usas un término gramatical, defínelo la primera vez.
 - Meta final: cada unidad con 40–60 ítems de al menos 4 tipos y un set de repaso. **Por ahora no se escriben en volumen**: la decisión D1 (`docs/PLAN.md` §14) está pendiente hasta que la app esté completa. Solo se crean sets de muestra (unos 5 ítems por tipo) para probar el motor. No generes más sin que te lo pidan.
 - No introduzcas en una unidad estructuras que todavía no se han enseñado (por ejemplo, nada de pasado en las unidades 1–8).
+- Una unidad lista sus sets en el frontmatter (`guided`, `free`, `worksheets`, `review`) y cada set propio lleva `"unit": "<slug>"`. El estado de la unidad no se guarda: se calcula de las notas (`features/course/logic.ts`).
+- En el frontmatter YAML, pon entre comillas los textos que lleven `: ` (si no, YAML los lee como un mapa).
 
 ## Reglas para escribir ejercicios
 

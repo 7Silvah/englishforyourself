@@ -28,6 +28,9 @@ export const es = {
     intro:
       "Explicaciones claras en español, la estructura del inglés paso a paso y ejercicios interactivos para practicar cada tema.",
     startCourse: "Empieza el curso",
+    startHere: "Empieza aquí",
+    nextUnit: "Tu siguiente unidad",
+    continue: "Continúa donde lo dejaste",
     browseLibrary: "Explorar la biblioteca",
     pillars: {
       course: {
@@ -50,6 +53,53 @@ export const es = {
     title: "Curso de Fundamentos",
     description: "La estructura básica del inglés, unidad por unidad.",
     unit: "Unidad",
+    unitN: (n: number) => `Unidad ${n}`,
+    intro:
+      "Puedes seguir el orden o saltar a la unidad que necesites: ninguna está bloqueada. Te recomendamos la primera que todavía no dominas.",
+    blocks: {
+      "fundamentos-1": "Fundamentos I",
+      "fundamentos-2": "Fundamentos II",
+      intermedio: "Intermedio",
+    },
+    status: {
+      new: "Sin empezar",
+      started: "Empezada",
+      completed: "Completada",
+      mastered: "Dominada",
+    },
+    recommended: "Recomendada",
+    objectives: "Al terminar esta unidad sabrás:",
+    practiceTitle: "Practica",
+    guided: "Práctica guiada",
+    guidedHint: "Primero reconoce la estructura: elige, decide y ordena.",
+    free: "Práctica libre",
+    freeHint: "Ahora produce tú las frases: completa, transforma y corrige.",
+    worksheets: "Worksheet original",
+    worksheetsHint: "La hoja de ejercicios del sitio original, ahora interactiva.",
+    review: "Repaso de la unidad",
+    reviewHint: (n: number) =>
+      `Preguntas mezcladas en modo examen. Con ${n} % o más, la unidad queda dominada.`,
+    startReview: "Hacer el repaso",
+    library: "Para saber más",
+    previous: "Unidad anterior",
+    next: "Unidad siguiente",
+    backToUnit: "Volver a la unidad",
+  },
+  lesson: {
+    modes: {
+      pos: "Afirmativa",
+      neg: "Negativa",
+      q: "Pregunta",
+      nq: "Pregunta negativa",
+    },
+    commonMistake: "Error frecuente",
+    wrong: "Incorrecto",
+    right: "Correcto",
+    tip: "Truco",
+    spanish: "En español",
+    falseFriend: "Falso amigo",
+    notMeans: "no significa",
+    means: "significa",
   },
   exercises: {
     title: "Ejercicios",

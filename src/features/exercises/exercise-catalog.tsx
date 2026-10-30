@@ -14,7 +14,11 @@ const OTHER = "otros";
 
 export type CatalogFilters = { nivel?: Level; tema?: string };
 
+const COURSE = "curso";
+
+// Tema de un set: "curso" si es de una unidad; si no, la sección de su lección
 function topicOf(set: ReturnType<typeof getAllExerciseSets>[number]): string {
+  if (set.meta.unit) return COURSE;
   return getExerciseSetSection(set) ?? OTHER;
 }
 
@@ -56,7 +60,11 @@ export function ExerciseCatalog({ filters }: { filters: CatalogFilters }) {
   );
 
   const topicLabel = (slug: string) =>
-    slug === OTHER ? t.filters.other : (getSection(slug)?.titleEs ?? slug);
+    slug === OTHER
+      ? t.filters.other
+      : slug === COURSE
+        ? es.nav.course
+        : (getSection(slug)?.titleEs ?? slug);
 
   return (
     <div className="space-y-6">

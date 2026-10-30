@@ -5,8 +5,9 @@
 //   - normal (lazy): el cuerpo completo, que se descarga al abrir la lección.
 // Ver scripts/vite-plugin-content-meta.ts para saber por qué hacen falta las dos.
 import type { ComponentType } from "react";
+import { unitSequence } from "@/features/course/logic";
 import type { ExerciseSet, ExerciseSetMeta } from "@/features/exercises/schema";
-import type { ArticleMeta, LessonMeta, WordList, WordListMeta } from "./schema";
+import type { ArticleMeta, LessonMeta, UnitMeta, WordList, WordListMeta } from "./schema";
 
 type MdxModule = { default: ComponentType<{ components?: Record<string, unknown> }> };
 
@@ -38,6 +39,12 @@ const exerciseMeta = import.meta.glob<unknown>("./exercises/**/*.json", {
   eager: true,
 });
 const exerciseBody = import.meta.glob<unknown>("./exercises/**/*.json", { import: "default" });
+const unitMeta = import.meta.glob<unknown>("./course/units/*.mdx", {
+  query: "?meta",
+  import: "default",
+  eager: true,
+});
+const unitBody = import.meta.glob<MdxModule>("./course/units/*.mdx");
 
 // ---------- Lecciones de la Biblioteca ----------
 
@@ -188,4 +195,49 @@ export function getExerciseSetSection(set: ExerciseSetEntry): string | undefined
 /** Sets de ejercicios relacionados con una lección ("seccion/slug") */
 export function getExerciseSetsForLesson(path: string): ExerciseSetEntry[] {
   return exerciseSets.filter((s) => s.meta.lessons?.includes(path));
+}
+
+// ---------- Unidades del curso ----------
+
+export type UnitEntry = {
+  slug: string; // "verbo-to-be", de "03-verbo-to-be.mdx"
+  meta: UnitMeta;
+  load: () => Promise<MdxModule["default"]>;
+};
+
+const units: UnitEntry[] = Object.entries(unitMeta)
+  .flatMap(([file, raw]) => {
+    const loader = unitBody[file];
+    const slug = file.match(/\/\d+-([^/]+)\.mdx$/)?.[1];
+    if (!loader || !slug) return [];
+    return [{ slug, meta: trusted<UnitMeta>(raw), load: async () => (await loader()).default }];
+  })
+  .sort((a, b) => a.meta.number - b.meta.number);
+const unitsBySlug = new Map(units.map((u) => [u.slug, u]));
+
+export function getUnits(): UnitEntry[] {
+  return units;
+}
+
+export function getUnit(slug: string): UnitEntry | undefined {
+  return unitsBySlug.get(slug);
+}
+
+export function getPrevNextUnit(unit: UnitEntry) {
+  const i = units.indexOf(unit);
+  return { prev: units[i - 1], next: units[i + 1] };
+}
+
+/** Unidad a la que pertenece un set (como práctica, worksheet o repaso) */
+export function getUnitOfSet(setId: string): UnitEntry | undefined {
+  return units.find((u) => unitSequence(u.meta).includes(setId));
+}
+
+/** Siguiente set dentro de la unidad del set; si no hay, el siguiente del catálogo */
+export function getNextSetFor(setId: string): ExerciseSetEntry | undefined {
+  const unit = getUnitOfSet(setId);
+  if (!unit) return getNextExerciseSet(setId);
+  const sequence = unitSequence(unit.meta);
+  const nextId = sequence[sequence.indexOf(setId) + 1];
+  return nextId ? getExerciseSet(nextId) : undefined;
 }

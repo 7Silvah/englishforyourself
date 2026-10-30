@@ -7,7 +7,7 @@ import { compile } from "@mdx-js/mdx";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkGfm from "remark-gfm";
 import type { z } from "zod";
-import { ArticleMeta, RawTable, WordList } from "@/content/schema";
+import { ArticleMeta, RawTable, UnitMeta, WordList } from "@/content/schema";
 import { sections } from "@/content/sections";
 import { ExerciseSet } from "@/features/exercises/schema";
 import { readFrontmatter } from "./vite-plugin-content-meta";
@@ -95,6 +95,7 @@ for (const file of await files(`${ROOT}/tables`, ".json"))
 // ---------- Ejercicios ----------
 
 const setIds = new Map<string, string>();
+const setUnits = new Map<string, string | undefined>(); // id del set → campo "unit"
 let unreviewed = 0;
 let itemTotal = 0;
 
@@ -104,6 +105,7 @@ for (const file of await files(`${ROOT}/exercises`, ".json")) {
   setIds.set(id, file);
   const set = validate(ExerciseSet, JSON.parse(await readFile(file, "utf8")), file);
   if (!set) continue;
+  setUnits.set(id, set.unit);
   if (!set.reviewed) unreviewed++;
   for (const l of set.lessons ?? []) lessonRefs.push({ file, field: "lessons", target: l });
 
@@ -147,6 +149,55 @@ for (const file of await files(`${ROOT}/exercises`, ".json")) {
   }
 }
 
+// ---------- Unidades del curso ----------
+
+const unitSlugs = new Set<string>();
+const unitNumbers = new Set<number>();
+const setOwner = new Map<string, string>(); // un set solo puede estar en una unidad
+
+for (const file of await files(`${ROOT}/course/units`, ".mdx")) {
+  const name = path.basename(file, ".mdx");
+  const match = name.match(/^(\d{2})-([a-z0-9-]+)$/);
+  if (!match) {
+    errors.push(`${file}: el nombre debe ser NN-slug.mdx (p. ej. 03-verbo-to-be.mdx)`);
+    continue;
+  }
+  const [, num = "", slug = ""] = match;
+  unitSlugs.add(slug);
+  const source = await readFile(file, "utf8");
+  const meta = validate(UnitMeta, readFrontmatter(source), file);
+  try {
+    await compile(source, { remarkPlugins: [remarkFrontmatter, remarkGfm] });
+  } catch (e) {
+    errors.push(`${file}: el MDX no compila → ${(e as Error).message}`);
+  }
+  for (const m of source.matchAll(/\]\((\/[^)\s]*)\)/g))
+    if (m[1]) mdxLinks.push({ file, href: m[1] });
+  if (!meta) continue;
+
+  if (meta.number !== Number(num))
+    errors.push(`${file}: number ${meta.number} no coincide con ${num}`);
+  if (unitNumbers.has(meta.number)) errors.push(`${file}: número de unidad repetido`);
+  unitNumbers.add(meta.number);
+  for (const l of meta.library ?? []) lessonRefs.push({ file, field: "library", target: l });
+
+  // Los sets propios (práctica y repaso) deben declarar esta unidad; los worksheets no
+  const own = [...(meta.guided ?? []), ...(meta.free ?? []), ...(meta.review ? [meta.review] : [])];
+  for (const id of [...own, ...(meta.worksheets ?? [])]) {
+    if (!setIds.has(id)) errors.push(`${file}: el set "${id}" no existe`);
+    const owner = setOwner.get(id);
+    if (owner) errors.push(`${file}: el set "${id}" ya está en la unidad ${owner}`);
+    setOwner.set(id, slug);
+  }
+  for (const id of own)
+    if (setIds.has(id) && setUnits.get(id) !== slug)
+      errors.push(`${file}: el set "${id}" debe tener "unit": "${slug}"`);
+}
+
+for (const [id, unit] of setUnits)
+  if (unit && setOwner.get(id) !== unit)
+    errors.push(`set ${id}: dice "unit": "${unit}", pero esa unidad no lo incluye`);
+
 // ---------- Referencias y enlaces ----------
 
 for (const { file, field, target } of lessonRefs)
@@ -157,19 +208,24 @@ for (const { file, href } of mdxLinks) {
   const [pathname = ""] = href.split("#");
   const lib = pathname.match(/^\/biblioteca\/([^/]+)(?:\/(.+))?$/);
   const ex = pathname.match(/^\/ejercicios\/(.+)$/);
+  const unit = pathname.match(/^\/curso\/(.+)$/);
   const ok = lib
     ? lib[2]
       ? lessonPaths.has(`${lib[1]}/${lib[2]}`)
       : sectionSlugs.has(lib[1] ?? "")
     : ex
       ? setIds.has(ex[1] ?? "")
-      : ["/", "/curso", "/ejercicios", "/biblioteca", "/progreso", "/acerca"].includes(pathname);
+      : unit
+        ? unitSlugs.has(unit[1] ?? "")
+        : ["/", "/curso", "/ejercicios", "/biblioteca", "/progreso", "/acerca"].includes(pathname);
   if (!ok) errors.push(`${file}: enlace roto → ${href}`);
 }
 
 // ---------- Informe ----------
 
-info.push(`${lessonPaths.size} lecciones, ${setIds.size} sets de ejercicios (${itemTotal} ítems)`);
+info.push(
+  `${lessonPaths.size} lecciones, ${unitSlugs.size} unidades, ${setIds.size} sets de ejercicios (${itemTotal} ítems)`,
+);
 info.push(`Sets sin revisar por una persona (reviewed: false): ${unreviewed} — ver decisión D1`);
 for (const [section, c] of [...coverage].sort())
   info.push(

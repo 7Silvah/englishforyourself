@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Printer } from "lucide-react";
+import { ArrowLeft, Printer } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { useProgressStore } from "@/features/progress/store";
@@ -11,7 +11,17 @@ import type { ExerciseSet } from "./schema";
 const t = es.exercises;
 
 // Nivel, número de ítems, mejor nota, selector de modo y enlace a la versión imprimible
-export function ExerciseSetInfo({ id, set, mode }: { id: string; set: ExerciseSet; mode: Mode }) {
+export function ExerciseSetInfo({
+  id,
+  set,
+  mode,
+  unit,
+}: {
+  id: string;
+  set: ExerciseSet;
+  mode: Mode;
+  unit?: { slug: string; number: number; titleEs: string };
+}) {
   const best = useProgressStore((state) => state.attempts[id]?.best);
 
   const modes = [
@@ -21,6 +31,16 @@ export function ExerciseSetInfo({ id, set, mode }: { id: string; set: ExerciseSe
 
   return (
     <div className="space-y-4 pt-2">
+      {unit && (
+        <Link
+          to="/curso/$unidad"
+          params={{ unidad: unit.slug }}
+          className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+        >
+          <ArrowLeft className="size-4" aria-hidden />
+          {es.course.backToUnit}: {es.course.unitN(unit.number)} · {unit.titleEs}
+        </Link>
+      )}
       <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
         <Badge variant="secondary">{set.level}</Badge>
         <span>{t.itemsCount(set.items.length)}</span>

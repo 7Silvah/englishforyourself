@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { GraduationCap, Library, PencilLine, type LucideIcon } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
+import { ContinueLearning } from "@/features/course/continue-learning";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
 
@@ -27,14 +27,7 @@ function HomePage() {
           {es.home.title}
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-muted-foreground">{es.home.intro}</p>
-        <div className="flex flex-wrap justify-center gap-3">
-          <Link to="/curso" className={buttonVariants({ size: "lg" })}>
-            {es.home.startCourse}
-          </Link>
-          <Link to="/biblioteca" className={buttonVariants({ size: "lg", variant: "outline" })}>
-            {es.home.browseLibrary}
-          </Link>
-        </div>
+        <ContinueLearning />
       </section>
 
       <section className="grid gap-4 md:grid-cols-3">

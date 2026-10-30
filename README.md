@@ -143,6 +143,11 @@ level: A1
 con `kind: "wordlist"` y grupos de `{ en, es }`. Se convierte sola en flashcards
 y ejercicios.
 
+**Una unidad del curso** → crea `src/content/course/units/NN-<slug>.mdx` con el
+frontmatter de [docs/PLAN.md](docs/PLAN.md) §6.3 (objetivos y sets de práctica,
+worksheet y repaso). Dentro puedes usar `<Formula>`, `<Modes>`, `<Explain>`,
+`<CommonMistake>`, `<Tip>` y `<FalseFriend>`.
+
 **Un set de ejercicios** → crea `src/content/exercises/original/<unidad>/<id>.json` (el id es el nombre del archivo):
 
 ```json
@@ -151,7 +156,7 @@ y ejercicios.
   "instructionEs": "Escribe el verbo en presente simple.",
   "source": "original",
   "level": "A1",
-  "unit": "u07-present-simple",
+  "unit": "presente-simple",
   "topics": ["present-simple", "third-person"],
   "items": [
     {

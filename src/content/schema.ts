@@ -67,6 +67,30 @@ export type WordList = z.infer<typeof WordList>;
 
 export type LessonMeta = ArticleMeta | WordListMeta;
 
+// ---------- Unidades del curso ----------
+
+export const UnitBlock = z.enum(["fundamentos-1", "fundamentos-2", "intermedio"]);
+export type UnitBlock = z.infer<typeof UnitBlock>;
+
+// Frontmatter de src/content/course/units/NN-slug.mdx (docs/PLAN.md §6.3).
+// El slug de la URL sale del nombre del archivo; el número debe coincidir con NN.
+// Los campos de sets siguen el orden de la plantilla de §6.2.
+export const UnitMeta = z.strictObject({
+  number: z.number().int().positive(),
+  block: UnitBlock,
+  title: z.string().min(1), // en inglés
+  titleEs: z.string().min(1),
+  summaryEs: z.string().min(1), // una frase para el mapa del curso
+  level: Level,
+  objectivesEs: z.array(z.string().min(1)).min(2).max(4),
+  guided: z.array(z.string()).optional(), // práctica guiada: reconocer
+  free: z.array(z.string()).optional(), // práctica libre: producir
+  worksheets: z.array(z.string()).optional(), // worksheets migrados de los PDF
+  review: z.string().optional(), // repaso final: con ≥ 80 % la unidad queda dominada
+  library: z.array(z.string()).optional(), // lecciones "seccion/slug" para profundizar
+});
+export type UnitMeta = z.infer<typeof UnitMeta>;
+
 // ---------- Tablas ----------
 
 export const Tone = z.enum(["pos", "neg", "q", "nq", "purple", "teal", "blue"]);

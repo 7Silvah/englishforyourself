@@ -9,7 +9,7 @@
 
 | Etapa | Fases | Estado |
 |---|---|---|
-| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ |
+| 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ⬜ pendiente |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
@@ -309,24 +309,35 @@ resuelve ese caso.
 
 ### 6.3 Esquema de una unidad
 
+Archivo `src/content/course/units/03-verbo-to-be.mdx`. El slug de la URL
+(`/curso/verbo-to-be`) sale del nombre del archivo y `number` debe coincidir con
+el prefijo `NN`. Esquema en `content/schema.ts` (`UnitMeta`).
+
 ```mdx
 ---
-id: u03-verb-to-be
 number: 3
 block: fundamentos-1          # fundamentos-1 | fundamentos-2 | intermedio
 title: The Verb To Be
-titleEs: El verbo to be (ser / estar)
+titleEs: El verbo to be (ser y estar)
+summaryEs: Am, is y are en afirmativa, negativa y pregunta…   # para el mapa del curso
 level: A1
-objectivesEs:
+objectivesEs:                 # 2–4; entre comillas si llevan ": "
   - Usar am, is y are con cada pronombre.
   - Hacer frases negativas y preguntas con to be.
   - Decir tu edad, cómo estás y de dónde eres.
-exerciseSets: [u03-recognize, u03-order, u03-complete, u03-transform, u03-fix, u03-translate]
-worksheet: verb-to-be
-review: u03-review
+guided: [verbo-to-be-guiada]  # práctica guiada (reconocer)
+free: [verbo-to-be-libre]     # práctica libre (producir)
+worksheets: [verb-to-be]      # worksheets migrados
+review: verbo-to-be-repaso    # repaso: con ≥ 80 % la unidad queda dominada
 library: [grammar/verbs]
 ---
 ```
+
+Los sets propios viven en `exercises/original/<slug>/` y llevan `"unit": "<slug>"`;
+`content:check` comprueba que la unidad y el set se apuntan mutuamente y que un
+set solo pertenece a una unidad. El estado de la unidad (sin empezar, empezada,
+completada, dominada) **no se guarda**: se calcula de las notas de sus sets
+(`features/course/logic.ts`).
 
 ---
 
@@ -685,13 +696,14 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 #### F6 — Curso de Fundamentos I (unidades 1–8)
 *Aprendes: componer páginas a partir de datos, MDX con componentes propios.*
-- [ ] Componentes de unidad: `Formula` (bloques de color), `Objectives`, `UnitExerciseList`, `UnitReview`.
-- [ ] `/curso` (mapa) y `/curso/$unidad`.
-- [ ] Escribir las unidades 1–8 según §6.2 y enlazar los worksheets de las unidades 3, 4 y 7.
-- [ ] Ejercicios originales: **solo un set de muestra por tipo** en cada unidad (unos 5 ítems), suficiente para probar el motor y la experiencia. El volumen completo (40–60 ítems) y el proceso de escritura y revisión dependen de **D1** (§14).
-- [ ] Portada con “Empieza aquí” y “Continúa donde lo dejaste”.
+- [x] Componentes de unidad: `Formula` (bloques de color), objetivos, lista de sets por parte y tarjeta de repaso (en `features/course/unit-view.tsx`). Para el MDX: `Formula`, `Modes` (pos/neg/q), `Explain`, `Tip`, `CommonMistake` y `FalseFriend`, más estilos para tablas Markdown.
+- [x] `/curso` (mapa por bloques con estado y unidad recomendada) y `/curso/$unidad`.
+- [x] Escribir las unidades 1–8 según §6.2 y enlazar los worksheets de las unidades 3, 4 y 7.
+- [x] Ejercicios originales: **sets de muestra** por unidad: práctica guiada (6 ítems: opción múltiple, verdadero/falso, ordenar), práctica libre (6: completar, transformar, corregir) y repaso (8 mezclados). 160 ítems en total, todos `reviewed: false`. El volumen completo (40–60 ítems) y el proceso de escritura y revisión dependen de **D1** (§14).
+- [x] Portada con “Empieza aquí” (o “Tu siguiente unidad”) y “Continúa donde lo dejaste”.
+- [x] Los sets saben a qué unidad pertenecen: “Volver a la unidad” y “Siguiente ejercicio” sigue el orden de la unidad. En el catálogo aparecen con el tema “Curso”.
 
-**Listo cuando:** un principiante puede hacer las 8 unidades, ve su estado en `/curso` y las dominadas quedan marcadas.
+**Listo cuando:** un principiante puede hacer las 8 unidades, ve su estado en `/curso` y las dominadas quedan marcadas. ✅
 
 #### F7 — Despliegue privado + CI
 *Aprendes: GitHub Actions, despliegues de previsualización.*

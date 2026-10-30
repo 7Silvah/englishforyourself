@@ -15,7 +15,7 @@ export const Route = createFileRoute("/ejercicios/$id/")({
 });
 
 function ExerciseSetPage() {
-  const { set, next } = setRoute.useLoaderData();
+  const { set, next, unit } = setRoute.useLoaderData();
   const { id } = Route.useParams();
   const { modo } = Route.useSearch();
   const mode = modo === "examen" ? "exam" : "practice";
@@ -23,7 +23,7 @@ function ExerciseSetPage() {
   return (
     <div className="mx-auto max-w-3xl">
       <PageHeader title={set.titleEs} description={set.instructionEs}>
-        <ExerciseSetInfo id={id} set={set} mode={mode} />
+        <ExerciseSetInfo id={id} set={set} mode={mode} unit={unit} />
       </PageHeader>
       {/* key: al cambiar de set o de modo, la sesión empieza de cero */}
       <ExerciseSession

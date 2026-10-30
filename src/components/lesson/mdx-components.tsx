@@ -1,9 +1,15 @@
 // Cómo se ve cada elemento de una lección MDX. Se pasa a <Content components={mdxComponents} />.
 // Aquí se registran también los componentes que el MDX puede usar (Examples, GrammarTable…).
 import type { ComponentPropsWithoutRef } from "react";
+import { CommonMistake } from "./common-mistake";
 import { Examples } from "./examples";
+import { Explain } from "./explain";
+import { FalseFriend } from "./false-friend";
+import { Formula } from "./formula";
 import { GrammarTable } from "./grammar-table";
 import { MdxLink } from "./mdx-link";
+import { Modes } from "./modes";
+import { Tip } from "./tip";
 
 export const mdxComponents = {
   h2: (props: ComponentPropsWithoutRef<"h2">) => (
@@ -31,6 +37,24 @@ export const mdxComponents = {
   ),
   a: MdxLink,
   hr: () => <hr className="my-8" />,
+  // Tablas escritas en Markdown (GFM) dentro de las unidades
+  table: (props: ComponentPropsWithoutRef<"table">) => (
+    <div className="my-6 overflow-x-auto rounded-lg border">
+      <table className="w-full border-collapse text-sm" {...props} />
+    </div>
+  ),
+  th: (props: ComponentPropsWithoutRef<"th">) => (
+    <th className="border-b bg-muted px-3 py-2 text-left font-semibold" {...props} />
+  ),
+  td: (props: ComponentPropsWithoutRef<"td">) => (
+    <td className="border-b px-3 py-2 align-top [tr:last-child_&]:border-b-0" {...props} />
+  ),
   Examples,
   GrammarTable,
+  Formula,
+  Modes,
+  Explain,
+  Tip,
+  CommonMistake,
+  FalseFriend,
 };
