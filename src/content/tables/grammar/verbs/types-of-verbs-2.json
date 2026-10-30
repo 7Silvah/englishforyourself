@@ -1,0 +1,150 @@
+{
+  "caption": "Stative Verbs",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Stative verb",
+        "tone": "pos"
+      },
+      {
+        "text": "Action verb",
+        "tone": "neg"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Appear",
+        "header": true,
+        "tone": "q",
+        "colSpan": 2
+      }
+    ],
+    [
+      "She appears to be mad.",
+      "Rose is appearing in a play tonight."
+    ],
+    [
+      {
+        "text": "Be",
+        "header": true,
+        "tone": "nq",
+        "colSpan": 2
+      }
+    ],
+    [
+      "Steve is a good person.",
+      "You are being silly."
+    ],
+    [
+      {
+        "text": "Expect",
+        "header": true,
+        "tone": "purple",
+        "colSpan": 2
+      }
+    ],
+    [
+      "I expect good outcomes.",
+      "My daughter is expecting many guests tonight."
+    ],
+    [
+      {
+        "text": "Feel",
+        "header": true,
+        "tone": "neg",
+        "colSpan": 2
+      }
+    ],
+    [
+      "He feels cold.",
+      "He isn’t feeling well."
+    ],
+    [
+      {
+        "text": "Fit",
+        "header": true,
+        "tone": "teal",
+        "colSpan": 2
+      }
+    ],
+    [
+      "The shoes don’t fit me.",
+      "I am fitting the pieces together."
+    ],
+    [
+      {
+        "text": "Have",
+        "header": true,
+        "tone": "blue",
+        "colSpan": 2
+      }
+    ],
+    [
+      "We have a jacuzzi.",
+      "We are having pasta tonight."
+    ],
+    [
+      {
+        "text": "Look",
+        "header": true,
+        "tone": "pos",
+        "colSpan": 2
+      }
+    ],
+    [
+      "That looks scary.",
+      "The family is looking at the sunset."
+    ],
+    [
+      {
+        "text": "See",
+        "header": true,
+        "tone": "purple",
+        "colSpan": 2
+      }
+    ],
+    [
+      "She cannot see the rainbow.",
+      "I’m seeing my girlfriend tonight."
+    ],
+    [
+      {
+        "text": "Smell",
+        "header": true,
+        "tone": "q",
+        "colSpan": 2
+      }
+    ],
+    [
+      "The pizza smells delicious.",
+      "She is smelling her new perfume."
+    ],
+    [
+      {
+        "text": "Taste",
+        "header": true,
+        "tone": "nq",
+        "colSpan": 2
+      }
+    ],
+    [
+      "The dumplings taste sweet.",
+      "The tourists are tasting different wines."
+    ],
+    [
+      {
+        "text": "Think",
+        "header": true,
+        "tone": "teal",
+        "colSpan": 2
+      }
+    ],
+    [
+      "I think the dress looks good on you.",
+      "I’m thinking of getting a dress."
+    ]
+  ]
+}

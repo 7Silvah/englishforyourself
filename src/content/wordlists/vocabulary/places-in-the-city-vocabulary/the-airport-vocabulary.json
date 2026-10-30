@@ -1,0 +1,146 @@
+{
+  "kind": "wordlist",
+  "title": "The Airport Vocabulary",
+  "order": 21,
+  "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-airport-vocabulary.html",
+  "intro": "In this section you will learn vocabulary and the airport in English.",
+  "groups": [
+    {
+      "title": "Airport vocabulary",
+      "items": [
+        {
+          "en": "Air traffic control"
+        },
+        {
+          "en": "Aircraft"
+        },
+        {
+          "en": "Airline"
+        },
+        {
+          "en": "Aisle"
+        },
+        {
+          "en": "Arrivals"
+        },
+        {
+          "en": "Aisle seat"
+        },
+        {
+          "en": "Baggage / luggage"
+        },
+        {
+          "en": "Baggage allowance"
+        },
+        {
+          "en": "Baggage carousel"
+        },
+        {
+          "en": "Baggage claim"
+        },
+        {
+          "en": "Boarding pass"
+        },
+        {
+          "en": "Boarding time"
+        },
+        {
+          "en": "Cabin"
+        },
+        {
+          "en": "Carry-on luggage"
+        },
+        {
+          "en": "Cockpit"
+        },
+        {
+          "en": "Control tower"
+        },
+        {
+          "en": "Co-pilot"
+        },
+        {
+          "en": "Crew"
+        },
+        {
+          "en": "Customs"
+        },
+        {
+          "en": "Customs official"
+        },
+        {
+          "en": "Delay"
+        },
+        {
+          "en": "Departure lounge"
+        },
+        {
+          "en": "Departures"
+        },
+        {
+          "en": "Direct flight"
+        },
+        {
+          "en": "Emergency exit"
+        },
+        {
+          "en": "Emergency landing"
+        },
+        {
+          "en": "Final destination"
+        },
+        {
+          "en": "First-class"
+        },
+        {
+          "en": "Gate"
+        },
+        {
+          "en": "Identification"
+        },
+        {
+          "en": "Overhead bin /compartment"
+        },
+        {
+          "en": "Oxygen mask"
+        },
+        {
+          "en": "Passport"
+        },
+        {
+          "en": "Pilot"
+        },
+        {
+          "en": "Priority boarding"
+        },
+        {
+          "en": "Round trip"
+        },
+        {
+          "en": "Runway"
+        },
+        {
+          "en": "Seatbelt"
+        },
+        {
+          "en": "Stewardess / steward / flight attendant / air hostess"
+        },
+        {
+          "en": "Takeoff"
+        },
+        {
+          "en": "Terminal"
+        },
+        {
+          "en": "Turbulence"
+        },
+        {
+          "en": "Visa"
+        },
+        {
+          "en": "Window seat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "caption": "Present Simple Tense – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true,
+        "rowSpan": 2
+      },
+      {
+        "text": "I – You – We – They + verb",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I – You – We – They + do not / don’t + verb",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Do + I – You – We – They + verb",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "He – She – It + verb",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "He – She – It + does not / doesn’t + verb",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Does + He – She – It + verb",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

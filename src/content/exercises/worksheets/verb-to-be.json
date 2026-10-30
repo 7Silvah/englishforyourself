@@ -1,0 +1,140 @@
+{
+  "title": "Verb To Be",
+  "titleEs": "El verbo to be",
+  "instruction": "fill in the blanks with am – are – is.",
+  "instructionEs": "Completa con am, is o are.",
+  "source": "worksheet",
+  "level": "A1",
+  "lessons": [],
+  "topics": [
+    "verb-to-be"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Verb-To-Be-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ a famous songwriter.",
+      "blanks": [
+        {
+          "answers": [
+            "am"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Spencer ___ the owner of this restaurant.",
+      "blanks": [
+        {
+          "answers": [
+            "is",
+            "’s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Kaylee’s food ___ delicious.",
+      "blanks": [
+        {
+          "answers": [
+            "is",
+            "’s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "I ___ taking driving lessons.",
+      "blanks": [
+        {
+          "answers": [
+            "am"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "You ___ a nice friend.",
+      "blanks": [
+        {
+          "answers": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "They ___ a young couple.",
+      "blanks": [
+        {
+          "answers": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "She ___ a coffee lover.",
+      "blanks": [
+        {
+          "answers": [
+            "is",
+            "’s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "I ___ confident in my English skills.",
+      "blanks": [
+        {
+          "answers": [
+            "am"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "We ___ responsible for the damages.",
+      "blanks": [
+        {
+          "answers": [
+            "are"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "He ___ part of our group of friends.",
+      "blanks": [
+        {
+          "answers": [
+            "is",
+            "’s"
+          ]
+        }
+      ]
+    }
+  ]
+}

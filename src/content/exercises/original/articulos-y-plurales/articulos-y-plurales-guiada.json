@@ -1,0 +1,75 @@
+{
+  "title": "Articles and plurals: guided practice",
+  "titleEs": "Artículos y plurales: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "articulos-y-plurales",
+  "topics": [
+    "articles",
+    "plurals"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I eat ___ apple every day.",
+      "options": [
+        "an",
+        "a",
+        "the"
+      ],
+      "answer": 0,
+      "explanationEs": "Apple empieza con sonido de vocal, así que va an."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "My brother is ___ engineer.",
+      "options": [
+        "an",
+        "a",
+        "—"
+      ],
+      "answer": 0,
+      "explanationEs": "Las profesiones llevan a/an. Engineer empieza con sonido de vocal: an engineer."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I have two children.",
+      "answer": true,
+      "explanationEs": "Child tiene plural irregular: children."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She is doctor.",
+      "answer": false,
+      "explanationEs": "Las profesiones llevan artículo: She is a doctor."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "I am a student."
+      ],
+      "distractors": [
+        "an"
+      ],
+      "explanationEs": "Student empieza con sonido de consonante: a student."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "The books are on the table."
+      ],
+      "distractors": [
+        "a"
+      ],
+      "explanationEs": "The para cosas concretas que ya sabemos cuáles son."
+    }
+  ]
+}

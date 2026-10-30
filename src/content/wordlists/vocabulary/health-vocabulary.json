@@ -1,0 +1,178 @@
+{
+  "kind": "wordlist",
+  "title": "Health Vocabulary",
+  "order": 46,
+  "legacyPath": "lessons/vocabulary/health-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about health in English.",
+  "groups": [
+    {
+      "title": "Illnesses / health problems",
+      "items": [
+        {
+          "en": "A rash"
+        },
+        {
+          "en": "Asthma"
+        },
+        {
+          "en": "Backache"
+        },
+        {
+          "en": "Broken bone"
+        },
+        {
+          "en": "Broken leg / arm"
+        },
+        {
+          "en": "Bruise"
+        },
+        {
+          "en": "Chickenpox"
+        },
+        {
+          "en": "Chills"
+        },
+        {
+          "en": "Cold"
+        },
+        {
+          "en": "Cough"
+        },
+        {
+          "en": "Diabetes"
+        },
+        {
+          "en": "Diarrhea"
+        },
+        {
+          "en": "Dizziness"
+        },
+        {
+          "en": "Earache"
+        },
+        {
+          "en": "Fever"
+        },
+        {
+          "en": "Flu"
+        },
+        {
+          "en": "Heart disease"
+        },
+        {
+          "en": "Injury"
+        },
+        {
+          "en": "Nausea"
+        },
+        {
+          "en": "Runny nose"
+        },
+        {
+          "en": "Sore finger"
+        },
+        {
+          "en": "Sore throat"
+        },
+        {
+          "en": "Sprain"
+        },
+        {
+          "en": "Stomachache"
+        },
+        {
+          "en": "Sunburn"
+        },
+        {
+          "en": "The measles"
+        },
+        {
+          "en": "Toothache"
+        }
+      ]
+    },
+    {
+      "title": "Healthcare vocabulary",
+      "items": [
+        {
+          "en": "Antiseptic"
+        },
+        {
+          "en": "Aspirin"
+        },
+        {
+          "en": "Blood test"
+        },
+        {
+          "en": "Capsule"
+        },
+        {
+          "en": "Cough syrup"
+        },
+        {
+          "en": "Crutch"
+        },
+        {
+          "en": "Decongestant spray"
+        },
+        {
+          "en": "Effervescent tablet"
+        },
+        {
+          "en": "Examination"
+        },
+        {
+          "en": "Eye drops"
+        },
+        {
+          "en": "First aid kit"
+        },
+        {
+          "en": "Infusion"
+        },
+        {
+          "en": "Lozenges"
+        },
+        {
+          "en": "Medicine"
+        },
+        {
+          "en": "Ointment"
+        },
+        {
+          "en": "Oral rinse"
+        },
+        {
+          "en": "Physical therapy"
+        },
+        {
+          "en": "Pills"
+        },
+        {
+          "en": "Plaster / band-aid"
+        },
+        {
+          "en": "Prescription"
+        },
+        {
+          "en": "Blood pressure monitor"
+        },
+        {
+          "en": "Solution"
+        },
+        {
+          "en": "Syringe"
+        },
+        {
+          "en": "Tablet"
+        },
+        {
+          "en": "Vaccine"
+        },
+        {
+          "en": "Wheelchair"
+        }
+      ]
+    }
+  ]
+}

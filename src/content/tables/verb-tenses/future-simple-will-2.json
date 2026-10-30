@@ -1,0 +1,97 @@
+{
+  "caption": "Future Simple Tense (Will) – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I will give classes",
+      "I will not / won’t give classes",
+      "Will I give classes?",
+      "Will I not / won’t I give classes?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You will give classes",
+      "You will not / won’t give classes",
+      "Will you give classes?",
+      "Will you not / won’t you give classes?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He will give classes",
+      "He will not / won’t give classes",
+      "Will he give classes?",
+      "Will he not / won’t he give classes?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She will give classes",
+      "She will not / won’t give classes",
+      "Will she give classes?",
+      "Will she not / won’t she give classes?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It will give classes",
+      "It will not / won’t give classes",
+      "Will it give classes?",
+      "Will it not / won’t it give classes?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We will give classes",
+      "We will not / won’t give classes",
+      "Will we give classes?",
+      "Will we not / won’t we give classes?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They will give classes",
+      "They will not / won’t give classes",
+      "Will they give classes?",
+      "Will they not / won’t they give classes?"
+    ]
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "There is / there are: review",
+  "titleEs": "There is / there are: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "there-is-there-are",
+  "topics": [
+    "there-is",
+    "countable-uncountable"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "How ___ people are there?",
+      "options": [
+        "many",
+        "much",
+        "a lot"
+      ],
+      "answer": 0,
+      "explanationEs": "People es contable: how many."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "There are ___ books on the desk.",
+      "options": [
+        "some",
+        "any",
+        "a"
+      ],
+      "answer": 0,
+      "explanationEs": "En afirmativas con plural se usa some."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "There aren't any cookies.",
+      "answer": true,
+      "explanationEs": "Negativa con any: correcto."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "There is a lot of informations.",
+      "answer": false,
+      "explanationEs": "Information es incontable y no tiene plural: a lot of information."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "There is a bank near here."
+      ],
+      "distractors": [
+        "have"
+      ],
+      "explanationEs": "«Hay» = there is. No se usa have."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "___ there a bus to the airport?",
+      "blanks": [
+        {
+          "answers": [
+            "Is"
+          ]
+        }
+      ],
+      "explanationEs": "Pregunta: is va antes de there."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "There are some tomatoes in the fridge.",
+      "to": "neg",
+      "answers": [
+        "There aren't any tomatoes in the fridge.",
+        "There are no tomatoes in the fridge."
+      ],
+      "explanationEs": "Negativa: aren't + any, o are no."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "In my town have a big park.",
+      "wrong": "have",
+      "answers": [
+        "there is",
+        "there's"
+      ],
+      "explanationEs": "«Hay» se dice there is: In my town there is a big park."
+    }
+  ]
+}

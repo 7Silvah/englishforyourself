@@ -1,0 +1,732 @@
+{
+  "kind": "wordlist",
+  "title": "Common English Idioms",
+  "order": 2,
+  "legacyPath": "lessons/idioms/common-english-idioms.html",
+  "intro": "In this section you will find lists of common English idioms.",
+  "groups": [
+    {
+      "title": "Common English idioms 1",
+      "items": [
+        {
+          "en": "A blessing in disguise",
+          "meanings": [
+            "Something that may seem bad is actually beneficial."
+          ]
+        },
+        {
+          "en": "A chicken and egg situation",
+          "meanings": [
+            "It refers to a situation where you do not know what happened first."
+          ]
+        },
+        {
+          "en": "A close call",
+          "meanings": [
+            "A situation that was bound to be a disaster."
+          ]
+        },
+        {
+          "en": "A picture is worth 1000 words",
+          "meanings": [
+            "It means that a picture conveys a more meaningful meaning rather than an explanation."
+          ]
+        },
+        {
+          "en": "Actions speak louder than words",
+          "meanings": [
+            "What you do is more noticeable than what you say."
+          ]
+        },
+        {
+          "en": "Against the clock",
+          "meanings": [
+            "Limited time."
+          ]
+        },
+        {
+          "en": "As busy as a bee",
+          "meanings": [
+            "When you are very active doing many tasks."
+          ]
+        },
+        {
+          "en": "As cool as a cucumber",
+          "meanings": [
+            "When you remain composed in an unexpected situation."
+          ]
+        },
+        {
+          "en": "As different as night and day",
+          "meanings": [
+            "To be opposite."
+          ]
+        },
+        {
+          "en": "At the back of my mind",
+          "meanings": [
+            "When you have a vague memory."
+          ]
+        },
+        {
+          "en": "Been through the wars",
+          "meanings": [
+            "When you have endured many challenges."
+          ]
+        },
+        {
+          "en": "Behind the scenes",
+          "meanings": [
+            "The activities that happen privately."
+          ]
+        },
+        {
+          "en": "Better late than never",
+          "meanings": [
+            "It means that it is more desirable to do something later rather than not doing it at all."
+          ]
+        },
+        {
+          "en": "Break a leg",
+          "meanings": [
+            "It means “good luck”."
+          ]
+        },
+        {
+          "en": "Break the ice",
+          "meanings": [
+            "When you create a comfortable atmosphere in a conversation."
+          ]
+        },
+        {
+          "en": "Cat got your tongue",
+          "meanings": [
+            "? we use it to ask someone why they are at a loss of words."
+          ]
+        },
+        {
+          "en": "Come in handy",
+          "meanings": [
+            "When something suddenly becomes useful in a certain situation."
+          ]
+        },
+        {
+          "en": "Couch potato",
+          "meanings": [
+            "Someone who is inactive and spends most of the time procrastinating."
+          ]
+        },
+        {
+          "en": "Curiosity killed the cat",
+          "meanings": [
+            "If you are very curious, it can lead to trouble."
+          ]
+        },
+        {
+          "en": "Do the trick",
+          "meanings": [
+            "To get the desired result you want."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Common English idioms 2",
+      "items": [
+        {
+          "en": "Don’t cry over spilled milk",
+          "meanings": [
+            "It means to not get mad over mistakes that cannot be changed."
+          ]
+        },
+        {
+          "en": "Don’t sweat it",
+          "meanings": [
+            "We use it to say “do not worry”."
+          ]
+        },
+        {
+          "en": "Few and far between",
+          "meanings": [
+            "When something occurs rarely."
+          ]
+        },
+        {
+          "en": "For the sake of",
+          "meanings": [
+            "It means “for the purpose of”."
+          ]
+        },
+        {
+          "en": "Get out of hand",
+          "meanings": [
+            "To become uncontrollable."
+          ]
+        },
+        {
+          "en": "Get your act together",
+          "meanings": [
+            "To improve the way you behave."
+          ]
+        },
+        {
+          "en": "Great minds think alike",
+          "meanings": [
+            "It means that wise people share the same ideas."
+          ]
+        },
+        {
+          "en": "Hang in there",
+          "meanings": [
+            "To not move or to stay determined in a situation you think is difficult."
+          ]
+        },
+        {
+          "en": "Hit the nail on the head",
+          "meanings": [
+            "To identify a problem accurately."
+          ]
+        },
+        {
+          "en": "I wasn’t born yesterday",
+          "meanings": [
+            "It means “I’m not a fool”."
+          ]
+        },
+        {
+          "en": "If the cap fits, wear it",
+          "meanings": [
+            "If something bad or good has been said about you, accept it."
+          ]
+        },
+        {
+          "en": "If your memory serves you well",
+          "meanings": [
+            "We use it to emphasize that you may remember something correctly."
+          ]
+        },
+        {
+          "en": "In a nutshell",
+          "meanings": [
+            "It means “in a summary”."
+          ]
+        },
+        {
+          "en": "In the blink of an eye",
+          "meanings": [
+            "When something occurs suddenly."
+          ]
+        },
+        {
+          "en": "It takes two to tango",
+          "meanings": [
+            "Two individuals are needed to make something happen."
+          ]
+        },
+        {
+          "en": "It’s a piece of cake",
+          "meanings": [
+            "We use it to say that something is easy to do."
+          ]
+        },
+        {
+          "en": "It’s all Greek to me",
+          "meanings": [
+            "When something is confusing and you do not understand it."
+          ]
+        },
+        {
+          "en": "Let someone off the hook",
+          "meanings": [
+            "To free someone from responsibility."
+          ]
+        },
+        {
+          "en": "Make a long story short",
+          "meanings": [
+            "To summarize an experience or situation."
+          ]
+        },
+        {
+          "en": "No pain, no gain",
+          "meanings": [
+            "You need to work hard to achieve something, often with a lot of effort."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Common English idioms 3",
+      "items": [
+        {
+          "en": "Off the table",
+          "meanings": [
+            "Not an option anymore."
+          ]
+        },
+        {
+          "en": "Old habits die hard",
+          "meanings": [
+            "It is hard to change something overnight."
+          ]
+        },
+        {
+          "en": "On the fence",
+          "meanings": [
+            "When you do not have a definite decision."
+          ]
+        },
+        {
+          "en": "Pull someone’s leg",
+          "meanings": [
+            "To joke on someone."
+          ]
+        },
+        {
+          "en": "Pull yourself together",
+          "meanings": [
+            "To become focused on what you are doing."
+          ]
+        },
+        {
+          "en": "Raining cats and dogs",
+          "meanings": [
+            "We use it to say that it is raining heavily."
+          ]
+        },
+        {
+          "en": "Ring a bell",
+          "meanings": [
+            "Something is familiar to you."
+          ]
+        },
+        {
+          "en": "Sleep on it",
+          "meanings": [
+            "It means to take time to reach a final decision."
+          ]
+        },
+        {
+          "en": "Speak of the devil",
+          "meanings": [
+            "When you are talking about someone and that person suddenly appears."
+          ]
+        },
+        {
+          "en": "Speak your mind",
+          "meanings": [
+            "To express your ideas and thoughts."
+          ]
+        },
+        {
+          "en": "Sweet tooth",
+          "meanings": [
+            "To have a craving for sweet food."
+          ]
+        },
+        {
+          "en": "Take it easy",
+          "meanings": [
+            "Do not worry about it."
+          ]
+        },
+        {
+          "en": "The early bird catches the worm",
+          "meanings": [
+            "Someone who does something first, can achieve success easily."
+          ]
+        },
+        {
+          "en": "To be all ears",
+          "meanings": [
+            "To be a good listener."
+          ]
+        },
+        {
+          "en": "To be at the hands of somebody",
+          "meanings": [
+            "When you are under someone else’s control."
+          ]
+        },
+        {
+          "en": "To be in deep waters",
+          "meanings": [
+            "When you are facing a challenging situation."
+          ]
+        },
+        {
+          "en": "To be in the same boat",
+          "meanings": [
+            "To face the same circumstances as someone else."
+          ]
+        },
+        {
+          "en": "To behave like a mother hen",
+          "meanings": [
+            "To be very protective."
+          ]
+        },
+        {
+          "en": "To bite your tongue",
+          "meanings": [
+            "To refrain from stating what you think."
+          ]
+        },
+        {
+          "en": "To bring to mind",
+          "meanings": [
+            "To recall a thought."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Common English idioms 4",
+      "items": [
+        {
+          "en": "To catch someone’s eye",
+          "meanings": [
+            "When you get the attention of someone."
+          ]
+        },
+        {
+          "en": "To change one’s tune",
+          "meanings": [
+            "When you suddenly change your attitude or behaviour when facing a new situation."
+          ]
+        },
+        {
+          "en": "To change your mind",
+          "meanings": [
+            "When you think differently."
+          ]
+        },
+        {
+          "en": "To chase rainbows",
+          "meanings": [
+            "When you pursue unattainable goals."
+          ]
+        },
+        {
+          "en": "To come out of your shell",
+          "meanings": [
+            "To become more sociable."
+          ]
+        },
+        {
+          "en": "To come to a bad end",
+          "meanings": [
+            "To have a negative outcome."
+          ]
+        },
+        {
+          "en": "To come to your senses",
+          "meanings": [
+            "When you regain awareness after a moment of confusion."
+          ]
+        },
+        {
+          "en": "To cost a fortune",
+          "meanings": [
+            "Something is quite expensive."
+          ]
+        },
+        {
+          "en": "To cover your tracks",
+          "meanings": [
+            "To hide your actions."
+          ]
+        },
+        {
+          "en": "To cry your eyes out",
+          "meanings": [
+            "To cry a lot."
+          ]
+        },
+        {
+          "en": "To cut to the chase",
+          "meanings": [
+            "To skip unnecessary detail to get to the main point."
+          ]
+        },
+        {
+          "en": "To draw a line in the sand",
+          "meanings": [
+            "To establish a boundary over what is right and wrong."
+          ]
+        },
+        {
+          "en": "To face the music",
+          "meanings": [
+            "To accept the consequences of what you do."
+          ]
+        },
+        {
+          "en": "To get back on your feet",
+          "meanings": [
+            "To regain your strength from a challenging situation."
+          ]
+        },
+        {
+          "en": "To get to the bottom of something",
+          "meanings": [
+            "To identify the cause of something."
+          ]
+        },
+        {
+          "en": "To give someone the cold shoulder",
+          "meanings": [
+            "When you intentionally ignore someone in a situation."
+          ]
+        },
+        {
+          "en": "To go behind someone’s back",
+          "meanings": [
+            "When you do something secretly betraying someone’s trust."
+          ]
+        },
+        {
+          "en": "To have a memory like a sieve",
+          "meanings": [
+            "When you do not have a good memory and forget things easily."
+          ]
+        },
+        {
+          "en": "To have something on the brain",
+          "meanings": [
+            "To have a lot of thoughts."
+          ]
+        },
+        {
+          "en": "To have the world at your feet",
+          "meanings": [
+            "To have all the opportunities you want."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Common English idioms 5",
+      "items": [
+        {
+          "en": "To have your hands full",
+          "meanings": [
+            "When you are very busy and cannot do anything else."
+          ]
+        },
+        {
+          "en": "To hit the bull’s eye",
+          "meanings": [
+            "When you are right about something."
+          ]
+        },
+        {
+          "en": "To hit the roof",
+          "meanings": [
+            "To become outraged."
+          ]
+        },
+        {
+          "en": "To hold your horses",
+          "meanings": [
+            "To hold back from doing something unnecessary."
+          ]
+        },
+        {
+          "en": "To jump on the bandwagon",
+          "meanings": [
+            "To join something that is trendy."
+          ]
+        },
+        {
+          "en": "To keep an eye on something",
+          "meanings": [
+            "To watch something closely so that nothing happens."
+          ]
+        },
+        {
+          "en": "To keep your feet on the ground",
+          "meanings": [
+            "To be realistic without becoming ambitious."
+          ]
+        },
+        {
+          "en": "To kill two birds with one stone",
+          "meanings": [
+            "To complete two activities with a single action."
+          ]
+        },
+        {
+          "en": "To lend someone a hand",
+          "meanings": [
+            "To offer someone your help."
+          ]
+        },
+        {
+          "en": "To let the cat out of the bag",
+          "meanings": [
+            "To reveal information carelessly."
+          ]
+        },
+        {
+          "en": "To live on the edge",
+          "meanings": [
+            "To have a risky lifestyle."
+          ]
+        },
+        {
+          "en": "To lose your train of thought",
+          "meanings": [
+            "When you suddenly disconnect from a conversation."
+          ]
+        },
+        {
+          "en": "To make a song and dance about something",
+          "meanings": [
+            "To exaggerate a situation unnecessarily."
+          ]
+        },
+        {
+          "en": "To make matters worse",
+          "meanings": [
+            "To make a difficult situation even more problematic."
+          ]
+        },
+        {
+          "en": "To make up your mind",
+          "meanings": [
+            "To decide on something."
+          ]
+        },
+        {
+          "en": "To mind your own business",
+          "meanings": [
+            "It means “do not meddle in my affairs”"
+          ]
+        },
+        {
+          "en": "To pat yourself on the back",
+          "meanings": [
+            "To congratulate yourself."
+          ]
+        },
+        {
+          "en": "To play something by ear",
+          "meanings": [
+            "To make decisions spontaneously without planning ahead."
+          ]
+        },
+        {
+          "en": "To pour your heart out",
+          "meanings": [
+            "To openly say what you feel."
+          ]
+        },
+        {
+          "en": "To put your mind at ease",
+          "meanings": [
+            "We use it to provide assurance to someone else."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Common English idioms 6",
+      "items": [
+        {
+          "en": "To read between the lines",
+          "meanings": [
+            "To find a hidden message."
+          ]
+        },
+        {
+          "en": "To see eye to eye",
+          "meanings": [
+            "To agree with someone else."
+          ]
+        },
+        {
+          "en": "To shed crocodile tears",
+          "meanings": [
+            "To pretend to be depressed."
+          ]
+        },
+        {
+          "en": "To smoke like a chimney",
+          "meanings": [
+            "When someone smokes excessively."
+          ]
+        },
+        {
+          "en": "To spill the beans",
+          "meanings": [
+            "To reveal something that was not supposed to be revealed."
+          ]
+        },
+        {
+          "en": "To stab someone in the back",
+          "meanings": [
+            "To deceive someone who put a lot of trust in you."
+          ]
+        },
+        {
+          "en": "To strike a chord",
+          "meanings": [
+            "To remember something because it evoked a memory."
+          ]
+        },
+        {
+          "en": "To sweep something under the carpet",
+          "meanings": [
+            "To ignore a situation instead of dealing with it."
+          ]
+        },
+        {
+          "en": "To take for granted",
+          "meanings": [
+            "When you assume something will always be obtainable."
+          ]
+        },
+        {
+          "en": "To think outside the box",
+          "meanings": [
+            "To be creative when coming up with new ideas."
+          ]
+        },
+        {
+          "en": "To throw somebody under the bus",
+          "meanings": [
+            "When you betray someone to protect yourself."
+          ]
+        },
+        {
+          "en": "To treat somebody like a dog",
+          "meanings": [
+            "To treat someone unfairly."
+          ]
+        },
+        {
+          "en": "To turn a blind eye to something",
+          "meanings": [
+            "To overlook a situation intentionally."
+          ]
+        },
+        {
+          "en": "Whole nine yards",
+          "meanings": [
+            "The entirety of something."
+          ]
+        },
+        {
+          "en": "Wrap your head around something",
+          "meanings": [
+            "When you need to understand a situation when it is complex to comprehend."
+          ]
+        },
+        {
+          "en": "You can’t judge a book by its cover: we use it to say that you cannot make assumptions about someone when you do not know that person."
+        }
+      ]
+    }
+  ]
+}

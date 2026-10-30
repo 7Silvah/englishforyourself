@@ -1,0 +1,87 @@
+{
+  "title": "Articles and plurals: free practice",
+  "titleEs": "Artículos y plurales: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "articulos-y-plurales",
+  "topics": [
+    "articles",
+    "plurals"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "It is ___ old house.",
+      "blanks": [
+        {
+          "answers": [
+            "an"
+          ]
+        }
+      ],
+      "explanationEs": "Old empieza con sonido de vocal: an old house."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I have three ___ (box).",
+      "blanks": [
+        {
+          "answers": [
+            "boxes"
+          ]
+        }
+      ],
+      "explanationEs": "Las palabras que terminan en -x forman el plural con -es: boxes."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Two ___ (woman) are at the door.",
+      "blanks": [
+        {
+          "answers": [
+            "women"
+          ]
+        }
+      ],
+      "explanationEs": "Plural irregular: woman → women."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "I know two big ___ (city) in Peru.",
+      "blanks": [
+        {
+          "answers": [
+            "cities"
+          ]
+        }
+      ],
+      "explanationEs": "Consonante + y → -ies: city → cities."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "He is an university student.",
+      "wrong": "an",
+      "answers": [
+        "a"
+      ],
+      "explanationEs": "University empieza con sonido de consonante (/ju/): a university."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "I have two childs.",
+      "wrong": "childs",
+      "answers": [
+        "children"
+      ],
+      "explanationEs": "Plural irregular: child → children."
+    }
+  ]
+}

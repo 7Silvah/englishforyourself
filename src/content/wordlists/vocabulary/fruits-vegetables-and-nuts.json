@@ -1,0 +1,351 @@
+{
+  "kind": "wordlist",
+  "title": "Fruits, Vegetables and Nuts Vocabulary",
+  "order": 7,
+  "legacyPath": "lessons/vocabulary/fruits-vegetables-and-nuts.html",
+  "intro": "In this section of English vocabulary, you will learn vocabulary about fruits, vegetables and nuts.",
+  "groups": [
+    {
+      "title": "Fruits vocabulary",
+      "items": [
+        {
+          "en": "Apple"
+        },
+        {
+          "en": "Apricot"
+        },
+        {
+          "en": "Avocado"
+        },
+        {
+          "en": "Banana"
+        },
+        {
+          "en": "Blackberry"
+        },
+        {
+          "en": "Blackcurrant"
+        },
+        {
+          "en": "Blueberry"
+        },
+        {
+          "en": "Cherry"
+        },
+        {
+          "en": "Coconut"
+        },
+        {
+          "en": "Cranberry"
+        },
+        {
+          "en": "Custard apple"
+        },
+        {
+          "en": "Date"
+        },
+        {
+          "en": "Dragon fruit"
+        },
+        {
+          "en": "Durian"
+        },
+        {
+          "en": "Fig"
+        },
+        {
+          "en": "Goji berry"
+        },
+        {
+          "en": "Gooseberry"
+        },
+        {
+          "en": "Grape"
+        },
+        {
+          "en": "Grapefruit"
+        },
+        {
+          "en": "Guava"
+        },
+        {
+          "en": "Jujube"
+        },
+        {
+          "en": "Kiwi"
+        },
+        {
+          "en": "Lemon"
+        },
+        {
+          "en": "Lime"
+        },
+        {
+          "en": "Lychee"
+        },
+        {
+          "en": "Mango"
+        },
+        {
+          "en": "Melon"
+        },
+        {
+          "en": "Nectarine"
+        },
+        {
+          "en": "Orange"
+        },
+        {
+          "en": "Papaya"
+        },
+        {
+          "en": "Passion fruit"
+        },
+        {
+          "en": "Peach"
+        },
+        {
+          "en": "Pear"
+        },
+        {
+          "en": "Persimmons"
+        },
+        {
+          "en": "Pineapple"
+        },
+        {
+          "en": "Plum"
+        },
+        {
+          "en": "Pomegranate"
+        },
+        {
+          "en": "Quince"
+        },
+        {
+          "en": "Raspberry"
+        },
+        {
+          "en": "Red currant"
+        },
+        {
+          "en": "Sapodilla"
+        },
+        {
+          "en": "Shaddock"
+        },
+        {
+          "en": "Strawberry"
+        },
+        {
+          "en": "Tangerine"
+        },
+        {
+          "en": "Watermelon"
+        }
+      ]
+    },
+    {
+      "title": "Vegetables vocabulary",
+      "items": [
+        {
+          "en": "Artichoke"
+        },
+        {
+          "en": "Arugula"
+        },
+        {
+          "en": "Asparagus"
+        },
+        {
+          "en": "Aubergine or eggplant"
+        },
+        {
+          "en": "Beans"
+        },
+        {
+          "en": "Beetroot"
+        },
+        {
+          "en": "Beets"
+        },
+        {
+          "en": "Bell pepper or capsicum"
+        },
+        {
+          "en": "Broccoli"
+        },
+        {
+          "en": "Brussels sprouts"
+        },
+        {
+          "en": "Cabbage"
+        },
+        {
+          "en": "Carrot"
+        },
+        {
+          "en": "Cassava"
+        },
+        {
+          "en": "Cauliflower"
+        },
+        {
+          "en": "Celery"
+        },
+        {
+          "en": "Chayote"
+        },
+        {
+          "en": "Chickpeas"
+        },
+        {
+          "en": "Chili pepper"
+        },
+        {
+          "en": "Collards"
+        },
+        {
+          "en": "Coriander"
+        },
+        {
+          "en": "Corn or maize"
+        },
+        {
+          "en": "Courgetti"
+        },
+        {
+          "en": "Cucumber"
+        },
+        {
+          "en": "Fennel"
+        },
+        {
+          "en": "Garlic"
+        },
+        {
+          "en": "Ginger"
+        },
+        {
+          "en": "Green onion"
+        },
+        {
+          "en": "Habanero pepper"
+        },
+        {
+          "en": "Jicama"
+        },
+        {
+          "en": "Kale"
+        },
+        {
+          "en": "Kelp"
+        },
+        {
+          "en": "Korean radish"
+        },
+        {
+          "en": "Leek"
+        },
+        {
+          "en": "Lentils"
+        },
+        {
+          "en": "Lettuce"
+        },
+        {
+          "en": "Mint"
+        },
+        {
+          "en": "Mushroom"
+        },
+        {
+          "en": "Mustard greens"
+        },
+        {
+          "en": "Onion"
+        },
+        {
+          "en": "Parsnips"
+        },
+        {
+          "en": "Peas"
+        },
+        {
+          "en": "Pepper"
+        },
+        {
+          "en": "Pickle"
+        },
+        {
+          "en": "Potato"
+        },
+        {
+          "en": "Pumpkin"
+        },
+        {
+          "en": "Radish"
+        },
+        {
+          "en": "Rye"
+        },
+        {
+          "en": "Spinach"
+        },
+        {
+          "en": "Squash"
+        },
+        {
+          "en": "Sweet potato"
+        },
+        {
+          "en": "Swiss chard"
+        },
+        {
+          "en": "Taro"
+        },
+        {
+          "en": "Tomato"
+        },
+        {
+          "en": "Turnip"
+        },
+        {
+          "en": "Watercress"
+        },
+        {
+          "en": "Wheat"
+        },
+        {
+          "en": "Wild lettuce"
+        },
+        {
+          "en": "Zucchini"
+        }
+      ]
+    },
+    {
+      "title": "Nuts vocabulary",
+      "items": [
+        {
+          "en": "Peanut"
+        },
+        {
+          "en": "Almond"
+        },
+        {
+          "en": "Walnut"
+        },
+        {
+          "en": "Hazelnut"
+        },
+        {
+          "en": "Cashew"
+        },
+        {
+          "en": "Pecan"
+        }
+      ]
+    }
+  ]
+}

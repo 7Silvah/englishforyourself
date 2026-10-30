@@ -1,0 +1,97 @@
+{
+  "caption": "Present Perfect Continuous / Progressive Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I have been playing videogames",
+      "I have not / haven’t been playing videogames",
+      "Have I been playing videogames?",
+      "Have I not / haven’t I been playing videogames?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You have been playing videogames",
+      "You have not / haven’t been playing videogames",
+      "Have you been playing videogames?",
+      "Have you not / haven’t you been playing videogames?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He has been playing videogames",
+      "He has not / hasn’t been playing videogames",
+      "Has he been playing videogames?",
+      "Has he not / hasn’t he been playing videogames?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She has been playing videogames",
+      "She has not / hasn’t been playing videogames",
+      "Has she been playing videogames?",
+      "Has she not / hasn’t she been playing videogames?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It has been playing videogames",
+      "It has not / hasn’t been playing videogames",
+      "Has it been playing videogames?",
+      "Has it not /hasn’t it been playing videogames?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We have been playing videogames",
+      "We have not / haven’t been playing videogames",
+      "Have we been playing videogames?",
+      "Have we not / haven’t we been playing videogames?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They have been playing videogames",
+      "They have not / haven’t been playing videogames",
+      "Have they been playing videogames?",
+      "Have they not / haven’t they been playing videogames?"
+    ]
+  ]
+}

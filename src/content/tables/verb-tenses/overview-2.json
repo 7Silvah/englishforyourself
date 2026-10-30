@@ -1,0 +1,246 @@
+{
+  "caption": "English Tenses Chart",
+  "variant": "grammar",
+  "head": [
+    [
+      "Tense",
+      "Structure ([[pos:Positive]] – [[neg:Negative]] – [[q:Question]])",
+      "Examples"
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Past Perfect",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – He – She – It – We – They + had + verb (past participle)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – He – She – It – We – They + had not / hadn’t + verb (past participle)",
+            "tone": "neg"
+          },
+          {
+            "text": "Had + I – You – He – She – It – We – They + verb (past participle)",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "She had gone out",
+          "You hadn’t gone out",
+          "Had they gone out?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Past Perfect Continuous/Progressive",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – He – She – It – We – They + had + been + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – He – She – It – We – They + had not / hadn’t + been + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Had + I – You – He – She – It – We – They + been + verb (ing)",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I had been cycling",
+          "We had not been cycling",
+          "Had she been cycling?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Future Simple (will)",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – He – She – It – We – They + will + verb",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – He – She – It – We – They + will not / won’t + verb",
+            "tone": "neg"
+          },
+          {
+            "text": "Will + I – You – He – She – It – We – They + verb",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I will give classes",
+          "We won’t give classes",
+          "Will he give classes?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Future Simple (going to)",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I + am + going to + verb",
+            "tone": "pos"
+          },
+          {
+            "text": "I + am not + going to + verb",
+            "tone": "neg"
+          },
+          {
+            "text": "Am + I + going to + verb",
+            "tone": "q"
+          },
+          {
+            "text": "He – She – It + is + going to + verb",
+            "tone": "pos"
+          },
+          {
+            "text": "He – She – It + is not / isn’t + going to + verb",
+            "tone": "neg"
+          },
+          {
+            "text": "Is + He – She – It + going to + verb",
+            "tone": "q"
+          },
+          {
+            "text": "You – We – They + are + going to + verb",
+            "tone": "pos"
+          },
+          {
+            "text": "You – We – They + are not / aren’t + going to + verb",
+            "tone": "neg"
+          },
+          {
+            "text": "Are + You – We – They + going to + verb",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I’m going to order pizza",
+          "I’m not going to order pizza",
+          "Am I going to order pizza?",
+          "He is going to order pizza",
+          "She is not going to order pizza",
+          "Is he going to order pizza?",
+          "They’re going to order pizza",
+          "We are not going to order pizza",
+          "Are you going to order pizza?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Future Continuous/Progressive",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – He – She – It – We – They + will + be + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – He – She – It – We – They + will not / won’t + be + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Will + I – You – He – She – It – We – They + be + verb (ing)",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "She will be singing",
+          "I won’t be singing",
+          "Will you be singing?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Future Perfect",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – He – She – It – We – They + will + have + verb (past participle)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – He – She – It – We – They + will not / won’t + have + verb (past participle)",
+            "tone": "neg"
+          },
+          {
+            "text": "Will + I – You – He – She – It – We – They + have + verb (past participle)",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "You will have finished by tomorrow",
+          "We won’t have finished by tomorrow",
+          "Will she have finished by tomorrow?"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Future Perfect Continuous/Progressive",
+        "header": true
+      },
+      {
+        "lines": [
+          {
+            "text": "I – You – He – She – It – We – They + will + have + been + verb (ing)",
+            "tone": "pos"
+          },
+          {
+            "text": "I – You – He – She – It – We – They + will not / won’t + have + been + verb (ing)",
+            "tone": "neg"
+          },
+          {
+            "text": "Will + I – You – He – She – It – We – They + have + been + verb (ing) ?",
+            "tone": "q"
+          }
+        ]
+      },
+      {
+        "lines": [
+          "I will have been studying English for 4 years before I get my certificate",
+          "He won’t have been studying English for 4 years before he gets his certificate",
+          "Will they have been studying English for 4 years before they get their certificate?"
+        ]
+      }
+    ]
+  ]
+}

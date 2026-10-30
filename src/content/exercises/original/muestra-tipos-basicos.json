@@ -1,0 +1,104 @@
+{
+  "title": "Sample: basic exercise types",
+  "titleEs": "Muestra: los 6 tipos de ejercicio",
+  "instructionEs": "Set de muestra para probar cada tipo de ejercicio. Presente simple y verbo to be.",
+  "source": "original",
+  "level": "A1",
+  "topics": ["present-simple", "verb-to-be"],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "My sister ___ (to live) in Madrid.",
+      "blanks": [{ "answers": ["lives"] }],
+      "hintEs": "My sister = she.",
+      "explanationEs": "Con he, she o it (aquí my sister = she), el verbo en presente simple lleva -s: lives."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "They ___ (to be) from Mexico.",
+      "blanks": [{ "answers": ["are"] }],
+      "explanationEs": "El verbo to be cambia según el sujeto: I am, he/she/it is, we/you/they are."
+    },
+    {
+      "id": "3",
+      "type": "multiple-choice",
+      "prompt": "I ___ 25 years old.",
+      "options": ["am", "have", "has"],
+      "answer": 0,
+      "audio": true,
+      "explanationEs": "La edad se dice con to be: I am 25 years old. En español decimos «tengo 25 años», pero en inglés no se usa have."
+    },
+    {
+      "id": "4",
+      "type": "multiple-choice",
+      "prompt": "___ she speak English?",
+      "options": ["Does", "Do", "Is"],
+      "answer": 0,
+      "explanationEs": "Las preguntas en presente simple con he, she o it empiezan con does, y el verbo queda en su forma base: speak, sin -s."
+    },
+    {
+      "id": "5",
+      "type": "true-false",
+      "statement": "She don't like coffee.",
+      "answer": false,
+      "explanationEs": "Con he, she o it la negación es doesn't: She doesn't like coffee."
+    },
+    {
+      "id": "6",
+      "type": "true-false",
+      "statement": "We are teachers.",
+      "answer": true,
+      "explanationEs": "We va con are, y teachers va en plural porque son varias personas."
+    },
+    {
+      "id": "7",
+      "type": "word-order",
+      "answers": ["Where do you live?"],
+      "distractors": ["does"],
+      "audio": true,
+      "explanationEs": "Orden de una pregunta: palabra interrogativa (where) + do + sujeto (you) + verbo (live). Con you se usa do, no does."
+    },
+    {
+      "id": "8",
+      "type": "word-order",
+      "answers": ["I am not hungry."],
+      "distractors": ["no"],
+      "explanationEs": "La negación con to be es am/is/are + not. En inglés no se pone «no» delante del verbo como en español."
+    },
+    {
+      "id": "9",
+      "type": "transform",
+      "source": "He plays tennis.",
+      "to": "neg",
+      "answers": ["He doesn't play tennis."],
+      "explanationEs": "Negativa en presente simple con he: doesn't + verbo en forma base. La -s pasa a doesn't, por eso es play y no plays."
+    },
+    {
+      "id": "10",
+      "type": "transform",
+      "source": "You are tired.",
+      "to": "q",
+      "answers": ["Are you tired?"],
+      "explanationEs": "Con to be, la pregunta se forma cambiando el orden: el verbo va antes del sujeto (Are you…?). No hace falta do."
+    },
+    {
+      "id": "11",
+      "type": "error-correction",
+      "sentence": "He have two brothers.",
+      "wrong": "have",
+      "answers": ["has"],
+      "explanationEs": "Con he, she o it, have pasa a has: He has two brothers."
+    },
+    {
+      "id": "12",
+      "type": "error-correction",
+      "sentence": "I am agree with you.",
+      "wrong": "am agree",
+      "answers": ["agree"],
+      "explanationEs": "Agree es un verbo: I agree. «I am agree» es un calco de «estoy de acuerdo» y no es correcto en inglés."
+    }
+  ]
+}

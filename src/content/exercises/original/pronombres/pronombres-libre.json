@@ -1,0 +1,86 @@
+{
+  "title": "Personal pronouns: free practice",
+  "titleEs": "Pronombres personales: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "pronombres",
+  "topics": [
+    "pronouns"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "Maria is my friend. ___ is from Peru.",
+      "blanks": [
+        {
+          "answers": [
+            "She"
+          ]
+        }
+      ],
+      "explanationEs": "Maria es una mujer y es el sujeto: she."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I call my parents every day. I love ___.",
+      "blanks": [
+        {
+          "answers": [
+            "them"
+          ]
+        }
+      ],
+      "explanationEs": "Después del verbo love va el objeto plural: them."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Tom and I are friends. ___ are in the same class.",
+      "blanks": [
+        {
+          "answers": [
+            "We"
+          ]
+        }
+      ],
+      "explanationEs": "Tom and I = we (sujeto)."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "The keys? ___ are on the table.",
+      "blanks": [
+        {
+          "answers": [
+            "They"
+          ]
+        }
+      ],
+      "explanationEs": "Para varias cosas se usa they: they are on the table."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "My car is old, but she is fast.",
+      "wrong": "she",
+      "answers": [
+        "it"
+      ],
+      "explanationEs": "Para cosas se usa it, no she ni he."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "Him is my teacher.",
+      "wrong": "Him",
+      "answers": [
+        "He"
+      ],
+      "explanationEs": "Antes del verbo va el pronombre sujeto: He is my teacher."
+    }
+  ]
+}

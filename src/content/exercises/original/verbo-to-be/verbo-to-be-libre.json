@@ -1,0 +1,81 @@
+{
+  "title": "The verb to be: free practice",
+  "titleEs": "El verbo to be: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "verbo-to-be",
+  "topics": [
+    "verb-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "My parents ___ (to be) in Mexico.",
+      "blanks": [
+        {
+          "answers": [
+            "are"
+          ]
+        }
+      ],
+      "explanationEs": "My parents = they, así que se usa are."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "___ you cold? Yes, I am.",
+      "blanks": [
+        {
+          "answers": [
+            "Are"
+          ]
+        }
+      ],
+      "explanationEs": "Pregunta con to be: el verbo va primero. Con you, are."
+    },
+    {
+      "id": "3",
+      "type": "transform",
+      "source": "He is a student.",
+      "to": "neg",
+      "answers": [
+        "He isn't a student.",
+        "He's not a student."
+      ],
+      "explanationEs": "Negativa: is + not (isn't)."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "They are at school.",
+      "to": "q",
+      "answers": [
+        "Are they at school?"
+      ],
+      "explanationEs": "Pregunta: are va antes del sujeto they."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "She are my sister.",
+      "wrong": "are",
+      "answers": [
+        "is"
+      ],
+      "explanationEs": "Con he, she e it se usa is."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "Is she your teacher? Yes, she's.",
+      "wrong": "she's",
+      "answers": [
+        "she is"
+      ],
+      "explanationEs": "En las respuestas cortas afirmativas no se contrae: Yes, she is."
+    }
+  ]
+}

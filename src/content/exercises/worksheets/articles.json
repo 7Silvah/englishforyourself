@@ -1,0 +1,138 @@
+{
+  "title": "Articles: A, An, The",
+  "titleEs": "Artículos: a, an, the",
+  "instruction": "write the correct article.",
+  "instructionEs": "Escribe el artículo correcto: a, an o the.",
+  "source": "worksheet",
+  "level": "A1",
+  "lessons": [
+    "grammar/articles"
+  ],
+  "topics": [
+    "articles"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Articles-A-An-The-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "Ellie is looking at ___ moon.",
+      "blanks": [
+        {
+          "answers": [
+            "the"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "You have ___ cute phone case.",
+      "blanks": [
+        {
+          "answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "I am ___ fashion designer.",
+      "blanks": [
+        {
+          "answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "Edward has ___ interesting hobby.",
+      "blanks": [
+        {
+          "answers": [
+            "an"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "___ song you recommended was amazing.",
+      "blanks": [
+        {
+          "answers": [
+            "The"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "My mom bought me ___ tablet.",
+      "blanks": [
+        {
+          "answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "___ first chapter of the comic was terrible.",
+      "blanks": [
+        {
+          "answers": [
+            "The"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "There’s ___ party next door.",
+      "blanks": [
+        {
+          "answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "Eric goes to the park twice ___ week.",
+      "blanks": [
+        {
+          "answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "I want to visit ___ Netherlands.",
+      "blanks": [
+        {
+          "answers": [
+            "the"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "caption": "Past Perfect Continuous / Progressive Tense – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true
+      },
+      {
+        "text": "I – You – He – She – It – We – They + had + been + verb (ing)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I – You – He – She – It – We – They + had not / hadn’t + been + verb (ing)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Had + I – You – He – She – It – We – They + been + verb (ing)",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "caption": "Past Perfect Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I had gone out",
+      "I had not / hadn’t gone out",
+      "Had I gone out?",
+      "Had I not / hadn’t I gone out?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You had gone out",
+      "You had not / hadn’t gone out",
+      "Had you gone out?",
+      "Had you not / hadn’t you gone out?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He had gone out",
+      "He had not / hadn’t gone out",
+      "Had he gone out?",
+      "Had he not / hadn’t he gone out?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She had gone out",
+      "She had not / hadn’t gone out",
+      "Had she gone out?",
+      "Had she not / hadn’t she gone out?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It had gone out",
+      "It had not / hadn’t gone out",
+      "Had it gone out?",
+      "Had it not / hadn’t it gone out?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We had gone out",
+      "We had not / hadn’t gone out",
+      "Had we gone out?",
+      "Had we not / hadn’t we gone out?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They had gone out",
+      "They had not / hadn’t gone out",
+      "Had they gone out?",
+      "Had they not / hadn’t they gone out?"
+    ]
+  ]
+}

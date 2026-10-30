@@ -1,0 +1,49 @@
+{
+  "caption": "Superlative Adjectives — Superlative adjectives that have two forms",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Adjective",
+        "tone": "pos"
+      },
+      {
+        "text": "Superlatives",
+        "tone": "neg",
+        "colSpan": 2
+      }
+    ]
+  ],
+  "body": [
+    [
+      "Polite",
+      "Politest",
+      "Most polite"
+    ],
+    [
+      "Narrow",
+      "Narrowest",
+      "Most narrow"
+    ],
+    [
+      "Clever",
+      "Cleverest",
+      "Most clever"
+    ],
+    [
+      "Friendly",
+      "Friendliest",
+      "Most friendly"
+    ],
+    [
+      "Gentle",
+      "Gentlest",
+      "Most gentle"
+    ],
+    [
+      "Common",
+      "Commonest",
+      "Most common"
+    ]
+  ]
+}

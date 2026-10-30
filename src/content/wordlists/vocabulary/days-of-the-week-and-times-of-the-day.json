@@ -1,0 +1,70 @@
+{
+  "kind": "wordlist",
+  "title": "Days of the Week and Times of the Day",
+  "order": 3,
+  "legacyPath": "lessons/vocabulary/days-of-the-week-and-times-of-the-day.html",
+  "intro": "In this section of vocabulary, you will learn the days of the week and the times of the day.",
+  "groups": [
+    {
+      "title": "Days of the week",
+      "items": [
+        {
+          "en": "Monday"
+        },
+        {
+          "en": "Tuesday"
+        },
+        {
+          "en": "Wednesday"
+        },
+        {
+          "en": "Thursday"
+        },
+        {
+          "en": "Friday"
+        },
+        {
+          "en": "Saturday"
+        },
+        {
+          "en": "Sunday"
+        }
+      ]
+    },
+    {
+      "title": "Times of the day",
+      "items": [
+        {
+          "en": "Sunrise"
+        },
+        {
+          "en": "Morning"
+        },
+        {
+          "en": "Midday or noon"
+        },
+        {
+          "en": "Afternoon"
+        },
+        {
+          "en": "Sunset"
+        },
+        {
+          "en": "Dusk"
+        },
+        {
+          "en": "Evening"
+        },
+        {
+          "en": "Night"
+        },
+        {
+          "en": "Midnight"
+        },
+        {
+          "en": "Dawn"
+        }
+      ]
+    }
+  ]
+}

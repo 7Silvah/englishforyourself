@@ -1,0 +1,149 @@
+{
+  "title": "Future Perfect Continuous",
+  "titleEs": "Futuro perfecto continuo",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B2",
+  "lessons": [
+    "verb-tenses/future-perfect-continuous-tense"
+  ],
+  "topics": [
+    "future-perfect-continuous",
+    "positive"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Future-Perfect-Continous-or-Progressive-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (to work) in this factory for 15 years by the end of the month.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been working",
+            "’ll have been working"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "They ___ (to dance) for 2 hours by 8 o’clock.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been dancing",
+            "’ll have been dancing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "She ___ (to swim) for 3 hours by the end of the practice.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been swimming",
+            "’ll have been swimming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "He ___ (to train) for the marathon for months by then.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been training",
+            "’ll have been training"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "I ___ (to drive) for ten hours when I finally stop.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been driving",
+            "’ll have been driving"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "By the end of the year, we ___ (to live) in Portugal for three years.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been living",
+            "’ll have been living"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "It ___ (to snow) the whole night when we notice it.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been snowing",
+            "’ll have been snowing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "He ___ (to knit) a sweater for 4 hours by 1 o’clock.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been knitting",
+            "’ll have been knitting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "By 3 o’clock, I ___ (to nap) for all morning.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been napping",
+            "’ll have been napping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "By tomorrow evening, she ___ (to read) two books.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been reading",
+            "’ll have been reading"
+          ]
+        }
+      ]
+    }
+  ]
+}

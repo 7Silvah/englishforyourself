@@ -1,0 +1,97 @@
+{
+  "caption": "Present Simple Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I love comics",
+      "I do not / don’t love comics",
+      "Do I love comics?",
+      "Don’t I love comics?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You love comics",
+      "You do not / don’t love comics",
+      "Do you love comics?",
+      "Don’t you love comics?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He loves comics",
+      "He does not / doesn’t love comics",
+      "Does he love comics?",
+      "Doesn’t he love comics?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She loves comics",
+      "She does not / doesn’t love comics",
+      "Does she love comics?",
+      "Doesn’t she love comics?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It loves comics",
+      "It does not / doesn’t love comics",
+      "Does it love comics?",
+      "Doesn’t it love comics?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We love comics",
+      "We do not / don’t love comics",
+      "Do we love comics?",
+      "Don’t we love comics?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They love comics",
+      "They do not / don’t love comics",
+      "Do they love comics?",
+      "Don’t they love comics?"
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "caption": "Compound Nouns",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Form",
+        "tone": "pos"
+      },
+      {
+        "text": "Examples",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "One word",
+        "header": true
+      },
+      {
+        "lines": [
+          "Pancake",
+          "Bedroom",
+          "Heartbeat",
+          "Photocopy"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Two separated words",
+        "header": true
+      },
+      {
+        "lines": [
+          "Ice cream",
+          "Washing machine"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Hyphenated words",
+        "header": true
+      },
+      {
+        "lines": [
+          "Mother-in-law",
+          "Cousin-in-law"
+        ]
+      }
+    ]
+  ]
+}

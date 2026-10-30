@@ -1,0 +1,97 @@
+{
+  "caption": "Past Continuous / Progressive Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I was studying",
+      "I was not / wasn’t studying",
+      "Was I studying?",
+      "Was I not / wasn’t I studying?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You were studying",
+      "You were not / weren’t studying",
+      "Were you studying?",
+      "Were you not / weren’t you studying?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He was studying",
+      "He was not / wasn’t studying",
+      "Was he studying?",
+      "Was he not / wasn’t he studying?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She was studying",
+      "She was not / wasn’t studying",
+      "Was she studying?",
+      "Was she not / wasn’t she studying?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It was studying",
+      "It was not / wasn’t studying",
+      "Was it studying?",
+      "Was it not / wasn’t it studying?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We were studying",
+      "We were not / weren’t studying",
+      "Were we studying?",
+      "Were we not / weren’t we studying?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They were studying",
+      "They were not / weren’t studying",
+      "Were they studying?",
+      "Were they not / weren’t they studying?"
+    ]
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "caption": "Simple Past – Verb to Be Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I was at the airport",
+      "I was not / wasn’t at the airport",
+      "Was I at the airport?",
+      "Was I not / wasn’t I at the airport?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You were at the airport",
+      "You were not / weren’t at the airport",
+      "Were you at the airport?",
+      "Were you not / weren’t you at the airport?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He was at the airport",
+      "He was not / wasn’t at the airport",
+      "Was he at the airport?",
+      "Was he not / wasn’t he at the airport?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She was at the airport",
+      "She was not / wasn’t at the airport",
+      "Was she at the airport?",
+      "Was she not / wasn’t she at the airport?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It was cold",
+      "It was not / wasn’t cold",
+      "Was it cold?",
+      "Was it not / wasn’t it cold?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We were at the airport",
+      "We were not / weren’t at the airport",
+      "Were we at the airport?",
+      "Were we not / weren’t we at the airport?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They were at the airport",
+      "They were not / weren’t at the airport",
+      "Were they at the airport?",
+      "Were they not / weren’t they at the airport?"
+    ]
+  ]
+}

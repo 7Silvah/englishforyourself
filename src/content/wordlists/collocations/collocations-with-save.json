@@ -1,0 +1,53 @@
+{
+  "kind": "wordlist",
+  "title": "Collocations with Save",
+  "order": 13,
+  "legacyPath": "lessons/collocations/collocations-with-save.html",
+  "intro": "Learn collocations with save in English with the following list.",
+  "groups": [
+    {
+      "title": "Collocations with save",
+      "items": [
+        {
+          "en": "Save a friendship / relationship"
+        },
+        {
+          "en": "Save a marriage"
+        },
+        {
+          "en": "Save a tradition"
+        },
+        {
+          "en": "Save energy"
+        },
+        {
+          "en": "Save lives"
+        },
+        {
+          "en": "Save money"
+        },
+        {
+          "en": "Save one’s strength"
+        },
+        {
+          "en": "Save resources"
+        },
+        {
+          "en": "Save someone a seat"
+        },
+        {
+          "en": "Save someone’s life"
+        },
+        {
+          "en": "Save space"
+        },
+        {
+          "en": "Save the environment"
+        },
+        {
+          "en": "Save time"
+        }
+      ]
+    }
+  ]
+}

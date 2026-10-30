@@ -1,0 +1,250 @@
+{
+  "kind": "wordlist",
+  "title": "Seasons and Weather Vocabulary",
+  "order": 4,
+  "legacyPath": "lessons/vocabulary/seasons-and-weather.html",
+  "intro": "In this section of vocabulary, you will learn the seasons and weather vocabulary in English.",
+  "groups": [
+    {
+      "title": "Seasons vocabulary",
+      "items": [
+        {
+          "en": "Spring"
+        },
+        {
+          "en": "Summer"
+        },
+        {
+          "en": "Autumn or fall"
+        },
+        {
+          "en": "Winter"
+        }
+      ]
+    },
+    {
+      "title": "Weather vocabulary",
+      "items": [
+        {
+          "en": "(n) = noun"
+        },
+        {
+          "en": "(adj) = adjective"
+        },
+        {
+          "en": "(v) = verb"
+        },
+        {
+          "en": "Cold (adj)"
+        },
+        {
+          "en": "Cool (adj)"
+        },
+        {
+          "en": "Freezing (adj)"
+        },
+        {
+          "en": "Hot (adj)"
+        },
+        {
+          "en": "Warm (adj)"
+        },
+        {
+          "en": "Sunny (adj)"
+        },
+        {
+          "en": "Bright (adj)"
+        },
+        {
+          "en": "Clear (adj)"
+        },
+        {
+          "en": "Sunlight (n)"
+        },
+        {
+          "en": "Sunrise (n)"
+        },
+        {
+          "en": "Sunset (n)"
+        },
+        {
+          "en": "Cloudy (adj)"
+        },
+        {
+          "en": "Fog (n)"
+        },
+        {
+          "en": "Foggy (adj)"
+        },
+        {
+          "en": "Gloomy (adj)"
+        },
+        {
+          "en": "Haze (n)"
+        },
+        {
+          "en": "Hazy (adj)"
+        },
+        {
+          "en": "Mist (n)"
+        },
+        {
+          "en": "Misty (adj)"
+        },
+        {
+          "en": "Overcast (n)"
+        },
+        {
+          "en": "Rainy (adj)"
+        },
+        {
+          "en": "Rain (n)"
+        },
+        {
+          "en": "Damp (adj)"
+        },
+        {
+          "en": "Downpour (n)"
+        },
+        {
+          "en": "Drizzle (v) / (n)"
+        },
+        {
+          "en": "Flood (v) / (n)"
+        },
+        {
+          "en": "Pour (v)"
+        },
+        {
+          "en": "Shower (n)"
+        },
+        {
+          "en": "Storm (n)"
+        },
+        {
+          "en": "Stormy (adj)"
+        },
+        {
+          "en": "Thunder (n)"
+        },
+        {
+          "en": "Thundery (adj)"
+        },
+        {
+          "en": "Wind (n)"
+        },
+        {
+          "en": "Windy (adj)"
+        },
+        {
+          "en": "Blustery (adj)"
+        },
+        {
+          "en": "Breeze (n)"
+        },
+        {
+          "en": "Gale (n)"
+        },
+        {
+          "en": "Windstorm (n)"
+        },
+        {
+          "en": "Blizzard (n)"
+        },
+        {
+          "en": "Frost (n)"
+        },
+        {
+          "en": "Hail (v)"
+        },
+        {
+          "en": "Hailstones (n)"
+        },
+        {
+          "en": "Ice (n)"
+        },
+        {
+          "en": "Icy (adj)"
+        },
+        {
+          "en": "Snow (v) / (n)"
+        },
+        {
+          "en": "Snowfall (n)"
+        },
+        {
+          "en": "Snowflake (n)"
+        },
+        {
+          "en": "Snowstorm (n)"
+        },
+        {
+          "en": "Snowy (adj)"
+        },
+        {
+          "en": "More vocabulary words:"
+        },
+        {
+          "en": "Above zero"
+        },
+        {
+          "en": "Below zero"
+        },
+        {
+          "en": "Deluge"
+        },
+        {
+          "en": "Drought"
+        },
+        {
+          "en": "Flurry"
+        },
+        {
+          "en": "Frost"
+        },
+        {
+          "en": "Heat wave"
+        },
+        {
+          "en": "Hurricane"
+        },
+        {
+          "en": "Icicle"
+        },
+        {
+          "en": "Lightning"
+        },
+        {
+          "en": "Monsoon"
+        },
+        {
+          "en": "Rainbow"
+        },
+        {
+          "en": "Raindrop"
+        },
+        {
+          "en": "Slush"
+        },
+        {
+          "en": "Snowman"
+        },
+        {
+          "en": "Thermometer"
+        },
+        {
+          "en": "Thunder"
+        },
+        {
+          "en": "Tornado"
+        },
+        {
+          "en": "Typhoon"
+        },
+        {
+          "en": "Weather forecast"
+        }
+      ]
+    }
+  ]
+}

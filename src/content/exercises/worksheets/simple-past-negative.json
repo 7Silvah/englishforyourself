@@ -1,0 +1,149 @@
+{
+  "title": "Simple Past – Negative Form",
+  "titleEs": "Pasado simple: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "A2",
+  "lessons": [
+    "verb-tenses/simple-past-tense"
+  ],
+  "topics": [
+    "past-simple",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Simple-Past-Tense-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / bring) my lunch.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t bring",
+            "did not bring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "You ___ (not / dance) at the party.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t dance",
+            "did not dance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Rose ___ (not / watch) the video.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t watch",
+            "did not watch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "My parents ___ (not / allow) me to go with them.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t allow",
+            "did not allow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "He ___ (not / keep) the promise.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t keep",
+            "did not keep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "We ___ (not / swim) in the pool last weekend.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t swim",
+            "did not swim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "Margaret ___ (not / lose) the competition.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t lose",
+            "did not lose"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "Jace ___ (not / talk) to Diego.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t talk",
+            "did not talk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "I ___ (not / detect) any error in the system.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t detect",
+            "did not detect"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "She ___ (not / ignore) you.",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t ignore",
+            "did not ignore"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title": "The sentence: review",
+  "titleEs": "La oración: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "la-oracion",
+  "topics": [
+    "sentence-order",
+    "subject",
+    "adjectives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ is my birthday today.",
+      "options": [
+        "It",
+        "Is",
+        "They"
+      ],
+      "answer": 0,
+      "explanationEs": "El sujeto es obligatorio. Para fechas y días se usa it: It is my birthday."
+    },
+    {
+      "id": "2",
+      "type": "true-false",
+      "statement": "I have a car red.",
+      "answer": false,
+      "explanationEs": "El adjetivo va delante del sustantivo: I have a red car."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "It is very cold.",
+      "answer": true,
+      "explanationEs": "Correcto: it es el sujeto para hablar del tiempo."
+    },
+    {
+      "id": "4",
+      "type": "word-order",
+      "answers": [
+        "You have a nice house."
+      ],
+      "explanationEs": "Sujeto (You) + verbo (have) + complemento (a nice house), con nice delante de house."
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "___ is Monday today.",
+      "blanks": [
+        {
+          "answers": [
+            "It"
+          ]
+        }
+      ],
+      "explanationEs": "Para los días y las fechas se usa it como sujeto."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I live in a ___ (flat / small).",
+      "blanks": [
+        {
+          "answers": [
+            "small flat"
+          ]
+        }
+      ],
+      "explanationEs": "El adjetivo va antes del sustantivo: a small flat."
+    },
+    {
+      "id": "7",
+      "type": "error-correction",
+      "sentence": "They are friends goods.",
+      "wrong": "friends goods",
+      "answers": [
+        "good friends"
+      ],
+      "explanationEs": "El adjetivo va delante y no tiene plural: good friends."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "Is a beautiful day.",
+      "wrong": "Is",
+      "answers": [
+        "It is",
+        "It's"
+      ],
+      "explanationEs": "Falta el sujeto: It is a beautiful day."
+    }
+  ]
+}

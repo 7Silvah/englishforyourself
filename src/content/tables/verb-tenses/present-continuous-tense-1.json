@@ -1,0 +1,79 @@
+{
+  "caption": "Present Continuous / Progressive Tense – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true,
+        "rowSpan": 3
+      },
+      {
+        "text": "I + am + verb (ing)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I + am not + verb (ing)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Am + I + verb (ing) ?",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "You – We – They + are + verb (ing)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "You – We – They + are not / aren’t + verb (ing)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Are + You – We – They + verb (ing) ?",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "He – She – It + is + verb (ing)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "He – She – It + is not / isn’t + verb (ing)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Is + He – She – It + verb (ing) ?",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

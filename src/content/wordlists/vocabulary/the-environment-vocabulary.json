@@ -1,0 +1,182 @@
+{
+  "kind": "wordlist",
+  "title": "The Environment Vocabulary",
+  "order": 45,
+  "legacyPath": "lessons/vocabulary/the-environment-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the environment in English.",
+  "groups": [
+    {
+      "title": "Environment vocabulary",
+      "items": [
+        {
+          "en": "Acid rain"
+        },
+        {
+          "en": "Air pollution"
+        },
+        {
+          "en": "Animal rights"
+        },
+        {
+          "en": "Biodiversity"
+        },
+        {
+          "en": "Bioenergy"
+        },
+        {
+          "en": "Biomass"
+        },
+        {
+          "en": "Carbon dioxide"
+        },
+        {
+          "en": "Carbon footprint"
+        },
+        {
+          "en": "Climate change"
+        },
+        {
+          "en": "Compost"
+        },
+        {
+          "en": "Conservation"
+        },
+        {
+          "en": "Contaminant"
+        },
+        {
+          "en": "Contamination"
+        },
+        {
+          "en": "Deforestation"
+        },
+        {
+          "en": "Ecologist"
+        },
+        {
+          "en": "Ecology"
+        },
+        {
+          "en": "Ecosystem"
+        },
+        {
+          "en": "Ecotourism"
+        },
+        {
+          "en": "Endangered species"
+        },
+        {
+          "en": "Environmentalist"
+        },
+        {
+          "en": "Erosion"
+        },
+        {
+          "en": "Extinction"
+        },
+        {
+          "en": "Fauna"
+        },
+        {
+          "en": "Flora"
+        },
+        {
+          "en": "Fossil fuels"
+        },
+        {
+          "en": "Global warming"
+        },
+        {
+          "en": "Greenhouse effect"
+        },
+        {
+          "en": "Land pollution"
+        },
+        {
+          "en": "Landfills"
+        },
+        {
+          "en": "Marine pollution"
+        },
+        {
+          "en": "Natural habitat"
+        },
+        {
+          "en": "Natural resources"
+        },
+        {
+          "en": "Nuclear energy"
+        },
+        {
+          "en": "Oil spill"
+        },
+        {
+          "en": "Overpopulation"
+        },
+        {
+          "en": "Pesticides"
+        },
+        {
+          "en": "Poaching"
+        },
+        {
+          "en": "Pollutant"
+        },
+        {
+          "en": "Pollution"
+        },
+        {
+          "en": "Radioactive waste"
+        },
+        {
+          "en": "Rainforest"
+        },
+        {
+          "en": "Recycling"
+        },
+        {
+          "en": "Reforestation"
+        },
+        {
+          "en": "Sewage"
+        },
+        {
+          "en": "Sewage farm (UK) / sewage plant (US)"
+        },
+        {
+          "en": "Smog"
+        },
+        {
+          "en": "Solar energy"
+        },
+        {
+          "en": "Solar panels"
+        },
+        {
+          "en": "Solar power"
+        },
+        {
+          "en": "Sustainability"
+        },
+        {
+          "en": "Tidal energy"
+        },
+        {
+          "en": "Toxic waste"
+        },
+        {
+          "en": "Wildfires"
+        },
+        {
+          "en": "Wildlife"
+        },
+        {
+          "en": "Wind power"
+        },
+        {
+          "en": "Wind turbine"
+        }
+      ]
+    }
+  ]
+}

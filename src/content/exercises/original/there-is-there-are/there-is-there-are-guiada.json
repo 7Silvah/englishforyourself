@@ -1,0 +1,75 @@
+{
+  "title": "There is / there are: guided practice",
+  "titleEs": "There is / there are: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "there-is-there-are",
+  "topics": [
+    "there-is",
+    "countable-uncountable"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "There ___ three bedrooms in my house.",
+      "options": [
+        "are",
+        "is",
+        "have"
+      ],
+      "answer": 0,
+      "explanationEs": "Con un plural se usa there are."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "There isn't ___ milk in the fridge.",
+      "options": [
+        "any",
+        "some",
+        "a"
+      ],
+      "answer": 0,
+      "explanationEs": "En las negativas se usa any."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "In my city have many parks.",
+      "answer": false,
+      "explanationEs": "«Hay» no se dice con have: In my city there are many parks."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "There is a supermarket near my house.",
+      "answer": true,
+      "explanationEs": "Una sola cosa: there is."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Are there any eggs?"
+      ],
+      "distractors": [
+        "some"
+      ],
+      "explanationEs": "En las preguntas se usa any, y are va antes de there."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "How many students are there?"
+      ],
+      "distractors": [
+        "much"
+      ],
+      "explanationEs": "Con sustantivos contables en plural: how many."
+    }
+  ]
+}

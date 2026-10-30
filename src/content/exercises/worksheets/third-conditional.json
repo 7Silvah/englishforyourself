@@ -1,0 +1,208 @@
+{
+  "title": "Third Conditional",
+  "titleEs": "Tercer condicional",
+  "instruction": "write the correct form of the verbs in brackets.",
+  "instructionEs": "Escribe los verbos entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B2",
+  "lessons": [
+    "grammar/conditionals"
+  ],
+  "topics": [
+    "conditionals",
+    "third-conditional"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Third-Conditional-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "If I ___ (to take) an English course, I ___ (to improve) my skills.",
+      "blanks": [
+        {
+          "answers": [
+            "had taken",
+            "’d taken"
+          ]
+        },
+        {
+          "answers": [
+            "would have improved",
+            "’d have improved"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "If Amery ___ (to listen) carefully, she ___ (to understand) the assignment.",
+      "blanks": [
+        {
+          "answers": [
+            "had listened",
+            "’d listened"
+          ]
+        },
+        {
+          "answers": [
+            "would have understood",
+            "’d have understood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "If they ___ (to arrive) on time, they ___ (to see) the eclipse.",
+      "blanks": [
+        {
+          "answers": [
+            "had arrived",
+            "’d arrived"
+          ]
+        },
+        {
+          "answers": [
+            "would have seen",
+            "’d have seen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "He ___ (not / be) tired all day if he ___ (to sleep) eight hours.",
+      "blanks": [
+        {
+          "answers": [
+            "wouldn’t be"
+          ]
+        },
+        {
+          "answers": [
+            "had slept",
+            "’d slept"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "If Joseph ___ (to ask) for help, I ___ (to help) him.",
+      "blanks": [
+        {
+          "answers": [
+            "had asked",
+            "’d asked"
+          ]
+        },
+        {
+          "answers": [
+            "would have helped",
+            "’d have helped"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "If I ___ (to join) the art club, I ___ (to know) how to paint.",
+      "blanks": [
+        {
+          "answers": [
+            "had joined",
+            "’d joined"
+          ]
+        },
+        {
+          "answers": [
+            "would have known",
+            "’d have known"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "We ___ (not / burn) the pizza if we ___ (to follow) the recipe.",
+      "blanks": [
+        {
+          "answers": [
+            "wouldn’t have burned"
+          ]
+        },
+        {
+          "answers": [
+            "had followed",
+            "’d followed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "If you ___ (to practice) harder, you ___ (to be) a great singer.",
+      "blanks": [
+        {
+          "answers": [
+            "had practiced",
+            "’d practiced",
+            "had practised",
+            "’d practised"
+          ]
+        },
+        {
+          "answers": [
+            "would have been",
+            "’d have been"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "She ___ (not / make) that mistake if she ___ (to take) the advice you gave her.",
+      "blanks": [
+        {
+          "answers": [
+            "wouldn’t have made"
+          ]
+        },
+        {
+          "answers": [
+            "had taken",
+            "’d taken"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "If they ___ (to choose) the wooden table, they ___ (to save) money.",
+      "blanks": [
+        {
+          "answers": [
+            "had chosen",
+            "’d chosen"
+          ]
+        },
+        {
+          "answers": [
+            "would have saved",
+            "’d have saved"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Possessives and demonstratives: free practice",
+  "titleEs": "Posesivos y demostrativos: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "posesivos-y-demostrativos",
+  "topics": [
+    "possessives",
+    "demonstratives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "We like ___ (we) new house.",
+      "blanks": [
+        {
+          "answers": [
+            "our"
+          ]
+        }
+      ],
+      "explanationEs": "El posesivo de we es our."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Those are ___ (they) children.",
+      "blanks": [
+        {
+          "answers": [
+            "their"
+          ]
+        }
+      ],
+      "explanationEs": "El posesivo de they es their."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "This is ___ (Tom) bike.",
+      "blanks": [
+        {
+          "answers": [
+            "Tom's"
+          ]
+        }
+      ],
+      "explanationEs": "Para decir de quién es algo: nombre + 's."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "___ (this) books are interesting.",
+      "blanks": [
+        {
+          "answers": [
+            "These"
+          ]
+        }
+      ],
+      "explanationEs": "Con un plural, this pasa a these."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "This is the car of my father.",
+      "wrong": "the car of my father",
+      "answers": [
+        "my father's car"
+      ],
+      "explanationEs": "En inglés se usa 's: my father's car."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "The cat is in it's bed.",
+      "wrong": "it's",
+      "answers": [
+        "its"
+      ],
+      "explanationEs": "Its (sin apóstrofo) es el posesivo; it's significa it is."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "title": "Past Perfect Continuous",
+  "titleEs": "Pasado perfecto continuo",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B2",
+  "lessons": [
+    "verb-tenses/past-perfect-continuous"
+  ],
+  "topics": [
+    "past-perfect-continuous",
+    "positive"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Past-Perfect-Continous-or-Progressive-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (to study) English for 1 year before I took an English test.",
+      "blanks": [
+        {
+          "answers": [
+            "had been studying",
+            "’d been studying"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Dean ___ (to search) on the Internet for hours before finding an interesting blog.",
+      "blanks": [
+        {
+          "answers": [
+            "had been searching",
+            "’d been searching"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "She ___ (to work out) since the morning when she fainted.",
+      "blanks": [
+        {
+          "answers": [
+            "had been working out",
+            "’d been working out"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "We ___ (to run) for 30 minutes before we decided to rest.",
+      "blanks": [
+        {
+          "answers": [
+            "had been running",
+            "’d been running"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "Tyler ___ (to think) about what to write for a long time before coming up with good ideas.",
+      "blanks": [
+        {
+          "answers": [
+            "had been thinking",
+            "’d been thinking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Emma and I ___ (to walk) around the neighbourhood when we got hungry.",
+      "blanks": [
+        {
+          "answers": [
+            "had been walking",
+            "’d been walking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "I ___ (to read) my favourite comic before I fell asleep.",
+      "blanks": [
+        {
+          "answers": [
+            "had been reading",
+            "’d been reading"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "Candace ___ (to wait) for her boyfriend for hours before realizing he wasn’t coming.",
+      "blanks": [
+        {
+          "answers": [
+            "had been waiting",
+            "’d been waiting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "My parents ___ (to save) money for a car since last year.",
+      "blanks": [
+        {
+          "answers": [
+            "had been saving",
+            "’d been saving"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "Sophia ___ (to practice) the guitar for weeks before the recital.",
+      "blanks": [
+        {
+          "answers": [
+            "had been practicing",
+            "’d been practicing",
+            "had been practising",
+            "’d been practising"
+          ]
+        }
+      ]
+    }
+  ]
+}

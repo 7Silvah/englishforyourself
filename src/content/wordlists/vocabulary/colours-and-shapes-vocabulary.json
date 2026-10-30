@@ -1,0 +1,136 @@
+{
+  "kind": "wordlist",
+  "title": "Colours and Shapes Vocabulary",
+  "order": 5,
+  "legacyPath": "lessons/vocabulary/colours-and-shapes-vocabulary.html",
+  "intro": "In this section of vocabulary, you will learn the colours and shapes vocabulary in English.",
+  "groups": [
+    {
+      "title": "Colours vocabulary",
+      "items": [
+        {
+          "en": "Black"
+        },
+        {
+          "en": "Blue"
+        },
+        {
+          "en": "Brown"
+        },
+        {
+          "en": "Coral"
+        },
+        {
+          "en": "Dark blue"
+        },
+        {
+          "en": "Gold"
+        },
+        {
+          "en": "Green"
+        },
+        {
+          "en": "Grey or gray"
+        },
+        {
+          "en": "Indigo"
+        },
+        {
+          "en": "Khaki"
+        },
+        {
+          "en": "Light blue"
+        },
+        {
+          "en": "Magenta"
+        },
+        {
+          "en": "Maroon"
+        },
+        {
+          "en": "Navy blue"
+        },
+        {
+          "en": "Orange"
+        },
+        {
+          "en": "Pink"
+        },
+        {
+          "en": "Purple"
+        },
+        {
+          "en": "Red"
+        },
+        {
+          "en": "Salmon"
+        },
+        {
+          "en": "Silver"
+        },
+        {
+          "en": "Turquoise"
+        },
+        {
+          "en": "White"
+        },
+        {
+          "en": "Yellow"
+        }
+      ]
+    },
+    {
+      "title": "Shapes vocabulary",
+      "items": [
+        {
+          "en": "Circle"
+        },
+        {
+          "en": "Triangle"
+        },
+        {
+          "en": "Square"
+        },
+        {
+          "en": "Rectangle"
+        },
+        {
+          "en": "Oval"
+        },
+        {
+          "en": "Pentagon"
+        },
+        {
+          "en": "Hexagon"
+        },
+        {
+          "en": "Heptagon"
+        },
+        {
+          "en": "Octagon"
+        },
+        {
+          "en": "Parallelogram"
+        },
+        {
+          "en": "Cross"
+        },
+        {
+          "en": "Cube"
+        },
+        {
+          "en": "Cone"
+        },
+        {
+          "en": "Cylinder"
+        },
+        {
+          "en": "Rhombus"
+        },
+        {
+          "en": "Trapezoid"
+        }
+      ]
+    }
+  ]
+}

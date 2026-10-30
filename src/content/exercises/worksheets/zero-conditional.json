@@ -1,0 +1,192 @@
+{
+  "title": "Zero Conditional",
+  "titleEs": "Condicional cero",
+  "instruction": "write the correct form of the verbs in brackets.",
+  "instructionEs": "Escribe los verbos entre paréntesis en la forma correcta.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "grammar/conditionals"
+  ],
+  "topics": [
+    "conditionals",
+    "zero-conditional"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Zero-Conditional-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "If you ___ (to mix) black and white, you ___ (to get) grey.",
+      "blanks": [
+        {
+          "answers": [
+            "mix"
+          ]
+        },
+        {
+          "answers": [
+            "get"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "If you ___ (to eat) all your food, you ___ (not / get) hungry.",
+      "blanks": [
+        {
+          "answers": [
+            "eat"
+          ]
+        },
+        {
+          "answers": [
+            "don’t get"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "If you ___ (to hit) a window, it ___ (to break).",
+      "blanks": [
+        {
+          "answers": [
+            "hit"
+          ]
+        },
+        {
+          "answers": [
+            "breaks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "If I ___ (not / sleep) well, I ___ (to feel) weak the next morning.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t sleep",
+            "do not sleep"
+          ]
+        },
+        {
+          "answers": [
+            "feel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "If Karen ___ (to consume) too much sugar, her blood sugar levels ___ (to increase).",
+      "blanks": [
+        {
+          "answers": [
+            "consumes"
+          ]
+        },
+        {
+          "answers": [
+            "increase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "If you ___ (to put) chicken in oil, it ___ (to fry).",
+      "blanks": [
+        {
+          "answers": [
+            "put"
+          ]
+        },
+        {
+          "answers": [
+            "fries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "If you ___ (not / charge) your phone, it ___ (to run out) of battery.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t charge",
+            "do not charge"
+          ]
+        },
+        {
+          "answers": [
+            "runs out"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "If you ___ (to add) pasta to boiling water, it ___ (to soften).",
+      "blanks": [
+        {
+          "answers": [
+            "add"
+          ]
+        },
+        {
+          "answers": [
+            "softens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "When it ___ (to get) dark, the lights ___ (to turn on).",
+      "blanks": [
+        {
+          "answers": [
+            "gets"
+          ]
+        },
+        {
+          "answers": [
+            "turn on"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "If it ___ (to be) cold outside, we ___ (to wear) gloves.",
+      "blanks": [
+        {
+          "answers": [
+            "is",
+            "’s"
+          ]
+        },
+        {
+          "answers": [
+            "wear"
+          ]
+        }
+      ]
+    }
+  ]
+}

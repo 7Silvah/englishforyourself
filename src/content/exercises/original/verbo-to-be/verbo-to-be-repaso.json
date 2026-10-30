@@ -1,0 +1,97 @@
+{
+  "title": "The verb to be: review",
+  "titleEs": "El verbo to be: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "verbo-to-be",
+  "topics": [
+    "verb-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "It ___ very hot today.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "answer": 0,
+      "explanationEs": "Con it se usa is."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "___ they your friends?",
+      "options": [
+        "Are",
+        "Is",
+        "Do"
+      ],
+      "answer": 0,
+      "explanationEs": "Pregunta con to be: Are they…? No se usa do."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I am hungry.",
+      "answer": true,
+      "explanationEs": "Tengo hambre = I am hungry."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "You are tired?",
+      "answer": false,
+      "explanationEs": "En inglés la pregunta cambia el orden: Are you tired?"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "We are not from Spain."
+      ],
+      "distractors": [
+        "no"
+      ],
+      "explanationEs": "Negativa: are + not."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (to be) at home now.",
+      "blanks": [
+        {
+          "answers": [
+            "am"
+          ]
+        }
+      ],
+      "explanationEs": "Con I se usa am."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "She is happy.",
+      "to": "q",
+      "answers": [
+        "Is she happy?"
+      ],
+      "explanationEs": "Pregunta: is va antes de she."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "My sister have 12 years.",
+      "wrong": "have 12 years",
+      "answers": [
+        "is 12 years old",
+        "is 12"
+      ],
+      "explanationEs": "La edad se dice con to be: My sister is 12 years old."
+    }
+  ]
+}

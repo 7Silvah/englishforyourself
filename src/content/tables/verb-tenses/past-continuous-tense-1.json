@@ -1,0 +1,62 @@
+{
+  "caption": "Past Continuous / Progressive Tense – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true,
+        "rowSpan": 2
+      },
+      {
+        "text": "I – He – She – It + was + verb (ing)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I – He – She – It + was not / wasn’t + verb (ing)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Was + I – He – She – It + verb (ing)",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "You – We – They + were + verb (ing)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "You – We – They + were not / weren’t + verb (ing)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Were + You – We – They + verb (ing)",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

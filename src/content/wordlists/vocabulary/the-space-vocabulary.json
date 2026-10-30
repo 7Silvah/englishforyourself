@@ -1,0 +1,104 @@
+{
+  "kind": "wordlist",
+  "title": "The Space Vocabulary",
+  "order": 51,
+  "legacyPath": "lessons/vocabulary/the-space-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the space in English.",
+  "groups": [
+    {
+      "title": "The space vocabulary",
+      "items": [
+        {
+          "en": "Mercury"
+        },
+        {
+          "en": "Venus"
+        },
+        {
+          "en": "Earth"
+        },
+        {
+          "en": "Mars"
+        },
+        {
+          "en": "Jupiter"
+        },
+        {
+          "en": "Saturn"
+        },
+        {
+          "en": "Uranus"
+        },
+        {
+          "en": "Neptune"
+        },
+        {
+          "en": "Alien"
+        },
+        {
+          "en": "Asteroid"
+        },
+        {
+          "en": "Astronaut"
+        },
+        {
+          "en": "Astronomer"
+        },
+        {
+          "en": "Comet"
+        },
+        {
+          "en": "Constellation"
+        },
+        {
+          "en": "Eclipse"
+        },
+        {
+          "en": "Galaxy"
+        },
+        {
+          "en": "Gravity"
+        },
+        {
+          "en": "Moon"
+        },
+        {
+          "en": "Observatory"
+        },
+        {
+          "en": "Orbit"
+        },
+        {
+          "en": "Planet"
+        },
+        {
+          "en": "Rocket"
+        },
+        {
+          "en": "Satellite"
+        },
+        {
+          "en": "Solar system"
+        },
+        {
+          "en": "Space shuttle"
+        },
+        {
+          "en": "Space station"
+        },
+        {
+          "en": "Star"
+        },
+        {
+          "en": "The sun"
+        },
+        {
+          "en": "The moon"
+        },
+        {
+          "en": "UFO (unidentified flying object)"
+        }
+      ]
+    }
+  ]
+}

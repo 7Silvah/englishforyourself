@@ -1,0 +1,125 @@
+{
+  "kind": "wordlist",
+  "title": "The Hotel Vocabulary",
+  "order": 23,
+  "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-hotel-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the hotel in English.",
+  "groups": [
+    {
+      "title": "The hotel vocabulary",
+      "items": [
+        {
+          "en": "Amenities"
+        },
+        {
+          "en": "Arrival date"
+        },
+        {
+          "en": "Baggage"
+        },
+        {
+          "en": "Bellboy"
+        },
+        {
+          "en": "Check-in"
+        },
+        {
+          "en": "Check-out"
+        },
+        {
+          "en": "Concierge"
+        },
+        {
+          "en": "Departure date"
+        },
+        {
+          "en": "Dormitory"
+        },
+        {
+          "en": "Double room"
+        },
+        {
+          "en": "Family room"
+        },
+        {
+          "en": "Guest"
+        },
+        {
+          "en": "Hotel maid"
+        },
+        {
+          "en": "Hotel manager"
+        },
+        {
+          "en": "Ice machine"
+        },
+        {
+          "en": "Indoor pool"
+        },
+        {
+          "en": "Jacuzzi"
+        },
+        {
+          "en": "Key"
+        },
+        {
+          "en": "King-size bed"
+        },
+        {
+          "en": "Lift (UK) / elevator (US)"
+        },
+        {
+          "en": "Lobby"
+        },
+        {
+          "en": "Pull out sofa"
+        },
+        {
+          "en": "Reception / front desk"
+        },
+        {
+          "en": "Receptionist"
+        },
+        {
+          "en": "Registration form"
+        },
+        {
+          "en": "Reservation"
+        },
+        {
+          "en": "Room number"
+        },
+        {
+          "en": "Room service"
+        },
+        {
+          "en": "Sauna"
+        },
+        {
+          "en": "Single bed"
+        },
+        {
+          "en": "Single room"
+        },
+        {
+          "en": "Suitcase"
+        },
+        {
+          "en": "Suite"
+        },
+        {
+          "en": "Twin room"
+        },
+        {
+          "en": "Vacancy"
+        },
+        {
+          "en": "Valet"
+        },
+        {
+          "en": "Vending machine"
+        }
+      ]
+    }
+  ]
+}

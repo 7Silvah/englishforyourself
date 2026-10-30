@@ -1,0 +1,97 @@
+{
+  "title": "Asking questions: review",
+  "titleEs": "Hacer preguntas: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "preguntas",
+  "topics": [
+    "questions",
+    "present-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ old is your sister?",
+      "options": [
+        "How",
+        "What",
+        "Who"
+      ],
+      "answer": 0,
+      "explanationEs": "Para preguntar la edad: How old…?"
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Do you have a car? Yes, I ___.",
+      "options": [
+        "do",
+        "have",
+        "am"
+      ],
+      "answer": 0,
+      "explanationEs": "Respuesta corta con el mismo auxiliar: Yes, I do."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Is your house big?",
+      "answer": true,
+      "explanationEs": "Pregunta con to be: is va antes del sujeto."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Where does he lives?",
+      "answer": false,
+      "explanationEs": "Después de does el verbo va sin -s: Where does he live?"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What does your mother do?"
+      ],
+      "distractors": [
+        "is"
+      ],
+      "explanationEs": "Palabra interrogativa + does + sujeto + verbo."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "___ do you live? In Lima.",
+      "blanks": [
+        {
+          "answers": [
+            "Where"
+          ]
+        }
+      ],
+      "explanationEs": "Para preguntar por un lugar: where."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "He is from Chile.",
+      "to": "q",
+      "answers": [
+        "Is he from Chile?"
+      ],
+      "explanationEs": "Pregunta con to be: is antes de he."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "Does she speaks Spanish?",
+      "wrong": "speaks",
+      "answers": [
+        "speak"
+      ],
+      "explanationEs": "Después de does el verbo va sin -s."
+    }
+  ]
+}

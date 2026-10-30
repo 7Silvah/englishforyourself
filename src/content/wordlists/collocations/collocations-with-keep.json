@@ -1,0 +1,53 @@
+{
+  "kind": "wordlist",
+  "title": "Collocations with Keep",
+  "order": 10,
+  "legacyPath": "lessons/collocations/collocations-with-keep.html",
+  "intro": "Learn collocations with keep in English with the following list.",
+  "groups": [
+    {
+      "title": "Collocations with keep",
+      "items": [
+        {
+          "en": "Keep a diary / journal"
+        },
+        {
+          "en": "Keep a promise"
+        },
+        {
+          "en": "Keep a secret"
+        },
+        {
+          "en": "Keep away"
+        },
+        {
+          "en": "Keep calm"
+        },
+        {
+          "en": "Keep in mind"
+        },
+        {
+          "en": "Keep in touch"
+        },
+        {
+          "en": "Keep one’s balance"
+        },
+        {
+          "en": "Keep quiet"
+        },
+        {
+          "en": "Keep records"
+        },
+        {
+          "en": "Keep safe"
+        },
+        {
+          "en": "Keep the change"
+        },
+        {
+          "en": "Keep track of"
+        }
+      ]
+    }
+  ]
+}

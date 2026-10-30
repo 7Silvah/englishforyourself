@@ -1,0 +1,157 @@
+{
+  "title": "Present Continuous – Negative Form",
+  "titleEs": "Presente continuo: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "A2",
+  "lessons": [
+    "verb-tenses/present-continuous-tense"
+  ],
+  "topics": [
+    "present-continuous",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Present-Continous-or-Progressive-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / rest) at the moment.",
+      "blanks": [
+        {
+          "answers": [
+            "’m not resting",
+            "am not resting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Max ___ (not / drive) his car.",
+      "blanks": [
+        {
+          "answers": [
+            "isn’t driving",
+            "is not driving",
+            "’s not driving"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Anna ___ (not / take) notes.",
+      "blanks": [
+        {
+          "answers": [
+            "isn’t taking",
+            "is not taking",
+            "’s not taking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "You ___ (not / wash) your hands.",
+      "blanks": [
+        {
+          "answers": [
+            "aren’t washing",
+            "’re not washing",
+            "are not washing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "They ___ (not / cut) the vegetables.",
+      "blanks": [
+        {
+          "answers": [
+            "aren’t cutting",
+            "’re not cutting",
+            "are not cutting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "He ___ (not / chase) his dog.",
+      "blanks": [
+        {
+          "answers": [
+            "isn’t chasing",
+            "’s not chasing",
+            "is not chasing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "I ___ (not / wear) a hat.",
+      "blanks": [
+        {
+          "answers": [
+            "’m not wearing",
+            "am not wearing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "You ___ (not / take) care of the plants.",
+      "blanks": [
+        {
+          "answers": [
+            "aren’t taking",
+            "’re not taking",
+            "are not taking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "She ___ (not / sleep) on the floor.",
+      "blanks": [
+        {
+          "answers": [
+            "isn’t sleeping",
+            "’s not sleeping",
+            "is not sleeping"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "We ___ (not / wait) for Jennifer.",
+      "blanks": [
+        {
+          "answers": [
+            "aren’t waiting",
+            "’re not waiting",
+            "are not waiting"
+          ]
+        }
+      ]
+    }
+  ]
+}

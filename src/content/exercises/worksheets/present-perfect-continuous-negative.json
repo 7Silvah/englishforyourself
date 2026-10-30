@@ -1,0 +1,159 @@
+{
+  "title": "Present Perfect Continuous – Negative Form",
+  "titleEs": "Presente perfecto continuo: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [
+    "verb-tenses/present-perfect-continuous"
+  ],
+  "topics": [
+    "present-perfect-continuous",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Present-Perfect-Continous-or-Progressive-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / cycle) all day.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t been cycling",
+            "’ve not been cycling",
+            "have not been cycling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "They ___ (not / fish) for hours.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t been fishing",
+            "’ve not been fishing",
+            "have not been fishing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "We ___ (not / eat) fast food for six years.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t been eating",
+            "’ve not been eating",
+            "have not been eating"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "Adam ___ (not / use) his computer for one week.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t been using",
+            "’s not been using",
+            "has not been using"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "Camila ___ (not / cook) dinner the whole week.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t been cooking",
+            "’s not been cooking",
+            "has not been cooking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (not / play) with my dogs for three days.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t been playing",
+            "’ve not been playing",
+            "have not been playing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "You ___ (not / follow) the correct steps to mend the bike.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t been following",
+            "’ve not been following",
+            "have not been following"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "They ___ (not / drive) to work this past week.",
+      "blanks": [
+        {
+          "answers": [
+            "haven’t been driving",
+            "’ve not been driving",
+            "have not been driving"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "She ___ (not / consume) any sugar for a month.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t been consuming",
+            "’s not been consuming",
+            "has not been consuming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "He ___ (not / sleep) well for the last month.",
+      "blanks": [
+        {
+          "answers": [
+            "hasn’t been sleeping",
+            "’s not been sleeping",
+            "has not been sleeping"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "title": "Tag Questions",
+  "titleEs": "Tag questions (preguntas de confirmación)",
+  "instruction": "write the correct question tag.",
+  "instructionEs": "Escribe la tag question correcta al final de la frase.",
+  "source": "worksheet",
+  "level": "B1",
+  "lessons": [],
+  "topics": [
+    "tag-questions",
+    "questions"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Tag-Questions-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "You are our son’s best friend, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "aren’t you"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Cecilia is going with Summer, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "isn’t she"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "They won’t arrive on time, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "will they"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "He hasn’t been to Japan, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "has he",
+            "’s he"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "We went to the store, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "didn’t we"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "You haven’t seen Valery, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "have you"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "She misses her dogs so much, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "doesn’t she"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "Matt can’t eat mangoes, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "can he"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "We should mend the bike, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "shouldn’t we"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "Jocelyn will come to see me, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "won’t she"
+          ]
+        }
+      ]
+    }
+  ]
+}

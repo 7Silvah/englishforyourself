@@ -1,0 +1,83 @@
+{
+  "kind": "wordlist",
+  "title": "Shopping Vocabulary",
+  "order": 30,
+  "legacyPath": "lessons/vocabulary/shopping-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about shopping in English.",
+  "groups": [
+    {
+      "title": "Shopping vocabulary",
+      "items": [
+        {
+          "en": "Barcode"
+        },
+        {
+          "en": "Bargain-hunter"
+        },
+        {
+          "en": "Basket"
+        },
+        {
+          "en": "Brand"
+        },
+        {
+          "en": "Cashier"
+        },
+        {
+          "en": "Checker / cash register"
+        },
+        {
+          "en": "Clerk"
+        },
+        {
+          "en": "Coins"
+        },
+        {
+          "en": "Credit card"
+        },
+        {
+          "en": "Customer"
+        },
+        {
+          "en": "Debit card"
+        },
+        {
+          "en": "Discount"
+        },
+        {
+          "en": "Factory outlet"
+        },
+        {
+          "en": "Gift voucher"
+        },
+        {
+          "en": "Knock-down price"
+        },
+        {
+          "en": "Money"
+        },
+        {
+          "en": "Price"
+        },
+        {
+          "en": "Receipt"
+        },
+        {
+          "en": "Retailer"
+        },
+        {
+          "en": "Returns policy"
+        },
+        {
+          "en": "Salesman / saleswoman"
+        },
+        {
+          "en": "Trolley"
+        },
+        {
+          "en": "Wallet / purse"
+        }
+      ]
+    }
+  ]
+}

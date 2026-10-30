@@ -1,0 +1,84 @@
+{
+  "title": "Present simple: free practice",
+  "titleEs": "Presente simple: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A1",
+  "unit": "presente-simple",
+  "topics": [
+    "present-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "Ana ___ (to study) English on Mondays.",
+      "blanks": [
+        {
+          "answers": [
+            "studies"
+          ]
+        }
+      ],
+      "explanationEs": "Consonante + y → -ies con he/she/it: studies."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "We ___ (not / live) in the city.",
+      "blanks": [
+        {
+          "answers": [
+            "don't live",
+            "do not live"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con we: don't + verbo."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "My cat ___ (to sleep) all day.",
+      "blanks": [
+        {
+          "answers": [
+            "sleeps"
+          ]
+        }
+      ],
+      "explanationEs": "My cat = it, así que el verbo lleva -s."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "He plays football.",
+      "to": "neg",
+      "answers": [
+        "He doesn't play football."
+      ],
+      "explanationEs": "Negativa: doesn't + verbo sin -s (play)."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "I drink tea.",
+      "to": "neg",
+      "answers": [
+        "I don't drink tea."
+      ],
+      "explanationEs": "Negativa con I: don't + verbo."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "My sister don't eat meat.",
+      "wrong": "don't",
+      "answers": [
+        "doesn't"
+      ],
+      "explanationEs": "My sister = she, así que la negativa es doesn't."
+    }
+  ]
+}

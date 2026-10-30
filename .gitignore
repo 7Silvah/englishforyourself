@@ -1,0 +1,36 @@
+# Dependencias
+node_modules/
+
+# Builds y cachés
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+
+# Tests
+coverage/
+playwright-report/
+test-results/
+
+# Variables de entorno locales
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor y sistema
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ajustes locales de Claude Code (permisos de esta máquina)
+.claude/settings.local.json
+
+# Temporales de @tanstack/router-plugin
+.tanstack/

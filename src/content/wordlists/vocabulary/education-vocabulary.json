@@ -1,0 +1,128 @@
+{
+  "kind": "wordlist",
+  "title": "Education Vocabulary",
+  "order": 38,
+  "legacyPath": "lessons/vocabulary/education-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about education in English.",
+  "groups": [
+    {
+      "title": "Education vocabulary",
+      "items": [
+        {
+          "en": "Kindergarten"
+        },
+        {
+          "en": "Nursery school"
+        },
+        {
+          "en": "Primary school (UK) / elementary school (US)"
+        },
+        {
+          "en": "Secondary school (UK) / high school (US)"
+        },
+        {
+          "en": "College"
+        },
+        {
+          "en": "University"
+        },
+        {
+          "en": "Attendance"
+        },
+        {
+          "en": "Bachelor’s degree"
+        },
+        {
+          "en": "Basic education"
+        },
+        {
+          "en": "Boarding school"
+        },
+        {
+          "en": "Campus"
+        },
+        {
+          "en": "Class"
+        },
+        {
+          "en": "Course"
+        },
+        {
+          "en": "Diploma"
+        },
+        {
+          "en": "Dissertation"
+        },
+        {
+          "en": "Examination"
+        },
+        {
+          "en": "Faculty"
+        },
+        {
+          "en": "Graduation"
+        },
+        {
+          "en": "Higher education"
+        },
+        {
+          "en": "Homework"
+        },
+        {
+          "en": "Master’s degree"
+        },
+        {
+          "en": "Master’s student"
+        },
+        {
+          "en": "Online education"
+        },
+        {
+          "en": "PhD students"
+        },
+        {
+          "en": "Private school"
+        },
+        {
+          "en": "Professor"
+        },
+        {
+          "en": "Researcher"
+        },
+        {
+          "en": "Schoolyard"
+        },
+        {
+          "en": "Semester"
+        },
+        {
+          "en": "State school"
+        },
+        {
+          "en": "Student loan"
+        },
+        {
+          "en": "Students / pupils"
+        },
+        {
+          "en": "Teacher"
+        },
+        {
+          "en": "Technical college"
+        },
+        {
+          "en": "Thesis"
+        },
+        {
+          "en": "Tuition"
+        },
+        {
+          "en": "Undergraduate"
+        },
+        {
+          "en": "Vocational college"
+        }
+      ]
+    }
+  ]
+}

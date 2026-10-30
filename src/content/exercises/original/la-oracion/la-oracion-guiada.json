@@ -1,0 +1,73 @@
+{
+  "title": "The sentence: guided practice",
+  "titleEs": "La oración: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "la-oracion",
+  "topics": [
+    "sentence-order",
+    "subject",
+    "adjectives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ is cold today.",
+      "options": [
+        "It",
+        "They",
+        "We"
+      ],
+      "answer": 0,
+      "explanationEs": "Para hablar del tiempo se usa it como sujeto: It is cold. En inglés el sujeto nunca falta."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I have a ___.",
+      "options": [
+        "red car",
+        "car red",
+        "cars red"
+      ],
+      "answer": 0,
+      "explanationEs": "El adjetivo (red) va antes del sustantivo (car): a red car."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Is very late.",
+      "answer": false,
+      "explanationEs": "Falta el sujeto. Se dice It is very late: para la hora se usa it."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "We like music.",
+      "answer": true,
+      "explanationEs": "Orden correcto: sujeto (We) + verbo (like) + complemento (music)."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "We have a big house."
+      ],
+      "explanationEs": "Sujeto + verbo + complemento, y el adjetivo big delante de house."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "It is cold today."
+      ],
+      "distractors": [
+        "Is"
+      ],
+      "explanationEs": "La frase empieza por el sujeto it. Is va después del sujeto en una afirmación."
+    }
+  ]
+}

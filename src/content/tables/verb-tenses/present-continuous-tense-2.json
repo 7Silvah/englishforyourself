@@ -1,0 +1,97 @@
+{
+  "caption": "Present Continuous / Progressive Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I am / I’m taking pictures",
+      "I am not / I’m not taking pictures",
+      "Am I taking pictures?",
+      "Am I not taking pictures?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You are / you’re taking pictures",
+      "You are not / you’re not / you aren’t taking pictures",
+      "Are you taking pictures?",
+      "Are you not / aren’t you taking pictures?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He is / he’s taking pictures",
+      "He is not / he’s not / he isn’t taking pictures",
+      "Is he taking pictures?",
+      "Is he not / isn’t he taking pictures?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She is / she’s taking pictures",
+      "She is not / she’s not / she isn’t taking pictures",
+      "Is she taking pictures?",
+      "Is she not / isn’t she taking pictures?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It is / it’s taking pictures",
+      "It is not / it isn’t taking pictures",
+      "Is it taking pictures?",
+      "Is it not / isn’t it taking pictures?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We are / we’re taking pictures",
+      "We are not / we’re not / we aren’t taking pictures",
+      "Are we taking pictures?",
+      "Are we not / aren’t we taking pictures?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They are / they’re taking pictures",
+      "They are not / they’re not / they aren’t taking pictures",
+      "Are they taking pictures?",
+      "Are they not / aren’t they taking pictures?"
+    ]
+  ]
+}

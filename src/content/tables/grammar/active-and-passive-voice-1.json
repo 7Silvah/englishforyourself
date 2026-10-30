@@ -1,0 +1,110 @@
+{
+  "caption": "Active and Passive Voice",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Tense",
+        "tone": "pos"
+      },
+      {
+        "text": "Active voice",
+        "tone": "neg"
+      },
+      {
+        "text": "Passive voice",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Simple present",
+        "header": true
+      },
+      "Cody takes pictures.",
+      "Pictures are taken by Cody."
+    ],
+    [
+      {
+        "text": "Present continuous / progressive",
+        "header": true
+      },
+      "Cody is taking pictures.",
+      "Pictures are being taken by Cody."
+    ],
+    [
+      {
+        "text": "Present perfect",
+        "header": true
+      },
+      "Cody has taken pictures.",
+      "Pictures have been taken by Cody."
+    ],
+    [
+      {
+        "text": "Past simple",
+        "header": true
+      },
+      "Cody took pictures.",
+      "Pictures were taken by Cody."
+    ],
+    [
+      {
+        "text": "Past continuous / progressive",
+        "header": true
+      },
+      "Cody was taking pictures.",
+      "Pictures were being taken by Cody."
+    ],
+    [
+      {
+        "text": "Past perfect",
+        "header": true
+      },
+      "Cody had taken pictures.",
+      "Pictures had been taken by Cody."
+    ],
+    [
+      {
+        "text": "Future simple (will)",
+        "header": true
+      },
+      "Cody will take pictures.",
+      "Pictures will be taken by Cody."
+    ],
+    [
+      {
+        "text": "Future (going to)",
+        "header": true
+      },
+      "Cody is going to take pictures.",
+      "Pictures are going to be taken by Cody."
+    ],
+    [
+      {
+        "text": "Future perfect",
+        "header": true
+      },
+      "Cody will have taken pictures.",
+      "Pictures will have been taken by Cody."
+    ],
+    [
+      {
+        "text": "Modal",
+        "header": true
+      },
+      "Cody should take pictures.",
+      "Pictures should be taken by Cody."
+    ],
+    [
+      {
+        "text": "Modal perfect",
+        "header": true
+      },
+      "Cody should have taken pictures.",
+      "Pictures should have been taken by Cody."
+    ]
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "kind": "wordlist",
+  "title": "Personality Adjectives",
+  "order": 14,
+  "legacyPath": "lessons/vocabulary/personality-adjectives.html",
+  "intro": "In this section you will learn a list of adjectives that describe someone’s personality in English.",
+  "groups": [
+    {
+      "title": "Positive personality adjectives",
+      "items": [
+        {
+          "en": "Accurate"
+        },
+        {
+          "en": "Active"
+        },
+        {
+          "en": "Adventurous"
+        },
+        {
+          "en": "Affable"
+        },
+        {
+          "en": "Agreeable"
+        },
+        {
+          "en": "Ambitious"
+        },
+        {
+          "en": "Amiable"
+        },
+        {
+          "en": "Amicable"
+        },
+        {
+          "en": "Amusing"
+        },
+        {
+          "en": "Approachable"
+        },
+        {
+          "en": "Attentive"
+        },
+        {
+          "en": "Audacious"
+        },
+        {
+          "en": "Brave"
+        },
+        {
+          "en": "Bright"
+        },
+        {
+          "en": "Calm"
+        },
+        {
+          "en": "Capable"
+        },
+        {
+          "en": "Careful"
+        },
+        {
+          "en": "Caring"
+        },
+        {
+          "en": "Charming"
+        },
+        {
+          "en": "Cheerful"
+        },
+        {
+          "en": "Clever"
+        },
+        {
+          "en": "Communicative"
+        },
+        {
+          "en": "Compassionate"
+        },
+        {
+          "en": "Competent"
+        },
+        {
+          "en": "Conscientious"
+        },
+        {
+          "en": "Considerate"
+        },
+        {
+          "en": "Cool"
+        },
+        {
+          "en": "Cooperative"
+        },
+        {
+          "en": "Courageous"
+        },
+        {
+          "en": "Courteous"
+        },
+        {
+          "en": "Creative"
+        },
+        {
+          "en": "Determined"
+        },
+        {
+          "en": "Diligent"
+        },
+        {
+          "en": "Dynamic"
+        },
+        {
+          "en": "Easy-going"
+        },
+        {
+          "en": "Efficient"
+        },
+        {
+          "en": "Eloquent"
+        },
+        {
+          "en": "Energetic"
+        },
+        {
+          "en": "Exciting"
+        },
+        {
+          "en": "Extraordinary"
+        },
+        {
+          "en": "Extroverted"
+        },
+        {
+          "en": "Exuberant"
+        },
+        {
+          "en": "Fair"
+        },
+        {
+          "en": "Fair-minded"
+        },
+        {
+          "en": "Faithful"
+        },
+        {
+          "en": "Fearless"
+        },
+        {
+          "en": "Firm"
+        },
+        {
+          "en": "Flexible"
+        },
+        {
+          "en": "Frank"
+        },
+        {
+          "en": "Friendly"
+        },
+        {
+          "en": "Funny"
+        },
+        {
+          "en": "Generous"
+        },
+        {
+          "en": "Gentle"
+        },
+        {
+          "en": "Genuine"
+        },
+        {
+          "en": "Good"
+        },
+        {
+          "en": "Gracious"
+        },
+        {
+          "en": "Great"
+        },
+        {
+          "en": "Gregarious"
+        },
+        {
+          "en": "Hard-working"
+        },
+        {
+          "en": "Helpful"
+        },
+        {
+          "en": "Honest"
+        },
+        {
+          "en": "Honorable"
+        },
+        {
+          "en": "Hopeful"
+        },
+        {
+          "en": "Humble"
+        },
+        {
+          "en": "Humorous"
+        },
+        {
+          "en": "Impressive"
+        },
+        {
+          "en": "Independent"
+        },
+        {
+          "en": "Ingenious"
+        },
+        {
+          "en": "Intellectual"
+        },
+        {
+          "en": "Intelligent"
+        },
+        {
+          "en": "Interesting"
+        },
+        {
+          "en": "Kind"
+        },
+        {
+          "en": "Likeable"
+        },
+        {
+          "en": "Loveable"
+        },
+        {
+          "en": "Loving"
+        },
+        {
+          "en": "Loyal"
+        },
+        {
+          "en": "Lucky"
+        },
+        {
+          "en": "Mature"
+        },
+        {
+          "en": "Neat"
+        },
+        {
+          "en": "Nice"
+        },
+        {
+          "en": "Obedient"
+        },
+        {
+          "en": "Open-minded"
+        },
+        {
+          "en": "Optimistic"
+        },
+        {
+          "en": "Organized"
+        },
+        {
+          "en": "Outgoing"
+        },
+        {
+          "en": "Passionate"
+        },
+        {
+          "en": "Patient"
+        },
+        {
+          "en": "Philosophical"
+        },
+        {
+          "en": "Pleasant"
+        },
+        {
+          "en": "Polite"
+        },
+        {
+          "en": "Popular"
+        },
+        {
+          "en": "Positive"
+        },
+        {
+          "en": "Powerful"
+        },
+        {
+          "en": "Practical"
+        },
+        {
+          "en": "Rational"
+        },
+        {
+          "en": "Realistic"
+        },
+        {
+          "en": "Reasonable"
+        },
+        {
+          "en": "Reliable"
+        },
+        {
+          "en": "Resourceful"
+        },
+        {
+          "en": "Respectful"
+        },
+        {
+          "en": "Responsible"
+        },
+        {
+          "en": "Romantic"
+        },
+        {
+          "en": "Self-confident"
+        },
+        {
+          "en": "Sensible"
+        },
+        {
+          "en": "Sensitive"
+        },
+        {
+          "en": "Sincere"
+        },
+        {
+          "en": "Smart"
+        },
+        {
+          "en": "Sociable"
+        },
+        {
+          "en": "Strong"
+        },
+        {
+          "en": "Sympathetic"
+        },
+        {
+          "en": "Tactful"
+        },
+        {
+          "en": "Thankful"
+        },
+        {
+          "en": "Thoughtful"
+        },
+        {
+          "en": "Tidy"
+        },
+        {
+          "en": "Trustworthy"
+        },
+        {
+          "en": "Truthful"
+        },
+        {
+          "en": "Understanding"
+        },
+        {
+          "en": "Versatile"
+        },
+        {
+          "en": "Willing"
+        },
+        {
+          "en": "Wise"
+        }
+      ]
+    },
+    {
+      "title": "Negative personality adjectives",
+      "items": [
+        {
+          "en": "Abrasive"
+        },
+        {
+          "en": "Absent-minded"
+        },
+        {
+          "en": "Aggressive"
+        },
+        {
+          "en": "Aloof"
+        },
+        {
+          "en": "Amoral"
+        },
+        {
+          "en": "Annoying"
+        },
+        {
+          "en": "Apathetic"
+        },
+        {
+          "en": "Argumentative"
+        },
+        {
+          "en": "Arrogant"
+        },
+        {
+          "en": "Authoritarian"
+        },
+        {
+          "en": "Bad-tempered"
+        },
+        {
+          "en": "Belligerent"
+        },
+        {
+          "en": "Big-headed"
+        },
+        {
+          "en": "Bizarre"
+        },
+        {
+          "en": "Boastful"
+        },
+        {
+          "en": "Boring"
+        },
+        {
+          "en": "Bossy"
+        },
+        {
+          "en": "Callous"
+        },
+        {
+          "en": "Careless"
+        },
+        {
+          "en": "Cheeky"
+        },
+        {
+          "en": "Childish"
+        },
+        {
+          "en": "Clumsy"
+        },
+        {
+          "en": "Cocky"
+        },
+        {
+          "en": "Conceited"
+        },
+        {
+          "en": "Confrontational"
+        },
+        {
+          "en": "Controlling"
+        },
+        {
+          "en": "Cruel"
+        },
+        {
+          "en": "Cunning"
+        },
+        {
+          "en": "Cynical"
+        },
+        {
+          "en": "Deceitful"
+        },
+        {
+          "en": "Defensive"
+        },
+        {
+          "en": "Dense"
+        },
+        {
+          "en": "Desperate"
+        },
+        {
+          "en": "Devious"
+        },
+        {
+          "en": "Dim"
+        },
+        {
+          "en": "Dishonest"
+        },
+        {
+          "en": "Disloyal"
+        },
+        {
+          "en": "Disobedient"
+        },
+        {
+          "en": "Disorganized"
+        },
+        {
+          "en": "Disrespectful"
+        },
+        {
+          "en": "Disruptive"
+        },
+        {
+          "en": "Distant"
+        },
+        {
+          "en": "Dominant"
+        },
+        {
+          "en": "Dull"
+        },
+        {
+          "en": "Ego-centric"
+        },
+        {
+          "en": "Egotistical"
+        },
+        {
+          "en": "Envious"
+        },
+        {
+          "en": "Evasive"
+        },
+        {
+          "en": "Evil"
+        },
+        {
+          "en": "False"
+        },
+        {
+          "en": "Foolish"
+        },
+        {
+          "en": "Forgetful"
+        },
+        {
+          "en": "Fraudulent"
+        },
+        {
+          "en": "Frivolous"
+        },
+        {
+          "en": "Fussy"
+        },
+        {
+          "en": "Gloomy"
+        },
+        {
+          "en": "Gossipy"
+        },
+        {
+          "en": "Greedy"
+        },
+        {
+          "en": "Grumpy"
+        },
+        {
+          "en": "Gullible"
+        },
+        {
+          "en": "Harsh"
+        },
+        {
+          "en": "Hostile"
+        },
+        {
+          "en": "Humorless"
+        },
+        {
+          "en": "Hypocritical"
+        },
+        {
+          "en": "Ignorant"
+        },
+        {
+          "en": "Impatient"
+        },
+        {
+          "en": "Impolite"
+        },
+        {
+          "en": "Impractical"
+        },
+        {
+          "en": "Impulsive"
+        },
+        {
+          "en": "Inconsiderate"
+        },
+        {
+          "en": "Indifferent"
+        },
+        {
+          "en": "Insecure"
+        },
+        {
+          "en": "Insensitive"
+        },
+        {
+          "en": "Insincere"
+        },
+        {
+          "en": "Insolent"
+        },
+        {
+          "en": "Insulting"
+        },
+        {
+          "en": "Interfering"
+        },
+        {
+          "en": "Irrational"
+        },
+        {
+          "en": "Irresponsible"
+        },
+        {
+          "en": "Irritable"
+        },
+        {
+          "en": "Jealous"
+        },
+        {
+          "en": "Judgmental"
+        },
+        {
+          "en": "Lazy"
+        },
+        {
+          "en": "Machiavellian"
+        },
+        {
+          "en": "Malicious"
+        },
+        {
+          "en": "Manipulative"
+        },
+        {
+          "en": "Materialistic"
+        },
+        {
+          "en": "Mean"
+        },
+        {
+          "en": "Messy"
+        },
+        {
+          "en": "Miserable"
+        },
+        {
+          "en": "Moody"
+        },
+        {
+          "en": "Narrow-minded"
+        },
+        {
+          "en": "Nasty"
+        },
+        {
+          "en": "Nosey"
+        },
+        {
+          "en": "Obnoxious"
+        },
+        {
+          "en": "Obsessive"
+        },
+        {
+          "en": "Obstinate"
+        },
+        {
+          "en": "Overcritical"
+        },
+        {
+          "en": "Paranoid"
+        },
+        {
+          "en": "Perverse"
+        },
+        {
+          "en": "Pessimistic"
+        },
+        {
+          "en": "Petty"
+        },
+        {
+          "en": "Picky"
+        },
+        {
+          "en": "Pompous"
+        },
+        {
+          "en": "Possessive"
+        },
+        {
+          "en": "Prejudiced"
+        },
+        {
+          "en": "Pretentious"
+        },
+        {
+          "en": "Quarrelsome"
+        },
+        {
+          "en": "Querulous"
+        },
+        {
+          "en": "Reckless"
+        },
+        {
+          "en": "Resentful"
+        },
+        {
+          "en": "Rude"
+        },
+        {
+          "en": "Secretive"
+        },
+        {
+          "en": "Selfish"
+        },
+        {
+          "en": "Self-seeking"
+        },
+        {
+          "en": "Sleazy"
+        },
+        {
+          "en": "Spiteful"
+        },
+        {
+          "en": "Spoiled"
+        },
+        {
+          "en": "Stingy"
+        },
+        {
+          "en": "Strict"
+        },
+        {
+          "en": "Stubborn"
+        },
+        {
+          "en": "Stupid"
+        },
+        {
+          "en": "Superficial"
+        },
+        {
+          "en": "Tactless"
+        },
+        {
+          "en": "Unkind"
+        },
+        {
+          "en": "Unlucky"
+        },
+        {
+          "en": "Unmotivated"
+        },
+        {
+          "en": "Unpredictable"
+        },
+        {
+          "en": "Unreliable"
+        },
+        {
+          "en": "Unsympathetic"
+        },
+        {
+          "en": "Untidy"
+        },
+        {
+          "en": "Untrustworthy"
+        },
+        {
+          "en": "Vague"
+        },
+        {
+          "en": "Vain"
+        },
+        {
+          "en": "Vulgar"
+        }
+      ]
+    }
+  ]
+}

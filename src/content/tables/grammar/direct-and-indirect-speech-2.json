@@ -1,0 +1,137 @@
+{
+  "caption": "Time Expressions in Reported Speech",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Direct speech",
+        "tone": "pos"
+      },
+      {
+        "text": "Indirect or reported speech",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Ago",
+        "header": true
+      },
+      "Before"
+    ],
+    [
+      {
+        "text": "Bring",
+        "header": true
+      },
+      "Take"
+    ],
+    [
+      {
+        "text": "Come",
+        "header": true
+      },
+      "Go"
+    ],
+    [
+      {
+        "text": "Here",
+        "header": true
+      },
+      "There"
+    ],
+    [
+      {
+        "text": "Last night",
+        "header": true
+      },
+      "The night before or the previous night"
+    ],
+    [
+      {
+        "text": "Last week",
+        "header": true
+      },
+      "The week before or the previous week"
+    ],
+    [
+      {
+        "text": "Next week",
+        "header": true
+      },
+      "The week after or the following week"
+    ],
+    [
+      {
+        "text": "Next year",
+        "header": true
+      },
+      "The following year"
+    ],
+    [
+      {
+        "text": "Now",
+        "header": true
+      },
+      "Then"
+    ],
+    [
+      {
+        "text": "These",
+        "header": true
+      },
+      "Those"
+    ],
+    [
+      {
+        "text": "This",
+        "header": true
+      },
+      "That"
+    ],
+    [
+      {
+        "text": "This week",
+        "header": true
+      },
+      "That week"
+    ],
+    [
+      {
+        "text": "Thus",
+        "header": true
+      },
+      "So"
+    ],
+    [
+      {
+        "text": "Today",
+        "header": true
+      },
+      "That day"
+    ],
+    [
+      {
+        "text": "Tomorrow",
+        "header": true
+      },
+      "The next day or the following day"
+    ],
+    [
+      {
+        "text": "Tonight",
+        "header": true
+      },
+      "That night"
+    ],
+    [
+      {
+        "text": "Yesterday",
+        "header": true
+      },
+      "The day before or the previous day"
+    ]
+  ]
+}

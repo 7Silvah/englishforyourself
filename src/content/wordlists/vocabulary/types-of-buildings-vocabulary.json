@@ -1,0 +1,56 @@
+{
+  "kind": "wordlist",
+  "title": "Types of Buildings Vocabulary",
+  "order": 31,
+  "legacyPath": "lessons/vocabulary/types-of-buildings-vocabulary.html",
+  "intro": "In this section you will learn about the types of buildings in English.",
+  "groups": [
+    {
+      "title": "Types of buildings vocabulary",
+      "items": [
+        {
+          "en": "Block of flats"
+        },
+        {
+          "en": "Bungalow"
+        },
+        {
+          "en": "Castle"
+        },
+        {
+          "en": "Cottage"
+        },
+        {
+          "en": "Detached house"
+        },
+        {
+          "en": "Flat (UK) / apartment (US)"
+        },
+        {
+          "en": "Igloo"
+        },
+        {
+          "en": "Lighthouse"
+        },
+        {
+          "en": "Semi-detached house"
+        },
+        {
+          "en": "Skyscraper"
+        },
+        {
+          "en": "Terraced house (UK) / row house (US)"
+        },
+        {
+          "en": "Tower"
+        },
+        {
+          "en": "Villa"
+        },
+        {
+          "en": "Windmill"
+        }
+      ]
+    }
+  ]
+}

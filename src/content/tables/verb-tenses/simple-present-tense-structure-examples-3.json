@@ -1,0 +1,79 @@
+{
+  "caption": "Present Simple Tense – Verb to Be – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure Verb to be",
+        "header": true,
+        "rowSpan": 3
+      },
+      {
+        "text": "I + am + complement",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I + am not + complement",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Am + I + complement ?",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "You – We – They + are + complement",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "You – We – They + are not / aren’t + complement",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Are + You – We – They + complement ?",
+        "formula": true,
+        "tone": "q"
+      }
+    ],
+    [
+      {
+        "text": "He – She – It + is + complement",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "He – She – It + is not / isn’t + complement",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Is + He – She – It + complement",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

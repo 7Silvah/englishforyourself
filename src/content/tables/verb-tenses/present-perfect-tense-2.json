@@ -1,0 +1,97 @@
+{
+  "caption": "Present Perfect Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I have fixed the TV",
+      "I have not / haven’t fixed the TV",
+      "Have I fixed the TV?",
+      "Have I not / haven’t I fixed the TV?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You have fixed the TV",
+      "You have not / haven’t fixed the TV",
+      "Have you fixed the TV?",
+      "Have you not / haven’t you fixed the TV?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He has fixed the TV",
+      "He has not / hasn’t fixed the TV",
+      "Has he fixed the TV?",
+      "Has he not / hasn’t he fixed the TV?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She has fixed the TV",
+      "She has not / hasn’t fixed the TV",
+      "Has she fixed the TV?",
+      "Has she not / hasn’t she fixed the TV?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It has fixed the TV",
+      "It has not / hasn’t fixed the TV",
+      "Has it fixed the TV?",
+      "Has it not / hasn’t it fixed the TV?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We have fixed the TV",
+      "We have not / haven’t fixed the TV",
+      "Have we fixed the TV?",
+      "Have we not / haven’t we fixed the TV?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They have fixed the TV",
+      "They have not / haven’t fixed the TV",
+      "Have they fixed the TV?",
+      "Have they not/haven’t they fixed the TV?"
+    ]
+  ]
+}

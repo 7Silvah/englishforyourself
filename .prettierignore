@@ -1,0 +1,19 @@
+# Sitio antiguo: se conserva tal cual hasta F11
+legacy/
+
+dist/
+coverage/
+package-lock.json
+
+# Documentación escrita a mano (tablas y saltos de línea propios)
+*.md
+
+.claude/
+
+# Generado por @tanstack/router-plugin
+src/routeTree.gen.ts
+.tanstack/
+
+# Contenido generado por la migración y editado a mano (formato propio)
+src/content/**/*.json
+src/content/**/*.mdx

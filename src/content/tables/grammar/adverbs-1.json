@@ -1,0 +1,54 @@
+{
+  "caption": "Irregular Adverbs",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Adjective",
+        "tone": "pos"
+      },
+      {
+        "text": "Adverb",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      "Good",
+      "Well"
+    ],
+    [
+      "Wrong",
+      "Wrong or wrongly"
+    ],
+    [
+      "Fast",
+      "Fast"
+    ],
+    [
+      "Hard",
+      "Hard"
+    ],
+    [
+      "Daily",
+      "Daily"
+    ],
+    [
+      "Late",
+      "Late"
+    ],
+    [
+      "Early",
+      "Early"
+    ],
+    [
+      "Straight",
+      "Straight"
+    ],
+    [
+      "Lively",
+      "Lively"
+    ]
+  ]
+}

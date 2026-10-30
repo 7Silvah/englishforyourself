@@ -1,0 +1,55 @@
+{
+  "variant": "plain",
+  "head": [
+    [
+      "Gradable adverbs to intensify gradable adjectives",
+      "Gradable adverbs to weaken gradable adjectives"
+    ]
+  ],
+  "body": [
+    [
+      "Extremely",
+      "A little"
+    ],
+    [
+      "Really",
+      "A bit"
+    ],
+    [
+      "Pretty",
+      "Slightly"
+    ],
+    [
+      "Very",
+      "Somewhat"
+    ],
+    [
+      "Quite",
+      "Relatively"
+    ],
+    [
+      "Rather",
+      "Partially"
+    ],
+    [
+      "So",
+      "Fairly"
+    ],
+    [
+      "Terribly",
+      ""
+    ],
+    [
+      "Most",
+      ""
+    ],
+    [
+      "Intensely",
+      ""
+    ],
+    [
+      "Ridiculously",
+      ""
+    ]
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "title": "Possessives and demonstratives: review",
+  "titleEs": "Posesivos y demostrativos: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A1",
+  "unit": "posesivos-y-demostrativos",
+  "topics": [
+    "possessives",
+    "demonstratives"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Is this ___ bag, Sara?",
+      "options": [
+        "your",
+        "you",
+        "yours"
+      ],
+      "answer": 0,
+      "explanationEs": "Delante de un sustantivo va el posesivo your."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "___ houses over there are old.",
+      "options": [
+        "Those",
+        "That",
+        "These"
+      ],
+      "answer": 0,
+      "explanationEs": "Varias cosas lejos: those."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Their names are Ana and Luis.",
+      "answer": true,
+      "explanationEs": "Their es el posesivo de they."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "This shoes are expensive.",
+      "answer": false,
+      "explanationEs": "Shoes es plural: These shoes."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Is that your sister's dog?"
+      ],
+      "distractors": [
+        "of"
+      ],
+      "explanationEs": "Se usa 's, no of: your sister's dog."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Mr. Brown is with ___ (he) wife.",
+      "blanks": [
+        {
+          "answers": [
+            "his"
+          ]
+        }
+      ],
+      "explanationEs": "El poseedor es Mr. Brown: his."
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "The dog is hungry. ___ (it) bowl is empty.",
+      "blanks": [
+        {
+          "answers": [
+            "Its"
+          ]
+        }
+      ],
+      "explanationEs": "El posesivo de it es its, sin apóstrofo."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "My friends are in theirs house.",
+      "wrong": "theirs",
+      "answers": [
+        "their"
+      ],
+      "explanationEs": "Delante de un sustantivo va their."
+    }
+  ]
+}

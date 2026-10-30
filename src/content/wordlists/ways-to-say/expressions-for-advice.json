@@ -1,0 +1,70 @@
+{
+  "kind": "wordlist",
+  "title": "Expressions for Advice",
+  "order": 1,
+  "legacyPath": "lessons/ways-to-say/expressions-for-advice.html",
+  "intro": "In this section you will learn expressions to ask for advice and to give advice in English.",
+  "groups": [
+    {
+      "title": "Asking for advice",
+      "items": [
+        {
+          "en": "What should I do?"
+        },
+        {
+          "en": "What do you suggest?"
+        },
+        {
+          "en": "What would you advise me to do?"
+        },
+        {
+          "en": "Any suggestions?"
+        },
+        {
+          "en": "How do I approach this problem?"
+        }
+      ]
+    },
+    {
+      "title": "Giving advice",
+      "items": [
+        {
+          "en": "I think you might want to…"
+        },
+        {
+          "en": "How about…?"
+        },
+        {
+          "en": "If I were you, I would…"
+        },
+        {
+          "en": "Why don’t you…?"
+        },
+        {
+          "en": "I think you should / ought to…"
+        },
+        {
+          "en": "I would strongly suggest that…"
+        },
+        {
+          "en": "Have you considered…?"
+        },
+        {
+          "en": "I think it might be a good idea…"
+        },
+        {
+          "en": "If I were in your shoes, I would…"
+        },
+        {
+          "en": "Have you tried…?"
+        },
+        {
+          "en": "Have you thought of…?"
+        },
+        {
+          "en": "I think it’d be a good idea…"
+        }
+      ]
+    }
+  ]
+}

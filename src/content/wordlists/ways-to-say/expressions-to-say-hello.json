@@ -1,0 +1,59 @@
+{
+  "kind": "wordlist",
+  "title": "Expressions to say Hello",
+  "order": 7,
+  "legacyPath": "lessons/ways-to-say/expressions-to-say-hello.html",
+  "intro": "In this section you will learn expressions to say hello in English.",
+  "groups": [
+    {
+      "title": "Ways to say hello in English",
+      "items": [
+        {
+          "en": "Good afternoon."
+        },
+        {
+          "en": "Good evening."
+        },
+        {
+          "en": "Good morning."
+        },
+        {
+          "en": "Good to see you!"
+        },
+        {
+          "en": "Greetings!"
+        },
+        {
+          "en": "Hello there!"
+        },
+        {
+          "en": "Hey!"
+        },
+        {
+          "en": "Hi there."
+        },
+        {
+          "en": "Hi!"
+        },
+        {
+          "en": "Howdy!"
+        },
+        {
+          "en": "Long time, no see."
+        },
+        {
+          "en": "Look who it is!"
+        },
+        {
+          "en": "Nice to meet / see you."
+        },
+        {
+          "en": "Pleasure to meet you."
+        },
+        {
+          "en": "What’s new?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "kind": "wordlist",
+  "title": "Musical Instruments Vocabulary",
+  "order": 35,
+  "legacyPath": "lessons/vocabulary/musical-instruments-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about musical instruments in English.",
+  "groups": [
+    {
+      "title": "Musical instruments vocabulary",
+      "items": [
+        {
+          "en": "Accordion"
+        },
+        {
+          "en": "Acoustic guitar"
+        },
+        {
+          "en": "Bagpipes"
+        },
+        {
+          "en": "Banjo"
+        },
+        {
+          "en": "Bass drum"
+        },
+        {
+          "en": "Bass guitar"
+        },
+        {
+          "en": "Bell"
+        },
+        {
+          "en": "Bongo drums"
+        },
+        {
+          "en": "Bugle"
+        },
+        {
+          "en": "Cello"
+        },
+        {
+          "en": "Clarinet"
+        },
+        {
+          "en": "Conga"
+        },
+        {
+          "en": "Double bass"
+        },
+        {
+          "en": "Drums"
+        },
+        {
+          "en": "Electric guitar"
+        },
+        {
+          "en": "Electric keyboard"
+        },
+        {
+          "en": "French horn"
+        },
+        {
+          "en": "Guitar"
+        },
+        {
+          "en": "Harmonica"
+        },
+        {
+          "en": "Harp"
+        },
+        {
+          "en": "Maracas"
+        },
+        {
+          "en": "Piano"
+        },
+        {
+          "en": "Saxophone"
+        },
+        {
+          "en": "Tambourine"
+        },
+        {
+          "en": "Trombone"
+        },
+        {
+          "en": "Trumpet"
+        },
+        {
+          "en": "Tuba"
+        },
+        {
+          "en": "Violin"
+        },
+        {
+          "en": "Xylophone"
+        }
+      ]
+    }
+  ]
+}

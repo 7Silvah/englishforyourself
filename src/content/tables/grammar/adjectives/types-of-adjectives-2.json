@@ -1,0 +1,43 @@
+{
+  "variant": "plain",
+  "head": [
+    [
+      "Subject pronoun",
+      "Possessive adjective"
+    ]
+  ],
+  "body": [
+    [
+      "I",
+      "My"
+    ],
+    [
+      "You",
+      "Your"
+    ],
+    [
+      "He",
+      "His"
+    ],
+    [
+      "She",
+      "Her"
+    ],
+    [
+      "It",
+      "Its"
+    ],
+    [
+      "We",
+      "Our"
+    ],
+    [
+      "You",
+      "Your"
+    ],
+    [
+      "They",
+      "Their"
+    ]
+  ]
+}

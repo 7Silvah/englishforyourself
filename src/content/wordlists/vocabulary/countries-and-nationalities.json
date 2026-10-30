@@ -1,0 +1,332 @@
+{
+  "kind": "wordlist",
+  "title": "Countries and Nationalities",
+  "order": 42,
+  "legacyPath": "lessons/vocabulary/countries-and-nationalities.html",
+  "intro": "In this section you will learn the countries and nationalities in English.",
+  "groups": [
+    {
+      "title": "Countries and nationalities in English",
+      "items": [
+        {
+          "en": "Country – nationality (adjective)"
+        },
+        {
+          "en": "Albania – Albanian"
+        },
+        {
+          "en": "Algeria – Algerian"
+        },
+        {
+          "en": "Argentina – Argentinian"
+        },
+        {
+          "en": "Australia – Australian"
+        },
+        {
+          "en": "Austria – Austrian"
+        },
+        {
+          "en": "Bahamas – Bahamian"
+        },
+        {
+          "en": "Bangladesh – Bangladeshi"
+        },
+        {
+          "en": "Belgium – Belgian"
+        },
+        {
+          "en": "Belize – Belizean"
+        },
+        {
+          "en": "Bolivia – Bolivian"
+        },
+        {
+          "en": "Brazil – Brazilian"
+        },
+        {
+          "en": "Cambodia – Cambodian"
+        },
+        {
+          "en": "Cameroon – Cameroonian"
+        },
+        {
+          "en": "Canada – Canadian"
+        },
+        {
+          "en": "Chile – Chilean"
+        },
+        {
+          "en": "China – Chinese"
+        },
+        {
+          "en": "Costa Rica – Costa Rican"
+        },
+        {
+          "en": "Croatia – Croat"
+        },
+        {
+          "en": "Croatia – Croat / Croatian"
+        },
+        {
+          "en": "Cuba – Cuban"
+        },
+        {
+          "en": "Denmark – Danish"
+        },
+        {
+          "en": "Ecuador – Ecuadorian"
+        },
+        {
+          "en": "Egypt – Egyptian"
+        },
+        {
+          "en": "El Salvador – Salvadorian"
+        },
+        {
+          "en": "England – English"
+        },
+        {
+          "en": "Estonia – Estonian"
+        },
+        {
+          "en": "Ethiopia – Ethiopian"
+        },
+        {
+          "en": "Fiji – Fijian"
+        },
+        {
+          "en": "Finland – Finnish"
+        },
+        {
+          "en": "France – French"
+        },
+        {
+          "en": "Georgia – Georgian"
+        },
+        {
+          "en": "Germany – German"
+        },
+        {
+          "en": "Ghana – Ghanaian"
+        },
+        {
+          "en": "Greece – Greek"
+        },
+        {
+          "en": "Guatemala – Guatemalan"
+        },
+        {
+          "en": "Haiti- Haitian"
+        },
+        {
+          "en": "Honduras – Honduran"
+        },
+        {
+          "en": "Hungary – Hungarian"
+        },
+        {
+          "en": "Iceland – Icelandic"
+        },
+        {
+          "en": "India – Indian"
+        },
+        {
+          "en": "Indonesia – Indonesian"
+        },
+        {
+          "en": "Iran – Iranian"
+        },
+        {
+          "en": "Iraq – Iraqi"
+        },
+        {
+          "en": "Ireland – Irish"
+        },
+        {
+          "en": "Israel – Israeli"
+        },
+        {
+          "en": "Italy – Italian"
+        },
+        {
+          "en": "Jamaica – Jamaican"
+        },
+        {
+          "en": "Japan – Japanese"
+        },
+        {
+          "en": "Jordan – Jordanian"
+        },
+        {
+          "en": "Kenya – Kenyan"
+        },
+        {
+          "en": "Laos – Lao"
+        },
+        {
+          "en": "Libya – Libyan"
+        },
+        {
+          "en": "Lithuania – Lithuanian"
+        },
+        {
+          "en": "Madagascar – Malagasy"
+        },
+        {
+          "en": "Malaysia – Malaysian"
+        },
+        {
+          "en": "Maldives – Maldivian"
+        },
+        {
+          "en": "Mali – Malian"
+        },
+        {
+          "en": "Malta – Maltese"
+        },
+        {
+          "en": "Mexico – Mexican"
+        },
+        {
+          "en": "Mongolia – Mongolian"
+        },
+        {
+          "en": "Morocco – Moroccan"
+        },
+        {
+          "en": "Mozambique – Mozambican"
+        },
+        {
+          "en": "Namibia – Namibian"
+        },
+        {
+          "en": "Nepal – Nepalese"
+        },
+        {
+          "en": "Netherlands – Dutch"
+        },
+        {
+          "en": "New Zealand – New Zealand"
+        },
+        {
+          "en": "Nicaragua – Nicaraguan"
+        },
+        {
+          "en": "North Korea – North Korean"
+        },
+        {
+          "en": "Norway – Norwegian"
+        },
+        {
+          "en": "Panama – Panamanian"
+        },
+        {
+          "en": "Peru – Peruvian"
+        },
+        {
+          "en": "Poland – Polish"
+        },
+        {
+          "en": "Portugal – Portuguese"
+        },
+        {
+          "en": "Qatar – Qatari"
+        },
+        {
+          "en": "Romania – Romanian"
+        },
+        {
+          "en": "Russia – Russian"
+        },
+        {
+          "en": "Saudi Arabia – Saudi"
+        },
+        {
+          "en": "Scotland – Scottish"
+        },
+        {
+          "en": "Serbia – Serb / Serbian"
+        },
+        {
+          "en": "Serbia – Serbian"
+        },
+        {
+          "en": "Singapore – Singaporean"
+        },
+        {
+          "en": "Slovakia – Slovak"
+        },
+        {
+          "en": "Slovenia – Slovene / Slovenian"
+        },
+        {
+          "en": "Somalia – Somali"
+        },
+        {
+          "en": "South Africa – South African"
+        },
+        {
+          "en": "South Korea – South Korean"
+        },
+        {
+          "en": "Spain – Spanish"
+        },
+        {
+          "en": "Sri Lanka – Sri Lankan"
+        },
+        {
+          "en": "Sudan – Sudanese"
+        },
+        {
+          "en": "Sweden – Swedish"
+        },
+        {
+          "en": "Switzerland – Swiss"
+        },
+        {
+          "en": "Syria – Syrian"
+        },
+        {
+          "en": "Taiwan – Taiwanese"
+        },
+        {
+          "en": "Tanzania – Tanzanian"
+        },
+        {
+          "en": "Thailand – Thai"
+        },
+        {
+          "en": "The United Kingdom – British"
+        },
+        {
+          "en": "The United States – American"
+        },
+        {
+          "en": "Turkey – Turkish"
+        },
+        {
+          "en": "Ukraine – Ukrainian"
+        },
+        {
+          "en": "Uruguay – Uruguayan"
+        },
+        {
+          "en": "Venezuela – Venezuelan"
+        },
+        {
+          "en": "Vietnam – Vietnamese"
+        },
+        {
+          "en": "Wales – Welsh"
+        },
+        {
+          "en": "Zambia – Zambian"
+        },
+        {
+          "en": "Zimbabwe – Zimbabwean"
+        }
+      ]
+    }
+  ]
+}

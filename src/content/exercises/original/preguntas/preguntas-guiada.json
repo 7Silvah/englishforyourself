@@ -1,0 +1,75 @@
+{
+  "title": "Asking questions: guided practice",
+  "titleEs": "Hacer preguntas: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "preguntas",
+  "topics": [
+    "questions",
+    "present-simple"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ your brother play tennis?",
+      "options": [
+        "Does",
+        "Do",
+        "Is"
+      ],
+      "answer": 0,
+      "explanationEs": "Your brother = he: la pregunta empieza con does."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Where ___ they live?",
+      "options": [
+        "do",
+        "does",
+        "are"
+      ],
+      "answer": 0,
+      "explanationEs": "Con they se usa do: Where do they live?"
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Does he works here?",
+      "answer": false,
+      "explanationEs": "Después de does el verbo va sin -s: Does he work here?"
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "What time do you get up?",
+      "answer": true,
+      "explanationEs": "Palabra interrogativa + do + sujeto + verbo."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Do you speak English?"
+      ],
+      "distractors": [
+        "Does"
+      ],
+      "explanationEs": "Con you se usa do, no does."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "Why are you sad?"
+      ],
+      "distractors": [
+        "do"
+      ],
+      "explanationEs": "Con to be no se usa do: Why are you…?"
+    }
+  ]
+}

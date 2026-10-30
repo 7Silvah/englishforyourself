@@ -1,0 +1,57 @@
+{
+  "kind": "wordlist",
+  "title": "Phrasal Verbs with Back",
+  "order": 3,
+  "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-back.html",
+  "intro": "In this section you will learn useful phrasal verbs with back in English.",
+  "groups": [
+    {
+      "title": "Useful phrasal verbs with back",
+      "items": [
+        {
+          "en": "To back away",
+          "meanings": [
+            "To retreat backwards."
+          ]
+        },
+        {
+          "en": "To back down",
+          "meanings": [
+            "To withdraw from a situation because of a change of mind."
+          ]
+        },
+        {
+          "en": "To back into something",
+          "meanings": [
+            "To move a vehicle in reverse into something."
+          ]
+        },
+        {
+          "en": "To back off",
+          "meanings": [
+            "To withdraw from a conflict"
+          ]
+        },
+        {
+          "en": "To back out of something",
+          "meanings": [
+            "To cancel a plan."
+          ]
+        },
+        {
+          "en": "To back up",
+          "meanings": [
+            "To defend someone.",
+            "To make a copy of data."
+          ]
+        },
+        {
+          "en": "To back onto something",
+          "meanings": [
+            "To face the back of something."
+          ]
+        }
+      ]
+    }
+  ]
+}

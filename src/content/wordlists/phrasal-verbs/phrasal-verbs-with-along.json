@@ -1,0 +1,68 @@
+{
+  "kind": "wordlist",
+  "title": "Phrasal Verbs with Along",
+  "order": 1,
+  "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-along.html",
+  "intro": "In this section you will learn useful phrasal verbs with along.",
+  "groups": [
+    {
+      "title": "Useful phrasal verbs with along",
+      "items": [
+        {
+          "en": "To come along",
+          "meanings": [
+            "Something making progress."
+          ]
+        },
+        {
+          "en": "To get along with",
+          "meanings": [
+            "To have a good relationship with someone else."
+          ]
+        },
+        {
+          "en": "To go along",
+          "meanings": [
+            "To comply with something."
+          ]
+        },
+        {
+          "en": "To happen along",
+          "meanings": [
+            "To encounter someone by chance."
+          ]
+        },
+        {
+          "en": "To move along",
+          "meanings": [
+            "To continue moving forward"
+          ]
+        },
+        {
+          "en": "To pass along",
+          "meanings": [
+            "To share information to someone else."
+          ]
+        },
+        {
+          "en": "To play along with",
+          "meanings": [
+            "To pretend to follow someone’s actions."
+          ]
+        },
+        {
+          "en": "To sing along with",
+          "meanings": [
+            "To join someone who is singing."
+          ]
+        },
+        {
+          "en": "To tag along",
+          "meanings": [
+            "To join a group even if you weren’t invited."
+          ]
+        }
+      ]
+    }
+  ]
+}

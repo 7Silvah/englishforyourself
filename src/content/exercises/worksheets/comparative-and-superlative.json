@@ -1,0 +1,140 @@
+{
+  "title": "Comparative and Superlative",
+  "titleEs": "Comparativos y superlativos",
+  "instruction": "fill in the blanks with the correct comparative or superlative adjective form.",
+  "instructionEs": "Completa con la forma comparativa o superlativa del adjetivo.",
+  "source": "worksheet",
+  "level": "A2",
+  "lessons": [
+    "grammar/adjectives/types-of-adjectives/comparative-and-superlative-adjectives"
+  ],
+  "topics": [
+    "comparatives",
+    "superlatives",
+    "adjectives"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Comparative-and-Superlative-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "Phil is ___ (nice) than Jane.",
+      "blanks": [
+        {
+          "answers": [
+            "nicer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "This necklace is the ___ (expensive) from the store.",
+      "blanks": [
+        {
+          "answers": [
+            "most expensive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "This wine tastes ___ (good) than the other one.",
+      "blanks": [
+        {
+          "answers": [
+            "better"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "Today is ___ (cold) than yesterday.",
+      "blanks": [
+        {
+          "answers": [
+            "colder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "He is the ___ (fast) person I’ve ever known.",
+      "blanks": [
+        {
+          "answers": [
+            "fastest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "This is the ___ (delicious) cake I’ve ever had.",
+      "blanks": [
+        {
+          "answers": [
+            "most delicious"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "This flower is the ___ (beautiful) in the garden.",
+      "blanks": [
+        {
+          "answers": [
+            "most beautiful"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "The purple blanket is ___ (warm) than the blue one.",
+      "blanks": [
+        {
+          "answers": [
+            "warmer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "This English exam was ___ (challenging) than the last one.",
+      "blanks": [
+        {
+          "answers": [
+            "more challenging"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "Simon is the ___ (old) member of the boy group.",
+      "blanks": [
+        {
+          "answers": [
+            "oldest"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "caption": "Future Perfect Tense – Structure",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "Structure",
+        "header": true
+      },
+      {
+        "text": "I – You – He – She – It – We – They + will + have + verb (past participle)",
+        "formula": true,
+        "tone": "pos"
+      },
+      {
+        "text": "I – You – He – She – It – We – They + will not / won’t + have + verb (past participle)",
+        "formula": true,
+        "tone": "neg"
+      },
+      {
+        "text": "Will + I – You – He – She – It – We – They + have + verb (past participle)",
+        "formula": true,
+        "tone": "q"
+      }
+    ]
+  ]
+}

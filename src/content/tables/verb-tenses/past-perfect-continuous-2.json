@@ -1,0 +1,97 @@
+{
+  "caption": "Past Perfect Continuous / Progressive Tense – Examples",
+  "variant": "grammar",
+  "head": [
+    [
+      "",
+      {
+        "text": "Positive",
+        "tone": "pos"
+      },
+      {
+        "text": "Negative",
+        "tone": "neg"
+      },
+      {
+        "text": "Question",
+        "tone": "q"
+      },
+      {
+        "text": "Negative question",
+        "tone": "nq"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "I had been cycling",
+      "I had not / hadn’t been cycling",
+      "Had I been cycling?",
+      "Had I not / hadn’t I been cycling?"
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "You had been cycling",
+      "You had not / hadn’t been cycling",
+      "Had you been cycling?",
+      "Had you not / hadn’t you been cycling?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "He had been cycling",
+      "He had not / hadn’t been cycling",
+      "Had he been cycling?",
+      "Had he not / hadn’t he been cycling?"
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "She had been cycling",
+      "She had not / hadn’t been cycling",
+      "Had she been cycling?",
+      "Had she not / hadn’t she been cycling?"
+    ],
+    [
+      {
+        "text": "It",
+        "header": true
+      },
+      "It had been cycling",
+      "It had not / hadn’t been cycling",
+      "Had it been cycling?",
+      "Had it not / hadn’t it been cycling?"
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "We had been cycling",
+      "We had not / hadn’t been cycling",
+      "Had we been cycling?",
+      "Had we not / hadn’t we been cycling?"
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "They had been cycling",
+      "They had not / hadn’t been cycling",
+      "Had they been cycling?",
+      "Had they not / hadn’t they been cycling?"
+    ]
+  ]
+}

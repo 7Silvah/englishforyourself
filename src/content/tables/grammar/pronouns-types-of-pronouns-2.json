@@ -1,0 +1,70 @@
+{
+  "caption": "Possessive Pronouns",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Subject",
+        "tone": "nq"
+      },
+      {
+        "text": "Possessive pronoun",
+        "tone": "q"
+      },
+      {
+        "text": "Example",
+        "tone": "pos"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "I",
+        "header": true
+      },
+      "mine",
+      "This notebook is **mine**."
+    ],
+    [
+      {
+        "text": "You",
+        "header": true
+      },
+      "yours",
+      "Are those albums **yours**?"
+    ],
+    [
+      {
+        "text": "He",
+        "header": true
+      },
+      "his",
+      "The bike is **his**."
+    ],
+    [
+      {
+        "text": "She",
+        "header": true
+      },
+      "hers",
+      "The shoes are **hers**."
+    ],
+    [
+      {
+        "text": "We",
+        "header": true
+      },
+      "ours",
+      "The car is **ours**."
+    ],
+    [
+      {
+        "text": "They",
+        "header": true
+      },
+      "theirs",
+      "The bags are **theirs**."
+    ]
+  ]
+}

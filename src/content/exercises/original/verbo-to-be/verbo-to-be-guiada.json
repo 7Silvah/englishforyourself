@@ -1,0 +1,74 @@
+{
+  "title": "The verb to be: guided practice",
+  "titleEs": "El verbo to be: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A1",
+  "unit": "verbo-to-be",
+  "topics": [
+    "verb-to-be"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "We ___ from Colombia.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "answer": 0,
+      "explanationEs": "Con we, you y they se usa are."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I ___ 30 years old.",
+      "options": [
+        "am",
+        "have",
+        "is"
+      ],
+      "answer": 0,
+      "explanationEs": "La edad se dice con to be: I am 30 years old. No se usa have."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "My brother is hungry.",
+      "answer": true,
+      "explanationEs": "Tener hambre se dice be hungry: My brother is hungry."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "They is at home.",
+      "answer": false,
+      "explanationEs": "Con they se usa are: They are at home."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Are you ready?"
+      ],
+      "distractors": [
+        "Do"
+      ],
+      "explanationEs": "En las preguntas con to be, el verbo va antes del sujeto. No se usa do."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "She is not at work."
+      ],
+      "distractors": [
+        "no"
+      ],
+      "explanationEs": "La negativa con to be es is/are/am + not. No se usa no."
+    }
+  ]
+}

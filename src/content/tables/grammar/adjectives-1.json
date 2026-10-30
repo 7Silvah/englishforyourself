@@ -1,0 +1,92 @@
+{
+  "caption": "Order of Adjectives",
+  "variant": "grammar",
+  "head": [
+    [
+      {
+        "text": "Order",
+        "tone": "pos"
+      },
+      {
+        "text": "Category",
+        "tone": "neg"
+      },
+      {
+        "text": "Example",
+        "tone": "q"
+      }
+    ]
+  ],
+  "body": [
+    [
+      {
+        "text": "1",
+        "header": true
+      },
+      "Opinion",
+      "beautiful"
+    ],
+    [
+      {
+        "text": "2",
+        "header": true
+      },
+      "Size",
+      "small"
+    ],
+    [
+      {
+        "text": "3",
+        "header": true
+      },
+      "Age",
+      "old"
+    ],
+    [
+      {
+        "text": "4",
+        "header": true
+      },
+      "Shape",
+      "round"
+    ],
+    [
+      {
+        "text": "5",
+        "header": true
+      },
+      "Color",
+      "blue"
+    ],
+    [
+      {
+        "text": "6",
+        "header": true
+      },
+      "Origin",
+      "Italian"
+    ],
+    [
+      {
+        "text": "7",
+        "header": true
+      },
+      "Material",
+      "wooden"
+    ],
+    [
+      {
+        "text": "8",
+        "header": true
+      },
+      "Purpose",
+      "writing"
+    ],
+    [
+      {
+        "text": "Example: a **beautiful** **small** **old** **round** **blue** **Italian** **wooden** **writing** desk.",
+        "colSpan": 3
+      }
+    ]
+  ]
+}

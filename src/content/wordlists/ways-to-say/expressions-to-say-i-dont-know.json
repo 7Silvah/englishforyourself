@@ -1,0 +1,62 @@
+{
+  "kind": "wordlist",
+  "title": "Expressions to say I don’t know",
+  "order": 10,
+  "legacyPath": "lessons/ways-to-say/expressions-to-say-i-dont-know.html",
+  "intro": "In this section you will learn expressions to say I don’t know in English.",
+  "groups": [
+    {
+      "title": "Ways to say I don’t know in English",
+      "items": [
+        {
+          "en": "Beats me."
+        },
+        {
+          "en": "How would I know?"
+        },
+        {
+          "en": "I can’t say for certain."
+        },
+        {
+          "en": "I can’t say for sure."
+        },
+        {
+          "en": "I don’t get it."
+        },
+        {
+          "en": "I don’t have any information on that."
+        },
+        {
+          "en": "I don’t have the slightest idea."
+        },
+        {
+          "en": "I don’t know anything about that."
+        },
+        {
+          "en": "I have no idea."
+        },
+        {
+          "en": "I haven’t got a clue."
+        },
+        {
+          "en": "I haven’t got the foggiest idea."
+        },
+        {
+          "en": "I’m afraid I don’t know."
+        },
+        {
+          "en": "I’m at a loss."
+        },
+        {
+          "en": "I’m clueless."
+        },
+        {
+          "en": "I’m not sure."
+        },
+        {
+          "en": "It’s beyond me."
+        }
+      ]
+    }
+  ]
+}

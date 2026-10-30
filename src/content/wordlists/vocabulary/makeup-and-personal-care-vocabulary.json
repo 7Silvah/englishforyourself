@@ -1,0 +1,174 @@
+{
+  "kind": "wordlist",
+  "title": "Makeup and Personal Care Vocabulary",
+  "order": 19,
+  "legacyPath": "lessons/vocabulary/makeup-and-personal-care-vocabulary.html",
+  "intro": "In this section you will find vocabulary about makeup and personal care in English.",
+  "groups": [
+    {
+      "title": "Makeup and cosmetics vocabulary",
+      "items": [
+        {
+          "en": "Blush"
+        },
+        {
+          "en": "Brightener"
+        },
+        {
+          "en": "Bronzer"
+        },
+        {
+          "en": "Brushes"
+        },
+        {
+          "en": "Concealer"
+        },
+        {
+          "en": "Curling tong"
+        },
+        {
+          "en": "Eye liner"
+        },
+        {
+          "en": "Eye shadow"
+        },
+        {
+          "en": "Face powder"
+        },
+        {
+          "en": "Foundation"
+        },
+        {
+          "en": "Hair dryer"
+        },
+        {
+          "en": "Lip gloss"
+        },
+        {
+          "en": "Lip liner"
+        },
+        {
+          "en": "Lipstick"
+        },
+        {
+          "en": "Lotion"
+        },
+        {
+          "en": "Makeup kit"
+        },
+        {
+          "en": "Mascara"
+        },
+        {
+          "en": "Nail polish"
+        },
+        {
+          "en": "Primer"
+        },
+        {
+          "en": "Sponge"
+        },
+        {
+          "en": "Straightener"
+        }
+      ]
+    },
+    {
+      "title": "Personal care vocabulary",
+      "items": [
+        {
+          "en": "Conditioner"
+        },
+        {
+          "en": "Cotton buds (UK) / cotton swabs (US)"
+        },
+        {
+          "en": "Dental floss"
+        },
+        {
+          "en": "Deodorant"
+        },
+        {
+          "en": "Hair gel"
+        },
+        {
+          "en": "Hair spray"
+        },
+        {
+          "en": "Hand lotion"
+        },
+        {
+          "en": "Mouthwash"
+        },
+        {
+          "en": "Nail polish remover"
+        },
+        {
+          "en": "Perfume / cologne"
+        },
+        {
+          "en": "Razor"
+        },
+        {
+          "en": "Shampoo"
+        },
+        {
+          "en": "Tissues"
+        },
+        {
+          "en": "Toothbrush"
+        },
+        {
+          "en": "Toothpaste"
+        },
+        {
+          "en": "Tweezers"
+        }
+      ]
+    },
+    {
+      "title": "Skincare products vocabulary",
+      "items": [
+        {
+          "en": "Day / night cream"
+        },
+        {
+          "en": "Essence"
+        },
+        {
+          "en": "Exfoliant"
+        },
+        {
+          "en": "Eye cream"
+        },
+        {
+          "en": "Facial spray"
+        },
+        {
+          "en": "Foam cleanser"
+        },
+        {
+          "en": "Lip balm"
+        },
+        {
+          "en": "Moisturizer"
+        },
+        {
+          "en": "Oil cleanser"
+        },
+        {
+          "en": "Serum"
+        },
+        {
+          "en": "Sheet mask"
+        },
+        {
+          "en": "Sunscreen"
+        },
+        {
+          "en": "Toner"
+        }
+      ]
+    }
+  ]
+}

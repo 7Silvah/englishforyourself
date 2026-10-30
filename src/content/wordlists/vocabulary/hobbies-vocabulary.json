@@ -1,0 +1,113 @@
+{
+  "kind": "wordlist",
+  "title": "Hobbies Vocabulary",
+  "order": 9,
+  "legacyPath": "lessons/vocabulary/hobbies-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about hobbies in English.",
+  "groups": [
+    {
+      "title": "Hobbies vocabulary",
+      "items": [
+        {
+          "en": "Blogging"
+        },
+        {
+          "en": "Bowling"
+        },
+        {
+          "en": "Camping"
+        },
+        {
+          "en": "Climbing"
+        },
+        {
+          "en": "Cooking"
+        },
+        {
+          "en": "Dancing"
+        },
+        {
+          "en": "Doing gymnastics"
+        },
+        {
+          "en": "Doing yoga"
+        },
+        {
+          "en": "Drawing"
+        },
+        {
+          "en": "Fishing"
+        },
+        {
+          "en": "Gardening"
+        },
+        {
+          "en": "Hanging out with friends"
+        },
+        {
+          "en": "Knitting"
+        },
+        {
+          "en": "Listening to music or podcasts"
+        },
+        {
+          "en": "Meditation"
+        },
+        {
+          "en": "Painting"
+        },
+        {
+          "en": "Playing an instrument"
+        },
+        {
+          "en": "Playing sports"
+        },
+        {
+          "en": "Playing video games"
+        },
+        {
+          "en": "Reading"
+        },
+        {
+          "en": "Riding a bike"
+        },
+        {
+          "en": "Riding a horse"
+        },
+        {
+          "en": "Running"
+        },
+        {
+          "en": "Sewing"
+        },
+        {
+          "en": "Shopping"
+        },
+        {
+          "en": "Skateboarding"
+        },
+        {
+          "en": "Skiing"
+        },
+        {
+          "en": "Swimming"
+        },
+        {
+          "en": "Taking photos"
+        },
+        {
+          "en": "Travelling"
+        },
+        {
+          "en": "Watching TV"
+        },
+        {
+          "en": "Working out"
+        },
+        {
+          "en": "Writing"
+        }
+      ]
+    }
+  ]
+}

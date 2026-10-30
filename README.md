@@ -1,103 +1,192 @@
-# English for Yourself — sitio estático moderno
+# English for Yourself
 
-Lecciones gratuitas de inglés: gramática, tiempos verbales, vocabulario por temas,
-*ways to say*, phrasal verbs, collocations, idioms y worksheets imprimibles en PDF.
+App web para **aprender inglés desde el español**: tiempos verbales, gramática,
+vocabulario por temas, *ways to say*, phrasal verbs, collocations, idioms y
+hojas de ejercicios en PDF. La interfaz y las explicaciones están en español;
+los ejemplos y el contenido que se aprende, en inglés.
 
-El contenido educativo proviene del sitio **englishforyourself.com** (fuera de línea
-desde ~junio 2026), recuperado del archivo público de Wayback Machine (Internet
-Archive) y re-maquetado con un diseño moderno. No hay affiliation con los autores
-originales.
+> **Estado: en migración.** El sitio pasa de HTML/CSS/JS estático a
+> **Vite + React + TypeScript + Tailwind + shadcn/ui**. El plan completo, con
+> fases y checklist, está en [docs/PLAN.md](docs/PLAN.md). Mientras dura la
+> migración, el sitio anterior vive en `legacy/` y se abre con doble clic en
+> `legacy/index.html`.
 
-## Verlo en tu computadora
+## Qué incluye
 
-**Opción 1 — doble clic (más fácil):**
-abre el archivo `index.html` en tu navegador. Todo funciona sin servidor:
-navegación, buscador y PDFs.
+La app se construye **por etapas**: cada una deja la app usable y añade
+funciones. El detalle y el estado de cada etapa están en [docs/PLAN.md](docs/PLAN.md).
 
-**Opción 2 — servidor local (recomendado):**
+| Etapa | Qué gana el estudiante |
+|---|---|
+| 1 · Base + Fundamentos I | Curso guiado A1 (unidades 1–8: la oración, pronombres, *to be*, artículos, posesivos, *there is/are*, presente simple, preguntas) con ejercicios interactivos. Los 35 worksheets PDF se resuelven dentro de la app. |
+| 2 · Fundamentos II + herramientas | Unidades A2 (9–16), dictado, traducción, arrastrar y soltar, Tense Lab, buscador y “Repasar mis errores”. |
+| 3 · Vocabulario activo | Flashcards con repetición espaciada y ejercicios generados desde las listas de vocabulario. |
+| 4 · Gramática intermedia | Unidades B1–B2 y prueba de nivel. |
+| 5 · Calidad y publicación | Uso sin conexión (PWA), accesibilidad verificada y SEO. |
+
+Las piezas principales son:
+- **Curso de Fundamentos**: la estructura gramatical del inglés explicada en
+  español, unidad por unidad, comparándola con el español, con los errores
+  típicos de hispanohablantes y un repaso al final de cada unidad.
+- **Ejercicios interactivos** de 12 tipos: completar, opción múltiple,
+  verdadero/falso, ordenar palabras, transformar (afirmativa → negativa →
+  pregunta), corregir errores, emparejar, categorizar, traducir, dictado,
+  completar tablas y escuchar y elegir. La corrección es instantánea, acepta
+  contracciones y avisa de las faltas de ortografía. Cada set tiene una
+  versión imprimible.
+- **Biblioteca**: 145 lecciones de consulta (tiempos verbales, gramática,
+  vocabulario, phrasal verbs, collocations, idioms, *ways to say*).
+- **Progreso** guardado en tu navegador, sin cuentas ni servidor.
+- Colores coherentes en todo el sitio: verde = afirmativa, naranja = negativa,
+  amarillo = pregunta.
+
+## Requisitos
+
+- [Node.js](https://nodejs.org) 24 LTS (incluye `npm`)
+- Un editor con soporte de TypeScript (VS Code recomendado: al abrir el repo te sugerirá las extensiones de Prettier, oxc, Tailwind CSS IntelliSense y EditorConfig)
+
+## Empezar
+
 ```bash
-cd englishforyourself
-python3 -m http.server 8000
-```
-y abre http://localhost:8000 en tu navegador.
-
-## Estructura del repo
-
-```
-index.html                  ← portada: hero, buscador y tarjetas por sección
-about.html                  ← página "More information about English"
-assets/
-  css/style.css             ← todo el diseño (CSS vanilla, sin frameworks)
-  js/main.js                ← menú móvil (vanilla JS)
-  js/search-data.js         ← índice del buscador (generado automáticamente)
-  pdf/                      ← los 35 worksheets de ejercicios en PDF
-lessons/                    ← las 8 secciones del sitio
-  verb-tenses/              ← tiempos verbales (14 lecciones + overview)
-  vocabulary/               ← vocabulario por temas (~52 lecciones)
-  ways-to-say/              ← expresiones cotidianas (14 lecciones)
-  phrasal-verbs/            ← phrasal verbs por lista y partícula (13)
-  collocations/             ← collocations por verbo (15)
-  idioms/                   ← idioms comunes y por tema (3)
-  grammar/                  ← adjetivos, condicionales, voz pasiva, etc. (~40)
-  worksheets/               ← índice de ejercicios + enlaces a los PDFs
-    index.html              ← portada de la sección
-    <slug>.html             ← lección (los subtemas conservan subcarpetas)
-legal/
-  cookie-policy.html / privacy-policy.html / terms-and-conditions.html
-  contact.html / contact-2.html / index.html (archivo de páginas legales)
+npm install
+npm run dev
 ```
 
-Sin nomenclatura de WordPress: no hay `wp-content/`, `wp-includes/` ni
-`wp-json/` en ninguna ruta. Las 161 páginas conservan sus slugs originales,
-reubicadas bajo `lessons/<sección>/`. La navegación, breadcrumbs, buscador y
-enlaces entre lecciones funcionan con rutas relativas, así que el sitio corre
-igual con doble clic (`file://`) o con un servidor local.
+Abre http://localhost:5173.
 
-## Cómo se genera
+## Scripts
 
-El sitio se genera de forma reproducible con `../efy-build/build.py` (no
-incluido en este repo): toma el contenido de la reconstrucción original
-(`../englishforyourself-rebuild/site/`, intacta), lo re-maqueta con la
-plantilla moderna, reescribe todos los enlaces internos a la nueva
-estructura, mueve los PDFs a `assets/pdf/`, convierte los charts a tablas
-(vía `../efy-build/tables/apply_tables.py`) y regenera el buscador.
+| Comando | Qué hace |
+|---|---|
+| `npm run dev` | Servidor de desarrollo con recarga en caliente |
+| `npm run build` | Compila la app a `dist/` |
+| `npm run preview` | Sirve `dist/` para probar el build |
+| `npm run typecheck` | Revisa los tipos de TypeScript |
+| `npm run lint` | Revisa el código con oxlint |
+| `npm run format` | Formatea con Prettier |
+| `npm run format:check` | Comprueba el formato sin cambiar archivos |
+| `npm test` | Tests unitarios y de componentes (Vitest + Testing Library) |
+| `npm run test:watch` | Lo mismo, repitiendo los tests al guardar |
+| `npm run e2e` | Tests end-to-end (Playwright) |
+| `npm run content:check` | Valida todo `src/content` (esquemas, MDX, enlaces, ejercicios) e informa de la traducción. Se ejecuta también en `npm run build` |
+| `npm run migrate` | Regenera el contenido desde `legacy/` (lecciones, worksheets PDF y `public/_redirects`). Sobrescribe `src/content/lessons`, `wordlists` y `tables` |
 
-## Buscador
+## CI y despliegue
 
-La portada incluye un buscador que filtra las 154 lecciones en vivo, sin servidor
-ni internet: los datos van embebidos en `assets/js/search-data.js`.
+- **CI** (GitHub Actions): en cada pull request y en cada push a `main` se
+  ejecutan tipos, lint, formato, tests, `content:check` y build.
+- **Despliegue privado** en Cloudflare Pages protegido con Cloudflare Access,
+  mientras no se confirmen los derechos del contenido. Pasos en
+  [docs/DESPLIEGUE.md](docs/DESPLIEGUE.md).
 
-## Tablas gramaticales en HTML
+## Stack
 
-Los charts de gramática del sitio original eran imágenes (JPG/PNG). Aquí están
-convertidos a tablas HTML reales (`<table class="gtable">`), con los mismos
-colores e intención visual: 40 imágenes reemplazadas en 28 lecciones
-(tiempos verbales, adjetivos, adverbios, pronombres, verbos, reported speech,
-voz pasiva, condicionales, etc.). Las imágenes que ya no usa ninguna página
-fueron eliminadas del repo. Las tablas se generan de forma reproducible con
-`../efy-build/tables/apply_tables.py` (fragmentos + manifiestos en
-`../efy-build/tables/`), que `build.py` ejecuta automáticamente al regenerar.
+| | |
+|---|---|
+| Build | Vite |
+| UI | React 19 + TypeScript (strict) |
+| Estilos | Tailwind CSS v4 |
+| Componentes | shadcn/ui (Base UI) + lucide-react |
+| Rutas | TanStack Router (file-based) |
+| Contenido | MDX + JSON validados con Zod |
+| Estado | Zustand (persistido en `localStorage`) |
+| Búsqueda | MiniSearch |
+| Arrastrar y soltar | @dnd-kit |
+| Audio | Web Speech API |
+| Tests | Vitest, Testing Library, Playwright, axe |
 
-## Correcciones de contenido
+## Estructura
 
-El contenido heredado del sitio original pasó por una auditoría de calidad
-(2026-09-29): se corrigieron typos ("perferct" → "perfect", "Positve" →
-"Positive", "hobbie" → "hobby", etc.), errores factuales de gramática
-("He have lived" → "He has lived", "She suggested me to arrive" →
-"She suggested arriving", regla "suggest + to infinitive" corregida a
-gerundio/that-clause), definiciones erróneas de idioms y phrasal verbs,
-collocations inexistentes eliminadas y duplicados limpiados. Los cambios se
-hicieron en la fuente (`englishforyourself-rebuild/site/` y fragmentos en
-`../efy-build/tables/`) para que `build.py` los conserve al regenerar.
+```
+src/
+  routes/        rutas (un archivo = una URL)
+  components/
+    ui/          componentes de shadcn
+    layout/      header, footer, breadcrumbs
+    lesson/      piezas de una lección: GrammarTable, Formula, CommonMistake, SpeakButton…
+  features/
+    exercises/   motor de ejercicios: esquemas, corrección, player, tipos, generadores
+    course/      mapa del curso y páginas de unidad
+    progress/    progreso guardado (Zustand)
+    search/ · tense-lab/ · flashcards/
+  content/       contenido como datos
+    course/units/        unidades del curso (.mdx)
+    exercises/worksheets/ ejercicios migrados de los PDF (.json)
+    exercises/original/   ejercicios nuevos por unidad (.json)
+    lessons/             lecciones de la Biblioteca (.mdx)
+    wordlists/           listas de vocabulario (.json)
+    tables/              tablas gramaticales (.json)
+    data/                tiempos verbales, verbos irregulares
+  i18n/es.ts     todos los textos de la interfaz
+  lib/           utilidades
+scripts/         migración y validación de contenido
+docs/PLAN.md     plan de implementación por etapas
+```
 
-## Publicarlo online (opcional)
+## Añadir contenido
 
-Es un sitio 100% estático: súbelo a GitHub Pages, Netlify o Vercel tal cual.
-En GitHub: *Settings → Pages → Deploy from a branch → main → /(root)*.
+**Una lección en prosa** → crea `src/content/lessons/<sección>/<slug>.mdx` (la sección y el slug salen de la ruta):
 
-## Regenerar
+```mdx
+---
+kind: article
+title: Articles
+titleEs: Artículos
+summaryEs: Cuándo usar a, an y the.
+level: A1
+---
 
-El diseño se genera con `../efy-build/build.py` (no incluido en este repo):
-toma el contenido de la reconstrucción original y le aplica la plantilla
-moderna, produciendo directamente esta estructura. Ver la sección
-"Cómo se genera" más arriba.
+<Examples>
+
+- I am a teacher.
+- She is an engineer.
+
+</Examples>
+
+## A or An
+...
+```
+
+**Una lista de vocabulario** → crea `src/content/wordlists/<sección>/<slug>.json`
+con `kind: "wordlist"` y grupos de `{ en, es }`. Se convierte sola en flashcards
+y ejercicios.
+
+**Una unidad del curso** → crea `src/content/course/units/NN-<slug>.mdx` con el
+frontmatter de [docs/PLAN.md](docs/PLAN.md) §6.3 (objetivos y sets de práctica,
+worksheet y repaso). Dentro puedes usar `<Formula>`, `<Modes>`, `<Explain>`,
+`<CommonMistake>`, `<Tip>` y `<FalseFriend>`.
+
+**Un set de ejercicios** → crea `src/content/exercises/original/<unidad>/<id>.json` (el id es el nombre del archivo):
+
+```json
+{
+  "titleEs": "Presente simple: completa la frase",
+  "instructionEs": "Escribe el verbo en presente simple.",
+  "source": "original",
+  "level": "A1",
+  "unit": "presente-simple",
+  "topics": ["present-simple", "third-person"],
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "She ___ (to work) in a hospital.",
+      "blanks": [{ "answers": ["works"] }],
+      "explanationEs": "Con he/she/it el verbo lleva -s en presente simple."
+    }
+  ]
+}
+```
+
+Los tipos de ejercicio y las reglas para escribirlos están en
+[docs/PLAN.md](docs/PLAN.md) §7. Después ejecuta `npm run content:check`.
+
+## Origen del contenido
+
+El contenido educativo proviene de **englishforyourself.com** (fuera de línea
+desde ~junio 2026), recuperado del archivo público de Wayback Machine y
+reorganizado. Los worksheets PDF originales se convirtieron en ejercicios
+interactivos. Este proyecto no está afiliado a los autores originales. Antes de
+publicarlo, hay que confirmar los derechos de uso (ver “Riesgos” en
+[docs/PLAN.md](docs/PLAN.md)). Las unidades del curso y los ejercicios nuevos
+son contenido propio.

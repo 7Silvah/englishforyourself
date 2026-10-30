@@ -1,0 +1,149 @@
+{
+  "title": "Present Simple – Negative Form",
+  "titleEs": "Presente simple: forma negativa",
+  "instruction": "put the verbs in the correct form.",
+  "instructionEs": "Escribe el verbo entre paréntesis en forma negativa.",
+  "source": "worksheet",
+  "level": "A1",
+  "lessons": [
+    "verb-tenses/simple-present-tense-structure-examples"
+  ],
+  "topics": [
+    "present-simple",
+    "negative"
+  ],
+  "reviewed": false,
+  "legacyPath": "assets/pdf/Present-Simple-Tense-Negative-Form-Exercises-Worksheet.pdf",
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I ___ (not / like) ice cream.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t like",
+            "do not like"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Vivian ___ (not / study) for the English exam.",
+      "blanks": [
+        {
+          "answers": [
+            "doesn’t study",
+            "does not study"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "He ___ (not / avoid) answering the question.",
+      "blanks": [
+        {
+          "answers": [
+            "doesn’t avoid",
+            "does not avoid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "The twins ___ (not / listen) to anyone.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t listen",
+            "do not listen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "fill-blank",
+      "text": "We ___ (not / forgive) easily.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t forgive",
+            "do not forgive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "You ___ (not / need) a new TV.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t need",
+            "do not need"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "My ankle ___ (not / hurt) anymore.",
+      "blanks": [
+        {
+          "answers": [
+            "doesn’t hurt",
+            "does not hurt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "fill-blank",
+      "text": "I ___ (not / visit) my grandparents very often.",
+      "blanks": [
+        {
+          "answers": [
+            "don’t visit",
+            "do not visit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "fill-blank",
+      "text": "She ___ (not / clean) her room.",
+      "blanks": [
+        {
+          "answers": [
+            "doesn’t clean",
+            "does not clean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "fill-blank",
+      "text": "Owen ___ (not / play) badminton.",
+      "blanks": [
+        {
+          "answers": [
+            "doesn’t play",
+            "does not play"
+          ]
+        }
+      ]
+    }
+  ]
+}

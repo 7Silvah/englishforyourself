@@ -1,0 +1,127 @@
+{
+  "kind": "wordlist",
+  "title": "The Restaurant Vocabulary",
+  "order": 24,
+  "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/restaurant-vocabulary.html",
+  "intro": "In this section you will learn vocabulary about the restaurant in English.",
+  "groups": [
+    {
+      "title": "Restaurant vocabulary",
+      "items": [
+        {
+          "en": "Appetizer"
+        },
+        {
+          "en": "Bill (UK) / check (US)"
+        },
+        {
+          "en": "Buffet"
+        },
+        {
+          "en": "Chef"
+        },
+        {
+          "en": "Cook"
+        },
+        {
+          "en": "Customer"
+        },
+        {
+          "en": "Dessert"
+        },
+        {
+          "en": "Dish"
+        },
+        {
+          "en": "Dressing"
+        },
+        {
+          "en": "Drink"
+        },
+        {
+          "en": "Drive-in restaurant"
+        },
+        {
+          "en": "Fast-food restaurant"
+        },
+        {
+          "en": "Main course"
+        },
+        {
+          "en": "Meal"
+        },
+        {
+          "en": "Menu"
+        },
+        {
+          "en": "Napkins"
+        },
+        {
+          "en": "Order"
+        },
+        {
+          "en": "Self-service restaurant"
+        },
+        {
+          "en": "Side dish"
+        },
+        {
+          "en": "Takeout"
+        },
+        {
+          "en": "Tip"
+        },
+        {
+          "en": "Tray"
+        },
+        {
+          "en": "Waiter"
+        },
+        {
+          "en": "Waitress"
+        },
+        {
+          "en": "Waitstaff"
+        },
+        {
+          "en": "Rare"
+        },
+        {
+          "en": "Medium rare"
+        },
+        {
+          "en": "Well done"
+        },
+        {
+          "en": "Overdone"
+        }
+      ]
+    },
+    {
+      "title": "The menu",
+      "items": [
+        {
+          "en": "Food"
+        },
+        {
+          "en": "Starters"
+        },
+        {
+          "en": "Main course"
+        },
+        {
+          "en": "Side dishes"
+        },
+        {
+          "en": "Drinks"
+        },
+        {
+          "en": "Desserts"
+        },
+        {
+          "en": "Snacks"
+        }
+      ]
+    }
+  ]
+}
