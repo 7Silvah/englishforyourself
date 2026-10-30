@@ -136,6 +136,45 @@ for (const file of await files(`${ROOT}/exercises`, ".json")) {
         else if (item.sentence.indexOf(item.wrong) !== item.sentence.lastIndexOf(item.wrong))
           errors.push(`${where}: "${item.wrong}" aparece más de una vez en la frase`);
         break;
+      case "match": {
+        const lefts = item.pairs.map((p) => p.left);
+        const rights = item.pairs.map((p) => p.right);
+        if (new Set(lefts).size !== lefts.length || new Set(rights).size !== rights.length)
+          errors.push(`${where}: hay elementos repetidos en una columna del match`);
+        break;
+      }
+      case "categorize": {
+        const words = item.categories.flatMap((c) => c.items);
+        if (new Set(words).size !== words.length)
+          errors.push(`${where}: una palabra aparece en más de una categoría`);
+        if (item.categories.some((c) => c.items.length === 0))
+          errors.push(`${where}: hay una categoría sin palabras`);
+        break;
+      }
+      case "translate": {
+        // Con banco de palabras, cada respuesta debe poder formarse con sus fichas
+        if (!item.wordBank) break;
+        const bank = item.wordBank;
+        for (const answer of item.answers) {
+          const left = [...bank];
+          for (const word of answer.split(/\s+/).filter(Boolean)) {
+            const at = left.indexOf(word);
+            if (at < 0) {
+              errors.push(`${where}: "${answer}" usa "${word}", que no está en wordBank`);
+              break;
+            }
+            left.splice(at, 1);
+          }
+        }
+        break;
+      }
+      case "table-fill": {
+        if (item.rows.some((r) => r.cells.length !== item.columns.length))
+          errors.push(`${where}: cada fila debe tener una celda por columna`);
+        if (!item.rows.some((r) => r.cells.some((c) => typeof c !== "string")))
+          errors.push(`${where}: la tabla no tiene ningún hueco`);
+        break;
+      }
       case "word-order": {
         // Las fichas salen de la primera respuesta: las demás deben usar las mismas
         const tiles = (s: string) => s.split(/\s+/).filter(Boolean).sort().join(" ");

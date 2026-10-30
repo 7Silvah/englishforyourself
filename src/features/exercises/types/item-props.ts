@@ -1,8 +1,8 @@
-import type { CheckResult, ItemOf, ResponseOf, Status, SupportedType } from "../check";
+import type { CheckResult, ItemOf, ResponseOf, Status, ExerciseType } from "../check";
 
 // Props comunes de los componentes de tipo: son "controlados" (la respuesta vive en
 // el player y llega por props; el componente solo avisa de los cambios con onChange).
-export type ItemProps<T extends SupportedType> = {
+export type ItemProps<T extends ExerciseType> = {
   item: ItemOf<T>;
   response: ResponseOf<T>;
   onChange: (response: ResponseOf<T>) => void;

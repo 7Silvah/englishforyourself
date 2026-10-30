@@ -137,7 +137,8 @@ export const es = {
       solution: "Respuesta correcta:",
       listen: "Escuchar la frase",
       blank: (n: number) => `Hueco ${n}`,
-      unsupported: "Este set usa tipos de ejercicio que todavía no están disponibles.",
+      noAudio:
+        "Este set necesita audio y tu navegador no tiene voces en inglés. Prueba con otro navegador.",
     },
     types: {
       multipleChoice: "Elige la opción correcta.",
@@ -147,11 +148,49 @@ export const es = {
         false: "No, tiene un error",
       },
       wordOrder: {
-        instruction: "Toca las palabras en orden para formar la frase.",
+        instruction:
+          "Toca las palabras en orden para formar la frase. Puedes arrastrarlas para cambiar el orden.",
+      },
+      tiles: {
         answer: "Tu frase",
         bank: "Palabras disponibles",
         empty: "Toca una palabra para empezar.",
         remove: (word: string) => `Quitar «${word}»`,
+      },
+      match: {
+        instruction: "Empareja cada elemento de la izquierda con uno de la derecha.",
+        choose: "Elige…",
+        pairOf: (left: string) => `Pareja de «${left}»`,
+      },
+      categorize: {
+        instruction: "Coloca cada palabra en su grupo: arrástrala, o tócala y elige el grupo.",
+        bank: "Palabras sin colocar",
+        allPlaced: "Ya colocaste todas las palabras.",
+        selectFirst: "Toca primero una palabra.",
+        placeHere: "Colocar aquí",
+        placeIn: (word: string, group: string) => `Colocar «${word}» en ${group}`,
+        remove: (word: string, group: string) => `Quitar «${word}» de ${group}`,
+      },
+      translate: {
+        instruction: "Traduce al inglés.",
+        tiles:
+          "Forma la frase en inglés con las palabras. Puedes arrastrarlas para cambiar el orden.",
+        input: "Tu traducción",
+      },
+      dictation: {
+        instruction: "Escucha la frase y escríbela.",
+        input: "Lo que oyes",
+      },
+      tableFill: {
+        instruction: "Completa los huecos de la tabla.",
+        cell: (row: string, column: string) => `${row}, ${column}`,
+      },
+      listenChoose: {
+        instruction: "Escucha y elige lo que oyes.",
+      },
+      listen: {
+        play: "Escuchar",
+        slow: "Más despacio",
       },
       transform: {
         instruction: "Escribe la frase en forma",
@@ -188,7 +227,16 @@ export const es = {
       nextSet: "Siguiente ejercicio",
       backToList: "Volver a ejercicios",
     },
+    drag: {
+      instructions:
+        "Para mover una palabra con el teclado, tócala con Espacio o Enter: no hace falta arrastrar.",
+      start: (word: string) => `Moviendo «${word}».`,
+      over: (word: string) => `«${word}» sobre una nueva posición.`,
+      dropped: (word: string) => `«${word}» colocada.`,
+      cancelled: (word: string) => `Movimiento de «${word}» cancelado.`,
+    },
     printPage: {
+      audioOnly: "Ejercicio de audio: hazlo en la app.",
       back: "Volver al ejercicio",
       name: "Nombre:",
       date: "Fecha:",

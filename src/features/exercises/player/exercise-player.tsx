@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Progress, ProgressLabel } from "@/components/ui/progress";
 import { es } from "@/i18n/es";
-import type { SupportedItem } from "../check";
+import type { ExerciseItem } from "../check";
 import { ItemStep } from "./item-step";
 import type { ItemRecord, Mode } from "./logic";
 
 type Props = {
   setId: string;
-  items: readonly SupportedItem[];
+  items: readonly ExerciseItem[];
   mode: Mode;
   onFinish: (records: ItemRecord[]) => void;
 };

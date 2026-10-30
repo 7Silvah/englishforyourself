@@ -47,3 +47,61 @@ export const errorCorrection: ItemOf<"error-correction"> = {
   wrong: "don't",
   answers: ["doesn't"],
 };
+
+export const match: ItemOf<"match"> = {
+  id: "mt",
+  type: "match",
+  pairs: [
+    { left: "I", right: "am" },
+    { left: "she", right: "is" },
+    { left: "we", right: "are" },
+  ],
+};
+
+export const categorize: ItemOf<"categorize"> = {
+  id: "ct",
+  type: "categorize",
+  categories: [
+    { label: "a", items: ["book", "car"] },
+    { label: "an", labelEs: "sonido de vocal", items: ["apple", "hour"] },
+  ],
+};
+
+export const translateBank: ItemOf<"translate"> = {
+  id: "tlb",
+  type: "translate",
+  es: "Soy profesora.",
+  answers: ["I am a teacher."],
+  wordBank: ["I", "am", "a", "an", "teacher."],
+};
+
+export const translateTyped: ItemOf<"translate"> = {
+  id: "tlt",
+  type: "translate",
+  es: "Tengo hambre.",
+  answers: ["I am hungry."],
+};
+
+export const dictation: ItemOf<"dictation"> = {
+  id: "dc",
+  type: "dictation",
+  text: "Where do you live?",
+};
+
+export const tableFill: ItemOf<"table-fill"> = {
+  id: "tb",
+  type: "table-fill",
+  columns: ["Positive", "Negative"],
+  rows: [
+    { header: "she", cells: ["She works.", { answers: ["She doesn't work."] }] },
+    { header: "they", cells: [{ answers: ["They work."] }, "They don't work."] },
+  ],
+};
+
+export const listenChoose: ItemOf<"listen-choose"> = {
+  id: "lc",
+  type: "listen-choose",
+  audioText: "I can't swim.",
+  options: ["I can't swim.", "I can swim."],
+  answer: 0,
+};

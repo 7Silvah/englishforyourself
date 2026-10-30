@@ -1,10 +1,10 @@
 import { percent } from "@/features/progress/logic";
-import type { CheckResult, ItemResponse, SupportedItem } from "../check";
+import type { CheckResult, ItemResponse, ExerciseItem } from "../check";
 
 export type Mode = "practice" | "exam";
 
 /** Un ítem ya respondido y corregido */
-export type ItemRecord = { item: SupportedItem; response: ItemResponse; result: CheckResult };
+export type ItemRecord = { item: ExerciseItem; response: ItemResponse; result: CheckResult };
 
 /**
  * "Casi" (una falta de ortografía) solo da otra oportunidad una vez y solo en práctica.

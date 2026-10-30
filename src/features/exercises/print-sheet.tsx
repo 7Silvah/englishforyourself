@@ -5,11 +5,14 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
 import {
-  isSupported,
+  categorizeDisplay,
+  categorizeItems,
+  matchDisplay,
   sentenceTokens,
+  translateDisplay,
   wordOrderDisplay,
   wordOrderTokens,
-  type SupportedItem,
+  type ExerciseItem,
 } from "./check";
 import type { ExerciseSet } from "./schema";
 import { answerKey, splitBlanks } from "./solution";
@@ -38,7 +41,7 @@ function WithBlanks({ text }: { text: string }) {
   ));
 }
 
-function PrintItem({ item, seed }: { item: SupportedItem; seed: string }) {
+function PrintItem({ item, seed }: { item: ExerciseItem; seed: string }) {
   switch (item.type) {
     case "fill-blank":
       return (
@@ -95,13 +98,97 @@ function PrintItem({ item, seed }: { item: SupportedItem; seed: string }) {
           <Line wide />
         </p>
       );
+    case "match": {
+      // Izquierda numerada en orden; derecha con letras y barajada
+      const order = matchDisplay(item, seed);
+      return (
+        <div className="grid grid-cols-2 gap-x-8">
+          <ol className="list-[lower-roman] pl-5">
+            {item.pairs.map((p) => (
+              <li key={p.left}>
+                {p.left} <Line />
+              </li>
+            ))}
+          </ol>
+          <ol className="list-[upper-alpha] pl-5">
+            {order.map((r) => (
+              <li key={r}>{item.pairs[r]?.right}</li>
+            ))}
+          </ol>
+        </div>
+      );
+    }
+    case "categorize": {
+      const words = categorizeItems(item);
+      return (
+        <>
+          <p lang="en">
+            {categorizeDisplay(item, seed)
+              .map((i) => words[i]?.text)
+              .join("  /  ")}
+          </p>
+          <div className="mt-2 grid grid-cols-2 gap-3">
+            {item.categories.map((c) => (
+              <div key={c.label} className="min-h-20 rounded border p-2">
+                <strong lang="en">{c.label}</strong>
+                {c.labelEs && <span className="text-muted-foreground"> · {c.labelEs}</span>}
+              </div>
+            ))}
+          </div>
+        </>
+      );
+    }
+    case "translate":
+      return (
+        <p>
+          <span lang="es">{item.es}</span>
+          {item.wordBank && (
+            <span lang="en" className="block text-muted-foreground">
+              {translateDisplay(item, seed)
+                .map((i) => item.wordBank?.[i])
+                .join("  /  ")}
+            </span>
+          )}
+          <Line wide />
+        </p>
+      );
+    case "table-fill":
+      return (
+        <table lang="en" className="mt-1 border-collapse text-sm">
+          <thead>
+            <tr>
+              <td />
+              {item.columns.map((c) => (
+                <th key={c} className="border px-2 py-1 text-left">
+                  {c}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {item.rows.map((row) => (
+              <tr key={row.header}>
+                <th className="border px-2 py-1 text-left">{row.header}</th>
+                {row.cells.map((cell, c) => (
+                  <td key={c} className="h-8 min-w-32 border px-2 py-1">
+                    {typeof cell === "string" ? cell : ""}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      );
+    case "dictation":
+    case "listen-choose":
+      return <p className="text-muted-foreground">{t.printPage.audioOnly}</p>;
   }
 }
 
 // Hoja para imprimir o guardar como PDF desde el navegador (sustituye a los PDF originales).
 // Las clases "print:" de Tailwind solo se aplican al imprimir.
 export function PrintSheet({ id, set }: { id: string; set: ExerciseSet }) {
-  const items = set.items.filter(isSupported);
+  const items = set.items;
 
   return (
     <article className="mx-auto max-w-3xl print:max-w-none print:text-[11pt]">

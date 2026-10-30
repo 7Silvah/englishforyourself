@@ -76,8 +76,8 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/content/` | Contenido como datos: `course/units/NN-slug.mdx`, `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`, `levels.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
 | `scripts/` | `content-check.ts`, `migrate/` (HTML/PDF → contenido), `vite-plugin-content-meta.ts` | Se ejecutan con `tsx` y usan `tsconfig.scripts.json`. |
 | `src/i18n/es.ts` | Todos los textos de la UI | **Ningún texto de UI suelto en JSX.** |
-| `src/lib/` | Utilidades puras (`cn`, `speak`, slugs) | |
-| `src/hooks/` | Hooks compartidos (`use-theme`) | Si un archivo exporta un componente, el hook o el contexto van en otro archivo (lo exige fast refresh). |
+| `src/lib/` | Utilidades puras (`cn`, `speech`, `random`, slugs) | |
+| `src/hooks/` | Hooks compartidos (`use-theme`, `use-english-voice`) | Si un archivo exporta un componente, el hook o el contexto van en otro archivo (lo exige fast refresh). |
 | `src/dev/` | Páginas solo de desarrollo (`/dev/ui`) | Se cargan con `lazy` detrás de `import.meta.env.DEV`; nunca llegan al build. |
 
 Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
@@ -109,7 +109,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 
 ## Tests
 
-- Vitest + Testing Library, archivos `*.test.ts(x)` junto al código. Configuración en `vitest.config.ts` y `src/test/setup.ts`; ítems de ejemplo en `src/test/fixtures.ts`.
+- Vitest + Testing Library, archivos `*.test.ts(x)` junto al código. Configuración en `vitest.config.ts` y `src/test/setup.ts`; ítems de ejemplo en `src/test/fixtures.ts` y `Harness` (un tipo de ejercicio con su respuesta en estado) en `src/test/item-harness.tsx`. La voz se simula con `vi.mock("@/lib/speech")`: jsdom no tiene `speechSynthesis`.
 - Lógica pura (`check.ts`, `logic.ts`): casos concretos, incluidos los límites. Componentes: busca por rol y nombre accesible (`getByRole("textbox", { name: "Hueco 1" })`), como lo haría un lector de pantalla; prueba también el teclado.
 - Componentes con `<Link>`: envuélvelos en un router de memoria (ver `exercise-session.test.tsx`).
 
