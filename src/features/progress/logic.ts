@@ -7,7 +7,16 @@ export type Attempt = {
   at: string; // ISO
 };
 
-export type Mistake = { setId: string; itemId: string; count: number; at: string };
+export type Mistake = {
+  setId: string;
+  itemId: string;
+  count: number; // veces fallado
+  at: string; // último fallo (ISO)
+  rightDays: string[]; // días distintos en que se acertó después de fallarlo
+};
+
+/** Aciertos en días distintos para que un ítem salga de "Repasar mis errores" */
+export const REVIEW_EXIT_DAYS = 2;
 
 export type Streak = { days: number; lastDay: string }; // lastDay: "2026-10-30"
 
@@ -64,13 +73,11 @@ export function applyResults(
   outcomes: readonly ItemOutcome[],
   { complete, now }: { complete: boolean; now: Date },
 ): ProgressData {
-  const at = now.toISOString();
-  const mistakes = { ...data.mistakes };
-  for (const { itemId, correct } of outcomes) {
-    if (correct) continue;
-    const key = mistakeKey(setId, itemId);
-    mistakes[key] = { setId, itemId, count: (mistakes[key]?.count ?? 0) + 1, at };
-  }
+  const mistakes = updateMistakes(
+    data.mistakes,
+    outcomes.map((o) => ({ ...o, setId })),
+    now,
+  );
 
   const attempts = { ...data.attempts };
   if (complete && outcomes.length > 0) {
@@ -80,7 +87,7 @@ export function applyResults(
       best: Math.max(prev?.best ?? 0, score),
       last: score,
       count: (prev?.count ?? 0) + 1,
-      at,
+      at: now.toISOString(),
     };
   }
 
@@ -89,5 +96,110 @@ export function applyResults(
     mistakes,
     streak: nextStreak(data.streak, dayKey(now)),
     lastSetId: setId,
+  };
+}
+
+export type ReviewOutcome = { setId: string; itemId: string; correct: boolean };
+
+/**
+ * Actualiza la lista de errores:
+ * - fallar un ítem lo añade (o lo vuelve a poner a cero de aciertos);
+ * - acertar un ítem de la lista suma el día; con REVIEW_EXIT_DAYS días distintos, sale.
+ */
+export function updateMistakes(
+  mistakes: Readonly<Record<string, Mistake>>,
+  outcomes: readonly ReviewOutcome[],
+  now: Date,
+): Record<string, Mistake> {
+  const next = { ...mistakes };
+  const day = dayKey(now);
+  for (const { setId, itemId, correct } of outcomes) {
+    const key = mistakeKey(setId, itemId);
+    const prev = next[key];
+    if (!correct) {
+      next[key] = {
+        setId,
+        itemId,
+        count: (prev?.count ?? 0) + 1,
+        at: now.toISOString(),
+        rightDays: [],
+      };
+      continue;
+    }
+    if (!prev) continue;
+    const rightDays = prev.rightDays.includes(day) ? prev.rightDays : [...prev.rightDays, day];
+    if (rightDays.length >= REVIEW_EXIT_DAYS) delete next[key];
+    else next[key] = { ...prev, rightDays };
+  }
+  return next;
+}
+
+/** Resultado de un repaso (errores o mixto): ítems de varios sets a la vez. No es un intento de ningún set. */
+export function applyReview(
+  data: ProgressData,
+  outcomes: readonly ReviewOutcome[],
+  now: Date,
+): ProgressData {
+  return {
+    ...data,
+    mistakes: updateMistakes(data.mistakes, outcomes, now),
+    streak: nextStreak(data.streak, dayKey(now)),
+  };
+}
+
+// ---------- Datos guardados (localStorage) ----------
+
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  typeof value === "object" && value !== null && !Array.isArray(value);
+
+/**
+ * Convierte lo guardado por una versión anterior de la app a la forma actual.
+ * Los datos de localStorage son externos: se comprueban campo a campo y lo que no
+ * tenga sentido se descarta, en lugar de confiar en ellos.
+ * - v1 → v2: los errores ganan "rightDays" (empiezan sin aciertos).
+ */
+export function migrateProgress(persisted: unknown, version: number): ProgressData {
+  if (!isRecord(persisted)) return initialProgress;
+  const mistakes: Record<string, Mistake> = {};
+  if (isRecord(persisted.mistakes))
+    for (const [key, value] of Object.entries(persisted.mistakes)) {
+      if (!isRecord(value)) continue;
+      const { setId, itemId, count, at, rightDays } = value;
+      if (typeof setId !== "string" || typeof itemId !== "string") continue;
+      mistakes[key] = {
+        setId,
+        itemId,
+        count: typeof count === "number" ? count : 1,
+        at: typeof at === "string" ? at : new Date(0).toISOString(),
+        rightDays:
+          version >= 2 && Array.isArray(rightDays)
+            ? rightDays.filter((d): d is string => typeof d === "string")
+            : [],
+      };
+    }
+
+  const attempts: Record<string, Attempt> = {};
+  if (isRecord(persisted.attempts))
+    for (const [id, value] of Object.entries(persisted.attempts)) {
+      if (!isRecord(value)) continue;
+      const { best, last, count, at } = value;
+      if (typeof best !== "number" || typeof last !== "number") continue;
+      attempts[id] = {
+        best,
+        last,
+        count: typeof count === "number" ? count : 1,
+        at: typeof at === "string" ? at : new Date(0).toISOString(),
+      };
+    }
+
+  const streak = isRecord(persisted.streak) ? persisted.streak : null;
+  return {
+    attempts,
+    mistakes,
+    streak:
+      streak && typeof streak.days === "number" && typeof streak.lastDay === "string"
+        ? { days: streak.days, lastDay: streak.lastDay }
+        : null,
+    lastSetId: typeof persisted.lastSetId === "string" ? persisted.lastSetId : null,
   };
 }

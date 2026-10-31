@@ -334,6 +334,35 @@ export const es = {
     showTranslations: "Mostrar traducciones",
     emptySection: "Esta sección todavía no tiene lecciones.",
   },
+  review: {
+    title: "Repaso",
+    description: "Repasa tus errores y mezcla ejercicios de las unidades que ya dominas.",
+    back: "Volver al repaso",
+    loading: "Preparando el repaso…",
+    mistakes: {
+      title: "Repasar mis errores",
+      explain:
+        "Los ejercicios que fallas vuelven aquí. Cada uno sale de la lista cuando lo aciertas dos veces en días distintos.",
+      pending: (n: number) =>
+        n === 1 ? "Tienes 1 ejercicio pendiente." : `Tienes ${n} ejercicios pendientes.`,
+      empty: "No tienes errores pendientes. ¡Buen trabajo!",
+      start: (n: number) => (n === 1 ? "Repasar 1 ejercicio" : `Repasar ${n} ejercicios`),
+      session: "Repaso de errores",
+      sessionHint: "Acierta cada ejercicio también otro día para que salga de la lista.",
+    },
+    mixed: {
+      title: "Repaso mixto",
+      explain:
+        "Ejercicios al azar de las unidades que ya dominas, para que no se te olviden con el tiempo.",
+      units: (n: number) => (n === 1 ? "1 unidad dominada" : `${n} unidades dominadas`),
+      start: "Hacer el repaso mixto",
+      locked:
+        "Domina al menos una unidad de este bloque (repaso con 80 % o más) para desbloquearlo.",
+      session: (block: string) => `Repaso mixto · ${block}`,
+    },
+    home: (n: number) =>
+      n === 1 ? "Tienes 1 ejercicio para repasar" : `Tienes ${n} ejercicios para repasar`,
+  },
   progress: {
     title: "Tu progreso",
     description: "Unidades, ejercicios y repasos completados.",
@@ -344,7 +373,11 @@ export const es = {
     average: "Media de tu mejor nota",
     streak: "Racha",
     days: (n: number) => (n === 1 ? "1 día" : `${n} días`),
-    mistakes: "Ejercicios fallados",
+    mistakes: "Errores por repasar",
+    units: "Unidades del curso",
+    unitsMastered: (mastered: number, total: number) => `${mastered} de ${total} dominadas`,
+    goToReview: "Ir al repaso",
+    goToCourse: "Ver el curso",
     attempts: (n: number) => (n === 1 ? "1 intento" : `${n} intentos`),
     last: (n: number) => `Último: ${n} %`,
     reset: "Borrar mi progreso",
