@@ -160,7 +160,9 @@ responder). El resultado de cada respuesta se anuncia con `aria-live`. Hay que m
 
 ## Ramas (regla fija)
 
-- La única rama de trabajo es **`desarrollo`**. Todos los commits van ahí, sean de la fase que sean (F8, F9, F10…).
-- **Nunca crees, cambies, renombres ni borres ramas.** Si crees que hace falta otra rama, detente y pregúntale a Frank antes de tocar nada.
-- `main` es la rama estable: no se commitea directo en ella; el trabajo entra solo por pull request, que abre Frank.
-- Al terminar una tarea: commit en `desarrollo` y `git push origin desarrollo`. Nada más.
+- En GitHub solo viven dos ramas fijas: **`main`** (estable) y **`desarrollo`** (integración).
+- Cada fase o tarea se hace en **una rama corta propia** creada desde lo último de `desarrollo` (`f11-paridad`, `f12-repaso`…). Al terminar: commits en esa rama y `git push -u origin <rama>`.
+- Frank abre el pull request **hacia `desarrollo`** y lo fusiona en GitHub. Después: `git switch desarrollo && git pull`, y la siguiente fase sale de ahí.
+- `desarrollo` pasa a `main` solo por pull request, cuando Frank lo decide. Nunca se commitea directo en `main` ni en `desarrollo`.
+- No renombres ni borres ramas de GitHub. Las ramas de fase se borran solas al fusionar el PR (opción *Automatically delete head branches* del repo).
+- Si una fase depende de otra que aún no está fusionada, avisa a Frank antes de empezarla.
