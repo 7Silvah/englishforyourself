@@ -11,9 +11,12 @@ import type { Plugin } from "vite";
 import { parse as parseYaml } from "yaml";
 
 const QUERY = "?meta";
+// "?words": solo las palabras { en, es } de una lista, para el índice del buscador
+const WORDS_QUERY = "?words";
 // Id virtual: "\0efy-meta:<ruta>.meta.js". El \0 indica a otros plugins que no es un archivo
 // real, y el final .meta.js evita que el plugin de JSON lo tome por un .json.
 const PREFIX = "\0efy-meta:";
+const WORDS_PREFIX = "\0efy-words:";
 const SUFFIX = ".meta.js";
 const HEAVY_KEYS = new Set(["groups", "items"]);
 
@@ -38,24 +41,46 @@ export function jsonMeta(data: Record<string, unknown>): Record<string, unknown>
   return { ...meta, itemCount };
 }
 
+// Palabras de una lista (sin significados, ejemplos ni notas): lo mínimo para buscar
+export function wordsOf(data: Record<string, unknown>): { en: string; es?: string }[] {
+  const groups = Array.isArray(data.groups) ? (data.groups as { items?: unknown[] }[]) : [];
+  return groups.flatMap((g) =>
+    (g.items ?? []).flatMap((item) => {
+      const { en, es } = item as { en?: unknown; es?: unknown };
+      if (typeof en !== "string") return [];
+      return [typeof es === "string" && es ? { en, es } : { en }];
+    }),
+  );
+}
+
 export function contentMeta(): Plugin {
   return {
     name: "efy:content-meta",
     enforce: "pre",
     resolveId(source, importer) {
-      if (!source.endsWith(QUERY) || !importer) return null;
-      const file = path.resolve(path.dirname(importer), source.slice(0, -QUERY.length));
-      return PREFIX + file + SUFFIX;
+      if (!importer) return null;
+      for (const [query, prefix] of [
+        [QUERY, PREFIX],
+        [WORDS_QUERY, WORDS_PREFIX],
+      ] as const)
+        if (source.endsWith(query))
+          return (
+            prefix + path.resolve(path.dirname(importer), source.slice(0, -query.length)) + SUFFIX
+          );
+      return null;
     },
     async load(id) {
-      if (!id.startsWith(PREFIX)) return null;
-      const file = id.slice(PREFIX.length, -SUFFIX.length);
-      this.addWatchFile(file); // si cambia el archivo, se recarga su módulo ?meta
+      const words = id.startsWith(WORDS_PREFIX);
+      if (!words && !id.startsWith(PREFIX)) return null;
+      const file = id.slice((words ? WORDS_PREFIX : PREFIX).length, -SUFFIX.length);
+      this.addWatchFile(file); // si cambia el archivo, se recarga su módulo virtual
       const source = await readFile(file, "utf8");
-      const meta = file.endsWith(".json")
-        ? jsonMeta(JSON.parse(source) as Record<string, unknown>)
-        : readFrontmatter(source);
-      return `export default ${JSON.stringify(meta)};`;
+      const data = words
+        ? wordsOf(JSON.parse(source) as Record<string, unknown>)
+        : file.endsWith(".json")
+          ? jsonMeta(JSON.parse(source) as Record<string, unknown>)
+          : readFrontmatter(source);
+      return `export default ${JSON.stringify(data)};`;
     },
   };
 }

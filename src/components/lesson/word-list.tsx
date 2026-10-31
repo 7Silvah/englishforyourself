@@ -1,19 +1,24 @@
+import { Switch } from "@/components/ui/switch";
 import type { Word, WordList as WordListData } from "@/content/schema";
+import { useSettingsStore } from "@/features/settings/store";
+import { es } from "@/i18n/es";
+import { SpeakButton } from "./speak-button";
 
 function hasDetails(words: Word[]) {
   return words.some((w) => (w.meanings?.length ?? 0) > 0 || w.example);
 }
 
-// Palabras sueltas (vocabulario): rejilla compacta
-function WordGrid({ words }: { words: Word[] }) {
+// Palabras sueltas (vocabulario): rejilla compacta, con 🔊 para oír cada palabra
+function WordGrid({ words, showEs }: { words: Word[]; showEs: boolean }) {
   return (
     <ul className="grid gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
       {words.map((w) => (
-        <li key={w.en} className="border-b border-dashed py-1.5">
+        <li key={w.en} className="flex items-center gap-1 border-b border-dashed py-1">
           <span lang="en" className="font-medium">
             {w.en}
           </span>
-          {w.es && <span className="ml-2 text-sm text-muted-foreground">{w.es}</span>}
+          {showEs && w.es && <span className="text-sm text-muted-foreground">{w.es}</span>}
+          <SpeakButton text={w.en} className="ml-auto size-7" />
         </li>
       ))}
     </ul>
@@ -21,20 +26,21 @@ function WordGrid({ words }: { words: Word[] }) {
 }
 
 // Expresiones con definición (phrasal verbs, idioms): lista de definiciones
-function WordDefinitions({ words }: { words: Word[] }) {
+function WordDefinitions({ words, showEs }: { words: Word[]; showEs: boolean }) {
   return (
     <dl className="divide-y rounded-lg border">
       {words.map((w) => {
         const meanings = w.meanings ?? [];
         return (
           <div key={w.en} className="px-4 py-3" lang="en">
-            <dt className="font-semibold">
+            <dt className="flex flex-wrap items-center gap-x-2 font-semibold">
               {w.en}
-              {w.es && (
-                <span lang="es" className="ml-2 text-sm font-normal text-muted-foreground">
+              {showEs && w.es && (
+                <span lang="es" className="text-sm font-normal text-muted-foreground">
                   {w.es}
                 </span>
               )}
+              <SpeakButton text={w.en} className="size-7" />
             </dt>
             {meanings.length === 1 && <dd className="mt-1 text-muted-foreground">{meanings[0]}</dd>}
             {meanings.length > 1 && (
@@ -55,6 +61,11 @@ function WordDefinitions({ words }: { words: Word[] }) {
 }
 
 export function WordList({ list }: { list: WordListData }) {
+  const showTranslations = useSettingsStore((state) => state.showTranslations);
+  const setShowTranslations = useSettingsStore((state) => state.setShowTranslations);
+  // El interruptor solo tiene sentido si la lista tiene alguna traducción
+  const hasTranslations = list.groups.some((g) => g.items.some((w) => w.es));
+
   return (
     <div className="space-y-8">
       {list.introEs && <p className="leading-7">{list.introEs}</p>}
@@ -62,6 +73,12 @@ export function WordList({ list }: { list: WordListData }) {
         <p lang="en" className="leading-7 text-muted-foreground">
           {list.intro}
         </p>
+      )}
+      {hasTranslations && (
+        <label className="flex w-fit items-center gap-2 text-sm font-medium">
+          <Switch checked={showTranslations} onCheckedChange={setShowTranslations} />
+          {es.library.showTranslations}
+        </label>
       )}
       {list.groups.map((group, i) => (
         <section key={group.title ?? i} className="space-y-3">
@@ -76,9 +93,9 @@ export function WordList({ list }: { list: WordListData }) {
             </h2>
           )}
           {hasDetails(group.items) ? (
-            <WordDefinitions words={group.items} />
+            <WordDefinitions words={group.items} showEs={showTranslations} />
           ) : (
-            <WordGrid words={group.items} />
+            <WordGrid words={group.items} showEs={showTranslations} />
           )}
         </section>
       ))}

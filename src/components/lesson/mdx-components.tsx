@@ -8,6 +8,7 @@ import { FalseFriend } from "./false-friend";
 import { Formula } from "./formula";
 import { GrammarTable } from "./grammar-table";
 import { MdxLink } from "./mdx-link";
+import { MdxListItem } from "./mdx-list-item";
 import { Modes } from "./modes";
 import { Tip } from "./tip";
 
@@ -31,7 +32,7 @@ export const mdxComponents = {
   ol: (props: ComponentPropsWithoutRef<"ol">) => (
     <ol className="my-3 list-decimal space-y-1 pl-6 marker:text-muted-foreground" {...props} />
   ),
-  li: (props: ComponentPropsWithoutRef<"li">) => <li className="leading-7" {...props} />,
+  li: MdxListItem, // dentro de <Examples> añade el botón 🔊
   strong: (props: ComponentPropsWithoutRef<"strong">) => (
     <strong className="font-semibold" {...props} />
   ),
