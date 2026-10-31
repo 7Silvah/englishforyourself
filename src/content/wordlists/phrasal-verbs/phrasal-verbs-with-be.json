@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Be",
   "order": 4,
+  "level": "B2",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-be.html",
   "intro": "In this section you will learn useful phrasal verbs with be in English.",
   "groups": [
@@ -10,146 +12,214 @@
       "items": [
         {
           "en": "To be above",
+          "es": "estar por encima de, ser superior a",
           "meanings": [
             "To be socially superior."
-          ]
+          ],
+          "example": "He thinks he is above everyone else.",
+          "particle": "above"
         },
         {
           "en": "To be after",
+          "es": "buscar, ir detrás de",
           "meanings": [
             "To be searching or pursuing someone or something."
-          ]
+          ],
+          "example": "The police are after the thief.",
+          "particle": "after"
         },
         {
           "en": "To be against",
+          "es": "estar en contra de",
           "meanings": [
             "To have an opposing view with someone or something."
-          ]
+          ],
+          "example": "Most people are against the new law.",
+          "particle": "against"
         },
         {
           "en": "To be around",
+          "es": "estar (presente), andar por aquí",
           "meanings": [
             "To be present."
-          ]
+          ],
+          "example": "Will you be around this afternoon?",
+          "particle": "around"
         },
         {
           "en": "To be away",
+          "es": "estar fuera, estar de viaje",
           "meanings": [
             "When you are somewhere else."
-          ]
+          ],
+          "example": "My boss is away this week.",
+          "particle": "away"
         },
         {
           "en": "To be cut out for",
+          "es": "estar hecho para, servir para",
           "meanings": [
             "To be suited to do something."
-          ]
+          ],
+          "example": "I'm not cut out for this job."
         },
         {
           "en": "To be down",
+          "es": "estar decaído, estar triste",
           "meanings": [
             "When you are unhappy."
-          ]
+          ],
+          "example": "She's been down since she lost her job.",
+          "particle": "down"
         },
         {
           "en": "To be down on",
+          "es": "tenerle antipatía a, criticar",
           "meanings": [
             "When you dislike something or someone."
-          ]
+          ],
+          "example": "Why are you always down on me?",
+          "particle": "down on"
         },
         {
           "en": "To be down with",
+          "es": "estar enfermo de; estar de acuerdo con",
           "meanings": [
             "To agree with an idea.",
             "To fall ill."
-          ]
+          ],
+          "example": "Sam is down with the flu.",
+          "particle": "down with"
         },
         {
           "en": "To be in for",
+          "es": "esperarle a uno (algo, normalmente malo)",
           "meanings": [
             "To anticipate an event."
-          ]
+          ],
+          "example": "You're in for a surprise.",
+          "particle": "in for"
         },
         {
           "en": "To be in on",
+          "es": "estar al tanto de, participar en",
           "meanings": [
             "To be part of something."
-          ]
+          ],
+          "example": "Was your sister in on the secret?",
+          "particle": "in on"
         },
         {
           "en": "To be into",
+          "es": "gustarle a uno, estar metido en",
           "meanings": [
             "To be attracted by something."
-          ]
+          ],
+          "example": "I'm really into jazz.",
+          "particle": "into"
         },
         {
           "en": "To be off",
+          "es": "irse; estar pasado (un alimento)",
           "meanings": [
             "To leave from somewhere.",
             "When food has gone bad."
-          ]
+          ],
+          "example": "This milk is off: it smells bad.",
+          "particle": "off"
         },
         {
           "en": "To be off something",
+          "es": "haber dejado (algo)",
           "meanings": [
             "Stop using something."
-          ]
+          ],
+          "example": "He's off sugar for a month.",
+          "particle": "off"
         },
         {
           "en": "To be on about",
+          "es": "hablar sin parar de, querer decir",
           "meanings": [
             "To talk about something continuously without knowing the meaning."
-          ]
+          ],
+          "example": "What is he on about?",
+          "particle": "on about"
         },
         {
           "en": "To be on",
+          "es": "estar encendido; estar tomando (medicación)",
           "meanings": [
             "When you take medication.",
             "When something is working or functioning."
-          ]
+          ],
+          "example": "Is the oven still on?",
+          "particle": "on"
         },
         {
           "en": "To be onto something",
+          "es": "estar sobre la pista de algo",
           "meanings": [
             "To have discovered an important or promising idea."
-          ]
+          ],
+          "example": "I think the scientists are onto something big.",
+          "particle": "onto"
         },
         {
           "en": "To be out",
+          "es": "no estar, haber salido",
           "meanings": [
             "When you are not in your usual place."
-          ]
+          ],
+          "example": "Sorry, Maria is out right now.",
+          "particle": "out"
         },
         {
           "en": "To be out of",
+          "es": "no tener, habérsele acabado (algo) a uno",
           "meanings": [
             "When you are lacking something."
-          ]
+          ],
+          "example": "We're out of bread.",
+          "particle": "out of"
         },
         {
           "en": "To be out to",
+          "es": "estar decidido a (con mala intención)",
           "meanings": [
             "When you have an intention to achieve something. It has a negative connotation."
-          ]
+          ],
+          "example": "He's out to get revenge.",
+          "particle": "out to"
         },
         {
           "en": "To be up",
+          "es": "estar levantado, estar despierto",
           "meanings": [
             "To be awake.",
             "When something has increased."
-          ]
+          ],
+          "example": "Are you still up? It's late.",
+          "particle": "up"
         },
         {
           "en": "To be up for",
+          "es": "tener ganas de, animarse a",
           "meanings": [
             "When you are willing to do something."
-          ]
+          ],
+          "example": "Are you up for a game of tennis?",
+          "particle": "up for"
         },
         {
           "en": "To be up to",
+          "es": "tramar, estar haciendo",
           "meanings": [
             "To be involved in something.",
             "To be capable of doing an activity."
-          ]
+          ],
+          "example": "What are you up to?",
+          "particle": "up to"
         }
       ]
     }

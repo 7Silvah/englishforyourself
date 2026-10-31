@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Get",
   "order": 8,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-get.html",
   "intro": "In this section you will learn useful phrasal verbs with get in English.",
   "groups": [
@@ -10,181 +12,260 @@
       "items": [
         {
           "en": "To get about",
+          "es": "moverse, desplazarse; difundirse (una noticia)",
           "meanings": [
             "To travel and visit places frequently.",
             "To move around actively.",
             "To spread information or rumors."
-          ]
+          ],
+          "example": "It's easy to get about the city by bike.",
+          "particle": "about"
         },
         {
           "en": "To get across",
+          "es": "hacer entender, transmitir",
           "meanings": [
             "To convey an opinion successfully.",
             "To move from one place to another."
-          ]
+          ],
+          "example": "It's hard to get my ideas across in English.",
+          "particle": "across"
         },
         {
           "en": "To get after",
+          "es": "perseguir; insistir a alguien (para que haga algo)",
           "meanings": [
             "To chase or catch someone or something.",
             "To make someone do something."
-          ]
+          ],
+          "example": "The cat got after the mouse.",
+          "particle": "after"
         },
         {
           "en": "To get ahead",
+          "es": "progresar, salir adelante",
           "meanings": [
             "To succeed in your endeavors."
-          ]
+          ],
+          "example": "You need to work hard to get ahead.",
+          "particle": "ahead"
         },
         {
           "en": "To get along",
+          "es": "llevarse bien; arreglárselas",
           "meanings": [
             "To have a healthy relationship with someone else.",
             "To leave.",
             "To cope with a situation."
-          ]
+          ],
+          "example": "My brother and I get along well.",
+          "particle": "along"
         },
         {
           "en": "To get around",
+          "es": "desplazarse, moverse; sortear (un problema)",
           "meanings": [
             "To travel frequently to different places.",
             "To physically move around.",
             "To overcome a problem."
-          ]
+          ],
+          "example": "Grandpa uses a wheelchair to get around.",
+          "particle": "around"
         },
         {
           "en": "To get at",
+          "es": "insinuar, querer decir; alcanzar",
           "meanings": [
             "To imply something.",
             "To reach or obtain something."
-          ]
+          ],
+          "example": "What are you getting at?",
+          "particle": "at"
         },
         {
           "en": "To get back",
+          "es": "volver, regresar",
           "meanings": [
             "To return to a previous location."
-          ]
+          ],
+          "example": "What time did you get back home?",
+          "particle": "back"
         },
         {
           "en": "To get back at",
+          "es": "vengarse de",
           "meanings": [
             "To seek revenge against someone or something."
-          ]
+          ],
+          "example": "She wants to get back at him for the joke.",
+          "particle": "back at"
         },
         {
           "en": "To get behind",
+          "es": "apoyar; atrasarse",
           "meanings": [
             "To support someone or something.",
             "To be late in something; not keeping up with something."
-          ]
+          ],
+          "example": "The whole town got behind the local team.",
+          "particle": "behind"
         },
         {
           "en": "To get by",
+          "es": "arreglárselas",
           "meanings": [
             "To be able to cope with a particular situation."
-          ]
+          ],
+          "example": "I can get by with a little Spanish.",
+          "particle": "by"
         },
         {
           "en": "To get down",
+          "es": "bajar(se); deprimir",
           "meanings": [
             "To leave a vehicle.",
             "To make someone depressed."
-          ]
+          ],
+          "example": "Get down from that tree!",
+          "particle": "down"
         },
         {
           "en": "To get something down",
+          "es": "apuntar, anotar",
           "meanings": [
             "To write notes or information."
-          ]
+          ],
+          "example": "Wait, let me get your address down.",
+          "particle": "down"
         },
         {
           "en": "To get in",
+          "es": "entrar; subir (a un vehículo); ser admitido",
           "meanings": [
             "When you enter a place or a vehicle.",
             "When you get admitted to an institution."
-          ]
+          ],
+          "example": "Get in, I'll drive you home.",
+          "particle": "in"
         },
         {
           "en": "To get into",
+          "es": "aficionarse a; subir a (un vehículo)",
           "meanings": [
             "When you become interested in something.",
             "To enter a vehicle."
-          ]
+          ],
+          "example": "I got into photography last year.",
+          "particle": "into"
         },
         {
           "en": "To get off",
+          "es": "bajar(se) (de un transporte)",
           "meanings": [
             "To leave a vehicle or transport."
-          ]
+          ],
+          "example": "We get off the bus at the next stop.",
+          "particle": "off"
         },
         {
           "en": "To get on",
+          "es": "subir(se) (a un transporte); avanzar",
           "meanings": [
             "To enter a vehicle or transport.",
             "To make progress in something."
-          ]
+          ],
+          "example": "Get on the train quickly!",
+          "particle": "on"
         },
         {
           "en": "To get on with",
+          "es": "llevarse bien con; seguir con (una tarea)",
           "meanings": [
             "To have a good relationship with someone.",
             "To start or continue to do a task."
-          ]
+          ],
+          "example": "Stop talking and get on with your work.",
+          "particle": "on with"
         },
         {
           "en": "To get out",
+          "es": "salir; saberse (un secreto)",
           "meanings": [
             "To leave a place in a hurry.",
             "When something is revealed."
-          ]
+          ],
+          "example": "Get out of the house: it's on fire!",
+          "particle": "out"
         },
         {
           "en": "To get over",
+          "es": "superar, recuperarse de",
           "meanings": [
             "To recover from a difficult situation."
-          ]
+          ],
+          "example": "It took him a year to get over the breakup.",
+          "particle": "over"
         },
         {
           "en": "To get along with",
+          "es": "llevarse bien con",
           "meanings": [
             "To have a good relationship with someone else."
-          ]
+          ],
+          "example": "I get along with my neighbors.",
+          "particle": "along with"
         },
         {
           "en": "To get away",
+          "es": "escaparse; irse de vacaciones",
           "meanings": [
             "To escape from somewhere."
-          ]
+          ],
+          "example": "The thief got away.",
+          "particle": "away"
         },
         {
           "en": "To get away with something",
+          "es": "salirse con la suya, quedar impune",
           "meanings": [
             "To do something illicit and not get caught."
-          ]
+          ],
+          "example": "He cheated on the test and got away with it.",
+          "particle": "away with"
         },
         {
           "en": "To get carried away",
+          "es": "dejarse llevar, emocionarse demasiado",
           "meanings": [
             "To lose control over something because you are very excited."
-          ]
+          ],
+          "example": "I got carried away and bought too many shoes."
         },
         {
           "en": "To get rid of",
+          "es": "deshacerse de",
           "meanings": [
             "To dispose of someone or something that is not needed anymore."
-          ]
+          ],
+          "example": "I need to get rid of these old clothes."
         },
         {
           "en": "To get together",
+          "es": "reunirse, juntarse",
           "meanings": [
             "To meet with people for a specific event."
-          ]
+          ],
+          "example": "Let's get together this weekend.",
+          "particle": "together"
         },
         {
           "en": "To get up",
+          "es": "levantarse",
           "meanings": [
             "To rise from a lying or sitting position."
-          ]
+          ],
+          "example": "I get up at seven every day.",
+          "particle": "up"
         }
       ]
     }

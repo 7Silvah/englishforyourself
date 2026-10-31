@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Common Phrasal Verbs list 3",
   "order": 11,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/common-phrasal-verbs-list-3.html",
   "intro": "Learn the most common phrasal verbs in English with the following list.",
   "groups": [
@@ -10,135 +12,195 @@
       "items": [
         {
           "en": "To look ahead",
+          "es": "mirar al futuro, prever",
           "meanings": [
             "To physically see something in front of you.",
             "To anticipate future situations."
-          ]
+          ],
+          "example": "It's time to look ahead and make plans.",
+          "particle": "ahead"
         },
         {
           "en": "To look down on",
+          "es": "menospreciar, mirar por encima del hombro",
           "meanings": [
             "To physically see something from a high place.",
             "When you consider someone or something inferior."
-          ]
+          ],
+          "example": "He looks down on people without money.",
+          "particle": "down on"
         },
         {
           "en": "To look forward to",
+          "es": "tener ganas de, esperar con ilusión",
           "meanings": [
             "When you get excited about an upcoming event."
-          ]
+          ],
+          "example": "I'm looking forward to the holidays.",
+          "particle": "forward to"
         },
         {
           "en": "To look out",
+          "es": "tener cuidado",
           "meanings": [
             "To pay attention to your surroundings because a potential danger."
-          ]
+          ],
+          "example": "Look out! There's a car coming.",
+          "particle": "out"
         },
         {
           "en": "To look over",
+          "es": "revisar, echar un vistazo",
           "meanings": [
             "To examine or inspect something either briefly or thoroughly."
-          ]
+          ],
+          "example": "Can you look over my essay?",
+          "particle": "over"
         },
         {
           "en": "To look up to",
+          "es": "admirar, respetar",
           "meanings": [
             "When you have respect for someone else."
-          ]
+          ],
+          "example": "Kids often look up to their older siblings.",
+          "particle": "up to"
         },
         {
           "en": "To look upon",
+          "es": "considerar, ver (de cierta manera)",
           "meanings": [
             "To view or gaze at something.",
             "To consider something in a particular way."
-          ]
+          ],
+          "example": "Many people look upon him as a hero.",
+          "particle": "upon"
         },
         {
           "en": "To make off",
+          "es": "escaparse, huir",
           "meanings": [
             "To flee."
-          ]
+          ],
+          "example": "The thieves made off with the money.",
+          "particle": "off"
         },
         {
           "en": "To make out something / to make something out",
+          "es": "distinguir, entender",
           "meanings": [
             "To comprehend something.",
             "To see something when it was impossible to notice."
-          ]
+          ],
+          "example": "I can't make out what he's saying.",
+          "particle": "out"
         },
         {
           "en": "To make up for something",
+          "es": "compensar",
           "meanings": [
             "To compensate."
-          ]
+          ],
+          "example": "I'll make up for being late.",
+          "particle": "up for"
         },
         {
           "en": "To make up something / to make something up",
+          "es": "inventar(se); reconciliarse",
           "meanings": [
             "To invent something false.",
             "To reconcile with someone."
-          ]
+          ],
+          "example": "He made up an excuse.",
+          "particle": "up"
         },
         {
           "en": "To pass out",
+          "es": "desmayarse",
           "meanings": [
             "To faint.",
             "To distribute something to people."
-          ]
+          ],
+          "example": "It was so hot that she passed out.",
+          "particle": "out"
         },
         {
           "en": "To pay back",
+          "es": "devolver (dinero); vengarse",
           "meanings": [
             "To return money you owe to someone.",
             "To take revenge on someone."
-          ]
+          ],
+          "example": "I'll pay you back next week.",
+          "particle": "back"
         },
         {
           "en": "To pick out",
+          "es": "elegir, escoger",
           "meanings": [
             "To select someone from a group of people.",
             "To recognize or identify someone or something."
-          ]
+          ],
+          "example": "She picked out a dress for the party.",
+          "particle": "out"
         },
         {
           "en": "To pick up",
+          "es": "recoger; aprender",
           "meanings": [
             "To raise something from the floor.",
             "To learn something new.",
             "To give someone a ride.",
             "To collect something from somewhere."
-          ]
+          ],
+          "example": "Can you pick me up at the station?",
+          "particle": "up"
         },
         {
           "en": "To point out",
+          "es": "señalar, hacer notar",
           "meanings": [
             "To highlight or indicate something for someone else to see it."
-          ]
+          ],
+          "example": "She pointed out a mistake in my report.",
+          "particle": "out"
         },
         {
           "en": "To pull over",
+          "es": "detenerse a un lado (con un vehículo)",
           "meanings": [
             "To move a vehicle to the side of the road."
-          ]
+          ],
+          "example": "The police told the driver to pull over.",
+          "particle": "over"
         },
         {
           "en": "To put up",
+          "es": "colgar, poner; subir (los precios)",
           "meanings": [
             "To hang something.",
             "To increase the prices."
-          ]
+          ],
+          "example": "We put up the decorations for the party.",
+          "particle": "up"
         },
         {
           "en": "To put up with",
+          "es": "aguantar, soportar",
           "meanings": [
             "To endure an unpleasant situation."
-          ]
+          ],
+          "example": "I can't put up with this noise anymore.",
+          "particle": "up with"
         },
         {
           "en": "To run into someone",
+          "es": "encontrarse con alguien (por casualidad)",
           "meanings": [
             "When you suddenly meet someone"
-          ]
+          ],
+          "example": "I ran into an old friend at the supermarket.",
+          "particle": "into"
         }
       ]
     }

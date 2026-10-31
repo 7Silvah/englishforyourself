@@ -1,7 +1,12 @@
 {
   "kind": "wordlist",
   "title": "Expressions to say I don’t know",
+  "titleEs": "Decir que no sabes algo",
   "order": 10,
+  "level": "A2",
+  "related": [
+    "ways-to-say/expressions-for-agreeing-and-disagreeing"
+  ],
   "legacyPath": "lessons/ways-to-say/expressions-to-say-i-dont-know.html",
   "intro": "In this section you will learn expressions to say I don’t know in English.",
   "groups": [

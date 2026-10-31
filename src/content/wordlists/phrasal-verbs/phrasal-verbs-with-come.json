@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Come",
   "order": 7,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-come.html",
   "intro": "In this section you will learn useful phrasal verbs with come in English.",
   "groups": [
@@ -10,123 +12,174 @@
       "items": [
         {
           "en": "To come about",
+          "es": "ocurrir, suceder",
           "meanings": [
             "When something takes place."
-          ]
+          ],
+          "example": "How did this problem come about?",
+          "particle": "about"
         },
         {
           "en": "To come across",
+          "es": "encontrarse con (por casualidad); dar una impresión",
           "meanings": [
             "To encounter something or someone unexpectedly or by chance.",
             "When someone is perceived in a certain way."
-          ]
+          ],
+          "example": "I came across an old photo in a drawer.",
+          "particle": "across"
         },
         {
           "en": "To come after",
+          "es": "ir tras, perseguir; venir después de",
           "meanings": [
             "To go after something.",
             "When there is a sequence."
-          ]
+          ],
+          "example": "The dog came after me.",
+          "particle": "after"
         },
         {
           "en": "To come along",
+          "es": "progresar, avanzar; acompañar",
           "meanings": [
             "To accompany someone in a situation.",
             "To make progress in something.",
             "When someone or something enters into your life."
-          ]
+          ],
+          "example": "How is your new project coming along?",
+          "particle": "along"
         },
         {
           "en": "To come around",
+          "es": "visitar; volver en sí; cambiar de opinión",
           "meanings": [
             "To visit someone.",
             "When you regain consciousness.",
             "To change your opinion or view."
-          ]
+          ],
+          "example": "Why don't you come around for dinner?",
+          "particle": "around"
         },
         {
           "en": "To come back",
+          "es": "volver, regresar",
           "meanings": [
             "To return from somewhere or to return to do something."
-          ]
+          ],
+          "example": "When are you coming back from Paris?",
+          "particle": "back"
         },
         {
           "en": "To come before",
+          "es": "ir antes de, tener prioridad sobre",
           "meanings": [
             "To appear or be presented before something else."
-          ]
+          ],
+          "example": "For her, family comes before work.",
+          "particle": "before"
         },
         {
           "en": "To come by",
+          "es": "pasar (a visitar); conseguir",
           "meanings": [
             "To pay a visit to someone.",
             "To obtain something by chance."
-          ]
+          ],
+          "example": "Come by my office later.",
+          "particle": "by"
         },
         {
           "en": "To come down with",
+          "es": "caer enfermo de, contagiarse de",
           "meanings": [
             "When you become ill."
-          ]
+          ],
+          "example": "I think I'm coming down with a cold.",
+          "particle": "down with"
         },
         {
           "en": "To come forward",
+          "es": "presentarse, ofrecerse (a ayudar o informar)",
           "meanings": [
             "To step forward to offer information or help."
-          ]
+          ],
+          "example": "Nobody came forward with information.",
+          "particle": "forward"
         },
         {
           "en": "To come in",
+          "es": "entrar; llegar",
           "meanings": [
             "To enter a place.",
             "When something arrives, usually merchandise.",
             "When you finish a race or competition."
-          ]
+          ],
+          "example": "Come in and sit down.",
+          "particle": "in"
         },
         {
           "en": "To come into something",
+          "es": "entrar en; heredar",
           "meanings": [
             "To enter a place.",
             "To receive inheritance."
-          ]
+          ],
+          "example": "She came into a lot of money when her aunt died.",
+          "particle": "into"
         },
         {
           "en": "To come off",
+          "es": "salir bien; desprenderse",
           "meanings": [
             "When something succeeds.",
             "When something is removed from something else."
-          ]
+          ],
+          "example": "A button came off my shirt.",
+          "particle": "off"
         },
         {
           "en": "To come out",
+          "es": "salir, publicarse; saberse",
           "meanings": [
             "Something is revealed.",
             "To go outside.",
             "To release or publish books, movies, novels, albums, etc."
-          ]
+          ],
+          "example": "Her new book comes out next month.",
+          "particle": "out"
         },
         {
           "en": "To come over",
+          "es": "venir, pasar (a casa de alguien)",
           "meanings": [
             "To pay a visit to someone or to go somewhere.",
             "When something is understood clearly.",
             "When you experience a feeling."
-          ]
+          ],
+          "example": "Come over after work.",
+          "particle": "over"
         },
         {
           "en": "To come through",
+          "es": "superar, salir adelante; cumplir",
           "meanings": [
             "To endure a difficult situation.",
             "To succeed in something.",
             "If you show your emotions, they may be perceptible to others."
-          ]
+          ],
+          "example": "She came through the operation well.",
+          "particle": "through"
         },
         {
           "en": "To come up with",
+          "es": "idear, ocurrírsele (algo) a uno",
           "meanings": [
             "To think of something, usually an idea or solution.",
             "To produce or generate something."
-          ]
+          ],
+          "example": "He came up with a great idea.",
+          "particle": "up with"
         }
       ]
     }

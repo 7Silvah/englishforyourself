@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Common Phrasal Verbs list 4",
   "order": 12,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/common-phrasal-verbs-list-4.html",
   "intro": "Learn the most common phrasal verbs in English with the following list.",
   "groups": [
@@ -10,145 +12,211 @@
       "items": [
         {
           "en": "To run into something",
+          "es": "chocar con algo",
           "meanings": [
             "When you collide with something by accident."
-          ]
+          ],
+          "example": "The car ran into a tree.",
+          "particle": "into"
         },
         {
           "en": "To run off",
+          "es": "huir, salir corriendo; imprimir copias",
           "meanings": [
             "To make copies; to print",
             "To suddenly leave without permission or to flee."
-          ]
+          ],
+          "example": "The dog ran off with my shoe.",
+          "particle": "off"
         },
         {
           "en": "To run out of",
+          "es": "quedarse sin, acabarse",
           "meanings": [
             "When you do not have resources anymore."
-          ]
+          ],
+          "example": "We've run out of milk.",
+          "particle": "out of"
         },
         {
           "en": "To run through",
+          "es": "repasar, ensayar",
           "meanings": [
             "To review or rehearse something again."
-          ]
+          ],
+          "example": "Let's run through the plan once more.",
+          "particle": "through"
         },
         {
           "en": "To run to something",
+          "es": "ascender a (una cantidad)",
           "meanings": [
             "When an amount reaches a certain cost."
-          ]
+          ],
+          "example": "The bill ran to 500 dollars.",
+          "particle": "to"
         },
         {
           "en": "To see through",
+          "es": "darse cuenta de las intenciones de, no dejarse engañar por",
           "meanings": [
             "To perceive something physically.",
             "To recognize the true intentions of someone or something."
-          ]
+          ],
+          "example": "I can see through your lies.",
+          "particle": "through"
         },
         {
           "en": "To show off",
+          "es": "presumir, lucirse",
           "meanings": [
             "To show something to impress people"
-          ]
+          ],
+          "example": "He's always showing off his new car.",
+          "particle": "off"
         },
         {
           "en": "To sleep over",
+          "es": "quedarse a dormir (en casa de alguien)",
           "meanings": [
             "When you spend the night at someone else’s house, usually with friends."
-          ]
+          ],
+          "example": "Can my friend sleep over tonight?",
+          "particle": "over"
         },
         {
           "en": "To take after someone",
+          "es": "parecerse a (un familiar)",
           "meanings": [
             "To resemble someone because of similar characteristics."
-          ]
+          ],
+          "example": "She takes after her mother.",
+          "particle": "after"
         },
         {
           "en": "To take away",
+          "es": "quitar, llevarse",
           "meanings": [
             "To remove something."
-          ]
+          ],
+          "example": "The waiter took away our plates.",
+          "particle": "away"
         },
         {
           "en": "To take back",
+          "es": "retirar (lo dicho); devolver",
           "meanings": [
             "To retract something you said.",
             "To reclaim something that belong to you."
-          ]
+          ],
+          "example": "I'm sorry: I take back what I said.",
+          "particle": "back"
         },
         {
           "en": "To take down",
+          "es": "apuntar, anotar; desmontar",
           "meanings": [
             "To write something down in a piece of paper.",
             "To dismantle an object."
-          ]
+          ],
+          "example": "Take down my phone number.",
+          "particle": "down"
         },
         {
           "en": "To take in",
+          "es": "asimilar, entender; acoger",
           "meanings": [
             "To finally understand something.",
             "To provide lodging for someone or something."
-          ]
+          ],
+          "example": "It was too much information to take in.",
+          "particle": "in"
         },
         {
           "en": "To take off",
+          "es": "despegar; tener éxito",
           "meanings": [
             "To become successful.",
             "To depart or leave."
-          ]
+          ],
+          "example": "The plane took off on time.",
+          "particle": "off"
         },
         {
           "en": "To take off something / to take something off",
+          "es": "quitarse (ropa, zapatos)",
           "meanings": [
             "To remove clothing, accessories or objects."
-          ]
+          ],
+          "example": "Please take your shoes off at the door.",
+          "particle": "off"
         },
         {
           "en": "To take over",
+          "es": "hacerse cargo de; tomar el control",
           "meanings": [
             "To assume the responsibility of something.",
             "To have control over something."
-          ]
+          ],
+          "example": "She took over the company in 2020.",
+          "particle": "over"
         },
         {
           "en": "To take something apart",
+          "es": "desmontar",
           "meanings": [
             "To separate the components of objects."
-          ]
+          ],
+          "example": "He took the old radio apart.",
+          "particle": "apart"
         },
         {
           "en": "To take up",
+          "es": "empezar (una afición); ocupar (espacio o tiempo)",
           "meanings": [
             "To start a new hobby or something that attracts you.",
             "To occupy space.",
             "To use a lot of time."
-          ]
+          ],
+          "example": "I took up yoga last year.",
+          "particle": "up"
         },
         {
           "en": "To try out something / to try something out",
+          "es": "probar",
           "meanings": [
             "To test something to see if it works."
-          ]
+          ],
+          "example": "Let's try out the new restaurant.",
+          "particle": "out"
         },
         {
           "en": "To use up",
+          "es": "gastar, agotar",
           "meanings": [
             "To consume everything provided by something."
-          ]
+          ],
+          "example": "Who used up all the hot water?",
+          "particle": "up"
         },
         {
           "en": "To wipe out",
+          "es": "acabar con, eliminar",
           "meanings": [
             "To eliminate something forever."
-          ]
+          ],
+          "example": "The storm wiped out the whole village.",
+          "particle": "out"
         },
         {
           "en": "To work out",
+          "es": "hacer ejercicio; resolver",
           "meanings": [
             "When you exercise.",
             "When you try to find a solution for something."
-          ]
+          ],
+          "example": "I work out at the gym three times a week.",
+          "particle": "out"
         }
       ]
     }

@@ -1,7 +1,12 @@
 {
   "kind": "wordlist",
   "title": "Expressions for Advice",
+  "titleEs": "Pedir y dar consejos",
   "order": 1,
+  "level": "A2",
+  "related": [
+    "ways-to-say/expressions-to-give-your-opinion"
+  ],
   "legacyPath": "lessons/ways-to-say/expressions-for-advice.html",
   "intro": "In this section you will learn expressions to ask for advice and to give advice in English.",
   "groups": [

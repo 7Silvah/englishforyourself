@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Common Phrasal Verbs list 1",
   "order": 9,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/common-phrasal-verbs-list-1.html",
   "intro": "Learn the most common phrasal verbs in English with the following list.",
   "groups": [
@@ -10,128 +12,188 @@
       "items": [
         {
           "en": "To abide by",
+          "es": "acatar, respetar (una norma)",
           "meanings": [
             "To obey or to follow a rule."
-          ]
+          ],
+          "example": "Everyone has to abide by the rules.",
+          "particle": "by"
         },
         {
           "en": "To call for",
+          "es": "exigir, requerir",
           "meanings": [
             "To require or request someone or something."
-          ]
+          ],
+          "example": "This situation calls for a quick decision.",
+          "particle": "for"
         },
         {
           "en": "To call off",
+          "es": "cancelar, suspender",
           "meanings": [
             "To cancel an event."
-          ]
+          ],
+          "example": "They called off the match because of the rain.",
+          "particle": "off"
         },
         {
           "en": "To call up",
+          "es": "llamar por teléfono",
           "meanings": [
             "To phone someone."
-          ]
+          ],
+          "example": "I'll call you up when I get home.",
+          "particle": "up"
         },
         {
           "en": "To calm down",
+          "es": "calmarse, tranquilizarse",
           "meanings": [
             "To become less anxious."
-          ]
+          ],
+          "example": "Calm down and tell me what happened.",
+          "particle": "down"
         },
         {
           "en": "To carry away",
+          "es": "dejarse llevar (por la emoción)",
           "meanings": [
             "When you get overwhelmed by a situation."
-          ]
+          ],
+          "example": "Don't get carried away by the excitement.",
+          "particle": "away"
         },
         {
           "en": "To carry on",
+          "es": "seguir, continuar",
           "meanings": [
             "To continue doing something; an activity, a performance, etc.",
             "To behave in a way that is not appropriate."
-          ]
+          ],
+          "example": "Carry on with your work, please.",
+          "particle": "on"
         },
         {
           "en": "To carry out",
+          "es": "llevar a cabo, realizar",
           "meanings": [
             "To execute a plan."
-          ]
+          ],
+          "example": "The scientists carried out an experiment.",
+          "particle": "out"
         },
         {
           "en": "To carry over",
+          "es": "pasar, trasladar (a otro momento)",
           "meanings": [
             "To extend something from one time to another."
-          ]
+          ],
+          "example": "You can carry over five days of holiday to next year.",
+          "particle": "over"
         },
         {
           "en": "To dive into",
+          "es": "lanzarse a (hacer algo con entusiasmo)",
           "meanings": [
             "To start doing something you like with enthusiasm."
-          ]
+          ],
+          "example": "She dived into her new project with energy.",
+          "particle": "into"
         },
         {
           "en": "To draw in",
+          "es": "atraer, captar el interés",
           "meanings": [
             "To make someone get interested in something.",
             "To approach someone or something."
-          ]
+          ],
+          "example": "The beautiful pictures drew me in.",
+          "particle": "in"
         },
         {
           "en": "To draw out",
+          "es": "alargar, prolongar",
           "meanings": [
             "To make something prolong how long it lasts.",
             "To obtain or elicit something."
-          ]
+          ],
+          "example": "The meeting was drawn out for three hours.",
+          "particle": "out"
         },
         {
           "en": "To draw up",
+          "es": "redactar, elaborar (un plan, un contrato)",
           "meanings": [
             "To write or plan something."
-          ]
+          ],
+          "example": "The lawyer drew up a new contract.",
+          "particle": "up"
         },
         {
           "en": "To dress up",
+          "es": "arreglarse, ponerse elegante",
           "meanings": [
             "To wear formal clothes for a special event."
-          ]
+          ],
+          "example": "We dressed up for the wedding.",
+          "particle": "up"
         },
         {
           "en": "To end up",
+          "es": "acabar, terminar (en un lugar o situación)",
           "meanings": [
             "To find yourself in a particular situation or place."
-          ]
+          ],
+          "example": "We got lost and ended up at the beach.",
+          "particle": "up"
         },
         {
           "en": "To fall apart",
+          "es": "deshacerse, romperse en pedazos",
           "meanings": [
             "When something breaks into pieces.",
             "When you experience a breakdown in a relationship or something planned"
-          ]
+          ],
+          "example": "My old shoes are falling apart.",
+          "particle": "apart"
         },
         {
           "en": "To fall out",
+          "es": "pelearse, enemistarse",
           "meanings": [
             "When you disagree with someone else.",
             "When something becomes detached."
-          ]
+          ],
+          "example": "Tom and his brother fell out over money.",
+          "particle": "out"
         },
         {
           "en": "To figure out",
+          "es": "entender, descifrar",
           "meanings": [
             "When you understand something through reasoning."
-          ]
+          ],
+          "example": "I can't figure out how this machine works.",
+          "particle": "out"
         },
         {
           "en": "To fill in for somebody",
+          "es": "reemplazar, cubrir a alguien (en el trabajo)",
           "meanings": [
             "When you take someone’s place in their job temporarily because of their absence."
-          ]
+          ],
+          "example": "Can you fill in for me tomorrow?",
+          "particle": "in for"
         },
         {
           "en": "To fill in",
+          "es": "rellenar (un formulario)",
           "meanings": [
             "To provide information in a document."
-          ]
+          ],
+          "example": "Please fill in this form.",
+          "particle": "in"
         }
       ]
     }

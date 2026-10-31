@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Back",
   "order": 3,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-back.html",
   "intro": "In this section you will learn useful phrasal verbs with back in English.",
   "groups": [
@@ -10,46 +12,67 @@
       "items": [
         {
           "en": "To back away",
+          "es": "retroceder, echarse atrás",
           "meanings": [
             "To retreat backwards."
-          ]
+          ],
+          "example": "The boy backed away from the angry dog.",
+          "particle": "away"
         },
         {
           "en": "To back down",
+          "es": "echarse atrás, ceder",
           "meanings": [
             "To withdraw from a situation because of a change of mind."
-          ]
+          ],
+          "example": "He never backs down in an argument.",
+          "particle": "down"
         },
         {
           "en": "To back into something",
+          "es": "chocar con algo (dando marcha atrás)",
           "meanings": [
             "To move a vehicle in reverse into something."
-          ]
+          ],
+          "example": "She backed into a wall while parking.",
+          "particle": "into"
         },
         {
           "en": "To back off",
+          "es": "retirarse, dejar en paz",
           "meanings": [
             "To withdraw from a conflict"
-          ]
+          ],
+          "example": "Back off! This is my seat.",
+          "particle": "off"
         },
         {
           "en": "To back out of something",
+          "es": "echarse atrás, retirarse (de un plan)",
           "meanings": [
             "To cancel a plan."
-          ]
+          ],
+          "example": "He backed out of the deal at the last minute.",
+          "particle": "out of"
         },
         {
           "en": "To back up",
+          "es": "respaldar, apoyar; hacer una copia de seguridad",
           "meanings": [
             "To defend someone.",
             "To make a copy of data."
-          ]
+          ],
+          "example": "Always back up your files.",
+          "particle": "up"
         },
         {
           "en": "To back onto something",
+          "es": "dar a (por detrás)",
           "meanings": [
             "To face the back of something."
-          ]
+          ],
+          "example": "Our house backs onto a park.",
+          "particle": "onto"
         }
       ]
     }

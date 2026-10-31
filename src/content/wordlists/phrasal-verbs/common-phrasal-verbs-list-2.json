@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Common Phrasal Verbs list 2",
   "order": 10,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/common-phrasal-verbs-list-2.html",
   "intro": "Learn the most common phrasal verbs in English with the following list.",
   "groups": [
@@ -10,135 +12,195 @@
       "items": [
         {
           "en": "To find out",
+          "es": "averiguar, enterarse",
           "meanings": [
             "To discover or learn about something you didn’t know."
-          ]
+          ],
+          "example": "I found out the truth yesterday.",
+          "particle": "out"
         },
         {
           "en": "To give in",
+          "es": "ceder, rendirse",
           "meanings": [
             "To surrender.",
             "To agree to something because of the desire."
-          ]
+          ],
+          "example": "The kids asked for ice cream all day, and their dad finally gave in.",
+          "particle": "in"
         },
         {
           "en": "To give off something",
+          "es": "despedir, desprender (un olor)",
           "meanings": [
             "To produce a smell."
-          ]
+          ],
+          "example": "The old cheese gives off a strong smell.",
+          "particle": "off"
         },
         {
           "en": "To give over",
+          "es": "dejar de (molestar)",
           "meanings": [
             "To stop doing something annoying.",
             "To dedicate yourself to something else."
-          ]
+          ],
+          "example": "Give over! I'm trying to sleep.",
+          "particle": "over"
         },
         {
           "en": "To give up",
+          "es": "rendirse, dejar de intentar",
           "meanings": [
             "To stop trying; to quit.",
             "To surrender."
-          ]
+          ],
+          "example": "Don't give up now: you're almost there.",
+          "particle": "up"
         },
         {
           "en": "To go over",
+          "es": "repasar, revisar",
           "meanings": [
             "To review something carefully.",
             "To exceed something (e.g., a budget or limit).",
             "For something to receive recognition."
-          ]
+          ],
+          "example": "Let's go over the answers together.",
+          "particle": "over"
         },
         {
           "en": "To go through",
+          "es": "pasar por (una situación difícil); revisar",
           "meanings": [
             "To search for something.",
             "To undergo a difficult situation."
-          ]
+          ],
+          "example": "She went through a hard time last year.",
+          "particle": "through"
         },
         {
           "en": "To go without",
+          "es": "pasar sin, privarse de",
           "meanings": [
             "To abstain from doing something."
-          ]
+          ],
+          "example": "I can't go without coffee in the morning.",
+          "particle": "without"
         },
         {
           "en": "To grow apart",
+          "es": "distanciarse",
           "meanings": [
             "To become distant from someone else."
-          ]
+          ],
+          "example": "We were best friends, but we grew apart.",
+          "particle": "apart"
         },
         {
           "en": "To hand in",
+          "es": "entregar",
           "meanings": [
             "To deliver or submit something to someone else."
-          ]
+          ],
+          "example": "Hand your homework in on Friday.",
+          "particle": "in"
         },
         {
           "en": "To hand out",
+          "es": "repartir",
           "meanings": [
             "To distribute something to people."
-          ]
+          ],
+          "example": "The teacher handed out the exams.",
+          "particle": "out"
         },
         {
           "en": "To hang up",
+          "es": "colgar (el teléfono, la ropa)",
           "meanings": [
             "To place something in a high place.",
             "To end a phone call."
-          ]
+          ],
+          "example": "He got angry and hung up the phone.",
+          "particle": "up"
         },
         {
           "en": "To hold back",
+          "es": "contener(se), frenar",
           "meanings": [
             "To stop someone or something from doing something.",
             "To refrain your own emotions."
-          ]
+          ],
+          "example": "She couldn't hold back her tears.",
+          "particle": "back"
         },
         {
           "en": "To keep from",
+          "es": "evitar, contenerse de",
           "meanings": [
             "To refrain yourself from doing something."
-          ]
+          ],
+          "example": "I couldn't keep from laughing.",
+          "particle": "from"
         },
         {
           "en": "To keep off",
+          "es": "no pisar; mantenerse alejado de",
           "meanings": [
             "To avoid stepping on something.",
             "To refrain from consuming something."
-          ]
+          ],
+          "example": "Please keep off the grass.",
+          "particle": "off"
         },
         {
           "en": "To keep up with",
+          "es": "seguir el ritmo de; mantenerse al día",
           "meanings": [
             "To stay at the same pace in terms of velocity.",
             "To be aware about important information."
-          ]
+          ],
+          "example": "Slow down! I can't keep up with you.",
+          "particle": "up with"
         },
         {
           "en": "To kick in",
+          "es": "empezar a hacer efecto",
           "meanings": [
             "To give money to support something.",
             "When something starts to take effect."
-          ]
+          ],
+          "example": "The medicine will kick in soon.",
+          "particle": "in"
         },
         {
           "en": "To let down",
+          "es": "decepcionar, fallar",
           "meanings": [
             "To disappoint someone.",
             "To release something slowly."
-          ]
+          ],
+          "example": "Don't let me down this time.",
+          "particle": "down"
         },
         {
           "en": "To let on",
+          "es": "revelar, dejar ver (un secreto)",
           "meanings": [
             "To reveal something by accident."
-          ]
+          ],
+          "example": "Don't let on that you know about the party.",
+          "particle": "on"
         },
         {
           "en": "To look after",
+          "es": "cuidar, hacerse cargo de",
           "meanings": [
             "When you are responsible for someone or something."
-          ]
+          ],
+          "example": "Can you look after my cat this weekend?",
+          "particle": "after"
         }
       ]
     }
