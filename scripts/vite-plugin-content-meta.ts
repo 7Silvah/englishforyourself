@@ -33,20 +33,24 @@ export function readFrontmatter(source: string): Record<string, unknown> {
   return match?.[1] ? (parseYaml(match[1]) as Record<string, unknown>) : {};
 }
 
-// Metadatos de un .json: todo menos las claves pesadas, más cuántos elementos tienen.
+// Metadatos de un .json: todo menos las claves pesadas, más cuántos elementos tienen
+// (y, en las listas, cuántas palabras tienen traducción: las que sirven de flashcard).
 export function jsonMeta(data: Record<string, unknown>): Record<string, unknown> {
   const meta: Record<string, unknown> = {};
   let itemCount = 0;
+  let translatedCount = 0;
   for (const [key, value] of Object.entries(data)) {
     if (!HEAVY_KEYS.has(key)) meta[key] = value;
     else if (key === "items" && Array.isArray(value)) itemCount = value.length;
-    else if (key === "groups" && Array.isArray(value))
+    else if (key === "groups" && Array.isArray(value)) {
       itemCount = value.reduce(
         (n: number, g: { items?: unknown[] }) => n + (g.items?.length ?? 0),
         0,
       );
+      translatedCount = wordsOf(data).filter((w) => w.es).length;
+    }
   }
-  return { ...meta, itemCount };
+  return { ...meta, itemCount, ...(translatedCount > 0 && { translatedCount }) };
 }
 
 // Palabras de una lista (sin significados, ejemplos ni notas): lo mínimo para buscar

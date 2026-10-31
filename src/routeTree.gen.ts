@@ -25,6 +25,7 @@ import { Route as DevUiRouteImport } from './routes/dev/ui'
 import { Route as EjerciciosIndexRouteImport } from './routes/ejercicios/index'
 import { Route as EjerciciosIdRouteRouteImport } from './routes/ejercicios/$id/route'
 import { Route as HerramientasTenseLabRouteImport } from './routes/herramientas/tense-lab'
+import { Route as PracticarFlashcardsRouteImport } from './routes/practicar/flashcards'
 import { Route as BibliotecaSectionIndexRouteImport } from './routes/biblioteca/$section/index'
 import { Route as BibliotecaSectionSplatRouteImport } from './routes/biblioteca/$section/$'
 import { Route as EjerciciosIdIndexRouteImport } from './routes/ejercicios/$id/index'
@@ -111,6 +112,11 @@ const HerramientasTenseLabRoute = HerramientasTenseLabRouteImport.update({
   path: '/herramientas/tense-lab',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PracticarFlashcardsRoute = PracticarFlashcardsRouteImport.update({
+  id: '/practicar/flashcards',
+  path: '/practicar/flashcards',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BibliotecaSectionIndexRoute = BibliotecaSectionIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -151,6 +157,7 @@ export interface FileRoutesByFullPath {
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
+  '/practicar/flashcards': typeof PracticarFlashcardsRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
@@ -169,6 +176,7 @@ export interface FileRoutesByTo {
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
+  '/practicar/flashcards': typeof PracticarFlashcardsRoute
   '/biblioteca': typeof BibliotecaIndexRoute
   '/curso': typeof CursoIndexRoute
   '/ejercicios': typeof EjerciciosIndexRoute
@@ -193,6 +201,7 @@ export interface FileRoutesById {
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
+  '/practicar/flashcards': typeof PracticarFlashcardsRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
@@ -218,6 +227,7 @@ export interface FileRouteTypes {
     | '/curso/$unidad'
     | '/dev/ui'
     | '/herramientas/tense-lab'
+    | '/practicar/flashcards'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
@@ -236,6 +246,7 @@ export interface FileRouteTypes {
     | '/curso/$unidad'
     | '/dev/ui'
     | '/herramientas/tense-lab'
+    | '/practicar/flashcards'
     | '/biblioteca'
     | '/curso'
     | '/ejercicios'
@@ -259,6 +270,7 @@ export interface FileRouteTypes {
     | '/curso/$unidad'
     | '/dev/ui'
     | '/herramientas/tense-lab'
+    | '/practicar/flashcards'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
@@ -280,6 +292,7 @@ export interface RootRouteChildren {
   RepasoRoute: typeof RepasoRoute
   DevUiRoute: typeof DevUiRoute
   HerramientasTenseLabRoute: typeof HerramientasTenseLabRoute
+  PracticarFlashcardsRoute: typeof PracticarFlashcardsRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -394,6 +407,13 @@ declare module '@tanstack/react-router' {
       path: '/herramientas/tense-lab'
       fullPath: '/herramientas/tense-lab'
       preLoaderRoute: typeof HerramientasTenseLabRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/practicar/flashcards': {
+      id: '/practicar/flashcards'
+      path: '/practicar/flashcards'
+      fullPath: '/practicar/flashcards'
+      preLoaderRoute: typeof PracticarFlashcardsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/biblioteca/$section/': {
@@ -518,6 +538,7 @@ const rootRouteChildren: RootRouteChildren = {
   RepasoRoute: RepasoRoute,
   DevUiRoute: DevUiRoute,
   HerramientasTenseLabRoute: HerramientasTenseLabRoute,
+  PracticarFlashcardsRoute: PracticarFlashcardsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

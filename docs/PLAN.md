@@ -11,7 +11,7 @@
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
-| 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
+| 3 · Vocabulario activo | F13–F15 | 🟨 en curso — F13 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -20,27 +20,25 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 30/10/2026, con F12 terminada en la rama `f12-repaso`. Con ella se
-cumplen los criterios de la Etapa 2 (16 unidades con al menos 6 tipos de ejercicio y
-`legacy/` eliminado).*
+*Actualizado el 30/10/2026, con F13 terminada en la rama `f13-flashcards` (sale de
+`main`, que tiene hasta F12).*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Poner `desarrollo` al día con `main`.** Los PR de F9, F10 y F11 se fusionaron
-  hacia `main`, así que `desarrollo` se quedó atrás (por eso F12 salió de `main`). Puedes
-  hacerlo con un PR de `main` hacia `desarrollo` o pedirle a Claude un *fast-forward*.
-- [ ] **Abrir el PR de `f12-repaso` hacia `desarrollo`** (o hacia `main`, como los
-  anteriores) y fusionarlo cuando la CI esté en verde.
-- [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1).** Sigue
-  [DESPLIEGUE.md](DESPLIEGUE.md): proyecto en Cloudflare Pages con rama de producción
-  `main` y protegido con Cloudflare Access.
-- [ ] **Revisar contenido cuando puedas** (no bloquea): las unidades 1–16 y sus sets
-  están escritos por Claude y marcados `reviewed: false` (decisión D1, §14).
+- [ ] **Volver a crear `desarrollo` y protegerla.** Al fusionar el PR de `desarrollo`
+  hacia `main` (#7), la opción *Automatically delete head branches* la borró, porque en
+  ese PR era la rama de origen. Para que no vuelva a pasar: créala desde `main`
+  (*Branches → New branch*) y añade una regla en *Settings → Rules → Rulesets* para
+  `desarrollo` con **Restrict deletions**; GitHub no borra ramas protegidas así.
+- [ ] **Abrir el PR de `f13-flashcards` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
+  [DESPLIEGUE.md](DESPLIEGUE.md).
+- [ ] **Revisar contenido cuando puedas** (no bloquea): unidades 1–16, sus sets y ahora
+  las traducciones de las 10 listas A1 (todo con `reviewed: false`, decisión D1, §14).
 
-**2. Siguiente: Etapa 3 — Vocabulario activo, empezando por F13 (flashcards)**
-(detalle en §1 y §11): las ~4.300 palabras de las listas como flashcards con
-repetición espaciada (`/practicar/flashcards?lista=`). Antes conviene decidir si se
-traducen las listas (hoy 0 %): sin traducción, una flashcard EN → ES no tiene reverso.
+**2. Siguiente: F14 — Ejercicios de vocabulario** (§11): traducir la tanda 2 de listas
+(A2) y generar ejercicios desde las listas (opción múltiple EN↔ES, emparejar, escuchar y
+elegir, dictado), como los de los tiempos verbales.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -802,9 +800,14 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 ### Etapa 3 — Vocabulario activo
 #### F13 — Flashcards
-- [ ] Leitner por palabra (`"seccion/slug#en"`), EN→ES y ES→EN, Espacio para girar y 1/2 para responder.
+- [x] **Traducciones, tanda 1 (A1)**, adelantada de F14 porque sin traducción no hay reverso (decisión del dueño del repo): 10 listas, 663 de 665 palabras (colores y formas, días, familia, cuerpo, ropa, comida y bebida, frutas y verduras, rutina diaria, tiempo y estaciones, transporte). Español neutro con las dos formas cuando varía por país («papa / patata»); *Shaddock* y *Macaroons* quedan vacías por dudosas. Listas marcadas `level: A1` y `reviewed: false` (campo nuevo en `WordListMeta`; `content:check` informa de las listas sin revisar). Se quitaron 4 entradas de la lista del tiempo que no eran palabras («(n) = noun»…).
+- [x] Leitner por palabra (`"seccion/slug#en"`, store `efy-flashcards`): 5 cajas que vuelven a los 0, 1, 3, 7 y 14 días; una palabra nueva que ya sabías empieza en la caja 2. Sesiones de hasta 20 tarjetas (primero las de hoy, luego hasta 10 nuevas); la que no sabías vuelve al final de la sesión. EN→ES y ES→EN, 🔊 en la palabra inglesa, Espacio para girar y 1/2 para responder (`useEffectEvent`).
+- [x] `/practicar/flashcards` (mazos con “para hoy / nuevas / dominadas” sin cargar las palabras: `translatedCount` en los metadatos) y `?lista=` para la sesión. Accesos desde cada lista traducida de la Biblioteca y desde el catálogo de ejercicios.
+- [x] Tests de Leitner y de la sesión (teclado, repetición, sentido). 172 tests.
+
+**Listo cuando:** las listas traducidas se pueden practicar como flashcards y cada palabra vuelve según lo bien que la sabes. ✅
 #### F14 — Ejercicios de vocabulario
-- [ ] Generadores desde wordlists; traducciones `es` de las listas A1–A2; componentes `FalseFriend` en las listas.
+- [ ] Generadores desde wordlists; traducciones `es` de las listas A2 (**tanda 2**: trabajos, ciudad, escuela, deportes, aficiones, emociones, países, casa, animales…; la tanda 1 A1 se hizo en F13); componentes `FalseFriend` en las listas.
 #### F15 — Phrasal verbs, collocations, ways to say
 - [ ] Datos estructurados (verbo + partícula + significado + ejemplo) y ejercicios de completar y elegir partícula.
 

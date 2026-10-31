@@ -49,6 +49,7 @@ const lessonPaths = new Set<string>();
 const lessonRefs: { file: string; field: string; target: string }[] = [];
 const mdxLinks: { file: string; href: string }[] = [];
 const coverage = new Map<string, { words: number; translated: number }>();
+let unreviewedLists = 0;
 
 for (const file of await files(`${ROOT}/lessons`, ".mdx")) {
   const lessonPath = rel(file, "lessons");
@@ -74,6 +75,8 @@ for (const file of await files(`${ROOT}/wordlists`, ".json")) {
     errors.push(`${file}: ya existe una lección MDX con la misma ruta`);
   lessonPaths.add(lessonPath);
   const list = validate(WordList, JSON.parse(await readFile(file, "utf8")), file);
+  if (list && !list.reviewed && list.groups.some((g) => g.items.some((w) => w.es)))
+    unreviewedLists++;
   const section = lessonPath.split("/")[0] ?? "";
   const c = coverage.get(section) ?? { words: 0, translated: 0 };
   for (const g of list?.groups ?? [])
@@ -281,6 +284,7 @@ info.push(
   `${lessonPaths.size} lecciones, ${unitSlugs.size} unidades, ${setIds.size} sets de ejercicios (${itemTotal} ítems)`,
 );
 info.push(`Sets sin revisar por una persona (reviewed: false): ${unreviewed} — ver decisión D1`);
+info.push(`Listas con traducciones sin revisar: ${unreviewedLists}`);
 for (const [section, c] of [...coverage].sort())
   info.push(
     `Traducción de ${section}: ${c.translated}/${c.words} palabras (${Math.round((100 * c.translated) / Math.max(c.words, 1))} %)`,
