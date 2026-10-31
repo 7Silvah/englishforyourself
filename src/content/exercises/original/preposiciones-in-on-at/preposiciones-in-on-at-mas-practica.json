@@ -81,7 +81,10 @@
       "id": "4",
       "type": "dictation",
       "text": "The meeting is on Friday at ten.",
-      "explanationEs": "On con el día y at con la hora."
+      "explanationEs": "On con el día y at con la hora.",
+      "answers": [
+        "The meeting is on Friday at 10."
+      ]
     },
     {
       "id": "5",
@@ -122,7 +125,7 @@
           ]
         },
         {
-          "header": "the table",
+          "header": "the wall",
           "cells": [
             {
               "answers": [
@@ -132,7 +135,7 @@
           ]
         },
         {
-          "header": "school",
+          "header": "home",
           "cells": [
             {
               "answers": [
@@ -142,7 +145,7 @@
           ]
         }
       ],
-      "explanationEs": "In para meses; on para días y superficies; at para horas y lugares de actividad."
+      "explanationEs": "In para meses; on para días y superficies (on the wall); at para horas y en expresiones fijas como at home."
     },
     {
       "id": "6",

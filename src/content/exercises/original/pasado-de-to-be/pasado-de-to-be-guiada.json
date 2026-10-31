@@ -29,10 +29,10 @@
       "options": [
         "Were",
         "Was",
-        "Did"
+        "Are"
       ],
       "answer": 0,
-      "explanationEs": "Con you se usa were. To be no usa did."
+      "explanationEs": "Yesterday pide pasado, y con you el pasado de to be es were: Were you…?"
     },
     {
       "id": "3",
@@ -66,9 +66,9 @@
         "The exam wasn't difficult."
       ],
       "distractors": [
-        "didn't"
+        "no"
       ],
-      "explanationEs": "Negativa de to be: wasn't. No se usa didn't."
+      "explanationEs": "Negativa de to be en pasado: wasn't (was + not). No se pone no delante: «The exam no was…» es un calco del español."
     }
   ]
 }

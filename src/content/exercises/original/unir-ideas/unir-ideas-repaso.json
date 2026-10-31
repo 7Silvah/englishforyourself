@@ -53,7 +53,8 @@
       "id": "5",
       "type": "word-order",
       "answers": [
-        "I usually read the news in the morning."
+        "I usually read the news in the morning.",
+        "usually I read the news in the morning."
       ],
       "distractors": [
         "at"

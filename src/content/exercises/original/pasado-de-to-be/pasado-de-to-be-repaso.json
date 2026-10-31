@@ -29,10 +29,10 @@
       "options": [
         "were",
         "was",
-        "did"
+        "are"
       ],
       "answer": 0,
-      "explanationEs": "Your parents = they: were."
+      "explanationEs": "Your parents = they: were. Yesterday pide pasado, así que are no vale."
     },
     {
       "id": "3",
@@ -44,9 +44,9 @@
     {
       "id": "4",
       "type": "true-false",
-      "statement": "Did you be at home?",
+      "statement": "Was you at home?",
       "answer": false,
-      "explanationEs": "To be no usa did: Were you at home?"
+      "explanationEs": "Con you se usa were, también en las preguntas: Were you at home?"
     },
     {
       "id": "5",
