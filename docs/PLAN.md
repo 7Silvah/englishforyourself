@@ -11,7 +11,7 @@
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
-| 3 · Vocabulario activo | F13–F15 | 🟨 en curso — F13 ✅ F14 ✅ |
+| 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -20,23 +20,22 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 30/10/2026, con F14 terminada en la rama `f14-vocabulario` (sale de
-`desarrollo`, que tiene hasta F13).*
+*Actualizado el 31/10/2026, con F15 terminada en la rama `f15-phrasal-verbs` (sale de
+`desarrollo`, que tiene hasta F14). Con ella se cierra la Etapa 3.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `f14-vocabulario` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Abrir el PR de `f15-phrasal-verbs` hacia `desarrollo`** y fusionarlo con la CI en verde.
 - [ ] **Proteger `desarrollo`** si aún no lo hiciste: *Settings → Rules → Rulesets*, regla
   **Restrict deletions** (así *Automatically delete head branches* no la borra al pasarla a `main`).
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
-- [ ] **Revisar contenido cuando puedas** (no bloquea): unidades 1–16, sus sets y las
-  traducciones de las 19 listas A1–A2 y sus 5 falsos amigos (todo con `reviewed: false`,
-  decisión D1, §14).
+- [ ] **Revisar contenido cuando puedas** (no bloquea): unidades 1–16, sus sets, las
+  traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, y los 207 phrasal verbs de F15
+  (traducción, partícula y ejemplo). Todo con `reviewed: false` (decisión D1, §14).
 
-**2. Siguiente: F15 — Phrasal verbs, collocations y *ways to say*** (§11): pasar esas
-listas a datos estructurados (verbo + partícula + significado + ejemplo) y practicarlas
-con ejercicios de completar y elegir partícula. Cierra la Etapa 3.
+**2. Siguiente: Etapa 4 — F16, unidades B1–B2** (§11). Antes conviene decidir D1 (§14):
+las unidades B1–B2 son las primeras escritas desde cero en volumen.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -813,7 +812,13 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 **Listo cuando (Etapa 3, parcial):** cada lista traducida tiene botones «Flashcards» y «Practicar» y las palabras repasadas aparecen en `/progreso`. ✅
 #### F15 — Phrasal verbs, collocations, ways to say
-- [ ] Datos estructurados (verbo + partícula + significado + ejemplo) y ejercicios de completar y elegir partícula.
+- [x] **Phrasal verbs como datos estructurados**: campo `particle` en la palabra (el verbo es la palabra tras «To»); las 12 listas (207 entradas) con traducción, ejemplo y partícula, `level` B1 (B2 la de *be*) y `reviewed: false`. Las que no son verbo + partícula (*get rid of*, *break even*, *be cut out for*…) no llevan `particle`. `content:check` exige que la partícula esté en `en` y una sola vez en `example`. Al tener traducción, también son flashcards.
+- [x] Generador `generators/phrasal-verbs.ts`: elegir la partícula (3) y escribirla (2) sobre el ejemplo con hueco, con el significado como pista; significado EN↔ES (2) y emparejar (4). Las partículas incorrectas no forman con el mismo verbo otro phrasal verb de la lista. Si la lista tiene menos de 3 partículas distintas (*along*, *away*), solo practica significados.
+- [x] Generador `generators/collocations.ts` para *make*, *do*, *have* y *take* (los «hacer» y «tomar» del español): elegir el verbo (7) y clasificar make/do o have/take. Las combinaciones de otras listas y una lista revisada `ALSO_VALID` (*take a decision*, *have a job*…) nunca salen como opción incorrecta, y *have* tampoco (casi siempre vale como «tener»). Las otras 10 listas de collocations esperan a tener traducción.
+- [x] Generador `generators/ways-to-say.ts`: «¿Qué dirías para…?» (4), clasificar dos situaciones, ordenar (2) y dictado. Cada lista lleva `titleEs` con su situación («Dar las gracias») y `related` con las que se confunde (saludar ↔ preguntar qué tal…), que no aportan opciones incorrectas.
+- [x] `/practicar/vocabulario` agrupa por sección y elige el generador según la lista (`features/exercises/list-practice.ts`); la Biblioteca muestra «Practicar» en todas las listas practicables. Correcciones de contenido en commit aparte (encabezados colados como expresiones, duplicados, *Have a dispute have doubt*). 190 tests; JS inicial 192,6 KB gzip.
+
+**Listo cuando (Etapa 3):** cualquier lista de vocabulario tiene «Flashcards» y «Practicar», las palabras repasadas aparecen en `/progreso`, y los phrasal verbs, collocations (make/do/have/take) y *ways to say* se practican con ejercicios generados. ✅
 
 ### Etapa 4 — Gramática intermedia
 #### F16 — Unidades B1–B2
@@ -856,6 +861,8 @@ una etapa nueva:
 - Lecturas graduadas con preguntas de comprensión.
 - Listening con audios reales.
 - Corrección de textos libres con IA (Claude API), con explicación en español.
+- Traducir las collocations (14 listas), los *ways to say* (13) e idioms (2): darían flashcards
+  y práctica de significado a las 10 listas de collocations que F15 no cubre.
 - Exportar e importar el progreso (JSON).
 - Modo profesor: crear sets propios y compartirlos por enlace.
 - Otros idiomas de origen (portugués…).
