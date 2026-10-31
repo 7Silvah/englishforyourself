@@ -4,282 +4,376 @@
   "order": 15,
   "legacyPath": "lessons/vocabulary/feelings-and-emotions-vocabulary.html",
   "intro": "In this section you will learn vocabulary about feelings and emotions in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "Feelings and emotions vocabulary",
       "items": [
         {
-          "en": "Afraid"
+          "en": "Afraid",
+          "es": "asustado / con miedo"
         },
         {
-          "en": "Agitated"
+          "en": "Agitated",
+          "es": "agitado"
         },
         {
-          "en": "Amused"
+          "en": "Amused",
+          "es": "divertido (entretenido)"
         },
         {
-          "en": "Angry"
+          "en": "Angry",
+          "es": "enojado / enfadado"
         },
         {
-          "en": "Annoyed"
+          "en": "Annoyed",
+          "es": "molesto"
         },
         {
-          "en": "Anxious"
+          "en": "Anxious",
+          "es": "ansioso"
         },
         {
-          "en": "Appalled"
+          "en": "Appalled",
+          "es": "horrorizado"
         },
         {
-          "en": "Ashamed"
+          "en": "Ashamed",
+          "es": "avergonzado (por algo que hizo)"
         },
         {
-          "en": "Astonished"
+          "en": "Astonished",
+          "es": "asombrado"
         },
         {
-          "en": "Awe"
+          "en": "Awe",
+          "es": "asombro (admiración)"
         },
         {
-          "en": "Bashful"
+          "en": "Bashful",
+          "es": "vergonzoso / tímido"
         },
         {
-          "en": "Bitter"
+          "en": "Bitter",
+          "es": "amargado / resentido"
         },
         {
-          "en": "Bored"
+          "en": "Bored",
+          "es": "aburrido"
         },
         {
-          "en": "Burdened"
+          "en": "Burdened",
+          "es": "agobiado"
         },
         {
-          "en": "Calm"
+          "en": "Calm",
+          "es": "tranquilo"
         },
         {
-          "en": "Charmed"
+          "en": "Charmed",
+          "es": "encantado"
         },
         {
-          "en": "Cold"
+          "en": "Cold",
+          "es": "frío (distante)"
         },
         {
-          "en": "Composed"
+          "en": "Composed",
+          "es": "sereno"
         },
         {
-          "en": "Concerned"
+          "en": "Concerned",
+          "es": "preocupado"
         },
         {
-          "en": "Confident"
+          "en": "Confident",
+          "es": "seguro de sí mismo"
         },
         {
-          "en": "Confused"
+          "en": "Confused",
+          "es": "confundido"
         },
         {
-          "en": "Content"
+          "en": "Content",
+          "es": "contento / satisfecho"
         },
         {
-          "en": "Curious"
+          "en": "Curious",
+          "es": "curioso"
         },
         {
-          "en": "Dejected"
+          "en": "Dejected",
+          "es": "abatido"
         },
         {
-          "en": "Depressed"
+          "en": "Depressed",
+          "es": "deprimido"
         },
         {
-          "en": "Desperate"
+          "en": "Desperate",
+          "es": "desesperado"
         },
         {
-          "en": "Determined"
+          "en": "Determined",
+          "es": "decidido"
         },
         {
-          "en": "Disappointed"
+          "en": "Disappointed",
+          "es": "decepcionado"
         },
         {
-          "en": "Doubtful"
+          "en": "Doubtful",
+          "es": "dudoso"
         },
         {
-          "en": "Embarrassed"
+          "en": "Embarrassed",
+          "es": "avergonzado (con vergüenza)",
+          "falseFriend": "embarazada"
         },
         {
-          "en": "Enthusiastic"
+          "en": "Enthusiastic",
+          "es": "entusiasmado"
         },
         {
-          "en": "Envious"
+          "en": "Envious",
+          "es": "envidioso"
         },
         {
-          "en": "Exhilarated"
+          "en": "Exhilarated",
+          "es": "eufórico"
         },
         {
-          "en": "Fearless"
+          "en": "Fearless",
+          "es": "sin miedo / valiente"
         },
         {
-          "en": "Fed up"
+          "en": "Fed up",
+          "es": "harto"
         },
         {
-          "en": "Frightened"
+          "en": "Frightened",
+          "es": "asustado"
         },
         {
-          "en": "Frustrated"
+          "en": "Frustrated",
+          "es": "frustrado"
         },
         {
-          "en": "Furious"
+          "en": "Furious",
+          "es": "furioso"
         },
         {
-          "en": "Grateful"
+          "en": "Grateful",
+          "es": "agradecido"
         },
         {
-          "en": "Happy"
+          "en": "Happy",
+          "es": "feliz"
         },
         {
-          "en": "Hateful"
+          "en": "Hateful",
+          "es": "lleno de odio"
         },
         {
-          "en": "Hesitant"
+          "en": "Hesitant",
+          "es": "indeciso"
         },
         {
-          "en": "Homesick"
+          "en": "Homesick",
+          "es": "con nostalgia de casa"
         },
         {
-          "en": "Hysterical"
+          "en": "Hysterical",
+          "es": "histérico"
         },
         {
-          "en": "Impatient"
+          "en": "Impatient",
+          "es": "impaciente"
         },
         {
-          "en": "In love"
+          "en": "In love",
+          "es": "enamorado"
         },
         {
-          "en": "Invincible"
+          "en": "Invincible",
+          "es": "invencible"
         },
         {
-          "en": "Irritated"
+          "en": "Irritated",
+          "es": "irritado"
         },
         {
-          "en": "Jealous"
+          "en": "Jealous",
+          "es": "celoso"
         },
         {
-          "en": "Joyful"
+          "en": "Joyful",
+          "es": "alegre"
         },
         {
-          "en": "Lazy"
+          "en": "Lazy",
+          "es": "perezoso"
         },
         {
-          "en": "Left out"
+          "en": "Left out",
+          "es": "excluido"
         },
         {
-          "en": "Lonely"
+          "en": "Lonely",
+          "es": "solo (que se siente solo)"
         },
         {
-          "en": "Loving"
+          "en": "Loving",
+          "es": "cariñoso"
         },
         {
-          "en": "Mad"
+          "en": "Mad",
+          "es": "enojado (EE. UU.) / loco"
         },
         {
-          "en": "Marvelous"
+          "en": "Marvelous",
+          "es": "maravilloso"
         },
         {
-          "en": "Miserable"
+          "en": "Miserable",
+          "es": "muy triste / desdichado"
         },
         {
-          "en": "Modest"
+          "en": "Modest",
+          "es": "modesto"
         },
         {
-          "en": "Moody"
+          "en": "Moody",
+          "es": "de humor cambiante"
         },
         {
-          "en": "Motivated"
+          "en": "Motivated",
+          "es": "motivado"
         },
         {
-          "en": "Outraged"
+          "en": "Outraged",
+          "es": "indignado"
         },
         {
-          "en": "Pessimistic"
+          "en": "Pessimistic",
+          "es": "pesimista"
         },
         {
-          "en": "Proud"
+          "en": "Proud",
+          "es": "orgulloso"
         },
         {
-          "en": "Puzzled"
+          "en": "Puzzled",
+          "es": "desconcertado"
         },
         {
-          "en": "Quarrelsome"
+          "en": "Quarrelsome",
+          "es": "peleón"
         },
         {
-          "en": "Rebellious"
+          "en": "Rebellious",
+          "es": "rebelde"
         },
         {
-          "en": "Relaxed"
+          "en": "Relaxed",
+          "es": "relajado"
         },
         {
-          "en": "Resentful"
+          "en": "Resentful",
+          "es": "resentido"
         },
         {
-          "en": "Satisfied"
+          "en": "Satisfied",
+          "es": "satisfecho"
         },
         {
-          "en": "Secure"
+          "en": "Secure",
+          "es": "seguro"
         },
         {
-          "en": "Self-conscious"
+          "en": "Self-conscious",
+          "es": "cohibido"
         },
         {
-          "en": "Shy"
+          "en": "Shy",
+          "es": "tímido"
         },
         {
-          "en": "Sick"
+          "en": "Sick",
+          "es": "enfermo"
         },
         {
-          "en": "Silly"
+          "en": "Silly",
+          "es": "tonto"
         },
         {
-          "en": "Sorrowful"
+          "en": "Sorrowful",
+          "es": "apenado"
         },
         {
-          "en": "Stingy"
+          "en": "Stingy",
+          "es": "tacaño"
         },
         {
-          "en": "Stressed"
+          "en": "Stressed",
+          "es": "estresado"
         },
         {
-          "en": "Stupid"
+          "en": "Stupid",
+          "es": "estúpido"
         },
         {
-          "en": "Surprised"
+          "en": "Surprised",
+          "es": "sorprendido"
         },
         {
-          "en": "Suspicious"
+          "en": "Suspicious",
+          "es": "desconfiado"
         },
         {
-          "en": "Tense"
+          "en": "Tense",
+          "es": "tenso"
         },
         {
-          "en": "Thankful"
+          "en": "Thankful",
+          "es": "agradecido"
         },
         {
-          "en": "Threatened"
+          "en": "Threatened",
+          "es": "amenazado"
         },
         {
-          "en": "Timid"
+          "en": "Timid",
+          "es": "tímido"
         },
         {
-          "en": "Trapped"
+          "en": "Trapped",
+          "es": "atrapado"
         },
         {
-          "en": "Uncertain"
+          "en": "Uncertain",
+          "es": "inseguro"
         },
         {
-          "en": "Uneasy"
+          "en": "Uneasy",
+          "es": "inquieto"
         },
         {
-          "en": "Upset"
+          "en": "Upset",
+          "es": "disgustado / alterado"
         },
         {
-          "en": "Weepy"
+          "en": "Weepy",
+          "es": "lloroso"
         },
         {
-          "en": "Withdrawn"
+          "en": "Withdrawn",
+          "es": "retraído"
         },
         {
-          "en": "Worried"
+          "en": "Worried",
+          "es": "preocupado"
         }
       ]
     }

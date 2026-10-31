@@ -39,7 +39,8 @@ export const Word = z.strictObject({
   meanings: z.array(z.string()).optional(), // definiciones en inglés (phrasal verbs, idioms)
   example: z.string().optional(),
   exampleEs: z.string().optional(),
-  note: z.string().optional(), // nota en español: "Falso amigo de…"
+  note: z.string().optional(), // nota en español
+  falseFriend: z.string().optional(), // palabra española con la que se confunde: "carpeta" (carpet)
 });
 export type Word = z.infer<typeof Word>;
 
