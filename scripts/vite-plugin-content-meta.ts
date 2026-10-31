@@ -19,6 +19,14 @@ const PREFIX = "\0efy-meta:";
 const WORDS_PREFIX = "\0efy-words:";
 const SUFFIX = ".meta.js";
 const HEAVY_KEYS = new Set(["groups", "items"]);
+// Campos que content:check valida pero que la app no lee de los metadatos:
+// legacyPath solo servía para generar las redirecciones (F4) y la intro de una lista
+// la muestra su página, que ya carga el cuerpo completo.
+const RUNTIME_DROP = new Set(["legacyPath", "intro", "introEs"]);
+
+function forRuntime(meta: Record<string, unknown>): Record<string, unknown> {
+  return Object.fromEntries(Object.entries(meta).filter(([key]) => !RUNTIME_DROP.has(key)));
+}
 
 export function readFrontmatter(source: string): Record<string, unknown> {
   const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -77,9 +85,11 @@ export function contentMeta(): Plugin {
       const source = await readFile(file, "utf8");
       const data = words
         ? wordsOf(JSON.parse(source) as Record<string, unknown>)
-        : file.endsWith(".json")
-          ? jsonMeta(JSON.parse(source) as Record<string, unknown>)
-          : readFrontmatter(source);
+        : forRuntime(
+            file.endsWith(".json")
+              ? jsonMeta(JSON.parse(source) as Record<string, unknown>)
+              : readFrontmatter(source),
+          );
       return `export default ${JSON.stringify(data)};`;
     },
   };

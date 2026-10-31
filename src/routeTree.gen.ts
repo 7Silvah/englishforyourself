@@ -16,6 +16,7 @@ import { Route as BuscarRouteImport } from './routes/buscar'
 import { Route as CursoRouteRouteImport } from './routes/curso/route'
 import { Route as EjerciciosRouteRouteImport } from './routes/ejercicios/route'
 import { Route as ProgresoRouteImport } from './routes/progreso'
+import { Route as RepasoRouteImport } from './routes/repaso'
 import { Route as BibliotecaIndexRouteImport } from './routes/biblioteca/index'
 import { Route as BibliotecaSectionRouteRouteImport } from './routes/biblioteca/$section/route'
 import { Route as CursoIndexRouteImport } from './routes/curso/index'
@@ -63,6 +64,11 @@ const EjerciciosRouteRoute = EjerciciosRouteRouteImport.update({
 const ProgresoRoute = ProgresoRouteImport.update({
   id: '/progreso',
   path: '/progreso',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RepasoRoute = RepasoRouteImport.update({
+  id: '/repaso',
+  path: '/repaso',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BibliotecaIndexRoute = BibliotecaIndexRouteImport.update({
@@ -139,6 +145,7 @@ export interface FileRoutesByFullPath {
   '/acerca': typeof AcercaRoute
   '/buscar': typeof BuscarRoute
   '/progreso': typeof ProgresoRoute
+  '/repaso': typeof RepasoRoute
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
@@ -158,6 +165,7 @@ export interface FileRoutesByTo {
   '/acerca': typeof AcercaRoute
   '/buscar': typeof BuscarRoute
   '/progreso': typeof ProgresoRoute
+  '/repaso': typeof RepasoRoute
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
@@ -179,6 +187,7 @@ export interface FileRoutesById {
   '/acerca': typeof AcercaRoute
   '/buscar': typeof BuscarRoute
   '/progreso': typeof ProgresoRoute
+  '/repaso': typeof RepasoRoute
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
@@ -203,6 +212,7 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/buscar'
     | '/progreso'
+    | '/repaso'
     | '/biblioteca/$section'
     | '/ejercicios/$id'
     | '/curso/$unidad'
@@ -222,6 +232,7 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/buscar'
     | '/progreso'
+    | '/repaso'
     | '/curso/$unidad'
     | '/dev/ui'
     | '/herramientas/tense-lab'
@@ -242,6 +253,7 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/buscar'
     | '/progreso'
+    | '/repaso'
     | '/biblioteca/$section'
     | '/ejercicios/$id'
     | '/curso/$unidad'
@@ -265,6 +277,7 @@ export interface RootRouteChildren {
   AcercaRoute: typeof AcercaRoute
   BuscarRoute: typeof BuscarRoute
   ProgresoRoute: typeof ProgresoRoute
+  RepasoRoute: typeof RepasoRoute
   DevUiRoute: typeof DevUiRoute
   HerramientasTenseLabRoute: typeof HerramientasTenseLabRoute
 }
@@ -318,6 +331,13 @@ declare module '@tanstack/react-router' {
       path: '/progreso'
       fullPath: '/progreso'
       preLoaderRoute: typeof ProgresoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/repaso': {
+      id: '/repaso'
+      path: '/repaso'
+      fullPath: '/repaso'
+      preLoaderRoute: typeof RepasoRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/biblioteca/': {
@@ -495,6 +515,7 @@ const rootRouteChildren: RootRouteChildren = {
   AcercaRoute: AcercaRoute,
   BuscarRoute: BuscarRoute,
   ProgresoRoute: ProgresoRoute,
+  RepasoRoute: RepasoRoute,
   DevUiRoute: DevUiRoute,
   HerramientasTenseLabRoute: HerramientasTenseLabRoute,
 }

@@ -2,7 +2,9 @@ import { Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { getExerciseSet } from "@/content";
+import { getExerciseSet, getUnits } from "@/content";
+import type { UnitBlock } from "@/content/schema";
+import { unitStatus } from "@/features/course/logic";
 import { es } from "@/i18n/es";
 import { useProgressStore } from "./store";
 
@@ -40,6 +42,10 @@ export function ProgressOverview() {
       </div>
     );
 
+  const unitsByBlock = new Map<UnitBlock, ReturnType<typeof getUnits>>();
+  for (const unit of getUnits())
+    unitsByBlock.set(unit.meta.block, [...(unitsByBlock.get(unit.meta.block) ?? []), unit]);
+
   const average = Math.round(done.reduce((sum, d) => sum + d.attempt.best, 0) / done.length);
 
   return (
@@ -49,6 +55,43 @@ export function ProgressOverview() {
         <Stat label={t.average} value={`${average} %`} />
         <Stat label={t.streak} value={t.days(streak?.days ?? 0)} />
         <Stat label={t.mistakes} value={String(Object.keys(mistakes).length)} />
+      </div>
+
+      <div className="grid gap-3 sm:grid-cols-2">
+        <section aria-labelledby="progress-units" className="space-y-2 rounded-lg border p-4">
+          <h2 id="progress-units" className="font-semibold">
+            {t.units}
+          </h2>
+          <ul className="space-y-1 text-sm">
+            {[...unitsByBlock].map(([block, units]) => (
+              <li key={block} className="flex justify-between gap-2">
+                <span>{es.course.blocks[block]}</span>
+                <span className="text-muted-foreground tabular-nums">
+                  {t.unitsMastered(
+                    units.filter((u) => unitStatus(u.meta, attempts) === "mastered").length,
+                    units.length,
+                  )}
+                </span>
+              </li>
+            ))}
+          </ul>
+          <Link to="/curso" className={buttonVariants({ variant: "outline", size: "sm" })}>
+            {t.goToCourse}
+          </Link>
+        </section>
+        <section aria-labelledby="progress-review" className="space-y-2 rounded-lg border p-4">
+          <h2 id="progress-review" className="font-semibold">
+            {es.review.mistakes.title}
+          </h2>
+          <p className="text-sm text-muted-foreground">
+            {Object.keys(mistakes).length > 0
+              ? es.review.mistakes.pending(Object.keys(mistakes).length)
+              : es.review.mistakes.empty}
+          </p>
+          <Link to="/repaso" className={buttonVariants({ variant: "outline", size: "sm" })}>
+            {t.goToReview}
+          </Link>
+        </section>
       </div>
 
       <ul className="divide-y rounded-lg border">

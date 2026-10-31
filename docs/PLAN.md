@@ -10,7 +10,7 @@
 | Etapa | Fases | Estado |
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
-| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ F10 ✅ F11 ✅ |
+| 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
@@ -20,28 +20,27 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 30/10/2026, con F11 terminada en la rama `f11-paridad` (pendiente de PR hacia `desarrollo`).*
+*Actualizado el 30/10/2026, con F12 terminada en la rama `f12-repaso`. Con ella se
+cumplen los criterios de la Etapa 2 (16 unidades con al menos 6 tipos de ejercicio y
+`legacy/` eliminado).*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `f11-paridad` hacia `desarrollo`** y fusionarlo cuando la CI esté en verde.
+- [ ] **Poner `desarrollo` al día con `main`.** Los PR de F9, F10 y F11 se fusionaron
+  hacia `main`, así que `desarrollo` se quedó atrás (por eso F12 salió de `main`). Puedes
+  hacerlo con un PR de `main` hacia `desarrollo` o pedirle a Claude un *fast-forward*.
+- [ ] **Abrir el PR de `f12-repaso` hacia `desarrollo`** (o hacia `main`, como los
+  anteriores) y fusionarlo cuando la CI esté en verde.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1).** Sigue
-  [DESPLIEGUE.md](DESPLIEGUE.md): crear el proyecto en Cloudflare Pages con rama de
-  producción `main` y protegerlo con Cloudflare Access. Cuando funcione, avisa para
-  marcar F7 ✅.
-- [ ] **Limpiar ramas en GitHub:** borrar las ramas de fase ya fusionadas y activar
-  *Settings → General → Automatically delete head branches*.
-- [ ] **Revisar contenido cuando puedas** (no bloquea): las unidades 1–16 y sus
-  sets están escritos por Claude y marcados `reviewed: false` (decisión D1, §14).
+  [DESPLIEGUE.md](DESPLIEGUE.md): proyecto en Cloudflare Pages con rama de producción
+  `main` y protegido con Cloudflare Access.
+- [ ] **Revisar contenido cuando puedas** (no bloquea): las unidades 1–16 y sus sets
+  están escritos por Claude y marcados `reviewed: false` (decisión D1, §14).
 
-**2. Siguiente fase: F12 — Repaso inteligente** (detalle en §11). Cierra la Etapa 2:
-
-1. “Repasar mis errores” en `/repaso`: los ítems fallados vuelven hasta acertarlos
-   2 veces en días distintos (§7.6).
-2. Repaso mixto por bloque con ítems de las unidades dominadas.
-3. **Antes de nada, recuperar margen de tamaño:** el JavaScript inicial está en
-   199,3 KB de 200 (§12). Propuesta: cargar los metadatos del contenido solo en las
-   páginas que los usan.
+**2. Siguiente: Etapa 3 — Vocabulario activo, empezando por F13 (flashcards)**
+(detalle en §1 y §11): las ~4.300 palabras de las listas como flashcards con
+repetición espaciada (`/practicar/flashcards?lista=`). Antes conviene decidir si se
+traducen las listas (hoy 0 %): sin traducción, una flashcard EN → ES no tiene reverso.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -793,9 +792,13 @@ Cada fase indica qué conceptos vas a aprender en ella.
 - **Ojo:** JavaScript inicial en 199,3 KB de 200. El buscador no entra en la carga inicial, pero partir el código en más chunks cuesta ~5 KB de compresión. Propuesta en el backlog de F18: cargar los metadatos del contenido solo donde se usan.
 
 #### F12 — Repaso inteligente
-- [ ] “Repasar mis errores” (`/repaso`), con salida tras 2 aciertos en días distintos.
-- [ ] Repaso mixto por bloque (ítems al azar de las unidades dominadas).
-- [ ] `/progreso`: unidades, sets, racha y errores pendientes.
+- [x] Antes de empezar, margen de tamaño recuperado: JavaScript inicial de 199,3 a **187,7 KB**. `Toaster` (sonner) y `TooltipProvider` salen de `main.tsx` (solo los usa `/dev/ui`) y los metadatos en el navegador ya no llevan `legacyPath` ni la `intro` de las listas (`RUNTIME_DROP` en el plugin).
+- [x] “Repasar mis errores” en `/repaso`: los ítems fallados vuelven (los más antiguos primero, 20 por ronda) y salen tras acertarlos en **2 días distintos**; volver a fallar pone la cuenta a cero. Cuenta también acertarlos en el set normal. El store de progreso pasa a `version: 2` con `migrateProgress`, que convierte y comprueba campo a campo lo guardado en `localStorage`.
+- [x] Repaso mixto por bloque: 15 ítems al azar de los sets de las unidades dominadas. Los repasos no cuentan como intento de ningún set, pero sí actualizan errores y racha (`recordReview`).
+- [x] `/progreso`: sets, media, racha, errores pendientes (con acceso a `/repaso`) y unidades dominadas por bloque. La portada avisa de los ejercicios pendientes de repaso.
+- [x] Tests de la lógica (salida tras 2 días, migración v1 → v2, selección de ítems) y de la página de repaso. 159 tests.
+
+**Listo cuando:** los errores se pueden repasar hasta que salen de la lista y hay repaso mixto de las unidades dominadas. ✅
 
 ### Etapa 3 — Vocabulario activo
 #### F13 — Flashcards
