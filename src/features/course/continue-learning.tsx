@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, History } from "lucide-react";
+import { ArrowRight, History, Repeat } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { getExerciseSet, getUnits } from "@/content";
 import { useProgressStore } from "@/features/progress/store";
@@ -10,6 +10,7 @@ import { recommendedUnit } from "./logic";
 export function ContinueLearning() {
   const attempts = useProgressStore((state) => state.attempts);
   const lastSetId = useProgressStore((state) => state.lastSetId);
+  const pendingReview = useProgressStore((state) => Object.keys(state.mistakes).length);
   const units = getUnits();
   const unit = recommendedUnit(units, attempts);
   const lastSet = lastSetId ? getExerciseSet(lastSetId) : undefined;
@@ -37,6 +38,15 @@ export function ContinueLearning() {
           {es.home.browseLibrary}
         </Link>
       </div>
+      {pendingReview > 0 && (
+        <Link
+          to="/repaso"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground hover:underline"
+        >
+          <Repeat className="size-4" aria-hidden />
+          {es.review.home(pendingReview)}
+        </Link>
+      )}
       {lastSet && (
         <Link
           to="/ejercicios/$id"

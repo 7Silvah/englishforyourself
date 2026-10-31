@@ -1,5 +1,15 @@
 import { describe, expect, it } from "vitest";
-import { applyResults, dayKey, initialProgress, mistakeKey, nextStreak, percent } from "./logic";
+import {
+  applyResults,
+  applyReview,
+  dayKey,
+  initialProgress,
+  migrateProgress,
+  mistakeKey,
+  nextStreak,
+  percent,
+  updateMistakes,
+} from "./logic";
 
 describe("nextStreak", () => {
   it("empieza en 1", () => {
@@ -60,4 +70,70 @@ describe("applyResults", () => {
 it("percent redondea y no divide entre cero", () => {
   expect(percent(2, 3)).toBe(67);
   expect(percent(0, 0)).toBe(0);
+});
+
+describe("updateMistakes (Repasar mis errores)", () => {
+  const day1 = new Date(2026, 9, 30, 10);
+  const day1Later = new Date(2026, 9, 30, 18);
+  const day2 = new Date(2026, 9, 31, 9);
+  const wrong = { setId: "s", itemId: "1", correct: false };
+  const right = { setId: "s", itemId: "1", correct: true };
+
+  it("un fallo añade el ítem sin aciertos", () => {
+    expect(updateMistakes({}, [wrong], day1)[mistakeKey("s", "1")]).toMatchObject({
+      count: 1,
+      rightDays: [],
+    });
+  });
+
+  it("acertar dos veces el mismo día no basta; en días distintos, sale", () => {
+    let m = updateMistakes({}, [wrong], day1);
+    m = updateMistakes(m, [right], day1);
+    m = updateMistakes(m, [right], day1Later);
+    expect(m[mistakeKey("s", "1")]?.rightDays).toEqual(["2026-10-30"]);
+    m = updateMistakes(m, [right], day2);
+    expect(m[mistakeKey("s", "1")]).toBeUndefined();
+  });
+
+  it("volver a fallar pone a cero los aciertos", () => {
+    let m = updateMistakes({}, [wrong], day1);
+    m = updateMistakes(m, [right], day1);
+    m = updateMistakes(m, [wrong], day2);
+    expect(m[mistakeKey("s", "1")]).toMatchObject({ count: 2, rightDays: [] });
+  });
+
+  it("acertar un ítem que no estaba en la lista no hace nada", () => {
+    expect(updateMistakes({}, [right], day1)).toEqual({});
+  });
+
+  it("applyReview actualiza errores y racha, pero no los intentos", () => {
+    const data = applyReview(initialProgress, [wrong], day1);
+    expect(Object.keys(data.mistakes)).toEqual([mistakeKey("s", "1")]);
+    expect(data.attempts).toEqual({});
+    expect(data.streak?.days).toBe(1);
+  });
+});
+
+describe("migrateProgress", () => {
+  it("v1 → v2: los errores ganan rightDays vacío y se conserva lo demás", () => {
+    const v1 = {
+      attempts: { s: { best: 80, last: 60, count: 2, at: "2026-10-01T00:00:00.000Z" } },
+      mistakes: { "s#1": { setId: "s", itemId: "1", count: 3, at: "2026-10-01T00:00:00.000Z" } },
+      streak: { days: 2, lastDay: "2026-10-01" },
+      lastSetId: "s",
+    };
+    expect(migrateProgress(v1, 1)).toEqual({
+      ...v1,
+      mistakes: { "s#1": { ...v1.mistakes["s#1"], rightDays: [] } },
+    });
+  });
+
+  it("descarta lo que no tiene sentido en vez de romper la app", () => {
+    expect(migrateProgress("basura", 1)).toEqual(initialProgress);
+    const data = migrateProgress(
+      { attempts: { x: { best: "mucho" } }, mistakes: { y: 42 }, streak: 7, lastSetId: 1 },
+      1,
+    );
+    expect(data).toEqual(initialProgress);
+  });
 });
