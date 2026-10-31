@@ -150,6 +150,30 @@ export const es = {
       practice: "Practicar",
       vocabularyTitle: "Vocabulario",
       flashcards: "Flashcards",
+      listsIntro:
+        "Elige una lista: vocabulario, phrasal verbs, collocations o expresiones para cada situación.",
+      itemsCount: (n: number) => (n === 1 ? "1 expresión" : `${n} expresiones`),
+    },
+    phrasalVerbs: {
+      instruction:
+        "Elige o escribe la partícula que falta y relaciona cada phrasal verb con su significado.",
+      explain: (en: string, meaning: string) => `${en} = ${meaning}.`,
+      hint: (meaning: string) => `Significa «${meaning}».`,
+      match: "Cada phrasal verb con su significado: la partícula cambia el sentido del verbo.",
+    },
+    collocations: {
+      instruction:
+        "Elige el verbo que va con cada palabra. En español decimos «hacer» o «tomar», pero en inglés cambia según la palabra.",
+      explain: (collocation: string) =>
+        `Se dice «${collocation}». Es una combinación fija (collocation): no sale de ninguna regla, así que se aprende entera.`,
+      categorize: (a: string, b: string) =>
+        `Cada palabra va siempre con el mismo verbo: unas con ${a} y otras con ${b}.`,
+    },
+    waysToSay: {
+      instruction: "Elige la expresión adecuada para cada situación, clasifícalas y ordénalas.",
+      which: (purpose: string) => `¿Qué dirías para ${purpose}?`,
+      explain: (expression: string, purpose: string) => `«${expression}» sirve para ${purpose}.`,
+      categorize: "Cada expresión en la situación en la que se usa.",
     },
     explain: {
       neg: "En negativa, not va después del primer auxiliar.",

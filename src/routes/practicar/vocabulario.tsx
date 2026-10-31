@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { PageHeader } from "@/components/layout/page-header";
 import { getLessonByPath } from "@/content";
+import { loadListPractice } from "@/features/exercises/list-practice";
 import { VocabularyLists } from "@/features/exercises/vocabulary-lists";
 import { VocabularyPractice } from "@/features/exercises/vocabulary-practice";
 import { es } from "@/i18n/es";
@@ -18,19 +19,16 @@ export const Route = createFileRoute("/practicar/vocabulario")({
     const crumb = es.generated.vocabulary.practice;
     if (!deps.lista) return { crumb, list: null };
     const lesson = getLessonByPath(deps.lista);
-    if (!lesson || lesson.translatedCount === 0) throw notFound();
-    const loaded = await lesson.load();
-    if (loaded.kind !== "wordlist") throw notFound();
-    const words = loaded.list.groups.flatMap((g) =>
-      g.items.flatMap((w) => (w.es ? [{ en: w.en, es: w.es }] : [])),
-    );
+    const practice = lesson && (await loadListPractice(lesson));
+    if (!lesson || !practice) throw notFound();
     return {
       crumb: `${crumb} · ${lesson.meta.title}`,
       list: {
         path: lesson.path,
         title: lesson.meta.title,
         level: lesson.meta.level ?? "A1",
-        words,
+        practice,
+        hasFlashcards: lesson.translatedCount > 0,
       },
     };
   },
@@ -45,7 +43,7 @@ function VocabularioPage() {
       <>
         <PageHeader
           title={es.generated.vocabulary.practice}
-          description={es.generated.vocabulary.instruction}
+          description={es.generated.vocabulary.listsIntro}
         />
         <VocabularyLists />
       </>
@@ -62,7 +60,8 @@ function VocabularioPage() {
         listPath={list.path}
         title={list.title}
         level={list.level}
-        words={list.words}
+        practice={list.practice}
+        hasFlashcards={list.hasFlashcards}
       />
     </>
   );

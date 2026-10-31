@@ -41,6 +41,9 @@ export const Word = z.strictObject({
   exampleEs: z.string().optional(),
   note: z.string().optional(), // nota en español
   falseFriend: z.string().optional(), // palabra española con la que se confunde: "carpeta" (carpet)
+  // Partícula de un phrasal verb ("up", "out of"): aparece en `en` y una sola vez en `example`,
+  // que es donde los ejercicios ponen el hueco. El verbo es la palabra que va tras "To".
+  particle: z.string().optional(),
 });
 export type Word = z.infer<typeof Word>;
 
