@@ -57,6 +57,7 @@ export const WordListMeta = z.strictObject({
   ...LessonMetaFields,
   intro: z.string().optional(), // introducción original en inglés
   introEs: z.string().optional(),
+  reviewed: z.boolean().optional(), // traducciones revisadas por una persona (decisión D1)
 });
 export const WordList = z.strictObject({
   ...WordListMeta.shape,

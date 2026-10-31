@@ -4,144 +4,190 @@
   "order": 7,
   "legacyPath": "lessons/vocabulary/fruits-vegetables-and-nuts.html",
   "intro": "In this section of English vocabulary, you will learn vocabulary about fruits, vegetables and nuts.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Fruits vocabulary",
       "items": [
         {
-          "en": "Apple"
+          "en": "Apple",
+          "es": "manzana"
         },
         {
-          "en": "Apricot"
+          "en": "Apricot",
+          "es": "albaricoque / damasco"
         },
         {
-          "en": "Avocado"
+          "en": "Avocado",
+          "es": "aguacate / palta"
         },
         {
-          "en": "Banana"
+          "en": "Banana",
+          "es": "plátano / banana"
         },
         {
-          "en": "Blackberry"
+          "en": "Blackberry",
+          "es": "mora"
         },
         {
-          "en": "Blackcurrant"
+          "en": "Blackcurrant",
+          "es": "grosella negra"
         },
         {
-          "en": "Blueberry"
+          "en": "Blueberry",
+          "es": "arándano"
         },
         {
-          "en": "Cherry"
+          "en": "Cherry",
+          "es": "cereza"
         },
         {
-          "en": "Coconut"
+          "en": "Coconut",
+          "es": "coco"
         },
         {
-          "en": "Cranberry"
+          "en": "Cranberry",
+          "es": "arándano rojo"
         },
         {
-          "en": "Custard apple"
+          "en": "Custard apple",
+          "es": "chirimoya"
         },
         {
-          "en": "Date"
+          "en": "Date",
+          "es": "dátil"
         },
         {
-          "en": "Dragon fruit"
+          "en": "Dragon fruit",
+          "es": "pitahaya"
         },
         {
-          "en": "Durian"
+          "en": "Durian",
+          "es": "durián"
         },
         {
-          "en": "Fig"
+          "en": "Fig",
+          "es": "higo"
         },
         {
-          "en": "Goji berry"
+          "en": "Goji berry",
+          "es": "baya de goji"
         },
         {
-          "en": "Gooseberry"
+          "en": "Gooseberry",
+          "es": "grosella espinosa"
         },
         {
-          "en": "Grape"
+          "en": "Grape",
+          "es": "uva"
         },
         {
-          "en": "Grapefruit"
+          "en": "Grapefruit",
+          "es": "toronja / pomelo"
         },
         {
-          "en": "Guava"
+          "en": "Guava",
+          "es": "guayaba"
         },
         {
-          "en": "Jujube"
+          "en": "Jujube",
+          "es": "azufaifa"
         },
         {
-          "en": "Kiwi"
+          "en": "Kiwi",
+          "es": "kiwi"
         },
         {
-          "en": "Lemon"
+          "en": "Lemon",
+          "es": "limón"
         },
         {
-          "en": "Lime"
+          "en": "Lime",
+          "es": "lima"
         },
         {
-          "en": "Lychee"
+          "en": "Lychee",
+          "es": "lichi"
         },
         {
-          "en": "Mango"
+          "en": "Mango",
+          "es": "mango"
         },
         {
-          "en": "Melon"
+          "en": "Melon",
+          "es": "melón"
         },
         {
-          "en": "Nectarine"
+          "en": "Nectarine",
+          "es": "nectarina"
         },
         {
-          "en": "Orange"
+          "en": "Orange",
+          "es": "naranja"
         },
         {
-          "en": "Papaya"
+          "en": "Papaya",
+          "es": "papaya"
         },
         {
-          "en": "Passion fruit"
+          "en": "Passion fruit",
+          "es": "maracuyá / fruta de la pasión"
         },
         {
-          "en": "Peach"
+          "en": "Peach",
+          "es": "melocotón / durazno"
         },
         {
-          "en": "Pear"
+          "en": "Pear",
+          "es": "pera"
         },
         {
-          "en": "Persimmons"
+          "en": "Persimmons",
+          "es": "caquis"
         },
         {
-          "en": "Pineapple"
+          "en": "Pineapple",
+          "es": "piña"
         },
         {
-          "en": "Plum"
+          "en": "Plum",
+          "es": "ciruela"
         },
         {
-          "en": "Pomegranate"
+          "en": "Pomegranate",
+          "es": "granada"
         },
         {
-          "en": "Quince"
+          "en": "Quince",
+          "es": "membrillo"
         },
         {
-          "en": "Raspberry"
+          "en": "Raspberry",
+          "es": "frambuesa"
         },
         {
-          "en": "Red currant"
+          "en": "Red currant",
+          "es": "grosella roja"
         },
         {
-          "en": "Sapodilla"
+          "en": "Sapodilla",
+          "es": "zapote / chicozapote"
         },
         {
           "en": "Shaddock"
         },
         {
-          "en": "Strawberry"
+          "en": "Strawberry",
+          "es": "fresa / frutilla"
         },
         {
-          "en": "Tangerine"
+          "en": "Tangerine",
+          "es": "mandarina"
         },
         {
-          "en": "Watermelon"
+          "en": "Watermelon",
+          "es": "sandía"
         }
       ]
     },
@@ -149,178 +195,236 @@
       "title": "Vegetables vocabulary",
       "items": [
         {
-          "en": "Artichoke"
+          "en": "Artichoke",
+          "es": "alcachofa"
         },
         {
-          "en": "Arugula"
+          "en": "Arugula",
+          "es": "rúcula"
         },
         {
-          "en": "Asparagus"
+          "en": "Asparagus",
+          "es": "espárrago"
         },
         {
-          "en": "Aubergine or eggplant"
+          "en": "Aubergine or eggplant",
+          "es": "berenjena"
         },
         {
-          "en": "Beans"
+          "en": "Beans",
+          "es": "frijoles / judías"
         },
         {
-          "en": "Beetroot"
+          "en": "Beetroot",
+          "es": "remolacha / betabel"
         },
         {
-          "en": "Beets"
+          "en": "Beets",
+          "es": "remolachas / betabeles"
         },
         {
-          "en": "Bell pepper or capsicum"
+          "en": "Bell pepper or capsicum",
+          "es": "pimiento / pimentón"
         },
         {
-          "en": "Broccoli"
+          "en": "Broccoli",
+          "es": "brócoli"
         },
         {
-          "en": "Brussels sprouts"
+          "en": "Brussels sprouts",
+          "es": "coles de Bruselas"
         },
         {
-          "en": "Cabbage"
+          "en": "Cabbage",
+          "es": "repollo / col"
         },
         {
-          "en": "Carrot"
+          "en": "Carrot",
+          "es": "zanahoria"
         },
         {
-          "en": "Cassava"
+          "en": "Cassava",
+          "es": "yuca"
         },
         {
-          "en": "Cauliflower"
+          "en": "Cauliflower",
+          "es": "coliflor"
         },
         {
-          "en": "Celery"
+          "en": "Celery",
+          "es": "apio"
         },
         {
-          "en": "Chayote"
+          "en": "Chayote",
+          "es": "chayote"
         },
         {
-          "en": "Chickpeas"
+          "en": "Chickpeas",
+          "es": "garbanzos"
         },
         {
-          "en": "Chili pepper"
+          "en": "Chili pepper",
+          "es": "chile / ají"
         },
         {
-          "en": "Collards"
+          "en": "Collards",
+          "es": "berza"
         },
         {
-          "en": "Coriander"
+          "en": "Coriander",
+          "es": "cilantro"
         },
         {
-          "en": "Corn or maize"
+          "en": "Corn or maize",
+          "es": "maíz"
         },
         {
-          "en": "Courgetti"
+          "en": "Courgetti",
+          "es": "espaguetis de calabacín"
         },
         {
-          "en": "Cucumber"
+          "en": "Cucumber",
+          "es": "pepino"
         },
         {
-          "en": "Fennel"
+          "en": "Fennel",
+          "es": "hinojo"
         },
         {
-          "en": "Garlic"
+          "en": "Garlic",
+          "es": "ajo"
         },
         {
-          "en": "Ginger"
+          "en": "Ginger",
+          "es": "jengibre"
         },
         {
-          "en": "Green onion"
+          "en": "Green onion",
+          "es": "cebolleta / cebollín"
         },
         {
-          "en": "Habanero pepper"
+          "en": "Habanero pepper",
+          "es": "chile habanero"
         },
         {
-          "en": "Jicama"
+          "en": "Jicama",
+          "es": "jícama"
         },
         {
-          "en": "Kale"
+          "en": "Kale",
+          "es": "col rizada (kale)"
         },
         {
-          "en": "Kelp"
+          "en": "Kelp",
+          "es": "alga marina (kelp)"
         },
         {
-          "en": "Korean radish"
+          "en": "Korean radish",
+          "es": "rábano coreano"
         },
         {
-          "en": "Leek"
+          "en": "Leek",
+          "es": "puerro"
         },
         {
-          "en": "Lentils"
+          "en": "Lentils",
+          "es": "lentejas"
         },
         {
-          "en": "Lettuce"
+          "en": "Lettuce",
+          "es": "lechuga"
         },
         {
-          "en": "Mint"
+          "en": "Mint",
+          "es": "menta"
         },
         {
-          "en": "Mushroom"
+          "en": "Mushroom",
+          "es": "champiñón / hongo"
         },
         {
-          "en": "Mustard greens"
+          "en": "Mustard greens",
+          "es": "hojas de mostaza"
         },
         {
-          "en": "Onion"
+          "en": "Onion",
+          "es": "cebolla"
         },
         {
-          "en": "Parsnips"
+          "en": "Parsnips",
+          "es": "chirivías"
         },
         {
-          "en": "Peas"
+          "en": "Peas",
+          "es": "guisantes / arvejas"
         },
         {
-          "en": "Pepper"
+          "en": "Pepper",
+          "es": "pimiento"
         },
         {
-          "en": "Pickle"
+          "en": "Pickle",
+          "es": "pepinillo encurtido"
         },
         {
-          "en": "Potato"
+          "en": "Potato",
+          "es": "papa / patata"
         },
         {
-          "en": "Pumpkin"
+          "en": "Pumpkin",
+          "es": "calabaza"
         },
         {
-          "en": "Radish"
+          "en": "Radish",
+          "es": "rábano"
         },
         {
-          "en": "Rye"
+          "en": "Rye",
+          "es": "centeno"
         },
         {
-          "en": "Spinach"
+          "en": "Spinach",
+          "es": "espinaca"
         },
         {
-          "en": "Squash"
+          "en": "Squash",
+          "es": "calabaza"
         },
         {
-          "en": "Sweet potato"
+          "en": "Sweet potato",
+          "es": "batata / camote"
         },
         {
-          "en": "Swiss chard"
+          "en": "Swiss chard",
+          "es": "acelga"
         },
         {
-          "en": "Taro"
+          "en": "Taro",
+          "es": "taro / malanga"
         },
         {
-          "en": "Tomato"
+          "en": "Tomato",
+          "es": "tomate"
         },
         {
-          "en": "Turnip"
+          "en": "Turnip",
+          "es": "nabo"
         },
         {
-          "en": "Watercress"
+          "en": "Watercress",
+          "es": "berro"
         },
         {
-          "en": "Wheat"
+          "en": "Wheat",
+          "es": "trigo"
         },
         {
-          "en": "Wild lettuce"
+          "en": "Wild lettuce",
+          "es": "lechuga silvestre"
         },
         {
-          "en": "Zucchini"
+          "en": "Zucchini",
+          "es": "calabacín"
         }
       ]
     },
@@ -328,22 +432,28 @@
       "title": "Nuts vocabulary",
       "items": [
         {
-          "en": "Peanut"
+          "en": "Peanut",
+          "es": "cacahuate / maní"
         },
         {
-          "en": "Almond"
+          "en": "Almond",
+          "es": "almendra"
         },
         {
-          "en": "Walnut"
+          "en": "Walnut",
+          "es": "nuez"
         },
         {
-          "en": "Hazelnut"
+          "en": "Hazelnut",
+          "es": "avellana"
         },
         {
-          "en": "Cashew"
+          "en": "Cashew",
+          "es": "anacardo / castaña de cajú"
         },
         {
-          "en": "Pecan"
+          "en": "Pecan",
+          "es": "nuez pecana"
         }
       ]
     }

@@ -4,78 +4,103 @@
   "order": 5,
   "legacyPath": "lessons/vocabulary/colours-and-shapes-vocabulary.html",
   "intro": "In this section of vocabulary, you will learn the colours and shapes vocabulary in English.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Colours vocabulary",
       "items": [
         {
-          "en": "Black"
+          "en": "Black",
+          "es": "negro"
         },
         {
-          "en": "Blue"
+          "en": "Blue",
+          "es": "azul"
         },
         {
-          "en": "Brown"
+          "en": "Brown",
+          "es": "marrón / café"
         },
         {
-          "en": "Coral"
+          "en": "Coral",
+          "es": "coral"
         },
         {
-          "en": "Dark blue"
+          "en": "Dark blue",
+          "es": "azul oscuro"
         },
         {
-          "en": "Gold"
+          "en": "Gold",
+          "es": "dorado"
         },
         {
-          "en": "Green"
+          "en": "Green",
+          "es": "verde"
         },
         {
-          "en": "Grey or gray"
+          "en": "Grey or gray",
+          "es": "gris"
         },
         {
-          "en": "Indigo"
+          "en": "Indigo",
+          "es": "índigo / añil"
         },
         {
-          "en": "Khaki"
+          "en": "Khaki",
+          "es": "caqui"
         },
         {
-          "en": "Light blue"
+          "en": "Light blue",
+          "es": "azul claro / celeste"
         },
         {
-          "en": "Magenta"
+          "en": "Magenta",
+          "es": "magenta"
         },
         {
-          "en": "Maroon"
+          "en": "Maroon",
+          "es": "granate / guinda"
         },
         {
-          "en": "Navy blue"
+          "en": "Navy blue",
+          "es": "azul marino"
         },
         {
-          "en": "Orange"
+          "en": "Orange",
+          "es": "naranja"
         },
         {
-          "en": "Pink"
+          "en": "Pink",
+          "es": "rosa / rosado"
         },
         {
-          "en": "Purple"
+          "en": "Purple",
+          "es": "morado"
         },
         {
-          "en": "Red"
+          "en": "Red",
+          "es": "rojo"
         },
         {
-          "en": "Salmon"
+          "en": "Salmon",
+          "es": "salmón"
         },
         {
-          "en": "Silver"
+          "en": "Silver",
+          "es": "plateado"
         },
         {
-          "en": "Turquoise"
+          "en": "Turquoise",
+          "es": "turquesa"
         },
         {
-          "en": "White"
+          "en": "White",
+          "es": "blanco"
         },
         {
-          "en": "Yellow"
+          "en": "Yellow",
+          "es": "amarillo"
         }
       ]
     },
@@ -83,52 +108,68 @@
       "title": "Shapes vocabulary",
       "items": [
         {
-          "en": "Circle"
+          "en": "Circle",
+          "es": "círculo"
         },
         {
-          "en": "Triangle"
+          "en": "Triangle",
+          "es": "triángulo"
         },
         {
-          "en": "Square"
+          "en": "Square",
+          "es": "cuadrado"
         },
         {
-          "en": "Rectangle"
+          "en": "Rectangle",
+          "es": "rectángulo"
         },
         {
-          "en": "Oval"
+          "en": "Oval",
+          "es": "óvalo"
         },
         {
-          "en": "Pentagon"
+          "en": "Pentagon",
+          "es": "pentágono"
         },
         {
-          "en": "Hexagon"
+          "en": "Hexagon",
+          "es": "hexágono"
         },
         {
-          "en": "Heptagon"
+          "en": "Heptagon",
+          "es": "heptágono"
         },
         {
-          "en": "Octagon"
+          "en": "Octagon",
+          "es": "octágono"
         },
         {
-          "en": "Parallelogram"
+          "en": "Parallelogram",
+          "es": "paralelogramo"
         },
         {
-          "en": "Cross"
+          "en": "Cross",
+          "es": "cruz"
         },
         {
-          "en": "Cube"
+          "en": "Cube",
+          "es": "cubo"
         },
         {
-          "en": "Cone"
+          "en": "Cone",
+          "es": "cono"
         },
         {
-          "en": "Cylinder"
+          "en": "Cylinder",
+          "es": "cilindro"
         },
         {
-          "en": "Rhombus"
+          "en": "Rhombus",
+          "es": "rombo"
         },
         {
-          "en": "Trapezoid"
+          "en": "Trapezoid",
+          "es": "trapecio"
         }
       ]
     }

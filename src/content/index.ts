@@ -18,7 +18,7 @@ function trusted<T>(data: unknown): T {
   return data as T;
 }
 
-type WithCount = { itemCount?: number };
+type WithCount = { itemCount?: number; translatedCount?: number };
 
 // Las claves son rutas relativas: "./lessons/grammar/articles.mdx"
 const articleMeta = import.meta.glob<unknown>("./lessons/**/*.mdx", {
@@ -58,6 +58,7 @@ export type LessonEntry = {
   parent?: string; // path de la lección padre, si existe
   meta: LessonMeta;
   wordCount: number; // palabras de una lista (0 en artículos)
+  translatedCount: number; // palabras con traducción (las que pueden ser flashcards)
   load: () => Promise<LoadedLesson>;
 };
 
@@ -77,6 +78,7 @@ for (const [file, raw] of Object.entries(articleMeta)) {
     ...locate(file, "lessons"),
     meta: trusted<ArticleMeta>(raw),
     wordCount: 0,
+    translatedCount: 0,
     load: async () => ({ kind: "article", Content: (await loader()).default }),
   });
 }
@@ -88,6 +90,7 @@ for (const [file, raw] of Object.entries(wordlistMeta)) {
     ...locate(file, "wordlists"),
     meta: trusted<WordListMeta>(raw),
     wordCount: trusted<WithCount>(raw).itemCount ?? 0,
+    translatedCount: trusted<WithCount>(raw).translatedCount ?? 0,
     load: async () => ({ kind: "wordlist", list: trusted<WordList>(await loader()) }),
   });
 }

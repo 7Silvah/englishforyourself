@@ -1,7 +1,9 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { Layers } from "lucide-react";
 import { ChildLessons, LessonFooter } from "@/components/lesson/lesson-nav";
 import { mdxComponents } from "@/components/lesson/mdx-components";
 import { WordList } from "@/components/lesson/word-list";
+import { buttonVariants } from "@/components/ui/button";
 import { getLesson } from "@/content";
 import { es } from "@/i18n/es";
 import { pageTitle } from "@/lib/page-title";
@@ -44,8 +46,18 @@ function LessonPage() {
       </h1>
       {lesson.meta.summaryEs && <p className="mb-6 text-lg">{lesson.meta.summaryEs}</p>}
 
-      <div className="mb-8">
+      <div className="mb-8 space-y-4">
         <ChildLessons lesson={lesson} />
+        {lesson.translatedCount > 0 && (
+          <Link
+            to="/practicar/flashcards"
+            search={{ lista: lesson.path }}
+            className={buttonVariants({ variant: "outline" })}
+          >
+            <Layers data-icon="inline-start" aria-hidden />
+            {es.flashcards.practiceList(lesson.translatedCount)}
+          </Link>
+        )}
       </div>
 
       {loaded.kind === "article" ? (

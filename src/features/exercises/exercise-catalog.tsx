@@ -92,6 +92,12 @@ export function ExerciseCatalog({ filters }: { filters: CatalogFilters }) {
         >
           {t.generatedTenses}
         </Link>
+        <Link
+          to="/practicar/flashcards"
+          className={buttonVariants({ variant: "outline", size: "sm" })}
+        >
+          {es.flashcards.title}
+        </Link>
       </section>
       <div className="space-y-3">
         <div

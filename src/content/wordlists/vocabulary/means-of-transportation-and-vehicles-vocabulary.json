@@ -4,120 +4,159 @@
   "order": 26,
   "legacyPath": "lessons/vocabulary/means-of-transportation-and-vehicles-vocabulary.html",
   "intro": "In this section you will learn vocabulary about means of transportation and vehicles in English.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Means of transportation and vehicles vocabulary",
       "items": [
         {
-          "en": "Aerial tramway"
+          "en": "Aerial tramway",
+          "es": "teleférico"
         },
         {
-          "en": "Ambulance"
+          "en": "Ambulance",
+          "es": "ambulancia"
         },
         {
-          "en": "Balloon"
+          "en": "Balloon",
+          "es": "globo aerostático"
         },
         {
-          "en": "Bicycle"
+          "en": "Bicycle",
+          "es": "bicicleta"
         },
         {
-          "en": "Bus"
+          "en": "Bus",
+          "es": "autobús"
         },
         {
-          "en": "Canoe"
+          "en": "Canoe",
+          "es": "canoa"
         },
         {
-          "en": "Car"
+          "en": "Car",
+          "es": "coche / carro / auto"
         },
         {
-          "en": "Carriage"
+          "en": "Carriage",
+          "es": "carruaje"
         },
         {
-          "en": "Cement mixer"
+          "en": "Cement mixer",
+          "es": "camión hormigonera"
         },
         {
-          "en": "Double-decker"
+          "en": "Double-decker",
+          "es": "autobús de dos pisos"
         },
         {
-          "en": "Dump truck"
+          "en": "Dump truck",
+          "es": "volquete / camión de volteo"
         },
         {
-          "en": "Fire engine"
+          "en": "Fire engine",
+          "es": "camión de bomberos"
         },
         {
-          "en": "Forklift"
+          "en": "Forklift",
+          "es": "montacargas / carretilla elevadora"
         },
         {
-          "en": "Helicopter"
+          "en": "Helicopter",
+          "es": "helicóptero"
         },
         {
-          "en": "Limousine"
+          "en": "Limousine",
+          "es": "limusina"
         },
         {
-          "en": "Lorry (UK) / truck (US)"
+          "en": "Lorry (UK) / truck (US)",
+          "es": "camión"
         },
         {
-          "en": "Mixer"
+          "en": "Mixer",
+          "es": "hormigonera"
         },
         {
-          "en": "Motorbike / motorcycle"
+          "en": "Motorbike / motorcycle",
+          "es": "moto / motocicleta"
         },
         {
-          "en": "Motorboat"
+          "en": "Motorboat",
+          "es": "lancha a motor"
         },
         {
-          "en": "Pick-up truck"
+          "en": "Pick-up truck",
+          "es": "camioneta (pickup)"
         },
         {
-          "en": "Plane"
+          "en": "Plane",
+          "es": "avión"
         },
         {
-          "en": "Police car"
+          "en": "Police car",
+          "es": "coche patrulla"
         },
         {
-          "en": "Recycling truck"
+          "en": "Recycling truck",
+          "es": "camión de reciclaje"
         },
         {
-          "en": "Rowboat"
+          "en": "Rowboat",
+          "es": "bote de remos"
         },
         {
-          "en": "Sailboat"
+          "en": "Sailboat",
+          "es": "velero"
         },
         {
-          "en": "School bus"
+          "en": "School bus",
+          "es": "autobús escolar"
         },
         {
-          "en": "Scooter"
+          "en": "Scooter",
+          "es": "patinete / scooter"
         },
         {
-          "en": "Ship"
+          "en": "Ship",
+          "es": "barco"
         },
         {
-          "en": "Skateboard"
+          "en": "Skateboard",
+          "es": "monopatín / patineta"
         },
         {
-          "en": "Submarine"
+          "en": "Submarine",
+          "es": "submarino"
         },
         {
-          "en": "Taxi"
+          "en": "Taxi",
+          "es": "taxi"
         },
         {
-          "en": "Tractor"
+          "en": "Tractor",
+          "es": "tractor"
         },
         {
-          "en": "Train"
+          "en": "Train",
+          "es": "tren"
         },
         {
-          "en": "Tram (UK) / streetcar (US)"
+          "en": "Tram (UK) / streetcar (US)",
+          "es": "tranvía"
         },
         {
-          "en": "Underground (UK) / subway (US)"
+          "en": "Underground (UK) / subway (US)",
+          "es": "metro"
         },
         {
-          "en": "Van"
+          "en": "Van",
+          "es": "furgoneta / camioneta"
         },
         {
-          "en": "Yacht"
+          "en": "Yacht",
+          "es": "yate"
         }
       ]
     }
