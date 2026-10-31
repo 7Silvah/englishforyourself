@@ -4,132 +4,175 @@
   "order": 8,
   "legacyPath": "lessons/vocabulary/foods-and-drinks-vocabulary.html",
   "intro": "In this section of English vocabulary, you will find vocabulary about different types of foods, drinks and beverages, dairy products, sweets and desserts, condiments and herbs.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Foods vocabulary",
       "items": [
         {
-          "en": "Chips (UK) / fries (US)"
+          "en": "Chips (UK) / fries (US)",
+          "es": "papas / patatas fritas"
         },
         {
-          "en": "Crisps (UK) / potato chips (US)"
+          "en": "Crisps (UK) / potato chips (US)",
+          "es": "papas fritas de bolsa"
         },
         {
-          "en": "Sandwich"
+          "en": "Sandwich",
+          "es": "sándwich"
         },
         {
-          "en": "Salad"
+          "en": "Salad",
+          "es": "ensalada"
         },
         {
-          "en": "Roast beef"
+          "en": "Roast beef",
+          "es": "rosbif"
         },
         {
-          "en": "Roast chicken"
+          "en": "Roast chicken",
+          "es": "pollo asado"
         },
         {
-          "en": "Fried fish"
+          "en": "Fried fish",
+          "es": "pescado frito"
         },
         {
-          "en": "Soup"
+          "en": "Soup",
+          "es": "sopa"
         },
         {
-          "en": "Pizza"
+          "en": "Pizza",
+          "es": "pizza"
         },
         {
-          "en": "Spaghetti"
+          "en": "Spaghetti",
+          "es": "espaguetis"
         },
         {
-          "en": "Sausage"
+          "en": "Sausage",
+          "es": "salchicha"
         },
         {
-          "en": "Boiled eggs"
+          "en": "Boiled eggs",
+          "es": "huevos cocidos"
         },
         {
-          "en": "Scrambled eggs"
+          "en": "Scrambled eggs",
+          "es": "huevos revueltos"
         },
         {
-          "en": "Fried eggs"
+          "en": "Fried eggs",
+          "es": "huevos fritos"
         },
         {
-          "en": "Honey"
+          "en": "Honey",
+          "es": "miel"
         },
         {
-          "en": "White bread"
+          "en": "White bread",
+          "es": "pan blanco"
         },
         {
-          "en": "Bread rolls"
+          "en": "Bread rolls",
+          "es": "panecillos"
         },
         {
-          "en": "Pasta"
+          "en": "Pasta",
+          "es": "pasta"
         },
         {
-          "en": "Rice"
+          "en": "Rice",
+          "es": "arroz"
         },
         {
-          "en": "Custard"
+          "en": "Custard",
+          "es": "natillas"
         },
         {
-          "en": "Popcorn"
+          "en": "Popcorn",
+          "es": "palomitas de maíz"
         },
         {
-          "en": "Hamburger"
+          "en": "Hamburger",
+          "es": "hamburguesa"
         },
         {
-          "en": "Cereal"
+          "en": "Cereal",
+          "es": "cereal"
         },
         {
-          "en": "Omelette"
+          "en": "Omelette",
+          "es": "tortilla de huevo (omelet)"
         },
         {
-          "en": "Mustard"
+          "en": "Mustard",
+          "es": "mostaza"
         },
         {
-          "en": "Mayonnaise"
+          "en": "Mayonnaise",
+          "es": "mayonesa"
         },
         {
-          "en": "Kebab"
+          "en": "Kebab",
+          "es": "kebab"
         },
         {
-          "en": "Ham"
+          "en": "Ham",
+          "es": "jamón"
         },
         {
-          "en": "Bacon"
+          "en": "Bacon",
+          "es": "tocino / beicon"
         },
         {
-          "en": "Hot dog"
+          "en": "Hot dog",
+          "es": "perrito caliente / hot dog"
         },
         {
-          "en": "Waffles"
+          "en": "Waffles",
+          "es": "gofres / waffles"
         },
         {
-          "en": "Hot chocolate"
+          "en": "Hot chocolate",
+          "es": "chocolate caliente"
         },
         {
-          "en": "Pancakes"
+          "en": "Pancakes",
+          "es": "panqueques / tortitas"
         },
         {
-          "en": "Croissants"
+          "en": "Croissants",
+          "es": "cruasanes"
         },
         {
-          "en": "Porridge"
+          "en": "Porridge",
+          "es": "gachas de avena"
         },
         {
-          "en": "Noodles"
+          "en": "Noodles",
+          "es": "fideos"
         },
         {
-          "en": "Hummus"
+          "en": "Hummus",
+          "es": "hummus"
         },
         {
-          "en": "Bagel"
+          "en": "Bagel",
+          "es": "bagel"
         },
         {
-          "en": "Fried chicken"
+          "en": "Fried chicken",
+          "es": "pollo frito"
         },
         {
-          "en": "Pretzel"
+          "en": "Pretzel",
+          "es": "pretzel"
         },
         {
-          "en": "Breadstick"
+          "en": "Breadstick",
+          "es": "palito de pan / grisín"
         }
       ]
     },
@@ -137,40 +180,52 @@
       "title": "Dairy products vocabulary",
       "items": [
         {
-          "en": "Cheese"
+          "en": "Cheese",
+          "es": "queso"
         },
         {
-          "en": "Butter"
+          "en": "Butter",
+          "es": "mantequilla"
         },
         {
-          "en": "Milk"
+          "en": "Milk",
+          "es": "leche"
         },
         {
-          "en": "Ice cream"
+          "en": "Ice cream",
+          "es": "helado"
         },
         {
-          "en": "Yogurt or yoghurt"
+          "en": "Yogurt or yoghurt",
+          "es": "yogur"
         },
         {
-          "en": "Cream"
+          "en": "Cream",
+          "es": "nata / crema de leche"
         },
         {
-          "en": "Sour cream"
+          "en": "Sour cream",
+          "es": "crema agria"
         },
         {
-          "en": "Condensed milk"
+          "en": "Condensed milk",
+          "es": "leche condensada"
         },
         {
-          "en": "Cottage cheese"
+          "en": "Cottage cheese",
+          "es": "requesón"
         },
         {
-          "en": "Cream cheese"
+          "en": "Cream cheese",
+          "es": "queso crema"
         },
         {
-          "en": "Mozzarella cheese"
+          "en": "Mozzarella cheese",
+          "es": "queso mozzarella"
         },
         {
-          "en": "Whipped cream"
+          "en": "Whipped cream",
+          "es": "nata montada / crema batida"
         }
       ]
     },
@@ -178,76 +233,99 @@
       "title": "Sweets and desserts vocabulary",
       "items": [
         {
-          "en": "Biscuits (UK) / cookies (US)"
+          "en": "Biscuits (UK) / cookies (US)",
+          "es": "galletas"
         },
         {
-          "en": "Brownie(s)"
+          "en": "Brownie(s)",
+          "es": "brownie(s)"
         },
         {
-          "en": "Cake"
+          "en": "Cake",
+          "es": "pastel / tarta"
         },
         {
-          "en": "Candy"
+          "en": "Candy",
+          "es": "caramelo / dulce"
         },
         {
-          "en": "Chewing gum"
+          "en": "Chewing gum",
+          "es": "chicle"
         },
         {
-          "en": "Chocolate"
+          "en": "Chocolate",
+          "es": "chocolate"
         },
         {
-          "en": "Cotton candy or candy floss"
+          "en": "Cotton candy or candy floss",
+          "es": "algodón de azúcar"
         },
         {
-          "en": "Cupcakes or muffins"
+          "en": "Cupcakes or muffins",
+          "es": "magdalenas / cupcakes"
         },
         {
-          "en": "Doughnut(s) (UK) / donut (US)"
+          "en": "Doughnut(s) (UK) / donut (US)",
+          "es": "dona / rosquilla"
         },
         {
-          "en": "Hard candies"
+          "en": "Hard candies",
+          "es": "caramelos duros"
         },
         {
-          "en": "Jam"
+          "en": "Jam",
+          "es": "mermelada"
         },
         {
-          "en": "Jelly beans"
+          "en": "Jelly beans",
+          "es": "gominolas (jelly beans)"
         },
         {
-          "en": "Jelly candies"
+          "en": "Jelly candies",
+          "es": "gomitas"
         },
         {
-          "en": "Lollipop"
+          "en": "Lollipop",
+          "es": "piruleta / paleta"
         },
         {
           "en": "Macaroons"
         },
         {
-          "en": "Marshmallow"
+          "en": "Marshmallow",
+          "es": "malvavisco / nube"
         },
         {
-          "en": "Milkshake"
+          "en": "Milkshake",
+          "es": "batido / malteada"
         },
         {
-          "en": "Mousse"
+          "en": "Mousse",
+          "es": "mousse"
         },
         {
-          "en": "Pie"
+          "en": "Pie",
+          "es": "pastel / tarta (pie)"
         },
         {
-          "en": "Popsicle"
+          "en": "Popsicle",
+          "es": "paleta de hielo / polo"
         },
         {
-          "en": "Pudding"
+          "en": "Pudding",
+          "es": "pudín"
         },
         {
-          "en": "Sundae"
+          "en": "Sundae",
+          "es": "copa de helado"
         },
         {
-          "en": "Tart"
+          "en": "Tart",
+          "es": "tarta"
         },
         {
-          "en": "Tiramisu"
+          "en": "Tiramisu",
+          "es": "tiramisú"
         }
       ]
     },
@@ -255,118 +333,156 @@
       "title": "Drinks and beverages vocabulary",
       "items": [
         {
-          "en": "Alcohol"
+          "en": "Alcohol",
+          "es": "alcohol"
         },
         {
-          "en": "Almond milk"
+          "en": "Almond milk",
+          "es": "leche de almendras"
         },
         {
-          "en": "Apple juice"
+          "en": "Apple juice",
+          "es": "jugo / zumo de manzana"
         },
         {
-          "en": "Beer"
+          "en": "Beer",
+          "es": "cerveza"
         },
         {
-          "en": "Black coffee"
+          "en": "Black coffee",
+          "es": "café solo / café negro"
         },
         {
-          "en": "Booze"
+          "en": "Booze",
+          "es": "bebida alcohólica (informal)"
         },
         {
-          "en": "Champagne"
+          "en": "Champagne",
+          "es": "champán"
         },
         {
-          "en": "Cider"
+          "en": "Cider",
+          "es": "sidra"
         },
         {
-          "en": "Cocktail"
+          "en": "Cocktail",
+          "es": "cóctel"
         },
         {
-          "en": "Cocoa"
+          "en": "Cocoa",
+          "es": "cacao"
         },
         {
-          "en": "Coconut water"
+          "en": "Coconut water",
+          "es": "agua de coco"
         },
         {
-          "en": "Coffee"
+          "en": "Coffee",
+          "es": "café"
         },
         {
-          "en": "Decaffeinated coffee"
+          "en": "Decaffeinated coffee",
+          "es": "café descafeinado"
         },
         {
-          "en": "Espresso coffee"
+          "en": "Espresso coffee",
+          "es": "café expreso"
         },
         {
-          "en": "Fruit juice"
+          "en": "Fruit juice",
+          "es": "jugo / zumo de frutas"
         },
         {
-          "en": "Ginger ale"
+          "en": "Ginger ale",
+          "es": "ginger ale (refresco de jengibre)"
         },
         {
-          "en": "Herbal tea"
+          "en": "Herbal tea",
+          "es": "infusión / té de hierbas"
         },
         {
-          "en": "Hot chocolate"
+          "en": "Hot chocolate",
+          "es": "chocolate caliente"
         },
         {
-          "en": "Iced tea"
+          "en": "Iced tea",
+          "es": "té helado"
         },
         {
-          "en": "Lemonade"
+          "en": "Lemonade",
+          "es": "limonada"
         },
         {
-          "en": "Liqueur"
+          "en": "Liqueur",
+          "es": "licor"
         },
         {
-          "en": "Milk"
+          "en": "Milk",
+          "es": "leche"
         },
         {
-          "en": "Mineral water"
+          "en": "Mineral water",
+          "es": "agua mineral"
         },
         {
-          "en": "Non-alcoholic drink"
+          "en": "Non-alcoholic drink",
+          "es": "bebida sin alcohol"
         },
         {
-          "en": "Oat milk"
+          "en": "Oat milk",
+          "es": "leche de avena"
         },
         {
-          "en": "Orange juice"
+          "en": "Orange juice",
+          "es": "jugo / zumo de naranja"
         },
         {
-          "en": "Rum"
+          "en": "Rum",
+          "es": "ron"
         },
         {
-          "en": "Smoothie"
+          "en": "Smoothie",
+          "es": "batido (smoothie)"
         },
         {
-          "en": "Soda"
+          "en": "Soda",
+          "es": "refresco / gaseosa"
         },
         {
-          "en": "Soft drink"
+          "en": "Soft drink",
+          "es": "refresco"
         },
         {
-          "en": "Soy milk or soya milk"
+          "en": "Soy milk or soya milk",
+          "es": "leche de soja / soya"
         },
         {
-          "en": "Sparkling mineral water"
+          "en": "Sparkling mineral water",
+          "es": "agua mineral con gas"
         },
         {
-          "en": "Still mineral water"
+          "en": "Still mineral water",
+          "es": "agua mineral sin gas"
         },
         {
-          "en": "Tea"
+          "en": "Tea",
+          "es": "té"
         },
         {
-          "en": "Vodka"
+          "en": "Vodka",
+          "es": "vodka"
         },
         {
-          "en": "Water"
+          "en": "Water",
+          "es": "agua"
         },
         {
-          "en": "Whisky"
+          "en": "Whisky",
+          "es": "whisky"
         },
         {
-          "en": "Wine"
+          "en": "Wine",
+          "es": "vino"
         }
       ]
     },
@@ -374,76 +490,100 @@
       "title": "Condiments and herbs vocabulary",
       "items": [
         {
-          "en": "Barbeque sauce"
+          "en": "Barbeque sauce",
+          "es": "salsa barbacoa"
         },
         {
-          "en": "Basil"
+          "en": "Basil",
+          "es": "albahaca"
         },
         {
-          "en": "Bay leaves"
+          "en": "Bay leaves",
+          "es": "hojas de laurel"
         },
         {
-          "en": "Chili powder"
+          "en": "Chili powder",
+          "es": "chile en polvo"
         },
         {
-          "en": "Cilantro or coriander"
+          "en": "Cilantro or coriander",
+          "es": "cilantro"
         },
         {
-          "en": "Cinnamon powder"
+          "en": "Cinnamon powder",
+          "es": "canela en polvo"
         },
         {
-          "en": "Clove"
+          "en": "Clove",
+          "es": "clavo de olor"
         },
         {
-          "en": "Cumin"
+          "en": "Cumin",
+          "es": "comino"
         },
         {
-          "en": "Curry powder"
+          "en": "Curry powder",
+          "es": "curry en polvo"
         },
         {
-          "en": "Garlic powder"
+          "en": "Garlic powder",
+          "es": "ajo en polvo"
         },
         {
-          "en": "Ginger"
+          "en": "Ginger",
+          "es": "jengibre"
         },
         {
-          "en": "Mint leaves"
+          "en": "Mint leaves",
+          "es": "hojas de menta"
         },
         {
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "es": "aceite de oliva"
         },
         {
-          "en": "Onion powder"
+          "en": "Onion powder",
+          "es": "cebolla en polvo"
         },
         {
-          "en": "Paprika"
+          "en": "Paprika",
+          "es": "pimentón (paprika)"
         },
         {
-          "en": "Parsley"
+          "en": "Parsley",
+          "es": "perejil"
         },
         {
-          "en": "Pepper"
+          "en": "Pepper",
+          "es": "pimienta"
         },
         {
-          "en": "Rosemary"
+          "en": "Rosemary",
+          "es": "romero"
         },
         {
-          "en": "Saffron"
+          "en": "Saffron",
+          "es": "azafrán"
         },
         {
-          "en": "Salt"
+          "en": "Salt",
+          "es": "sal"
         },
         {
-          "en": "Soy sauce"
+          "en": "Soy sauce",
+          "es": "salsa de soja / soya"
         },
         {
-          "en": "Thyme"
+          "en": "Thyme",
+          "es": "tomillo"
         },
         {
-          "en": "Turmeric"
+          "en": "Turmeric",
+          "es": "cúrcuma"
         },
         {
-          "en": "Vinegar"
+          "en": "Vinegar",
+          "es": "vinagre"
         }
       ]
     }

@@ -4,96 +4,127 @@
   "order": 16,
   "legacyPath": "lessons/vocabulary/daily-routines-vocabulary.html",
   "intro": "In this section you will learn vocabulary about daily routines in English.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Daily routines vocabulary",
       "items": [
         {
-          "en": "To wake up"
+          "en": "To wake up",
+          "es": "despertarse"
         },
         {
-          "en": "To get up"
+          "en": "To get up",
+          "es": "levantarse"
         },
         {
-          "en": "To make my bed"
+          "en": "To make my bed",
+          "es": "hacer la cama"
         },
         {
-          "en": "To take a shower"
+          "en": "To take a shower",
+          "es": "ducharse / bañarse"
         },
         {
-          "en": "To brush my teeth"
+          "en": "To brush my teeth",
+          "es": "lavarse los dientes"
         },
         {
-          "en": "To comb my hair"
+          "en": "To comb my hair",
+          "es": "peinarse"
         },
         {
-          "en": "To get dressed"
+          "en": "To get dressed",
+          "es": "vestirse"
         },
         {
-          "en": "To have breakfast"
+          "en": "To have breakfast",
+          "es": "desayunar"
         },
         {
-          "en": "To drive / go to work"
+          "en": "To drive / go to work",
+          "es": "ir al trabajo (en coche)"
         },
         {
-          "en": "To start work"
+          "en": "To start work",
+          "es": "empezar a trabajar"
         },
         {
-          "en": "To finish work"
+          "en": "To finish work",
+          "es": "terminar de trabajar"
         },
         {
-          "en": "To get / arrive home"
+          "en": "To get / arrive home",
+          "es": "llegar a casa"
         },
         {
-          "en": "To go to school"
+          "en": "To go to school",
+          "es": "ir a la escuela"
         },
         {
-          "en": "To eat lunch"
+          "en": "To eat lunch",
+          "es": "almorzar"
         },
         {
-          "en": "To do my homework"
+          "en": "To do my homework",
+          "es": "hacer la tarea / los deberes"
         },
         {
-          "en": "To study"
+          "en": "To study",
+          "es": "estudiar"
         },
         {
-          "en": "To watch television"
+          "en": "To watch television",
+          "es": "ver la televisión"
         },
         {
-          "en": "To do the laundry"
+          "en": "To do the laundry",
+          "es": "lavar la ropa"
         },
         {
-          "en": "To iron the clothes"
+          "en": "To iron the clothes",
+          "es": "planchar la ropa"
         },
         {
-          "en": "To hang the clothes"
+          "en": "To hang the clothes",
+          "es": "tender la ropa"
         },
         {
-          "en": "To sweep the floor"
+          "en": "To sweep the floor",
+          "es": "barrer el piso / suelo"
         },
         {
-          "en": "To vacuum the floor"
+          "en": "To vacuum the floor",
+          "es": "pasar la aspiradora"
         },
         {
-          "en": "To do the dishes"
+          "en": "To do the dishes",
+          "es": "lavar los platos"
         },
         {
-          "en": "To take out the rubbish"
+          "en": "To take out the rubbish",
+          "es": "sacar la basura"
         },
         {
-          "en": "To read the paper"
+          "en": "To read the paper",
+          "es": "leer el periódico"
         },
         {
-          "en": "To wash the car"
+          "en": "To wash the car",
+          "es": "lavar el coche / carro"
         },
         {
-          "en": "To have dinner"
+          "en": "To have dinner",
+          "es": "cenar"
         },
         {
-          "en": "To go to bed"
+          "en": "To go to bed",
+          "es": "acostarse / irse a dormir"
         },
         {
-          "en": "To fall asleep / sleep"
+          "en": "To fall asleep / sleep",
+          "es": "dormirse / dormir"
         }
       ]
     }

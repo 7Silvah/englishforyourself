@@ -4,30 +4,39 @@
   "order": 3,
   "legacyPath": "lessons/vocabulary/days-of-the-week-and-times-of-the-day.html",
   "intro": "In this section of vocabulary, you will learn the days of the week and the times of the day.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Days of the week",
       "items": [
         {
-          "en": "Monday"
+          "en": "Monday",
+          "es": "lunes"
         },
         {
-          "en": "Tuesday"
+          "en": "Tuesday",
+          "es": "martes"
         },
         {
-          "en": "Wednesday"
+          "en": "Wednesday",
+          "es": "miércoles"
         },
         {
-          "en": "Thursday"
+          "en": "Thursday",
+          "es": "jueves"
         },
         {
-          "en": "Friday"
+          "en": "Friday",
+          "es": "viernes"
         },
         {
-          "en": "Saturday"
+          "en": "Saturday",
+          "es": "sábado"
         },
         {
-          "en": "Sunday"
+          "en": "Sunday",
+          "es": "domingo"
         }
       ]
     },
@@ -35,34 +44,44 @@
       "title": "Times of the day",
       "items": [
         {
-          "en": "Sunrise"
+          "en": "Sunrise",
+          "es": "amanecer / salida del sol"
         },
         {
-          "en": "Morning"
+          "en": "Morning",
+          "es": "mañana"
         },
         {
-          "en": "Midday or noon"
+          "en": "Midday or noon",
+          "es": "mediodía"
         },
         {
-          "en": "Afternoon"
+          "en": "Afternoon",
+          "es": "tarde"
         },
         {
-          "en": "Sunset"
+          "en": "Sunset",
+          "es": "puesta del sol / atardecer"
         },
         {
-          "en": "Dusk"
+          "en": "Dusk",
+          "es": "anochecer / crepúsculo"
         },
         {
-          "en": "Evening"
+          "en": "Evening",
+          "es": "tarde-noche (al anochecer)"
         },
         {
-          "en": "Night"
+          "en": "Night",
+          "es": "noche"
         },
         {
-          "en": "Midnight"
+          "en": "Midnight",
+          "es": "medianoche"
         },
         {
-          "en": "Dawn"
+          "en": "Dawn",
+          "es": "alba / amanecer"
         }
       ]
     }

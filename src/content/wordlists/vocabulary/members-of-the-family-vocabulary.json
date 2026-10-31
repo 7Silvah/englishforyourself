@@ -4,147 +4,195 @@
   "order": 11,
   "legacyPath": "lessons/vocabulary/members-of-the-family-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the members of the family in English.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Members of the family vocabulary",
       "items": [
         {
-          "en": "Great-grandmother"
+          "en": "Great-grandmother",
+          "es": "bisabuela"
         },
         {
-          "en": "Great-grandfather"
+          "en": "Great-grandfather",
+          "es": "bisabuelo"
         },
         {
-          "en": "Great-aunt"
+          "en": "Great-aunt",
+          "es": "tía abuela"
         },
         {
-          "en": "Great-uncle"
+          "en": "Great-uncle",
+          "es": "tío abuelo"
         },
         {
-          "en": "Grandparents"
+          "en": "Grandparents",
+          "es": "abuelos"
         },
         {
-          "en": "Grandmother"
+          "en": "Grandmother",
+          "es": "abuela"
         },
         {
-          "en": "Grandfather"
+          "en": "Grandfather",
+          "es": "abuelo"
         },
         {
-          "en": "Grandchildren"
+          "en": "Grandchildren",
+          "es": "nietos"
         },
         {
-          "en": "Grandson"
+          "en": "Grandson",
+          "es": "nieto"
         },
         {
-          "en": "Granddaughter"
+          "en": "Granddaughter",
+          "es": "nieta"
         },
         {
-          "en": "Aunt"
+          "en": "Aunt",
+          "es": "tía"
         },
         {
-          "en": "Uncle"
+          "en": "Uncle",
+          "es": "tío"
         },
         {
-          "en": "Parents"
+          "en": "Parents",
+          "es": "padres"
         },
         {
-          "en": "Husband"
+          "en": "Husband",
+          "es": "esposo / marido"
         },
         {
-          "en": "Wife"
+          "en": "Wife",
+          "es": "esposa"
         },
         {
-          "en": "Father"
+          "en": "Father",
+          "es": "padre"
         },
         {
-          "en": "Mother"
+          "en": "Mother",
+          "es": "madre"
         },
         {
-          "en": "Brother-in-law"
+          "en": "Brother-in-law",
+          "es": "cuñado"
         },
         {
-          "en": "Sister-in-law"
+          "en": "Sister-in-law",
+          "es": "cuñada"
         },
         {
-          "en": "Mother-in-law"
+          "en": "Mother-in-law",
+          "es": "suegra"
         },
         {
-          "en": "Father-in-law"
+          "en": "Father-in-law",
+          "es": "suegro"
         },
         {
-          "en": "Son"
+          "en": "Son",
+          "es": "hijo"
         },
         {
-          "en": "Daughter"
+          "en": "Daughter",
+          "es": "hija"
         },
         {
-          "en": "Sibling(s)"
+          "en": "Sibling(s)",
+          "es": "hermano(s) (sin indicar si es hombre o mujer)"
         },
         {
-          "en": "Sister"
+          "en": "Sister",
+          "es": "hermana"
         },
         {
-          "en": "Brother"
+          "en": "Brother",
+          "es": "hermano"
         },
         {
-          "en": "Cousin"
+          "en": "Cousin",
+          "es": "primo / prima"
         },
         {
-          "en": "Niece"
+          "en": "Niece",
+          "es": "sobrina"
         },
         {
-          "en": "Nephew"
+          "en": "Nephew",
+          "es": "sobrino"
         },
         {
-          "en": "Daughter-in-law"
+          "en": "Daughter-in-law",
+          "es": "nuera"
         },
         {
-          "en": "Son-in-law"
+          "en": "Son-in-law",
+          "es": "yerno"
         },
         {
-          "en": "Godmother"
+          "en": "Godmother",
+          "es": "madrina"
         },
         {
-          "en": "Godfather"
+          "en": "Godfather",
+          "es": "padrino"
         },
         {
-          "en": "Stepmother"
+          "en": "Stepmother",
+          "es": "madrastra"
         },
         {
-          "en": "Stepfather"
+          "en": "Stepfather",
+          "es": "padrastro"
         },
         {
-          "en": "Stepdaughter"
+          "en": "Stepdaughter",
+          "es": "hijastra"
         },
         {
-          "en": "Stepson"
+          "en": "Stepson",
+          "es": "hijastro"
         },
         {
-          "en": "Half-sister"
+          "en": "Half-sister",
+          "es": "media hermana"
         },
         {
-          "en": "Half-brother"
+          "en": "Half-brother",
+          "es": "medio hermano"
         },
         {
-          "en": "Great-great granddaughter"
+          "en": "Great-great granddaughter",
+          "es": "tataranieta"
         },
         {
-          "en": "Great-great grandson"
+          "en": "Great-great grandson",
+          "es": "tataranieto"
         },
         {
-          "en": "Firstborn"
+          "en": "Firstborn",
+          "es": "primogénito / primogénita"
         },
         {
-          "en": "Descendants"
+          "en": "Descendants",
+          "es": "descendientes"
         },
         {
-          "en": "Twins"
+          "en": "Twins",
+          "es": "gemelos / mellizos"
         },
         {
-          "en": "Relative"
+          "en": "Relative",
+          "es": "pariente / familiar"
         },
         {
-          "en": "Acquaintance"
+          "en": "Acquaintance",
+          "es": "conocido / conocida"
         }
       ]
     }

@@ -4,123 +4,163 @@
   "order": 13,
   "legacyPath": "lessons/vocabulary/parts-of-the-body-vocabulary.html",
   "intro": "In this section you will learn vocabulary words about the parts of the body. In addition, you will also learn vocabulary words about the face.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Parts of the Body Vocabulary",
       "items": [
         {
-          "en": "Arm"
+          "en": "Arm",
+          "es": "brazo"
         },
         {
-          "en": "Armpit"
+          "en": "Armpit",
+          "es": "axila"
         },
         {
-          "en": "Back"
+          "en": "Back",
+          "es": "espalda"
         },
         {
-          "en": "Bellybutton"
+          "en": "Bellybutton",
+          "es": "ombligo"
         },
         {
-          "en": "Bottom"
+          "en": "Bottom",
+          "es": "trasero"
         },
         {
-          "en": "Buttock"
+          "en": "Buttock",
+          "es": "nalga"
         },
         {
-          "en": "Calf"
+          "en": "Calf",
+          "es": "pantorrilla"
         },
         {
-          "en": "Chest"
+          "en": "Chest",
+          "es": "pecho"
         },
         {
-          "en": "Elbow"
+          "en": "Elbow",
+          "es": "codo"
         },
         {
-          "en": "Forearm"
+          "en": "Forearm",
+          "es": "antebrazo"
         },
         {
-          "en": "Hand"
+          "en": "Hand",
+          "es": "mano"
         },
         {
-          "en": "Head"
+          "en": "Head",
+          "es": "cabeza"
         },
         {
-          "en": "Hip"
+          "en": "Hip",
+          "es": "cadera"
         },
         {
-          "en": "Knee"
+          "en": "Knee",
+          "es": "rodilla"
         },
         {
-          "en": "Leg"
+          "en": "Leg",
+          "es": "pierna"
         },
         {
-          "en": "Neck"
+          "en": "Neck",
+          "es": "cuello"
         },
         {
-          "en": "Nipple"
+          "en": "Nipple",
+          "es": "pezón"
         },
         {
-          "en": "Shoulder"
+          "en": "Shoulder",
+          "es": "hombro"
         },
         {
-          "en": "Stomach / abdomen"
+          "en": "Stomach / abdomen",
+          "es": "estómago / abdomen"
         },
         {
-          "en": "Thigh"
+          "en": "Thigh",
+          "es": "muslo"
         },
         {
-          "en": "Upper arm"
+          "en": "Upper arm",
+          "es": "brazo (parte superior)"
         },
         {
-          "en": "Wrist"
+          "en": "Wrist",
+          "es": "muñeca"
         },
         {
-          "en": "Foot"
+          "en": "Foot",
+          "es": "pie"
         },
         {
-          "en": "Heel"
+          "en": "Heel",
+          "es": "talón"
         },
         {
-          "en": "Ankle"
+          "en": "Ankle",
+          "es": "tobillo"
         },
         {
-          "en": "Arch"
+          "en": "Arch",
+          "es": "arco del pie"
         },
         {
-          "en": "Toes"
+          "en": "Toes",
+          "es": "dedos del pie"
         },
         {
-          "en": "Big toes"
+          "en": "Big toes",
+          "es": "dedos gordos del pie"
         },
         {
-          "en": "Hand"
+          "en": "Hand",
+          "es": "mano"
         },
         {
-          "en": "Palm"
+          "en": "Palm",
+          "es": "palma"
         },
         {
-          "en": "Thumb"
+          "en": "Thumb",
+          "es": "pulgar"
         },
         {
-          "en": "Index finger"
+          "en": "Index finger",
+          "es": "dedo índice"
         },
         {
-          "en": "Middle finger"
+          "en": "Middle finger",
+          "es": "dedo medio / corazón"
         },
         {
-          "en": "Ring finger"
+          "en": "Ring finger",
+          "es": "dedo anular"
         },
         {
-          "en": "Little finger / pinkie"
+          "en": "Little finger / pinkie",
+          "es": "dedo meñique"
         },
         {
-          "en": "Finger"
+          "en": "Finger",
+          "es": "dedo (de la mano)"
         },
         {
-          "en": "Fingernail"
+          "en": "Fingernail",
+          "es": "uña"
         },
         {
-          "en": "Knuckle"
+          "en": "Knuckle",
+          "es": "nudillo"
         }
       ]
     },
@@ -128,61 +168,80 @@
       "title": "The face vocabulary",
       "items": [
         {
-          "en": "Cheek"
+          "en": "Cheek",
+          "es": "mejilla"
         },
         {
-          "en": "Chin"
+          "en": "Chin",
+          "es": "barbilla / mentón"
         },
         {
-          "en": "Ear"
+          "en": "Ear",
+          "es": "oreja / oído"
         },
         {
-          "en": "Ear lobe"
+          "en": "Ear lobe",
+          "es": "lóbulo de la oreja"
         },
         {
-          "en": "Eye"
+          "en": "Eye",
+          "es": "ojo"
         },
         {
-          "en": "Eyebrow"
+          "en": "Eyebrow",
+          "es": "ceja"
         },
         {
-          "en": "Eyelash"
+          "en": "Eyelash",
+          "es": "pestaña"
         },
         {
-          "en": "Eyelid"
+          "en": "Eyelid",
+          "es": "párpado"
         },
         {
-          "en": "Forehead"
+          "en": "Forehead",
+          "es": "frente"
         },
         {
-          "en": "Hair"
+          "en": "Hair",
+          "es": "pelo / cabello"
         },
         {
-          "en": "Iris"
+          "en": "Iris",
+          "es": "iris"
         },
         {
-          "en": "Jaw"
+          "en": "Jaw",
+          "es": "mandíbula"
         },
         {
-          "en": "Lips"
+          "en": "Lips",
+          "es": "labios"
         },
         {
-          "en": "Mouth"
+          "en": "Mouth",
+          "es": "boca"
         },
         {
-          "en": "Nose"
+          "en": "Nose",
+          "es": "nariz"
         },
         {
-          "en": "Nostril"
+          "en": "Nostril",
+          "es": "fosa nasal"
         },
         {
-          "en": "Pupil"
+          "en": "Pupil",
+          "es": "pupila"
         },
         {
-          "en": "Temple"
+          "en": "Temple",
+          "es": "sien"
         },
         {
-          "en": "Tongue"
+          "en": "Tongue",
+          "es": "lengua"
         }
       ]
     },
@@ -190,19 +249,24 @@
       "title": "Senses in English",
       "items": [
         {
-          "en": "Hearing"
+          "en": "Hearing",
+          "es": "oído (sentido)"
         },
         {
-          "en": "Sight"
+          "en": "Sight",
+          "es": "vista"
         },
         {
-          "en": "Smell"
+          "en": "Smell",
+          "es": "olfato"
         },
         {
-          "en": "Taste"
+          "en": "Taste",
+          "es": "gusto"
         },
         {
-          "en": "Touch"
+          "en": "Touch",
+          "es": "tacto"
         }
       ]
     }
