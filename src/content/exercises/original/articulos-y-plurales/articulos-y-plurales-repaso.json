@@ -26,7 +26,7 @@
     {
       "id": "2",
       "type": "multiple-choice",
-      "prompt": "I like ___.",
+      "prompt": "I like ___. They are my favourite animals.",
       "options": [
         "cats",
         "the cats",
@@ -92,7 +92,8 @@
       "sentence": "I am engineer.",
       "wrong": "am engineer",
       "answers": [
-        "am an engineer"
+        "am an engineer",
+        "an engineer"
       ],
       "explanationEs": "Las profesiones llevan artículo: I am an engineer."
     }

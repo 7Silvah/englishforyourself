@@ -64,7 +64,8 @@
       "sentence": "Where you live?",
       "wrong": "you live",
       "answers": [
-        "do you live"
+        "do you live",
+        "do you"
       ],
       "explanationEs": "Falta el auxiliar: Where do you live?"
     },

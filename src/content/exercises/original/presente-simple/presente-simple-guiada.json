@@ -52,7 +52,8 @@
       "id": "5",
       "type": "word-order",
       "answers": [
-        "I usually walk to work."
+        "I usually walk to work.",
+        "usually I walk to work."
       ],
       "distractors": [
         "walks"

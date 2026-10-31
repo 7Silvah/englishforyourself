@@ -89,7 +89,9 @@
       "wrong": "have 12 years",
       "answers": [
         "is 12 years old",
-        "is 12"
+        "is 12",
+        "is twelve years old",
+        "is twelve"
       ],
       "explanationEs": "La edad se dice con to be: My sister is 12 years old."
     }
