@@ -1,6 +1,6 @@
 # Plan de implementación — English for Yourself (Vite + React)
 
-> Estado: **propuesta**. El trabajo se divide en **etapas** (qué gana el
+> Estado: **en marcha** (ver «Próximo paso»). El trabajo se divide en **etapas** (qué gana el
 > estudiante) y cada etapa en **fases** (qué se construye). Cada fase termina con
 > un commit funcional: la app compila y se puede abrir. Marca las casillas a
 > medida que avances y actualiza la tabla de estado.
@@ -10,13 +10,51 @@
 | Etapa | Fases | Estado |
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
-| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ F10 ✅ |
+| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ F10 ✅ F11 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
 Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
+
+## Próximo paso
+
+*Actualizado el 30/10/2026, con F11 terminada en la rama `f11-paridad` (pendiente de PR hacia `desarrollo`).*
+
+**1. Te toca a ti (dueño del repo):**
+
+- [ ] **Abrir el PR de `f11-paridad` hacia `desarrollo`** y fusionarlo cuando la CI esté en verde.
+- [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1).** Sigue
+  [DESPLIEGUE.md](DESPLIEGUE.md): crear el proyecto en Cloudflare Pages con rama de
+  producción `main` y protegerlo con Cloudflare Access. Cuando funcione, avisa para
+  marcar F7 ✅.
+- [ ] **Limpiar ramas en GitHub:** borrar las ramas de fase ya fusionadas y activar
+  *Settings → General → Automatically delete head branches*.
+- [ ] **Revisar contenido cuando puedas** (no bloquea): las unidades 1–16 y sus
+  sets están escritos por Claude y marcados `reviewed: false` (decisión D1, §14).
+
+**2. Siguiente fase: F12 — Repaso inteligente** (detalle en §11). Cierra la Etapa 2:
+
+1. “Repasar mis errores” en `/repaso`: los ítems fallados vuelven hasta acertarlos
+   2 veces en días distintos (§7.6).
+2. Repaso mixto por bloque con ítems de las unidades dominadas.
+3. **Antes de nada, recuperar margen de tamaño:** el JavaScript inicial está en
+   199,3 KB de 200 (§12). Propuesta: cargar los metadatos del contenido solo en las
+   páginas que los usan.
+
+**3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
+
+1. Dices «sigue con F11». Claude actualiza `desarrollo` (`git pull`) y crea la rama
+   corta `f11-paridad` desde ahí.
+2. Claude termina la fase, ejecuta las comprobaciones, hace los commits y sube la
+   rama (`git push -u origin f11-paridad`).
+3. Tú abres el pull request **hacia `desarrollo`**, esperas la CI en verde y lo
+   fusionas con *Create a merge commit*.
+4. Cuando quieras publicar lo acumulado: pull request de `desarrollo` hacia `main`.
+
+**Después de F11:** F12 (repaso inteligente: “Repasar mis errores”) cierra la
+Etapa 2. Luego la Etapa 3 (vocabulario activo: flashcards, F13–F15).
 
 ---
 
@@ -562,8 +600,12 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
 
 ## 10. Migración
 
-Script `npm run migrate` (Node + `tsx`), idempotente, que lee `legacy/` y
-escribe en `src/content/`. El resultado se revisa con `git diff` y el contenido
+> **Hecho y retirado.** La migración se ejecutó en F4; `legacy/`, los PDF y los
+> scripts de migración se borraron en F11 (siguen en el historial de Git, por
+> ejemplo en el commit `9bc6f97`). Desde entonces el contenido se edita a mano.
+
+Script `npm run migrate` (Node + `tsx`), idempotente, que leía `legacy/` y
+escribía en `src/content/`. El resultado se revisa con `git diff` y el contenido
 generado va en un commit propio.
 
 ### 10.1 Lecciones (Biblioteca)
@@ -710,7 +752,8 @@ Cada fase indica qué conceptos vas a aprender en ella.
 *Aprendes: GitHub Actions, despliegues de previsualización.*
 - [x] GitHub Actions (`.github/workflows/ci.yml`): `typecheck`, `lint`, `format:check`, `test`, `content:check` y `build` en cada PR, en cada push a `main` y a mano. Node fijado en `.node-version` (24) para local, CI y Cloudflare. Probado en local con los mismos pasos; `npm ci --dry-run` confirma que el lockfile está sincronizado e incluye los binarios de Linux.
 - [x] Configuración de despliegue: **Cloudflare Pages + Cloudflare Access** (gratis hasta 50 personas; la protección de Netlify es de pago). Fallback SPA en `public/_redirects` y `X-Robots-Tag: noindex` en `public/_headers` mientras sea privado. Pasos en [DESPLIEGUE.md](DESPLIEGUE.md).
-- [ ] **Pendiente del dueño del repo:** subir la rama a GitHub, crear el proyecto en Cloudflare Pages y activar Access (requiere su cuenta). Hasta fusionar `migracion-react` en `main`, usar la vista previa de la rama o ponerla como rama de producción.
+- [x] Rama subida y CI en verde en los PR #1–#4 y en `main`.
+- [ ] **Pendiente del dueño del repo:** crear el proyecto en Cloudflare Pages (rama de producción `main`) y activar Access (requiere su cuenta). Ver «Próximo paso».
 
 **Listo cuando:** cada push a `main` despliega y la CI está en verde.
 
@@ -741,10 +784,13 @@ Cada fase indica qué conceptos vas a aprender en ella.
 **Listo cuando:** el Tense Lab muestra los 13 tiempos y cada tiempo y los irregulares tienen práctica generada. ✅
 
 #### F11 — Paridad y limpieza
-- [ ] Buscador MiniSearch (lecciones, unidades, sets y palabras EN/ES; Ctrl/Cmd+K y `/buscar`).
-- [ ] Interruptor “Mostrar traducciones”; botón 🔊 en ejemplos.
-- [ ] Revisión de paridad sección por sección frente a `legacy/`.
-- [ ] Borrar `legacy/` y los PDF; archivar `scripts/migrate/`; `_redirects` final.
+- [x] Buscador MiniSearch (unidades, lecciones, tiempos verbales, sets y ~4.300 palabras EN/ES; sin tildes, por prefijo y tolerante a erratas). Botón en la cabecera, atajos Ctrl/Cmd+K y `/`, y página `/buscar?q=`. El diálogo, MiniSearch y las palabras van en un chunk aparte (`React.lazy`) que se precarga al acercarse al botón; las palabras salen de la consulta `?words` del plugin de contenido (solo `{ en, es }`).
+- [x] Interruptor “Mostrar traducciones” (ajuste persistente en `features/settings/store.ts`); solo aparece en listas con alguna traducción (hoy ninguna: 0 %). Botón 🔊 en cada frase de `<Examples>` (sin tocar el MDX: contexto + `<li>` propio) y en cada palabra de las listas.
+- [x] Revisión de paridad (`scripts/parity-check.ts`): el sitio antiguo solo tenía menú, Tense Lab y buscador por título (no tenía pronunciación ni traducciones). Las 155 páginas de lecciones y los 35 PDF tienen redirección a algo que existe; las 6 páginas legales no se migran (decisión de F4). Solo *Synonyms and Antonyms* tiene menos texto, porque su lista de enlaces la muestra la app como “En este tema”.
+- [x] Borrados `legacy/` (201 archivos, 3 MB, con los 35 PDF y las páginas legales), `scripts/migrate/` y `scripts/parity-check.ts`, con el visto bueno del dueño del repo. Se quitaron los comandos `migrate*` y las 8 dependencias que solo usaba la migración (cheerio, unpdf, domhandler, rehype-parse, rehype-remark, remark-mdx, remark-stringify, unified). `public/_redirects` queda como archivo fijo que se edita a mano. Todo sigue en el historial de Git (commit `9bc6f97`).
+
+**Listo cuando:** todo lo del sitio antiguo tiene su equivalente en la app y `legacy/` ya no existe. ✅
+- **Ojo:** JavaScript inicial en 199,3 KB de 200. El buscador no entra en la carga inicial, pero partir el código en más chunks cuesta ~5 KB de compresión. Propuesta en el backlog de F18: cargar los metadatos del contenido solo donde se usan.
 
 #### F12 — Repaso inteligente
 - [ ] “Repasar mis errores” (`/repaso`), con salida tras 2 aciertos en días distintos.
@@ -835,6 +881,5 @@ npm run typecheck · npm run lint · npm run format
 npm test               # vitest
 npm run e2e            # playwright
 npm run content:check  # valida contenido y ejercicios
-npm run migrate        # (F4) legacy/ → src/content/
 npx shadcn@latest add <componente>
 ```

@@ -1,4 +1,4 @@
-# Generado por scripts/migrate/redirects.ts — URLs del sitio antiguo → app nueva
+# URLs del sitio antiguo → app nueva. Se generó al migrar (F4) y desde F11 se edita a mano.
 /about.html /acerca 301
 /assets/pdf/Articles-A-An-The-Exercises-Worksheet.pdf /ejercicios/articles 301
 /assets/pdf/Comparative-and-Superlative-Exercises-Worksheet.pdf /ejercicios/comparative-and-superlative 301

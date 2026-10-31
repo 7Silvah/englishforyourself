@@ -23,7 +23,6 @@ El trabajo se organiza en **etapas** (lo que gana el estudiante) divididas en
 - No adelantes trabajo de fases o etapas posteriores sin que te lo pidan. Si una idea no encaja en la fase actual, propón añadirla al backlog (§13).
 - Una etapa no empieza hasta que se cumple el criterio de terminado de la anterior.
 - Al terminar una tarea, marca su casilla. Al cerrar una fase o etapa, actualiza la tabla Estado.
-- El sitio antiguo vive en `legacy/` hasta la fase F11.
 
 ## El usuario está aprendiendo
 
@@ -74,7 +73,7 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/features/exercises/` | Motor de ejercicios: `schema.ts`, `check.ts` (corrección), `solution.ts` (qué solución se muestra), `player/`, `types/` (un componente por tipo), `generators/` | Un tipo nuevo = esquema en la unión discriminada + `ItemResponse` y `checkItem` en `check.ts` + componente controlado en `types/` (recibe `ItemProps`) + `case` en `player/item-view.tsx` + tests. La corrección siempre pasa por `check.ts`. |
 | `src/features/<x>/` | Otras funcionalidades con estado o lógica (course, progress, search, tense-lab con su motor `conjugate.ts`, flashcards) | La lógica pura va en `logic.ts` con tests; el store en `store.ts`. |
 | `src/content/` | Contenido como datos: `course/units/NN-slug.mdx`, `data/` (tiempos verbales, verbos irregulares), `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`, `levels.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
-| `scripts/` | `content-check.ts`, `migrate/` (HTML/PDF → contenido), `vite-plugin-content-meta.ts` | Se ejecutan con `tsx` y usan `tsconfig.scripts.json`. |
+| `scripts/` | `content-check.ts`, `vite-plugin-content-meta.ts` | Se ejecutan con `tsx` y usan `tsconfig.scripts.json`. |
 | `src/i18n/es.ts` | Todos los textos de la UI | **Ningún texto de UI suelto en JSX.** |
 | `src/lib/` | Utilidades puras (`cn`, `speech`, `random`, slugs) | |
 | `src/hooks/` | Hooks compartidos (`use-theme`, `use-english-voice`) | Si un archivo exporta un componente, el hook o el contexto van en otro archivo (lo exige fast refresh). |
@@ -115,7 +114,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 
 ## Reglas de contenido
 
-- **No vuelvas a ejecutar `npm run migrate`** salvo que te lo pidan: regenera `src/content/lessons`, `wordlists`, `tables` y los worksheets desde `legacy/` y borraría cualquier cambio hecho a mano (traducciones, correcciones). Las erratas de los worksheets se corrigen en `FIXES` de `scripts/migrate/worksheets.ts` mientras exista la migración.
+- El contenido migrado del sitio antiguo (lecciones, listas, tablas y worksheets) ya se edita directamente en `src/content/`. La migración y `legacy/` se borraron en F11; si hiciera falta consultarlos, están en el historial de Git (por ejemplo, en el commit `9bc6f97` de `main`).
 
 - **No traduzcas ni reescribas los ejemplos en inglés** del contenido original. Si ves un error, señálalo y corrígelo en un commit aparte.
 - Las traducciones van en campos `*Es` / `es`, en español **neutro** y con **tuteo**. Si no estás seguro de una traducción, déjala vacía antes que inventarla.

@@ -86,6 +86,23 @@ export const es = {
     next: "Unidad siguiente",
     backToUnit: "Volver a la unidad",
   },
+  search: {
+    button: "Buscar",
+    title: "Buscar",
+    description: "Busca unidades, lecciones, ejercicios, tiempos verbales y palabras.",
+    placeholder: "Busca en inglés o en español…",
+    hint: "Escribe al menos 2 letras.",
+    empty: (query: string) => `No hay resultados para «${query}».`,
+    seeAll: (n: number) => (n === 1 ? "Ver el resultado" : `Ver los ${n} resultados`),
+    resultsFor: (query: string) => `Resultados para «${query}»`,
+    groups: {
+      unit: "Unidades del curso",
+      lesson: "Lecciones",
+      tense: "Tense Lab",
+      set: "Ejercicios",
+      word: "Palabras",
+    },
+  },
   tenseLab: {
     title: "Tense Lab",
     description:
@@ -314,6 +331,7 @@ export const es = {
     next: "Siguiente",
     practice: "Practica este tema",
     practiceTense: "Practica este tiempo verbal",
+    showTranslations: "Mostrar traducciones",
     emptySection: "Esta sección todavía no tiene lecciones.",
   },
   progress: {
