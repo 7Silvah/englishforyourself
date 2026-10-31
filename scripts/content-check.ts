@@ -11,6 +11,7 @@ import { ArticleMeta, RawTable, UnitMeta, WordList } from "@/content/schema";
 import { IRREGULAR_TOPIC } from "@/content/data/practice-topics";
 import { TENSES } from "@/content/data/tense-index";
 import { sections } from "@/content/sections";
+import { particleMatches } from "@/features/exercises/generators/phrasal-verbs";
 import { ExerciseSet } from "@/features/exercises/schema";
 import { readFrontmatter } from "./vite-plugin-content-meta";
 
@@ -83,6 +84,16 @@ for (const file of await files(`${ROOT}/wordlists`, ".json")) {
     for (const w of g.items) {
       c.words++;
       if (w.es) c.translated++;
+      if (w.particle) {
+        const found = (text: string) => particleMatches(text, w.particle ?? "").length;
+        if (found(w.en) === 0)
+          errors.push(`${file}: "${w.en}" no contiene la partícula "${w.particle}"`);
+        if (!w.example) errors.push(`${file}: "${w.en}" tiene partícula pero no ejemplo`);
+        else if (found(w.example) !== 1)
+          errors.push(
+            `${file}: el ejemplo de "${w.en}" debe contener "${w.particle}" una sola vez`,
+          );
+      }
     }
   coverage.set(section, c);
   for (const r of list?.related ?? []) lessonRefs.push({ file, field: "related", target: r });

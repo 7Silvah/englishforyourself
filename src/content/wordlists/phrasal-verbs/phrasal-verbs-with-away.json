@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Away",
   "order": 2,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-away.html",
   "intro": "In this section you will learn useful phrasal verbs with away in English.",
   "groups": [
@@ -10,87 +12,128 @@
       "items": [
         {
           "en": "To clear away",
+          "es": "recoger, quitar",
           "meanings": [
             "To remove things."
-          ]
+          ],
+          "example": "Please clear away the dishes.",
+          "particle": "away"
         },
         {
           "en": "To drive something or somebody away",
+          "es": "ahuyentar, alejar",
           "meanings": [
             "When you force someone or something to leave."
-          ]
+          ],
+          "example": "The loud music drove the customers away.",
+          "particle": "away"
         },
         {
           "en": "To get away with something",
+          "es": "salirse con la suya, quedar impune",
           "meanings": [
             "To do something illicit and not get caught."
-          ]
+          ],
+          "example": "He cheated on the test and got away with it.",
+          "particle": "away with"
         },
         {
           "en": "To get away",
+          "es": "escaparse; irse de vacaciones",
           "meanings": [
             "To escape from somewhere."
-          ]
+          ],
+          "example": "The thief got away.",
+          "particle": "away"
         },
         {
           "en": "To get carried away",
+          "es": "dejarse llevar, emocionarse demasiado",
           "meanings": [
             "To lose control over something because you are very excited."
-          ]
+          ],
+          "example": "I got carried away and bought too many shoes."
         },
         {
           "en": "To give something away / to give away something",
+          "es": "regalar",
           "meanings": [
             "To give something for free."
-          ]
+          ],
+          "example": "She gave her old books away.",
+          "particle": "away"
         },
         {
           "en": "To go away",
+          "es": "irse, marcharse",
           "meanings": [
             "To depart from somewhere."
-          ]
+          ],
+          "example": "Go away! I'm busy.",
+          "particle": "away"
         },
         {
           "en": "To keep away",
+          "es": "mantener(se) alejado",
           "meanings": [
             "To avoid someone or something being close to you."
-          ]
+          ],
+          "example": "Keep the medicine away from children.",
+          "particle": "away"
         },
         {
           "en": "To pass away",
+          "es": "fallecer",
           "meanings": [
             "When someone dies."
-          ]
+          ],
+          "example": "His grandfather passed away last year.",
+          "particle": "away"
         },
         {
           "en": "To put something away / to put away something",
+          "es": "guardar, ordenar",
           "meanings": [
             "To put things where they belong."
-          ]
+          ],
+          "example": "Put your toys away, please.",
+          "particle": "away"
         },
         {
           "en": "To run away",
+          "es": "huir, escaparse",
           "meanings": [
             "To suddenly leave a place."
-          ]
+          ],
+          "example": "The cat ran away when it saw the dog.",
+          "particle": "away"
         },
         {
           "en": "To take away",
+          "es": "quitar, llevarse",
           "meanings": [
             "To confiscate or remove something."
-          ]
+          ],
+          "example": "The waiter took away our plates.",
+          "particle": "away"
         },
         {
           "en": "To throw away",
+          "es": "tirar (a la basura)",
           "meanings": [
             "To dispose of something that you do not need anymore."
-          ]
+          ],
+          "example": "Don't throw away those boxes.",
+          "particle": "away"
         },
         {
           "en": "To turn away",
+          "es": "apartar la mirada, darse la vuelta",
           "meanings": [
             "To face the opposite way."
-          ]
+          ],
+          "example": "She turned away when she saw the blood.",
+          "particle": "away"
         }
       ]
     }

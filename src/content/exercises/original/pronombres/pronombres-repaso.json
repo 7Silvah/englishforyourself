@@ -29,10 +29,10 @@
       "options": [
         "her",
         "she",
-        "hers"
+        "him"
       ],
       "answer": 0,
-      "explanationEs": "Después del verbo like va el objeto: her."
+      "explanationEs": "Después del verbo like va el pronombre objeto. Anna es una mujer: her (him sería para un hombre)."
     },
     {
       "id": "3",

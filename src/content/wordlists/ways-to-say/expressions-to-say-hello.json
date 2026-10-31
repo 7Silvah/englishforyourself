@@ -1,7 +1,12 @@
 {
   "kind": "wordlist",
   "title": "Expressions to say Hello",
+  "titleEs": "Saludar",
   "order": 7,
+  "level": "A2",
+  "related": [
+    "ways-to-say/expressions-to-say-how-are-you"
+  ],
   "legacyPath": "lessons/ways-to-say/expressions-to-say-hello.html",
   "intro": "In this section you will learn expressions to say hello in English.",
   "groups": [

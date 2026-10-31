@@ -1,7 +1,13 @@
 {
   "kind": "wordlist",
   "title": "Expressions to say How are you",
+  "titleEs": "Preguntar cómo está alguien",
   "order": 9,
+  "level": "A2",
+  "related": [
+    "ways-to-say/expressions-to-say-hello",
+    "ways-to-say/expressions-to-show-concern"
+  ],
   "legacyPath": "lessons/ways-to-say/expressions-to-say-how-are-you.html",
   "intro": "In this section you will learn expressions to say how are you in English.",
   "groups": [
@@ -37,12 +43,6 @@
         },
         {
           "en": "How’s your day?"
-        },
-        {
-          "en": "Ways to say how are you in English?"
-        },
-        {
-          "en": "What are you up to?"
         },
         {
           "en": "What are you up to?"

@@ -11,7 +11,8 @@
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
-| 3 · Vocabulario activo | F13–F15 | 🟨 en curso — F13 ✅ F14 ✅ |
+| 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
+| R · Revisión crítica del contenido | R1–R4 | 🟨 en curso — R1 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -20,23 +21,25 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 30/10/2026, con F14 terminada en la rama `f14-vocabulario` (sale de
-`desarrollo`, que tiene hasta F13).*
+*Actualizado el 31/10/2026. Las ramas van encadenadas porque `desarrollo` todavía tiene
+hasta F14: `f15-phrasal-verbs` (F15 + D1) → `r1-revision-unidades-1-8` → `r2-revision-unidades-9-16`.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `f14-vocabulario` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Abrir y fusionar los PR hacia `desarrollo` en orden**: primero
+  `f15-phrasal-verbs`, después `r1-revision-unidades-1-8` y después `r2-revision-unidades-9-16`. Cada uno
+  con la CI en verde; al fusionar el anterior, el siguiente solo muestra sus cambios.
 - [ ] **Proteger `desarrollo`** si aún no lo hiciste: *Settings → Rules → Rulesets*, regla
   **Restrict deletions** (así *Automatically delete head branches* no la borra al pasarla a `main`).
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
-- [ ] **Revisar contenido cuando puedas** (no bloquea): unidades 1–16, sus sets y las
-  traducciones de las 19 listas A1–A2 y sus 5 falsos amigos (todo con `reviewed: false`,
-  decisión D1, §14).
+- [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–16, sus sets,
+  las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, y los 207 phrasal verbs de
+  F15. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: F15 — Phrasal verbs, collocations y *ways to say*** (§11): pasar esas
-listas a datos estructurados (verbo + partícula + significado + ejemplo) y practicarlas
-con ejercicios de completar y elegir partícula. Cierra la Etapa 3.
+**2. Siguiente: R2, revisión crítica de las unidades 9–16** (§11, «Revisión de
+contenido»). Después R3 (worksheets) y R4 (traducciones de las listas), y luego la
+Etapa 4 (F16, unidades B1–B2), que sale con sets de muestra según D1 (§14).
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -47,9 +50,6 @@ con ejercicios de completar y elegir partícula. Cierra la Etapa 3.
 3. Tú abres el pull request **hacia `desarrollo`**, esperas la CI en verde y lo
    fusionas con *Create a merge commit*.
 4. Cuando quieras publicar lo acumulado: pull request de `desarrollo` hacia `main`.
-
-**Después de F11:** F12 (repaso inteligente: “Repasar mis errores”) cierra la
-Etapa 2. Luego la Etapa 3 (vocabulario activo: flashcards, F13–F15).
 
 ---
 
@@ -127,6 +127,21 @@ buscador). Al final, `legacy/` deja de hacer falta.
 
 **Terminada cuando:** cualquier lista de vocabulario tiene botones de
 “Flashcards” y “Practicar”, y las palabras repasadas aparecen en `/progreso`.
+
+### Revisión de contenido (entre las etapas 3 y 4)
+**Objetivo:** que el contenido escrito hasta ahora llegue limpio a la revisión del
+profesional (D1, §14) y que lo aprendido se aplique al escribir la Etapa 4. Claude
+revisa con ojo crítico, como si lo hubiera escrito otra persona.
+
+| Fase | Qué se revisa |
+|---|---|
+| R1 | Unidades 1–8: explicaciones y sus sets |
+| R2 | Unidades 9–16: explicaciones y sus sets |
+| R3 | Los 35 worksheets (sin tocar enunciado ni clave: solo respuestas válidas, `explanationEs` y errores evidentes) |
+| R4 | Traducciones de las listas A1–A2 y de los phrasal verbs |
+
+**Terminada cuando:** los cuatro bloques están revisados, las correcciones evidentes
+están hechas en commits propios y las dudas quedan apuntadas en §11 para el profesional.
 
 ### Etapa 4 — Gramática intermedia (B1–B2)
 **Objetivo:** continuar el curso con los temas intermedios y orientar a quien
@@ -332,9 +347,9 @@ escribirlas:
 9. Enlaces a la Biblioteca para profundizar.
 
 Volumen orientativo por unidad: **40–60 ítems** repartidos en 5–8 sets y en
-**al menos 4 tipos de ejercicio distintos**. Esto es la meta final: hasta
-resolver la decisión pendiente **D1** (§14), cada unidad lleva solo sets de
-muestra.
+**al menos 4 tipos de ejercicio distintos**. Esto es la meta final: según
+**D1** (§14), cada unidad nace con sets de muestra y llega a ese volumen por
+tandas, a medida que se revisa.
 
 El curso **no bloquea** unidades. Muestra la siguiente recomendada y marca
 las dominadas. Bloquear frustra a quien ya sabe algo; la prueba de nivel (F17)
@@ -528,10 +543,11 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
   hispanohablantes**, no opciones absurdas.
 - Variedad de sujetos, tiempos y vocabulario de nivel A1–A2 en las unidades
   1–16.
-- Quién escribe y revisa los ejercicios originales está **pendiente (D1,
-  §14)**. El campo `reviewed` existe en el esquema desde el principio para no
-  tener que migrar después, y `content:check` informa de los sets no
-  revisados.
+- Quién escribe y revisa (**D1**, §14): Claude escribe los borradores con
+  `reviewed: false` y los revisa con ojo crítico en fases de revisión; la
+  revisión humana la hará un profesional en el futuro, y solo entonces el
+  dueño del repo pasa los sets a `reviewed: true`. `content:check` informa de
+  los sets no revisados y `/dev/revision` los lista.
 
 ---
 
@@ -813,11 +829,42 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 **Listo cuando (Etapa 3, parcial):** cada lista traducida tiene botones «Flashcards» y «Practicar» y las palabras repasadas aparecen en `/progreso`. ✅
 #### F15 — Phrasal verbs, collocations, ways to say
-- [ ] Datos estructurados (verbo + partícula + significado + ejemplo) y ejercicios de completar y elegir partícula.
+- [x] **Phrasal verbs como datos estructurados**: campo `particle` en la palabra (el verbo es la palabra tras «To»); las 12 listas (207 entradas) con traducción, ejemplo y partícula, `level` B1 (B2 la de *be*) y `reviewed: false`. Las que no son verbo + partícula (*get rid of*, *break even*, *be cut out for*…) no llevan `particle`. `content:check` exige que la partícula esté en `en` y una sola vez en `example`. Al tener traducción, también son flashcards.
+- [x] Generador `generators/phrasal-verbs.ts`: elegir la partícula (3) y escribirla (2) sobre el ejemplo con hueco, con el significado como pista; significado EN↔ES (2) y emparejar (4). Las partículas incorrectas no forman con el mismo verbo otro phrasal verb de la lista. Si la lista tiene menos de 3 partículas distintas (*along*, *away*), solo practica significados.
+- [x] Generador `generators/collocations.ts` para *make*, *do*, *have* y *take* (los «hacer» y «tomar» del español): elegir el verbo (7) y clasificar make/do o have/take. Las combinaciones de otras listas y una lista revisada `ALSO_VALID` (*take a decision*, *have a job*…) nunca salen como opción incorrecta, y *have* tampoco (casi siempre vale como «tener»). Las otras 10 listas de collocations esperan a tener traducción.
+- [x] Generador `generators/ways-to-say.ts`: «¿Qué dirías para…?» (4), clasificar dos situaciones, ordenar (2) y dictado. Cada lista lleva `titleEs` con su situación («Dar las gracias») y `related` con las que se confunde (saludar ↔ preguntar qué tal…), que no aportan opciones incorrectas.
+- [x] `/practicar/vocabulario` agrupa por sección y elige el generador según la lista (`features/exercises/list-practice.ts`); la Biblioteca muestra «Practicar» en todas las listas practicables. Correcciones de contenido en commit aparte (encabezados colados como expresiones, duplicados, *Have a dispute have doubt*). 190 tests; JS inicial 192,6 KB gzip.
+
+**Listo cuando (Etapa 3):** cualquier lista de vocabulario tiene «Flashcards» y «Practicar», las palabras repasadas aparecen en `/progreso`, y los phrasal verbs, collocations (make/do/have/take) y *ways to say* se practican con ejercicios generados. ✅
+
+### Revisión de contenido
+Lista fija en cada bloque: `answers` con todas las respuestas válidas (UK/US,
+contracciones, números con letras, otros órdenes posibles); ningún distractor
+correcto; `explanationEs` que explica el porqué; nivel de la unidad y nada que no
+se haya enseñado todavía; español neutro con tuteo. Las correcciones evidentes se
+hacen en commits propios; `reviewed` sigue en `false` (D1).
+
+#### R1 — Unidades 1–8
+- [x] 8 explicaciones y 33 sets (~230 ítems). Ninguna estructura adelantada (las unidades 1–6 no usan la -s del presente simple, *don't* ni preguntas con *do*).
+- [x] Explicaciones: plural en **-o** (no siempre -es: *photos*, *pianos*) y vocal + y (*boys*) en la unidad 4; *lo/la/le* «suelen» ir antes del verbo en la unidad 2.
+- [x] Ejercicios (11): respuestas válidas que faltaban (*a large house*, *There's not…*, edades con letras, *usually* al principio, *Yes I do* sin coma); `error-correction` acepta también la corrección de la palabra tocada (*an engineer*, *do you*); *hers* → *him* como distractor; contexto en *I like ___* (*the cats* también era correcto).
+- **Hallazgos del motor (pendientes de decidir, no son contenido):**
+  - [ ] `normalize` (`check.ts`) no quita las comas internas: «Yes I do» cuenta como fallo. En R1 se resolvió con respuestas extra; arreglarlo en `check.ts` evitaría repetirlo ítem a ítem.
+  - [ ] `error-correction` con un fragmento de varias palabras: solo se marca la palabra tocada, pero hay que reescribir el fragmento entero. Caso sin arreglar con respuestas: *My sister have 12 years* (quien toca *have* escribe *is*). Propuesta: mostrar el fragmento completo al tocar cualquiera de sus palabras.
+- **Dudas para el profesional:** unidad 1, guiada 1 (*___ is cold today*): los distractores *They*/*We* son de concordancia, no el error típico de omitir *it*.
+
+#### R2 — Unidades 9–16
+- [ ] 8 explicaciones y sus sets, con la misma lista.
+#### R3 — Worksheets
+- [ ] 35 sets `source: "worksheet"`.
+#### R4 — Traducciones de las listas
+- [ ] 19 listas A1–A2 (con sus 5 falsos amigos) y 12 de phrasal verbs.
 
 ### Etapa 4 — Gramática intermedia
 #### F16 — Unidades B1–B2
 - [ ] Unidades de §6.1 (intermedio), con todos los worksheets restantes enlazados.
+- [ ] Sets de muestra por unidad, como en F6 y F9 (guiada, libre, más práctica y repaso, al menos 6 tipos), `reviewed: false` (D1).
+- [ ] Página `/dev/revision` (solo en desarrollo): sets y listas con `reviewed: false`, agrupados por unidad, con enlace para jugarlos.
 #### F17 — Prueba de nivel
 - [ ] Unos 30 ítems escalonados A1→B2; recomienda una unidad y marca como vistas las anteriores.
 
@@ -856,6 +903,8 @@ una etapa nueva:
 - Lecturas graduadas con preguntas de comprensión.
 - Listening con audios reales.
 - Corrección de textos libres con IA (Claude API), con explicación en español.
+- Traducir las collocations (14 listas), los *ways to say* (13) e idioms (2): darían flashcards
+  y práctica de significado a las 10 listas de collocations que F15 no cubre.
 - Exportar e importar el progreso (JSON).
 - Modo profesor: crear sets propios y compartirlos por enlace.
 - Otros idiomas de origen (portugués…).
@@ -868,7 +917,7 @@ una etapa nueva:
 
 | # | Decisión | Estado | Cuándo se retoma |
 |---|---|---|---|
-| D1 | **Quién escribe y revisa los ejercicios originales** (borrador con IA + revisión humana, escritos a mano por el dueño, o una mezcla) y el volumen final por unidad | ⏸️ Pendiente | Cuando la app esté completa y el dueño la haya usado como estudiante. Hasta entonces, las unidades llevan solo los ejercicios mínimos para probar el motor (ver F6). |
+| D1 | **Quién escribe y revisa los ejercicios originales** y el volumen final por unidad | ✅ Decidida (31/10/2026) | **Autoría:** Claude escribe borradores (§7.7) con `reviewed: false`. **Revisión:** primero Claude, con ojo crítico y por bloques (fases de revisión, que corrigen lo evidente y apuntan las dudas); después, en el futuro, **un profesional**. El dueño del repo no revisa el contenido él mismo: aplicará las correcciones del profesional y solo entonces pasará los sets a `reviewed: true`. `/dev/revision` (F16) lista lo pendiente. **Volumen:** cada unidad nace con sets de muestra (~26 ítems, como 1–16) y sube a 40–60 por tandas, en ramas propias, solo cuando lo ya escrito ha pasado la revisión de Claude. |
 
 ## 15. Riesgos
 

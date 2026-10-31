@@ -11,7 +11,7 @@ const t = es.generated.vocabulary;
 
 // Un ítem sin id. "Omit" sobre una unión no reparte; este tipo condicional sí:
 // es la unión de cada tipo de ítem sin su id.
-type ItemDraft = ExerciseItem extends infer Item
+export type ItemDraft = ExerciseItem extends infer Item
   ? Item extends ExerciseItem
     ? Omit<Item, "id">
     : never
@@ -21,7 +21,7 @@ type ItemDraft = ExerciseItem extends infer Item
 const speakable = (w: VocabWord) => !/[()/]| or /.test(w.en);
 
 /** Opciones distintas: la correcta más hasta 2 de otras palabras con distinto texto */
-function options(correct: string, others: readonly string[]): string[] {
+export function options(correct: string, others: readonly string[]): string[] {
   const distractors = [...new Set(others)].filter((o) => o !== correct).slice(0, 2);
   return [correct, ...distractors];
 }
@@ -97,8 +97,6 @@ export function generateVocabularySet(
       explanationEs: t.explain(dictated.en, dictated.es),
     });
 
-  const items: ExerciseItem[] = drafts.map((draft, i) => ({ ...draft, id: String(i + 1) }));
-
   return {
     title: `${title}: vocabulary practice`,
     titleEs: t.title(title),
@@ -106,6 +104,11 @@ export function generateVocabularySet(
     source: "generated",
     level,
     topics: ["vocabulary"],
-    items,
+    items: withIds(drafts),
   };
+}
+
+/** Numera los ítems en orden: "1", "2"… */
+export function withIds(drafts: readonly ItemDraft[]): ExerciseItem[] {
+  return drafts.map((draft, i) => ({ ...draft, id: String(i + 1) }));
 }

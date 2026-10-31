@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Bring",
   "order": 6,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-bring.html",
   "intro": "In this section you will learn useful phrasal verbs with bring in English.",
   "groups": [
@@ -10,87 +12,126 @@
       "items": [
         {
           "en": "To bring about",
+          "es": "provocar, causar",
           "meanings": [
             "To make something happen."
-          ]
+          ],
+          "example": "The new law brought about many changes.",
+          "particle": "about"
         },
         {
           "en": "To bring along",
+          "es": "traer, llevar (consigo)",
           "meanings": [
             "When you bring someone or something with you to a place."
-          ]
+          ],
+          "example": "You can bring a friend along.",
+          "particle": "along"
         },
         {
           "en": "To bring around",
+          "es": "convencer",
           "meanings": [
             "When you try to convince someone to change their mind."
-          ]
+          ],
+          "example": "She didn't like the idea, but we brought her around.",
+          "particle": "around"
         },
         {
           "en": "To bring back",
+          "es": "traer recuerdos; devolver, reintroducir",
           "meanings": [
             "To remember.",
             "To return or reintroduce something."
-          ]
+          ],
+          "example": "This song brings back happy memories.",
+          "particle": "back"
         },
         {
           "en": "To bring down",
+          "es": "bajar, reducir; derribar",
           "meanings": [
             "To lower something.",
             "To cause something to collapse."
-          ]
+          ],
+          "example": "The shop brought down its prices.",
+          "particle": "down"
         },
         {
           "en": "To bring forth",
+          "es": "producir, dar lugar a",
           "meanings": [
             "To create or produce something"
-          ]
+          ],
+          "example": "The tree brought forth a lot of fruit.",
+          "particle": "forth"
         },
         {
           "en": "To bring forward",
+          "es": "adelantar (una fecha)",
           "meanings": [
             "To reschedule an event.",
             "To give an opinion to be taken into consideration."
-          ]
+          ],
+          "example": "The meeting was brought forward to Monday.",
+          "particle": "forward"
         },
         {
           "en": "To bring in",
+          "es": "introducir; generar (ingresos)",
           "meanings": [
             "To introduce something.",
             "To generate revenue."
-          ]
+          ],
+          "example": "The company brought in a new system.",
+          "particle": "in"
         },
         {
           "en": "To bring off",
+          "es": "lograr, sacar adelante",
           "meanings": [
             "To achieve something successfully."
-          ]
+          ],
+          "example": "Nobody thought she could do it, but she brought it off.",
+          "particle": "off"
         },
         {
           "en": "To bring on",
+          "es": "provocar, desencadenar",
           "meanings": [
             "To trigger something."
-          ]
+          ],
+          "example": "Stress can bring on a headache.",
+          "particle": "on"
         },
         {
           "en": "To bring out",
+          "es": "sacar, publicar; hacer resaltar",
           "meanings": [
             "To publish something.",
             "To reveal something or to make something evident."
-          ]
+          ],
+          "example": "The band is bringing out a new album.",
+          "particle": "out"
         },
         {
           "en": "To bring over",
+          "es": "traer, llevar (a otro sitio)",
           "meanings": [
             "To take something to another location."
-          ]
+          ],
+          "example": "Bring your guitar over tonight.",
+          "particle": "over"
         },
         {
           "en": "To bring up",
+          "es": "sacar (un tema); criar",
           "meanings": [
             "To mention a topic during a discussion.",
             "To raise a child until adulthood."
-          ]
+          ],
+          "example": "Don't bring up politics at dinner.",
+          "particle": "up"
         }
       ]
     }

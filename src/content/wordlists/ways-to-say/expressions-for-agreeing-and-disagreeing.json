@@ -1,7 +1,13 @@
 {
   "kind": "wordlist",
   "title": "Expressions for Agreeing and Disagreeing",
+  "titleEs": "Estar de acuerdo o en desacuerdo",
   "order": 2,
+  "level": "A2",
+  "related": [
+    "ways-to-say/expressions-to-give-your-opinion",
+    "ways-to-say/expressions-to-say-i-dont-know"
+  ],
   "legacyPath": "lessons/ways-to-say/expressions-for-agreeing-and-disagreeing.html",
   "intro": "In this section you will learn expressions for agreeing and disagreeing in English.",
   "groups": [
@@ -34,9 +40,6 @@
         },
         {
           "en": "That’s exactly what I think."
-        },
-        {
-          "en": "That’s true"
         },
         {
           "en": "That’s true."

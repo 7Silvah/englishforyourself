@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Break",
   "order": 5,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-break.html",
   "intro": "In this section you will learn useful phrasal verbs with break in English.",
   "groups": [
@@ -10,96 +12,139 @@
       "items": [
         {
           "en": "To break away from",
+          "es": "separarse de, independizarse de",
           "meanings": [
             "To separate from someone or something."
-          ]
+          ],
+          "example": "The region wants to break away from the country.",
+          "particle": "away from"
         },
         {
           "en": "To break away",
+          "es": "escaparse, soltarse",
           "meanings": [
             "To escape or to leave."
-          ]
+          ],
+          "example": "The prisoner broke away from the guards.",
+          "particle": "away"
         },
         {
           "en": "To break down",
+          "es": "averiarse; derrumbarse (emocionalmente)",
           "meanings": [
             "When something stops working.",
             "When someone suddenly starts crying."
-          ]
+          ],
+          "example": "My car broke down on the highway.",
+          "particle": "down"
         },
         {
           "en": "To break free",
+          "es": "liberarse, escaparse",
           "meanings": [
             "To escape from a situation."
-          ]
+          ],
+          "example": "The bird broke free from the net."
         },
         {
           "en": "To break something down / break down something",
+          "es": "desglosar, dividir (en partes)",
           "meanings": [
             "To analyze something into smaller components."
-          ]
+          ],
+          "example": "Let's break the problem down into small steps.",
+          "particle": "down"
         },
         {
           "en": "To break into",
+          "es": "entrar a la fuerza; abrirse paso en (una profesión)",
           "meanings": [
             "To enter a place by force.",
             "To start a new profession."
-          ]
+          ],
+          "example": "Someone broke into our car last night.",
+          "particle": "into"
         },
         {
           "en": "To break in",
+          "es": "entrar a robar",
           "meanings": [
             "To enter a place illegally."
-          ]
+          ],
+          "example": "Thieves broke in while we were on holiday.",
+          "particle": "in"
         },
         {
           "en": "To break off",
+          "es": "desprenderse, romperse (una parte)",
           "meanings": [
             "When something breaks; to become detached from something else."
-          ]
+          ],
+          "example": "A piece of the chair broke off.",
+          "particle": "off"
         },
         {
           "en": "To break out of",
+          "es": "escaparse de",
           "meanings": [
             "To flee from a place."
-          ]
+          ],
+          "example": "Two prisoners broke out of jail.",
+          "particle": "out of"
         },
         {
           "en": "To break out",
+          "es": "estallar, desatarse",
           "meanings": [
             "When something suddenly occurs."
-          ]
+          ],
+          "example": "A fire broke out in the kitchen.",
+          "particle": "out"
         },
         {
           "en": "To break something off",
+          "es": "romper, poner fin a (algo)",
           "meanings": [
             "To terminate something."
-          ]
+          ],
+          "example": "They broke their engagement off.",
+          "particle": "off"
         },
         {
           "en": "To break through",
+          "es": "abrirse paso, superar (un obstáculo)",
           "meanings": [
             "When you overcome an obstacle."
-          ]
+          ],
+          "example": "The sun broke through the clouds.",
+          "particle": "through"
         },
         {
           "en": "To break up",
+          "es": "romper (una relación), separarse",
           "meanings": [
             "To end a relationship.",
             "To disintegrate something."
-          ]
+          ],
+          "example": "Emma and Jack broke up last month.",
+          "particle": "up"
         },
         {
           "en": "To break with",
+          "es": "romper con",
           "meanings": [
             "To cut ties with someone or something."
-          ]
+          ],
+          "example": "She broke with tradition and wore a red dress.",
+          "particle": "with"
         },
         {
           "en": "To break even",
+          "es": "cubrir gastos, no ganar ni perder",
           "meanings": [
             "When you there is no revenue nor profit from something."
-          ]
+          ],
+          "example": "The shop is finally breaking even."
         }
       ]
     }

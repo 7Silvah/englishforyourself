@@ -2,6 +2,7 @@
   "kind": "wordlist",
   "title": "Collocations with Have",
   "order": 9,
+  "level": "B1",
   "legacyPath": "lessons/collocations/collocations-with-have.html",
   "intro": "Learn collocations with have in English with the following list.",
   "groups": [
@@ -51,7 +52,10 @@
           "en": "Have a day off"
         },
         {
-          "en": "Have a dispute have doubt"
+          "en": "Have a dispute"
+        },
+        {
+          "en": "Have doubts"
         },
         {
           "en": "Have a dream"

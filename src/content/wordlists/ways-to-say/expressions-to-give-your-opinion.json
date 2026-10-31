@@ -1,7 +1,13 @@
 {
   "kind": "wordlist",
   "title": "Expressions to Give your opinion",
+  "titleEs": "Dar tu opinión",
   "order": 4,
+  "level": "A2",
+  "related": [
+    "ways-to-say/expressions-for-advice",
+    "ways-to-say/expressions-for-agreeing-and-disagreeing"
+  ],
   "legacyPath": "lessons/ways-to-say/expressions-to-give-your-opinion.html",
   "intro": "In this section you will learn expressions to give your opinion in English.",
   "groups": [

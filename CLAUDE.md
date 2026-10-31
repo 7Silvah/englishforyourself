@@ -128,7 +128,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 
 - Siguen la plantilla de `docs/PLAN.md` §6.2, en este orden: objetivos, explicación con `Formula`, comparación con el español, errores comunes, práctica guiada, práctica libre, worksheet y repaso.
 - Explicaciones cortas, en español y para principiantes. Si usas un término gramatical, defínelo la primera vez.
-- Meta final: cada unidad con 40–60 ítems de al menos 4 tipos y un set de repaso. **Por ahora no se escriben en volumen**: la decisión D1 (`docs/PLAN.md` §14) está pendiente hasta que la app esté completa. Solo se crean sets de muestra (unos 5 ítems por tipo) para probar el motor. No generes más sin que te lo pidan.
+- Meta final: cada unidad con 40–60 ítems de al menos 4 tipos y un set de repaso. Según la decisión D1 (`docs/PLAN.md` §14), una unidad nueva nace con **sets de muestra** (~26 ítems) y sube a 40–60 **por tandas**, en ramas propias, solo cuando lo ya escrito ha pasado tu revisión crítica. No generes más sin que te lo pidan.
 - No introduzcas en una unidad estructuras que todavía no se han enseñado (por ejemplo, nada de pasado en las unidades 1–8).
 - Una unidad lista sus sets en el frontmatter (`guided`, `free`, `worksheets`, `review`) y cada set propio lleva `"unit": "<slug>"`. El estado de la unidad no se guarda: se calcula de las notas (`features/course/logic.ts`).
 - En el frontmatter YAML, pon entre comillas los textos que lleven `: ` (si no, YAML los lee como un mapa).
@@ -139,7 +139,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Lista en `answers` **todas** las respuestas válidas: variantes UK/US y contracciones ambiguas (`'s`, `'d`). Las contracciones no ambiguas ya las acepta `check.ts`.
 - `explanationEs` es obligatoria en los sets `original` y explica el porqué, no solo la respuesta.
 - Los distractores son errores reales de hispanohablantes (*She don't*, *I have 20 years*), no opciones absurdas.
-- Los sets que escribas tú quedan con `reviewed: false`. Solo el dueño del repo los marca como revisados (el proceso completo se define en D1).
+- Los sets que escribas tú quedan con `reviewed: false`. Solo el dueño del repo los marca como revisados, cuando los haya revisado un profesional (D1); `/dev/revision` lista los pendientes. Al revisar contenido, hazlo con ojo crítico, como si lo hubiera escrito otra persona: no lo des por bueno por parecerse a cómo lo harías tú.
 - No modifiques el enunciado ni la clave de los sets `source: "worksheet"`. Solo puedes añadir respuestas válidas, `explanationEs` o corregir errores evidentes, y debes indicarlo en el commit.
 - Después de tocar ejercicios, ejecuta `npm run content:check`.
 

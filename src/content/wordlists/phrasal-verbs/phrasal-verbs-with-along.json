@@ -2,6 +2,8 @@
   "kind": "wordlist",
   "title": "Phrasal Verbs with Along",
   "order": 1,
+  "level": "B1",
+  "reviewed": false,
   "legacyPath": "lessons/phrasal-verbs/phrasal-verbs-with-along.html",
   "intro": "In this section you will learn useful phrasal verbs with along.",
   "groups": [
@@ -10,57 +12,84 @@
       "items": [
         {
           "en": "To come along",
+          "es": "progresar, avanzar; acompañar",
           "meanings": [
             "Something making progress."
-          ]
+          ],
+          "example": "How is your new project coming along?",
+          "particle": "along"
         },
         {
           "en": "To get along with",
+          "es": "llevarse bien con",
           "meanings": [
             "To have a good relationship with someone else."
-          ]
+          ],
+          "example": "I get along with my neighbors.",
+          "particle": "along with"
         },
         {
           "en": "To go along",
+          "es": "aceptar, seguir la corriente",
           "meanings": [
             "To comply with something."
-          ]
+          ],
+          "example": "I didn't like the plan, but I went along with it.",
+          "particle": "along"
         },
         {
           "en": "To happen along",
+          "es": "aparecer por casualidad",
           "meanings": [
             "To encounter someone by chance."
-          ]
+          ],
+          "example": "A taxi happened along just when we needed one.",
+          "particle": "along"
         },
         {
           "en": "To move along",
+          "es": "circular, avanzar",
           "meanings": [
             "To continue moving forward"
-          ]
+          ],
+          "example": "The police asked the crowd to move along.",
+          "particle": "along"
         },
         {
           "en": "To pass along",
+          "es": "transmitir, pasar (información)",
           "meanings": [
             "To share information to someone else."
-          ]
+          ],
+          "example": "Please pass along the message to your team.",
+          "particle": "along"
         },
         {
           "en": "To play along with",
+          "es": "seguir el juego a",
           "meanings": [
             "To pretend to follow someone’s actions."
-          ]
+          ],
+          "example": "I knew it was a joke, so I played along with it.",
+          "particle": "along with"
         },
         {
           "en": "To sing along with",
+          "es": "cantar con, acompañar cantando",
           "meanings": [
             "To join someone who is singing."
-          ]
+          ],
+          "example": "Everyone sang along with the band.",
+          "particle": "along with"
         },
         {
           "en": "To tag along",
+          "es": "unirse, acompañar (sin ser invitado)",
           "meanings": [
             "To join a group even if you weren’t invited."
-          ]
+          ],
+          "example": "Can I tag along to the cinema?",
+          "particle": "along"
         }
       ]
     }

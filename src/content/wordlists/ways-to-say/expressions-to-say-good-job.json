@@ -1,7 +1,9 @@
 {
   "kind": "wordlist",
   "title": "Expressions to say Good Job",
+  "titleEs": "Felicitar por un buen trabajo",
   "order": 5,
+  "level": "A2",
   "legacyPath": "lessons/ways-to-say/expressions-to-say-good-job.html",
   "intro": "In this section you will learn expressions to say good job in English.",
   "groups": [
@@ -58,9 +60,6 @@
         },
         {
           "en": "Way to go!"
-        },
-        {
-          "en": "Ways to say good job:"
         },
         {
           "en": "Well done!"
