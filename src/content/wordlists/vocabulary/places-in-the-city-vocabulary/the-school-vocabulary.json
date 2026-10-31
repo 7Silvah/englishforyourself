@@ -4,57 +4,71 @@
   "order": 25,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-school-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the school in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "The school",
       "items": [
         {
-          "en": "Subjects:"
+          "en": "Arithmetic",
+          "es": "aritmética"
         },
         {
-          "en": "Arithmetic"
+          "en": "Art",
+          "es": "arte"
         },
         {
-          "en": "Art"
+          "en": "Biology",
+          "es": "biología"
         },
         {
-          "en": "Biology"
+          "en": "Chemistry",
+          "es": "química"
         },
         {
-          "en": "Chemistry"
+          "en": "Drama",
+          "es": "teatro"
         },
         {
-          "en": "Drama"
+          "en": "English",
+          "es": "inglés"
         },
         {
-          "en": "English"
+          "en": "Geography",
+          "es": "geografía"
         },
         {
-          "en": "Geography"
+          "en": "History",
+          "es": "historia"
         },
         {
-          "en": "History"
+          "en": "Information technology",
+          "es": "informática"
         },
         {
-          "en": "Information technology"
+          "en": "Literature",
+          "es": "literatura"
         },
         {
-          "en": "Literature"
+          "en": "Mathematics / maths / math",
+          "es": "matemáticas"
         },
         {
-          "en": "Mathematics / maths / math"
+          "en": "Music",
+          "es": "música"
         },
         {
-          "en": "Music"
+          "en": "Physical education or PE",
+          "es": "educación física"
         },
         {
-          "en": "Physical education or PE"
+          "en": "Physics",
+          "es": "física"
         },
         {
-          "en": "Physics"
-        },
-        {
-          "en": "Science"
+          "en": "Science",
+          "es": "ciencias"
         }
       ]
     },
@@ -62,103 +76,136 @@
       "title": "Classroom objects vocabulary",
       "items": [
         {
-          "en": "Agenda"
+          "en": "Agenda",
+          "es": "agenda"
         },
         {
-          "en": "Backpack"
+          "en": "Backpack",
+          "es": "mochila"
         },
         {
-          "en": "Ballpoints"
+          "en": "Ballpoints",
+          "es": "bolígrafos"
         },
         {
-          "en": "Binder clips"
+          "en": "Binder clips",
+          "es": "pinzas sujetapapeles"
         },
         {
-          "en": "Binders"
+          "en": "Binders",
+          "es": "carpetas de anillas"
         },
         {
-          "en": "Blackboard"
+          "en": "Blackboard",
+          "es": "pizarra / pizarrón"
         },
         {
-          "en": "Books"
+          "en": "Books",
+          "es": "libros"
         },
         {
-          "en": "Calculator"
+          "en": "Calculator",
+          "es": "calculadora"
         },
         {
-          "en": "Chair"
+          "en": "Chair",
+          "es": "silla"
         },
         {
-          "en": "Clips"
+          "en": "Clips",
+          "es": "clips"
         },
         {
-          "en": "Clock"
+          "en": "Clock",
+          "es": "reloj (de pared)"
         },
         {
-          "en": "Coloured pencils (UK) / colored pencils (US)"
+          "en": "Coloured pencils (UK) / colored pencils (US)",
+          "es": "lápices de colores"
         },
         {
-          "en": "Compass"
+          "en": "Compass",
+          "es": "compás"
         },
         {
-          "en": "Crayons"
+          "en": "Crayons",
+          "es": "crayones / ceras"
         },
         {
-          "en": "Desk"
+          "en": "Desk",
+          "es": "pupitre / escritorio"
         },
         {
-          "en": "Glue"
+          "en": "Glue",
+          "es": "pegamento"
         },
         {
-          "en": "Highlighter"
+          "en": "Highlighter",
+          "es": "resaltador / marcador fluorescente"
         },
         {
-          "en": "Hole puncher"
+          "en": "Hole puncher",
+          "es": "perforadora"
         },
         {
-          "en": "Map"
+          "en": "Map",
+          "es": "mapa"
         },
         {
-          "en": "Notebooks"
+          "en": "Notebooks",
+          "es": "cuadernos"
         },
         {
-          "en": "Notepad"
+          "en": "Notepad",
+          "es": "bloc de notas"
         },
         {
-          "en": "Paper"
+          "en": "Paper",
+          "es": "papel"
         },
         {
-          "en": "Pencil case"
+          "en": "Pencil case",
+          "es": "estuche"
         },
         {
-          "en": "Pencil sharpener"
+          "en": "Pencil sharpener",
+          "es": "sacapuntas"
         },
         {
-          "en": "Pencils"
+          "en": "Pencils",
+          "es": "lápices"
         },
         {
-          "en": "Pins"
+          "en": "Pins",
+          "es": "alfileres"
         },
         {
-          "en": "Protractor"
+          "en": "Protractor",
+          "es": "transportador"
         },
         {
-          "en": "Rubber (UK) / eraser (US)"
+          "en": "Rubber (UK) / eraser (US)",
+          "es": "goma de borrar"
         },
         {
-          "en": "Ruler"
+          "en": "Ruler",
+          "es": "regla"
         },
         {
-          "en": "Scissors"
+          "en": "Scissors",
+          "es": "tijeras"
         },
         {
-          "en": "Scotch tape"
+          "en": "Scotch tape",
+          "es": "cinta adhesiva"
         },
         {
-          "en": "Stapler"
+          "en": "Stapler",
+          "es": "grapadora / engrapadora"
         },
         {
-          "en": "Whiteboard"
+          "en": "Whiteboard",
+          "es": "pizarra blanca"
         }
       ]
     },
@@ -166,55 +213,72 @@
       "title": "Other school vocabulary",
       "items": [
         {
-          "en": "Classmates"
+          "en": "Classmates",
+          "es": "compañeros de clase"
         },
         {
-          "en": "Coach"
+          "en": "Coach",
+          "es": "entrenador / entrenadora"
         },
         {
-          "en": "Computer"
+          "en": "Computer",
+          "es": "computadora / ordenador"
         },
         {
-          "en": "Fan"
+          "en": "Fan",
+          "es": "ventilador"
         },
         {
-          "en": "Janitor"
+          "en": "Janitor",
+          "es": "conserje"
         },
         {
-          "en": "Librarian"
+          "en": "Librarian",
+          "es": "bibliotecario / bibliotecaria"
         },
         {
-          "en": "Principal"
+          "en": "Principal",
+          "es": "director / directora (de la escuela)"
         },
         {
-          "en": "Projector"
+          "en": "Projector",
+          "es": "proyector"
         },
         {
-          "en": "School bell"
+          "en": "School bell",
+          "es": "timbre de la escuela"
         },
         {
-          "en": "School bus"
+          "en": "School bus",
+          "es": "autobús escolar"
         },
         {
-          "en": "Students"
+          "en": "Students",
+          "es": "estudiantes / alumnos"
         },
         {
-          "en": "Teacher"
+          "en": "Teacher",
+          "es": "profesor / maestra"
         },
         {
-          "en": "The bathroom"
+          "en": "The bathroom",
+          "es": "el baño"
         },
         {
-          "en": "The classroom"
+          "en": "The classroom",
+          "es": "el aula / el salón de clases"
         },
         {
-          "en": "The library"
+          "en": "The library",
+          "es": "la biblioteca"
         },
         {
-          "en": "The lockers"
+          "en": "The lockers",
+          "es": "los casilleros / las taquillas"
         },
         {
-          "en": "The principal’s office"
+          "en": "The principal’s office",
+          "es": "la dirección (oficina del director)"
         }
       ]
     }

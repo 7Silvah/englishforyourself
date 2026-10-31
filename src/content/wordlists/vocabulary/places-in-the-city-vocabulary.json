@@ -4,222 +4,296 @@
   "order": 20,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the places in the city in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "Places in the city vocabulary",
       "items": [
         {
-          "en": "Airport"
+          "en": "Airport",
+          "es": "aeropuerto"
         },
         {
-          "en": "Amusement Park"
+          "en": "Amusement Park",
+          "es": "parque de atracciones / de diversiones"
         },
         {
-          "en": "Art gallery"
+          "en": "Art gallery",
+          "es": "galería de arte"
         },
         {
-          "en": "Bakery"
+          "en": "Bakery",
+          "es": "panadería"
         },
         {
-          "en": "Bank"
+          "en": "Bank",
+          "es": "banco"
         },
         {
-          "en": "Bar"
+          "en": "Bar",
+          "es": "bar"
         },
         {
-          "en": "Barbershop"
+          "en": "Barbershop",
+          "es": "barbería"
         },
         {
-          "en": "Beauty salon"
+          "en": "Beauty salon",
+          "es": "salón de belleza"
         },
         {
-          "en": "Bookshop or bookstore"
+          "en": "Bookshop or bookstore",
+          "es": "librería"
         },
         {
-          "en": "Bus station"
+          "en": "Bus station",
+          "es": "estación de autobuses"
         },
         {
-          "en": "Butcher’s"
+          "en": "Butcher’s",
+          "es": "carnicería"
         },
         {
-          "en": "Café"
+          "en": "Café",
+          "es": "cafetería"
         },
         {
-          "en": "Canteen"
+          "en": "Canteen",
+          "es": "comedor"
         },
         {
-          "en": "Car park (UK) / parking lot (US)"
+          "en": "Car park (UK) / parking lot (US)",
+          "es": "estacionamiento / aparcamiento"
         },
         {
-          "en": "Casino"
+          "en": "Casino",
+          "es": "casino"
         },
         {
-          "en": "Cathedral"
+          "en": "Cathedral",
+          "es": "catedral"
         },
         {
-          "en": "Cemetery / graveyard"
+          "en": "Cemetery / graveyard",
+          "es": "cementerio"
         },
         {
-          "en": "Church"
+          "en": "Church",
+          "es": "iglesia"
         },
         {
-          "en": "Cinema"
+          "en": "Cinema",
+          "es": "cine"
         },
         {
-          "en": "City centre (UK) / city center (US)"
+          "en": "City centre (UK) / city center (US)",
+          "es": "centro de la ciudad"
         },
         {
-          "en": "Clothing store"
+          "en": "Clothing store",
+          "es": "tienda de ropa"
         },
         {
-          "en": "Convent"
+          "en": "Convent",
+          "es": "convento"
         },
         {
-          "en": "Court"
+          "en": "Court",
+          "es": "tribunal / juzgado"
         },
         {
-          "en": "Craft market"
+          "en": "Craft market",
+          "es": "mercado de artesanía"
         },
         {
-          "en": "Craft shop"
+          "en": "Craft shop",
+          "es": "tienda de artesanía"
         },
         {
-          "en": "Crossroads"
+          "en": "Crossroads",
+          "es": "cruce"
         },
         {
-          "en": "Delicatessen"
+          "en": "Delicatessen",
+          "es": "tienda gourmet (delicatessen)"
         },
         {
-          "en": "Department store"
+          "en": "Department store",
+          "es": "grandes almacenes / tienda departamental"
         },
         {
-          "en": "Disco"
+          "en": "Disco",
+          "es": "discoteca"
         },
         {
-          "en": "DIY superstore"
+          "en": "DIY superstore",
+          "es": "tienda de bricolaje"
         },
         {
-          "en": "Drugstore"
+          "en": "Drugstore",
+          "es": "farmacia (EE. UU.)"
         },
         {
-          "en": "Factory"
+          "en": "Factory",
+          "es": "fábrica"
         },
         {
-          "en": "Farm"
+          "en": "Farm",
+          "es": "granja"
         },
         {
-          "en": "Farmers’ market"
+          "en": "Farmers’ market",
+          "es": "mercado de productores"
         },
         {
-          "en": "Fast food restaurant"
+          "en": "Fast food restaurant",
+          "es": "restaurante de comida rápida"
         },
         {
-          "en": "Fire station"
+          "en": "Fire station",
+          "es": "estación de bomberos"
         },
         {
-          "en": "Gym"
+          "en": "Gym",
+          "es": "gimnasio"
         },
         {
-          "en": "Hairdresser’s"
+          "en": "Hairdresser’s",
+          "es": "peluquería"
         },
         {
-          "en": "Hospital"
+          "en": "Hospital",
+          "es": "hospital"
         },
         {
-          "en": "Hotel"
+          "en": "Hotel",
+          "es": "hotel"
         },
         {
-          "en": "Jail / prison"
+          "en": "Jail / prison",
+          "es": "cárcel / prisión"
         },
         {
-          "en": "Laundromat"
+          "en": "Laundromat",
+          "es": "lavandería"
         },
         {
-          "en": "Library"
+          "en": "Library",
+          "es": "biblioteca",
+          "falseFriend": "librería"
         },
         {
-          "en": "Market"
+          "en": "Market",
+          "es": "mercado"
         },
         {
-          "en": "Millinery shop"
+          "en": "Millinery shop",
+          "es": "sombrerería"
         },
         {
-          "en": "Museum"
+          "en": "Museum",
+          "es": "museo"
         },
         {
-          "en": "Organic food shop"
+          "en": "Organic food shop",
+          "es": "tienda de productos orgánicos"
         },
         {
-          "en": "Park"
+          "en": "Park",
+          "es": "parque"
         },
         {
-          "en": "Pavement (UK) / sidewalk (US)"
+          "en": "Pavement (UK) / sidewalk (US)",
+          "es": "acera / banqueta"
         },
         {
-          "en": "Pet shop"
+          "en": "Pet shop",
+          "es": "tienda de mascotas"
         },
         {
-          "en": "Petrol station (UK) / gas station (US)"
+          "en": "Petrol station (UK) / gas station (US)",
+          "es": "gasolinera"
         },
         {
-          "en": "Pharmacy"
+          "en": "Pharmacy",
+          "es": "farmacia"
         },
         {
-          "en": "Playground"
+          "en": "Playground",
+          "es": "parque infantil"
         },
         {
-          "en": "Police station"
+          "en": "Police station",
+          "es": "comisaría / estación de policía"
         },
         {
-          "en": "Post office"
+          "en": "Post office",
+          "es": "oficina de correos"
         },
         {
-          "en": "Pub"
+          "en": "Pub",
+          "es": "pub / bar"
         },
         {
-          "en": "Railway station"
+          "en": "Railway station",
+          "es": "estación de tren"
         },
         {
-          "en": "Restaurant"
+          "en": "Restaurant",
+          "es": "restaurante"
         },
         {
-          "en": "Roundabout"
+          "en": "Roundabout",
+          "es": "glorieta / rotonda"
         },
         {
-          "en": "School"
+          "en": "School",
+          "es": "escuela"
         },
         {
-          "en": "Sports centre (UK) / sports center (US)"
+          "en": "Sports centre (UK) / sports center (US)",
+          "es": "centro deportivo / polideportivo"
         },
         {
-          "en": "Square"
+          "en": "Square",
+          "es": "plaza"
         },
         {
-          "en": "Supermarket"
+          "en": "Supermarket",
+          "es": "supermercado"
         },
         {
-          "en": "Swimming pool"
+          "en": "Swimming pool",
+          "es": "piscina / alberca"
         },
         {
-          "en": "Theatre (UK) / theater (US)"
+          "en": "Theatre (UK) / theater (US)",
+          "es": "teatro"
         },
         {
-          "en": "Train station"
+          "en": "Train station",
+          "es": "estación de tren"
         },
         {
-          "en": "Travel agency"
+          "en": "Travel agency",
+          "es": "agencia de viajes"
         },
         {
-          "en": "Underground station (UK) / subway station (US)"
+          "en": "Underground station (UK) / subway station (US)",
+          "es": "estación de metro"
         },
         {
-          "en": "University"
+          "en": "University",
+          "es": "universidad"
         },
         {
-          "en": "Warehouse"
+          "en": "Warehouse",
+          "es": "almacén / bodega"
         },
         {
-          "en": "Zoo"
+          "en": "Zoo",
+          "es": "zoológico"
         }
       ]
     }

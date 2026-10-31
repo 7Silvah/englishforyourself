@@ -11,7 +11,7 @@
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
-| 3 · Vocabulario activo | F13–F15 | 🟨 en curso — F13 ✅ |
+| 3 · Vocabulario activo | F13–F15 | 🟨 en curso — F13 ✅ F14 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -20,25 +20,23 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 30/10/2026, con F13 terminada en la rama `f13-flashcards` (sale de
-`main`, que tiene hasta F12).*
+*Actualizado el 30/10/2026, con F14 terminada en la rama `f14-vocabulario` (sale de
+`desarrollo`, que tiene hasta F13).*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Volver a crear `desarrollo` y protegerla.** Al fusionar el PR de `desarrollo`
-  hacia `main` (#7), la opción *Automatically delete head branches* la borró, porque en
-  ese PR era la rama de origen. Para que no vuelva a pasar: créala desde `main`
-  (*Branches → New branch*) y añade una regla en *Settings → Rules → Rulesets* para
-  `desarrollo` con **Restrict deletions**; GitHub no borra ramas protegidas así.
-- [ ] **Abrir el PR de `f13-flashcards` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Abrir el PR de `f14-vocabulario` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Proteger `desarrollo`** si aún no lo hiciste: *Settings → Rules → Rulesets*, regla
+  **Restrict deletions** (así *Automatically delete head branches* no la borra al pasarla a `main`).
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
-- [ ] **Revisar contenido cuando puedas** (no bloquea): unidades 1–16, sus sets y ahora
-  las traducciones de las 10 listas A1 (todo con `reviewed: false`, decisión D1, §14).
+- [ ] **Revisar contenido cuando puedas** (no bloquea): unidades 1–16, sus sets y las
+  traducciones de las 19 listas A1–A2 y sus 5 falsos amigos (todo con `reviewed: false`,
+  decisión D1, §14).
 
-**2. Siguiente: F14 — Ejercicios de vocabulario** (§11): traducir la tanda 2 de listas
-(A2) y generar ejercicios desde las listas (opción múltiple EN↔ES, emparejar, escuchar y
-elegir, dictado), como los de los tiempos verbales.
+**2. Siguiente: F15 — Phrasal verbs, collocations y *ways to say*** (§11): pasar esas
+listas a datos estructurados (verbo + partícula + significado + ejemplo) y practicarlas
+con ejercicios de completar y elegir partícula. Cierra la Etapa 3.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -807,7 +805,13 @@ Cada fase indica qué conceptos vas a aprender en ella.
 
 **Listo cuando:** las listas traducidas se pueden practicar como flashcards y cada palabra vuelve según lo bien que la sabes. ✅
 #### F14 — Ejercicios de vocabulario
-- [ ] Generadores desde wordlists; traducciones `es` de las listas A2 (**tanda 2**: trabajos, ciudad, escuela, deportes, aficiones, emociones, países, casa, animales…; la tanda 1 A1 se hizo en F13); componentes `FalseFriend` en las listas.
+- [x] **Traducciones, tanda 2 (A2)**: 9 listas, 1009 palabras (animales, países y nacionalidades, emociones, aficiones, trabajos, ciudad, escuela, deportes, casa), `level: A2` y `reviewed: false`. La sección *vocabulary* pasa del 21 % al 54 % traducida.
+- [x] **Falsos amigos** en las listas: campo opcional `falseFriend` en la palabra (lo que **no** significa) y etiqueta «Falso amigo: no es «…»» en `WordList`. Marcados *Embarrassed*, *Lecturer*, *Parents*, *Library* y *Carpet*.
+- [x] Generador `generators/vocabulary.ts` (función pura con semilla): 3 de opción múltiple EN→ES, 2 ES→EN, 1 de emparejar (4 parejas), 2 de escuchar y elegir y 1 dictado. Las palabras con variantes («Lorry (UK) / truck (US)») no van a los de audio. Los distractores salen de la misma lista. 4 tests.
+- [x] `/practicar/vocabulario` (listas traducidas) y `?lista=` para la práctica, con «Ejercicios nuevos» y sin guardar en el progreso (como los otros sets generados). Botones **Flashcards** y **Practicar** en cada lista traducida de la Biblioteca; acceso desde el catálogo.
+- [x] `/progreso` muestra las flashcards (vistas, dominadas, para hoy), también si aún no hay ejercicios hechos. 176 tests; JS inicial 191,2 KB gzip.
+
+**Listo cuando (Etapa 3, parcial):** cada lista traducida tiene botones «Flashcards» y «Practicar» y las palabras repasadas aparecen en `/progreso`. ✅
 #### F15 — Phrasal verbs, collocations, ways to say
 - [ ] Datos estructurados (verbo + partícula + significado + ejemplo) y ejercicios de completar y elegir partícula.
 

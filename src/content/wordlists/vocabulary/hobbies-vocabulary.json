@@ -4,108 +4,143 @@
   "order": 9,
   "legacyPath": "lessons/vocabulary/hobbies-vocabulary.html",
   "intro": "In this section you will learn vocabulary about hobbies in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "Hobbies vocabulary",
       "items": [
         {
-          "en": "Blogging"
+          "en": "Blogging",
+          "es": "escribir un blog"
         },
         {
-          "en": "Bowling"
+          "en": "Bowling",
+          "es": "jugar a los bolos"
         },
         {
-          "en": "Camping"
+          "en": "Camping",
+          "es": "acampar"
         },
         {
-          "en": "Climbing"
+          "en": "Climbing",
+          "es": "escalar"
         },
         {
-          "en": "Cooking"
+          "en": "Cooking",
+          "es": "cocinar"
         },
         {
-          "en": "Dancing"
+          "en": "Dancing",
+          "es": "bailar"
         },
         {
-          "en": "Doing gymnastics"
+          "en": "Doing gymnastics",
+          "es": "hacer gimnasia"
         },
         {
-          "en": "Doing yoga"
+          "en": "Doing yoga",
+          "es": "hacer yoga"
         },
         {
-          "en": "Drawing"
+          "en": "Drawing",
+          "es": "dibujar"
         },
         {
-          "en": "Fishing"
+          "en": "Fishing",
+          "es": "pescar"
         },
         {
-          "en": "Gardening"
+          "en": "Gardening",
+          "es": "hacer jardinería"
         },
         {
-          "en": "Hanging out with friends"
+          "en": "Hanging out with friends",
+          "es": "salir con amigos"
         },
         {
-          "en": "Knitting"
+          "en": "Knitting",
+          "es": "tejer"
         },
         {
-          "en": "Listening to music or podcasts"
+          "en": "Listening to music or podcasts",
+          "es": "escuchar música o pódcasts"
         },
         {
-          "en": "Meditation"
+          "en": "Meditation",
+          "es": "meditación"
         },
         {
-          "en": "Painting"
+          "en": "Painting",
+          "es": "pintar"
         },
         {
-          "en": "Playing an instrument"
+          "en": "Playing an instrument",
+          "es": "tocar un instrumento"
         },
         {
-          "en": "Playing sports"
+          "en": "Playing sports",
+          "es": "hacer deporte"
         },
         {
-          "en": "Playing video games"
+          "en": "Playing video games",
+          "es": "jugar a los videojuegos"
         },
         {
-          "en": "Reading"
+          "en": "Reading",
+          "es": "leer"
         },
         {
-          "en": "Riding a bike"
+          "en": "Riding a bike",
+          "es": "andar en bicicleta"
         },
         {
-          "en": "Riding a horse"
+          "en": "Riding a horse",
+          "es": "montar a caballo"
         },
         {
-          "en": "Running"
+          "en": "Running",
+          "es": "correr"
         },
         {
-          "en": "Sewing"
+          "en": "Sewing",
+          "es": "coser"
         },
         {
-          "en": "Shopping"
+          "en": "Shopping",
+          "es": "ir de compras"
         },
         {
-          "en": "Skateboarding"
+          "en": "Skateboarding",
+          "es": "andar en monopatín"
         },
         {
-          "en": "Skiing"
+          "en": "Skiing",
+          "es": "esquiar"
         },
         {
-          "en": "Swimming"
+          "en": "Swimming",
+          "es": "nadar"
         },
         {
-          "en": "Taking photos"
+          "en": "Taking photos",
+          "es": "sacar fotos"
         },
         {
-          "en": "Travelling"
+          "en": "Travelling",
+          "es": "viajar"
         },
         {
-          "en": "Watching TV"
+          "en": "Watching TV",
+          "es": "ver la tele"
         },
         {
-          "en": "Working out"
+          "en": "Working out",
+          "es": "hacer ejercicio"
         },
         {
-          "en": "Writing"
+          "en": "Writing",
+          "es": "escribir"
         }
       ]
     }

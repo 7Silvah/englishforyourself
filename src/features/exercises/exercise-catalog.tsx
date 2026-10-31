@@ -93,6 +93,12 @@ export function ExerciseCatalog({ filters }: { filters: CatalogFilters }) {
           {t.generatedTenses}
         </Link>
         <Link
+          to="/practicar/vocabulario"
+          className={buttonVariants({ variant: "outline", size: "sm" })}
+        >
+          {es.generated.vocabulary.vocabularyTitle}
+        </Link>
+        <Link
           to="/practicar/flashcards"
           className={buttonVariants({ variant: "outline", size: "sm" })}
         >

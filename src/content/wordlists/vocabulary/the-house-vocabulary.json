@@ -4,105 +4,139 @@
   "order": 27,
   "legacyPath": "lessons/vocabulary/the-house-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the house in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "The house vocabulary",
       "items": [
         {
-          "en": "Attic"
+          "en": "Attic",
+          "es": "ático / desván"
         },
         {
-          "en": "Balcony"
+          "en": "Balcony",
+          "es": "balcón"
         },
         {
-          "en": "Bannister"
+          "en": "Bannister",
+          "es": "barandilla / pasamanos"
         },
         {
-          "en": "Basement"
+          "en": "Basement",
+          "es": "sótano"
         },
         {
-          "en": "Chimney"
+          "en": "Chimney",
+          "es": "chimenea (exterior)"
         },
         {
-          "en": "Curb"
+          "en": "Curb",
+          "es": "bordillo / banqueta"
         },
         {
-          "en": "Door"
+          "en": "Door",
+          "es": "puerta"
         },
         {
-          "en": "Driveway"
+          "en": "Driveway",
+          "es": "entrada para coches"
         },
         {
-          "en": "Garage"
+          "en": "Garage",
+          "es": "garaje / cochera"
         },
         {
-          "en": "Garage door"
+          "en": "Garage door",
+          "es": "puerta del garaje"
         },
         {
-          "en": "Gutter"
+          "en": "Gutter",
+          "es": "canaleta / canalón"
         },
         {
-          "en": "Letterbox (UK) / mailbox (US)"
+          "en": "Letterbox (UK) / mailbox (US)",
+          "es": "buzón"
         },
         {
-          "en": "Path"
+          "en": "Path",
+          "es": "sendero / camino"
         },
         {
-          "en": "Pavement"
+          "en": "Pavement",
+          "es": "acera"
         },
         {
-          "en": "Ridge"
+          "en": "Ridge",
+          "es": "cumbrera (del tejado)"
         },
         {
-          "en": "Roof"
+          "en": "Roof",
+          "es": "techo / tejado"
         },
         {
-          "en": "Shutter"
+          "en": "Shutter",
+          "es": "contraventana / persiana"
         },
         {
-          "en": "Stairs"
+          "en": "Stairs",
+          "es": "escaleras"
         },
         {
-          "en": "Window"
+          "en": "Window",
+          "es": "ventana"
         },
         {
-          "en": "Yard"
+          "en": "Yard",
+          "es": "patio / jardín"
         },
         {
-          "en": "Room"
+          "en": "Room",
+          "es": "habitación / cuarto"
         },
         {
-          "en": "Ceiling"
+          "en": "Ceiling",
+          "es": "techo (interior)"
         },
         {
-          "en": "Wall"
+          "en": "Wall",
+          "es": "pared"
         },
         {
-          "en": "Floor"
+          "en": "Floor",
+          "es": "piso / suelo"
         },
         {
-          "en": "Hall / hallway"
+          "en": "Hall / hallway",
+          "es": "pasillo / vestíbulo"
         },
         {
-          "en": "Door"
+          "en": "Door",
+          "es": "puerta"
         },
         {
-          "en": "Door knocker / knocker"
+          "en": "Door knocker / knocker",
+          "es": "aldaba"
         },
         {
-          "en": "Peephole"
+          "en": "Peephole",
+          "es": "mirilla"
         },
         {
-          "en": "Doorbell"
+          "en": "Doorbell",
+          "es": "timbre"
         },
         {
-          "en": "Door knob"
+          "en": "Door knob",
+          "es": "pomo de la puerta"
         },
         {
-          "en": "Keyhole"
+          "en": "Keyhole",
+          "es": "ojo de la cerradura"
         },
         {
-          "en": "Door handle"
+          "en": "Door handle",
+          "es": "manija / picaporte"
         }
       ]
     },
@@ -110,100 +144,132 @@
       "title": "The garden vocabulary",
       "items": [
         {
-          "en": "Axe"
+          "en": "Axe",
+          "es": "hacha"
         },
         {
-          "en": "Boots"
+          "en": "Boots",
+          "es": "botas"
         },
         {
-          "en": "Broom"
+          "en": "Broom",
+          "es": "escoba"
         },
         {
-          "en": "Bucket"
+          "en": "Bucket",
+          "es": "cubo / cubeta"
         },
         {
-          "en": "Faucet"
+          "en": "Faucet",
+          "es": "grifo / llave"
         },
         {
-          "en": "Fence"
+          "en": "Fence",
+          "es": "valla / cerca"
         },
         {
-          "en": "Fertilizer"
+          "en": "Fertilizer",
+          "es": "fertilizante / abono"
         },
         {
-          "en": "Flowerpot"
+          "en": "Flowerpot",
+          "es": "maceta"
         },
         {
-          "en": "Garden hose"
+          "en": "Garden hose",
+          "es": "manguera"
         },
         {
-          "en": "Gloves"
+          "en": "Gloves",
+          "es": "guantes"
         },
         {
-          "en": "Grass"
+          "en": "Grass",
+          "es": "césped / pasto"
         },
         {
-          "en": "Hedge"
+          "en": "Hedge",
+          "es": "seto"
         },
         {
-          "en": "Hoe"
+          "en": "Hoe",
+          "es": "azada"
         },
         {
-          "en": "Lawn mower"
+          "en": "Lawn mower",
+          "es": "cortacésped / podadora"
         },
         {
-          "en": "Plant"
+          "en": "Plant",
+          "es": "planta"
         },
         {
-          "en": "Pond"
+          "en": "Pond",
+          "es": "estanque"
         },
         {
-          "en": "Pot"
+          "en": "Pot",
+          "es": "maceta"
         },
         {
-          "en": "Pruning saw"
+          "en": "Pruning saw",
+          "es": "sierra de podar"
         },
         {
-          "en": "Rake"
+          "en": "Rake",
+          "es": "rastrillo"
         },
         {
-          "en": "Secateurs"
+          "en": "Secateurs",
+          "es": "tijeras de podar"
         },
         {
-          "en": "Seed packet"
+          "en": "Seed packet",
+          "es": "sobre de semillas"
         },
         {
-          "en": "Seed tray"
+          "en": "Seed tray",
+          "es": "semillero"
         },
         {
-          "en": "Shovel"
+          "en": "Shovel",
+          "es": "pala"
         },
         {
-          "en": "Soil"
+          "en": "Soil",
+          "es": "tierra"
         },
         {
-          "en": "Spade"
+          "en": "Spade",
+          "es": "pala (de jardín)"
         },
         {
-          "en": "Sprinkler"
+          "en": "Sprinkler",
+          "es": "aspersor"
         },
         {
-          "en": "Tool shed"
+          "en": "Tool shed",
+          "es": "cobertizo de herramientas"
         },
         {
-          "en": "Tree"
+          "en": "Tree",
+          "es": "árbol"
         },
         {
-          "en": "Vegetable garden"
+          "en": "Vegetable garden",
+          "es": "huerto"
         },
         {
-          "en": "Watering can"
+          "en": "Watering can",
+          "es": "regadera"
         },
         {
-          "en": "Wheelbarrow"
+          "en": "Wheelbarrow",
+          "es": "carretilla"
         },
         {
-          "en": "Wheelie bin (UK) / recycling bin (US)"
+          "en": "Wheelie bin (UK) / recycling bin (US)",
+          "es": "contenedor de basura con ruedas"
         }
       ]
     },
@@ -211,82 +277,109 @@
       "title": "The living room vocabulary",
       "items": [
         {
-          "en": "Arm chair"
+          "en": "Arm chair",
+          "es": "sillón"
         },
         {
-          "en": "Blinds"
+          "en": "Blinds",
+          "es": "persianas"
         },
         {
-          "en": "Bookcase"
+          "en": "Bookcase",
+          "es": "librero / estantería"
         },
         {
-          "en": "Carpet"
+          "en": "Carpet",
+          "es": "alfombra (moqueta)",
+          "falseFriend": "carpeta"
         },
         {
-          "en": "Coffee table"
+          "en": "Coffee table",
+          "es": "mesa de centro"
         },
         {
-          "en": "Curtains"
+          "en": "Curtains",
+          "es": "cortinas"
         },
         {
-          "en": "Cushion"
+          "en": "Cushion",
+          "es": "cojín"
         },
         {
-          "en": "Decorations"
+          "en": "Decorations",
+          "es": "adornos"
         },
         {
-          "en": "DVD player"
+          "en": "DVD player",
+          "es": "reproductor de DVD"
         },
         {
-          "en": "End table"
+          "en": "End table",
+          "es": "mesita auxiliar"
         },
         {
-          "en": "Fan"
+          "en": "Fan",
+          "es": "ventilador"
         },
         {
-          "en": "Fireplace"
+          "en": "Fireplace",
+          "es": "chimenea"
         },
         {
-          "en": "Floor lamp"
+          "en": "Floor lamp",
+          "es": "lámpara de pie"
         },
         {
-          "en": "Lamp"
+          "en": "Lamp",
+          "es": "lámpara"
         },
         {
-          "en": "Picture"
+          "en": "Picture",
+          "es": "cuadro"
         },
         {
-          "en": "Remote"
+          "en": "Remote",
+          "es": "control remoto / mando a distancia"
         },
         {
-          "en": "Rocking chair"
+          "en": "Rocking chair",
+          "es": "mecedora"
         },
         {
-          "en": "Rug"
+          "en": "Rug",
+          "es": "alfombra / tapete"
         },
         {
-          "en": "Shelves"
+          "en": "Shelves",
+          "es": "estantes"
         },
         {
-          "en": "Sofa / couch"
+          "en": "Sofa / couch",
+          "es": "sofá"
         },
         {
-          "en": "Speaker"
+          "en": "Speaker",
+          "es": "altavoz / bocina"
         },
         {
-          "en": "Tea set"
+          "en": "Tea set",
+          "es": "juego de té"
         },
         {
-          "en": "Television / TV"
+          "en": "Television / TV",
+          "es": "televisión / tele"
         },
         {
-          "en": "TV stand"
+          "en": "TV stand",
+          "es": "mueble de la tele"
         },
         {
-          "en": "Vase"
+          "en": "Vase",
+          "es": "jarrón / florero"
         },
         {
-          "en": "Wall clock"
+          "en": "Wall clock",
+          "es": "reloj de pared"
         }
       ]
     },
@@ -294,55 +387,72 @@
       "title": "The dining room vocabulary",
       "items": [
         {
-          "en": "Eating utensils / cutlery"
+          "en": "Eating utensils / cutlery",
+          "es": "cubiertos"
         },
         {
-          "en": "Knife"
+          "en": "Knife",
+          "es": "cuchillo"
         },
         {
-          "en": "Spoon"
+          "en": "Spoon",
+          "es": "cuchara"
         },
         {
-          "en": "Fork"
+          "en": "Fork",
+          "es": "tenedor"
         },
         {
-          "en": "Bowl"
+          "en": "Bowl",
+          "es": "tazón / cuenco"
         },
         {
-          "en": "Cup"
+          "en": "Cup",
+          "es": "taza"
         },
         {
-          "en": "Dining chairs"
+          "en": "Dining chairs",
+          "es": "sillas del comedor"
         },
         {
-          "en": "Glass"
+          "en": "Glass",
+          "es": "vaso"
         },
         {
-          "en": "Napkin"
+          "en": "Napkin",
+          "es": "servilleta"
         },
         {
-          "en": "Pitcher"
+          "en": "Pitcher",
+          "es": "jarra"
         },
         {
-          "en": "Place setting"
+          "en": "Place setting",
+          "es": "cubierto (plato, cubiertos y vaso de una persona)"
         },
         {
-          "en": "Placemat"
+          "en": "Placemat",
+          "es": "mantel individual"
         },
         {
-          "en": "Plate"
+          "en": "Plate",
+          "es": "plato"
         },
         {
-          "en": "Saucer"
+          "en": "Saucer",
+          "es": "platillo"
         },
         {
-          "en": "Table"
+          "en": "Table",
+          "es": "mesa"
         },
         {
-          "en": "Table cloth"
+          "en": "Table cloth",
+          "es": "mantel"
         },
         {
-          "en": "Teaspoon"
+          "en": "Teaspoon",
+          "es": "cucharita"
         }
       ]
     },
@@ -350,235 +460,312 @@
       "title": "The kitchen vocabulary",
       "items": [
         {
-          "en": "Apron"
+          "en": "Apron",
+          "es": "delantal"
         },
         {
-          "en": "Baking tin (UK) / baking Pan (US)"
+          "en": "Baking tin (UK) / baking Pan (US)",
+          "es": "molde para hornear"
         },
         {
-          "en": "Baking tray"
+          "en": "Baking tray",
+          "es": "bandeja de horno"
         },
         {
-          "en": "Beater"
+          "en": "Beater",
+          "es": "batidor"
         },
         {
-          "en": "Blender"
+          "en": "Blender",
+          "es": "licuadora / batidora"
         },
         {
-          "en": "Bowl"
+          "en": "Bowl",
+          "es": "tazón / cuenco"
         },
         {
-          "en": "Bread basket"
+          "en": "Bread basket",
+          "es": "panera"
         },
         {
-          "en": "Cabinet"
+          "en": "Cabinet",
+          "es": "gabinete / armario"
         },
         {
-          "en": "Cake slice"
+          "en": "Cake slice",
+          "es": "pala para tartas"
         },
         {
-          "en": "Can opener"
+          "en": "Can opener",
+          "es": "abrelatas"
         },
         {
-          "en": "Champagne cooler"
+          "en": "Champagne cooler",
+          "es": "enfriador de champán"
         },
         {
-          "en": "Chest freezer"
+          "en": "Chest freezer",
+          "es": "congelador horizontal"
         },
         {
-          "en": "Chopping board / cutting board"
+          "en": "Chopping board / cutting board",
+          "es": "tabla de cortar"
         },
         {
-          "en": "Chopsticks"
+          "en": "Chopsticks",
+          "es": "palillos chinos"
         },
         {
-          "en": "Cleaver"
+          "en": "Cleaver",
+          "es": "cuchillo de carnicero"
         },
         {
-          "en": "Coffee machine"
+          "en": "Coffee machine",
+          "es": "cafetera"
         },
         {
-          "en": "Cooker / stove"
+          "en": "Cooker / stove",
+          "es": "estufa / cocina"
         },
         {
-          "en": "Corkscrew"
+          "en": "Corkscrew",
+          "es": "sacacorchos"
         },
         {
-          "en": "Cup"
+          "en": "Cup",
+          "es": "taza"
         },
         {
-          "en": "Cupboard"
+          "en": "Cupboard",
+          "es": "alacena / armario"
         },
         {
-          "en": "Deep fryer"
+          "en": "Deep fryer",
+          "es": "freidora"
         },
         {
-          "en": "Dish cloth"
+          "en": "Dish cloth",
+          "es": "paño de cocina"
         },
         {
-          "en": "Dish rack"
+          "en": "Dish rack",
+          "es": "escurreplatos"
         },
         {
-          "en": "Dishwasher"
+          "en": "Dishwasher",
+          "es": "lavavajillas / lavaplatos"
         },
         {
-          "en": "Dishwashing liquid / washing-up liquid / dish soap"
+          "en": "Dishwashing liquid / washing-up liquid / dish soap",
+          "es": "lavavajillas líquido / jabón para platos"
         },
         {
-          "en": "Extractor hood"
+          "en": "Extractor hood",
+          "es": "campana extractora"
         },
         {
-          "en": "Food processor"
+          "en": "Food processor",
+          "es": "procesador de alimentos"
         },
         {
-          "en": "Fork"
+          "en": "Fork",
+          "es": "tenedor"
         },
         {
-          "en": "Freezer"
+          "en": "Freezer",
+          "es": "congelador"
         },
         {
-          "en": "Frying pan / pan"
+          "en": "Frying pan / pan",
+          "es": "sartén"
         },
         {
-          "en": "Funnel"
+          "en": "Funnel",
+          "es": "embudo"
         },
         {
-          "en": "Garbage disposal"
+          "en": "Garbage disposal",
+          "es": "triturador de basura"
         },
         {
-          "en": "Garlic press"
+          "en": "Garlic press",
+          "es": "prensa de ajos"
         },
         {
-          "en": "Gas stove"
+          "en": "Gas stove",
+          "es": "estufa de gas"
         },
         {
-          "en": "Glass"
+          "en": "Glass",
+          "es": "vaso"
         },
         {
-          "en": "Grater"
+          "en": "Grater",
+          "es": "rallador"
         },
         {
-          "en": "Jug"
+          "en": "Jug",
+          "es": "jarra"
         },
         {
-          "en": "Juicer"
+          "en": "Juicer",
+          "es": "exprimidor / extractor de jugo"
         },
         {
-          "en": "Kettle"
+          "en": "Kettle",
+          "es": "hervidor / tetera eléctrica"
         },
         {
-          "en": "Kitchen counter"
+          "en": "Kitchen counter",
+          "es": "encimera / barra de cocina"
         },
         {
-          "en": "Kitchen foil"
+          "en": "Kitchen foil",
+          "es": "papel de aluminio"
         },
         {
-          "en": "Knives"
+          "en": "Knives",
+          "es": "cuchillos"
         },
         {
-          "en": "Ladle"
+          "en": "Ladle",
+          "es": "cucharón"
         },
         {
-          "en": "Loaf tin (UK) / loaf pan (US)"
+          "en": "Loaf tin (UK) / loaf pan (US)",
+          "es": "molde para pan"
         },
         {
-          "en": "Measuring cups"
+          "en": "Measuring cups",
+          "es": "tazas medidoras"
         },
         {
-          "en": "Measuring spoons"
+          "en": "Measuring spoons",
+          "es": "cucharas medidoras"
         },
         {
-          "en": "Meat fork"
+          "en": "Meat fork",
+          "es": "trinche para carne"
         },
         {
-          "en": "Mesh skimmer"
+          "en": "Mesh skimmer",
+          "es": "espumadera"
         },
         {
-          "en": "Microwave"
+          "en": "Microwave",
+          "es": "microondas"
         },
         {
-          "en": "Mince (UK) / grinder (US)"
+          "en": "Mince (UK) / grinder (US)",
+          "es": "picadora de carne"
         },
         {
-          "en": "Mixer"
+          "en": "Mixer",
+          "es": "batidora"
         },
         {
-          "en": "Oven glove"
+          "en": "Oven glove",
+          "es": "guante de horno"
         },
         {
-          "en": "Peeler"
+          "en": "Peeler",
+          "es": "pelador"
         },
         {
-          "en": "Pepper mill"
+          "en": "Pepper mill",
+          "es": "molinillo de pimienta"
         },
         {
-          "en": "Piping bag"
+          "en": "Piping bag",
+          "es": "manga pastelera"
         },
         {
-          "en": "Pressure cooker"
+          "en": "Pressure cooker",
+          "es": "olla a presión"
         },
         {
-          "en": "Refrigerator / fridge"
+          "en": "Refrigerator / fridge",
+          "es": "refrigerador / nevera"
         },
         {
-          "en": "Rice cooker"
+          "en": "Rice cooker",
+          "es": "olla arrocera"
         },
         {
-          "en": "Rolling pin"
+          "en": "Rolling pin",
+          "es": "rodillo (de cocina)"
         },
         {
-          "en": "Sandwich maker"
+          "en": "Sandwich maker",
+          "es": "sandwichera"
         },
         {
-          "en": "Saucepan (UK) / pot (US)"
+          "en": "Saucepan (UK) / pot (US)",
+          "es": "cacerola / olla"
         },
         {
-          "en": "Scouring pad / scourer"
+          "en": "Scouring pad / scourer",
+          "es": "estropajo"
         },
         {
-          "en": "Sieve"
+          "en": "Sieve",
+          "es": "colador / tamiz"
         },
         {
-          "en": "Sink"
+          "en": "Sink",
+          "es": "fregadero"
         },
         {
-          "en": "Spatula"
+          "en": "Spatula",
+          "es": "espátula"
         },
         {
-          "en": "Spice containers"
+          "en": "Spice containers",
+          "es": "especieros"
         },
         {
-          "en": "Spoon"
+          "en": "Spoon",
+          "es": "cuchara"
         },
         {
-          "en": "Spring-clip tin (UK) / springform pan (US)"
+          "en": "Spring-clip tin (UK) / springform pan (US)",
+          "es": "molde desmontable"
         },
         {
-          "en": "Squeezer"
+          "en": "Squeezer",
+          "es": "exprimidor"
         },
         {
-          "en": "Steak hammer"
+          "en": "Steak hammer",
+          "es": "mazo para carne"
         },
         {
-          "en": "Strainer"
+          "en": "Strainer",
+          "es": "colador"
         },
         {
-          "en": "Teapot"
+          "en": "Teapot",
+          "es": "tetera"
         },
         {
-          "en": "Toaster"
+          "en": "Toaster",
+          "es": "tostadora"
         },
         {
-          "en": "Waffle-iron"
+          "en": "Waffle-iron",
+          "es": "gofrera / wafflera"
         },
         {
-          "en": "Whisk"
+          "en": "Whisk",
+          "es": "batidor de varillas"
         },
         {
-          "en": "Wooden spoon"
+          "en": "Wooden spoon",
+          "es": "cuchara de madera"
         },
         {
-          "en": "Muffin pan"
+          "en": "Muffin pan",
+          "es": "molde para magdalenas"
         }
       ]
     },
@@ -586,118 +773,156 @@
       "title": "The bathroom vocabulary",
       "items": [
         {
-          "en": "Bath mat"
+          "en": "Bath mat",
+          "es": "alfombra de baño"
         },
         {
-          "en": "Bath towel"
+          "en": "Bath towel",
+          "es": "toalla de baño"
         },
         {
-          "en": "Bathtub"
+          "en": "Bathtub",
+          "es": "bañera / tina"
         },
         {
-          "en": "Cold water"
+          "en": "Cold water",
+          "es": "agua fría"
         },
         {
-          "en": "Comb"
+          "en": "Comb",
+          "es": "peine"
         },
         {
-          "en": "Conditioner"
+          "en": "Conditioner",
+          "es": "acondicionador"
         },
         {
-          "en": "Curtain rings"
+          "en": "Curtain rings",
+          "es": "anillas de cortina"
         },
         {
-          "en": "Curtain rod"
+          "en": "Curtain rod",
+          "es": "barra de cortina"
         },
         {
-          "en": "Drain"
+          "en": "Drain",
+          "es": "desagüe"
         },
         {
-          "en": "Electric razor"
+          "en": "Electric razor",
+          "es": "afeitadora eléctrica"
         },
         {
-          "en": "Flannel"
+          "en": "Flannel",
+          "es": "toallita para la cara"
         },
         {
-          "en": "Hairbrush hairdryer"
+          "en": "Hairbrush hairdryer",
+          "es": "cepillo / secador de pelo"
         },
         {
-          "en": "Hand towel"
+          "en": "Hand towel",
+          "es": "toalla de manos"
         },
         {
-          "en": "Hot water"
+          "en": "Hot water",
+          "es": "agua caliente"
         },
         {
-          "en": "Mirror"
+          "en": "Mirror",
+          "es": "espejo"
         },
         {
-          "en": "Nailbrush"
+          "en": "Nailbrush",
+          "es": "cepillo de uñas"
         },
         {
-          "en": "Plunger"
+          "en": "Plunger",
+          "es": "desatascador / destapacaños"
         },
         {
-          "en": "Razor"
+          "en": "Razor",
+          "es": "rastrillo / maquinilla de afeitar"
         },
         {
-          "en": "Rubber mat"
+          "en": "Rubber mat",
+          "es": "alfombrilla antideslizante"
         },
         {
-          "en": "Shampoo"
+          "en": "Shampoo",
+          "es": "champú"
         },
         {
-          "en": "Shower"
+          "en": "Shower",
+          "es": "ducha / regadera"
         },
         {
-          "en": "Shower cap"
+          "en": "Shower cap",
+          "es": "gorro de ducha"
         },
         {
-          "en": "Shaving cream"
+          "en": "Shaving cream",
+          "es": "crema de afeitar"
         },
         {
-          "en": "Shower curtain"
+          "en": "Shower curtain",
+          "es": "cortina de ducha"
         },
         {
-          "en": "Shower head"
+          "en": "Shower head",
+          "es": "regadera / alcachofa de la ducha"
         },
         {
-          "en": "Sink / basin"
+          "en": "Sink / basin",
+          "es": "lavabo / lavamanos"
         },
         {
-          "en": "Soap"
+          "en": "Soap",
+          "es": "jabón"
         },
         {
-          "en": "Soap tray"
+          "en": "Soap tray",
+          "es": "jabonera"
         },
         {
-          "en": "Sponge"
+          "en": "Sponge",
+          "es": "esponja"
         },
         {
-          "en": "Toilet"
+          "en": "Toilet",
+          "es": "inodoro / retrete"
         },
         {
-          "en": "Toilet brush"
+          "en": "Toilet brush",
+          "es": "escobilla del inodoro"
         },
         {
-          "en": "Tap (UK) / faucet (US)"
+          "en": "Tap (UK) / faucet (US)",
+          "es": "grifo / llave"
         },
         {
-          "en": "Toilet paper"
+          "en": "Toilet paper",
+          "es": "papel higiénico"
         },
         {
-          "en": "Toilet roll"
+          "en": "Toilet roll",
+          "es": "rollo de papel higiénico"
         },
         {
-          "en": "Toothbrush"
+          "en": "Toothbrush",
+          "es": "cepillo de dientes"
         },
         {
-          "en": "Toilet seat"
+          "en": "Toilet seat",
+          "es": "asiento del inodoro"
         },
         {
-          "en": "Toothpaste"
+          "en": "Toothpaste",
+          "es": "pasta de dientes"
         },
         {
-          "en": "Towel rack"
+          "en": "Towel rack",
+          "es": "toallero"
         }
       ]
     },
@@ -705,76 +930,100 @@
       "title": "The bedroom vocabulary",
       "items": [
         {
-          "en": "Air conditioner"
+          "en": "Air conditioner",
+          "es": "aire acondicionado"
         },
         {
-          "en": "Bed"
+          "en": "Bed",
+          "es": "cama"
         },
         {
-          "en": "Bed spread"
+          "en": "Bed spread",
+          "es": "colcha / cubrecama"
         },
         {
-          "en": "Blanket"
+          "en": "Blanket",
+          "es": "manta / cobija"
         },
         {
-          "en": "Blankets"
+          "en": "Blankets",
+          "es": "mantas / cobijas"
         },
         {
-          "en": "Bunk bed"
+          "en": "Bunk bed",
+          "es": "litera"
         },
         {
-          "en": "Chair"
+          "en": "Chair",
+          "es": "silla"
         },
         {
-          "en": "Chest of drawers / dresser"
+          "en": "Chest of drawers / dresser",
+          "es": "cómoda"
         },
         {
-          "en": "Closet / wardrobe"
+          "en": "Closet / wardrobe",
+          "es": "clóset / armario"
         },
         {
-          "en": "Clothes hanger"
+          "en": "Clothes hanger",
+          "es": "percha / gancho"
         },
         {
-          "en": "Drawer"
+          "en": "Drawer",
+          "es": "cajón"
         },
         {
-          "en": "Headboard"
+          "en": "Headboard",
+          "es": "cabecera"
         },
         {
-          "en": "Jewelry box"
+          "en": "Jewelry box",
+          "es": "joyero"
         },
         {
-          "en": "Mattress"
+          "en": "Mattress",
+          "es": "colchón"
         },
         {
-          "en": "Nightstand / bedside table / night table"
+          "en": "Nightstand / bedside table / night table",
+          "es": "mesita de noche"
         },
         {
-          "en": "Pillow"
+          "en": "Pillow",
+          "es": "almohada"
         },
         {
-          "en": "Pillow case"
+          "en": "Pillow case",
+          "es": "funda de almohada"
         },
         {
-          "en": "Sheet"
+          "en": "Sheet",
+          "es": "sábana"
         },
         {
-          "en": "Single bed"
+          "en": "Single bed",
+          "es": "cama individual"
         },
         {
-          "en": "Slipper"
+          "en": "Slipper",
+          "es": "pantufla"
         },
         {
-          "en": "Storage bin"
+          "en": "Storage bin",
+          "es": "caja de almacenaje"
         },
         {
-          "en": "Table lamp"
+          "en": "Table lamp",
+          "es": "lámpara de mesa"
         },
         {
-          "en": "Twin bed"
+          "en": "Twin bed",
+          "es": "cama individual (de un par)"
         },
         {
-          "en": "Writing desk"
+          "en": "Writing desk",
+          "es": "escritorio"
         }
       ]
     },
@@ -782,61 +1031,80 @@
       "title": "The utility room vocabulary",
       "items": [
         {
-          "en": "Bleach"
+          "en": "Bleach",
+          "es": "lejía / cloro"
         },
         {
-          "en": "Boiler"
+          "en": "Boiler",
+          "es": "caldera"
         },
         {
-          "en": "Broom"
+          "en": "Broom",
+          "es": "escoba"
         },
         {
-          "en": "Bucket"
+          "en": "Bucket",
+          "es": "cubo / cubeta"
         },
         {
-          "en": "Clothes basket"
+          "en": "Clothes basket",
+          "es": "cesto de la ropa"
         },
         {
-          "en": "Clothes line"
+          "en": "Clothes line",
+          "es": "tendedero"
         },
         {
-          "en": "Detergent"
+          "en": "Detergent",
+          "es": "detergente"
         },
         {
-          "en": "Clothes peg"
+          "en": "Clothes peg",
+          "es": "pinza de la ropa"
         },
         {
-          "en": "Dirty clothes hamper"
+          "en": "Dirty clothes hamper",
+          "es": "cesto de la ropa sucia"
         },
         {
-          "en": "Dryer"
+          "en": "Dryer",
+          "es": "secadora"
         },
         {
-          "en": "Dustpan"
+          "en": "Dustpan",
+          "es": "recogedor"
         },
         {
-          "en": "Hanger"
+          "en": "Hanger",
+          "es": "percha / gancho"
         },
         {
-          "en": "Iron"
+          "en": "Iron",
+          "es": "plancha"
         },
         {
-          "en": "Ironing board"
+          "en": "Ironing board",
+          "es": "tabla de planchar"
         },
         {
-          "en": "Mop"
+          "en": "Mop",
+          "es": "trapeador / fregona"
         },
         {
-          "en": "Scrub brush"
+          "en": "Scrub brush",
+          "es": "cepillo de fregar"
         },
         {
-          "en": "Spray bottle"
+          "en": "Spray bottle",
+          "es": "atomizador"
         },
         {
-          "en": "Vacuum cleaner / hoover"
+          "en": "Vacuum cleaner / hoover",
+          "es": "aspiradora"
         },
         {
-          "en": "Washing machine"
+          "en": "Washing machine",
+          "es": "lavadora"
         }
       ]
     }

@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { getExerciseSet, getUnits } from "@/content";
 import type { UnitBlock } from "@/content/schema";
 import { unitStatus } from "@/features/course/logic";
+import { FlashcardSummary } from "@/features/flashcards/flashcard-summary";
 import { es } from "@/i18n/es";
 import { useProgressStore } from "./store";
 
@@ -35,6 +36,7 @@ export function ProgressOverview() {
   if (done.length === 0)
     return (
       <div className="space-y-4">
+        <FlashcardSummary />
         <p className="text-muted-foreground">{t.empty}</p>
         <Link to="/ejercicios" className={buttonVariants()}>
           {t.goToExercises}
@@ -93,6 +95,8 @@ export function ProgressOverview() {
           </Link>
         </section>
       </div>
+
+      <FlashcardSummary />
 
       <ul className="divide-y rounded-lg border">
         {done.map(({ id, set, attempt }) => (

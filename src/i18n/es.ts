@@ -142,6 +142,15 @@ export const es = {
         `El participio de ${base} es ${participle}: se usa con have/has (present perfect) y had (past perfect).`,
       explainTable: "Los irregulares no siguen la regla del -ed: hay que aprenderlos de memoria.",
     },
+    vocabulary: {
+      title: (list: string) => `${list}: practicar vocabulario`,
+      instruction: "Ejercicios nuevos en cada ronda con las palabras de la lista.",
+      explain: (en: string, translation: string) => `${en} = ${translation}.`,
+      match: "Cada palabra en inglés con su traducción.",
+      practice: "Practicar",
+      vocabularyTitle: "Vocabulario",
+      flashcards: "Flashcards",
+    },
     explain: {
       neg: "En negativa, not va después del primer auxiliar.",
       negSimple: "En negativa se usa do/does/did + not, y el verbo vuelve a la forma base.",
@@ -166,6 +175,7 @@ export const es = {
     tip: "Truco",
     spanish: "En español",
     falseFriend: "Falso amigo",
+    falseFriendBadge: (word: string) => `Falso amigo: no es «${word}»`,
     notMeans: "no significa",
     means: "significa",
   },
@@ -359,6 +369,10 @@ export const es = {
     knew: "La sabía",
     keysHint: "Atajos: Espacio para girar, 1 si no la sabías, 2 si la sabías.",
     practiceList: (n: number) => `Practicar con flashcards (${n})`,
+    summaryTitle: "Flashcards",
+    summary: (seen: number, mastered: number, due: number) =>
+      `${seen} palabras vistas · ${mastered} dominadas · ${due} para repasar hoy`,
+    goToDecks: "Ir a las flashcards",
   },
   review: {
     title: "Repaso",
