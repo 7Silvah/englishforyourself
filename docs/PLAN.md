@@ -30,12 +30,12 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
   **Restrict deletions** (así *Automatically delete head branches* no la borra al pasarla a `main`).
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
-- [ ] **Revisar contenido cuando puedas** (no bloquea): unidades 1–16, sus sets, las
-  traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, y los 207 phrasal verbs de F15
-  (traducción, partícula y ejemplo). Todo con `reviewed: false` (decisión D1, §14).
+- [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–16, sus sets,
+  las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, y los 207 phrasal verbs de
+  F15. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: Etapa 4 — F16, unidades B1–B2** (§11). Antes conviene decidir D1 (§14):
-las unidades B1–B2 son las primeras escritas desde cero en volumen.
+**2. Siguiente: Etapa 4 — F16, unidades B1–B2** (§11). D1 ya está decidida (§14): F16
+sale con sets de muestra y las unidades se completan después, por tandas.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -331,9 +331,9 @@ escribirlas:
 9. Enlaces a la Biblioteca para profundizar.
 
 Volumen orientativo por unidad: **40–60 ítems** repartidos en 5–8 sets y en
-**al menos 4 tipos de ejercicio distintos**. Esto es la meta final: hasta
-resolver la decisión pendiente **D1** (§14), cada unidad lleva solo sets de
-muestra.
+**al menos 4 tipos de ejercicio distintos**. Esto es la meta final: según
+**D1** (§14), cada unidad nace con sets de muestra y llega a ese volumen por
+tandas, a medida que se revisa.
 
 El curso **no bloquea** unidades. Muestra la siguiente recomendada y marca
 las dominadas. Bloquear frustra a quien ya sabe algo; la prueba de nivel (F17)
@@ -527,10 +527,11 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
   hispanohablantes**, no opciones absurdas.
 - Variedad de sujetos, tiempos y vocabulario de nivel A1–A2 en las unidades
   1–16.
-- Quién escribe y revisa los ejercicios originales está **pendiente (D1,
-  §14)**. El campo `reviewed` existe en el esquema desde el principio para no
-  tener que migrar después, y `content:check` informa de los sets no
-  revisados.
+- Quién escribe y revisa (**D1**, §14): Claude escribe los borradores con
+  `reviewed: false` y los revisa con ojo crítico en fases de revisión; la
+  revisión humana la hará un profesional en el futuro, y solo entonces el
+  dueño del repo pasa los sets a `reviewed: true`. `content:check` informa de
+  los sets no revisados y `/dev/revision` los lista.
 
 ---
 
@@ -823,6 +824,8 @@ Cada fase indica qué conceptos vas a aprender en ella.
 ### Etapa 4 — Gramática intermedia
 #### F16 — Unidades B1–B2
 - [ ] Unidades de §6.1 (intermedio), con todos los worksheets restantes enlazados.
+- [ ] Sets de muestra por unidad, como en F6 y F9 (guiada, libre, más práctica y repaso, al menos 6 tipos), `reviewed: false` (D1).
+- [ ] Página `/dev/revision` (solo en desarrollo): sets y listas con `reviewed: false`, agrupados por unidad, con enlace para jugarlos.
 #### F17 — Prueba de nivel
 - [ ] Unos 30 ítems escalonados A1→B2; recomienda una unidad y marca como vistas las anteriores.
 
@@ -875,7 +878,7 @@ una etapa nueva:
 
 | # | Decisión | Estado | Cuándo se retoma |
 |---|---|---|---|
-| D1 | **Quién escribe y revisa los ejercicios originales** (borrador con IA + revisión humana, escritos a mano por el dueño, o una mezcla) y el volumen final por unidad | ⏸️ Pendiente | Cuando la app esté completa y el dueño la haya usado como estudiante. Hasta entonces, las unidades llevan solo los ejercicios mínimos para probar el motor (ver F6). |
+| D1 | **Quién escribe y revisa los ejercicios originales** y el volumen final por unidad | ✅ Decidida (31/10/2026) | **Autoría:** Claude escribe borradores (§7.7) con `reviewed: false`. **Revisión:** primero Claude, con ojo crítico y por bloques (fases de revisión, que corrigen lo evidente y apuntan las dudas); después, en el futuro, **un profesional**. El dueño del repo no revisa el contenido él mismo: aplicará las correcciones del profesional y solo entonces pasará los sets a `reviewed: true`. `/dev/revision` (F16) lista lo pendiente. **Volumen:** cada unidad nace con sets de muestra (~26 ítems, como 1–16) y sube a 40–60 por tandas, en ramas propias, solo cuando lo ya escrito ha pasado la revisión de Claude. |
 
 ## 15. Riesgos
 
