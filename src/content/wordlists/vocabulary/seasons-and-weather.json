@@ -4,21 +4,27 @@
   "order": 4,
   "legacyPath": "lessons/vocabulary/seasons-and-weather.html",
   "intro": "In this section of vocabulary, you will learn the seasons and weather vocabulary in English.",
+  "level": "A1",
+  "reviewed": false,
   "groups": [
     {
       "title": "Seasons vocabulary",
       "items": [
         {
-          "en": "Spring"
+          "en": "Spring",
+          "es": "primavera"
         },
         {
-          "en": "Summer"
+          "en": "Summer",
+          "es": "verano"
         },
         {
-          "en": "Autumn or fall"
+          "en": "Autumn or fall",
+          "es": "otoño"
         },
         {
-          "en": "Winter"
+          "en": "Winter",
+          "es": "invierno"
         }
       ]
     },
@@ -26,223 +32,280 @@
       "title": "Weather vocabulary",
       "items": [
         {
-          "en": "(n) = noun"
+          "en": "Cold (adj)",
+          "es": "frío"
         },
         {
-          "en": "(adj) = adjective"
+          "en": "Cool (adj)",
+          "es": "fresco"
         },
         {
-          "en": "(v) = verb"
+          "en": "Freezing (adj)",
+          "es": "helado / muy frío"
         },
         {
-          "en": "Cold (adj)"
+          "en": "Hot (adj)",
+          "es": "caluroso"
         },
         {
-          "en": "Cool (adj)"
+          "en": "Warm (adj)",
+          "es": "cálido / templado"
         },
         {
-          "en": "Freezing (adj)"
+          "en": "Sunny (adj)",
+          "es": "soleado"
         },
         {
-          "en": "Hot (adj)"
+          "en": "Bright (adj)",
+          "es": "luminoso"
         },
         {
-          "en": "Warm (adj)"
+          "en": "Clear (adj)",
+          "es": "despejado"
         },
         {
-          "en": "Sunny (adj)"
+          "en": "Sunlight (n)",
+          "es": "luz del sol"
         },
         {
-          "en": "Bright (adj)"
+          "en": "Sunrise (n)",
+          "es": "amanecer / salida del sol"
         },
         {
-          "en": "Clear (adj)"
+          "en": "Sunset (n)",
+          "es": "puesta del sol / atardecer"
         },
         {
-          "en": "Sunlight (n)"
+          "en": "Cloudy (adj)",
+          "es": "nublado"
         },
         {
-          "en": "Sunrise (n)"
+          "en": "Fog (n)",
+          "es": "niebla"
         },
         {
-          "en": "Sunset (n)"
+          "en": "Foggy (adj)",
+          "es": "con niebla"
         },
         {
-          "en": "Cloudy (adj)"
+          "en": "Gloomy (adj)",
+          "es": "gris / sombrío"
         },
         {
-          "en": "Fog (n)"
+          "en": "Haze (n)",
+          "es": "bruma"
         },
         {
-          "en": "Foggy (adj)"
+          "en": "Hazy (adj)",
+          "es": "brumoso"
         },
         {
-          "en": "Gloomy (adj)"
+          "en": "Mist (n)",
+          "es": "neblina"
         },
         {
-          "en": "Haze (n)"
+          "en": "Misty (adj)",
+          "es": "neblinoso"
         },
         {
-          "en": "Hazy (adj)"
+          "en": "Overcast (n)",
+          "es": "cielo cubierto"
         },
         {
-          "en": "Mist (n)"
+          "en": "Rainy (adj)",
+          "es": "lluvioso"
         },
         {
-          "en": "Misty (adj)"
+          "en": "Rain (n)",
+          "es": "lluvia"
         },
         {
-          "en": "Overcast (n)"
+          "en": "Damp (adj)",
+          "es": "húmedo"
         },
         {
-          "en": "Rainy (adj)"
+          "en": "Downpour (n)",
+          "es": "aguacero"
         },
         {
-          "en": "Rain (n)"
+          "en": "Drizzle (v) / (n)",
+          "es": "lloviznar / llovizna"
         },
         {
-          "en": "Damp (adj)"
+          "en": "Flood (v) / (n)",
+          "es": "inundar / inundación"
         },
         {
-          "en": "Downpour (n)"
+          "en": "Pour (v)",
+          "es": "llover a cántaros"
         },
         {
-          "en": "Drizzle (v) / (n)"
+          "en": "Shower (n)",
+          "es": "chubasco"
         },
         {
-          "en": "Flood (v) / (n)"
+          "en": "Storm (n)",
+          "es": "tormenta"
         },
         {
-          "en": "Pour (v)"
+          "en": "Stormy (adj)",
+          "es": "tormentoso"
         },
         {
-          "en": "Shower (n)"
+          "en": "Thunder (n)",
+          "es": "trueno"
         },
         {
-          "en": "Storm (n)"
+          "en": "Thundery (adj)",
+          "es": "con truenos"
         },
         {
-          "en": "Stormy (adj)"
+          "en": "Wind (n)",
+          "es": "viento"
         },
         {
-          "en": "Thunder (n)"
+          "en": "Windy (adj)",
+          "es": "ventoso / con viento"
         },
         {
-          "en": "Thundery (adj)"
+          "en": "Blustery (adj)",
+          "es": "con ráfagas de viento"
         },
         {
-          "en": "Wind (n)"
+          "en": "Breeze (n)",
+          "es": "brisa"
         },
         {
-          "en": "Windy (adj)"
+          "en": "Gale (n)",
+          "es": "vendaval"
         },
         {
-          "en": "Blustery (adj)"
+          "en": "Windstorm (n)",
+          "es": "tormenta de viento"
         },
         {
-          "en": "Breeze (n)"
+          "en": "Blizzard (n)",
+          "es": "ventisca"
         },
         {
-          "en": "Gale (n)"
+          "en": "Frost (n)",
+          "es": "escarcha / helada"
         },
         {
-          "en": "Windstorm (n)"
+          "en": "Hail (v)",
+          "es": "granizar"
         },
         {
-          "en": "Blizzard (n)"
+          "en": "Hailstones (n)",
+          "es": "granizo"
         },
         {
-          "en": "Frost (n)"
+          "en": "Ice (n)",
+          "es": "hielo"
         },
         {
-          "en": "Hail (v)"
+          "en": "Icy (adj)",
+          "es": "helado / con hielo"
         },
         {
-          "en": "Hailstones (n)"
+          "en": "Snow (v) / (n)",
+          "es": "nevar / nieve"
         },
         {
-          "en": "Ice (n)"
+          "en": "Snowfall (n)",
+          "es": "nevada"
         },
         {
-          "en": "Icy (adj)"
+          "en": "Snowflake (n)",
+          "es": "copo de nieve"
         },
         {
-          "en": "Snow (v) / (n)"
+          "en": "Snowstorm (n)",
+          "es": "tormenta de nieve"
         },
         {
-          "en": "Snowfall (n)"
+          "en": "Snowy (adj)",
+          "es": "nevado / con nieve"
         },
         {
-          "en": "Snowflake (n)"
+          "en": "Above zero",
+          "es": "sobre cero"
         },
         {
-          "en": "Snowstorm (n)"
+          "en": "Below zero",
+          "es": "bajo cero"
         },
         {
-          "en": "Snowy (adj)"
+          "en": "Deluge",
+          "es": "diluvio"
         },
         {
-          "en": "More vocabulary words:"
+          "en": "Drought",
+          "es": "sequía"
         },
         {
-          "en": "Above zero"
+          "en": "Flurry",
+          "es": "nevisca (ráfaga de nieve)"
         },
         {
-          "en": "Below zero"
+          "en": "Frost",
+          "es": "escarcha / helada"
         },
         {
-          "en": "Deluge"
+          "en": "Heat wave",
+          "es": "ola de calor"
         },
         {
-          "en": "Drought"
+          "en": "Hurricane",
+          "es": "huracán"
         },
         {
-          "en": "Flurry"
+          "en": "Icicle",
+          "es": "carámbano"
         },
         {
-          "en": "Frost"
+          "en": "Lightning",
+          "es": "relámpago / rayo"
         },
         {
-          "en": "Heat wave"
+          "en": "Monsoon",
+          "es": "monzón"
         },
         {
-          "en": "Hurricane"
+          "en": "Rainbow",
+          "es": "arcoíris"
         },
         {
-          "en": "Icicle"
+          "en": "Raindrop",
+          "es": "gota de lluvia"
         },
         {
-          "en": "Lightning"
+          "en": "Slush",
+          "es": "nieve derretida"
         },
         {
-          "en": "Monsoon"
+          "en": "Snowman",
+          "es": "muñeco de nieve"
         },
         {
-          "en": "Rainbow"
+          "en": "Thermometer",
+          "es": "termómetro"
         },
         {
-          "en": "Raindrop"
+          "en": "Thunder",
+          "es": "trueno"
         },
         {
-          "en": "Slush"
+          "en": "Tornado",
+          "es": "tornado"
         },
         {
-          "en": "Snowman"
+          "en": "Typhoon",
+          "es": "tifón"
         },
         {
-          "en": "Thermometer"
-        },
-        {
-          "en": "Thunder"
-        },
-        {
-          "en": "Tornado"
-        },
-        {
-          "en": "Typhoon"
-        },
-        {
-          "en": "Weather forecast"
+          "en": "Weather forecast",
+          "es": "pronóstico del tiempo"
         }
       ]
     }
