@@ -10,7 +10,7 @@
 | Etapa | Fases | Estado |
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
-| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ F10 ✅ |
+| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ F10 ✅ F11 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
@@ -20,29 +20,28 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 30/10/2026, con F10 fusionada en `main` y `desarrollo` (PR #4).*
+*Actualizado el 30/10/2026, con F11 terminada en la rama `f11-paridad` (pendiente de PR hacia `desarrollo`).*
 
 **1. Te toca a ti (dueño del repo):**
 
+- [ ] **Abrir el PR de `f11-paridad` hacia `desarrollo`** y fusionarlo cuando la CI esté en verde.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1).** Sigue
   [DESPLIEGUE.md](DESPLIEGUE.md): crear el proyecto en Cloudflare Pages con rama de
   producción `main` y protegerlo con Cloudflare Access. Cuando funcione, avisa para
   marcar F7 ✅.
-- [ ] **Limpiar ramas en GitHub:** borrar `f9-mas-tipos` y `f10-tense-lab` (ya
-  fusionadas) y activar *Settings → General → Automatically delete head branches*.
+- [ ] **Limpiar ramas en GitHub:** borrar las ramas de fase ya fusionadas y activar
+  *Settings → General → Automatically delete head branches*.
 - [ ] **Revisar contenido cuando puedas** (no bloquea): las unidades 1–16 y sus
   sets están escritos por Claude y marcados `reviewed: false` (decisión D1, §14).
 
-**2. Siguiente fase: F11 — Paridad y limpieza** (detalle en §11). Es la primera que
-*borra* cosas (`legacy/` y los PDF), así que va en este orden:
+**2. Siguiente fase: F12 — Repaso inteligente** (detalle en §11). Cierra la Etapa 2:
 
-1. Lista de todo lo que tenía el sitio antiguo y qué falta en la app.
-2. Buscador (MiniSearch) e interruptor de traducciones / 🔊 en ejemplos. **Ojo con el
-   tamaño:** el JavaScript inicial está en ~194 KB de 200 (§12); el índice del
-   buscador tiene que cargarse solo al abrirlo.
-3. Revisión de paridad sección por sección.
-4. Borrar `legacy/` y los PDF, archivar `scripts/migrate/` y cerrar `_redirects`
-   (solo con tu visto bueno a la lista del paso 1).
+1. “Repasar mis errores” en `/repaso`: los ítems fallados vuelven hasta acertarlos
+   2 veces en días distintos (§7.6).
+2. Repaso mixto por bloque con ítems de las unidades dominadas.
+3. **Antes de nada, recuperar margen de tamaño:** el JavaScript inicial está en
+   199,3 KB de 200 (§12). Propuesta: cargar los metadatos del contenido solo en las
+   páginas que los usan.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -601,8 +600,12 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
 
 ## 10. Migración
 
-Script `npm run migrate` (Node + `tsx`), idempotente, que lee `legacy/` y
-escribe en `src/content/`. El resultado se revisa con `git diff` y el contenido
+> **Hecho y retirado.** La migración se ejecutó en F4; `legacy/`, los PDF y los
+> scripts de migración se borraron en F11 (siguen en el historial de Git, por
+> ejemplo en el commit `9bc6f97`). Desde entonces el contenido se edita a mano.
+
+Script `npm run migrate` (Node + `tsx`), idempotente, que leía `legacy/` y
+escribía en `src/content/`. El resultado se revisa con `git diff` y el contenido
 generado va en un commit propio.
 
 ### 10.1 Lecciones (Biblioteca)
@@ -784,7 +787,9 @@ Cada fase indica qué conceptos vas a aprender en ella.
 - [x] Buscador MiniSearch (unidades, lecciones, tiempos verbales, sets y ~4.300 palabras EN/ES; sin tildes, por prefijo y tolerante a erratas). Botón en la cabecera, atajos Ctrl/Cmd+K y `/`, y página `/buscar?q=`. El diálogo, MiniSearch y las palabras van en un chunk aparte (`React.lazy`) que se precarga al acercarse al botón; las palabras salen de la consulta `?words` del plugin de contenido (solo `{ en, es }`).
 - [x] Interruptor “Mostrar traducciones” (ajuste persistente en `features/settings/store.ts`); solo aparece en listas con alguna traducción (hoy ninguna: 0 %). Botón 🔊 en cada frase de `<Examples>` (sin tocar el MDX: contexto + `<li>` propio) y en cada palabra de las listas.
 - [x] Revisión de paridad (`scripts/parity-check.ts`): el sitio antiguo solo tenía menú, Tense Lab y buscador por título (no tenía pronunciación ni traducciones). Las 155 páginas de lecciones y los 35 PDF tienen redirección a algo que existe; las 6 páginas legales no se migran (decisión de F4). Solo *Synonyms and Antonyms* tiene menos texto, porque su lista de enlaces la muestra la app como “En este tema”.
-- [ ] Borrar `legacy/` y los PDF; archivar `scripts/migrate/`; `_redirects` final. **Pendiente del visto bueno del dueño del repo.**
+- [x] Borrados `legacy/` (201 archivos, 3 MB, con los 35 PDF y las páginas legales), `scripts/migrate/` y `scripts/parity-check.ts`, con el visto bueno del dueño del repo. Se quitaron los comandos `migrate*` y las 8 dependencias que solo usaba la migración (cheerio, unpdf, domhandler, rehype-parse, rehype-remark, remark-mdx, remark-stringify, unified). `public/_redirects` queda como archivo fijo que se edita a mano. Todo sigue en el historial de Git (commit `9bc6f97`).
+
+**Listo cuando:** todo lo del sitio antiguo tiene su equivalente en la app y `legacy/` ya no existe. ✅
 - **Ojo:** JavaScript inicial en 199,3 KB de 200. El buscador no entra en la carga inicial, pero partir el código en más chunks cuesta ~5 KB de compresión. Propuesta en el backlog de F18: cargar los metadatos del contenido solo donde se usan.
 
 #### F12 — Repaso inteligente
@@ -876,6 +881,5 @@ npm run typecheck · npm run lint · npm run format
 npm test               # vitest
 npm run e2e            # playwright
 npm run content:check  # valida contenido y ejercicios
-npm run migrate        # (F4) legacy/ → src/content/
 npx shadcn@latest add <componente>
 ```

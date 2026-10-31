@@ -5,11 +5,9 @@ vocabulario por temas, *ways to say*, phrasal verbs, collocations, idioms y
 hojas de ejercicios en PDF. La interfaz y las explicaciones están en español;
 los ejemplos y el contenido que se aprende, en inglés.
 
-> **Estado: en migración.** El sitio pasa de HTML/CSS/JS estático a
+> **Estado: en desarrollo.** El antiguo sitio estático ya está migrado a
 > **Vite + React + TypeScript + Tailwind + shadcn/ui**. El plan completo, con
-> fases y checklist, está en [docs/PLAN.md](docs/PLAN.md). Mientras dura la
-> migración, el sitio anterior vive en `legacy/` y se abre con doble clic en
-> `legacy/index.html`.
+> fases, checklist y el próximo paso, está en [docs/PLAN.md](docs/PLAN.md).
 
 ## Qué incluye
 
@@ -69,7 +67,6 @@ Abre http://localhost:5173.
 | `npm run test:watch` | Lo mismo, repitiendo los tests al guardar |
 | `npm run e2e` | Tests end-to-end (Playwright) |
 | `npm run content:check` | Valida todo `src/content` (esquemas, MDX, enlaces, ejercicios) e informa de la traducción. Se ejecuta también en `npm run build` |
-| `npm run migrate` | Regenera el contenido desde `legacy/` (lecciones, worksheets PDF y `public/_redirects`). Sobrescribe `src/content/lessons`, `wordlists` y `tables` |
 
 ## CI y despliegue
 
