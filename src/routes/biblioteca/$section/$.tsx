@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { Layers } from "lucide-react";
+import { Layers, PencilLine } from "lucide-react";
 import { ChildLessons, LessonFooter } from "@/components/lesson/lesson-nav";
 import { mdxComponents } from "@/components/lesson/mdx-components";
 import { WordList } from "@/components/lesson/word-list";
@@ -49,14 +49,24 @@ function LessonPage() {
       <div className="mb-8 space-y-4">
         <ChildLessons lesson={lesson} />
         {lesson.translatedCount > 0 && (
-          <Link
-            to="/practicar/flashcards"
-            search={{ lista: lesson.path }}
-            className={buttonVariants({ variant: "outline" })}
-          >
-            <Layers data-icon="inline-start" aria-hidden />
-            {es.flashcards.practiceList(lesson.translatedCount)}
-          </Link>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              to="/practicar/flashcards"
+              search={{ lista: lesson.path }}
+              className={buttonVariants({ variant: "outline" })}
+            >
+              <Layers data-icon="inline-start" aria-hidden />
+              {es.flashcards.practiceList(lesson.translatedCount)}
+            </Link>
+            <Link
+              to="/practicar/vocabulario"
+              search={{ lista: lesson.path }}
+              className={buttonVariants({ variant: "outline" })}
+            >
+              <PencilLine data-icon="inline-start" aria-hidden />
+              {es.generated.vocabulary.practice}
+            </Link>
+          </div>
         )}
       </div>
 

@@ -26,6 +26,7 @@ import { Route as EjerciciosIndexRouteImport } from './routes/ejercicios/index'
 import { Route as EjerciciosIdRouteRouteImport } from './routes/ejercicios/$id/route'
 import { Route as HerramientasTenseLabRouteImport } from './routes/herramientas/tense-lab'
 import { Route as PracticarFlashcardsRouteImport } from './routes/practicar/flashcards'
+import { Route as PracticarVocabularioRouteImport } from './routes/practicar/vocabulario'
 import { Route as BibliotecaSectionIndexRouteImport } from './routes/biblioteca/$section/index'
 import { Route as BibliotecaSectionSplatRouteImport } from './routes/biblioteca/$section/$'
 import { Route as EjerciciosIdIndexRouteImport } from './routes/ejercicios/$id/index'
@@ -117,6 +118,11 @@ const PracticarFlashcardsRoute = PracticarFlashcardsRouteImport.update({
   path: '/practicar/flashcards',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PracticarVocabularioRoute = PracticarVocabularioRouteImport.update({
+  id: '/practicar/vocabulario',
+  path: '/practicar/vocabulario',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BibliotecaSectionIndexRoute = BibliotecaSectionIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -158,6 +164,7 @@ export interface FileRoutesByFullPath {
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/practicar/flashcards': typeof PracticarFlashcardsRoute
+  '/practicar/vocabulario': typeof PracticarVocabularioRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
@@ -177,6 +184,7 @@ export interface FileRoutesByTo {
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/practicar/flashcards': typeof PracticarFlashcardsRoute
+  '/practicar/vocabulario': typeof PracticarVocabularioRoute
   '/biblioteca': typeof BibliotecaIndexRoute
   '/curso': typeof CursoIndexRoute
   '/ejercicios': typeof EjerciciosIndexRoute
@@ -202,6 +210,7 @@ export interface FileRoutesById {
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/practicar/flashcards': typeof PracticarFlashcardsRoute
+  '/practicar/vocabulario': typeof PracticarVocabularioRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
@@ -228,6 +237,7 @@ export interface FileRouteTypes {
     | '/dev/ui'
     | '/herramientas/tense-lab'
     | '/practicar/flashcards'
+    | '/practicar/vocabulario'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
@@ -247,6 +257,7 @@ export interface FileRouteTypes {
     | '/dev/ui'
     | '/herramientas/tense-lab'
     | '/practicar/flashcards'
+    | '/practicar/vocabulario'
     | '/biblioteca'
     | '/curso'
     | '/ejercicios'
@@ -271,6 +282,7 @@ export interface FileRouteTypes {
     | '/dev/ui'
     | '/herramientas/tense-lab'
     | '/practicar/flashcards'
+    | '/practicar/vocabulario'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
@@ -293,6 +305,7 @@ export interface RootRouteChildren {
   DevUiRoute: typeof DevUiRoute
   HerramientasTenseLabRoute: typeof HerramientasTenseLabRoute
   PracticarFlashcardsRoute: typeof PracticarFlashcardsRoute
+  PracticarVocabularioRoute: typeof PracticarVocabularioRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -414,6 +427,13 @@ declare module '@tanstack/react-router' {
       path: '/practicar/flashcards'
       fullPath: '/practicar/flashcards'
       preLoaderRoute: typeof PracticarFlashcardsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/practicar/vocabulario': {
+      id: '/practicar/vocabulario'
+      path: '/practicar/vocabulario'
+      fullPath: '/practicar/vocabulario'
+      preLoaderRoute: typeof PracticarVocabularioRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/biblioteca/$section/': {
@@ -539,6 +559,7 @@ const rootRouteChildren: RootRouteChildren = {
   DevUiRoute: DevUiRoute,
   HerramientasTenseLabRoute: HerramientasTenseLabRoute,
   PracticarFlashcardsRoute: PracticarFlashcardsRoute,
+  PracticarVocabularioRoute: PracticarVocabularioRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
