@@ -21,3 +21,13 @@ export const toneSoft: Record<Tone, string> = {
   teal: "bg-teal-50 dark:bg-teal-500/15",
   blue: "bg-sky-50 dark:bg-sky-500/15",
 };
+
+// Bloques de una frase (Formula y Tense Lab): sujeto azul, auxiliar ámbar, verbo verde, resto gris
+export const blockClasses = {
+  subj: "border-subj-border bg-subj text-subj-fg",
+  aux: "border-aux-border bg-aux text-aux-fg",
+  verb: "border-verb-border bg-verb text-verb-fg",
+  obj: "border-obj-border bg-obj text-obj-fg",
+} as const;
+
+export type BlockKind = keyof typeof blockClasses;

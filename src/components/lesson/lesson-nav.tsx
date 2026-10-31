@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ChevronLeft, ChevronRight, PencilLine } from "lucide-react";
+import { ChevronLeft, ChevronRight, FlaskConical, PencilLine } from "lucide-react";
 import type { ReactNode } from "react";
 import {
   getChildLessons,
@@ -7,6 +7,8 @@ import {
   getPrevNext,
   type LessonEntry,
 } from "@/content";
+import { buttonVariants } from "@/components/ui/button";
+import { getTenseByLesson } from "@/content/data/tense-index";
 import { es } from "@/i18n/es";
 
 function LessonLink({ lesson, children }: { lesson: LessonEntry; children: ReactNode }) {
@@ -43,6 +45,8 @@ export function ChildLessons({ lesson }: { lesson: LessonEntry }) {
 export function LessonFooter({ lesson }: { lesson: LessonEntry }) {
   const { prev, next } = getPrevNext(lesson);
   const sets = getExerciseSetsForLesson(lesson.path);
+  // Si la lección explica un tiempo verbal: enlaces al Tense Lab y a la práctica generada
+  const tense = getTenseByLesson(lesson.path);
 
   return (
     <div className="mt-12 space-y-6 border-t pt-6">
@@ -68,6 +72,29 @@ export function LessonFooter({ lesson }: { lesson: LessonEntry }) {
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {tense && (
+        <section className="flex flex-wrap items-center gap-2 rounded-lg border bg-card p-4">
+          <h2 className="mr-auto flex items-center gap-2 font-semibold">
+            <FlaskConical className="size-4 text-primary" aria-hidden />
+            {es.library.practiceTense}
+          </h2>
+          <Link
+            to="/herramientas/tense-lab"
+            search={{ tense: tense.id }}
+            className={buttonVariants({ variant: "outline", size: "sm" })}
+          >
+            {es.generated.openLab}
+          </Link>
+          <Link
+            to="/ejercicios/practicar/$tema"
+            params={{ tema: tense.id }}
+            className={buttonVariants({ size: "sm" })}
+          >
+            {es.tenseLab.practice}
+          </Link>
         </section>
       )}
 

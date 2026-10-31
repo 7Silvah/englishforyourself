@@ -22,6 +22,18 @@ function mulberry32(seed: number): () => number {
   };
 }
 
+/** Generador de números entre 0 y 1 a partir de una semilla de texto */
+export function createRandom(seed: string): () => number {
+  return mulberry32(hashString(seed));
+}
+
+/** Un elemento al azar de una lista no vacía */
+export function pick<T>(items: readonly T[], random: () => number): T {
+  const item = items[Math.floor(random() * items.length)] ?? items[0];
+  if (item === undefined) throw new Error("pick() con una lista vacía");
+  return item;
+}
+
 /** Copia barajada (Fisher-Yates) de una lista, con semilla */
 export function seededShuffle<T>(items: readonly T[], seed: string): T[] {
   const random = mulberry32(hashString(seed));

@@ -8,6 +8,8 @@ import remarkFrontmatter from "remark-frontmatter";
 import remarkGfm from "remark-gfm";
 import type { z } from "zod";
 import { ArticleMeta, RawTable, UnitMeta, WordList } from "@/content/schema";
+import { IRREGULAR_TOPIC } from "@/content/data/practice-topics";
+import { TENSES } from "@/content/data/tense-index";
 import { sections } from "@/content/sections";
 import { ExerciseSet } from "@/features/exercises/schema";
 import { readFrontmatter } from "./vite-plugin-content-meta";
@@ -239,6 +241,14 @@ for (const [id, unit] of setUnits)
 
 // ---------- Referencias y enlaces ----------
 
+// Cada tiempo del Tense Lab enlaza a su lección de la Biblioteca
+for (const tense of TENSES)
+  lessonRefs.push({
+    file: "src/content/data/tense-index.ts",
+    field: tense.id,
+    target: tense.lesson,
+  });
+
 for (const { file, field, target } of lessonRefs)
   if (!lessonPaths.has(target))
     errors.push(`${file}: ${field} apunta a una lección que no existe → ${target}`);
@@ -246,17 +256,22 @@ for (const { file, field, target } of lessonRefs)
 for (const { file, href } of mdxLinks) {
   const [pathname = ""] = href.split("#");
   const lib = pathname.match(/^\/biblioteca\/([^/]+)(?:\/(.+))?$/);
+  const practice = pathname.match(/^\/ejercicios\/practicar\/(.+)$/);
   const ex = pathname.match(/^\/ejercicios\/(.+)$/);
   const unit = pathname.match(/^\/curso\/(.+)$/);
   const ok = lib
     ? lib[2]
       ? lessonPaths.has(`${lib[1]}/${lib[2]}`)
       : sectionSlugs.has(lib[1] ?? "")
-    : ex
-      ? setIds.has(ex[1] ?? "")
-      : unit
-        ? unitSlugs.has(unit[1] ?? "")
-        : ["/", "/curso", "/ejercicios", "/biblioteca", "/progreso", "/acerca"].includes(pathname);
+    : practice
+      ? practice[1] === IRREGULAR_TOPIC || TENSES.some((t) => t.id === practice[1])
+      : ex
+        ? setIds.has(ex[1] ?? "")
+        : unit
+          ? unitSlugs.has(unit[1] ?? "")
+          : ["/", "/curso", "/ejercicios", "/biblioteca", "/progreso", "/acerca"].includes(
+              pathname,
+            );
   if (!ok) errors.push(`${file}: enlace roto → ${href}`);
 }
 

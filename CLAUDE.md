@@ -72,8 +72,8 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/components/layout/` | Header, footer, breadcrumbs, theme toggle | |
 | `src/components/lesson/` | Piezas de lección usadas desde MDX | Solo presentación; se registran en `mdx-components.tsx`. |
 | `src/features/exercises/` | Motor de ejercicios: `schema.ts`, `check.ts` (corrección), `solution.ts` (qué solución se muestra), `player/`, `types/` (un componente por tipo), `generators/` | Un tipo nuevo = esquema en la unión discriminada + `ItemResponse` y `checkItem` en `check.ts` + componente controlado en `types/` (recibe `ItemProps`) + `case` en `player/item-view.tsx` + tests. La corrección siempre pasa por `check.ts`. |
-| `src/features/<x>/` | Otras funcionalidades con estado o lógica (course, progress, search, tense-lab, flashcards) | La lógica pura va en `logic.ts` con tests; el store en `store.ts`. |
-| `src/content/` | Contenido como datos: `course/units/NN-slug.mdx`, `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`, `levels.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
+| `src/features/<x>/` | Otras funcionalidades con estado o lógica (course, progress, search, tense-lab con su motor `conjugate.ts`, flashcards) | La lógica pura va en `logic.ts` con tests; el store en `store.ts`. |
+| `src/content/` | Contenido como datos: `course/units/NN-slug.mdx`, `data/` (tiempos verbales, verbos irregulares), `lessons/**.mdx`, `wordlists/**.json`, `tables/**.json`, `exercises/**.json`, `sections.ts`, `levels.ts`; el manifiesto en `index.ts` | Sin JSX salvo en `.mdx`. La sección y el slug salen de la ruta del archivo. Prettier no toca los `.json`/`.mdx`. |
 | `scripts/` | `content-check.ts`, `migrate/` (HTML/PDF → contenido), `vite-plugin-content-meta.ts` | Se ejecutan con `tsx` y usan `tsconfig.scripts.json`. |
 | `src/i18n/es.ts` | Todos los textos de la UI | **Ningún texto de UI suelto en JSX.** |
 | `src/lib/` | Utilidades puras (`cn`, `speech`, `random`, slugs) | |

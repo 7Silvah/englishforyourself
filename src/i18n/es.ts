@@ -15,6 +15,7 @@ export const es = {
     exercises: "Ejercicios",
     library: "Biblioteca",
     progress: "Progreso",
+    tenseLab: "Tense Lab",
     about: "Acerca de",
   },
   theme: {
@@ -85,6 +86,56 @@ export const es = {
     next: "Unidad siguiente",
     backToUnit: "Volver a la unidad",
   },
+  tenseLab: {
+    title: "Tense Lab",
+    description:
+      "Cómo se forma cada tiempo verbal, bloque a bloque: sujeto, auxiliar, verbo y complemento.",
+    chooseTense: "Elige un tiempo verbal",
+    subject: "Sujeto",
+    allSubjects: "Igual con todos los sujetos: I, you, he, she, it, we, they.",
+    structure: "Estructura",
+    example: "Ejemplo",
+    swap: "En la pregunta, el auxiliar pasa delante del sujeto.",
+    lesson: "Lección completa",
+    practice: "Practicar este tiempo",
+    builder: "Construye tu frase",
+    builderHint: "Elige un sujeto y un verbo: la frase se arma sola en las tres formas.",
+    verb: "Verbo",
+    legend: "Bloques",
+    roles: { subj: "Sujeto", aux: "Auxiliar", verb: "Verbo", obj: "Complemento" },
+  },
+  generated: {
+    crumb: "Práctica generada",
+    title: (name: string) => `${name}: práctica generada`,
+    instruction:
+      "Ejercicios nuevos en cada ronda: transforma la frase, elige el auxiliar, ordena y completa la tabla.",
+    newRound: "Ejercicios nuevos",
+    notSaved: "Estos ejercicios cambian cada vez, así que no se guardan en tu progreso.",
+    openLab: "Ver en el Tense Lab",
+    irregular: {
+      title: "Verbos irregulares",
+      instruction: "Completa el pasado y el participio de verbos irregulares frecuentes.",
+      past: "Past simple",
+      participle: "Past participle",
+      pastOf: (verb: string) => `Past simple of "${verb}": ___`,
+      participleOf: (verb: string) => `Past participle of "${verb}": ___`,
+      explainPast: (base: string, past: string) =>
+        `${base} es irregular: su pasado es ${past}, no se forma con -ed.`,
+      explainParticiple: (base: string, participle: string) =>
+        `El participio de ${base} es ${participle}: se usa con have/has (present perfect) y had (past perfect).`,
+      explainTable: "Los irregulares no siguen la regla del -ed: hay que aprenderlos de memoria.",
+    },
+    explain: {
+      neg: "En negativa, not va después del primer auxiliar.",
+      negSimple: "En negativa se usa do/does/did + not, y el verbo vuelve a la forma base.",
+      q: "En la pregunta, el primer auxiliar pasa delante del sujeto.",
+      qSimple:
+        "En la pregunta, do/does/did va delante del sujeto y el verbo vuelve a la forma base.",
+      aux: (name: string) => `El auxiliar depende del sujeto y del tiempo verbal (${name}).`,
+      order: "Fíjate en el orden de los bloques: sujeto, auxiliares, verbo y complemento.",
+      table: "Afirmativa, negativa y pregunta del mismo tiempo verbal.",
+    },
+  },
   lesson: {
     modes: {
       pos: "Afirmativa",
@@ -113,6 +164,8 @@ export const es = {
       other: "Otros",
     },
     empty: "No hay ejercicios con estos filtros.",
+    generated: "Práctica generada (ejercicios nuevos en cada ronda)",
+    generatedTenses: "Tiempos verbales: elige uno en el Tense Lab",
     best: (n: number) => `Mejor: ${n} %`,
     original: "Nuevo",
     print: "Imprimir",
@@ -260,6 +313,7 @@ export const es = {
     previous: "Anterior",
     next: "Siguiente",
     practice: "Practica este tema",
+    practiceTense: "Practica este tiempo verbal",
     emptySection: "Esta sección todavía no tiene lecciones.",
   },
   progress: {
