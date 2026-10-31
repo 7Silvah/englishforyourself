@@ -11,6 +11,7 @@ const navItems = [
   { to: "/curso", label: es.nav.course },
   { to: "/ejercicios", label: es.nav.exercises },
   { to: "/biblioteca", label: es.nav.library },
+  { to: "/herramientas/tense-lab", label: es.nav.tenseLab },
   { to: "/progreso", label: es.nav.progress },
 ] as const;
 

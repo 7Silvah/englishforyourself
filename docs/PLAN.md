@@ -10,7 +10,7 @@
 | Etapa | Fases | Estado |
 |---|---|---|
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
-| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ |
+| 2 · Fundamentos II (A2) + herramientas | F8–F12 | 🟨 en curso — F8 ✅ F9 ✅ F10 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ⬜ pendiente |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
@@ -516,6 +516,7 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
 | `/biblioteca` | Las 7 secciones de la Biblioteca (la de *worksheets* pasa a `/ejercicios`) |
 | `/biblioteca/$section` · `/biblioteca/$section/$` | Sección y lección de la Biblioteca (slugs actuales, splat para subcarpetas) |
 | `/herramientas/tense-lab?tense=` | Tense Lab (F10) |
+| `/ejercicios/practicar/$tema` | Práctica generada de un tiempo verbal o de `verbos-irregulares` (F10) |
 | `/practicar/flashcards?lista=` | Flashcards (F13) |
 | `/progreso` | Resumen de progreso |
 | `/buscar?q=` | Resultados de búsqueda (F11) |
@@ -732,9 +733,12 @@ Cada fase indica qué conceptos vas a aprender en ella.
 **Listo cuando:** los 12 tipos se juegan, se corrigen e imprimen, y cada unidad usa al menos 6. ✅
 
 #### F10 — Tense Lab + ejercicios generados
-- [ ] Tense Lab en React (`?tense=` en la URL), con colores pos/neg/q y bloques.
-- [ ] `generators/tenses.ts` (transformar, auxiliar, ordenar, tabla) y `data/irregular-verbs.ts` + generador.
-- [ ] Botón “Practicar este tiempo” en el Tense Lab y en las lecciones de tiempos verbales.
+- [x] Tense Lab en React en `/herramientas/tense-lab?tense=` (en el menú), con colores pos/neg/q y bloques. Las 13 tablas se pasaron por script desde `legacy/` a `content/data/tenses.ts`, sin reescribir los ejemplos; `content/data/tense-index.ts` es el índice ligero (nombre, nombre en español, nivel y lección) que usan rutas y lecciones sin cargar las tablas. Selector de sujeto y **constructor de frases** (sujeto + verbo → afirmativa, negativa y pregunta).
+- [x] `features/tense-lab/conjugate.ts`: motor de conjugación de los 13 tiempos (formas -s, -ing, -ed, irregulares, auxiliares según el sujeto), con tests. `generators/tenses.ts` (transformar, elegir el auxiliar, ordenar, tabla; 8 ítems por ronda) y `content/data/irregular-verbs.ts` (60 verbos, con variantes UK/US) + `generators/irregular-verbs.ts` (tablas de pasado y participio y opción múltiple contra errores típicos como *buyed*). Funciones puras: misma semilla, mismo set.
+- [x] Botón “Practicar este tiempo” en el Tense Lab y en las lecciones de tiempos verbales (junto a “Ver en el Tense Lab”). Práctica en `/ejercicios/practicar/$tema` (un tiempo o `verbos-irregulares`), con “Ejercicios nuevos”. Accesos también desde el catálogo y la unidad 13.
+- [x] Los sets generados **no guardan progreso** (`record={false}`): cambian en cada ronda y sus fallos no se podrían repasar después. `content:check` comprueba la lección de cada tiempo y los enlaces a `/ejercicios/practicar/…`. 132 tests.
+
+**Listo cuando:** el Tense Lab muestra los 13 tiempos y cada tiempo y los irregulares tienen práctica generada. ✅
 
 #### F11 — Paridad y limpieza
 - [ ] Buscador MiniSearch (lecciones, unidades, sets y palabras EN/ES; Ctrl/Cmd+K y `/buscar`).

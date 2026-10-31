@@ -12,11 +12,12 @@ type Props = {
   items: readonly ExerciseItem[];
   mode: Mode;
   nextSet?: { id: string; titleEs: string };
+  record?: boolean; // false en los sets generados: cambian cada vez y no tiene sentido guardarlos
 };
 
 // Una sesión = varias rondas: la completa y, si quieres, otras solo con los fallados.
 // Cada ronda nueva cambia "round" y con él la key del player, que empieza de cero.
-export function ExerciseSession({ setId, items, mode, nextSet }: Props) {
+export function ExerciseSession({ setId, items, mode, nextSet, record = true }: Props) {
   const [round, setRound] = useState<{ n: number; items: readonly ExerciseItem[] }>({
     n: 0,
     items,
@@ -37,11 +38,12 @@ export function ExerciseSession({ setId, items, mode, nextSet }: Props) {
   }
 
   function handleFinish(done: ItemRecord[]) {
-    recordResults(
-      setId,
-      done.map((r) => ({ itemId: r.item.id, correct: r.result.status === "correct" })),
-      round.items.length === items.length,
-    );
+    if (record)
+      recordResults(
+        setId,
+        done.map((r) => ({ itemId: r.item.id, correct: r.result.status === "correct" })),
+        round.items.length === items.length,
+      );
     setRecords(done);
   }
 

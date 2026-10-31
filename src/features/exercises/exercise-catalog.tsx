@@ -1,8 +1,11 @@
 import { Link } from "@tanstack/react-router";
+import { Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAllExerciseSets, getExerciseSetSection } from "@/content";
 import type { Level } from "@/content/schema";
+import { IRREGULAR_TOPIC } from "@/content/data/practice-topics";
 import { LEVELS } from "@/content/levels";
 import { getSection } from "@/content/sections";
 import { useProgressStore } from "@/features/progress/store";
@@ -68,6 +71,28 @@ export function ExerciseCatalog({ filters }: { filters: CatalogFilters }) {
 
   return (
     <div className="space-y-6">
+      <section
+        aria-labelledby="generated"
+        className="flex flex-wrap items-center gap-2 rounded-lg border bg-muted/30 p-3"
+      >
+        <h2 id="generated" className="mr-auto flex items-center gap-2 text-sm font-semibold">
+          <Sparkles className="size-4 text-primary" aria-hidden />
+          {t.generated}
+        </h2>
+        <Link
+          to="/ejercicios/practicar/$tema"
+          params={{ tema: IRREGULAR_TOPIC }}
+          className={buttonVariants({ variant: "outline", size: "sm" })}
+        >
+          {es.generated.irregular.title}
+        </Link>
+        <Link
+          to="/herramientas/tense-lab"
+          className={buttonVariants({ variant: "outline", size: "sm" })}
+        >
+          {t.generatedTenses}
+        </Link>
+      </section>
       <div className="space-y-3">
         <div
           role="group"

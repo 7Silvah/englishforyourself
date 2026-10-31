@@ -22,10 +22,12 @@ import { Route as CursoUnidadRouteImport } from './routes/curso/$unidad'
 import { Route as DevUiRouteImport } from './routes/dev/ui'
 import { Route as EjerciciosIndexRouteImport } from './routes/ejercicios/index'
 import { Route as EjerciciosIdRouteRouteImport } from './routes/ejercicios/$id/route'
+import { Route as HerramientasTenseLabRouteImport } from './routes/herramientas/tense-lab'
 import { Route as BibliotecaSectionIndexRouteImport } from './routes/biblioteca/$section/index'
 import { Route as BibliotecaSectionSplatRouteImport } from './routes/biblioteca/$section/$'
 import { Route as EjerciciosIdIndexRouteImport } from './routes/ejercicios/$id/index'
 import { Route as EjerciciosIdImprimirRouteImport } from './routes/ejercicios/$id/imprimir'
+import { Route as EjerciciosPracticarTemaRouteImport } from './routes/ejercicios/practicar/$tema'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -92,6 +94,11 @@ const EjerciciosIdRouteRoute = EjerciciosIdRouteRouteImport.update({
   path: '/$id',
   getParentRoute: () => EjerciciosRouteRoute,
 } as any)
+const HerramientasTenseLabRoute = HerramientasTenseLabRouteImport.update({
+  id: '/herramientas/tense-lab',
+  path: '/herramientas/tense-lab',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BibliotecaSectionIndexRoute = BibliotecaSectionIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -112,6 +119,11 @@ const EjerciciosIdImprimirRoute = EjerciciosIdImprimirRouteImport.update({
   path: '/imprimir',
   getParentRoute: () => EjerciciosIdRouteRoute,
 } as any)
+const EjerciciosPracticarTemaRoute = EjerciciosPracticarTemaRouteImport.update({
+  id: '/practicar/$tema',
+  path: '/practicar/$tema',
+  getParentRoute: () => EjerciciosRouteRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -124,11 +136,13 @@ export interface FileRoutesByFullPath {
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
+  '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
   '/biblioteca/$section/$': typeof BibliotecaSectionSplatRoute
   '/ejercicios/$id/imprimir': typeof EjerciciosIdImprimirRoute
+  '/ejercicios/practicar/$tema': typeof EjerciciosPracticarTemaRoute
   '/biblioteca/$section/': typeof BibliotecaSectionIndexRoute
   '/ejercicios/$id/': typeof EjerciciosIdIndexRoute
 }
@@ -138,11 +152,13 @@ export interface FileRoutesByTo {
   '/progreso': typeof ProgresoRoute
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
+  '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/biblioteca': typeof BibliotecaIndexRoute
   '/curso': typeof CursoIndexRoute
   '/ejercicios': typeof EjerciciosIndexRoute
   '/biblioteca/$section/$': typeof BibliotecaSectionSplatRoute
   '/ejercicios/$id/imprimir': typeof EjerciciosIdImprimirRoute
+  '/ejercicios/practicar/$tema': typeof EjerciciosPracticarTemaRoute
   '/biblioteca/$section': typeof BibliotecaSectionIndexRoute
   '/ejercicios/$id': typeof EjerciciosIdIndexRoute
 }
@@ -158,11 +174,13 @@ export interface FileRoutesById {
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/ui': typeof DevUiRoute
+  '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/biblioteca/': typeof BibliotecaIndexRoute
   '/curso/': typeof CursoIndexRoute
   '/ejercicios/': typeof EjerciciosIndexRoute
   '/biblioteca/$section/$': typeof BibliotecaSectionSplatRoute
   '/ejercicios/$id/imprimir': typeof EjerciciosIdImprimirRoute
+  '/ejercicios/practicar/$tema': typeof EjerciciosPracticarTemaRoute
   '/biblioteca/$section/': typeof BibliotecaSectionIndexRoute
   '/ejercicios/$id/': typeof EjerciciosIdIndexRoute
 }
@@ -179,11 +197,13 @@ export interface FileRouteTypes {
     | '/ejercicios/$id'
     | '/curso/$unidad'
     | '/dev/ui'
+    | '/herramientas/tense-lab'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
     | '/biblioteca/$section/$'
     | '/ejercicios/$id/imprimir'
+    | '/ejercicios/practicar/$tema'
     | '/biblioteca/$section/'
     | '/ejercicios/$id/'
   fileRoutesByTo: FileRoutesByTo
@@ -193,11 +213,13 @@ export interface FileRouteTypes {
     | '/progreso'
     | '/curso/$unidad'
     | '/dev/ui'
+    | '/herramientas/tense-lab'
     | '/biblioteca'
     | '/curso'
     | '/ejercicios'
     | '/biblioteca/$section/$'
     | '/ejercicios/$id/imprimir'
+    | '/ejercicios/practicar/$tema'
     | '/biblioteca/$section'
     | '/ejercicios/$id'
   id:
@@ -212,11 +234,13 @@ export interface FileRouteTypes {
     | '/ejercicios/$id'
     | '/curso/$unidad'
     | '/dev/ui'
+    | '/herramientas/tense-lab'
     | '/biblioteca/'
     | '/curso/'
     | '/ejercicios/'
     | '/biblioteca/$section/$'
     | '/ejercicios/$id/imprimir'
+    | '/ejercicios/practicar/$tema'
     | '/biblioteca/$section/'
     | '/ejercicios/$id/'
   fileRoutesById: FileRoutesById
@@ -229,6 +253,7 @@ export interface RootRouteChildren {
   AcercaRoute: typeof AcercaRoute
   ProgresoRoute: typeof ProgresoRoute
   DevUiRoute: typeof DevUiRoute
+  HerramientasTenseLabRoute: typeof HerramientasTenseLabRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -324,6 +349,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EjerciciosIdRouteRouteImport
       parentRoute: typeof EjerciciosRouteRoute
     }
+    '/herramientas/tense-lab': {
+      id: '/herramientas/tense-lab'
+      path: '/herramientas/tense-lab'
+      fullPath: '/herramientas/tense-lab'
+      preLoaderRoute: typeof HerramientasTenseLabRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/biblioteca/$section/': {
       id: '/biblioteca/$section/'
       path: '/'
@@ -351,6 +383,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/ejercicios/$id/imprimir'
       preLoaderRoute: typeof EjerciciosIdImprimirRouteImport
       parentRoute: typeof EjerciciosIdRouteRoute
+    }
+    '/ejercicios/practicar/$tema': {
+      id: '/ejercicios/practicar/$tema'
+      path: '/practicar/$tema'
+      fullPath: '/ejercicios/practicar/$tema'
+      preLoaderRoute: typeof EjerciciosPracticarTemaRouteImport
+      parentRoute: typeof EjerciciosRouteRoute
     }
   }
 }
@@ -415,11 +454,13 @@ const EjerciciosIdRouteRouteWithChildren =
 interface EjerciciosRouteRouteChildren {
   EjerciciosIdRouteRoute: typeof EjerciciosIdRouteRouteWithChildren
   EjerciciosIndexRoute: typeof EjerciciosIndexRoute
+  EjerciciosPracticarTemaRoute: typeof EjerciciosPracticarTemaRoute
 }
 
 const EjerciciosRouteRouteChildren: EjerciciosRouteRouteChildren = {
   EjerciciosIdRouteRoute: EjerciciosIdRouteRouteWithChildren,
   EjerciciosIndexRoute: EjerciciosIndexRoute,
+  EjerciciosPracticarTemaRoute: EjerciciosPracticarTemaRoute,
 }
 
 const EjerciciosRouteRouteWithChildren = EjerciciosRouteRoute._addFileChildren(
@@ -434,6 +475,7 @@ const rootRouteChildren: RootRouteChildren = {
   AcercaRoute: AcercaRoute,
   ProgresoRoute: ProgresoRoute,
   DevUiRoute: DevUiRoute,
+  HerramientasTenseLabRoute: HerramientasTenseLabRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
