@@ -66,7 +66,10 @@
       "answers": [
         "I think it is going to rain.",
         "I think it's going to rain.",
-        "I think it will rain."
+        "I think it will rain.",
+        "I think that it is going to rain.",
+        "I think that it's going to rain.",
+        "I think that it will rain."
       ],
       "explanationEs": "Predicción: going to (si ves pruebas) o will (opinión)."
     },

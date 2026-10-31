@@ -102,7 +102,8 @@
             },
             {
               "answers": [
-                "the happiest"
+                "the happiest",
+                "happiest"
               ]
             }
           ]
@@ -117,7 +118,8 @@
             },
             {
               "answers": [
-                "the most expensive"
+                "the most expensive",
+                "most expensive"
               ]
             }
           ]
@@ -128,7 +130,8 @@
             "better",
             {
               "answers": [
-                "the best"
+                "the best",
+                "best"
               ]
             }
           ]

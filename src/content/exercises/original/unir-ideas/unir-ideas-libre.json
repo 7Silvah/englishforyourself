@@ -54,11 +54,14 @@
       "id": "4",
       "type": "error-correction",
       "sentence": "Because I was tired, so I went to bed.",
-      "wrong": "so I went",
+      "wrong": "Because I was tired, so I went",
       "answers": [
-        "I went"
+        "I was tired, so I went",
+        "I was tired so I went",
+        "Because I was tired, I went",
+        "Because I was tired I went"
       ],
-      "explanationEs": "No se usan because y so en la misma frase: o uno o el otro."
+      "explanationEs": "No se usan because y so en la misma frase: quita uno de los dos. I was tired, so I went to bed, o Because I was tired, I went to bed."
     },
     {
       "id": "5",
