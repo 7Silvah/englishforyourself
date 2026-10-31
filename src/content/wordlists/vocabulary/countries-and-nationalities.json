@@ -4,327 +4,431 @@
   "order": 42,
   "legacyPath": "lessons/vocabulary/countries-and-nationalities.html",
   "intro": "In this section you will learn the countries and nationalities in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "Countries and nationalities in English",
       "items": [
         {
-          "en": "Country – nationality (adjective)"
+          "en": "Albania – Albanian",
+          "es": "Albania – albanés"
         },
         {
-          "en": "Albania – Albanian"
+          "en": "Algeria – Algerian",
+          "es": "Argelia – argelino"
         },
         {
-          "en": "Algeria – Algerian"
+          "en": "Argentina – Argentinian",
+          "es": "Argentina – argentino"
         },
         {
-          "en": "Argentina – Argentinian"
+          "en": "Australia – Australian",
+          "es": "Australia – australiano"
         },
         {
-          "en": "Australia – Australian"
+          "en": "Austria – Austrian",
+          "es": "Austria – austriaco"
         },
         {
-          "en": "Austria – Austrian"
+          "en": "Bahamas – Bahamian",
+          "es": "Bahamas – bahameño"
         },
         {
-          "en": "Bahamas – Bahamian"
+          "en": "Bangladesh – Bangladeshi",
+          "es": "Bangladés – bangladesí"
         },
         {
-          "en": "Bangladesh – Bangladeshi"
+          "en": "Belgium – Belgian",
+          "es": "Bélgica – belga"
         },
         {
-          "en": "Belgium – Belgian"
+          "en": "Belize – Belizean",
+          "es": "Belice – beliceño"
         },
         {
-          "en": "Belize – Belizean"
+          "en": "Bolivia – Bolivian",
+          "es": "Bolivia – boliviano"
         },
         {
-          "en": "Bolivia – Bolivian"
+          "en": "Brazil – Brazilian",
+          "es": "Brasil – brasileño"
         },
         {
-          "en": "Brazil – Brazilian"
+          "en": "Cambodia – Cambodian",
+          "es": "Camboya – camboyano"
         },
         {
-          "en": "Cambodia – Cambodian"
+          "en": "Cameroon – Cameroonian",
+          "es": "Camerún – camerunés"
         },
         {
-          "en": "Cameroon – Cameroonian"
+          "en": "Canada – Canadian",
+          "es": "Canadá – canadiense"
         },
         {
-          "en": "Canada – Canadian"
+          "en": "Chile – Chilean",
+          "es": "Chile – chileno"
         },
         {
-          "en": "Chile – Chilean"
+          "en": "China – Chinese",
+          "es": "China – chino"
         },
         {
-          "en": "China – Chinese"
+          "en": "Costa Rica – Costa Rican",
+          "es": "Costa Rica – costarricense"
         },
         {
-          "en": "Costa Rica – Costa Rican"
+          "en": "Croatia – Croat",
+          "es": "Croacia – croata"
         },
         {
-          "en": "Croatia – Croat"
+          "en": "Croatia – Croat / Croatian",
+          "es": "Croacia – croata"
         },
         {
-          "en": "Croatia – Croat / Croatian"
+          "en": "Cuba – Cuban",
+          "es": "Cuba – cubano"
         },
         {
-          "en": "Cuba – Cuban"
+          "en": "Denmark – Danish",
+          "es": "Dinamarca – danés"
         },
         {
-          "en": "Denmark – Danish"
+          "en": "Ecuador – Ecuadorian",
+          "es": "Ecuador – ecuatoriano"
         },
         {
-          "en": "Ecuador – Ecuadorian"
+          "en": "Egypt – Egyptian",
+          "es": "Egipto – egipcio"
         },
         {
-          "en": "Egypt – Egyptian"
+          "en": "El Salvador – Salvadorian",
+          "es": "El Salvador – salvadoreño"
         },
         {
-          "en": "El Salvador – Salvadorian"
+          "en": "England – English",
+          "es": "Inglaterra – inglés"
         },
         {
-          "en": "England – English"
+          "en": "Estonia – Estonian",
+          "es": "Estonia – estonio"
         },
         {
-          "en": "Estonia – Estonian"
+          "en": "Ethiopia – Ethiopian",
+          "es": "Etiopía – etíope"
         },
         {
-          "en": "Ethiopia – Ethiopian"
+          "en": "Fiji – Fijian",
+          "es": "Fiyi – fiyiano"
         },
         {
-          "en": "Fiji – Fijian"
+          "en": "Finland – Finnish",
+          "es": "Finlandia – finlandés"
         },
         {
-          "en": "Finland – Finnish"
+          "en": "France – French",
+          "es": "Francia – francés"
         },
         {
-          "en": "France – French"
+          "en": "Georgia – Georgian",
+          "es": "Georgia – georgiano"
         },
         {
-          "en": "Georgia – Georgian"
+          "en": "Germany – German",
+          "es": "Alemania – alemán"
         },
         {
-          "en": "Germany – German"
+          "en": "Ghana – Ghanaian",
+          "es": "Ghana – ghanés"
         },
         {
-          "en": "Ghana – Ghanaian"
+          "en": "Greece – Greek",
+          "es": "Grecia – griego"
         },
         {
-          "en": "Greece – Greek"
+          "en": "Guatemala – Guatemalan",
+          "es": "Guatemala – guatemalteco"
         },
         {
-          "en": "Guatemala – Guatemalan"
+          "en": "Haiti- Haitian",
+          "es": "Haití – haitiano"
         },
         {
-          "en": "Haiti- Haitian"
+          "en": "Honduras – Honduran",
+          "es": "Honduras – hondureño"
         },
         {
-          "en": "Honduras – Honduran"
+          "en": "Hungary – Hungarian",
+          "es": "Hungría – húngaro"
         },
         {
-          "en": "Hungary – Hungarian"
+          "en": "Iceland – Icelandic",
+          "es": "Islandia – islandés"
         },
         {
-          "en": "Iceland – Icelandic"
+          "en": "India – Indian",
+          "es": "India – indio"
         },
         {
-          "en": "India – Indian"
+          "en": "Indonesia – Indonesian",
+          "es": "Indonesia – indonesio"
         },
         {
-          "en": "Indonesia – Indonesian"
+          "en": "Iran – Iranian",
+          "es": "Irán – iraní"
         },
         {
-          "en": "Iran – Iranian"
+          "en": "Iraq – Iraqi",
+          "es": "Irak – iraquí"
         },
         {
-          "en": "Iraq – Iraqi"
+          "en": "Ireland – Irish",
+          "es": "Irlanda – irlandés"
         },
         {
-          "en": "Ireland – Irish"
+          "en": "Israel – Israeli",
+          "es": "Israel – israelí"
         },
         {
-          "en": "Israel – Israeli"
+          "en": "Italy – Italian",
+          "es": "Italia – italiano"
         },
         {
-          "en": "Italy – Italian"
+          "en": "Jamaica – Jamaican",
+          "es": "Jamaica – jamaicano"
         },
         {
-          "en": "Jamaica – Jamaican"
+          "en": "Japan – Japanese",
+          "es": "Japón – japonés"
         },
         {
-          "en": "Japan – Japanese"
+          "en": "Jordan – Jordanian",
+          "es": "Jordania – jordano"
         },
         {
-          "en": "Jordan – Jordanian"
+          "en": "Kenya – Kenyan",
+          "es": "Kenia – keniano"
         },
         {
-          "en": "Kenya – Kenyan"
+          "en": "Laos – Lao",
+          "es": "Laos – laosiano"
         },
         {
-          "en": "Laos – Lao"
+          "en": "Libya – Libyan",
+          "es": "Libia – libio"
         },
         {
-          "en": "Libya – Libyan"
+          "en": "Lithuania – Lithuanian",
+          "es": "Lituania – lituano"
         },
         {
-          "en": "Lithuania – Lithuanian"
+          "en": "Madagascar – Malagasy",
+          "es": "Madagascar – malgache"
         },
         {
-          "en": "Madagascar – Malagasy"
+          "en": "Malaysia – Malaysian",
+          "es": "Malasia – malasio"
         },
         {
-          "en": "Malaysia – Malaysian"
+          "en": "Maldives – Maldivian",
+          "es": "Maldivas – maldivo"
         },
         {
-          "en": "Maldives – Maldivian"
+          "en": "Mali – Malian",
+          "es": "Malí – maliense"
         },
         {
-          "en": "Mali – Malian"
+          "en": "Malta – Maltese",
+          "es": "Malta – maltés"
         },
         {
-          "en": "Malta – Maltese"
+          "en": "Mexico – Mexican",
+          "es": "México – mexicano"
         },
         {
-          "en": "Mexico – Mexican"
+          "en": "Mongolia – Mongolian",
+          "es": "Mongolia – mongol"
         },
         {
-          "en": "Mongolia – Mongolian"
+          "en": "Morocco – Moroccan",
+          "es": "Marruecos – marroquí"
         },
         {
-          "en": "Morocco – Moroccan"
+          "en": "Mozambique – Mozambican",
+          "es": "Mozambique – mozambiqueño"
         },
         {
-          "en": "Mozambique – Mozambican"
+          "en": "Namibia – Namibian",
+          "es": "Namibia – namibio"
         },
         {
-          "en": "Namibia – Namibian"
+          "en": "Nepal – Nepalese",
+          "es": "Nepal – nepalí"
         },
         {
-          "en": "Nepal – Nepalese"
+          "en": "Netherlands – Dutch",
+          "es": "Países Bajos – neerlandés"
         },
         {
-          "en": "Netherlands – Dutch"
+          "en": "New Zealand – New Zealand",
+          "es": "Nueva Zelanda – neozelandés"
         },
         {
-          "en": "New Zealand – New Zealand"
+          "en": "Nicaragua – Nicaraguan",
+          "es": "Nicaragua – nicaragüense"
         },
         {
-          "en": "Nicaragua – Nicaraguan"
+          "en": "North Korea – North Korean",
+          "es": "Corea del Norte – norcoreano"
         },
         {
-          "en": "North Korea – North Korean"
+          "en": "Norway – Norwegian",
+          "es": "Noruega – noruego"
         },
         {
-          "en": "Norway – Norwegian"
+          "en": "Panama – Panamanian",
+          "es": "Panamá – panameño"
         },
         {
-          "en": "Panama – Panamanian"
+          "en": "Peru – Peruvian",
+          "es": "Perú – peruano"
         },
         {
-          "en": "Peru – Peruvian"
+          "en": "Poland – Polish",
+          "es": "Polonia – polaco"
         },
         {
-          "en": "Poland – Polish"
+          "en": "Portugal – Portuguese",
+          "es": "Portugal – portugués"
         },
         {
-          "en": "Portugal – Portuguese"
+          "en": "Qatar – Qatari",
+          "es": "Catar – catarí"
         },
         {
-          "en": "Qatar – Qatari"
+          "en": "Romania – Romanian",
+          "es": "Rumania – rumano"
         },
         {
-          "en": "Romania – Romanian"
+          "en": "Russia – Russian",
+          "es": "Rusia – ruso"
         },
         {
-          "en": "Russia – Russian"
+          "en": "Saudi Arabia – Saudi",
+          "es": "Arabia Saudita – saudí"
         },
         {
-          "en": "Saudi Arabia – Saudi"
+          "en": "Scotland – Scottish",
+          "es": "Escocia – escocés"
         },
         {
-          "en": "Scotland – Scottish"
+          "en": "Serbia – Serb / Serbian",
+          "es": "Serbia – serbio"
         },
         {
-          "en": "Serbia – Serb / Serbian"
+          "en": "Serbia – Serbian",
+          "es": "Serbia – serbio"
         },
         {
-          "en": "Serbia – Serbian"
+          "en": "Singapore – Singaporean",
+          "es": "Singapur – singapurense"
         },
         {
-          "en": "Singapore – Singaporean"
+          "en": "Slovakia – Slovak",
+          "es": "Eslovaquia – eslovaco"
         },
         {
-          "en": "Slovakia – Slovak"
+          "en": "Slovenia – Slovene / Slovenian",
+          "es": "Eslovenia – esloveno"
         },
         {
-          "en": "Slovenia – Slovene / Slovenian"
+          "en": "Somalia – Somali",
+          "es": "Somalia – somalí"
         },
         {
-          "en": "Somalia – Somali"
+          "en": "South Africa – South African",
+          "es": "Sudáfrica – sudafricano"
         },
         {
-          "en": "South Africa – South African"
+          "en": "South Korea – South Korean",
+          "es": "Corea del Sur – surcoreano"
         },
         {
-          "en": "South Korea – South Korean"
+          "en": "Spain – Spanish",
+          "es": "España – español"
         },
         {
-          "en": "Spain – Spanish"
+          "en": "Sri Lanka – Sri Lankan",
+          "es": "Sri Lanka – esrilanqués"
         },
         {
-          "en": "Sri Lanka – Sri Lankan"
+          "en": "Sudan – Sudanese",
+          "es": "Sudán – sudanés"
         },
         {
-          "en": "Sudan – Sudanese"
+          "en": "Sweden – Swedish",
+          "es": "Suecia – sueco"
         },
         {
-          "en": "Sweden – Swedish"
+          "en": "Switzerland – Swiss",
+          "es": "Suiza – suizo"
         },
         {
-          "en": "Switzerland – Swiss"
+          "en": "Syria – Syrian",
+          "es": "Siria – sirio"
         },
         {
-          "en": "Syria – Syrian"
+          "en": "Taiwan – Taiwanese",
+          "es": "Taiwán – taiwanés"
         },
         {
-          "en": "Taiwan – Taiwanese"
+          "en": "Tanzania – Tanzanian",
+          "es": "Tanzania – tanzano"
         },
         {
-          "en": "Tanzania – Tanzanian"
+          "en": "Thailand – Thai",
+          "es": "Tailandia – tailandés"
         },
         {
-          "en": "Thailand – Thai"
+          "en": "The United Kingdom – British",
+          "es": "Reino Unido – británico"
         },
         {
-          "en": "The United Kingdom – British"
+          "en": "The United States – American",
+          "es": "Estados Unidos – estadounidense"
         },
         {
-          "en": "The United States – American"
+          "en": "Turkey – Turkish",
+          "es": "Turquía – turco"
         },
         {
-          "en": "Turkey – Turkish"
+          "en": "Ukraine – Ukrainian",
+          "es": "Ucrania – ucraniano"
         },
         {
-          "en": "Ukraine – Ukrainian"
+          "en": "Uruguay – Uruguayan",
+          "es": "Uruguay – uruguayo"
         },
         {
-          "en": "Uruguay – Uruguayan"
+          "en": "Venezuela – Venezuelan",
+          "es": "Venezuela – venezolano"
         },
         {
-          "en": "Venezuela – Venezuelan"
+          "en": "Vietnam – Vietnamese",
+          "es": "Vietnam – vietnamita"
         },
         {
-          "en": "Vietnam – Vietnamese"
+          "en": "Wales – Welsh",
+          "es": "Gales – galés"
         },
         {
-          "en": "Wales – Welsh"
+          "en": "Zambia – Zambian",
+          "es": "Zambia – zambiano"
         },
         {
-          "en": "Zambia – Zambian"
-        },
-        {
-          "en": "Zimbabwe – Zimbabwean"
+          "en": "Zimbabwe – Zimbabwean",
+          "es": "Zimbabue – zimbabuense"
         }
       ]
     }

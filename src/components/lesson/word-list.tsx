@@ -4,6 +4,18 @@ import { useSettingsStore } from "@/features/settings/store";
 import { es } from "@/i18n/es";
 import { SpeakButton } from "./speak-button";
 
+// Aviso de falso amigo: texto además del color (no solo el color)
+function FalseFriendBadge({ word }: { word: string }) {
+  return (
+    <span
+      lang="es"
+      className="rounded bg-neg-soft px-1.5 py-0.5 text-xs font-normal text-foreground"
+    >
+      {es.lesson.falseFriendBadge(word)}
+    </span>
+  );
+}
+
 function hasDetails(words: Word[]) {
   return words.some((w) => (w.meanings?.length ?? 0) > 0 || w.example);
 }
@@ -18,6 +30,7 @@ function WordGrid({ words, showEs }: { words: Word[]; showEs: boolean }) {
             {w.en}
           </span>
           {showEs && w.es && <span className="text-sm text-muted-foreground">{w.es}</span>}
+          {w.falseFriend && <FalseFriendBadge word={w.falseFriend} />}
           <SpeakButton text={w.en} className="ml-auto size-7" />
         </li>
       ))}
@@ -40,6 +53,7 @@ function WordDefinitions({ words, showEs }: { words: Word[]; showEs: boolean }) 
                   {w.es}
                 </span>
               )}
+              {w.falseFriend && <FalseFriendBadge word={w.falseFriend} />}
               <SpeakButton text={w.en} className="size-7" />
             </dt>
             {meanings.length === 1 && <dd className="mt-1 text-muted-foreground">{meanings[0]}</dd>}

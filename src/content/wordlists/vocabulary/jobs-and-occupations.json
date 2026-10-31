@@ -4,315 +4,420 @@
   "order": 17,
   "legacyPath": "lessons/vocabulary/jobs-and-occupations.html",
   "intro": "In this section you will learn about the different types of jobs and occupations in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "Jobs and occupations",
       "items": [
         {
-          "en": "Accountant"
+          "en": "Accountant",
+          "es": "contador / contable"
         },
         {
-          "en": "Actor / actress"
+          "en": "Actor / actress",
+          "es": "actor / actriz"
         },
         {
-          "en": "Architect"
+          "en": "Architect",
+          "es": "arquitecto / arquitecta"
         },
         {
-          "en": "Artist"
+          "en": "Artist",
+          "es": "artista"
         },
         {
-          "en": "Astronomer"
+          "en": "Astronomer",
+          "es": "astrónomo / astrónoma"
         },
         {
-          "en": "Author"
+          "en": "Author",
+          "es": "autor / autora"
         },
         {
-          "en": "Baker"
+          "en": "Baker",
+          "es": "panadero / panadera"
         },
         {
-          "en": "Bank clerk"
+          "en": "Bank clerk",
+          "es": "empleado / empleada de banco"
         },
         {
-          "en": "Barber"
+          "en": "Barber",
+          "es": "barbero"
         },
         {
-          "en": "Barman (UK) / bartender (US)"
+          "en": "Barman (UK) / bartender (US)",
+          "es": "barman / cantinero"
         },
         {
-          "en": "Beekeeper"
+          "en": "Beekeeper",
+          "es": "apicultor / apicultora"
         },
         {
-          "en": "Bellboy"
+          "en": "Bellboy",
+          "es": "botones"
         },
         {
-          "en": "Bishop"
+          "en": "Bishop",
+          "es": "obispo"
         },
         {
-          "en": "Bricklayer"
+          "en": "Bricklayer",
+          "es": "albañil"
         },
         {
-          "en": "Bus driver"
+          "en": "Bus driver",
+          "es": "conductor / conductora de autobús"
         },
         {
-          "en": "Butcher"
+          "en": "Butcher",
+          "es": "carnicero / carnicera"
         },
         {
-          "en": "Cameraman"
+          "en": "Cameraman",
+          "es": "camarógrafo"
         },
         {
-          "en": "Caretaker"
+          "en": "Caretaker",
+          "es": "conserje"
         },
         {
-          "en": "Carpenter"
+          "en": "Carpenter",
+          "es": "carpintero / carpintera"
         },
         {
-          "en": "Cashier"
+          "en": "Cashier",
+          "es": "cajero / cajera"
         },
         {
-          "en": "Chauffeur"
+          "en": "Chauffeur",
+          "es": "chofer"
         },
         {
-          "en": "Chef / cook"
+          "en": "Chef / cook",
+          "es": "chef / cocinero"
         },
         {
-          "en": "Cleaner"
+          "en": "Cleaner",
+          "es": "limpiador / limpiadora"
         },
         {
-          "en": "Clown"
+          "en": "Clown",
+          "es": "payaso / payasa"
         },
         {
-          "en": "Computer programmer"
+          "en": "Computer programmer",
+          "es": "programador / programadora"
         },
         {
-          "en": "Construction worker"
+          "en": "Construction worker",
+          "es": "obrero / obrera de la construcción"
         },
         {
-          "en": "Consultant"
+          "en": "Consultant",
+          "es": "consultor / consultora"
         },
         {
-          "en": "Customs officer"
+          "en": "Customs officer",
+          "es": "agente de aduanas"
         },
         {
-          "en": "Delivery man"
+          "en": "Delivery man",
+          "es": "repartidor"
         },
         {
-          "en": "Dentist"
+          "en": "Dentist",
+          "es": "dentista"
         },
         {
-          "en": "Designer"
+          "en": "Designer",
+          "es": "diseñador / diseñadora"
         },
         {
-          "en": "Doctor"
+          "en": "Doctor",
+          "es": "médico / médica"
         },
         {
-          "en": "Electrician"
+          "en": "Electrician",
+          "es": "electricista"
         },
         {
-          "en": "Engineer"
+          "en": "Engineer",
+          "es": "ingeniero / ingeniera"
         },
         {
-          "en": "Entrepreneur"
+          "en": "Entrepreneur",
+          "es": "emprendedor / emprendedora"
         },
         {
-          "en": "Factory worker"
+          "en": "Factory worker",
+          "es": "obrero / obrera de fábrica"
         },
         {
-          "en": "Farmer"
+          "en": "Farmer",
+          "es": "agricultor / granjero"
         },
         {
-          "en": "Fashion designer"
+          "en": "Fashion designer",
+          "es": "diseñador / diseñadora de moda"
         },
         {
-          "en": "Firefighter"
+          "en": "Firefighter",
+          "es": "bombero / bombera"
         },
         {
-          "en": "Fisherman"
+          "en": "Fisherman",
+          "es": "pescador"
         },
         {
-          "en": "Flight attendant"
+          "en": "Flight attendant",
+          "es": "auxiliar de vuelo / azafata"
         },
         {
-          "en": "Florist"
+          "en": "Florist",
+          "es": "florista"
         },
         {
-          "en": "Gardener"
+          "en": "Gardener",
+          "es": "jardinero / jardinera"
         },
         {
-          "en": "Graphic designer"
+          "en": "Graphic designer",
+          "es": "diseñador / diseñadora gráfica"
         },
         {
-          "en": "Hairdresser"
+          "en": "Hairdresser",
+          "es": "peluquero / peluquera"
         },
         {
-          "en": "Interior designer"
+          "en": "Interior designer",
+          "es": "diseñador / diseñadora de interiores"
         },
         {
-          "en": "Interpreter"
+          "en": "Interpreter",
+          "es": "intérprete"
         },
         {
-          "en": "Janitor"
+          "en": "Janitor",
+          "es": "conserje"
         },
         {
-          "en": "Jeweller (UK) / jeweler (US)"
+          "en": "Jeweller (UK) / jeweler (US)",
+          "es": "joyero / joyera"
         },
         {
-          "en": "Journalist"
+          "en": "Journalist",
+          "es": "periodista"
         },
         {
-          "en": "Judge"
+          "en": "Judge",
+          "es": "juez / jueza"
         },
         {
-          "en": "Lawyer"
+          "en": "Lawyer",
+          "es": "abogado / abogada"
         },
         {
-          "en": "Lecturer"
+          "en": "Lecturer",
+          "es": "profesor / profesora universitaria",
+          "falseFriend": "lector"
         },
         {
-          "en": "Librarian"
+          "en": "Librarian",
+          "es": "bibliotecario / bibliotecaria"
         },
         {
-          "en": "Lifeguard"
+          "en": "Lifeguard",
+          "es": "socorrista / salvavidas"
         },
         {
-          "en": "Maid"
+          "en": "Maid",
+          "es": "empleada doméstica"
         },
         {
-          "en": "Mechanic"
+          "en": "Mechanic",
+          "es": "mecánico / mecánica"
         },
         {
-          "en": "Miner"
+          "en": "Miner",
+          "es": "minero / minera"
         },
         {
-          "en": "Model"
+          "en": "Model",
+          "es": "modelo"
         },
         {
-          "en": "Nanny"
+          "en": "Nanny",
+          "es": "niñera"
         },
         {
-          "en": "Newsreader"
+          "en": "Newsreader",
+          "es": "presentador / presentadora de noticias"
         },
         {
-          "en": "Nurse"
+          "en": "Nurse",
+          "es": "enfermero / enfermera"
         },
         {
-          "en": "Office worker"
+          "en": "Office worker",
+          "es": "oficinista"
         },
         {
-          "en": "Optician"
+          "en": "Optician",
+          "es": "óptico / óptica"
         },
         {
-          "en": "Painter"
+          "en": "Painter",
+          "es": "pintor / pintora"
         },
         {
-          "en": "Pharmacist"
+          "en": "Pharmacist",
+          "es": "farmacéutico / farmacéutica"
         },
         {
-          "en": "Photographer"
+          "en": "Photographer",
+          "es": "fotógrafo / fotógrafa"
         },
         {
-          "en": "Pilot"
+          "en": "Pilot",
+          "es": "piloto"
         },
         {
-          "en": "Plumber"
+          "en": "Plumber",
+          "es": "plomero / fontanero"
         },
         {
-          "en": "Policewoman / policeman"
+          "en": "Policewoman / policeman",
+          "es": "policía"
         },
         {
-          "en": "Politician"
+          "en": "Politician",
+          "es": "político / política"
         },
         {
-          "en": "Postman"
+          "en": "Postman",
+          "es": "cartero"
         },
         {
-          "en": "Priest"
+          "en": "Priest",
+          "es": "sacerdote / cura"
         },
         {
-          "en": "Psychiatrist"
+          "en": "Psychiatrist",
+          "es": "psiquiatra"
         },
         {
-          "en": "Psychologist"
+          "en": "Psychologist",
+          "es": "psicólogo / psicóloga"
         },
         {
-          "en": "Real estate agent"
+          "en": "Real estate agent",
+          "es": "agente inmobiliario"
         },
         {
-          "en": "Receptionist"
+          "en": "Receptionist",
+          "es": "recepcionista"
         },
         {
-          "en": "Refuse collector / dustman"
+          "en": "Refuse collector / dustman",
+          "es": "recolector de basura / basurero"
         },
         {
-          "en": "Reporter"
+          "en": "Reporter",
+          "es": "reportero / reportera"
         },
         {
-          "en": "Sailor"
+          "en": "Sailor",
+          "es": "marinero / marinera"
         },
         {
-          "en": "Saleswoman / salesman"
+          "en": "Saleswoman / salesman",
+          "es": "vendedora / vendedor"
         },
         {
-          "en": "Scientist"
+          "en": "Scientist",
+          "es": "científico / científica"
         },
         {
-          "en": "Secretary"
+          "en": "Secretary",
+          "es": "secretario / secretaria"
         },
         {
-          "en": "Shoemaker"
+          "en": "Shoemaker",
+          "es": "zapatero / zapatera"
         },
         {
-          "en": "Shop assistant"
+          "en": "Shop assistant",
+          "es": "dependiente / dependienta"
         },
         {
-          "en": "Singer"
+          "en": "Singer",
+          "es": "cantante"
         },
         {
-          "en": "Soldier"
+          "en": "Soldier",
+          "es": "soldado"
         },
         {
-          "en": "Sports instructor"
+          "en": "Sports instructor",
+          "es": "instructor / instructora deportiva"
         },
         {
-          "en": "Stockbroker"
+          "en": "Stockbroker",
+          "es": "corredor / corredora de bolsa"
         },
         {
-          "en": "Street vendor"
+          "en": "Street vendor",
+          "es": "vendedor / vendedora ambulante"
         },
         {
-          "en": "Surgeon"
+          "en": "Surgeon",
+          "es": "cirujano / cirujana"
         },
         {
-          "en": "Tailor / seamstress"
+          "en": "Tailor / seamstress",
+          "es": "sastre / costurera"
         },
         {
-          "en": "Taxi driver"
+          "en": "Taxi driver",
+          "es": "taxista"
         },
         {
-          "en": "Teacher"
+          "en": "Teacher",
+          "es": "profesor / maestra"
         },
         {
-          "en": "Therapist"
+          "en": "Therapist",
+          "es": "terapeuta"
         },
         {
-          "en": "Tourist guide"
+          "en": "Tourist guide",
+          "es": "guía turístico"
         },
         {
-          "en": "Traffic warden"
+          "en": "Traffic warden",
+          "es": "agente de tránsito"
         },
         {
-          "en": "Translator"
+          "en": "Translator",
+          "es": "traductor / traductora"
         },
         {
-          "en": "Travel agent"
+          "en": "Travel agent",
+          "es": "agente de viajes"
         },
         {
-          "en": "Veterinary"
+          "en": "Veterinary",
+          "es": "veterinario / veterinaria"
         },
         {
-          "en": "Waiter / waitress"
+          "en": "Waiter / waitress",
+          "es": "mesero / camarero (mesera / camarera)"
         },
         {
-          "en": "Window cleaner"
+          "en": "Window cleaner",
+          "es": "limpiacristales"
         }
       ]
     }

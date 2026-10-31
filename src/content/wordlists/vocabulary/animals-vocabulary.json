@@ -4,225 +4,299 @@
   "order": 6,
   "legacyPath": "lessons/vocabulary/animals-vocabulary.html",
   "intro": "In this section of English vocabulary, you will learn vocabulary about animals: mammals, birds, reptiles, amphibians, marine animals, insects and arachnids.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "Mammals vocabulary",
       "items": [
         {
-          "en": "Anteater"
+          "en": "Anteater",
+          "es": "oso hormiguero"
         },
         {
-          "en": "Antelope"
+          "en": "Antelope",
+          "es": "antílope"
         },
         {
-          "en": "Armadillo"
+          "en": "Armadillo",
+          "es": "armadillo"
         },
         {
-          "en": "Badger"
+          "en": "Badger",
+          "es": "tejón"
         },
         {
-          "en": "Bat"
+          "en": "Bat",
+          "es": "murciélago"
         },
         {
-          "en": "Bear"
+          "en": "Bear",
+          "es": "oso"
         },
         {
-          "en": "Beaver"
+          "en": "Beaver",
+          "es": "castor"
         },
         {
-          "en": "Boar"
+          "en": "Boar",
+          "es": "jabalí"
         },
         {
-          "en": "Buck"
+          "en": "Buck",
+          "es": "macho (del ciervo o del conejo)"
         },
         {
-          "en": "Bullock"
+          "en": "Bullock",
+          "es": "novillo / buey"
         },
         {
-          "en": "Camel"
+          "en": "Camel",
+          "es": "camello"
         },
         {
-          "en": "Cat"
+          "en": "Cat",
+          "es": "gato"
         },
         {
-          "en": "Cheetah"
+          "en": "Cheetah",
+          "es": "guepardo"
         },
         {
-          "en": "Chimpanzee"
+          "en": "Chimpanzee",
+          "es": "chimpancé"
         },
         {
-          "en": "Chipmunk"
+          "en": "Chipmunk",
+          "es": "ardilla listada"
         },
         {
-          "en": "Cow"
+          "en": "Cow",
+          "es": "vaca"
         },
         {
-          "en": "Coyote"
+          "en": "Coyote",
+          "es": "coyote"
         },
         {
-          "en": "Dachshund"
+          "en": "Dachshund",
+          "es": "perro salchicha"
         },
         {
-          "en": "Deer"
+          "en": "Deer",
+          "es": "ciervo / venado"
         },
         {
-          "en": "Doe"
+          "en": "Doe",
+          "es": "cierva"
         },
         {
-          "en": "Dog"
+          "en": "Dog",
+          "es": "perro"
         },
         {
-          "en": "Elephant"
+          "en": "Elephant",
+          "es": "elefante"
         },
         {
-          "en": "Elk or moose"
+          "en": "Elk or moose",
+          "es": "alce"
         },
         {
-          "en": "Fawn"
+          "en": "Fawn",
+          "es": "cervatillo"
         },
         {
-          "en": "Fox"
+          "en": "Fox",
+          "es": "zorro"
         },
         {
-          "en": "Gazelle"
+          "en": "Gazelle",
+          "es": "gacela"
         },
         {
-          "en": "Gerbil"
+          "en": "Gerbil",
+          "es": "jerbo"
         },
         {
-          "en": "Gibbon"
+          "en": "Gibbon",
+          "es": "gibón"
         },
         {
-          "en": "Giraffe"
+          "en": "Giraffe",
+          "es": "jirafa"
         },
         {
-          "en": "Goat"
+          "en": "Goat",
+          "es": "cabra"
         },
         {
-          "en": "Gopher"
+          "en": "Gopher",
+          "es": "tuza"
         },
         {
-          "en": "Gorilla"
+          "en": "Gorilla",
+          "es": "gorila"
         },
         {
-          "en": "Guinea pig"
+          "en": "Guinea pig",
+          "es": "cobaya / cuy"
         },
         {
-          "en": "Hamster"
+          "en": "Hamster",
+          "es": "hámster"
         },
         {
-          "en": "Hare"
+          "en": "Hare",
+          "es": "liebre"
         },
         {
-          "en": "Hedgehog"
+          "en": "Hedgehog",
+          "es": "erizo"
         },
         {
-          "en": "Horse"
+          "en": "Horse",
+          "es": "caballo"
         },
         {
-          "en": "Hyena"
+          "en": "Hyena",
+          "es": "hiena"
         },
         {
-          "en": "Kangaroo"
+          "en": "Kangaroo",
+          "es": "canguro"
         },
         {
-          "en": "Koala"
+          "en": "Koala",
+          "es": "koala"
         },
         {
-          "en": "Leopard"
+          "en": "Leopard",
+          "es": "leopardo"
         },
         {
-          "en": "Lion"
+          "en": "Lion",
+          "es": "león"
         },
         {
-          "en": "Llama"
+          "en": "Llama",
+          "es": "llama"
         },
         {
-          "en": "Lynx"
+          "en": "Lynx",
+          "es": "lince"
         },
         {
-          "en": "Mammoth"
+          "en": "Mammoth",
+          "es": "mamut"
         },
         {
-          "en": "Mink"
+          "en": "Mink",
+          "es": "visón"
         },
         {
-          "en": "Mole"
+          "en": "Mole",
+          "es": "topo"
         },
         {
-          "en": "Mongoose"
+          "en": "Mongoose",
+          "es": "mangosta"
         },
         {
-          "en": "Monkey"
+          "en": "Monkey",
+          "es": "mono"
         },
         {
-          "en": "Mouse"
+          "en": "Mouse",
+          "es": "ratón"
         },
         {
-          "en": "Mule"
+          "en": "Mule",
+          "es": "mula"
         },
         {
-          "en": "Orangutan"
+          "en": "Orangutan",
+          "es": "orangután"
         },
         {
-          "en": "Otter"
+          "en": "Otter",
+          "es": "nutria"
         },
         {
-          "en": "Panda"
+          "en": "Panda",
+          "es": "panda"
         },
         {
-          "en": "Pig"
+          "en": "Pig",
+          "es": "cerdo"
         },
         {
-          "en": "Polar bear"
+          "en": "Polar bear",
+          "es": "oso polar"
         },
         {
-          "en": "Pony"
+          "en": "Pony",
+          "es": "poni"
         },
         {
-          "en": "Puma"
+          "en": "Puma",
+          "es": "puma"
         },
         {
-          "en": "Rabbit"
+          "en": "Rabbit",
+          "es": "conejo"
         },
         {
-          "en": "Raccoon"
+          "en": "Raccoon",
+          "es": "mapache"
         },
         {
-          "en": "Ram"
+          "en": "Ram",
+          "es": "carnero"
         },
         {
-          "en": "Rat"
+          "en": "Rat",
+          "es": "rata"
         },
         {
-          "en": "Reindeer"
+          "en": "Reindeer",
+          "es": "reno"
         },
         {
-          "en": "Rhinoceros"
+          "en": "Rhinoceros",
+          "es": "rinoceronte"
         },
         {
-          "en": "Sheep"
+          "en": "Sheep",
+          "es": "oveja"
         },
         {
-          "en": "Skunk"
+          "en": "Skunk",
+          "es": "mofeta / zorrillo"
         },
         {
-          "en": "Sloth"
+          "en": "Sloth",
+          "es": "perezoso (animal)"
         },
         {
-          "en": "Squirrel"
+          "en": "Squirrel",
+          "es": "ardilla"
         },
         {
-          "en": "Tiger"
+          "en": "Tiger",
+          "es": "tigre"
         },
         {
-          "en": "Weasel"
+          "en": "Weasel",
+          "es": "comadreja"
         },
         {
-          "en": "Wolf"
+          "en": "Wolf",
+          "es": "lobo"
         },
         {
-          "en": "Zebra"
+          "en": "Zebra",
+          "es": "cebra"
         }
       ]
     },
@@ -230,151 +304,200 @@
       "title": "Birds vocabulary",
       "items": [
         {
-          "en": "Albatross"
+          "en": "Albatross",
+          "es": "albatros"
         },
         {
-          "en": "Canary"
+          "en": "Canary",
+          "es": "canario"
         },
         {
-          "en": "Chicken"
+          "en": "Chicken",
+          "es": "pollo / gallina"
         },
         {
-          "en": "Crane"
+          "en": "Crane",
+          "es": "grulla"
         },
         {
-          "en": "Crow"
+          "en": "Crow",
+          "es": "cuervo"
         },
         {
-          "en": "Cuckoo"
+          "en": "Cuckoo",
+          "es": "cuco"
         },
         {
-          "en": "Dove"
+          "en": "Dove",
+          "es": "paloma (tórtola)"
         },
         {
-          "en": "Duck"
+          "en": "Duck",
+          "es": "pato"
         },
         {
-          "en": "Eagle"
+          "en": "Eagle",
+          "es": "águila"
         },
         {
-          "en": "Falcon"
+          "en": "Falcon",
+          "es": "halcón"
         },
         {
-          "en": "Finch"
+          "en": "Finch",
+          "es": "pinzón"
         },
         {
-          "en": "Flamingo"
+          "en": "Flamingo",
+          "es": "flamenco"
         },
         {
-          "en": "Goose"
+          "en": "Goose",
+          "es": "ganso / oca"
         },
         {
-          "en": "Gull"
+          "en": "Gull",
+          "es": "gaviota"
         },
         {
-          "en": "Hawk"
+          "en": "Hawk",
+          "es": "gavilán / halcón"
         },
         {
-          "en": "Hen"
+          "en": "Hen",
+          "es": "gallina"
         },
         {
-          "en": "Heron"
+          "en": "Heron",
+          "es": "garza"
         },
         {
-          "en": "Hornbill"
+          "en": "Hornbill",
+          "es": "cálao"
         },
         {
-          "en": "Hummingbird"
+          "en": "Hummingbird",
+          "es": "colibrí"
         },
         {
-          "en": "Jackdaw"
+          "en": "Jackdaw",
+          "es": "grajilla"
         },
         {
-          "en": "Kestrel"
+          "en": "Kestrel",
+          "es": "cernícalo"
         },
         {
-          "en": "Kingfisher"
+          "en": "Kingfisher",
+          "es": "martín pescador"
         },
         {
-          "en": "Kite"
+          "en": "Kite",
+          "es": "milano"
         },
         {
-          "en": "Kiwi"
+          "en": "Kiwi",
+          "es": "kiwi (ave)"
         },
         {
-          "en": "Mynah"
+          "en": "Mynah",
+          "es": "miná"
         },
         {
-          "en": "Nightingale"
+          "en": "Nightingale",
+          "es": "ruiseñor"
         },
         {
-          "en": "Ostrich"
+          "en": "Ostrich",
+          "es": "avestruz"
         },
         {
-          "en": "Owl"
+          "en": "Owl",
+          "es": "búho / lechuza"
         },
         {
-          "en": "Parrot"
+          "en": "Parrot",
+          "es": "loro"
         },
         {
-          "en": "Partridge"
+          "en": "Partridge",
+          "es": "perdiz"
         },
         {
-          "en": "Peacock"
+          "en": "Peacock",
+          "es": "pavo real"
         },
         {
-          "en": "Pelican"
+          "en": "Pelican",
+          "es": "pelícano"
         },
         {
-          "en": "Penguin"
+          "en": "Penguin",
+          "es": "pingüino"
         },
         {
-          "en": "Pigeon"
+          "en": "Pigeon",
+          "es": "paloma"
         },
         {
-          "en": "Quail"
+          "en": "Quail",
+          "es": "codorniz"
         },
         {
-          "en": "Robin"
+          "en": "Robin",
+          "es": "petirrojo"
         },
         {
-          "en": "Rooster"
+          "en": "Rooster",
+          "es": "gallo"
         },
         {
-          "en": "Skylark"
+          "en": "Skylark",
+          "es": "alondra"
         },
         {
-          "en": "Sparrow"
+          "en": "Sparrow",
+          "es": "gorrión"
         },
         {
-          "en": "Stork"
+          "en": "Stork",
+          "es": "cigüeña"
         },
         {
-          "en": "Swallow"
+          "en": "Swallow",
+          "es": "golondrina"
         },
         {
-          "en": "Swan"
+          "en": "Swan",
+          "es": "cisne"
         },
         {
-          "en": "Swift"
+          "en": "Swift",
+          "es": "vencejo"
         },
         {
-          "en": "Tailorbird"
+          "en": "Tailorbird",
+          "es": "pájaro sastre"
         },
         {
-          "en": "Turkey"
+          "en": "Turkey",
+          "es": "pavo"
         },
         {
-          "en": "Vulture"
+          "en": "Vulture",
+          "es": "buitre"
         },
         {
-          "en": "Weaver"
+          "en": "Weaver",
+          "es": "tejedor (pájaro)"
         },
         {
-          "en": "Woodpecker"
+          "en": "Woodpecker",
+          "es": "pájaro carpintero"
         },
         {
-          "en": "Wren"
+          "en": "Wren",
+          "es": "chochín"
         }
       ]
     },
@@ -382,88 +505,116 @@
       "title": "Reptiles vocabulary",
       "items": [
         {
-          "en": "Alligator"
+          "en": "Alligator",
+          "es": "caimán (aligátor)"
         },
         {
-          "en": "Anaconda"
+          "en": "Anaconda",
+          "es": "anaconda"
         },
         {
-          "en": "Black mamba"
+          "en": "Black mamba",
+          "es": "mamba negra"
         },
         {
-          "en": "Blindworm"
+          "en": "Blindworm",
+          "es": "lución"
         },
         {
-          "en": "Boa"
+          "en": "Boa",
+          "es": "boa"
         },
         {
-          "en": "Caiman"
+          "en": "Caiman",
+          "es": "caimán"
         },
         {
-          "en": "Chameleon"
+          "en": "Chameleon",
+          "es": "camaleón"
         },
         {
-          "en": "Cobra"
+          "en": "Cobra",
+          "es": "cobra"
         },
         {
-          "en": "Constrictor"
+          "en": "Constrictor",
+          "es": "serpiente constrictora"
         },
         {
-          "en": "Copperhead"
+          "en": "Copperhead",
+          "es": "cabeza de cobre (serpiente)"
         },
         {
-          "en": "Coral snake"
+          "en": "Coral snake",
+          "es": "serpiente coral"
         },
         {
-          "en": "Cottonmouth"
+          "en": "Cottonmouth",
+          "es": "mocasín de agua"
         },
         {
-          "en": "Crocodile"
+          "en": "Crocodile",
+          "es": "cocodrilo"
         },
         {
-          "en": "Gavialis"
+          "en": "Gavialis",
+          "es": "gavial"
         },
         {
-          "en": "Gecko"
+          "en": "Gecko",
+          "es": "geco / salamanquesa"
         },
         {
-          "en": "Gharial"
+          "en": "Gharial",
+          "es": "gavial"
         },
         {
-          "en": "Iguana"
+          "en": "Iguana",
+          "es": "iguana"
         },
         {
-          "en": "Lizard"
+          "en": "Lizard",
+          "es": "lagarto / lagartija"
         },
         {
-          "en": "Python"
+          "en": "Python",
+          "es": "pitón"
         },
         {
-          "en": "Rattlesnake"
+          "en": "Rattlesnake",
+          "es": "serpiente de cascabel"
         },
         {
-          "en": "Saurian"
+          "en": "Saurian",
+          "es": "saurio"
         },
         {
-          "en": "Sea snake"
+          "en": "Sea snake",
+          "es": "serpiente marina"
         },
         {
-          "en": "Skink"
+          "en": "Skink",
+          "es": "eslizón"
         },
         {
-          "en": "Taipan"
+          "en": "Taipan",
+          "es": "taipán"
         },
         {
-          "en": "Terrapin"
+          "en": "Terrapin",
+          "es": "tortuga de agua dulce"
         },
         {
-          "en": "Tortoise or turtle"
+          "en": "Tortoise or turtle",
+          "es": "tortuga"
         },
         {
-          "en": "Viper"
+          "en": "Viper",
+          "es": "víbora"
         },
         {
-          "en": "Worm lizard"
+          "en": "Worm lizard",
+          "es": "anfisbena (culebrilla ciega)"
         }
       ]
     },
@@ -471,37 +622,48 @@
       "title": "Amphibians vocabulary",
       "items": [
         {
-          "en": "Axolotl"
+          "en": "Axolotl",
+          "es": "ajolote"
         },
         {
-          "en": "Bullfrog"
+          "en": "Bullfrog",
+          "es": "rana toro"
         },
         {
-          "en": "Caecilian"
+          "en": "Caecilian",
+          "es": "cecilia"
         },
         {
-          "en": "Frog"
+          "en": "Frog",
+          "es": "rana"
         },
         {
-          "en": "Frogspawn"
+          "en": "Frogspawn",
+          "es": "huevos de rana"
         },
         {
-          "en": "Hyla"
+          "en": "Hyla",
+          "es": "rana arborícola"
         },
         {
-          "en": "Mudpuppy"
+          "en": "Mudpuppy",
+          "es": "necturo"
         },
         {
-          "en": "Newt"
+          "en": "Newt",
+          "es": "tritón"
         },
         {
-          "en": "Salamander"
+          "en": "Salamander",
+          "es": "salamandra"
         },
         {
-          "en": "Tadpole"
+          "en": "Tadpole",
+          "es": "renacuajo"
         },
         {
-          "en": "Toad"
+          "en": "Toad",
+          "es": "sapo"
         }
       ]
     },
@@ -509,112 +671,148 @@
       "title": "Marine animals vocabulary",
       "items": [
         {
-          "en": "Catfish"
+          "en": "Catfish",
+          "es": "bagre / pez gato"
         },
         {
-          "en": "Clams"
+          "en": "Clams",
+          "es": "almejas"
         },
         {
-          "en": "Clownfish"
+          "en": "Clownfish",
+          "es": "pez payaso"
         },
         {
-          "en": "Coral"
+          "en": "Coral",
+          "es": "coral"
         },
         {
-          "en": "Cormorant"
+          "en": "Cormorant",
+          "es": "cormorán"
         },
         {
-          "en": "Crab"
+          "en": "Crab",
+          "es": "cangrejo"
         },
         {
-          "en": "Cuttlefish"
+          "en": "Cuttlefish",
+          "es": "sepia"
         },
         {
-          "en": "Dolphin"
+          "en": "Dolphin",
+          "es": "delfín"
         },
         {
-          "en": "Eel"
+          "en": "Eel",
+          "es": "anguila"
         },
         {
-          "en": "Goldfish"
+          "en": "Goldfish",
+          "es": "pez dorado"
         },
         {
-          "en": "Jellyfish"
+          "en": "Jellyfish",
+          "es": "medusa"
         },
         {
-          "en": "Killer whale"
+          "en": "Killer whale",
+          "es": "orca"
         },
         {
-          "en": "Lobster"
+          "en": "Lobster",
+          "es": "langosta"
         },
         {
-          "en": "Narwhal"
+          "en": "Narwhal",
+          "es": "narval"
         },
         {
-          "en": "Octopus"
+          "en": "Octopus",
+          "es": "pulpo"
         },
         {
-          "en": "Otter"
+          "en": "Otter",
+          "es": "nutria"
         },
         {
-          "en": "Oyster"
+          "en": "Oyster",
+          "es": "ostra"
         },
         {
-          "en": "Pelican"
+          "en": "Pelican",
+          "es": "pelícano"
         },
         {
-          "en": "Piranha"
+          "en": "Piranha",
+          "es": "piraña"
         },
         {
-          "en": "Platypus"
+          "en": "Platypus",
+          "es": "ornitorrinco"
         },
         {
-          "en": "Prawn"
+          "en": "Prawn",
+          "es": "gamba / langostino"
         },
         {
-          "en": "Sea anemone"
+          "en": "Sea anemone",
+          "es": "anémona de mar"
         },
         {
-          "en": "Seahorse"
+          "en": "Seahorse",
+          "es": "caballito de mar"
         },
         {
-          "en": "Seal"
+          "en": "Seal",
+          "es": "foca"
         },
         {
-          "en": "Sea urchin"
+          "en": "Sea urchin",
+          "es": "erizo de mar"
         },
         {
-          "en": "Shark"
+          "en": "Shark",
+          "es": "tiburón"
         },
         {
-          "en": "Sea turtle"
+          "en": "Sea turtle",
+          "es": "tortuga marina"
         },
         {
-          "en": "Shell"
+          "en": "Shell",
+          "es": "concha"
         },
         {
-          "en": "Sea lion"
+          "en": "Sea lion",
+          "es": "león marino"
         },
         {
-          "en": "Shrimp"
+          "en": "Shrimp",
+          "es": "camarón"
         },
         {
-          "en": "Squid"
+          "en": "Squid",
+          "es": "calamar"
         },
         {
-          "en": "Starfish"
+          "en": "Starfish",
+          "es": "estrella de mar"
         },
         {
-          "en": "Sturgeon"
+          "en": "Sturgeon",
+          "es": "esturión"
         },
         {
-          "en": "Tuna"
+          "en": "Tuna",
+          "es": "atún"
         },
         {
-          "en": "Walrus"
+          "en": "Walrus",
+          "es": "morsa"
         },
         {
-          "en": "Whale"
+          "en": "Whale",
+          "es": "ballena"
         }
       ]
     },
@@ -622,109 +820,144 @@
       "title": "Insects vocabulary",
       "items": [
         {
-          "en": "Ant"
+          "en": "Ant",
+          "es": "hormiga"
         },
         {
-          "en": "Aphid"
+          "en": "Aphid",
+          "es": "pulgón"
         },
         {
-          "en": "Bed bug"
+          "en": "Bed bug",
+          "es": "chinche"
         },
         {
-          "en": "Bee"
+          "en": "Bee",
+          "es": "abeja"
         },
         {
-          "en": "Beetle"
+          "en": "Beetle",
+          "es": "escarabajo"
         },
         {
-          "en": "Bumblebee"
+          "en": "Bumblebee",
+          "es": "abejorro"
         },
         {
-          "en": "Butterfly"
+          "en": "Butterfly",
+          "es": "mariposa"
         },
         {
-          "en": "Caterpillar"
+          "en": "Caterpillar",
+          "es": "oruga"
         },
         {
-          "en": "Centipede"
+          "en": "Centipede",
+          "es": "ciempiés"
         },
         {
-          "en": "Cicada"
+          "en": "Cicada",
+          "es": "cigarra / chicharra"
         },
         {
-          "en": "Cockroach"
+          "en": "Cockroach",
+          "es": "cucaracha"
         },
         {
-          "en": "Cocoon"
+          "en": "Cocoon",
+          "es": "capullo"
         },
         {
-          "en": "Cricket"
+          "en": "Cricket",
+          "es": "grillo"
         },
         {
-          "en": "Dragonfly"
+          "en": "Dragonfly",
+          "es": "libélula"
         },
         {
-          "en": "Earwig"
+          "en": "Earwig",
+          "es": "tijereta"
         },
         {
-          "en": "Firefly"
+          "en": "Firefly",
+          "es": "luciérnaga"
         },
         {
-          "en": "Flea"
+          "en": "Flea",
+          "es": "pulga"
         },
         {
-          "en": "Fly"
+          "en": "Fly",
+          "es": "mosca"
         },
         {
-          "en": "Gadfly"
+          "en": "Gadfly",
+          "es": "tábano"
         },
         {
-          "en": "Grasshopper"
+          "en": "Grasshopper",
+          "es": "saltamontes"
         },
         {
-          "en": "Ladybug"
+          "en": "Ladybug",
+          "es": "mariquita"
         },
         {
-          "en": "Larva"
+          "en": "Larva",
+          "es": "larva"
         },
         {
-          "en": "Leaf insect"
+          "en": "Leaf insect",
+          "es": "insecto hoja"
         },
         {
-          "en": "Locust"
+          "en": "Locust",
+          "es": "langosta (insecto)"
         },
         {
-          "en": "Louse"
+          "en": "Louse",
+          "es": "piojo"
         },
         {
-          "en": "Maggot"
+          "en": "Maggot",
+          "es": "gusano (larva de mosca)"
         },
         {
-          "en": "Midge"
+          "en": "Midge",
+          "es": "jején"
         },
         {
-          "en": "Millipede"
+          "en": "Millipede",
+          "es": "milpiés"
         },
         {
-          "en": "Mosquito"
+          "en": "Mosquito",
+          "es": "mosquito"
         },
         {
-          "en": "Moth"
+          "en": "Moth",
+          "es": "polilla"
         },
         {
-          "en": "Nymph"
+          "en": "Nymph",
+          "es": "ninfa"
         },
         {
-          "en": "Praying mantis"
+          "en": "Praying mantis",
+          "es": "mantis religiosa"
         },
         {
-          "en": "Stick insect"
+          "en": "Stick insect",
+          "es": "insecto palo"
         },
         {
-          "en": "Termite"
+          "en": "Termite",
+          "es": "termita"
         },
         {
-          "en": "Wasp"
+          "en": "Wasp",
+          "es": "avispa"
         }
       ]
     },
@@ -732,19 +965,24 @@
       "title": "Arachnids vocabulary",
       "items": [
         {
-          "en": "Scorpion"
+          "en": "Scorpion",
+          "es": "escorpión / alacrán"
         },
         {
-          "en": "Spider"
+          "en": "Spider",
+          "es": "araña"
         },
         {
-          "en": "Tarantula"
+          "en": "Tarantula",
+          "es": "tarántula"
         },
         {
-          "en": "Tick"
+          "en": "Tick",
+          "es": "garrapata"
         },
         {
-          "en": "Water spider"
+          "en": "Water spider",
+          "es": "araña de agua"
         }
       ]
     }

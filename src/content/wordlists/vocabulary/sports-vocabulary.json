@@ -4,132 +4,175 @@
   "order": 10,
   "legacyPath": "lessons/vocabulary/sports-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the sports in English.",
+  "level": "A2",
+  "reviewed": false,
   "groups": [
     {
       "title": "Sports vocabulary",
       "items": [
         {
-          "en": "Aerobics"
+          "en": "Aerobics",
+          "es": "aeróbic"
         },
         {
-          "en": "Archery"
+          "en": "Archery",
+          "es": "tiro con arco"
         },
         {
-          "en": "Badminton"
+          "en": "Badminton",
+          "es": "bádminton"
         },
         {
-          "en": "Baseball"
+          "en": "Baseball",
+          "es": "béisbol"
         },
         {
-          "en": "Basketball"
+          "en": "Basketball",
+          "es": "baloncesto / básquetbol"
         },
         {
-          "en": "Biking"
+          "en": "Biking",
+          "es": "ciclismo"
         },
         {
-          "en": "Bowling"
+          "en": "Bowling",
+          "es": "bolos"
         },
         {
-          "en": "Boxing"
+          "en": "Boxing",
+          "es": "boxeo"
         },
         {
-          "en": "Canoeing"
+          "en": "Canoeing",
+          "es": "piragüismo / canotaje"
         },
         {
-          "en": "Dancing"
+          "en": "Dancing",
+          "es": "baile"
         },
         {
-          "en": "Fencing"
+          "en": "Fencing",
+          "es": "esgrima"
         },
         {
-          "en": "Fishing"
+          "en": "Fishing",
+          "es": "pesca"
         },
         {
-          "en": "Football (UK) / soccer (US)"
+          "en": "Football (UK) / soccer (US)",
+          "es": "fútbol"
         },
         {
-          "en": "Golf"
+          "en": "Golf",
+          "es": "golf"
         },
         {
-          "en": "Golfing"
+          "en": "Golfing",
+          "es": "jugar al golf"
         },
         {
-          "en": "Gymnastics"
+          "en": "Gymnastics",
+          "es": "gimnasia"
         },
         {
-          "en": "Handball"
+          "en": "Handball",
+          "es": "balonmano"
         },
         {
-          "en": "Hockey"
+          "en": "Hockey",
+          "es": "hockey"
         },
         {
-          "en": "Horseback riding"
+          "en": "Horseback riding",
+          "es": "equitación"
         },
         {
-          "en": "Ice hockey (UK) / hockey (US)"
+          "en": "Ice hockey (UK) / hockey (US)",
+          "es": "hockey sobre hielo"
         },
         {
-          "en": "Judo"
+          "en": "Judo",
+          "es": "judo"
         },
         {
-          "en": "Karate"
+          "en": "Karate",
+          "es": "kárate"
         },
         {
-          "en": "Kayaking"
+          "en": "Kayaking",
+          "es": "kayak"
         },
         {
-          "en": "Martial arts"
+          "en": "Martial arts",
+          "es": "artes marciales"
         },
         {
-          "en": "Motorcycling"
+          "en": "Motorcycling",
+          "es": "motociclismo"
         },
         {
-          "en": "Paddle boarding"
+          "en": "Paddle boarding",
+          "es": "paddle surf"
         },
         {
-          "en": "Parachuting"
+          "en": "Parachuting",
+          "es": "paracaidismo"
         },
         {
-          "en": "Running"
+          "en": "Running",
+          "es": "correr (running)"
         },
         {
-          "en": "Sailing"
+          "en": "Sailing",
+          "es": "vela (navegación)"
         },
         {
-          "en": "Scuba diving"
+          "en": "Scuba diving",
+          "es": "buceo"
         },
         {
-          "en": "Skateboarding"
+          "en": "Skateboarding",
+          "es": "skateboarding (patinar en monopatín)"
         },
         {
-          "en": "Skiing"
+          "en": "Skiing",
+          "es": "esquí"
         },
         {
-          "en": "Skydiving"
+          "en": "Skydiving",
+          "es": "paracaidismo en caída libre"
         },
         {
-          "en": "Snowboarding"
+          "en": "Snowboarding",
+          "es": "snowboard"
         },
         {
-          "en": "Taekwondo"
+          "en": "Taekwondo",
+          "es": "taekwondo"
         },
         {
-          "en": "Track and field"
+          "en": "Track and field",
+          "es": "atletismo"
         },
         {
-          "en": "Volleyball"
+          "en": "Volleyball",
+          "es": "voleibol"
         },
         {
-          "en": "Water polo"
+          "en": "Water polo",
+          "es": "waterpolo"
         },
         {
-          "en": "Weightlifting"
+          "en": "Weightlifting",
+          "es": "halterofilia / levantamiento de pesas"
         },
         {
-          "en": "Windsurfing"
+          "en": "Windsurfing",
+          "es": "windsurf"
         },
         {
-          "en": "Wrestling"
+          "en": "Wrestling",
+          "es": "lucha libre"
         }
       ]
     }

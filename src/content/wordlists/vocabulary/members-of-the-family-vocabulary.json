@@ -60,7 +60,8 @@
         },
         {
           "en": "Parents",
-          "es": "padres"
+          "es": "padres",
+          "falseFriend": "parientes"
         },
         {
           "en": "Husband",
