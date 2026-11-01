@@ -1,8 +1,15 @@
-import { Lightbulb } from "lucide-react";
+import { ArrowLeft, Lightbulb } from "lucide-react";
 import { useState, type FormEvent, type KeyboardEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { es } from "@/i18n/es";
-import { checkItem, emptyResponse, hasAnswer, type CheckResult, type ExerciseItem } from "../check";
+import {
+  checkItem,
+  emptyResponse,
+  hasAnswer,
+  type CheckResult,
+  type ExerciseItem,
+  type ItemResponse,
+} from "../check";
 import { Feedback } from "./feedback";
 import { ItemView } from "./item-view";
 import { finalResult, type ItemRecord, type Mode } from "./logic";
@@ -14,13 +21,17 @@ type Props = {
   mode: Mode;
   seed: string;
   isLast: boolean;
+  /** Respuesta con la que empieza (al volver a una pregunta del examen) */
+  initialResponse?: ItemResponse;
   onDone: (record: ItemRecord) => void;
+  /** Volver a la pregunta anterior (solo en examen); recibe lo escrito hasta ahora */
+  onBack?: (response: ItemResponse) => void;
 };
 
 // Un ítem en pantalla. El player lo monta con key={item.id}: al pasar al siguiente,
-// React crea uno nuevo y todo este estado empieza de cero.
-export function ItemStep({ item, mode, seed, isLast, onDone }: Props) {
-  const [response, setResponse] = useState(() => emptyResponse(item));
+// React crea uno nuevo y todo este estado empieza de cero (o con initialResponse).
+export function ItemStep({ item, mode, seed, isLast, initialResponse, onDone, onBack }: Props) {
+  const [response, setResponse] = useState(() => initialResponse ?? emptyResponse(item));
   const [result, setResult] = useState<CheckResult | null>(null);
   const [retried, setRetried] = useState(false);
   const [showHint, setShowHint] = useState(false);
@@ -96,7 +107,15 @@ export function ItemStep({ item, mode, seed, isLast, onDone }: Props) {
         {warnEmpty && <p className="text-sm text-muted-foreground">{t.emptyAnswer}</p>}
       </div>
 
-      <div className="flex justify-end">
+      <div className="flex flex-wrap justify-between gap-3">
+        {onBack ? (
+          <Button type="button" variant="outline" size="lg" onClick={() => onBack(response)}>
+            <ArrowLeft data-icon="inline-start" aria-hidden />
+            {t.previous}
+          </Button>
+        ) : (
+          <span />
+        )}
         {/* Botones distintos (key) para que "Siguiente" reciba el foco al aparecer */}
         {locked || mode === "exam" ? (
           <Button key="next" type="submit" size="lg" autoFocus={locked}>
