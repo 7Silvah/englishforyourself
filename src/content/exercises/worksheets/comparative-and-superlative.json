@@ -31,7 +31,7 @@
     {
       "id": "2",
       "type": "fill-blank",
-      "text": "This necklace is the ___ (expensive) from the store.",
+      "text": "This necklace is the ___ (expensive) in the store.",
       "blanks": [
         {
           "answers": [

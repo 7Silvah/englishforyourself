@@ -123,7 +123,9 @@
         {
           "answers": [
             "would have known",
-            "’d have known"
+            "’d have known",
+            "would know",
+            "’d know"
           ]
         }
       ]
@@ -135,7 +137,8 @@
       "blanks": [
         {
           "answers": [
-            "wouldn’t have burned"
+            "wouldn’t have burned",
+            "wouldn’t have burnt"
           ]
         },
         {
@@ -162,7 +165,9 @@
         {
           "answers": [
             "would have been",
-            "’d have been"
+            "’d have been",
+            "would be",
+            "’d be"
           ]
         }
       ]
