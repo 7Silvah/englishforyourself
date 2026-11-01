@@ -1,0 +1,101 @@
+{
+  "title": "Relative clauses: review",
+  "titleEs": "Oraciones de relativo: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "oraciones-de-relativo",
+  "topics": [
+    "relative-clauses"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I don't like people ___ are rude.",
+      "options": [
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": 0,
+      "explanationEs": "Personas: who."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "That's the man ___ wife works with my mother.",
+      "options": [
+        "whose",
+        "who",
+        "who's"
+      ],
+      "answer": 0,
+      "explanationEs": "La mujer de ese hombre: whose (cuyo)."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "The film that we saw was great.",
+      "answer": true,
+      "explanationEs": "Sin comas, that vale para cosas."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Paris, that is the capital of France, is beautiful.",
+      "answer": false,
+      "explanationEs": "Con comas no se usa that: Paris, which is the capital of France, is beautiful."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "The cake you made was delicious."
+      ],
+      "distractors": [
+        "it"
+      ],
+      "explanationEs": "El relativo objeto se puede quitar (the cake that you made), pero no se repite it."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "The hotel ___ we stayed was near the beach.",
+      "blanks": [
+        {
+          "answers": [
+            "where"
+          ]
+        }
+      ],
+      "explanationEs": "El lugar donde nos quedamos: where."
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "Do you know anyone ___ can fix my computer?",
+      "blanks": [
+        {
+          "answers": [
+            "who",
+            "that"
+          ]
+        }
+      ],
+      "explanationEs": "Una persona: who (o that)."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "The car who I bought is red.",
+      "wrong": "who",
+      "answers": [
+        "which",
+        "that"
+      ],
+      "explanationEs": "Para una cosa, which (o that), no who."
+    }
+  ]
+}

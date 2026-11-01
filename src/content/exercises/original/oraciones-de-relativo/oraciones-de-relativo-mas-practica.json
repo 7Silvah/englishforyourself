@@ -1,0 +1,149 @@
+{
+  "title": "Relative clauses: more practice",
+  "titleEs": "Oraciones de relativo: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "oraciones-de-relativo",
+  "topics": [
+    "relative-clauses"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "A dentist is a person",
+          "right": "who looks after your teeth."
+        },
+        {
+          "left": "A library is a place",
+          "right": "where you can borrow books."
+        },
+        {
+          "left": "A key is a thing",
+          "right": "which opens a door."
+        },
+        {
+          "left": "An orphan is a child",
+          "right": "whose parents have died."
+        },
+        {
+          "left": "A chef is someone",
+          "right": "who cooks in a restaurant."
+        }
+      ],
+      "explanationEs": "Who para personas, which para cosas, where para lugares y whose para decir de quién es algo."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "who",
+          "labelEs": "personas",
+          "items": [
+            "the teacher",
+            "my neighbour",
+            "the doctor",
+            "a friend"
+          ]
+        },
+        {
+          "label": "which",
+          "labelEs": "cosas",
+          "items": [
+            "the car",
+            "my phone",
+            "the film",
+            "a book"
+          ]
+        }
+      ],
+      "explanationEs": "Who para personas y which para cosas. That vale para las dos cuando no hay comas."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "La chica que vive arriba es actriz.",
+      "answers": [
+        "The girl who lives upstairs is an actress.",
+        "The girl that lives upstairs is an actress."
+      ],
+      "explanationEs": "Que, para una persona, es who (o that). Actriz lleva artículo en inglés: an actress."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "This is the house where I grew up.",
+      "explanationEs": "Un lugar donde pasó algo: where."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Relative pronouns",
+      "columns": [
+        "Pronoun"
+      ],
+      "rows": [
+        {
+          "header": "the man ___ called you",
+          "cells": [
+            {
+              "answers": [
+                "who",
+                "that"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "the car ___ I bought",
+          "cells": [
+            {
+              "answers": [
+                "which",
+                "that"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "the city ___ I live",
+          "cells": [
+            {
+              "answers": [
+                "where"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "the boy ___ dog bit me",
+          "cells": [
+            {
+              "answers": [
+                "whose"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Personas: who; cosas: which (that vale para las dos); lugares: where; de quién: whose."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "Is this the café where you met him?",
+      "options": [
+        "Is this the café where you met him?",
+        "Is this the café which you met him?",
+        "Is this the café when you met him?"
+      ],
+      "answer": 0,
+      "explanationEs": "Un lugar donde pasó algo: where."
+    }
+  ]
+}
