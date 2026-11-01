@@ -62,14 +62,18 @@ export function emptyResponse(item: ExerciseItem): ItemResponse {
 
 // ---------- Texto ----------
 
-/** Quita lo que no cambia el significado: espacios, comillas tipográficas, mayúsculas y el punto final */
+/**
+ * Quita lo que no cambia el significado: espacios, comillas tipográficas, mayúsculas, las
+ * comas (en un dictado no se oyen; «Yes I do» = «Yes, I do») y el punto final
+ */
 export function normalize(text: string): string {
   return text
     .replace(/[‘’ʼ´`]/g, "'")
     .replace(/[“”]/g, '"')
     .toLowerCase()
+    .replace(/,/g, " ")
     .replace(/\s+/g, " ")
-    .replace(/ ([.,!?;:])/g, "$1")
+    .replace(/ ([.!?;:])/g, "$1")
     .trim()
     .replace(/[.!?]+$/, "")
     .trim();
@@ -89,11 +93,16 @@ const CONTRACTIONS: [RegExp, string][] = [
   [/'ll\b/g, " will"],
 ];
 
+// n't seguido del sujeto (tag questions y preguntas negativas: "aren't you", "don't they")
+// no se desarrolla: "are not you" no es inglés.
+const INVERTED = /n't(?= (?:i|you|he|she|it|we|they)\b)/g;
+const KEPT = "n\u0000t";
+
 /** Forma canónica para comparar: normalizada y con las contracciones desarrolladas */
 export function canonical(text: string): string {
-  let result = normalize(text);
+  let result = normalize(text).replace(INVERTED, KEPT);
   for (const [pattern, full] of CONTRACTIONS) result = result.replace(pattern, full);
-  return result.replace(/\s+/g, " ").trim();
+  return result.replaceAll(KEPT, "n't").replace(/\s+/g, " ").trim();
 }
 
 /** Distancia de edición contando también el intercambio de dos letras seguidas (teh → the) */
@@ -279,7 +288,18 @@ export function checkItem(item: ExerciseItem, response: ItemResponse): CheckResu
       const found = right(
         response.token !== null && wrongTokenIndices(item).includes(response.token),
       );
-      const fixed = checkText(response.text, item.answers);
+      // Vale escribir el fragmento corregido entero o cambiar solo la palabra tocada (vacío =
+      // borrarla) si así la frase queda bien: "She can to drive" se arregla quitando "to".
+      let fixed = checkText(response.text, item.answers);
+      if (fixed !== "correct" && response.token !== null) {
+        const words = sentenceTokens(item.sentence);
+        words.splice(response.token, 1, ...sentenceTokens(response.text));
+        const whole = checkText(
+          words.join(" "),
+          item.answers.map((answer) => item.sentence.replace(item.wrong, answer)),
+        );
+        if (whole !== "wrong") fixed = whole;
+      }
       return { status: combine([found, fixed]), parts: [found, fixed] };
     }
     case "match": {

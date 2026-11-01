@@ -9,6 +9,7 @@ import {
   getExerciseSet,
   getLessonByPath,
   getPrevNextUnit,
+  getUnits,
   type ExerciseSetEntry,
   type UnitEntry,
 } from "@/content";
@@ -16,7 +17,7 @@ import type { Attempt } from "@/features/progress/logic";
 import { useProgressStore } from "@/features/progress/store";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
-import { MASTERY, unitStatus } from "./logic";
+import { MASTERY, shownStatus } from "./logic";
 import { UnitStatusBadge } from "./unit-status-badge";
 
 const t = es.course;
@@ -75,6 +76,7 @@ function SetGroup({
 // objetivos → explicación, comparación y errores (MDX) → práctica → worksheet → repaso → biblioteca
 export function UnitView({ unit, Content }: { unit: UnitEntry; Content: Content }) {
   const attempts = useProgressStore((state) => state.attempts);
+  const placement = useProgressStore((state) => state.placement?.unit ?? null);
   const { meta } = unit;
   const review = meta.review ? getExerciseSet(meta.review) : undefined;
   const reviewBest = review ? attempts[review.id]?.best : undefined;
@@ -90,7 +92,7 @@ export function UnitView({ unit, Content }: { unit: UnitEntry; Content: Content 
         <div className="flex flex-wrap items-center gap-2 pt-2">
           <Badge variant="secondary">{t.unitN(meta.number)}</Badge>
           <Badge variant="secondary">{meta.level}</Badge>
-          <UnitStatusBadge status={unitStatus(meta, attempts)} />
+          <UnitStatusBadge status={shownStatus(unit, getUnits(), attempts, placement)} />
           <span lang="en" className="text-sm text-muted-foreground">
             {meta.title}
           </span>

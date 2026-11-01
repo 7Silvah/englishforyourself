@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Attempt } from "@/features/progress/logic";
-import { levelRange, recommendedUnit, unitSequence, unitStatus } from "./logic";
+import { levelRange, recommendedUnit, shownStatus, unitSequence, unitStatus } from "./logic";
 
 const unit = {
   guided: ["u-guiada"],
@@ -61,5 +61,30 @@ describe("levelRange", () => {
 
   it("varios niveles, del más bajo al más alto, aunque no vengan en orden", () => {
     expect(levelRange(["A2", "B2", "B1"])).toBe("A2–B2");
+  });
+});
+
+describe("con la prueba de nivel", () => {
+  const units = [
+    { slug: "a", meta: { review: "a-repaso" } },
+    { slug: "b", meta: { review: "b-repaso" } },
+    { slug: "c", meta: { review: "c-repaso" } },
+  ];
+
+  it("la recomendada empieza en la unidad de la prueba", () => {
+    expect(recommendedUnit(units, {}, "b")?.slug).toBe("b");
+    expect(recommendedUnit(units, { "b-repaso": attempt(90) }, "b")?.slug).toBe("c");
+  });
+
+  it("si todo lo posterior está dominado, vuelve a la primera sin dominar", () => {
+    const attempts = { "b-repaso": attempt(90), "c-repaso": attempt(90) };
+    expect(recommendedUnit(units, attempts, "b")?.slug).toBe("a");
+  });
+
+  it("las anteriores sin empezar se muestran como vistas; las empezadas, no", () => {
+    expect(shownStatus(units[0]!, units, {}, "c")).toBe("seen");
+    expect(shownStatus(units[2]!, units, {}, "c")).toBe("new");
+    expect(shownStatus(units[0]!, units, { "a-repaso": attempt(50) }, "c")).not.toBe("seen");
+    expect(shownStatus(units[0]!, units, {}, null)).toBe("new");
   });
 });

@@ -1,18 +1,21 @@
 import { Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import { getUnits, type UnitEntry } from "@/content";
 import type { UnitBlock } from "@/content/schema";
 import { useProgressStore } from "@/features/progress/store";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
-import { levelRange, recommendedUnit, unitStatus } from "./logic";
+import { levelRange, recommendedUnit, shownStatus } from "./logic";
 import { UnitStatusBadge } from "./unit-status-badge";
 
 // Mapa del curso: todas las unidades por bloque, con su estado y la recomendada
 export function CourseMap() {
   const attempts = useProgressStore((state) => state.attempts);
+  const placement = useProgressStore((state) => state.placement?.unit ?? null);
   const units = getUnits();
-  const recommended = recommendedUnit(units, attempts);
+  const recommended = recommendedUnit(units, attempts, placement);
+  const placed = units.find((u) => u.slug === placement);
 
   const blocks = new Map<UnitBlock, UnitEntry[]>();
   for (const unit of units)
@@ -20,7 +23,19 @@ export function CourseMap() {
 
   return (
     <div className="space-y-10">
-      <p className="max-w-3xl text-muted-foreground">{es.course.intro}</p>
+      <div className="max-w-3xl space-y-3">
+        <p className="text-muted-foreground">{es.course.intro}</p>
+        <div className="flex flex-wrap items-center gap-3 rounded-xl border bg-card p-4">
+          <p className="flex-1">
+            {placed
+              ? es.course.placementDone(placed.meta.number, placed.meta.titleEs)
+              : es.course.placementCta}
+          </p>
+          <Link to="/prueba-de-nivel" className={buttonVariants({ variant: "outline" })}>
+            {placed ? es.course.placementRetry : es.course.placementStart}
+          </Link>
+        </div>
+      </div>
       {[...blocks].map(([block, blockUnits]) => (
         <section key={block} aria-labelledby={`block-${block}`} className="space-y-4">
           <h2 id={`block-${block}`} className="font-heading text-xl font-semibold">
@@ -54,7 +69,7 @@ export function CourseMap() {
                         {unit.meta.summaryEs}
                       </span>
                       <span className="flex flex-wrap gap-2 pt-1">
-                        <UnitStatusBadge status={unitStatus(unit.meta, attempts)} />
+                        <UnitStatusBadge status={shownStatus(unit, units, attempts, placement)} />
                         {isRecommended && <Badge>{es.course.recommended}</Badge>}
                       </span>
                     </span>

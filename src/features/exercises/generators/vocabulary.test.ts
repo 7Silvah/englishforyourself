@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { ExerciseSet } from "../schema";
 import { checkItem } from "../check";
-import { generateVocabularySet, type VocabWord } from "./vocabulary";
+import { generateVocabularySet, sameMeaning, type VocabWord } from "./vocabulary";
 
 const words: VocabWord[] = [
   { en: "Red", es: "rojo" },
@@ -53,5 +53,62 @@ describe("generateVocabularySet", () => {
     expect(generateVocabularySet("C", "A1", words, "z")).toEqual(
       generateVocabularySet("C", "A1", words, "z"),
     );
+  });
+});
+
+describe("sameMeaning", () => {
+  it("dos palabras con alguna traducción en común, o la misma palabra", () => {
+    expect(
+      sameMeaning({ en: "Grateful", es: "agradecido" }, { en: "Thankful", es: "agradecido" }),
+    ).toBe(true);
+    expect(sameMeaning({ en: "Cake", es: "pastel / tarta" }, { en: "Tart", es: "tarta" })).toBe(
+      true,
+    );
+    expect(sameMeaning({ en: "Hand", es: "mano" }, { en: "Hand", es: "mano" })).toBe(true);
+  });
+
+  it("las aclaraciones entre paréntesis no cuentan", () => {
+    expect(
+      sameMeaning({ en: "Sloth", es: "perezoso (animal)" }, { en: "Lazy", es: "perezoso" }),
+    ).toBe(true);
+    expect(
+      sameMeaning({ en: "Kiwi", es: "kiwi (ave)" }, { en: "Dove", es: "paloma (tórtola)" }),
+    ).toBe(false);
+  });
+});
+
+describe("distractores", () => {
+  // Muchos sinónimos: si uno sale como distractor del otro, la pregunta tiene dos respuestas
+  const synonyms: VocabWord[] = [
+    { en: "Afraid", es: "asustado / con miedo" },
+    { en: "Frightened", es: "asustado" },
+    { en: "Grateful", es: "agradecido" },
+    { en: "Thankful", es: "agradecido" },
+    { en: "Shy", es: "tímido" },
+    { en: "Timid", es: "tímido" },
+    { en: "Bashful", es: "vergonzoso / tímido" },
+    { en: "Angry", es: "enojado / enfadado" },
+    { en: "Mad", es: "enojado (EE. UU.) / loco" },
+    { en: "Happy", es: "feliz" },
+  ];
+
+  it("ninguna opción incorrecta comparte traducción con la correcta, ni en el emparejar", () => {
+    for (const seed of ["a", "b", "c", "d", "e", "f", "g", "h"])
+      for (const item of generateVocabularySet("Feelings", "A2", synonyms, seed).items) {
+        if (item.type === "multiple-choice") {
+          const word = synonyms.find((w) => w.en === item.prompt || w.es === item.prompt);
+          if (!word) throw new Error("palabra no encontrada");
+          for (const option of item.options.slice(1)) {
+            const other = synonyms.find((w) => w.en === option || w.es === option);
+            if (other) expect(sameMeaning(word, other)).toBe(false);
+          }
+        }
+        if (item.type === "match")
+          for (const [i, p] of item.pairs.entries())
+            for (const q of item.pairs.slice(i + 1))
+              expect(sameMeaning({ en: p.left, es: p.right }, { en: q.left, es: q.right })).toBe(
+                false,
+              );
+      }
   });
 });

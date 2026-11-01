@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/layout/page-header";
 import { getLessonByPath } from "@/content";
 import { FlashcardDecks } from "@/features/flashcards/flashcard-decks";
 import { FlashcardSession } from "@/features/flashcards/flashcard-session";
-import { cardKey } from "@/features/flashcards/logic";
+import { deckCards } from "@/features/flashcards/logic";
 import { es } from "@/i18n/es";
 import { pageTitle } from "@/lib/page-title";
 
@@ -21,10 +21,9 @@ export const Route = createFileRoute("/practicar/flashcards")({
     if (!lesson || lesson.translatedCount === 0) throw notFound();
     const loaded = await lesson.load();
     if (loaded.kind !== "wordlist") throw notFound();
-    const cards = loaded.list.groups.flatMap((g) =>
-      g.items.flatMap((w) =>
-        w.es ? [{ key: cardKey(lesson.path, w.en), en: w.en, es: w.es }] : [],
-      ),
+    const cards = deckCards(
+      lesson.path,
+      loaded.list.groups.flatMap((g) => g.items),
     );
     return {
       crumb: `${es.flashcards.title} · ${lesson.meta.title}`,

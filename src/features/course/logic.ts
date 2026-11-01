@@ -36,12 +36,35 @@ export function unitStatus(meta: UnitSets, attempts: Record<string, Attempt>): U
   return unitSequence(meta).some((id) => attempts[id]) ? "started" : "new";
 }
 
-/** La unidad recomendada es la primera que aún no dominas. El curso no bloquea ninguna. */
-export function recommendedUnit<T extends { meta: UnitSets }>(
+/**
+ * La unidad recomendada es la primera que aún no dominas, a partir de la que recomendó la
+ * prueba de nivel si la hiciste. El curso no bloquea ninguna.
+ */
+export function recommendedUnit<T extends { slug: string; meta: UnitSets }>(
   units: readonly T[],
   attempts: Record<string, Attempt>,
+  placement: string | null = null,
 ): T | undefined {
-  return units.find((u) => unitStatus(u.meta, attempts) !== "mastered");
+  const notMastered = (u: T) => unitStatus(u.meta, attempts) !== "mastered";
+  const start = Math.max(
+    0,
+    units.findIndex((u) => u.slug === placement),
+  );
+  return units.slice(start).find(notMastered) ?? units.find(notMastered);
+}
+
+/** Estado que se muestra: como unitStatus, pero las anteriores a la prueba de nivel sin empezar cuentan como vistas */
+export type ShownStatus = UnitStatus | "seen";
+
+export function shownStatus<T extends { slug: string; meta: UnitSets }>(
+  unit: T,
+  units: readonly T[],
+  attempts: Record<string, Attempt>,
+  placement: string | null,
+): ShownStatus {
+  const status = unitStatus(unit.meta, attempts);
+  const placed = units.findIndex((u) => u.slug === placement);
+  return status === "new" && placed > units.indexOf(unit) ? "seen" : status;
 }
 
 /** Niveles de un bloque para su título: "A1" o, si mezcla niveles, "A2–B2" */

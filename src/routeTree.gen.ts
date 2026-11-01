@@ -16,6 +16,7 @@ import { Route as BuscarRouteImport } from './routes/buscar'
 import { Route as CursoRouteRouteImport } from './routes/curso/route'
 import { Route as EjerciciosRouteRouteImport } from './routes/ejercicios/route'
 import { Route as ProgresoRouteImport } from './routes/progreso'
+import { Route as PruebaDeNivelRouteImport } from './routes/prueba-de-nivel'
 import { Route as RepasoRouteImport } from './routes/repaso'
 import { Route as BibliotecaIndexRouteImport } from './routes/biblioteca/index'
 import { Route as BibliotecaSectionRouteRouteImport } from './routes/biblioteca/$section/route'
@@ -67,6 +68,11 @@ const EjerciciosRouteRoute = EjerciciosRouteRouteImport.update({
 const ProgresoRoute = ProgresoRouteImport.update({
   id: '/progreso',
   path: '/progreso',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PruebaDeNivelRoute = PruebaDeNivelRouteImport.update({
+  id: '/prueba-de-nivel',
+  path: '/prueba-de-nivel',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RepasoRoute = RepasoRouteImport.update({
@@ -163,6 +169,7 @@ export interface FileRoutesByFullPath {
   '/acerca': typeof AcercaRoute
   '/buscar': typeof BuscarRoute
   '/progreso': typeof ProgresoRoute
+  '/prueba-de-nivel': typeof PruebaDeNivelRoute
   '/repaso': typeof RepasoRoute
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
@@ -186,6 +193,7 @@ export interface FileRoutesByTo {
   '/acerca': typeof AcercaRoute
   '/buscar': typeof BuscarRoute
   '/progreso': typeof ProgresoRoute
+  '/prueba-de-nivel': typeof PruebaDeNivelRoute
   '/repaso': typeof RepasoRoute
   '/curso/$unidad': typeof CursoUnidadRoute
   '/dev/revision': typeof DevRevisionRoute
@@ -211,6 +219,7 @@ export interface FileRoutesById {
   '/acerca': typeof AcercaRoute
   '/buscar': typeof BuscarRoute
   '/progreso': typeof ProgresoRoute
+  '/prueba-de-nivel': typeof PruebaDeNivelRoute
   '/repaso': typeof RepasoRoute
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
@@ -239,6 +248,7 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/buscar'
     | '/progreso'
+    | '/prueba-de-nivel'
     | '/repaso'
     | '/biblioteca/$section'
     | '/ejercicios/$id'
@@ -262,6 +272,7 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/buscar'
     | '/progreso'
+    | '/prueba-de-nivel'
     | '/repaso'
     | '/curso/$unidad'
     | '/dev/revision'
@@ -286,6 +297,7 @@ export interface FileRouteTypes {
     | '/acerca'
     | '/buscar'
     | '/progreso'
+    | '/prueba-de-nivel'
     | '/repaso'
     | '/biblioteca/$section'
     | '/ejercicios/$id'
@@ -313,6 +325,7 @@ export interface RootRouteChildren {
   AcercaRoute: typeof AcercaRoute
   BuscarRoute: typeof BuscarRoute
   ProgresoRoute: typeof ProgresoRoute
+  PruebaDeNivelRoute: typeof PruebaDeNivelRoute
   RepasoRoute: typeof RepasoRoute
   DevRevisionRoute: typeof DevRevisionRoute
   DevUiRoute: typeof DevUiRoute
@@ -370,6 +383,13 @@ declare module '@tanstack/react-router' {
       path: '/progreso'
       fullPath: '/progreso'
       preLoaderRoute: typeof ProgresoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/prueba-de-nivel': {
+      id: '/prueba-de-nivel'
+      path: '/prueba-de-nivel'
+      fullPath: '/prueba-de-nivel'
+      preLoaderRoute: typeof PruebaDeNivelRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/repaso': {
@@ -575,6 +595,7 @@ const rootRouteChildren: RootRouteChildren = {
   AcercaRoute: AcercaRoute,
   BuscarRoute: BuscarRoute,
   ProgresoRoute: ProgresoRoute,
+  PruebaDeNivelRoute: PruebaDeNivelRoute,
   RepasoRoute: RepasoRoute,
   DevRevisionRoute: DevRevisionRoute,
   DevUiRoute: DevUiRoute,
