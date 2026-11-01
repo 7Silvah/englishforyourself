@@ -17,29 +17,42 @@ function parse(part: string): { role?: Role; text: string } {
 }
 
 /**
- * Fórmula de una estructura en bloques de colores, con un ejemplo alineado debajo:
+ * Fórmula de una estructura: cada palabra del ejemplo en una ficha de color y, debajo,
+ * el papel que cumple:
  *   <Formula parts={["subj:Sujeto", "verb:verbo", "obj:complemento"]}
  *            example={["She", "works", "here."]} />
- * El color nunca va solo: cada bloque lleva su nombre escrito.
+ * El color nunca va solo: cada ficha lleva su papel escrito. Sin ejemplo, la ficha
+ * muestra el papel.
  */
 export function Formula({ parts, example }: { parts: string[]; example?: string[] }) {
   return (
-    <figure className="my-6 overflow-x-auto pb-1">
-      <div className="flex w-max items-stretch gap-2">
+    <figure className="my-6 overflow-x-auto rounded-xl border bg-card p-4">
+      <div className="flex w-max items-start gap-2">
         {parts.map((part, i) => {
           const { role, text } = parse(part);
-          const chip = cn(
-            "rounded-md border px-3 py-1.5 text-center",
-            role ? roles[role] : "border-transparent px-0 text-muted-foreground",
-          );
+          if (!role)
+            return (
+              <span key={i} className="py-1.5 text-muted-foreground">
+                {example?.[i] ?? text}
+              </span>
+            );
+          const word = example?.[i];
           return (
-            <div key={i} className="flex flex-col gap-2">
-              <span className={cn(chip, "font-semibold")}>{text}</span>
-              {example && (
-                <span lang="en" className={chip}>
-                  {example[i] ?? ""}
+            <div key={i} className="flex items-start gap-2">
+              {i > 0 && (
+                <span aria-hidden className="py-1.5 text-muted-foreground">
+                  +
                 </span>
               )}
+              <div className="flex flex-col items-center gap-1.5">
+                <span
+                  lang={word ? "en" : undefined}
+                  className={cn("rounded-full border px-3.5 py-1.5 font-medium", roles[role])}
+                >
+                  {word ?? text}
+                </span>
+                {word && <span className="text-xs font-medium text-muted-foreground">{text}</span>}
+              </div>
             </div>
           );
         })}

@@ -14,3 +14,6 @@ src/routeTree.gen.ts
 # Contenido generado por la migración y editado a mano (formato propio)
 src/content/**/*.json
 src/content/**/*.mdx
+
+# Referencias de diseño externas: se guardan tal cual las trajo el dueño del repo
+docs/ref-ideas/
