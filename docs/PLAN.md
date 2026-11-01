@@ -14,7 +14,7 @@
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
-| 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
+| 4 · Gramática intermedia (B1–B2) | F16–F17 | 🟨 en curso — F16 🟨 (tanda 1 de 3) |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
@@ -22,24 +22,24 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 31/10/2026, con R4 terminada en la rama `r4-revision-traducciones` (sale
-de `desarrollo`, que ya tiene R3). Con R4 se cierra la revisión crítica del contenido.*
+*Actualizado el 01/11/2026, con la tanda 1 de F16 (unidades 17–20) en la rama
+`f16-unidades-17-20`, que sale de `desarrollo` con R1–R4, `/dev/revision` y U1.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `r4-revision-traducciones` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Abrir el PR de `f16-unidades-17-20` hacia `desarrollo`** y fusionarlo con la CI en verde.
 - [ ] **Decidir los hallazgos del motor** de R1–R4 (§11, «R1», «R3» y «R4»): la coma en
   `check.ts`, el `error-correction` con varias palabras, las tag questions sin contraer, los
   distractores sinónimos en el vocabulario y las palabras repetidas en las flashcards. No bloquean.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
-- [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–16, sus sets,
+- [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–20, sus sets,
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: Etapa 4, F16 (unidades B1–B2)**, con sets de muestra según D1 (§14) y la
-página `/dev/revision`. Antes conviene decidir los hallazgos del motor: arreglarlos después
-obliga a revisar otra vez los ítems que se resolvieron con respuestas extra.
+**2. Siguiente: F16, tanda 2** (condicionales, voz pasiva, gerundio e infinitivo, tag
+questions). Antes conviene decidir los hallazgos del motor: arreglarlos después obliga a
+revisar otra vez los ítems que se resolvieron con respuestas extra.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -892,8 +892,13 @@ hacen en commits propios; `reviewed` sigue en `false` (D1).
 
 ### Etapa 4 — Gramática intermedia
 #### F16 — Unidades B1–B2
-- [ ] Unidades de §6.1 (intermedio), con todos los worksheets restantes enlazados.
-- [ ] Sets de muestra por unidad, como en F6 y F9 (guiada, libre, más práctica y repaso, al menos 6 tipos), `reviewed: false` (D1).
+Doce unidades (17–28), una por tema de §6.1, en tres tandas con su propia rama para
+revisarlas por partes (D1).
+- [x] **Tanda 1, los tiempos** (`f16-unidades-17-20`): 17 pasado continuo (A2), 18 presente perfecto + continuo y su contraste con el pasado simple (B1), 19 pasado perfecto + continuo (B1), 20 futuro continuo, perfecto y perfecto continuo (B2). Enlaza 16 worksheets. Cada unidad con 4 sets de muestra (26 ítems, 12 tipos), `reviewed: false`.
+  - Revisión crítica antes del commit: *could* y *such a* no se han enseñado (fuera de la unidad 19); distractores que podían ser correctos (*was losing*, *will finish my degree*, *I didn't finish yet* en inglés de EE. UU.); el sujeto de la fórmula de la unidad 20 incluía la expresión de tiempo. Se aceptan *rained* (unidad 19), *have waited* (18) y *will have worked* (20), y *traveling* con una l.
+  - El mapa del curso muestra el rango de niveles del bloque (*Intermedio · A2–B2*): el pasado continuo es A2. 195 tests.
+- [ ] **Tanda 2**: condicionales (0–3), voz pasiva, gerundio e infinitivo, tag questions (7 worksheets).
+- [ ] **Tanda 3**: estilo indirecto, oraciones de relativo, modales de obligación y consejo, deseos y arrepentimientos.
 - [x] Página `/dev/revision` (solo en desarrollo): sets y listas con `reviewed: false`, agrupados por unidad (con su papel: guiada, libre, worksheet, repaso), los sets fuera de las unidades y las listas por sección, con enlaces para jugarlos, Flashcards y Practicar. Adelantada a petición del dueño del repo. 193 tests.
 #### F17 — Prueba de nivel
 - [ ] Unos 30 ítems escalonados A1→B2; recomienda una unidad y marca como vistas las anteriores.
