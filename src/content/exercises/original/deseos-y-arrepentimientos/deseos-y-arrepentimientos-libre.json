@@ -1,0 +1,86 @@
+{
+  "title": "Wishes and regrets: free practice",
+  "titleEs": "Deseos y arrepentimientos: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B2",
+  "unit": "deseos-y-arrepentimientos",
+  "topics": [
+    "wishes",
+    "regrets"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I wish I ___ (to know) the answer.",
+      "blanks": [
+        {
+          "answers": [
+            "knew"
+          ]
+        }
+      ],
+      "explanationEs": "Deseo sobre el presente: wish + pasado (knew)."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "We missed the train. I wish we ___ (to leave) earlier.",
+      "blanks": [
+        {
+          "answers": [
+            "had left",
+            "’d left"
+          ]
+        }
+      ],
+      "explanationEs": "Arrepentimiento del pasado: wish + had + participio."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "I failed the exam. I ___ (should / study) more.",
+      "blanks": [
+        {
+          "answers": [
+            "should have studied",
+            "should’ve studied"
+          ]
+        }
+      ],
+      "explanationEs": "Lo que habría sido correcto hacer: should have + participio."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "You should have told me.",
+      "to": "neg",
+      "answers": [
+        "You shouldn't have told me."
+      ],
+      "explanationEs": "Negativa: shouldn't have + participio."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "I should have called her.",
+      "to": "q",
+      "answers": [
+        "Should I have called her?"
+      ],
+      "explanationEs": "Pregunta: should + sujeto + have + participio."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "I wish I have a bigger house.",
+      "wrong": "have",
+      "answers": [
+        "had"
+      ],
+      "explanationEs": "Wish sobre el presente: el verbo en pasado (had)."
+    }
+  ]
+}
