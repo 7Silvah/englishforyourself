@@ -13,6 +13,7 @@
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
+| U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -141,6 +142,21 @@ revisa con ojo crítico, como si lo hubiera escrito otra persona.
 
 **Terminada cuando:** los cuatro bloques están revisados, las correcciones evidentes
 están hechas en commits propios y las dudas quedan apuntadas en §11 para el profesional.
+
+### Refresco visual (entre la revisión y la Etapa 4)
+Ideas tomadas de `docs/ref-ideas/language_learning_ui_refresh` (decidido por el dueño del
+repo): solo lo que ayuda a un principiante. Fuera, a propósito: el tema solo oscuro, las
+fuentes nuevas (Plus Jakarta Sans, JetBrains Mono, Material Symbols), la jerga técnica, los
+XP y el objeto en morado (la regla fija lo quiere gris).
+#### U1 — Superficies, fichas y corrección
+- [x] Tokens (`index.css`): superficies por capas con un ligero tono pizarra (fondo → tarjeta → zona elevada) y bordes finos en lugar de sombras, en claro y en oscuro. Contraste AA comprobado (texto, texto secundario, enlaces y bloques sobre fondo, tarjeta y muted).
+- [x] `Formula`: cada palabra del ejemplo en una ficha redondeada con su papel debajo, «+» entre fichas y todo en una tarjeta. Sin cambios en el contenido (los 19 usos traen ejemplo).
+- [x] `Modes`: una tarjeta por modo con franja superior de su color, etiqueta en ficha y la frase grande; 3 por fila o de 2 en 2 (nunca una sola en la última fila).
+- [x] Tense Lab: bloques redondeados, como en `Formula`.
+- [x] Corrección del player: icono en un círculo a la izquierda y el texto a su lado.
+- [x] `/dev/ui` muestra los componentes reales (no copias) y las superficies. 193 tests.
+
+**Listo cuando:** `/dev/ui`, una unidad y un ejercicio se ven con el estilo nuevo en claro y en oscuro, con contraste AA. ✅
 
 ### Etapa 4 — Gramática intermedia (B1–B2)
 **Objetivo:** continuar el curso con los temas intermedios y orientar a quien
