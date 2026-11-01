@@ -14,7 +14,7 @@
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
-| 4 · Gramática intermedia (B1–B2) | F16–F17 | 🟨 en curso — F16 🟨 (tanda 2 de 3) |
+| 4 · Gramática intermedia (B1–B2) | F16–F17 | 🟨 en curso — F16 ✅ F17 ⬜ |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
@@ -22,23 +22,23 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 01/11/2026, con la tanda 2 de F16 (unidades 21–25) en la rama
-`f16-unidades-21-25`, que sale de `desarrollo` con la tanda 1.*
+*Actualizado el 01/11/2026, con F16 terminada: la tanda 3 (unidades 26–29) está en la rama
+`f16-unidades-26-29`, que sale de `desarrollo` con las tandas 1 y 2.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `f16-unidades-21-25` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Abrir el PR de `f16-unidades-26-29` hacia `desarrollo`** y fusionarlo con la CI en verde.
 - [ ] **Decidir los hallazgos del motor** de R1–R4 (§11, «R1», «R3» y «R4»): la coma en
   `check.ts`, el `error-correction` con varias palabras, las tag questions sin contraer, los
   distractores sinónimos en el vocabulario y las palabras repetidas en las flashcards. No bloquean.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
-- [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–25, sus sets,
+- [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–29, sus sets,
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: F16, tanda 3** (estilo indirecto, relativos, modales, deseos), que cierra
-F16; después F17 (prueba de nivel). Antes conviene decidir los hallazgos del motor: arreglarlos después obliga a
+**2. Siguiente: F17, la prueba de nivel** (unos 30 ítems escalonados A1→B2 que recomiendan
+una unidad y marcan como vistas las anteriores). Con ella termina la Etapa 4. Antes conviene decidir los hallazgos del motor: arreglarlos después obliga a
 revisar otra vez los ítems que se resolvieron con respuestas extra.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
@@ -900,7 +900,11 @@ Trece unidades (17–29), una por tema de §6.1 salvo los condicionales, que van
 - [x] **Tanda 2** (`f16-unidades-21-25`): 21 condicionales 0 y 1, 22 condicionales 2 y 3 (introduce *would*), 23 voz pasiva, 24 gerundio e infinitivo, 25 tag questions; todas B1. Enlaza los 7 worksheets que quedaban: **los 35 worksheets tienen ya unidad** (primer criterio de la Etapa 4). 26 ítems y 12 tipos por unidad, `reviewed: false`.
   - Tag questions y el hallazgo de R3 (`check.ts` acepta *are not you*): en los tipos que se escriben solo hay tags afirmativas; las negativas van en opción múltiple, fichas, emparejar y escuchar. Si se arregla el motor, se pueden añadir tags negativas escritas.
   - Revisión crítica: distractores que podían ser correctos (*Coffee grows*, *would help*), segundo condicional usado antes de enseñarlo (un distractor de audio de la unidad 21), el error común poco realista *isn't your brother?* (→ *Maria…, isn't it?*), la fórmula de tag questions pintaba la frase entera como sujeto, *look forward to* + -ing fuera (to preposición, sin explicar). Las traducciones aceptan todas las variantes (*were/was*, *would/'d*, con y sin coma, en los dos órdenes).
-- [ ] **Tanda 3**: 26 estilo indirecto, 27 oraciones de relativo, 28 modales de obligación y consejo, 29 deseos y arrepentimientos (sin worksheets).
+- [x] **Tanda 3** (`f16-unidades-26-29`): 26 oraciones de relativo (B1), 27 modales de obligación y consejo (B1), 28 estilo indirecto (B2), 29 deseos y arrepentimientos (B2). Sin worksheets. El orden cambia respecto a §6.1 para no adelantar estructuras: relativos y modales antes que el estilo indirecto (que necesita *could*, presentado ahí como pasado de *can*) y los deseos al final (usan *should have*).
+  - Criterios para no dar por mala una respuesta correcta: *who / which* y *that* son intercambiables sin comas (that nunca es distractor ahí y los huecos aceptan las dos); *must* y *have to* nunca van juntos como opciones; en estilo indirecto, si lo dicho sigue siendo verdad el tiempo puede no retroceder, así que o lo fija el contexto (*last month…*, *the next day*) o se aceptan las dos formas. *Who's / whose* suenan igual: no van en escuchar. *Stop* + -ing (no enseñado) fuera.
+  - La unidad 27 tenía aclaraciones en español dentro de `Modes` (que marca el texto como inglés): ahora muestra la conjugación de *have to*. 1116 ítems en 152 sets; 195 tests.
+
+**Listo cuando:** las 13 unidades intermedias están en el curso con sus sets de muestra y todos los worksheets tienen unidad. ✅
 - [x] Página `/dev/revision` (solo en desarrollo): sets y listas con `reviewed: false`, agrupados por unidad (con su papel: guiada, libre, worksheet, repaso), los sets fuera de las unidades y las listas por sección, con enlaces para jugarlos, Flashcards y Practicar. Adelantada a petición del dueño del repo. 193 tests.
 #### F17 — Prueba de nivel
 - [ ] Unos 30 ítems escalonados A1→B2; recomienda una unidad y marca como vistas las anteriores.
