@@ -78,7 +78,10 @@
       "id": "4",
       "type": "dictation",
       "text": "Don't be late, please.",
-      "explanationEs": "Imperativo negativo: Don't + verbo."
+      "explanationEs": "Imperativo negativo: Don't + verbo.",
+      "answers": [
+        "Don't be late please."
+      ]
     },
     {
       "id": "5",
@@ -124,7 +127,7 @@
         "I can to swim."
       ],
       "answer": 0,
-      "explanationEs": "Can't es la negativa. Escucha la t final y la vocal más larga."
+      "explanationEs": "Can't es la negativa. Fíjate en la vocal: en can't suena fuerte y clara; en can, débil y rápida (la t final casi no se oye)."
     }
   ]
 }
