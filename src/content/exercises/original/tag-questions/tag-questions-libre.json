@@ -1,0 +1,87 @@
+{
+  "title": "Tag questions: free practice",
+  "titleEs": "Las tag questions: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "tag-questions",
+  "topics": [
+    "tag-questions",
+    "questions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "She doesn't like coffee, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "does she"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con doesn't: tag afirmativa con does + she."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "They haven't finished yet, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "have they"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con haven't: tag afirmativa, have they?"
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "You won't tell anyone, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "will you"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con won't: tag afirmativa con will."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "Tom didn't call, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "did he"
+          ]
+        }
+      ],
+      "explanationEs": "Pasado negativo: did + el pronombre de Tom (he)."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "He hasn't eaten, has she?",
+      "wrong": "she",
+      "answers": [
+        "he"
+      ],
+      "explanationEs": "En la tag va el pronombre del sujeto de la frase: he."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "They don't live here, does they?",
+      "wrong": "does",
+      "answers": [
+        "do"
+      ],
+      "explanationEs": "Con they, el auxiliar del presente es do: do they?"
+    }
+  ]
+}
