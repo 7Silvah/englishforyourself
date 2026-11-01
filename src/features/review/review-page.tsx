@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { getExerciseSet, getUnits } from "@/content";
-import type { UnitBlock } from "@/content/schema";
+import { groupByLevel } from "@/features/course/logic";
 import type { ExerciseItem, ExerciseSet } from "@/features/exercises/schema";
 import { ExerciseSession } from "@/features/exercises/player/exercise-session";
 import { useProgressStore } from "@/features/progress/store";
@@ -44,9 +44,7 @@ export function ReviewPage() {
   const [loading, setLoading] = useState(false);
 
   const pending = pendingMistakes(mistakes);
-  const blocks = new Map<UnitBlock, ReturnType<typeof getUnits>>();
-  for (const unit of getUnits())
-    blocks.set(unit.meta.block, [...(blocks.get(unit.meta.block) ?? []), unit]);
+  const blocks = groupByLevel(getUnits());
 
   // Se cargan los sets al pulsar: es la respuesta a un clic, no hace falta un efecto
   async function start(
@@ -132,12 +130,12 @@ export function ReviewPage() {
         </h2>
         <p className="text-sm text-muted-foreground">{t.mixed.explain}</p>
         <ul className="space-y-3">
-          {[...blocks].map(([block, units]) => {
+          {blocks.map(([level, units]) => {
             const mastered = masteredUnits(units, attempts);
-            const name = es.course.blocks[block];
+            const name = es.course.blockTitle(level, es.course.levels[level].name);
             return (
               <li
-                key={block}
+                key={level}
                 className="flex flex-wrap items-center gap-3 rounded-lg bg-muted/40 p-3"
               >
                 <span className="font-medium">{name}</span>

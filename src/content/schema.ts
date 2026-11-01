@@ -74,15 +74,12 @@ export type LessonMeta = ArticleMeta | WordListMeta;
 
 // ---------- Unidades del curso ----------
 
-export const UnitBlock = z.enum(["fundamentos-1", "fundamentos-2", "intermedio"]);
-export type UnitBlock = z.infer<typeof UnitBlock>;
-
 // Frontmatter de src/content/course/units/NN-slug.mdx (docs/PLAN.md §6.3).
 // El slug de la URL sale del nombre del archivo; el número debe coincidir con NN.
 // Los campos de sets siguen el orden de la plantilla de §6.2.
+// Los bloques del curso son los niveles: `level` agrupa las unidades (F17b).
 export const UnitMeta = z.strictObject({
   number: z.number().int().positive(),
-  block: UnitBlock,
   title: z.string().min(1), // en inglés
   titleEs: z.string().min(1),
   summaryEs: z.string().min(1), // una frase para el mapa del curso

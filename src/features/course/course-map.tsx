@@ -1,25 +1,21 @@
 import { Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { getUnits, type UnitEntry } from "@/content";
-import type { UnitBlock } from "@/content/schema";
+import { getUnits } from "@/content";
 import { useProgressStore } from "@/features/progress/store";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
-import { levelRange, recommendedUnit, shownStatus } from "./logic";
+import { groupByLevel, recommendedUnit, shownStatus } from "./logic";
 import { UnitStatusBadge } from "./unit-status-badge";
 
-// Mapa del curso: todas las unidades por bloque, con su estado y la recomendada
+// Mapa del curso: todas las unidades por nivel (un bloque por nivel), con su estado y la recomendada
 export function CourseMap() {
   const attempts = useProgressStore((state) => state.attempts);
   const placement = useProgressStore((state) => state.placement?.unit ?? null);
   const units = getUnits();
   const recommended = recommendedUnit(units, attempts, placement);
   const placed = units.find((u) => u.slug === placement);
-
-  const blocks = new Map<UnitBlock, UnitEntry[]>();
-  for (const unit of units)
-    blocks.set(unit.meta.block, [...(blocks.get(unit.meta.block) ?? []), unit]);
+  const current = recommended?.meta.level;
 
   return (
     <div className="space-y-10">
@@ -27,6 +23,11 @@ export function CourseMap() {
         <p className="text-muted-foreground">{es.course.intro}</p>
         <div className="flex flex-wrap items-center gap-3 rounded-xl border bg-card p-4">
           <p className="flex-1">
+            {current && (
+              <strong className="block">
+                {es.course.youAreIn(current, es.course.levels[current].name)}
+              </strong>
+            )}
             {placed
               ? es.course.placementDone(placed.meta.number, placed.meta.titleEs)
               : es.course.placementCta}
@@ -36,11 +37,16 @@ export function CourseMap() {
           </Link>
         </div>
       </div>
-      {[...blocks].map(([block, blockUnits]) => (
-        <section key={block} aria-labelledby={`block-${block}`} className="space-y-4">
-          <h2 id={`block-${block}`} className="font-heading text-xl font-semibold">
-            {es.course.blocks[block]} · {levelRange(blockUnits.map((u) => u.meta.level))}
-          </h2>
+      {groupByLevel(units).map(([level, blockUnits]) => (
+        <section key={level} aria-labelledby={`block-${level}`} className="space-y-4">
+          <div className="space-y-1">
+            <h2 id={`block-${level}`} className="font-heading text-xl font-semibold">
+              {es.course.blockTitle(level, es.course.levels[level].name)}
+            </h2>
+            <p className="max-w-3xl text-sm text-muted-foreground">
+              {es.course.levels[level].goal}
+            </p>
+          </div>
           <ol className="grid gap-3 md:grid-cols-2">
             {blockUnits.map((unit) => {
               const isRecommended = unit === recommended;

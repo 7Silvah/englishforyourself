@@ -26,7 +26,6 @@ function unit(
     slug,
     meta: {
       number: 1,
-      block: "fundamentos-1",
       title: slug,
       titleEs: slug,
       summaryEs: "—",
