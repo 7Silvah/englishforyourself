@@ -33,7 +33,13 @@ describe("normalize", () => {
   });
 
   it("quita el espacio antes de la puntuación", () => {
-    expect(normalize("Yes , I do")).toBe("yes, i do");
+    expect(normalize("Is it ready ?")).toBe("is it ready");
+  });
+
+  it("ignora las comas, que en un dictado no se oyen", () => {
+    expect(normalize("Yes, I do")).toBe("yes i do");
+    expect(normalize("Yes , I do")).toBe("yes i do");
+    expect(normalize("I was tired,so I left")).toBe("i was tired so i left");
   });
 });
 
@@ -51,6 +57,13 @@ describe("canonical", () => {
     ["’ve been learning", "have been learning"],
   ])("%s → %s", (input, expected) => {
     expect(canonical(input)).toBe(expected);
+  });
+
+  it("no desarrolla n't delante del sujeto (tags y preguntas negativas)", () => {
+    expect(canonical("aren't you")).toBe("aren't you");
+    expect(canonical("Don't they like it?")).toBe("don't they like it");
+    expect(canonical("won't she")).toBe("won't she");
+    expect(canonical("She doesn't drive, does she?")).toBe("she does not drive does she");
   });
 
   it("no desarrolla las contracciones ambiguas 's y 'd", () => {
@@ -73,6 +86,11 @@ describe("editDistance", () => {
 });
 
 describe("checkText", () => {
+  it("una tag sin contraer no vale; una frase sin coma, sí", () => {
+    expect(checkText("are not you", ["aren't you"])).toBe("wrong");
+    expect(checkText("Yes I do", ["Yes, I do."])).toBe("correct");
+  });
+
   it("acepta cualquiera de las respuestas válidas", () => {
     expect(checkText("traveled", ["travelled", "traveled"])).toBe("correct");
     expect(checkText("Travelled.", ["travelled"])).toBe("correct");
@@ -166,6 +184,26 @@ describe("checkItem", () => {
     expect(wrongWord.status).toBe("wrong");
     const typo = checkItem(errorCorrection, { type: "error-correction", token: 1, text: "doesnt" });
     expect(typo.status).toBe("almost");
+  });
+
+  it("error-correction acepta cambiar o borrar solo la palabra tocada de un fragmento", () => {
+    const item = {
+      id: "1",
+      type: "error-correction" as const,
+      sentence: "She can to drive a truck.",
+      wrong: "can to drive",
+      answers: ["can drive"],
+    };
+    // Tocar "to" y dejarlo vacío: la frase queda bien
+    expect(checkItem(item, { type: "error-correction", token: 2, text: "" }).status).toBe(
+      "correct",
+    );
+    // Escribir el fragmento entero sigue valiendo
+    expect(checkItem(item, { type: "error-correction", token: 1, text: "can drive" }).status).toBe(
+      "correct",
+    );
+    // Borrar otra palabra del fragmento no arregla la frase
+    expect(checkItem(item, { type: "error-correction", token: 1, text: "" }).status).toBe("wrong");
   });
 
   it("una respuesta de otro tipo está mal", () => {

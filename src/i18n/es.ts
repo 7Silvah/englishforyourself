@@ -310,7 +310,8 @@ export const es = {
         },
       },
       errorCorrection: {
-        instruction: "Toca la palabra incorrecta y escribe cómo debería ser.",
+        instruction:
+          "Toca la palabra incorrecta y escribe cómo debería ser. Si la palabra sobra, deja la corrección vacía.",
         words: "Palabras de la frase",
         input: "Corrección",
         selectFirst: "Primero toca la palabra incorrecta.",
