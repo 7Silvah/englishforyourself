@@ -1,0 +1,157 @@
+{
+  "title": "Reported speech: more practice",
+  "titleEs": "Estilo indirecto: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B2",
+  "unit": "estilo-indirecto",
+  "topics": [
+    "reported-speech"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "\"I'm cold.\"",
+          "right": "She said she was cold."
+        },
+        {
+          "left": "\"I'll help you.\"",
+          "right": "She said she would help me."
+        },
+        {
+          "left": "\"I can drive.\"",
+          "right": "She said she could drive."
+        },
+        {
+          "left": "\"I saw the film.\"",
+          "right": "She said she had seen the film."
+        },
+        {
+          "left": "\"Don't be late.\"",
+          "right": "She told me not to be late."
+        }
+      ],
+      "explanationEs": "Cada tiempo da un paso atrás: am → was, will → would, can → could, saw → had seen. Las órdenes, con told + not to."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "say",
+          "labelEs": "lo que se dice",
+          "items": [
+            "say hello",
+            "say goodbye",
+            "say sorry",
+            "say something"
+          ]
+        },
+        {
+          "label": "tell",
+          "labelEs": "a alguien, una historia",
+          "items": [
+            "tell me the truth",
+            "tell a story",
+            "tell a joke",
+            "tell him to wait"
+          ]
+        }
+      ],
+      "explanationEs": "Tell lleva casi siempre a quién (tell me) o va con story, joke y truth; say va sin persona."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Me preguntó si tenía hambre.",
+      "answers": [
+        "She asked me if I was hungry."
+      ],
+      "wordBank": [
+        "She",
+        "asked",
+        "me",
+        "if",
+        "I",
+        "was",
+        "hungry.",
+        "did",
+        "said"
+      ],
+      "explanationEs": "Pregunta de sí o no: asked + if + orden de afirmación. Tener hambre es be hungry."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "He told us not to worry.",
+      "explanationEs": "Orden negativa: told + persona + not to + verbo."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "One step back",
+      "columns": [
+        "Reported"
+      ],
+      "rows": [
+        {
+          "header": "am / is",
+          "cells": [
+            {
+              "answers": [
+                "was"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "will",
+          "cells": [
+            {
+              "answers": [
+                "would"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "can",
+          "cells": [
+            {
+              "answers": [
+                "could"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "have finished",
+          "cells": [
+            {
+              "answers": [
+                "had finished"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Al contarlo, cada forma baja un escalón: am → was, will → would, can → could, have finished → had finished."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "She said she would call me.",
+      "options": [
+        "She said she would call me.",
+        "She said she will call me.",
+        "She said she could call me."
+      ],
+      "answer": 0,
+      "explanationEs": "Would: will un paso atrás (llamaría)."
+    }
+  ]
+}
