@@ -20,6 +20,25 @@ export type ItemDraft = ExerciseItem extends infer Item
 // Palabras que se pueden escuchar o dictar: sin variantes ni aclaraciones ("Lorry (UK) / truck (US)")
 const speakable = (w: VocabWord) => !/[()/]| or /.test(w.en);
 
+// Traducciones de una palabra, sin aclaraciones: "pastel / tarta (pie)" → ["pastel", "tarta"]
+function meanings(es: string): string[] {
+  return es
+    .replace(/\([^)]*\)/g, "")
+    .split(/[/,;]/)
+    .map((m) => m.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+/**
+ * ¿Dos palabras comparten alguna traducción (grateful / thankful = agradecido) o son la
+ * misma? Si una es la correcta, la otra no puede ser distractor: también sería correcta.
+ */
+export function sameMeaning(a: VocabWord, b: VocabWord): boolean {
+  if (a.en === b.en) return true;
+  const other = meanings(b.es);
+  return meanings(a.es).some((m) => other.includes(m));
+}
+
 /** Opciones distintas: la correcta más hasta 2 de otras palabras con distinto texto */
 export function options(correct: string, others: readonly string[]): string[] {
   const distractors = [...new Set(others)].filter((o) => o !== correct).slice(0, 2);
@@ -34,11 +53,13 @@ export function generateVocabularySet(
 ): ExerciseSet {
   const pool = seededShuffle(words, `vocab:${seed}`);
   const pick = (i: number) => pool[i % pool.length];
-  const others = (i: number) =>
-    seededShuffle(
-      pool.filter((_, n) => n !== i % pool.length),
+  const others = (i: number) => {
+    const word = pick(i);
+    return seededShuffle(
+      pool.filter((o) => word && !sameMeaning(word, o)),
       `${seed}:${i}`,
     );
+  };
   const audio = pool.filter(speakable);
   const drafts: ItemDraft[] = [];
   const add = (item: ItemDraft) => drafts.push(item);
@@ -64,7 +85,8 @@ export function generateVocabularySet(
 
   // Emparejar 4 palabras
   const pairs = pool.slice(5, 9);
-  if (new Set(pairs.map((p) => p.es)).size === pairs.length && pairs.length >= 2)
+  const distinct = pairs.every((p, i) => pairs.slice(i + 1).every((q) => !sameMeaning(p, q)));
+  if (distinct && pairs.length >= 2)
     add({
       type: "match",
       pairs: pairs.map((p) => ({ left: p.en, right: p.es })),
