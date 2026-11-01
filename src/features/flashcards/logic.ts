@@ -22,6 +22,23 @@ export function cardKey(listPath: string, en: string): string {
   return `${listPath}#${en}`;
 }
 
+/**
+ * Tarjetas de una lista: las palabras con traducción, una sola vez cada una. Una palabra
+ * puede estar en dos grupos (fork, en comedor y en cocina) y comparte clave: repetida, la
+ * sesión la mostraría dos veces y el contador de nuevas de la lista nunca llegaría a 0.
+ */
+export function deckCards(
+  listPath: string,
+  words: readonly { en: string; es?: string | undefined }[],
+): Card[] {
+  const cards = new Map<string, Card>();
+  for (const { en, es } of words) {
+    const key = cardKey(listPath, en);
+    if (es && !cards.has(key)) cards.set(key, { key, en, es });
+  }
+  return [...cards.values()];
+}
+
 function addDays(day: string, days: number): string {
   const [y = 0, m = 1, d = 1] = day.split("-").map(Number);
   return dayKey(new Date(y, m - 1, d + days));

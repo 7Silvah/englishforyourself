@@ -47,7 +47,8 @@ export function jsonMeta(data: Record<string, unknown>): Record<string, unknown>
         (n: number, g: { items?: unknown[] }) => n + (g.items?.length ?? 0),
         0,
       );
-      translatedCount = wordsOf(data).filter((w) => w.es).length;
+      // Distintas: una palabra repetida en dos grupos es una sola flashcard
+      translatedCount = new Set(wordsOf(data).flatMap((w) => (w.es ? [w.en] : []))).size;
     }
   }
   return { ...meta, itemCount, ...(translatedCount > 0 && { translatedCount }) };
