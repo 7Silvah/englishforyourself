@@ -11,150 +11,187 @@
       "items": [
         {
           "en": "Bin",
+          "es": "papelera / bote de basura",
           "level": "B1"
         },
         {
           "en": "Box",
+          "es": "caja",
           "level": "A2"
         },
         {
           "en": "Briefcase",
+          "es": "maletín / portafolios",
           "level": "C1"
         },
         {
           "en": "Bulletin board",
+          "es": "tablón de anuncios",
           "level": "C1"
         },
         {
           "en": "Calendar",
+          "es": "calendario",
           "level": "B1"
         },
         {
           "en": "Clipboard",
+          "es": "portapapeles / tabla con pinza",
           "level": "C1"
         },
         {
           "en": "Computer",
+          "es": "computadora / ordenador",
           "level": "A1"
         },
         {
           "en": "Copier",
+          "es": "fotocopiadora",
           "level": "C1"
         },
         {
           "en": "Cubicle",
+          "es": "cubículo",
           "level": "C1"
         },
         {
           "en": "Desk",
+          "es": "escritorio",
           "level": "A2"
         },
         {
           "en": "Drawer",
+          "es": "cajón",
           "level": "B1"
         },
         {
           "en": "Envelope",
+          "es": "sobre",
           "level": "A2"
         },
         {
           "en": "Fax machine",
+          "es": "fax",
           "level": "C1"
         },
         {
           "en": "File",
+          "es": "archivo / expediente",
           "level": "A2"
         },
         {
           "en": "File folder",
+          "es": "carpeta",
           "level": "C1"
         },
         {
           "en": "Filing cabinet",
+          "es": "archivador / archivero",
           "level": "B2"
         },
         {
           "en": "Keyboard",
+          "es": "teclado",
           "level": "B2"
         },
         {
           "en": "Marker",
+          "es": "rotulador / plumón / marcador",
           "level": "B2"
         },
         {
           "en": "Monitor",
+          "es": "monitor",
           "level": "B1"
         },
         {
           "en": "Mouse",
+          "es": "ratón / mouse",
           "level": "A2"
         },
         {
           "en": "Paperclip",
+          "es": "clip",
           "level": "C1"
         },
         {
           "en": "Pencil",
+          "es": "lápiz",
           "level": "A1"
         },
         {
           "en": "Pencil holder",
+          "es": "portalápices / lapicero",
           "level": "C1"
         },
         {
           "en": "Photocopier",
+          "es": "fotocopiadora",
           "level": "C1"
         },
         {
           "en": "Photocopy",
+          "es": "fotocopia",
           "level": "C1"
         },
         {
           "en": "Scanner",
+          "es": "escáner",
           "level": "C1"
         },
         {
           "en": "Scotch tape",
+          "es": "cinta adhesiva / celo / diurex",
           "level": "C1"
         },
         {
           "en": "Sheet of paper",
+          "es": "hoja de papel",
           "level": "B1"
         },
         {
           "en": "Shredder",
+          "es": "trituradora (de papel)",
           "level": "B1"
         },
         {
           "en": "Staple",
+          "es": "grapa",
           "level": "C1"
         },
         {
           "en": "Staple remover",
+          "es": "quitagrapas",
           "level": "C1"
         },
         {
           "en": "Stapler",
+          "es": "grapadora / engrapadora",
           "level": "C1"
         },
         {
           "en": "Tape",
+          "es": "cinta adhesiva",
           "level": "B1"
         },
         {
           "en": "Telephone",
+          "es": "teléfono",
           "level": "B1"
         },
         {
           "en": "Waste bin",
+          "es": "papelera / bote de basura",
           "level": "B2"
         },
         {
           "en": "Water cooler",
+          "es": "dispensador de agua",
           "level": "B2"
         },
         {
           "en": "White board",
+          "es": "pizarra blanca / pizarrón",
           "level": "A1"
         }
       ]

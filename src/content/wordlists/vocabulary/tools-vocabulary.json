@@ -11,154 +11,192 @@
       "items": [
         {
           "en": "Adjustable wrench",
+          "es": "llave ajustable / llave inglesa",
           "level": "C1"
         },
         {
           "en": "Anvil",
+          "es": "yunque",
           "level": "C1"
         },
         {
           "en": "Backsaw",
+          "es": "serrucho de costilla",
           "level": "C1"
         },
         {
           "en": "Bolt",
+          "es": "perno / tornillo",
           "level": "B2"
         },
         {
           "en": "Brace",
+          "es": "berbiquí",
           "level": "C1"
         },
         {
           "en": "Bradawl",
+          "es": "punzón / lezna",
           "level": "C1"
         },
         {
           "en": "Caulking gun",
+          "es": "pistola de silicona",
           "level": "C1"
         },
         {
           "en": "Chainsaw",
+          "es": "motosierra",
           "level": "C1"
         },
         {
           "en": "Chisel",
+          "es": "cincel / formón",
           "level": "C1"
         },
         {
           "en": "Coping saw",
+          "es": "segueta / sierra de calar manual",
           "level": "C1"
         },
         {
           "en": "Cutting pliers",
+          "es": "alicates de corte / pinzas de corte",
           "level": "C1"
         },
         {
           "en": "Drill",
+          "es": "taladro",
           "level": "B2"
         },
         {
           "en": "Drill bit",
+          "es": "broca",
           "level": "B2"
         },
         {
           "en": "Electric drill",
+          "es": "taladro eléctrico",
           "level": "B2"
         },
         {
           "en": "File",
+          "es": "lima",
           "level": "A2"
         },
         {
           "en": "Gimlet",
+          "es": "barrena",
           "level": "C1"
         },
         {
           "en": "Hacksaw",
+          "es": "sierra para metales",
           "level": "C1"
         },
         {
           "en": "Hammer",
+          "es": "martillo",
           "level": "B2"
         },
         {
           "en": "Handsaw",
+          "es": "serrucho",
           "level": "C1"
         },
         {
           "en": "Level",
+          "es": "nivel",
           "level": "A1"
         },
         {
           "en": "Mallet",
+          "es": "mazo",
           "level": "C1"
         },
         {
           "en": "Nail",
+          "es": "clavo",
           "level": "B1"
         },
         {
           "en": "Nut",
+          "es": "tuerca",
           "level": "B2"
         },
         {
           "en": "Pick",
+          "es": "pico",
           "level": "B1"
         },
         {
           "en": "Pipe wrench",
+          "es": "llave de tubo / llave Stillson",
           "level": "C1"
         },
         {
           "en": "Pliers",
+          "es": "alicates / pinzas",
           "level": "C1"
         },
         {
           "en": "Plunger",
+          "es": "desatascador / destapacaños",
           "level": "C1"
         },
         {
           "en": "Pocketknife",
+          "es": "navaja",
           "level": "C1"
         },
         {
           "en": "Screw",
+          "es": "tornillo",
           "level": "B1"
         },
         {
           "en": "Screwdriver",
+          "es": "destornillador / desarmador",
           "level": "C1"
         },
         {
           "en": "Shears",
+          "es": "tijeras de podar / cizalla",
           "level": "C1"
         },
         {
           "en": "Slip joint pliers",
+          "es": "alicates de junta deslizante",
           "level": "C1"
         },
         {
           "en": "Spanner / monkey wrench",
+          "es": "llave inglesa",
           "level": "C1"
         },
         {
           "en": "Stepladder",
+          "es": "escalera de tijera",
           "level": "C1"
         },
         {
           "en": "Tape measure",
+          "es": "cinta métrica / flexómetro",
           "level": "B1"
         },
         {
           "en": "Toolbox",
+          "es": "caja de herramientas",
           "level": "C1"
         },
         {
           "en": "Vise",
+          "es": "tornillo de banco",
           "level": "C1"
         },
         {
           "en": "Wrench",
+          "es": "llave (de tuercas)",
           "level": "C1"
         }
       ]

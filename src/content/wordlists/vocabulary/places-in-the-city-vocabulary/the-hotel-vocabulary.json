@@ -11,150 +11,188 @@
       "items": [
         {
           "en": "Amenities",
+          "es": "servicios / comodidades",
           "level": "C1"
         },
         {
           "en": "Arrival date",
+          "es": "fecha de llegada",
           "level": "B1"
         },
         {
           "en": "Baggage",
+          "es": "equipaje",
           "level": "C1"
         },
         {
           "en": "Bellboy",
+          "es": "botones",
           "level": "C1"
         },
         {
           "en": "Check-in",
+          "es": "registro de entrada / check-in",
           "level": "A2"
         },
         {
           "en": "Check-out",
+          "es": "salida / check-out",
           "level": "A1"
         },
         {
           "en": "Concierge",
+          "es": "conserje",
           "level": "C1"
         },
         {
           "en": "Departure date",
+          "es": "fecha de salida",
           "level": "B1"
         },
         {
           "en": "Dormitory",
+          "es": "dormitorio compartido",
           "level": "C1"
         },
         {
           "en": "Double room",
+          "es": "habitación doble (cama de matrimonio)",
           "level": "A1"
         },
         {
           "en": "Family room",
+          "es": "habitación familiar",
           "level": "A1"
         },
         {
           "en": "Guest",
+          "es": "huésped",
           "level": "A2"
         },
         {
           "en": "Hotel maid",
+          "es": "camarera de piso / recamarera",
           "level": "B2"
         },
         {
           "en": "Hotel manager",
+          "es": "gerente del hotel",
           "level": "A2"
         },
         {
           "en": "Ice machine",
+          "es": "máquina de hielo",
           "level": "A2"
         },
         {
           "en": "Indoor pool",
+          "es": "piscina cubierta / alberca techada",
           "level": "B2"
         },
         {
           "en": "Jacuzzi",
+          "es": "jacuzzi",
           "level": "C1"
         },
         {
           "en": "Key",
+          "es": "llave",
           "level": "A1"
         },
         {
           "en": "King-size bed",
+          "es": "cama extragrande / king size",
           "level": "A1"
         },
         {
           "en": "Lift (UK) / elevator (US)",
+          "es": "ascensor / elevador",
           "level": "A2"
         },
         {
           "en": "Lobby",
+          "es": "vestíbulo / lobby",
           "level": "B2"
         },
         {
           "en": "Pull out sofa",
+          "es": "sofá cama",
           "level": "B2"
         },
         {
           "en": "Reception / front desk",
+          "es": "recepción",
           "level": "B1"
         },
         {
           "en": "Receptionist",
+          "es": "recepcionista",
           "level": "A2"
         },
         {
           "en": "Registration form",
+          "es": "formulario de registro",
           "level": "B1"
         },
         {
           "en": "Reservation",
+          "es": "reserva / reservación",
           "level": "B2"
         },
         {
           "en": "Room number",
+          "es": "número de habitación",
           "level": "A1"
         },
         {
           "en": "Room service",
+          "es": "servicio a la habitación",
           "level": "A1"
         },
         {
           "en": "Sauna",
+          "es": "sauna",
           "level": "C1"
         },
         {
           "en": "Single bed",
+          "es": "cama individual",
           "level": "A1"
         },
         {
           "en": "Single room",
+          "es": "habitación individual",
           "level": "A1"
         },
         {
           "en": "Suitcase",
+          "es": "maleta",
           "level": "A2"
         },
         {
           "en": "Suite",
+          "es": "suite",
           "level": "B2"
         },
         {
           "en": "Twin room",
+          "es": "habitación con dos camas",
           "level": "B1"
         },
         {
           "en": "Vacancy",
-          "level": "C1"
+          "es": "habitación libre",
+          "level": "C1",
+          "note": "No vacancy = completo."
         },
         {
           "en": "Valet",
+          "es": "aparcacoches / valet",
           "level": "C1"
         },
         {
           "en": "Vending machine",
+          "es": "máquina expendedora",
           "level": "C1"
         }
       ]

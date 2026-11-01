@@ -11,110 +11,138 @@
       "items": [
         {
           "en": "A rash",
+          "es": "un sarpullido / una erupción (en la piel)",
           "level": "C1"
         },
         {
           "en": "Asthma",
+          "es": "asma",
           "level": "B1"
         },
         {
           "en": "Backache",
+          "es": "dolor de espalda",
           "level": "C1"
         },
         {
           "en": "Broken bone",
+          "es": "hueso roto / fractura",
           "level": "B1"
         },
         {
           "en": "Broken leg / arm",
+          "es": "pierna rota / brazo roto",
           "level": "A2"
         },
         {
           "en": "Bruise",
+          "es": "moretón / moratón",
           "level": "C1"
         },
         {
           "en": "Chickenpox",
+          "es": "varicela",
           "level": "C1"
         },
         {
           "en": "Chills",
+          "es": "escalofríos",
           "level": "C1"
         },
         {
           "en": "Cold",
+          "es": "resfriado / catarro",
           "level": "A1"
         },
         {
           "en": "Cough",
+          "es": "tos",
           "level": "A2"
         },
         {
           "en": "Diabetes",
+          "es": "diabetes",
           "level": "B2"
         },
         {
           "en": "Diarrhea",
-          "level": "C1"
+          "es": "diarrea",
+          "level": "C1",
+          "note": "Inglés de Estados Unidos; en el Reino Unido se escribe diarrhoea."
         },
         {
           "en": "Dizziness",
+          "es": "mareo",
           "level": "C1"
         },
         {
           "en": "Earache",
+          "es": "dolor de oído",
           "level": "C1"
         },
         {
           "en": "Fever",
+          "es": "fiebre",
           "level": "B1"
         },
         {
           "en": "Flu",
+          "es": "gripe / gripa",
           "level": "B1"
         },
         {
           "en": "Heart disease",
+          "es": "enfermedad del corazón / cardiopatía",
           "level": "A2"
         },
         {
           "en": "Injury",
+          "es": "lesión / herida",
           "level": "A2"
         },
         {
           "en": "Nausea",
+          "es": "náuseas",
           "level": "C1"
         },
         {
           "en": "Runny nose",
+          "es": "nariz que moquea / mocos",
           "level": "B1"
         },
         {
           "en": "Sore finger",
+          "es": "dedo dolorido",
           "level": "B2"
         },
         {
           "en": "Sore throat",
+          "es": "dolor de garganta",
           "level": "B2"
         },
         {
           "en": "Sprain",
+          "es": "esguince / torcedura",
           "level": "C1"
         },
         {
           "en": "Stomachache",
+          "es": "dolor de estómago / de barriga",
           "level": "C1"
         },
         {
           "en": "Sunburn",
+          "es": "quemadura solar",
           "level": "C1"
         },
         {
           "en": "The measles",
+          "es": "el sarampión",
           "level": "C1"
         },
         {
           "en": "Toothache",
+          "es": "dolor de muelas",
           "level": "A2"
         }
       ]
@@ -124,106 +152,133 @@
       "items": [
         {
           "en": "Antiseptic",
+          "es": "antiséptico",
           "level": "C1"
         },
         {
           "en": "Aspirin",
+          "es": "aspirina",
           "level": "A2"
         },
         {
           "en": "Blood test",
+          "es": "análisis de sangre",
           "level": "A2"
         },
         {
           "en": "Capsule",
+          "es": "cápsula",
           "level": "C1"
         },
         {
           "en": "Cough syrup",
+          "es": "jarabe para la tos",
           "level": "C1"
         },
         {
           "en": "Crutch",
+          "es": "muleta",
           "level": "C1"
         },
         {
           "en": "Decongestant spray",
+          "es": "descongestionante nasal en spray",
           "level": "C1"
         },
         {
           "en": "Effervescent tablet",
+          "es": "pastilla efervescente",
           "level": "C1"
         },
         {
           "en": "Examination",
+          "es": "revisión / reconocimiento médico",
           "level": "B1"
         },
         {
           "en": "Eye drops",
+          "es": "gotas para los ojos / colirio",
           "level": "B1"
         },
         {
           "en": "First aid kit",
+          "es": "botiquín de primeros auxilios",
           "level": "B1"
         },
         {
           "en": "Infusion",
+          "es": "infusión / gota a gota",
           "level": "C1"
         },
         {
           "en": "Lozenges",
+          "es": "pastillas para la garganta",
           "level": "C1"
         },
         {
           "en": "Medicine",
+          "es": "medicina / medicamento",
           "level": "A2"
         },
         {
           "en": "Ointment",
+          "es": "pomada / ungüento",
           "level": "C1"
         },
         {
           "en": "Oral rinse",
+          "es": "enjuague bucal",
           "level": "C1"
         },
         {
           "en": "Physical therapy",
+          "es": "fisioterapia",
           "level": "B1"
         },
         {
           "en": "Pills",
+          "es": "pastillas",
           "level": "B2"
         },
         {
           "en": "Plaster / band-aid",
-          "level": "A2"
+          "es": "curita / tirita",
+          "level": "A2",
+          "note": "Plaster es inglés británico; band-aid, de Estados Unidos."
         },
         {
           "en": "Prescription",
+          "es": "receta (médica)",
           "level": "B1"
         },
         {
           "en": "Blood pressure monitor",
+          "es": "tensiómetro / medidor de presión",
           "level": "B1"
         },
         {
           "en": "Solution",
+          "es": "solución",
           "level": "A2"
         },
         {
           "en": "Syringe",
+          "es": "jeringa",
           "level": "C1"
         },
         {
           "en": "Tablet",
+          "es": "pastilla / comprimido",
           "level": "B2"
         },
         {
           "en": "Vaccine",
+          "es": "vacuna",
           "level": "B2"
         },
         {
           "en": "Wheelchair",
+          "es": "silla de ruedas",
           "level": "B2"
         }
       ]

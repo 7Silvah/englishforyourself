@@ -11,174 +11,218 @@
       "items": [
         {
           "en": "Abstract art",
+          "es": "arte abstracto",
           "level": "B2"
         },
         {
           "en": "Acrylics",
+          "es": "pinturas acrílicas",
           "level": "C1"
         },
         {
           "en": "Applause",
+          "es": "aplausos",
           "level": "B2"
         },
         {
           "en": "Architecture",
+          "es": "arquitectura",
           "level": "B1"
         },
         {
           "en": "Art critic",
+          "es": "crítico de arte",
           "level": "B2"
         },
         {
           "en": "Art gallery",
+          "es": "galería de arte",
           "level": "B1"
         },
         {
           "en": "Art school",
+          "es": "escuela de arte / de bellas artes",
           "level": "A1"
         },
         {
           "en": "Artist",
+          "es": "artista",
           "level": "A2"
         },
         {
           "en": "Audience",
-          "level": "B1"
+          "es": "público",
+          "level": "B1",
+          "note": "No es «audiencia» en el sentido judicial."
         },
         {
           "en": "Ballet",
+          "es": "ballet",
           "level": "B2"
         },
         {
           "en": "Bust",
+          "es": "busto",
           "level": "B2"
         },
         {
           "en": "Canvas",
+          "es": "lienzo",
           "level": "B2"
         },
         {
           "en": "Ceramics",
+          "es": "cerámica",
           "level": "C1"
         },
         {
           "en": "Collage",
+          "es": "collage",
           "level": "C1"
         },
         {
           "en": "Constructivism cubism",
+          "es": "constructivismo / cubismo",
           "level": "C1"
         },
         {
           "en": "Design",
+          "es": "diseño",
           "level": "A1"
         },
         {
           "en": "Drawing",
+          "es": "dibujo",
           "level": "A2"
         },
         {
           "en": "Easel",
+          "es": "caballete",
           "level": "C1"
         },
         {
           "en": "Expressionism",
+          "es": "expresionismo",
           "level": "C1"
         },
         {
           "en": "Frame",
+          "es": "marco",
           "level": "A2"
         },
         {
           "en": "Glitter",
+          "es": "brillantina / purpurina",
           "level": "C1"
         },
         {
           "en": "Landscape",
+          "es": "paisaje",
           "level": "B1"
         },
         {
           "en": "Lighting",
+          "es": "iluminación",
           "level": "B1"
         },
         {
           "en": "Model",
+          "es": "modelo",
           "level": "A1"
         },
         {
           "en": "Oil",
+          "es": "óleo",
           "level": "A1"
         },
         {
           "en": "Oil pastel",
+          "es": "pastel al óleo",
           "level": "C1"
         },
         {
           "en": "Opera",
+          "es": "ópera",
           "level": "B1"
         },
         {
           "en": "Paint",
+          "es": "pintura",
           "level": "A2"
         },
         {
           "en": "Paint brushes",
+          "es": "pinceles",
           "level": "C1"
         },
         {
           "en": "Painter",
+          "es": "pintor / pintora",
           "level": "B2"
         },
         {
           "en": "Painting",
+          "es": "cuadro / pintura",
           "level": "A2"
         },
         {
           "en": "Palette",
+          "es": "paleta",
           "level": "C1"
         },
         {
           "en": "Pedestal",
+          "es": "pedestal",
           "level": "C1"
         },
         {
           "en": "Perspective",
+          "es": "perspectiva",
           "level": "A2"
         },
         {
           "en": "Poetry",
+          "es": "poesía",
           "level": "B1"
         },
         {
           "en": "Portfolio",
+          "es": "portafolio / carpeta de trabajos",
           "level": "B2"
         },
         {
           "en": "Portrait",
+          "es": "retrato",
           "level": "B1"
         },
         {
           "en": "Sculptor",
+          "es": "escultor / escultora",
           "level": "C1"
         },
         {
           "en": "Sculpture",
+          "es": "escultura",
           "level": "B1"
         },
         {
           "en": "Sketch",
+          "es": "boceto / esbozo",
           "level": "B2"
         },
         {
           "en": "Stickers",
+          "es": "pegatinas / calcomanías",
           "level": "C1"
         },
         {
           "en": "Surrealism",
+          "es": "surrealismo",
           "level": "C1"
         },
         {
           "en": "Watercolors",
+          "es": "acuarelas",
           "level": "C1"
         }
       ]

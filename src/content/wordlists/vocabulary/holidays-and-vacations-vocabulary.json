@@ -11,154 +11,193 @@
       "items": [
         {
           "en": "Accommodation",
+          "es": "alojamiento",
           "level": "B2"
         },
         {
           "en": "Brochure",
+          "es": "folleto",
           "level": "C1"
         },
         {
           "en": "Campsite",
+          "es": "camping / zona de acampada",
           "level": "C1"
         },
         {
           "en": "Car hire (UK) / car rental (US)",
+          "es": "alquiler de coches / renta de autos",
           "level": "B1"
         },
         {
           "en": "Caravan",
+          "es": "caravana / casa rodante",
           "level": "C1"
         },
         {
           "en": "Check-in",
+          "es": "registro / facturación",
           "level": "A2"
         },
         {
           "en": "City centre (UK) / downtown (US)",
+          "es": "centro de la ciudad",
           "level": "B1"
         },
         {
           "en": "Cruise",
+          "es": "crucero",
           "level": "B1"
         },
         {
           "en": "Destination",
+          "es": "destino",
           "level": "B1"
         },
         {
           "en": "Excursion",
+          "es": "excursión",
           "level": "C1"
         },
         {
           "en": "Expedition",
+          "es": "expedición",
           "level": "B1"
         },
         {
           "en": "Guide",
+          "es": "guía",
           "level": "B1"
         },
         {
           "en": "High season / peak season",
+          "es": "temporada alta",
           "level": "A1"
         },
         {
           "en": "Holiday season",
+          "es": "temporada de vacaciones / fiestas",
           "level": "A2"
         },
         {
           "en": "Hostel",
+          "es": "albergue / hostal",
           "level": "C1"
         },
         {
           "en": "Hotel",
+          "es": "hotel",
           "level": "A1"
         },
         {
           "en": "Inn",
+          "es": "posada",
           "level": "B2"
         },
         {
           "en": "Lodging",
+          "es": "alojamiento",
           "level": "C1"
         },
         {
           "en": "Low season",
+          "es": "temporada baja",
           "level": "A1"
         },
         {
           "en": "Map",
+          "es": "mapa",
           "level": "A1"
         },
         {
           "en": "One-way ticket",
+          "es": "billete de ida / boleto sencillo",
           "level": "A2"
         },
         {
           "en": "Resort",
+          "es": "complejo turístico",
           "level": "B1"
         },
         {
           "en": "Road trip",
+          "es": "viaje por carretera",
           "level": "A2"
         },
         {
           "en": "Round-trip ticket",
+          "es": "billete de ida y vuelta / boleto redondo",
           "level": "B1"
         },
         {
           "en": "Safari",
+          "es": "safari",
           "level": "C1"
         },
         {
           "en": "Sightseeing tour",
+          "es": "recorrido turístico",
           "level": "C1"
         },
         {
           "en": "Sightseer",
+          "es": "turista / visitante",
           "level": "C1"
         },
         {
           "en": "Souvenir",
+          "es": "recuerdo / souvenir",
           "level": "C1"
         },
         {
           "en": "Ticket",
+          "es": "billete / boleto",
           "level": "A2"
         },
         {
           "en": "To book a flight",
+          "es": "reservar un vuelo",
           "level": "A1"
         },
         {
           "en": "To go sightseeing",
+          "es": "hacer turismo",
           "level": "A1"
         },
         {
           "en": "To make a reservation",
+          "es": "hacer una reserva / reservación",
           "level": "B2"
         },
         {
           "en": "To travel",
+          "es": "viajar",
           "level": "A1"
         },
         {
           "en": "Tour",
+          "es": "recorrido / visita guiada",
           "level": "A2"
         },
         {
           "en": "Tourists",
+          "es": "turistas",
           "level": "B2"
         },
         {
           "en": "Travel agency",
+          "es": "agencia de viajes",
           "level": "A2"
         },
         {
           "en": "Traveler",
-          "level": "C1"
+          "es": "viajero",
+          "level": "C1",
+          "note": "Inglés de Estados Unidos; en el Reino Unido se escribe traveller."
         },
         {
           "en": "Voyage",
+          "es": "viaje (largo, por mar o al espacio)",
           "level": "B2"
         }
       ]

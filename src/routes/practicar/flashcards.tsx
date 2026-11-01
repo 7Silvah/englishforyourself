@@ -3,19 +3,30 @@ import { PageHeader } from "@/components/layout/page-header";
 import { getLessonByPath } from "@/content";
 import { FlashcardDecks } from "@/features/flashcards/flashcard-decks";
 import { FlashcardSession } from "@/features/flashcards/flashcard-session";
-import { deckCards } from "@/features/flashcards/logic";
+import { deckCards, mixedDeckCards } from "@/features/flashcards/logic";
+import { parsePracticeSearch } from "@/features/vocabulary/filters";
+import { VOCABULARY_SECTION } from "@/features/vocabulary/lessons";
 import { es } from "@/i18n/es";
 import { pageTitle } from "@/lib/page-title";
 
-type Search = { lista?: string };
-
+// /practicar/flashcards: elegir mazo · ?lista=…: una lista · ?vocabulario=true&nivel=…: lo
+// filtrado en la tabla de Vocabulario (cada tarjeta con la clave de su lista principal)
 export const Route = createFileRoute("/practicar/flashcards")({
-  validateSearch: (search: Record<string, unknown>): Search => ({
-    lista: typeof search.lista === "string" ? search.lista : undefined,
-  }),
-  // loaderDeps: el loader depende de ?lista=, así se vuelve a ejecutar al cambiar de lista
-  loaderDeps: ({ search }) => ({ lista: search.lista }),
+  validateSearch: parsePracticeSearch,
+  // loaderDeps: el loader depende de la búsqueda, así se vuelve a ejecutar al cambiarla
+  loaderDeps: ({ search }) => search,
   loader: async ({ deps }) => {
+    if (deps.vocabulario) {
+      // import() dinámico: unir y filtrar el vocabulario solo se descarga al practicarlo,
+      // no en la carga inicial de la app
+      const { filterLabels, loadFilteredEntries } = await import("@/features/vocabulary/load");
+      const title = es.library.vocabularyTable.filteredTitle(filterLabels(deps));
+      const entries = await loadFilteredEntries(deps);
+      const cards = mixedDeckCards(
+        entries.map((e) => ({ ...e, listPath: `${VOCABULARY_SECTION}/${e.home}` })),
+      );
+      return { crumb: `${es.flashcards.title} · ${title}`, deck: { title, cards } };
+    }
     if (!deps.lista) return { crumb: es.flashcards.title, deck: null };
     const lesson = getLessonByPath(deps.lista);
     if (!lesson || lesson.translatedCount === 0) throw notFound();
@@ -36,8 +47,8 @@ export const Route = createFileRoute("/practicar/flashcards")({
 
 function FlashcardsPage() {
   const { deck } = Route.useLoaderData();
-  const { lista } = Route.useSearch();
-  if (!lista || !deck)
+  const search = Route.useSearch();
+  if (!deck)
     return (
       <>
         <PageHeader title={es.flashcards.title} description={es.flashcards.description} />
@@ -47,8 +58,8 @@ function FlashcardsPage() {
   return (
     <>
       <PageHeader title={deck.title} description={es.flashcards.sessionHint} />
-      {/* key: al cambiar de lista, la sesión empieza de cero */}
-      <FlashcardSession key={lista} cards={deck.cards} />
+      {/* key: al cambiar de lista o de filtros, la sesión empieza de cero */}
+      <FlashcardSession key={JSON.stringify(search)} cards={deck.cards} />
     </>
   );
 }

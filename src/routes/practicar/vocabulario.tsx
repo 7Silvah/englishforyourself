@@ -1,22 +1,48 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { PageHeader } from "@/components/layout/page-header";
 import { getLessonByPath } from "@/content";
+import { LEVELS } from "@/content/levels";
 import { loadListPractice } from "@/features/exercises/list-practice";
 import { VocabularyLists } from "@/features/exercises/vocabulary-lists";
 import { VocabularyPractice } from "@/features/exercises/vocabulary-practice";
+import { parsePracticeSearch } from "@/features/vocabulary/filters";
 import { es } from "@/i18n/es";
 import { pageTitle } from "@/lib/page-title";
 
-type Search = { lista?: string };
-
-// /practicar/vocabulario: elegir lista · /practicar/vocabulario?lista=…: ejercicios generados
+// /practicar/vocabulario: elegir lista · ?lista=…: ejercicios generados de una lista ·
+// ?vocabulario=true&nivel=…: ejercicios con lo filtrado en la tabla de Vocabulario
 export const Route = createFileRoute("/practicar/vocabulario")({
-  validateSearch: (search: Record<string, unknown>): Search => ({
-    lista: typeof search.lista === "string" ? search.lista : undefined,
-  }),
-  loaderDeps: ({ search }) => ({ lista: search.lista }),
+  validateSearch: parsePracticeSearch,
+  loaderDeps: ({ search }) => search,
   loader: async ({ deps }) => {
     const crumb = es.generated.vocabulary.practice;
+    if (deps.vocabulario) {
+      // import() dinámico: unir y filtrar el vocabulario solo se descarga al practicarlo
+      const { filterLabels, loadFilteredEntries } = await import("@/features/vocabulary/load");
+      const { lista: _lista, ...filters } = deps;
+      const title = es.library.vocabularyTable.filteredTitle(filterLabels(filters));
+      const words = (await loadFilteredEntries(filters)).flatMap(({ en, es: tr, level }) =>
+        tr ? [{ en, es: tr, level }] : [],
+      );
+      // El nivel del set: el elegido o, si no, el más frecuente entre las palabras
+      const level =
+        filters.nivel ??
+        LEVELS.reduce((best, l) =>
+          words.filter((w) => w.level === l).length > words.filter((w) => w.level === best).length
+            ? l
+            : best,
+        );
+      return {
+        crumb: `${crumb} · ${title}`,
+        list: {
+          id: JSON.stringify(filters),
+          title,
+          level,
+          practice: { kind: "vocabulary" as const, words },
+          flashcards: words.length > 0 ? filters : undefined,
+        },
+      };
+    }
     if (!deps.lista) return { crumb, list: null };
     const lesson = getLessonByPath(deps.lista);
     const practice = lesson && (await loadListPractice(lesson));
@@ -24,11 +50,11 @@ export const Route = createFileRoute("/practicar/vocabulario")({
     return {
       crumb: `${crumb} · ${lesson.meta.title}`,
       list: {
-        path: lesson.path,
+        id: lesson.path,
         title: lesson.meta.title,
         level: lesson.meta.level ?? "A1",
         practice,
-        hasFlashcards: lesson.translatedCount > 0,
+        flashcards: lesson.translatedCount > 0 ? { lista: lesson.path } : undefined,
       },
     };
   },
@@ -54,14 +80,14 @@ function VocabularioPage() {
         title={es.generated.vocabulary.title(list.title)}
         description={es.generated.vocabulary.instruction}
       />
-      {/* key: al cambiar de lista, la práctica empieza de cero */}
+      {/* key: al cambiar de lista o de filtros, la práctica empieza de cero */}
       <VocabularyPractice
-        key={list.path}
-        listPath={list.path}
+        key={list.id}
+        id={list.id}
         title={list.title}
         level={list.level}
         practice={list.practice}
-        hasFlashcards={list.hasFlashcards}
+        flashcards={list.flashcards}
       />
     </>
   );

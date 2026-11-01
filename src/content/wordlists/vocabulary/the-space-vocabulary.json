@@ -11,122 +11,152 @@
       "items": [
         {
           "en": "Mercury",
+          "es": "Mercurio",
           "level": "B2"
         },
         {
           "en": "Venus",
+          "es": "Venus",
           "level": "B2"
         },
         {
           "en": "Earth",
+          "es": "la Tierra",
           "level": "A1"
         },
         {
           "en": "Mars",
+          "es": "Marte",
           "level": "B1"
         },
         {
           "en": "Jupiter",
+          "es": "Júpiter",
           "level": "C1"
         },
         {
           "en": "Saturn",
+          "es": "Saturno",
           "level": "C1"
         },
         {
           "en": "Uranus",
+          "es": "Urano",
           "level": "C1"
         },
         {
           "en": "Neptune",
+          "es": "Neptuno",
           "level": "C1"
         },
         {
           "en": "Alien",
+          "es": "extraterrestre",
           "level": "B1"
         },
         {
           "en": "Asteroid",
+          "es": "asteroide",
           "level": "C1"
         },
         {
           "en": "Astronaut",
+          "es": "astronauta",
           "level": "C1"
         },
         {
           "en": "Astronomer",
+          "es": "astrónomo / astrónoma",
           "level": "C1"
         },
         {
           "en": "Comet",
+          "es": "cometa",
           "level": "C1"
         },
         {
           "en": "Constellation",
+          "es": "constelación",
           "level": "C1"
         },
         {
           "en": "Eclipse",
+          "es": "eclipse",
           "level": "B2"
         },
         {
           "en": "Galaxy",
+          "es": "galaxia",
           "level": "B1"
         },
         {
           "en": "Gravity",
+          "es": "gravedad",
           "level": "B1"
         },
         {
           "en": "Moon",
+          "es": "luna",
           "level": "A1"
         },
         {
           "en": "Observatory",
+          "es": "observatorio",
           "level": "A2"
         },
         {
           "en": "Orbit",
+          "es": "órbita",
           "level": "B2"
         },
         {
           "en": "Planet",
+          "es": "planeta",
           "level": "A2"
         },
         {
           "en": "Rocket",
+          "es": "cohete",
           "level": "B1"
         },
         {
           "en": "Satellite",
+          "es": "satélite",
           "level": "B1"
         },
         {
           "en": "Solar system",
+          "es": "sistema solar",
           "level": "B1"
         },
         {
           "en": "Space shuttle",
+          "es": "transbordador espacial",
           "level": "B2"
         },
         {
           "en": "Space station",
+          "es": "estación espacial",
           "level": "A2"
         },
         {
           "en": "Star",
+          "es": "estrella",
           "level": "A2"
         },
         {
           "en": "The sun",
+          "es": "el sol",
           "level": "A2"
         },
         {
           "en": "The moon",
+          "es": "la luna",
           "level": "A2"
         },
         {
           "en": "UFO (unidentified flying object)",
+          "es": "ovni (objeto volador no identificado)",
           "level": "C1"
         }
       ]

@@ -11,110 +11,137 @@
       "items": [
         {
           "en": "Monitor",
+          "es": "monitor",
           "level": "B1"
         },
         {
           "en": "Screen",
+          "es": "pantalla",
           "level": "A2"
         },
         {
           "en": "Keyboard",
+          "es": "teclado",
           "level": "B2"
         },
         {
           "en": "Function keys",
+          "es": "teclas de función",
           "level": "B1"
         },
         {
           "en": "Escape keys",
+          "es": "tecla Escape (Esc)",
           "level": "B1"
         },
         {
           "en": "Tab",
+          "es": "tabulador (Tab)",
           "level": "B2"
         },
         {
           "en": "Alt key",
+          "es": "tecla Alt",
           "level": "C1"
         },
         {
           "en": "Arrow keys",
+          "es": "teclas de flecha / de dirección",
           "level": "B2"
         },
         {
           "en": "Caps lock",
+          "es": "bloqueo de mayúsculas",
           "level": "B2"
         },
         {
           "en": "Control key",
+          "es": "tecla Control (Ctrl)",
           "level": "A2"
         },
         {
           "en": "Numerical key pad",
+          "es": "teclado numérico",
           "level": "C1"
         },
         {
           "en": "Return",
+          "es": "tecla Intro / Enter",
           "level": "A1"
         },
         {
           "en": "Shift key",
+          "es": "tecla Mayúsculas (Shift)",
           "level": "B1"
         },
         {
           "en": "Spacebar",
+          "es": "barra espaciadora",
           "level": "C1"
         },
         {
           "en": "Button",
+          "es": "botón",
           "level": "A2"
         },
         {
           "en": "Case",
+          "es": "carcasa / gabinete",
           "level": "A1"
         },
         {
           "en": "CPU",
+          "es": "CPU / procesador",
           "level": "C1"
         },
         {
           "en": "Ethernet cable",
+          "es": "cable de red / cable Ethernet",
           "level": "C1"
         },
         {
           "en": "Hard drive",
+          "es": "disco duro",
           "level": "B1"
         },
         {
           "en": "Laptop",
+          "es": "computadora portátil / portátil",
           "level": "A1"
         },
         {
           "en": "Memory",
+          "es": "memoria",
           "level": "B1"
         },
         {
           "en": "Microchip",
+          "es": "microchip",
           "level": "C1"
         },
         {
           "en": "Microphone",
+          "es": "micrófono",
           "level": "C1"
         },
         {
           "en": "Modem",
+          "es": "módem",
           "level": "C1"
         },
         {
           "en": "Motherboard",
+          "es": "placa base / tarjeta madre",
           "level": "C1"
         },
         {
           "en": "Mouse",
+          "es": "ratón / mouse",
           "level": "A2"
         },
         {
           "en": "USB cable",
+          "es": "cable USB",
           "level": "B2"
         }
       ]

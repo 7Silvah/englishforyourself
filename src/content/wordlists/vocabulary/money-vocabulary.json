@@ -11,166 +11,212 @@
       "items": [
         {
           "en": "Assets",
+          "es": "activos / bienes",
           "level": "A2"
         },
         {
           "en": "Balance",
+          "es": "saldo",
           "level": "A2"
         },
         {
           "en": "Bank",
+          "es": "banco",
           "level": "A1"
         },
         {
           "en": "Bank account",
+          "es": "cuenta bancaria",
           "level": "A2"
         },
         {
           "en": "Bank charges",
+          "es": "comisiones bancarias",
           "level": "A2"
         },
         {
           "en": "Bank statement",
+          "es": "extracto bancario / estado de cuenta",
           "level": "A2"
         },
         {
           "en": "Banknote (UK) / note (US)",
-          "level": "A1"
+          "es": "billete",
+          "level": "A1",
+          "note": "Ojo: en Estados Unidos se dice bill."
         },
         {
           "en": "Bills",
-          "level": "A2"
+          "es": "facturas / billetes",
+          "level": "A2",
+          "note": "En Estados Unidos, bill es también «billete»."
         },
         {
           "en": "Bonds",
+          "es": "bonos",
           "level": "B1"
         },
         {
           "en": "Buck",
+          "es": "dólar (informal)",
           "level": "B2"
         },
         {
           "en": "Budget",
+          "es": "presupuesto",
           "level": "A2"
         },
         {
           "en": "Cash",
-          "level": "A2"
+          "es": "efectivo",
+          "level": "A2",
+          "note": "Pay in cash = pagar en efectivo."
         },
         {
           "en": "Cash machine",
+          "es": "cajero automático",
           "level": "A2"
         },
         {
           "en": "Check",
-          "level": "A1"
+          "es": "cheque",
+          "level": "A1",
+          "note": "Inglés de Estados Unidos; en el Reino Unido se escribe cheque."
         },
         {
           "en": "Coin",
+          "es": "moneda",
           "level": "B2"
         },
         {
           "en": "Coupon",
+          "es": "cupón",
           "level": "B2"
         },
         {
           "en": "Credit card",
+          "es": "tarjeta de crédito",
           "level": "A1"
         },
         {
           "en": "Currency",
+          "es": "moneda / divisa",
           "level": "B1"
         },
         {
           "en": "Deflation",
+          "es": "deflación",
           "level": "C1"
         },
         {
           "en": "Dollars",
+          "es": "dólares",
           "level": "A2"
         },
         {
           "en": "Euros",
+          "es": "euros",
           "level": "C1"
         },
         {
           "en": "Exchange rate",
+          "es": "tipo de cambio",
           "level": "A2"
         },
         {
           "en": "Finance",
+          "es": "finanzas",
           "level": "A2"
         },
         {
           "en": "Fund(s)",
+          "es": "fondo(s)",
           "level": "A2"
         },
         {
           "en": "Gold bar",
+          "es": "lingote de oro",
           "level": "A2"
         },
         {
           "en": "Hire purchase",
-          "level": "B1"
+          "es": "compra a plazos",
+          "level": "B1",
+          "note": "Inglés británico."
         },
         {
           "en": "Income",
+          "es": "ingresos",
           "level": "A2"
         },
         {
           "en": "Inflation",
+          "es": "inflación",
           "level": "B2"
         },
         {
           "en": "Installment plan",
+          "es": "plan de pagos a plazos",
           "level": "C1"
         },
         {
           "en": "Mortgage",
+          "es": "hipoteca",
           "level": "B1"
         },
         {
           "en": "Pounds",
+          "es": "libras",
           "level": "A2"
         },
         {
           "en": "Poverty",
+          "es": "pobreza",
           "level": "B1"
         },
         {
           "en": "Retail",
+          "es": "venta al por menor / minorista",
           "level": "A2"
         },
         {
           "en": "Retailer",
+          "es": "minorista / comerciante",
           "level": "C1"
         },
         {
           "en": "Savings account",
+          "es": "cuenta de ahorros",
           "level": "B1"
         },
         {
           "en": "Shares",
+          "es": "acciones",
           "level": "A2"
         },
         {
           "en": "Silver bar",
+          "es": "lingote de plata",
           "level": "A2"
         },
         {
           "en": "Token",
+          "es": "ficha / vale",
           "level": "B2"
         },
         {
           "en": "Vault",
+          "es": "cámara acorazada / bóveda",
           "level": "B2"
         },
         {
           "en": "Wealth",
+          "es": "riqueza",
           "level": "A2"
         },
         {
           "en": "Withdrawal",
+          "es": "retiro / retirada (de dinero)",
           "level": "B2"
         }
       ]

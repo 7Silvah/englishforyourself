@@ -11,482 +11,608 @@
       "items": [
         {
           "en": "Accurate",
+          "es": "preciso / exacto",
           "level": "A2"
         },
         {
           "en": "Active",
+          "es": "activo",
           "level": "A2"
         },
         {
           "en": "Adventurous",
+          "es": "aventurero",
           "level": "B1"
         },
         {
           "en": "Affable",
+          "es": "afable",
           "level": "C1"
         },
         {
           "en": "Agreeable",
+          "es": "agradable",
           "level": "C1"
         },
         {
           "en": "Ambitious",
+          "es": "ambicioso",
           "level": "B1"
         },
         {
           "en": "Amiable",
+          "es": "amable / afable",
           "level": "C1"
         },
         {
           "en": "Amicable",
+          "es": "cordial / amistoso",
           "level": "C1"
         },
         {
           "en": "Amusing",
+          "es": "divertido / gracioso",
           "level": "C1"
         },
         {
           "en": "Approachable",
+          "es": "accesible / cercano",
           "level": "C1"
         },
         {
           "en": "Attentive",
+          "es": "atento",
           "level": "C1"
         },
         {
           "en": "Audacious",
+          "es": "audaz",
           "level": "C1"
         },
         {
           "en": "Brave",
+          "es": "valiente",
           "level": "B1"
         },
         {
           "en": "Bright",
+          "es": "listo / inteligente",
           "level": "A2"
         },
         {
           "en": "Calm",
+          "es": "tranquilo / sereno",
           "level": "B1"
         },
         {
           "en": "Capable",
+          "es": "capaz",
           "level": "A2"
         },
         {
           "en": "Careful",
+          "es": "cuidadoso",
           "level": "A2"
         },
         {
           "en": "Caring",
+          "es": "cariñoso / atento",
           "level": "B1"
         },
         {
           "en": "Charming",
+          "es": "encantador",
           "level": "B2"
         },
         {
           "en": "Cheerful",
+          "es": "alegre",
           "level": "C1"
         },
         {
           "en": "Clever",
+          "es": "listo / inteligente",
           "level": "B1"
         },
         {
           "en": "Communicative",
+          "es": "comunicativo",
           "level": "C1"
         },
         {
           "en": "Compassionate",
+          "es": "compasivo",
           "level": "C1"
         },
         {
           "en": "Competent",
+          "es": "competente",
           "level": "B2"
         },
         {
           "en": "Conscientious",
+          "es": "concienzudo / responsable",
           "level": "C1"
         },
         {
           "en": "Considerate",
+          "es": "considerado / atento",
           "level": "B1"
         },
         {
           "en": "Cool",
-          "level": "A1"
+          "es": "genial / tranquilo",
+          "level": "A1",
+          "note": "Informal."
         },
         {
           "en": "Cooperative",
+          "es": "colaborador / cooperativo",
           "level": "B2"
         },
         {
           "en": "Courageous",
+          "es": "valiente / valeroso",
           "level": "C1"
         },
         {
           "en": "Courteous",
+          "es": "cortés / educado",
           "level": "C1"
         },
         {
           "en": "Creative",
+          "es": "creativo",
           "level": "A2"
         },
         {
           "en": "Determined",
+          "es": "decidido / resuelto",
           "level": "B1"
         },
         {
           "en": "Diligent",
+          "es": "diligente / aplicado",
           "level": "C1"
         },
         {
           "en": "Dynamic",
+          "es": "dinámico",
           "level": "B1"
         },
         {
           "en": "Easy-going",
+          "es": "tranquilo / de trato fácil",
           "level": "A1"
         },
         {
           "en": "Efficient",
+          "es": "eficiente",
           "level": "B1"
         },
         {
           "en": "Eloquent",
+          "es": "elocuente",
           "level": "C1"
         },
         {
           "en": "Energetic",
+          "es": "enérgico / lleno de energía",
           "level": "C1"
         },
         {
           "en": "Exciting",
+          "es": "emocionante / apasionante",
           "level": "A2"
         },
         {
           "en": "Extraordinary",
+          "es": "extraordinario",
           "level": "B1"
         },
         {
           "en": "Extroverted",
+          "es": "extrovertido",
           "level": "C1"
         },
         {
           "en": "Exuberant",
+          "es": "exuberante / desbordante",
           "level": "C1"
         },
         {
           "en": "Fair",
+          "es": "justo",
           "level": "A2"
         },
         {
           "en": "Fair-minded",
+          "es": "imparcial / justo",
           "level": "B2"
         },
         {
           "en": "Faithful",
+          "es": "fiel",
           "level": "B2"
         },
         {
           "en": "Fearless",
+          "es": "intrépido / sin miedo",
           "level": "C1"
         },
         {
           "en": "Firm",
+          "es": "firme",
           "level": "A2"
         },
         {
           "en": "Flexible",
+          "es": "flexible",
           "level": "B2"
         },
         {
           "en": "Frank",
+          "es": "franco / directo",
           "level": "A2"
         },
         {
           "en": "Friendly",
+          "es": "amable / simpático",
           "level": "A1"
         },
         {
           "en": "Funny",
+          "es": "gracioso / divertido",
           "level": "A2"
         },
         {
           "en": "Generous",
+          "es": "generoso",
           "level": "A2"
         },
         {
           "en": "Gentle",
+          "es": "dulce / delicado / amable",
           "level": "B2"
         },
         {
           "en": "Genuine",
+          "es": "auténtico / sincero",
           "level": "B1"
         },
         {
           "en": "Good",
+          "es": "bueno",
           "level": "A1"
         },
         {
           "en": "Gracious",
+          "es": "cortés / amable",
           "level": "C1"
         },
         {
           "en": "Great",
+          "es": "estupendo / genial",
           "level": "A1"
         },
         {
           "en": "Gregarious",
+          "es": "sociable",
           "level": "C1"
         },
         {
           "en": "Hard-working",
+          "es": "trabajador",
           "level": "A2"
         },
         {
           "en": "Helpful",
+          "es": "servicial / atento",
           "level": "B1"
         },
         {
           "en": "Honest",
+          "es": "honesto / sincero",
           "level": "B1"
         },
         {
           "en": "Honorable",
+          "es": "honorable / honrado",
           "level": "B2"
         },
         {
           "en": "Hopeful",
+          "es": "optimista / esperanzado",
           "level": "B1"
         },
         {
           "en": "Humble",
+          "es": "humilde",
           "level": "B2"
         },
         {
           "en": "Humorous",
+          "es": "gracioso / con sentido del humor",
           "level": "C1"
         },
         {
           "en": "Impressive",
+          "es": "impresionante",
           "level": "B1"
         },
         {
           "en": "Independent",
+          "es": "independiente",
           "level": "B1"
         },
         {
           "en": "Ingenious",
+          "es": "ingenioso",
           "level": "C1"
         },
         {
           "en": "Intellectual",
+          "es": "intelectual",
           "level": "B1"
         },
         {
           "en": "Intelligent",
+          "es": "inteligente",
           "level": "B1"
         },
         {
           "en": "Interesting",
+          "es": "interesante",
           "level": "A1"
         },
         {
           "en": "Kind",
+          "es": "amable",
           "level": "A2"
         },
         {
           "en": "Likeable",
+          "es": "simpático / agradable",
           "level": "C1"
         },
         {
           "en": "Loveable",
+          "es": "adorable",
           "level": "C1"
         },
         {
           "en": "Loving",
+          "es": "cariñoso",
           "level": "B1"
         },
         {
           "en": "Loyal",
+          "es": "leal / fiel",
           "level": "B1"
         },
         {
           "en": "Lucky",
+          "es": "afortunado / con suerte",
           "level": "A2"
         },
         {
           "en": "Mature",
+          "es": "maduro",
           "level": "B1"
         },
         {
           "en": "Neat",
+          "es": "ordenado / pulcro",
           "level": "B2"
         },
         {
           "en": "Nice",
+          "es": "simpático / agradable",
           "level": "A1"
         },
         {
           "en": "Obedient",
+          "es": "obediente",
           "level": "C1"
         },
         {
           "en": "Open-minded",
+          "es": "de mente abierta / abierto",
           "level": "B2"
         },
         {
           "en": "Optimistic",
+          "es": "optimista",
           "level": "B1"
         },
         {
           "en": "Organized",
+          "es": "organizado",
           "level": "A2"
         },
         {
           "en": "Outgoing",
+          "es": "extrovertido / sociable",
           "level": "A2"
         },
         {
           "en": "Passionate",
+          "es": "apasionado",
           "level": "B2"
         },
         {
           "en": "Patient",
+          "es": "paciente",
           "level": "B1"
         },
         {
           "en": "Philosophical",
+          "es": "filosófico / que se toma las cosas con filosofía",
           "level": "B2"
         },
         {
           "en": "Pleasant",
+          "es": "agradable",
           "level": "B1"
         },
         {
           "en": "Polite",
+          "es": "educado / cortés",
           "level": "B1"
         },
         {
           "en": "Popular",
+          "es": "popular",
           "level": "A2"
         },
         {
           "en": "Positive",
+          "es": "positivo",
           "level": "B1"
         },
         {
           "en": "Powerful",
+          "es": "poderoso",
           "level": "A2"
         },
         {
           "en": "Practical",
+          "es": "práctico",
           "level": "B1"
         },
         {
           "en": "Rational",
+          "es": "racional",
           "level": "B2"
         },
         {
           "en": "Realistic",
+          "es": "realista",
           "level": "B2"
         },
         {
           "en": "Reasonable",
+          "es": "razonable",
           "level": "A2"
         },
         {
           "en": "Reliable",
+          "es": "fiable / confiable",
           "level": "A2"
         },
         {
           "en": "Resourceful",
+          "es": "ingenioso / de recursos",
           "level": "C1"
         },
         {
           "en": "Respectful",
+          "es": "respetuoso",
           "level": "C1"
         },
         {
           "en": "Responsible",
+          "es": "responsable",
           "level": "B1"
         },
         {
           "en": "Romantic",
+          "es": "romántico",
           "level": "B1"
         },
         {
           "en": "Self-confident",
+          "es": "seguro de sí mismo",
           "level": "B1"
         },
         {
           "en": "Sensible",
-          "level": "B1"
+          "es": "sensato",
+          "level": "B1",
+          "note": "No significa «sensible» (sensitive).",
+          "falseFriend": "sensible"
         },
         {
           "en": "Sensitive",
+          "es": "sensible",
           "level": "B1"
         },
         {
           "en": "Sincere",
+          "es": "sincero",
           "level": "B2"
         },
         {
           "en": "Smart",
-          "level": "A2"
+          "es": "listo / inteligente",
+          "level": "A2",
+          "note": "También «elegante» en inglés británico."
         },
         {
           "en": "Sociable",
+          "es": "sociable",
           "level": "B1"
         },
         {
           "en": "Strong",
+          "es": "fuerte",
           "level": "A1"
         },
         {
           "en": "Sympathetic",
-          "level": "B2"
+          "es": "comprensivo / compasivo",
+          "level": "B2",
+          "note": "No significa «simpático» (friendly / nice).",
+          "falseFriend": "simpático"
         },
         {
           "en": "Tactful",
+          "es": "discreto / con tacto",
           "level": "C1"
         },
         {
           "en": "Thankful",
+          "es": "agradecido",
           "level": "B2"
         },
         {
           "en": "Thoughtful",
+          "es": "considerado / atento",
           "level": "B2"
         },
         {
           "en": "Tidy",
+          "es": "ordenado",
           "level": "B1"
         },
         {
           "en": "Trustworthy",
+          "es": "digno de confianza",
           "level": "C1"
         },
         {
           "en": "Truthful",
+          "es": "sincero / veraz",
           "level": "C1"
         },
         {
           "en": "Understanding",
+          "es": "comprensivo",
           "level": "A2"
         },
         {
           "en": "Versatile",
+          "es": "versátil",
           "level": "C1"
         },
         {
           "en": "Willing",
+          "es": "dispuesto",
           "level": "A2"
         },
         {
           "en": "Wise",
+          "es": "sabio",
           "level": "A2"
         }
       ]
@@ -496,542 +622,686 @@
       "items": [
         {
           "en": "Abrasive",
+          "es": "áspero / brusco",
           "level": "C1"
         },
         {
           "en": "Absent-minded",
+          "es": "despistado / distraído",
           "level": "C1"
         },
         {
           "en": "Aggressive",
+          "es": "agresivo",
           "level": "B1"
         },
         {
           "en": "Aloof",
+          "es": "distante / reservado",
           "level": "C1"
         },
         {
           "en": "Amoral",
+          "es": "amoral",
           "level": "C1"
         },
         {
           "en": "Annoying",
+          "es": "molesto / pesado",
           "level": "B1"
         },
         {
           "en": "Apathetic",
+          "es": "apático",
           "level": "C1"
         },
         {
           "en": "Argumentative",
+          "es": "discutidor / peleonero",
           "level": "C1"
         },
         {
           "en": "Arrogant",
+          "es": "arrogante",
           "level": "C1"
         },
         {
           "en": "Authoritarian",
+          "es": "autoritario",
           "level": "C1"
         },
         {
           "en": "Bad-tempered",
+          "es": "malhumorado / de mal genio",
           "level": "C1"
         },
         {
           "en": "Belligerent",
+          "es": "beligerante / agresivo",
           "level": "C1"
         },
         {
           "en": "Big-headed",
+          "es": "creído / engreído",
           "level": "A2"
         },
         {
           "en": "Bizarre",
-          "level": "B1"
+          "es": "extraño / estrafalario",
+          "level": "B1",
+          "note": "No significa «bizarro» en el sentido de «valiente».",
+          "falseFriend": "bizarro"
         },
         {
           "en": "Boastful",
+          "es": "presumido / fanfarrón",
           "level": "C1"
         },
         {
           "en": "Boring",
+          "es": "aburrido (que aburre)",
           "level": "A1"
         },
         {
           "en": "Bossy",
+          "es": "mandón",
           "level": "C1"
         },
         {
           "en": "Callous",
+          "es": "insensible / cruel",
           "level": "C1"
         },
         {
           "en": "Careless",
+          "es": "descuidado",
           "level": "C1"
         },
         {
           "en": "Cheeky",
+          "es": "descarado / fresco",
           "level": "C1"
         },
         {
           "en": "Childish",
+          "es": "infantil / inmaduro",
           "level": "C1"
         },
         {
           "en": "Clumsy",
+          "es": "torpe",
           "level": "C1"
         },
         {
           "en": "Cocky",
+          "es": "chulo / creído",
           "level": "C1"
         },
         {
           "en": "Conceited",
+          "es": "presumido / vanidoso",
           "level": "C1"
         },
         {
           "en": "Confrontational",
+          "es": "conflictivo / que busca pelea",
           "level": "C1"
         },
         {
           "en": "Controlling",
+          "es": "controlador",
           "level": "B2"
         },
         {
           "en": "Cruel",
+          "es": "cruel",
           "level": "B2"
         },
         {
           "en": "Cunning",
+          "es": "astuto / taimado",
           "level": "C1"
         },
         {
           "en": "Cynical",
+          "es": "cínico",
           "level": "C1"
         },
         {
           "en": "Deceitful",
+          "es": "mentiroso / engañoso",
           "level": "C1"
         },
         {
           "en": "Defensive",
+          "es": "a la defensiva",
           "level": "B1"
         },
         {
           "en": "Dense",
-          "level": "B2"
+          "es": "torpe / corto (de entendederas)",
+          "level": "B2",
+          "note": "Informal."
         },
         {
           "en": "Desperate",
+          "es": "desesperado",
           "level": "B1"
         },
         {
           "en": "Devious",
+          "es": "retorcido / taimado",
           "level": "C1"
         },
         {
           "en": "Dim",
-          "level": "C1"
+          "es": "corto / tonto",
+          "level": "C1",
+          "note": "Informal."
         },
         {
           "en": "Dishonest",
+          "es": "deshonesto / poco honrado",
           "level": "B1"
         },
         {
           "en": "Disloyal",
+          "es": "desleal",
           "level": "B1"
         },
         {
           "en": "Disobedient",
+          "es": "desobediente",
           "level": "C1"
         },
         {
           "en": "Disorganized",
+          "es": "desorganizado",
           "level": "C1"
         },
         {
           "en": "Disrespectful",
+          "es": "irrespetuoso",
           "level": "C1"
         },
         {
           "en": "Disruptive",
+          "es": "problemático / que alborota",
           "level": "C1"
         },
         {
           "en": "Distant",
+          "es": "distante",
           "level": "B2"
         },
         {
           "en": "Dominant",
+          "es": "dominante",
           "level": "B1"
         },
         {
           "en": "Dull",
+          "es": "aburrido / soso",
           "level": "B1"
         },
         {
           "en": "Ego-centric",
+          "es": "egocéntrico",
           "level": "C1"
         },
         {
           "en": "Egotistical",
+          "es": "egoísta / egocéntrico",
           "level": "C1"
         },
         {
           "en": "Envious",
+          "es": "envidioso",
           "level": "C1"
         },
         {
           "en": "Evasive",
+          "es": "evasivo",
           "level": "C1"
         },
         {
           "en": "Evil",
+          "es": "malvado",
           "level": "B1"
         },
         {
           "en": "False",
+          "es": "falso",
           "level": "A2"
         },
         {
           "en": "Foolish",
+          "es": "tonto / insensato",
           "level": "B2"
         },
         {
           "en": "Forgetful",
+          "es": "olvidadizo",
           "level": "C1"
         },
         {
           "en": "Fraudulent",
+          "es": "fraudulento",
           "level": "C1"
         },
         {
           "en": "Frivolous",
+          "es": "frívolo",
           "level": "C1"
         },
         {
           "en": "Fussy",
+          "es": "quisquilloso / exigente",
           "level": "C1"
         },
         {
           "en": "Gloomy",
+          "es": "pesimista / sombrío",
           "level": "C1"
         },
         {
           "en": "Gossipy",
+          "es": "chismoso / cotilla",
           "level": "C1"
         },
         {
           "en": "Greedy",
+          "es": "codicioso / glotón",
           "level": "C1"
         },
         {
           "en": "Grumpy",
+          "es": "gruñón / cascarrabias",
           "level": "C1"
         },
         {
           "en": "Gullible",
+          "es": "ingenuo / crédulo",
           "level": "C1"
         },
         {
           "en": "Harsh",
+          "es": "duro / severo",
           "level": "B2"
         },
         {
           "en": "Hostile",
+          "es": "hostil",
           "level": "B2"
         },
         {
           "en": "Humorless",
+          "es": "sin sentido del humor",
           "level": "C1"
         },
         {
           "en": "Hypocritical",
+          "es": "hipócrita",
           "level": "C1"
         },
         {
           "en": "Ignorant",
+          "es": "ignorante",
           "level": "B2"
         },
         {
           "en": "Impatient",
+          "es": "impaciente",
           "level": "B1"
         },
         {
           "en": "Impolite",
+          "es": "maleducado / descortés",
           "level": "B1"
         },
         {
           "en": "Impractical",
+          "es": "poco práctico",
           "level": "C1"
         },
         {
           "en": "Impulsive",
+          "es": "impulsivo",
           "level": "C1"
         },
         {
           "en": "Inconsiderate",
+          "es": "desconsiderado",
           "level": "B1"
         },
         {
           "en": "Indifferent",
+          "es": "indiferente",
           "level": "C1"
         },
         {
           "en": "Insecure",
+          "es": "inseguro",
           "level": "C1"
         },
         {
           "en": "Insensitive",
+          "es": "insensible / poco delicado",
           "level": "B1"
         },
         {
           "en": "Insincere",
+          "es": "falso / poco sincero",
           "level": "C1"
         },
         {
           "en": "Insolent",
+          "es": "insolente",
           "level": "C1"
         },
         {
           "en": "Insulting",
+          "es": "ofensivo / insultante",
           "level": "C1"
         },
         {
           "en": "Interfering",
+          "es": "entrometido",
           "level": "C1"
         },
         {
           "en": "Irrational",
+          "es": "irracional",
           "level": "C1"
         },
         {
           "en": "Irresponsible",
+          "es": "irresponsable",
           "level": "B1"
         },
         {
           "en": "Irritable",
+          "es": "irritable",
           "level": "C1"
         },
         {
           "en": "Jealous",
+          "es": "celoso / envidioso",
           "level": "B1"
         },
         {
           "en": "Judgmental",
+          "es": "criticón / que juzga",
           "level": "C1"
         },
         {
           "en": "Lazy",
+          "es": "perezoso / flojo",
           "level": "A2"
         },
         {
           "en": "Machiavellian",
+          "es": "maquiavélico",
           "level": "C1"
         },
         {
           "en": "Malicious",
+          "es": "malicioso / malintencionado",
           "level": "C1"
         },
         {
           "en": "Manipulative",
+          "es": "manipulador",
           "level": "C1"
         },
         {
           "en": "Materialistic",
+          "es": "materialista",
           "level": "C1"
         },
         {
           "en": "Mean",
-          "level": "B1"
+          "es": "malo / tacaño",
+          "level": "B1",
+          "note": "En inglés británico, mean es «tacaño»; en el de Estados Unidos, «malo»."
         },
         {
           "en": "Messy",
+          "es": "desordenado",
           "level": "B2"
         },
         {
           "en": "Miserable",
-          "level": "B2"
+          "es": "triste / amargado",
+          "level": "B2",
+          "note": "No significa «miserable» (pobre)."
         },
         {
           "en": "Moody",
+          "es": "temperamental / de humor cambiante",
           "level": "C1"
         },
         {
           "en": "Narrow-minded",
+          "es": "cerrado / de mente estrecha",
           "level": "B2"
         },
         {
           "en": "Nasty",
+          "es": "desagradable / malo",
           "level": "B1"
         },
         {
           "en": "Nosey",
+          "es": "entrometido / metiche",
           "level": "C1"
         },
         {
           "en": "Obnoxious",
+          "es": "odioso / insoportable",
           "level": "C1"
         },
         {
           "en": "Obsessive",
+          "es": "obsesivo",
           "level": "C1"
         },
         {
           "en": "Obstinate",
+          "es": "obstinado / terco",
           "level": "C1"
         },
         {
           "en": "Overcritical",
+          "es": "criticón / demasiado crítico",
           "level": "C1"
         },
         {
           "en": "Paranoid",
+          "es": "paranoico",
           "level": "C1"
         },
         {
           "en": "Perverse",
+          "es": "retorcido / perverso",
           "level": "C1"
         },
         {
           "en": "Pessimistic",
+          "es": "pesimista",
           "level": "B1"
         },
         {
           "en": "Petty",
+          "es": "mezquino / quisquilloso",
           "level": "B2"
         },
         {
           "en": "Picky",
+          "es": "quisquilloso / mañoso (con la comida)",
           "level": "C1"
         },
         {
           "en": "Pompous",
+          "es": "pomposo / pretencioso",
           "level": "C1"
         },
         {
           "en": "Possessive",
+          "es": "posesivo",
           "level": "C1"
         },
         {
           "en": "Prejudiced",
+          "es": "con prejuicios",
           "level": "C1"
         },
         {
           "en": "Pretentious",
+          "es": "pretencioso",
           "level": "C1"
         },
         {
           "en": "Quarrelsome",
+          "es": "peleón / pendenciero",
           "level": "C1"
         },
         {
           "en": "Querulous",
+          "es": "quejica / quejumbroso",
           "level": "C1"
         },
         {
           "en": "Reckless",
+          "es": "imprudente / temerario",
           "level": "B2"
         },
         {
           "en": "Resentful",
+          "es": "resentido",
           "level": "C1"
         },
         {
           "en": "Rude",
-          "level": "B1"
+          "es": "maleducado / grosero",
+          "level": "B1",
+          "note": "No significa «rudo» (rough).",
+          "falseFriend": "rudo"
         },
         {
           "en": "Secretive",
+          "es": "reservado / misterioso",
           "level": "C1"
         },
         {
           "en": "Selfish",
+          "es": "egoísta",
           "level": "A2"
         },
         {
           "en": "Self-seeking",
+          "es": "interesado / egoísta",
           "level": "A2"
         },
         {
           "en": "Sleazy",
+          "es": "sórdido / de mala calaña",
           "level": "C1"
         },
         {
           "en": "Spiteful",
+          "es": "rencoroso / malicioso",
           "level": "C1"
         },
         {
           "en": "Spoiled",
+          "es": "mimado / malcriado",
           "level": "B2"
         },
         {
           "en": "Stingy",
+          "es": "tacaño",
           "level": "C1"
         },
         {
           "en": "Strict",
+          "es": "estricto",
           "level": "B1"
         },
         {
           "en": "Stubborn",
+          "es": "terco / testarudo",
           "level": "B1"
         },
         {
           "en": "Stupid",
+          "es": "estúpido / tonto",
           "level": "A2"
         },
         {
           "en": "Superficial",
+          "es": "superficial",
           "level": "C1"
         },
         {
           "en": "Tactless",
+          "es": "sin tacto / indiscreto",
           "level": "C1"
         },
         {
           "en": "Unkind",
+          "es": "poco amable / cruel",
           "level": "C1"
         },
         {
           "en": "Unlucky",
+          "es": "desafortunado / con mala suerte",
           "level": "A1"
         },
         {
           "en": "Unmotivated",
+          "es": "desmotivado",
           "level": "C1"
         },
         {
           "en": "Unpredictable",
+          "es": "impredecible",
           "level": "C1"
         },
         {
           "en": "Unreliable",
+          "es": "poco fiable / poco confiable",
           "level": "B1"
         },
         {
           "en": "Unsympathetic",
+          "es": "poco comprensivo",
           "level": "C1"
         },
         {
           "en": "Untidy",
+          "es": "desordenado",
           "level": "C1"
         },
         {
           "en": "Untrustworthy",
+          "es": "poco fiable / que no es de fiar",
           "level": "C1"
         },
         {
           "en": "Vague",
-          "level": "B2"
+          "es": "vago / impreciso",
+          "level": "B2",
+          "note": "No significa «vago» de perezoso (lazy)."
         },
         {
           "en": "Vain",
+          "es": "vanidoso / presumido",
           "level": "C1"
         },
         {
           "en": "Vulgar",
+          "es": "vulgar / grosero",
           "level": "C1"
         }
       ]

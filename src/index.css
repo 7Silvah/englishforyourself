@@ -94,6 +94,23 @@
   --color-wrong: var(--wrong);
   --color-wrong-border: var(--wrong-border);
   --color-wrong-fg: var(--wrong-fg);
+
+  /* Niveles del MCER (vocabulario, F17c): tonos propios, distintos de los modos gramaticales */
+  --color-level-a1: var(--level-a1);
+  --color-level-a1-border: var(--level-a1-border);
+  --color-level-a1-fg: var(--level-a1-fg);
+  --color-level-a2: var(--level-a2);
+  --color-level-a2-border: var(--level-a2-border);
+  --color-level-a2-fg: var(--level-a2-fg);
+  --color-level-b1: var(--level-b1);
+  --color-level-b1-border: var(--level-b1-border);
+  --color-level-b1-fg: var(--level-b1-fg);
+  --color-level-b2: var(--level-b2);
+  --color-level-b2-border: var(--level-b2-border);
+  --color-level-b2-fg: var(--level-b2-fg);
+  --color-level-c1: var(--level-c1);
+  --color-level-c1-border: var(--level-c1-border);
+  --color-level-c1-fg: var(--level-c1-fg);
 }
 
 /*
@@ -173,6 +190,23 @@
   --wrong: #fef2f2;
   --wrong-border: #fca5a5;
   --wrong-fg: #991b1b;
+
+  /* Niveles: teal, sky, indigo, violet y fuchsia de Tailwind */
+  --level-a1: #ccfbf1;
+  --level-a1-border: #5eead4;
+  --level-a1-fg: #0f766e;
+  --level-a2: #e0f2fe;
+  --level-a2-border: #7dd3fc;
+  --level-a2-fg: #0369a1;
+  --level-b1: #e0e7ff;
+  --level-b1-border: #a5b4fc;
+  --level-b1-fg: #4338ca;
+  --level-b2: #ede9fe;
+  --level-b2-border: #c4b5fd;
+  --level-b2-fg: #6d28d9;
+  --level-c1: #fae8ff;
+  --level-c1-border: #f0abfc;
+  --level-c1-fg: #a21caf;
 }
 
 /* Solo en pantalla: al imprimir se usan siempre los colores claros (papel blanco) */
@@ -242,6 +276,22 @@
     --wrong: oklch(0.637 0.237 25.331 / 15%);
     --wrong-border: oklch(0.704 0.191 22.216 / 40%);
     --wrong-fg: oklch(0.808 0.114 19.571);
+
+    --level-a1: oklch(0.704 0.14 182.503 / 18%);
+    --level-a1-border: oklch(0.704 0.14 182.503 / 45%);
+    --level-a1-fg: oklch(0.855 0.138 181.071);
+    --level-a2: oklch(0.685 0.169 237.323 / 18%);
+    --level-a2-border: oklch(0.685 0.169 237.323 / 45%);
+    --level-a2-fg: oklch(0.828 0.111 230.318);
+    --level-b1: oklch(0.585 0.233 277.117 / 18%);
+    --level-b1-border: oklch(0.585 0.233 277.117 / 45%);
+    --level-b1-fg: oklch(0.785 0.115 274.713);
+    --level-b2: oklch(0.606 0.25 292.717 / 18%);
+    --level-b2-border: oklch(0.606 0.25 292.717 / 45%);
+    --level-b2-fg: oklch(0.811 0.111 293.571);
+    --level-c1: oklch(0.667 0.295 322.15 / 18%);
+    --level-c1-border: oklch(0.667 0.295 322.15 / 45%);
+    --level-c1-fg: oklch(0.833 0.145 321.434);
   }
 }
 

@@ -10,7 +10,9 @@ import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { useSettingsStore } from "@/features/settings/store";
 import { speak } from "@/lib/speech";
-import { buildVocabulary, parseFilters, type VocabularySource } from "./logic";
+import { buildVocabulary, filterGroups, type VocabularySource } from "./logic";
+import { parseFilters, wordFilters } from "./filters";
+import { useVocabularyStore } from "./store";
 import { VocabularyTable } from "./vocabulary-table";
 
 // En jsdom no hay voces: se simula que sí las hay y se espía speak()
@@ -62,8 +64,20 @@ function renderAt(url: string) {
     getParentRoute: () => rootRoute,
     path: "/biblioteca/$section/",
     validateSearch: parseFilters,
+    // Como la página: filtra con las favoritas de la tienda y le pasa el resultado
     component: function Page() {
-      return <VocabularyTable groups={groups} topics={topics} filters={sectionRoute.useSearch()} />;
+      const filters = sectionRoute.useSearch();
+      const favorites = new Set(useVocabularyStore((state) => state.favorites));
+      const filtered = filterGroups(groups, wordFilters(filters), favorites);
+      return (
+        <VocabularyTable
+          groups={groups}
+          filtered={filtered}
+          topics={topics}
+          filters={filters}
+          favorites={favorites}
+        />
+      );
     },
   });
   const router = createRouter({
@@ -83,6 +97,7 @@ const rowWords = () =>
 
 beforeEach(() => {
   useSettingsStore.setState({ showTranslations: true });
+  useVocabularyStore.setState({ favorites: [] });
 });
 
 describe("VocabularyTable", () => {
@@ -93,7 +108,8 @@ describe("VocabularyTable", () => {
     const cells = within(row as HTMLElement);
     expect(cells.getByText("/ˈæp.l̩/")).toBeInTheDocument();
     expect(cells.getByText("A1")).toBeInTheDocument();
-    expect(cells.getByText("sustantivo")).toBeInTheDocument();
+    // El tipo sale dos veces: junto al nivel en el móvil y en su columna en escritorio
+    expect(cells.getAllByText("sustantivo").length).toBeGreaterThan(0);
     expect(cells.getByText("manzana")).toBeInTheDocument();
     expect(cells.getByText("a round fruit")).toBeInTheDocument();
     expect(cells.getByRole("link", { name: "Frutas" })).toBeInTheDocument();
@@ -146,12 +162,12 @@ describe("VocabularyTable", () => {
   it("elige el tema en el selector", async () => {
     const user = userEvent.setup();
     const router = renderAt(BASE);
-    await user.selectOptions(await screen.findByRole("combobox", { name: "Tema" }), "Frutas");
+    await user.selectOptions(await screen.findByRole("combobox", { name: "Tema" }), "Frutas (2)");
     expect(await screen.findByText("2 de 6 palabras")).toBeInTheDocument();
     expect(router.state.location.search).toEqual({ tema: "fruits" });
   });
 
-  it("busca sin tildes en todas las letras y «Quitar filtros» lo deshace", async () => {
+  it("busca sin tildes en todas las letras y «Restablecer todos» lo deshace", async () => {
     const user = userEvent.setup();
     renderAt(`${BASE}?letra=B`);
     await user.type(
@@ -161,7 +177,7 @@ describe("VocabularyTable", () => {
     expect(await screen.findByText("1 de 6 palabras")).toBeInTheDocument();
     expect(rowWords()).toEqual(["angry"]);
 
-    await user.click(screen.getByRole("button", { name: "Quitar filtros" }));
+    await user.click(screen.getByRole("button", { name: "Restablecer todos" }));
     expect(await screen.findByText("6 palabras")).toBeInTheDocument();
     expect(screen.getByRole("searchbox", { name: "Buscar en la lista" })).toHaveValue("");
   });
@@ -173,5 +189,38 @@ describe("VocabularyTable", () => {
     await user.click(screen.getByRole("switch", { name: "Mostrar traducciones" }));
     expect(screen.queryByRole("columnheader", { name: "Español" })).not.toBeInTheDocument();
     expect(screen.queryByText("manzana")).not.toBeInTheDocument();
+  });
+
+  it("marca favoritas con la estrella y las filtra con «Solo favoritas»", async () => {
+    const user = userEvent.setup();
+    renderAt(BASE);
+    const star = await screen.findByRole("button", { name: "Marcar «Knitting» como favorita" });
+    expect(star).toHaveAttribute("aria-pressed", "false");
+    await user.click(star);
+    expect(star).toHaveAttribute("aria-pressed", "true");
+    expect(useVocabularyStore.getState().favorites).toEqual(["t:knitting"]);
+
+    await user.click(screen.getByRole("link", { name: /Solo favoritas/ }));
+    expect(await screen.findByText("1 de 6 palabras")).toBeInTheDocument();
+    expect(rowWords()).toEqual(["Knitting"]);
+  });
+
+  it("muestra los filtros aplicados como chips que se quitan", async () => {
+    const user = userEvent.setup();
+    renderAt(`${BASE}?nivel=C1&tema=hobbies`);
+    expect(await screen.findByText("1 de 6 palabras")).toBeInTheDocument();
+    await user.click(screen.getByRole("link", { name: "Quitar el filtro Tema: Aficiones" }));
+    expect(await screen.findByText("2 de 6 palabras")).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /Quitar el filtro Tema/ })).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Quitar el filtro Nivel: C1" })).toBeInTheDocument();
+  });
+
+  it("enfoca el buscador con «/»", async () => {
+    const user = userEvent.setup();
+    renderAt(BASE);
+    const search = await screen.findByRole("searchbox", { name: "Buscar en la lista" });
+    expect(search).not.toHaveFocus();
+    await user.keyboard("/");
+    expect(search).toHaveFocus();
   });
 });

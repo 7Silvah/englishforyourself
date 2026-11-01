@@ -1353,6 +1353,7 @@
         },
         {
           "en": "Egypt",
+          "es": "Egipto",
           "ipa": "ˈiː.dʒɪpt",
           "pos": "noun",
           "meanings": [
@@ -1361,6 +1362,7 @@
         },
         {
           "en": "Egyptian",
+          "es": "egipcio",
           "ipa": "ɪˈdʒɪp.ʃən",
           "pos": "adjective",
           "meanings": [
@@ -1369,6 +1371,7 @@
         },
         {
           "en": "eight",
+          "es": "ocho",
           "ipa": "eɪt",
           "pos": "number",
           "meanings": [
@@ -1377,6 +1380,7 @@
         },
         {
           "en": "eighteen",
+          "es": "dieciocho",
           "ipa": "ˌeɪˈtiːn",
           "pos": "number",
           "meanings": [
@@ -1385,14 +1389,17 @@
         },
         {
           "en": "eighteenth",
+          "es": "decimoctavo",
           "ipa": "ˌeɪˈtiːnθ",
           "pos": "number",
           "meanings": [
             "18th"
-          ]
+          ],
+          "note": "Los ordinales se escriben 18th: eighteenth."
         },
         {
           "en": "eighth",
+          "es": "octavo",
           "ipa": "eɪtθ",
           "pos": "number",
           "meanings": [
@@ -1401,6 +1408,7 @@
         },
         {
           "en": "eighty",
+          "es": "ochenta",
           "ipa": "ˈeɪ.ti",
           "pos": "number",
           "meanings": [
@@ -1409,6 +1417,7 @@
         },
         {
           "en": "election",
+          "es": "elección / elecciones",
           "ipa": "ɪˈlek.ʃən",
           "pos": "noun",
           "meanings": [
@@ -1417,6 +1426,7 @@
         },
         {
           "en": "eleven",
+          "es": "once",
           "ipa": "ɪˈlev.ən",
           "pos": "number",
           "meanings": [
@@ -1425,6 +1435,7 @@
         },
         {
           "en": "eleventh",
+          "es": "undécimo / onceavo",
           "ipa": "ɪˈlev.ənθ",
           "pos": "number",
           "meanings": [
@@ -1433,6 +1444,7 @@
         },
         {
           "en": "email address",
+          "es": "dirección de correo electrónico",
           "ipa": "ˈiː.meɪl əˈdres",
           "pos": "noun",
           "meanings": [
@@ -1441,6 +1453,7 @@
         },
         {
           "en": "empty",
+          "es": "vacío",
           "ipa": "ˈemp.ti",
           "pos": "adjective",
           "meanings": [
@@ -1449,6 +1462,7 @@
         },
         {
           "en": "espresso",
+          "es": "café expreso",
           "ipa": "esˈpres.əʊ",
           "pos": "noun",
           "meanings": [
@@ -1457,6 +1471,7 @@
         },
         {
           "en": "euro",
+          "es": "euro",
           "ipa": "ˈjʊə.rəʊ",
           "pos": "noun",
           "meanings": [
@@ -1465,6 +1480,7 @@
         },
         {
           "en": "Europe",
+          "es": "Europa",
           "ipa": "ˈjʊə.rəp",
           "pos": "noun",
           "meanings": [
@@ -1473,14 +1489,17 @@
         },
         {
           "en": "every evening",
+          "es": "todas las tardes / todas las noches",
           "ipa": "ˈev.ri ˈiːv.nɪŋ",
           "pos": "phrase",
           "meanings": [
             "every day in the part of the day between the afternoon and the night"
-          ]
+          ],
+          "note": "Evening es el final de la tarde y el principio de la noche."
         },
         {
           "en": "every week",
+          "es": "todas las semanas / cada semana",
           "ipa": "ˈev.ri wiːk",
           "pos": "phrase",
           "meanings": [
@@ -1489,6 +1508,7 @@
         },
         {
           "en": "every year",
+          "es": "todos los años / cada año",
           "ipa": "ˈev.ri jɪər",
           "pos": "phrase",
           "meanings": [
@@ -1497,14 +1517,18 @@
         },
         {
           "en": "excited",
+          "es": "emocionado / entusiasmado",
           "ipa": "ɪkˈsaɪ.tɪd",
           "pos": "adjective",
           "meanings": [
             "feeling very happy and interested"
-          ]
+          ],
+          "note": "No significa «excitado».",
+          "falseFriend": "excitado"
         },
         {
           "en": "expensive",
+          "es": "caro",
           "ipa": "ɪkˈspen.sɪv",
           "pos": "adjective",
           "meanings": [
@@ -1518,6 +1542,7 @@
       "items": [
         {
           "en": "famous",
+          "es": "famoso",
           "ipa": "ˈfeɪ.məs",
           "pos": "adjective",
           "meanings": [
@@ -1526,6 +1551,7 @@
         },
         {
           "en": "fantastic",
+          "es": "fantástico",
           "ipa": "fænˈtæs.tɪk",
           "pos": "adjective",
           "meanings": [
@@ -1534,6 +1560,7 @@
         },
         {
           "en": "father",
+          "es": "padre",
           "ipa": "ˈfɑː.ðər",
           "pos": "noun",
           "meanings": [
@@ -1542,6 +1569,7 @@
         },
         {
           "en": "February",
+          "es": "febrero",
           "ipa": "ˈfeb.ru.ər.i",
           "pos": "noun",
           "meanings": [
@@ -1550,6 +1578,7 @@
         },
         {
           "en": "festival",
+          "es": "festival",
           "ipa": "ˈfes.tɪ.vəl",
           "pos": "noun",
           "meanings": [
@@ -1558,6 +1587,7 @@
         },
         {
           "en": "fifteen",
+          "es": "quince",
           "ipa": "ˌfɪfˈtiːn",
           "pos": "number",
           "meanings": [
@@ -1566,6 +1596,7 @@
         },
         {
           "en": "fifteenth",
+          "es": "decimoquinto",
           "ipa": "ˌfɪfˈtiːnθ",
           "pos": "number",
           "meanings": [
@@ -1574,6 +1605,7 @@
         },
         {
           "en": "fifth",
+          "es": "quinto",
           "ipa": "fɪfθ",
           "pos": "number",
           "meanings": [
@@ -1582,6 +1614,7 @@
         },
         {
           "en": "fifty",
+          "es": "cincuenta",
           "ipa": "ˈfɪf.ti",
           "pos": "number",
           "meanings": [
@@ -1590,6 +1623,7 @@
         },
         {
           "en": "fill in the gaps",
+          "es": "completar los huecos",
           "ipa": "fɪl ɪn ðiː ɡæps",
           "pos": "phrase",
           "meanings": [
@@ -1598,6 +1632,7 @@
         },
         {
           "en": "finish work",
+          "es": "terminar de trabajar",
           "ipa": "ˈfɪn.ɪʃ wɜːk",
           "pos": "phrase",
           "meanings": [
@@ -1606,6 +1641,7 @@
         },
         {
           "en": "first",
+          "es": "primero",
           "ipa": "ˈfɜːst",
           "pos": "number",
           "meanings": [
@@ -1614,6 +1650,7 @@
         },
         {
           "en": "first name",
+          "es": "nombre (de pila)",
           "ipa": "ˈfɜːstˌneɪm",
           "pos": "noun",
           "meanings": [
@@ -1622,14 +1659,17 @@
         },
         {
           "en": "fish",
+          "es": "pescado / pez",
           "ipa": "fɪʃ",
           "pos": "noun",
           "meanings": [
             "an animal that lives only in water, swims, and can be eaten as food"
-          ]
+          ],
+          "note": "Fish es el animal (pez) y la comida (pescado)."
         },
         {
           "en": "five",
+          "es": "cinco",
           "ipa": "faɪv",
           "pos": "number",
           "meanings": [
@@ -1638,6 +1678,7 @@
         },
         {
           "en": "flight",
+          "es": "vuelo",
           "ipa": "flaɪt",
           "pos": "noun",
           "meanings": [
@@ -1646,6 +1687,7 @@
         },
         {
           "en": "flying",
+          "es": "viajar en avión",
           "ipa": "ˈflaɪ.ɪŋ",
           "pos": "noun",
           "meanings": [
@@ -1654,6 +1696,7 @@
         },
         {
           "en": "food",
+          "es": "comida",
           "ipa": "fuːd",
           "pos": "noun",
           "meanings": [
@@ -1662,6 +1705,7 @@
         },
         {
           "en": "forty",
+          "es": "cuarenta",
           "ipa": "ˈfɔː.ti",
           "pos": "number",
           "meanings": [
@@ -1670,6 +1714,7 @@
         },
         {
           "en": "four",
+          "es": "cuatro",
           "ipa": "fɔːr",
           "pos": "number",
           "meanings": [
@@ -1678,6 +1723,7 @@
         },
         {
           "en": "fourteen",
+          "es": "catorce",
           "ipa": "ˌfɔːˈtiːn",
           "pos": "number",
           "meanings": [
@@ -1686,6 +1732,7 @@
         },
         {
           "en": "fourteenth",
+          "es": "decimocuarto",
           "ipa": "ˌfɔːˈtiːnθ",
           "pos": "number",
           "meanings": [
@@ -1694,6 +1741,7 @@
         },
         {
           "en": "fourth",
+          "es": "cuarto",
           "ipa": "fɔːθ",
           "pos": "number",
           "meanings": [
@@ -1702,6 +1750,7 @@
         },
         {
           "en": "France",
+          "es": "Francia",
           "ipa": "frɑːns",
           "pos": "noun",
           "meanings": [
@@ -1710,14 +1759,17 @@
         },
         {
           "en": "free",
+          "es": "gratis / gratuito",
           "ipa": "friː",
           "pos": "adjective",
           "meanings": [
             "costing no money"
-          ]
+          ],
+          "note": "También significa «libre»."
         },
         {
           "en": "French",
+          "es": "francés",
           "ipa": "frentʃ",
           "pos": "adjective",
           "meanings": [
@@ -1726,14 +1778,17 @@
         },
         {
           "en": "Friday",
+          "es": "viernes",
           "ipa": "ˈfraɪ.deɪ",
           "pos": "noun",
           "meanings": [
             "the day of the week after Thursday and before Saturday"
-          ]
+          ],
+          "note": "Los días de la semana van con mayúscula en inglés."
         },
         {
           "en": "friendly",
+          "es": "amable / simpático",
           "ipa": "ˈfrend.li",
           "pos": "adjective",
           "meanings": [
@@ -1742,11 +1797,13 @@
         },
         {
           "en": "fruit",
+          "es": "fruta",
           "ipa": "fruːt",
           "pos": "noun"
         },
         {
           "en": "fruit salad",
+          "es": "ensalada de frutas",
           "ipa": "ˌfruːt ˈsæləd",
           "pos": "noun",
           "meanings": [
@@ -1755,6 +1812,7 @@
         },
         {
           "en": "full",
+          "es": "lleno",
           "ipa": "fʊl",
           "pos": "adjective",
           "meanings": [
@@ -1768,6 +1826,7 @@
       "items": [
         {
           "en": "garlic",
+          "es": "ajo",
           "ipa": "ˈɡɑː.lɪk",
           "pos": "noun",
           "meanings": [
@@ -1776,6 +1835,7 @@
         },
         {
           "en": "gave",
+          "es": "di, dio… (pasado de give)",
           "ipa": "ɡeɪv",
           "pos": "verb",
           "meanings": [
@@ -1784,6 +1844,7 @@
         },
         {
           "en": "German",
+          "es": "alemán",
           "ipa": "ˈdʒɜː.mən",
           "pos": "adjective",
           "meanings": [
@@ -1792,6 +1853,7 @@
         },
         {
           "en": "Germany",
+          "es": "Alemania",
           "ipa": "ˈdʒɜː.mə.ni",
           "pos": "noun",
           "meanings": [
@@ -1800,14 +1862,17 @@
         },
         {
           "en": "get",
+          "es": "recibir / conseguir",
           "ipa": "ɡet",
           "pos": "verb",
           "meanings": [
             "to receive something"
-          ]
+          ],
+          "note": "Get tiene muchos significados según la frase."
         },
         {
           "en": "get emails",
+          "es": "recibir correos electrónicos",
           "ipa": "ɡet ˈiː.meɪlz",
           "pos": "phrase",
           "meanings": [
@@ -1816,6 +1881,7 @@
         },
         {
           "en": "get engaged",
+          "es": "comprometerse",
           "ipa": "ɡet ɪnˈɡeɪdʒd",
           "pos": "phrase",
           "meanings": [
@@ -1824,6 +1890,7 @@
         },
         {
           "en": "get home",
+          "es": "llegar a casa",
           "ipa": "ɡet həʊm",
           "pos": "phrase",
           "meanings": [
@@ -1832,6 +1899,7 @@
         },
         {
           "en": "get married",
+          "es": "casarse",
           "ipa": "ɡet ˈmær.id",
           "pos": "phrase",
           "meanings": [
@@ -1840,6 +1908,7 @@
         },
         {
           "en": "get up",
+          "es": "levantarse",
           "ipa": "ˈɡet.ʌp",
           "pos": "phrase",
           "meanings": [
@@ -1848,6 +1917,7 @@
         },
         {
           "en": "girl",
+          "es": "niña / chica",
           "ipa": "ɡɜːl",
           "pos": "noun",
           "meanings": [
@@ -1856,6 +1926,7 @@
         },
         {
           "en": "give",
+          "es": "dar",
           "ipa": "ɡɪv",
           "pos": "verb",
           "meanings": [
@@ -1864,6 +1935,7 @@
         },
         {
           "en": "go",
+          "es": "ir",
           "ipa": "ɡəʊ",
           "pos": "verb",
           "meanings": [
@@ -1872,24 +1944,29 @@
         },
         {
           "en": "go for a walk",
+          "es": "ir a pasear / dar un paseo",
           "ipa": "ɡəʊ fɔːr ə wɔːk",
           "pos": "phrase"
         },
         {
           "en": "go on holiday",
+          "es": "irse de vacaciones",
           "ipa": "ɡəʊ ɒn ˈhɒl.ɪ.deɪ",
           "pos": "phrase",
           "meanings": [
             "to go on a long visit to a place away from where you live, for pleasure"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, go on vacation."
         },
         {
           "en": "go out with friends",
+          "es": "salir con amigos",
           "ipa": "ɡəʊ aʊt wɪð frendz",
           "pos": "phrase"
         },
         {
           "en": "go running",
+          "es": "salir a correr",
           "ipa": "ɡəʊ ˈrʌn.ɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -1898,6 +1975,7 @@
         },
         {
           "en": "go shopping",
+          "es": "ir de compras",
           "ipa": "ɡəʊ ˈʃɒp.ɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -1906,6 +1984,7 @@
         },
         {
           "en": "go sightseeing",
+          "es": "hacer turismo",
           "ipa": "ɡəʊ ˈsaɪtˌsiː.ɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -1914,11 +1993,13 @@
         },
         {
           "en": "go swimming",
+          "es": "ir a nadar",
           "ipa": "ɡəʊ ˈswɪm.ɪŋ",
           "pos": "phrase"
         },
         {
           "en": "go to a club",
+          "es": "ir a una discoteca",
           "ipa": "ɡəʊ tuː ə klʌb",
           "pos": "phrase",
           "meanings": [
@@ -1927,11 +2008,13 @@
         },
         {
           "en": "go to a party",
+          "es": "ir a una fiesta",
           "ipa": "ɡəʊ tuː ə ˈpɑː.ti",
           "pos": "phrase"
         },
         {
           "en": "go to bed",
+          "es": "acostarse / irse a dormir",
           "ipa": "ɡəʊ tuː bed",
           "pos": "phrase",
           "meanings": [
@@ -1940,6 +2023,7 @@
         },
         {
           "en": "go to concerts",
+          "es": "ir a conciertos",
           "ipa": "ɡəʊ tuː kənˈsɜːts",
           "pos": "phrase",
           "meanings": [
@@ -1948,6 +2032,7 @@
         },
         {
           "en": "go to the beach",
+          "es": "ir a la playa",
           "ipa": "ɡəʊ tuː ðiː biːtʃ",
           "pos": "phrase",
           "meanings": [
@@ -1956,14 +2041,17 @@
         },
         {
           "en": "go to the cinema",
+          "es": "ir al cine",
           "ipa": "ɡəʊ tuː ðiː ˈsɪn.ə.mə",
           "pos": "phrase",
           "meanings": [
             "to go to a building where you go to watch films"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, go to the movies."
         },
         {
           "en": "go to the gym",
+          "es": "ir al gimnasio",
           "ipa": "ɡəʊ tuː ðiː dʒɪm",
           "pos": "phrase",
           "meanings": [
@@ -1972,6 +2060,7 @@
         },
         {
           "en": "good",
+          "es": "bueno",
           "ipa": "ɡʊd",
           "pos": "adjective",
           "meanings": [
@@ -1980,6 +2069,7 @@
         },
         {
           "en": "Good afternoon",
+          "es": "buenas tardes",
           "ipa": "ˌɡʊd.ɑːf.təˈnuːn",
           "pos": "phrase",
           "meanings": [
@@ -1988,14 +2078,17 @@
         },
         {
           "en": "Good evening",
+          "es": "buenas tardes / buenas noches (al llegar)",
           "ipa": "ˌɡʊdˈiːv.nɪŋ",
           "pos": "phrase",
           "meanings": [
             "something you say to greet someone in the evening"
-          ]
+          ],
+          "note": "Good night solo se dice para despedirse o al irse a dormir."
         },
         {
           "en": "Good morning",
+          "es": "buenos días",
           "ipa": "ɡʊdˈmɔː.nɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -2004,11 +2097,13 @@
         },
         {
           "en": "Good night",
+          "es": "buenas noches (al despedirse)",
           "ipa": "ˌɡʊdˈnaɪt",
           "pos": "phrase"
         },
         {
           "en": "got",
+          "es": "recibí, consiguió… (pasado de get)",
           "ipa": "ɡɒt",
           "pos": "verb",
           "meanings": [
@@ -2017,6 +2112,7 @@
         },
         {
           "en": "grandchild",
+          "es": "nieto / nieta",
           "ipa": "ˈɡræn.tʃaɪld",
           "pos": "noun",
           "meanings": [
@@ -2025,6 +2121,7 @@
         },
         {
           "en": "granddaughter",
+          "es": "nieta",
           "ipa": "ˈɡræn.dɔː.tər",
           "pos": "noun",
           "meanings": [
@@ -2033,6 +2130,7 @@
         },
         {
           "en": "grandfather",
+          "es": "abuelo",
           "ipa": "ˈɡræn.fɑː.ðər",
           "pos": "noun",
           "meanings": [
@@ -2041,6 +2139,7 @@
         },
         {
           "en": "grandmother",
+          "es": "abuela",
           "ipa": "ˈɡræn.mʌð.ər",
           "pos": "noun",
           "meanings": [
@@ -2049,6 +2148,7 @@
         },
         {
           "en": "grandparent",
+          "es": "abuelo / abuela",
           "ipa": "ˈɡræn.peə.rənt",
           "pos": "noun",
           "meanings": [
@@ -2057,6 +2157,7 @@
         },
         {
           "en": "grandson",
+          "es": "nieto",
           "ipa": "ˈɡræn.sʌn",
           "pos": "noun",
           "meanings": [
@@ -2065,6 +2166,7 @@
         },
         {
           "en": "great",
+          "es": "genial / estupendo",
           "ipa": "ɡreɪt",
           "pos": "adjective",
           "meanings": [
@@ -2073,6 +2175,7 @@
         },
         {
           "en": "green",
+          "es": "verde",
           "ipa": "ɡriːn",
           "pos": "adjective",
           "meanings": [
@@ -2081,14 +2184,17 @@
         },
         {
           "en": "grey",
+          "es": "gris",
           "ipa": "ɡreɪ",
           "pos": "adjective",
           "meanings": [
             "being a colour that is a mixture of black and white"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos se escribe gray."
         },
         {
           "en": "groom",
+          "es": "novio (el día de la boda)",
           "ipa": "ɡruːm",
           "pos": "noun",
           "meanings": [
@@ -2097,6 +2203,7 @@
         },
         {
           "en": "guide book",
+          "es": "guía (de viaje)",
           "ipa": "ˈɡaɪd.bʊk",
           "pos": "noun",
           "meanings": [
@@ -2110,6 +2217,7 @@
       "items": [
         {
           "en": "had",
+          "es": "tuve, tuvo… (pasado de have)",
           "ipa": "hæd",
           "pos": "verb",
           "meanings": [
@@ -2118,14 +2226,17 @@
         },
         {
           "en": "half past",
+          "es": "y media",
           "ipa": "hɑːf pɑːst",
           "pos": "phrase",
           "meanings": [
             "30 minutes past one o'clock/two o'clock/three o'clock, etc"
-          ]
+          ],
+          "note": "Half past three = las tres y media."
         },
         {
           "en": "happy",
+          "es": "feliz / contento",
           "ipa": "ˈhæp.i",
           "pos": "adjective",
           "meanings": [
@@ -2134,6 +2245,7 @@
         },
         {
           "en": "hate",
+          "es": "odiar",
           "ipa": "heɪt",
           "pos": "verb",
           "meanings": [
@@ -2142,11 +2254,13 @@
         },
         {
           "en": "have a car",
+          "es": "tener coche / tener carro",
           "ipa": "hæv ə kɑːr",
           "pos": "phrase"
         },
         {
           "en": "have a good time",
+          "es": "pasarlo bien",
           "ipa": "hæv ə ɡʊd taɪm",
           "pos": "phrase",
           "meanings": [
@@ -2155,11 +2269,13 @@
         },
         {
           "en": "have a party",
+          "es": "hacer una fiesta",
           "ipa": "hæv ə ˈpɑː.ti",
           "pos": "phrase"
         },
         {
           "en": "have an idea",
+          "es": "tener una idea",
           "ipa": "hæv ən aɪˈdɪə",
           "pos": "phrase",
           "meanings": [
@@ -2168,6 +2284,7 @@
         },
         {
           "en": "have breakfast",
+          "es": "desayunar",
           "ipa": "hæv ˈbrek.fəst",
           "pos": "phrase",
           "meanings": [
@@ -2176,6 +2293,7 @@
         },
         {
           "en": "have coffee with friends",
+          "es": "tomar café con amigos",
           "ipa": "hæv ˈkɒf.i wɪð frendz",
           "pos": "phrase",
           "meanings": [
@@ -2184,6 +2302,7 @@
         },
         {
           "en": "have dinner",
+          "es": "cenar",
           "ipa": "hæv ˈdɪn.ər",
           "pos": "phrase",
           "meanings": [
@@ -2192,6 +2311,7 @@
         },
         {
           "en": "have dinner with friends",
+          "es": "cenar con amigos",
           "ipa": "hæv ˈdɪn.ər wɪð frendz",
           "pos": "phrase",
           "meanings": [
@@ -2200,6 +2320,7 @@
         },
         {
           "en": "have lunch",
+          "es": "almorzar / comer (al mediodía)",
           "ipa": "hæv lʌntʃ",
           "pos": "phrase",
           "meanings": [
@@ -2208,6 +2329,7 @@
         },
         {
           "en": "have two children",
+          "es": "tener dos hijos",
           "ipa": "hæv tuː ˈtʃɪl.drən",
           "pos": "phrase",
           "meanings": [
@@ -2216,6 +2338,7 @@
         },
         {
           "en": "home number",
+          "es": "número de casa (teléfono fijo)",
           "ipa": "həʊm ˈnʌm.bər",
           "pos": "noun",
           "meanings": [
@@ -2224,6 +2347,7 @@
         },
         {
           "en": "horror films",
+          "es": "películas de terror",
           "ipa": "ˈhɒr.ər fɪlmz",
           "pos": "noun",
           "meanings": [
@@ -2232,14 +2356,17 @@
         },
         {
           "en": "hot",
+          "es": "caliente / caluroso",
           "ipa": "hɒt",
           "pos": "adjective",
           "meanings": [
             "very warm"
-          ]
+          ],
+          "note": "Para el tiempo: It's hot = hace calor."
         },
         {
           "en": "hot springs",
+          "es": "aguas termales",
           "ipa": "hɒt sprɪŋz",
           "pos": "noun",
           "meanings": [
@@ -2248,6 +2375,7 @@
         },
         {
           "en": "hotel",
+          "es": "hotel",
           "ipa": "həʊˈtel",
           "pos": "noun",
           "meanings": [
@@ -2256,6 +2384,7 @@
         },
         {
           "en": "hour",
+          "es": "hora",
           "ipa": "aʊər",
           "pos": "noun",
           "meanings": [
@@ -2264,6 +2393,7 @@
         },
         {
           "en": "house",
+          "es": "casa",
           "ipa": "haʊs",
           "pos": "noun",
           "meanings": [
@@ -2272,30 +2402,37 @@
         },
         {
           "en": "How many",
+          "es": "cuántos / cuántas",
           "ipa": "haʊ ˈmen.i",
           "pos": "phrase",
           "meanings": [
             "used in questions to ask about the number of something"
-          ]
+          ],
+          "note": "Con cosas que se cuentan: How many books?"
         },
         {
           "en": "How much",
+          "es": "cuánto (cuesta)",
           "ipa": "haʊ mʌtʃ",
           "pos": "phrase",
           "meanings": [
             "used to ask about the price or cost of something"
-          ]
+          ],
+          "note": "Para precios y cosas que no se cuentan: How much is it?"
         },
         {
           "en": "How old",
+          "es": "qué edad / cuántos años",
           "ipa": "haʊ əʊld",
           "pos": "phrase",
           "meanings": [
             "used to ask about age"
-          ]
+          ],
+          "note": "How old are you? = ¿Cuántos años tienes? No se dice «How many years do you have»."
         },
         {
           "en": "hundred",
+          "es": "cien / ciento",
           "ipa": "ˈhʌn.drəd",
           "pos": "number",
           "meanings": [
@@ -2304,14 +2441,17 @@
         },
         {
           "en": "hungry",
+          "es": "hambriento (tener hambre)",
           "ipa": "ˈhʌŋ.ɡri",
           "pos": "adjective",
           "meanings": [
             "wanting or needing food"
-          ]
+          ],
+          "note": "I'm hungry = tengo hambre."
         },
         {
           "en": "husband",
+          "es": "esposo / marido",
           "ipa": "ˈhʌz.bənd",
           "pos": "noun",
           "meanings": [
@@ -2325,6 +2465,7 @@
       "items": [
         {
           "en": "ice cream",
+          "es": "helado",
           "ipa": "ˌaɪsˈkriːm",
           "pos": "noun",
           "meanings": [
@@ -2333,6 +2474,7 @@
         },
         {
           "en": "ID card",
+          "es": "documento de identidad / cédula",
           "ipa": "ˌaɪˈdiːˌkɑːd",
           "pos": "noun",
           "meanings": [
@@ -2341,6 +2483,7 @@
         },
         {
           "en": "in",
+          "es": "en / dentro de",
           "ipa": "ɪn",
           "pos": "preposition",
           "meanings": [
@@ -2349,6 +2492,7 @@
         },
         {
           "en": "in 2004",
+          "es": "en 2004",
           "pos": "phrase",
           "meanings": [
             "in the year 2004"
@@ -2356,6 +2500,7 @@
         },
         {
           "en": "in 2025",
+          "es": "en 2025",
           "pos": "phrase",
           "meanings": [
             "in the year 2025"
@@ -2363,14 +2508,17 @@
         },
         {
           "en": "in December",
+          "es": "en diciembre",
           "ipa": "ɪn dɪˈsem.bər",
           "pos": "phrase",
           "meanings": [
             "in the last month of the year"
-          ]
+          ],
+          "note": "Con meses y años se usa in."
         },
         {
           "en": "in the afternoon",
+          "es": "por la tarde",
           "ipa": "ɪn ðiː ˌɑːf.təˈnuːn",
           "pos": "phrase",
           "meanings": [
@@ -2379,6 +2527,7 @@
         },
         {
           "en": "in the centre of the city",
+          "es": "en el centro de la ciudad",
           "ipa": "ɪn ðiː ˈsen.tər əv ðiː ˈsɪt.i",
           "pos": "phrase",
           "meanings": [
@@ -2387,6 +2536,7 @@
         },
         {
           "en": "in the evening",
+          "es": "por la tarde / por la noche",
           "ipa": "ɪn ðiː ˈiːv.nɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -2395,6 +2545,7 @@
         },
         {
           "en": "in the morning",
+          "es": "por la mañana",
           "ipa": "ɪn ðiː ˈmɔː.nɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -2403,11 +2554,13 @@
         },
         {
           "en": "in the week",
+          "es": "entre semana",
           "ipa": "ɪn ðiː wiːk",
           "pos": "phrase"
         },
         {
           "en": "India",
+          "es": "India",
           "ipa": "ˈɪn.di.ə",
           "pos": "noun",
           "meanings": [
@@ -2416,6 +2569,7 @@
         },
         {
           "en": "Indonesia",
+          "es": "Indonesia",
           "ipa": "ˌɪn.dəˈniː.ʒə",
           "pos": "noun",
           "meanings": [
@@ -2424,6 +2578,7 @@
         },
         {
           "en": "interesting",
+          "es": "interesante",
           "ipa": "ˈɪn.trəs.tɪŋ",
           "pos": "adjective",
           "meanings": [
@@ -2432,6 +2587,7 @@
         },
         {
           "en": "Italian",
+          "es": "italiano",
           "ipa": "ɪˈtæl.jən",
           "pos": "adjective",
           "meanings": [
@@ -2440,6 +2596,7 @@
         },
         {
           "en": "Italy",
+          "es": "Italia",
           "ipa": "ˈɪt.ə.li",
           "pos": "noun",
           "meanings": [
@@ -2453,6 +2610,7 @@
       "items": [
         {
           "en": "jacket",
+          "es": "chaqueta / chamarra",
           "ipa": "ˈdʒæk.ɪt",
           "pos": "noun",
           "meanings": [
@@ -2461,6 +2619,7 @@
         },
         {
           "en": "January",
+          "es": "enero",
           "ipa": "ˈdʒæn.jʊ.ri",
           "pos": "noun",
           "meanings": [
@@ -2469,6 +2628,7 @@
         },
         {
           "en": "Japan",
+          "es": "Japón",
           "ipa": "dʒəˈpæn",
           "pos": "noun",
           "meanings": [
@@ -2477,6 +2637,7 @@
         },
         {
           "en": "Japanese",
+          "es": "japonés",
           "ipa": "ˌdzæp.əˈniːz",
           "pos": "adjective",
           "meanings": [
@@ -2485,6 +2646,7 @@
         },
         {
           "en": "jeans",
+          "es": "jeans / vaqueros",
           "ipa": "dʒiːnz",
           "pos": "noun",
           "meanings": [
@@ -2493,6 +2655,7 @@
         },
         {
           "en": "journey",
+          "es": "viaje / trayecto",
           "ipa": "ˈdʒɜː.ni",
           "pos": "noun",
           "meanings": [
@@ -2501,6 +2664,7 @@
         },
         {
           "en": "July",
+          "es": "julio",
           "ipa": "dʒʊˈlaɪ",
           "pos": "noun",
           "meanings": [
@@ -2509,11 +2673,14 @@
         },
         {
           "en": "jumper",
+          "es": "suéter / jersey",
           "ipa": "ˈdʒʌm.pər",
-          "pos": "noun"
+          "pos": "noun",
+          "note": "Inglés británico; en Estados Unidos, sweater."
         },
         {
           "en": "June",
+          "es": "junio",
           "ipa": "dʒuːn",
           "pos": "noun",
           "meanings": [
@@ -2527,6 +2694,7 @@
       "items": [
         {
           "en": "key",
+          "es": "llave",
           "ipa": "kiː",
           "pos": "noun",
           "meanings": [
@@ -2535,6 +2703,7 @@
         },
         {
           "en": "kilo",
+          "es": "kilo",
           "ipa": "ˈkiː.ləʊ",
           "pos": "noun",
           "meanings": [
@@ -2548,6 +2717,7 @@
       "items": [
         {
           "en": "laptop",
+          "es": "computadora portátil / portátil",
           "ipa": "ˈlæp.tɒp",
           "pos": "noun",
           "meanings": [
@@ -2556,6 +2726,7 @@
         },
         {
           "en": "last night",
+          "es": "anoche",
           "ipa": "lɑːst naɪt",
           "pos": "phrase",
           "meanings": [
@@ -2564,6 +2735,7 @@
         },
         {
           "en": "last week",
+          "es": "la semana pasada",
           "ipa": "lɑːst wiːk",
           "pos": "phrase",
           "meanings": [
@@ -2572,6 +2744,7 @@
         },
         {
           "en": "last year",
+          "es": "el año pasado",
           "ipa": "lɑːst jɪər",
           "pos": "phrase",
           "meanings": [
@@ -2580,14 +2753,17 @@
         },
         {
           "en": "late",
+          "es": "tarde / con retraso",
           "ipa": "leɪt",
           "pos": "adjective",
           "meanings": [
             "after the usual time or the time that was arranged"
-          ]
+          ],
+          "note": "I'm late = llego tarde."
         },
         {
           "en": "leave",
+          "es": "irse / salir (de) / dejar",
           "ipa": "liːv",
           "pos": "verb",
           "meanings": [
@@ -2596,6 +2772,7 @@
         },
         {
           "en": "leave home",
+          "es": "salir de casa",
           "ipa": "liːv həʊm",
           "pos": "phrase",
           "meanings": [
@@ -2604,6 +2781,7 @@
         },
         {
           "en": "leave school",
+          "es": "dejar la escuela / terminar la escuela",
           "ipa": "liːv skuːl",
           "pos": "phrase",
           "meanings": [
@@ -2612,6 +2790,7 @@
         },
         {
           "en": "leave university",
+          "es": "dejar la universidad / terminar la universidad",
           "ipa": "liːv ˌjuː.nɪˈvɜː.sɪ.ti",
           "pos": "phrase",
           "meanings": [
@@ -2620,6 +2799,7 @@
         },
         {
           "en": "leave your job",
+          "es": "dejar tu trabajo",
           "ipa": "liːv jɔːr dʒɒb",
           "pos": "phrase",
           "meanings": [
@@ -2628,6 +2808,7 @@
         },
         {
           "en": "left",
+          "es": "me fui, salió… (pasado de leave)",
           "ipa": "left",
           "pos": "verb",
           "meanings": [
@@ -2636,6 +2817,7 @@
         },
         {
           "en": "Libya",
+          "es": "Libia",
           "ipa": "ˈlɪb.i.ə",
           "pos": "noun",
           "meanings": [
@@ -2644,32 +2826,39 @@
         },
         {
           "en": "like",
+          "es": "gustar",
           "ipa": "laɪk",
           "pos": "verb",
           "meanings": [
             "to enjoy something or think that someone or something is nice"
-          ]
+          ],
+          "note": "I like coffee = me gusta el café: el sujeto en inglés es la persona."
         },
         {
           "en": "like football",
+          "es": "gustar el fútbol",
           "ipa": "laɪk ˈfʊt.bɔːl",
           "pos": "phrase"
         },
         {
           "en": "like rock music",
+          "es": "gustar la música rock",
           "ipa": "laɪk rɒk ˈmjuː.zɪk",
           "pos": "phrase"
         },
         {
           "en": "listen",
+          "es": "escuchar",
           "ipa": "ˈlɪs.ən",
           "pos": "verb",
           "meanings": [
             "to give attention to someone or something in order to hear them"
-          ]
+          ],
+          "note": "Con objeto lleva to: listen to music."
         },
         {
           "en": "listen and check",
+          "es": "escuchar y comprobar",
           "ipa": "ˈlɪs.ən ænd tʃek",
           "pos": "phrase",
           "meanings": [
@@ -2678,6 +2867,7 @@
         },
         {
           "en": "listen and practise",
+          "es": "escuchar y practicar",
           "ipa": "ˈlɪs.ən ænd ˈpræk.tɪs",
           "pos": "phrase",
           "meanings": [
@@ -2686,6 +2876,7 @@
         },
         {
           "en": "listen to music",
+          "es": "escuchar música",
           "ipa": "ˈlɪs.ən tuː ˈmjuː.zɪk",
           "pos": "phrase",
           "meanings": [
@@ -2694,6 +2885,7 @@
         },
         {
           "en": "listen to the radio",
+          "es": "escuchar la radio",
           "ipa": "ˈlɪs.ən tuː ðiː ˈreɪ.di.əʊ",
           "pos": "phrase",
           "meanings": [
@@ -2702,14 +2894,17 @@
         },
         {
           "en": "live in a flat",
+          "es": "vivir en un departamento / piso",
           "ipa": "lɪv ɪn ə flæt",
           "pos": "phrase",
           "meanings": [
             "to have a set of rooms to live in, with all the rooms on one level of a building"
-          ]
+          ],
+          "note": "Flat es inglés británico; en Estados Unidos, apartment."
         },
         {
           "en": "long",
+          "es": "largo",
           "ipa": "lɒŋ",
           "pos": "adjective",
           "meanings": [
@@ -2718,6 +2913,7 @@
         },
         {
           "en": "look at the photo",
+          "es": "mirar la foto",
           "ipa": "lʊk ət ðiː ˈfəʊ.təʊ",
           "pos": "phrase",
           "meanings": [
@@ -2726,6 +2922,7 @@
         },
         {
           "en": "look for a flat",
+          "es": "buscar un departamento / piso",
           "ipa": "lʊk fɔːr ə flæt",
           "pos": "phrase",
           "meanings": [
@@ -2734,6 +2931,7 @@
         },
         {
           "en": "look for a house",
+          "es": "buscar una casa",
           "ipa": "lʊk fɔːr ə haʊs",
           "pos": "phrase",
           "meanings": [
@@ -2742,6 +2940,7 @@
         },
         {
           "en": "look for a new job",
+          "es": "buscar un trabajo nuevo",
           "ipa": "lʊk fɔːr ə njuː dʒɒb",
           "pos": "phrase",
           "meanings": [
@@ -2750,11 +2949,13 @@
         },
         {
           "en": "love",
+          "es": "encantar / amar",
           "ipa": "lʌv",
           "pos": "verb",
           "meanings": [
             "to like something very much"
-          ]
+          ],
+          "note": "I love pizza = me encanta la pizza."
         }
       ]
     },
@@ -2763,11 +2964,14 @@
       "items": [
         {
           "en": "magazine",
+          "es": "revista",
           "ipa": "ˌmæɡ.əˈziːn",
-          "pos": "noun"
+          "pos": "noun",
+          "note": "No es «magacín»."
         },
         {
           "en": "man",
+          "es": "hombre",
           "ipa": "mæn",
           "pos": "noun",
           "meanings": [
@@ -2776,6 +2980,7 @@
         },
         {
           "en": "manager",
+          "es": "gerente / encargado",
           "ipa": "ˈmæn.ɪ.dʒər",
           "pos": "noun",
           "meanings": [
@@ -2784,6 +2989,7 @@
         },
         {
           "en": "map",
+          "es": "mapa",
           "ipa": "mæp",
           "pos": "noun",
           "meanings": [
@@ -2792,6 +2998,7 @@
         },
         {
           "en": "March",
+          "es": "marzo",
           "ipa": "mɑːtʃ",
           "pos": "noun",
           "meanings": [
@@ -2800,6 +3007,7 @@
         },
         {
           "en": "market",
+          "es": "mercado",
           "ipa": "ˈmɑː.kɪt",
           "pos": "noun",
           "meanings": [
@@ -2808,6 +3016,7 @@
         },
         {
           "en": "married",
+          "es": "casado",
           "ipa": "ˈmær.id",
           "pos": "adjective",
           "meanings": [
@@ -2816,6 +3025,7 @@
         },
         {
           "en": "match",
+          "es": "combinar / emparejar",
           "ipa": "mætʃ",
           "pos": "verb",
           "meanings": [
@@ -2824,6 +3034,7 @@
         },
         {
           "en": "match",
+          "es": "partido",
           "ipa": "mætʃ",
           "pos": "noun",
           "meanings": [
@@ -2832,6 +3043,7 @@
         },
         {
           "en": "May",
+          "es": "mayo",
           "ipa": "meɪ",
           "pos": "noun",
           "meanings": [
@@ -2840,6 +3052,7 @@
         },
         {
           "en": "meat",
+          "es": "carne",
           "ipa": "miːt",
           "pos": "noun",
           "meanings": [
@@ -2848,14 +3061,17 @@
         },
         {
           "en": "meet",
+          "es": "conocer / quedar (con alguien)",
           "ipa": "miːt",
           "pos": "verb",
           "meanings": [
             "to come to the same place as someone else"
-          ]
+          ],
+          "note": "Meet es conocer a alguien por primera vez o encontrarse con alguien."
         },
         {
           "en": "met",
+          "es": "conocí, quedó… (pasado de meet)",
           "ipa": "met",
           "pos": "verb",
           "meanings": [
@@ -2864,6 +3080,7 @@
         },
         {
           "en": "Mexican",
+          "es": "mexicano",
           "ipa": "ˈmek.sɪ.kən",
           "pos": "adjective",
           "meanings": [
@@ -2872,6 +3089,7 @@
         },
         {
           "en": "Mexico",
+          "es": "México",
           "ipa": "ˈmek.sɪ.kəʊ",
           "pos": "noun",
           "meanings": [
@@ -2880,6 +3098,7 @@
         },
         {
           "en": "midday",
+          "es": "mediodía",
           "ipa": "ˌmɪdˈdeɪ",
           "pos": "noun",
           "meanings": [
@@ -2888,6 +3107,7 @@
         },
         {
           "en": "midnight",
+          "es": "medianoche",
           "ipa": "ˈmɪd.naɪt",
           "pos": "noun",
           "meanings": [
@@ -2896,6 +3116,7 @@
         },
         {
           "en": "mile",
+          "es": "milla",
           "ipa": "maɪl",
           "pos": "noun",
           "meanings": [
@@ -2904,11 +3125,13 @@
         },
         {
           "en": "milk",
+          "es": "leche",
           "ipa": "mɪlk",
           "pos": "noun"
         },
         {
           "en": "million",
+          "es": "millón",
           "ipa": "ˈmɪl.jən",
           "pos": "number",
           "meanings": [
@@ -2917,6 +3140,7 @@
         },
         {
           "en": "mineral water",
+          "es": "agua mineral",
           "ipa": "ˈmɪn.ə.rəlˌwɔːt.ər",
           "pos": "noun",
           "meanings": [
@@ -2925,6 +3149,7 @@
         },
         {
           "en": "minute",
+          "es": "minuto",
           "ipa": "ˈmɪn.ɪt",
           "pos": "noun",
           "meanings": [
@@ -2933,6 +3158,7 @@
         },
         {
           "en": "Miss",
+          "es": "señorita",
           "ipa": "mɪs",
           "pos": "noun",
           "meanings": [
@@ -2941,14 +3167,17 @@
         },
         {
           "en": "mobile (phone)",
+          "es": "celular / móvil",
           "ipa": "ˈməʊ.baɪl",
           "pos": "noun",
           "meanings": [
             "a telephone that you can carry everywhere with you"
-          ]
+          ],
+          "note": "Mobile es inglés británico; en Estados Unidos, cell phone."
         },
         {
           "en": "mobile number",
+          "es": "número de celular / de móvil",
           "ipa": "ˈməʊ.baɪl ˈnʌm.bər",
           "pos": "noun",
           "meanings": [
@@ -2957,6 +3186,7 @@
         },
         {
           "en": "Monday",
+          "es": "lunes",
           "ipa": "ˈmʌn.deɪ",
           "pos": "noun",
           "meanings": [
@@ -2965,14 +3195,17 @@
         },
         {
           "en": "money",
+          "es": "dinero",
           "ipa": "ˈmʌn.i",
           "pos": "noun",
           "meanings": [
             "the coins or pieces of paper that are used for buying things"
-          ]
+          ],
+          "note": "No se cuenta: money is, no «moneys»."
         },
         {
           "en": "month",
+          "es": "mes",
           "ipa": "mʌnθ",
           "pos": "noun",
           "meanings": [
@@ -2981,6 +3214,7 @@
         },
         {
           "en": "moon",
+          "es": "luna",
           "ipa": "muːn",
           "pos": "noun",
           "meanings": [
@@ -2989,6 +3223,7 @@
         },
         {
           "en": "mosque",
+          "es": "mezquita",
           "ipa": "mɒsk",
           "pos": "noun",
           "meanings": [
@@ -2997,6 +3232,7 @@
         },
         {
           "en": "mother",
+          "es": "madre",
           "ipa": "ˈmʌð.ər",
           "pos": "noun",
           "meanings": [
@@ -3005,6 +3241,7 @@
         },
         {
           "en": "motorbike",
+          "es": "moto / motocicleta",
           "ipa": "ˈməʊ.tə.baɪk",
           "pos": "noun",
           "meanings": [
@@ -3013,6 +3250,7 @@
         },
         {
           "en": "move house",
+          "es": "mudarse (de casa)",
           "ipa": "muːv haʊs",
           "pos": "phrase",
           "meanings": [
@@ -3021,6 +3259,7 @@
         },
         {
           "en": "move to another city",
+          "es": "mudarse a otra ciudad",
           "ipa": "muːv tuː əˈnʌð.ər ˈsɪt.i",
           "pos": "phrase",
           "meanings": [
@@ -3029,6 +3268,7 @@
         },
         {
           "en": "move to another country",
+          "es": "mudarse a otro país",
           "ipa": "muːv tuː əˈnʌð.ər ˈkʌn.tri",
           "pos": "phrase",
           "meanings": [
@@ -3037,6 +3277,7 @@
         },
         {
           "en": "Mr",
+          "es": "señor (Sr.)",
           "ipa": "ˈmɪs.tər",
           "pos": "noun",
           "meanings": [
@@ -3045,6 +3286,7 @@
         },
         {
           "en": "Mrs",
+          "es": "señora (Sra., casada)",
           "ipa": "ˈmɪs.ɪz",
           "pos": "noun",
           "meanings": [
@@ -3053,32 +3295,39 @@
         },
         {
           "en": "Ms",
+          "es": "señora (Sra.)",
           "ipa": "ˌemˈes",
           "pos": "noun",
           "meanings": [
             "a title for a woman, used before her family name or full name"
-          ]
+          ],
+          "note": "Ms no indica si la mujer está casada."
         },
         {
           "en": "mum",
+          "es": "mamá",
           "ipa": "mʌm",
           "pos": "noun",
           "meanings": [
             "mother"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, mom."
         },
         {
           "en": "museum",
+          "es": "museo",
           "ipa": "mjuːˈziː.əm",
           "pos": "noun"
         },
         {
           "en": "mushroom pizza",
+          "es": "pizza de champiñones",
           "ipa": "ˈmʌʃ.ruːm ˈpiːt.sə",
           "pos": "noun"
         },
         {
           "en": "musician",
+          "es": "músico",
           "ipa": "mjuːˈzɪʃ.ən",
           "pos": "noun",
           "meanings": [
@@ -3092,11 +3341,13 @@
       "items": [
         {
           "en": "nationality",
+          "es": "nacionalidad",
           "ipa": "ˌnæʃ.ənˈæl.ə.ti",
           "pos": "noun"
         },
         {
           "en": "near",
+          "es": "cerca de",
           "ipa": "nɪər",
           "pos": "preposition",
           "meanings": [
@@ -3105,6 +3356,7 @@
         },
         {
           "en": "never",
+          "es": "nunca",
           "ipa": "ˈnev.ər",
           "pos": "adverb",
           "meanings": [
@@ -3113,6 +3365,7 @@
         },
         {
           "en": "new",
+          "es": "nuevo",
           "ipa": "njuː",
           "pos": "adjective",
           "meanings": [
@@ -3121,16 +3374,19 @@
         },
         {
           "en": "New Year's Eve fireworks",
+          "es": "fuegos artificiales de Nochevieja / Año Nuevo",
           "ipa": "njuː jɪər iːv ˈfaɪə.wɜːks",
           "pos": "noun"
         },
         {
           "en": "newspaper",
+          "es": "periódico",
           "ipa": "ˈnjuːzˌpeɪ.pər",
           "pos": "noun"
         },
         {
           "en": "next month",
+          "es": "el mes que viene / el próximo mes",
           "ipa": "nekst mʌnθ",
           "pos": "phrase",
           "meanings": [
@@ -3139,6 +3395,7 @@
         },
         {
           "en": "next to",
+          "es": "al lado de",
           "ipa": "nekst tuː",
           "pos": "phrase",
           "meanings": [
@@ -3147,6 +3404,7 @@
         },
         {
           "en": "next week",
+          "es": "la semana que viene / la próxima semana",
           "ipa": "nekst wiːk",
           "pos": "phrase",
           "meanings": [
@@ -3155,6 +3413,7 @@
         },
         {
           "en": "next year",
+          "es": "el año que viene / el próximo año",
           "ipa": "nekst jɪər",
           "pos": "phrase",
           "meanings": [
@@ -3163,6 +3422,7 @@
         },
         {
           "en": "nice",
+          "es": "bonito / agradable / simpático",
           "ipa": "naɪs",
           "pos": "adjective",
           "meanings": [
@@ -3171,6 +3431,7 @@
         },
         {
           "en": "nine",
+          "es": "nueve",
           "ipa": "naɪn",
           "pos": "number",
           "meanings": [
@@ -3179,6 +3440,7 @@
         },
         {
           "en": "nineteen",
+          "es": "diecinueve",
           "ipa": "ˌnaɪnˈtiːn",
           "pos": "number",
           "meanings": [
@@ -3187,6 +3449,7 @@
         },
         {
           "en": "nineteenth",
+          "es": "decimonoveno",
           "ipa": "ˌnaɪnˈtiːnθ",
           "pos": "number",
           "meanings": [
@@ -3195,6 +3458,7 @@
         },
         {
           "en": "ninety",
+          "es": "noventa",
           "ipa": "ˈnaɪn.ti",
           "pos": "number",
           "meanings": [
@@ -3203,6 +3467,7 @@
         },
         {
           "en": "ninth",
+          "es": "noveno",
           "ipa": "naɪnθ",
           "pos": "number",
           "meanings": [
@@ -3211,6 +3476,7 @@
         },
         {
           "en": "noise",
+          "es": "ruido",
           "ipa": "nɔɪz",
           "pos": "noun",
           "meanings": [
@@ -3219,6 +3485,7 @@
         },
         {
           "en": "not usually",
+          "es": "no suele / normalmente no",
           "ipa": "nɒt ˈjuː.ʒu.ə.li",
           "pos": "phrase",
           "meanings": [
@@ -3227,6 +3494,7 @@
         },
         {
           "en": "notebook",
+          "es": "cuaderno / libreta",
           "ipa": "ˈnəʊt.bʊk",
           "pos": "noun",
           "meanings": [
@@ -3235,6 +3503,7 @@
         },
         {
           "en": "November",
+          "es": "noviembre",
           "ipa": "nəʊˈvem.bər",
           "pos": "noun",
           "meanings": [
@@ -3248,11 +3517,14 @@
       "items": [
         {
           "en": "o’clock",
+          "es": "en punto",
           "ipa": "əˈklɒk",
-          "pos": "adverb"
+          "pos": "adverb",
+          "note": "Six o'clock = las seis en punto."
         },
         {
           "en": "October",
+          "es": "octubre",
           "ipa": "ɒkˈtəʊ.bər",
           "pos": "noun",
           "meanings": [
@@ -3261,6 +3533,7 @@
         },
         {
           "en": "old",
+          "es": "viejo / antiguo",
           "ipa": "əʊld",
           "pos": "adjective",
           "meanings": [
@@ -3269,14 +3542,17 @@
         },
         {
           "en": "on Friday evening",
+          "es": "el viernes por la tarde / noche",
           "ipa": "ɒn ˈfraɪ.deɪ ˈiːv.nɪŋ",
           "pos": "phrase",
           "meanings": [
             "during the part of the day between the afternoon and the night on Friday"
-          ]
+          ],
+          "note": "Con días se usa on."
         },
         {
           "en": "on Monday",
+          "es": "el lunes",
           "ipa": "ɒn ˈmʌn.deɪ",
           "pos": "phrase",
           "meanings": [
@@ -3285,6 +3561,7 @@
         },
         {
           "en": "on Saturday afternoon",
+          "es": "el sábado por la tarde",
           "ipa": "ɒn ˈsæt.ə.deɪ ˌɑːf.təˈnuːn",
           "pos": "phrase",
           "meanings": [
@@ -3293,6 +3570,7 @@
         },
         {
           "en": "on Sunday",
+          "es": "el domingo",
           "ipa": "ɒn ˈsʌn.deɪ",
           "pos": "phrase",
           "meanings": [
@@ -3301,6 +3579,7 @@
         },
         {
           "en": "on the left",
+          "es": "a la izquierda",
           "ipa": "ɒn ðiː left",
           "pos": "phrase",
           "meanings": [
@@ -3309,6 +3588,7 @@
         },
         {
           "en": "on the right",
+          "es": "a la derecha",
           "ipa": "ɒn ðiː raɪt",
           "pos": "phrase",
           "meanings": [
@@ -3317,6 +3597,7 @@
         },
         {
           "en": "on Tuesday morning",
+          "es": "el martes por la mañana",
           "ipa": "ɒn ˈtjuːz.deɪ ˈmɔː.nɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -3325,6 +3606,7 @@
         },
         {
           "en": "one",
+          "es": "uno",
           "ipa": "wʌn",
           "pos": "number",
           "meanings": [
@@ -3333,6 +3615,7 @@
         },
         {
           "en": "open",
+          "es": "abierto",
           "ipa": "ˈəʊ.pən",
           "pos": "adjective",
           "meanings": [
@@ -3341,6 +3624,7 @@
         },
         {
           "en": "opposite",
+          "es": "enfrente de",
           "ipa": "ˈɒp.ə.zɪt",
           "pos": "preposition",
           "meanings": [
@@ -3349,6 +3633,7 @@
         },
         {
           "en": "orange juice",
+          "es": "jugo de naranja / zumo de naranja",
           "ipa": "ˈɒr.ɪndʒ dʒuːs",
           "pos": "noun",
           "meanings": [
@@ -3362,14 +3647,17 @@
       "items": [
         {
           "en": "p",
+          "es": "penique(s) (abreviatura)",
           "ipa": "piː",
           "pos": "noun",
           "meanings": [
             "abbreviation for penny or pence"
-          ]
+          ],
+          "note": "Se lee «pi»: 50p = fifty pence."
         },
         {
           "en": "palace",
+          "es": "palacio",
           "ipa": "ˈpæl.ɪs",
           "pos": "noun",
           "meanings": [
@@ -3378,24 +3666,30 @@
         },
         {
           "en": "parent",
+          "es": "padre o madre",
           "ipa": "ˈpeə.rənt",
           "pos": "noun",
           "meanings": [
             "your mother or father"
-          ]
+          ],
+          "note": "Parents son los padres (padre y madre), no los parientes.",
+          "falseFriend": "pariente"
         },
         {
           "en": "park",
+          "es": "parque",
           "ipa": "pɑːk",
           "pos": "noun"
         },
         {
           "en": "party",
+          "es": "fiesta",
           "ipa": "ˈpɑː.ti",
           "pos": "noun"
         },
         {
           "en": "passport",
+          "es": "pasaporte",
           "ipa": "ˈpɑːs.pɔːt",
           "pos": "noun",
           "meanings": [
@@ -3404,6 +3698,7 @@
         },
         {
           "en": "pasta",
+          "es": "pasta",
           "ipa": "ˈpæs.tə",
           "pos": "noun",
           "meanings": [
@@ -3412,6 +3707,7 @@
         },
         {
           "en": "pen",
+          "es": "bolígrafo / pluma",
           "ipa": "pen",
           "pos": "noun",
           "meanings": [
@@ -3420,6 +3716,7 @@
         },
         {
           "en": "pence",
+          "es": "peniques",
           "ipa": "pents",
           "pos": "noun",
           "meanings": [
@@ -3428,11 +3725,13 @@
         },
         {
           "en": "pencil",
+          "es": "lápiz",
           "ipa": "ˈpen.səl",
           "pos": "noun"
         },
         {
           "en": "Peru",
+          "es": "Perú",
           "ipa": "pəˈruː",
           "pos": "noun",
           "meanings": [
@@ -3441,6 +3740,7 @@
         },
         {
           "en": "phone number",
+          "es": "número de teléfono",
           "ipa": "ˈfəʊn ˌnʌmbər",
           "pos": "noun",
           "meanings": [
@@ -3449,6 +3749,7 @@
         },
         {
           "en": "pink",
+          "es": "rosa / rosado",
           "ipa": "pɪŋk",
           "pos": "adjective",
           "meanings": [
@@ -3457,6 +3758,7 @@
         },
         {
           "en": "plane",
+          "es": "avión",
           "ipa": "pleɪn",
           "pos": "noun",
           "meanings": [
@@ -3465,6 +3767,7 @@
         },
         {
           "en": "platform",
+          "es": "andén",
           "ipa": "ˈplæt.fɔːm",
           "pos": "noun",
           "meanings": [
@@ -3473,16 +3776,20 @@
         },
         {
           "en": "play basketball",
+          "es": "jugar al baloncesto / básquetbol",
           "ipa": "pleɪ ˈbɑː.skɪt.bɔːl",
-          "pos": "phrase"
+          "pos": "phrase",
+          "note": "Con deportes, play sin artículo: play basketball."
         },
         {
           "en": "play computer games",
+          "es": "jugar a videojuegos",
           "ipa": "pleɪ kəmˈpjuː.tər ɡeɪmz",
           "pos": "phrase"
         },
         {
           "en": "play tennis",
+          "es": "jugar al tenis",
           "ipa": "pleɪ ˈten.ɪs",
           "pos": "phrase",
           "meanings": [
@@ -3491,16 +3798,20 @@
         },
         {
           "en": "play the guitar",
+          "es": "tocar la guitarra",
           "ipa": "pleɪ ðiː ɡɪˈtɑːr",
-          "pos": "phrase"
+          "pos": "phrase",
+          "note": "Con instrumentos, play the: play the guitar."
         },
         {
           "en": "play the piano",
+          "es": "tocar el piano",
           "ipa": "pleɪ ðiː piˈæn.əʊ",
           "pos": "phrase"
         },
         {
           "en": "Poland",
+          "es": "Polonia",
           "ipa": "ˈpəʊ.lənd",
           "pos": "noun",
           "meanings": [
@@ -3509,6 +3820,7 @@
         },
         {
           "en": "police officer",
+          "es": "policía (agente)",
           "ipa": "pəˈliːsˌɒf.ɪ.sər",
           "pos": "noun",
           "meanings": [
@@ -3517,6 +3829,7 @@
         },
         {
           "en": "post office",
+          "es": "oficina de correos",
           "ipa": "ˈpəʊstˌɒf.ɪs",
           "pos": "noun",
           "meanings": [
@@ -3525,6 +3838,7 @@
         },
         {
           "en": "postcard",
+          "es": "postal",
           "ipa": "ˈpəʊst.kɑːd",
           "pos": "noun",
           "meanings": [
@@ -3533,6 +3847,7 @@
         },
         {
           "en": "pound",
+          "es": "libra (esterlina)",
           "ipa": "paʊnd",
           "pos": "noun",
           "meanings": [
@@ -3541,6 +3856,7 @@
         },
         {
           "en": "present",
+          "es": "regalo",
           "ipa": "ˈprez.ənt",
           "pos": "noun",
           "meanings": [
@@ -3549,16 +3865,19 @@
         },
         {
           "en": "President",
+          "es": "presidente",
           "ipa": "ˈprez.ɪ.dənt",
           "pos": "noun"
         },
         {
           "en": "purse",
+          "es": "monedero",
           "ipa": "pɜːs",
           "pos": "noun",
           "meanings": [
             "a small container for money, usually used by a woman"
-          ]
+          ],
+          "note": "En Estados Unidos, purse también es el bolso."
         }
       ]
     },
@@ -3567,19 +3886,23 @@
       "items": [
         {
           "en": "quarter past",
+          "es": "y cuarto",
           "ipa": "ˈkwɔː.tər pɑːst",
           "pos": "phrase",
           "meanings": [
             "15 minutes past one o'clock/two o'clock/three o'clock, etc"
-          ]
+          ],
+          "note": "Quarter past six = las seis y cuarto."
         },
         {
           "en": "quarter to",
+          "es": "menos cuarto",
           "ipa": "ˈkwɔː.tər tuː",
           "pos": "phrase",
           "meanings": [
             "15 minutes before one o'clock/two o'clock/three o'clock, etc"
-          ]
+          ],
+          "note": "Quarter to six = las seis menos cuarto."
         }
       ]
     },
@@ -3588,11 +3911,13 @@
       "items": [
         {
           "en": "raise money for charity",
+          "es": "recaudar dinero con fines benéficos",
           "ipa": "reɪz ˈmʌn.i fɔːr ˈtʃær.ɪ.ti",
           "pos": "phrase"
         },
         {
           "en": "rap",
+          "es": "rap",
           "ipa": "ræp",
           "pos": "noun",
           "meanings": [
@@ -3601,6 +3926,7 @@
         },
         {
           "en": "read",
+          "es": "leer",
           "ipa": "riːd",
           "pos": "verb",
           "meanings": [
@@ -3609,11 +3935,13 @@
         },
         {
           "en": "read blogs",
+          "es": "leer blogs",
           "ipa": "riːd blɒɡz",
           "pos": "phrase"
         },
         {
           "en": "receive emails",
+          "es": "recibir correos electrónicos",
           "ipa": "rɪˈsiːv ˈiː.meɪlz",
           "pos": "phrase",
           "meanings": [
@@ -3622,6 +3950,7 @@
         },
         {
           "en": "red",
+          "es": "rojo",
           "ipa": "red",
           "pos": "adjective",
           "meanings": [
@@ -3630,6 +3959,7 @@
         },
         {
           "en": "rent a car",
+          "es": "alquilar un coche / rentar un carro",
           "ipa": "rent ə kɑːr",
           "pos": "phrase",
           "meanings": [
@@ -3638,6 +3968,7 @@
         },
         {
           "en": "restaurant",
+          "es": "restaurante",
           "ipa": "ˈres.trɒnt",
           "pos": "noun",
           "meanings": [
@@ -3646,14 +3977,17 @@
         },
         {
           "en": "return",
+          "es": "billete de ida y vuelta / boleto de ida y vuelta",
           "ipa": "rɪˈtɜːn",
           "pos": "noun",
           "meanings": [
             "a ticket that lets you travel to a place and back again"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, round-trip ticket."
         },
         {
           "en": "rice",
+          "es": "arroz",
           "ipa": "raɪs",
           "pos": "noun",
           "meanings": [
@@ -3662,6 +3996,7 @@
         },
         {
           "en": "ride a bike",
+          "es": "andar en bici / montar en bici",
           "ipa": "raɪd ə baɪk",
           "pos": "phrase",
           "meanings": [
@@ -3670,14 +4005,17 @@
         },
         {
           "en": "right",
+          "es": "correcto",
           "ipa": "raɪt",
           "pos": "adjective",
           "meanings": [
             "correct or true"
-          ]
+          ],
+          "note": "También significa «derecho» (la mano derecha)."
         },
         {
           "en": "river",
+          "es": "río",
           "ipa": "ˈrɪv.ər",
           "pos": "noun",
           "meanings": [
@@ -3686,6 +4024,7 @@
         },
         {
           "en": "road",
+          "es": "carretera / calle",
           "ipa": "rəʊd",
           "pos": "noun",
           "meanings": [
@@ -3694,11 +4033,13 @@
         },
         {
           "en": "room",
+          "es": "habitación / cuarto",
           "ipa": "ruːm",
           "pos": "noun"
         },
         {
           "en": "Russia",
+          "es": "Rusia",
           "ipa": "ˈrʌ.ʃə",
           "pos": "noun",
           "meanings": [
@@ -3707,6 +4048,7 @@
         },
         {
           "en": "Russian",
+          "es": "ruso",
           "ipa": "ˈrʌʃ.ən",
           "pos": "adjective",
           "meanings": [
@@ -3720,6 +4062,7 @@
       "items": [
         {
           "en": "sad",
+          "es": "triste",
           "ipa": "sæd",
           "pos": "adjective",
           "meanings": [
@@ -3728,6 +4071,7 @@
         },
         {
           "en": "sales assistant",
+          "es": "dependiente / vendedor",
           "ipa": "seɪlz əˈsɪs.tənt",
           "pos": "noun",
           "meanings": [
@@ -3736,6 +4080,7 @@
         },
         {
           "en": "samba",
+          "es": "samba",
           "ipa": "ˈsæm.bə",
           "pos": "noun",
           "meanings": [
@@ -3744,6 +4089,7 @@
         },
         {
           "en": "same",
+          "es": "mismo",
           "ipa": "seɪm",
           "pos": "adjective",
           "meanings": [
@@ -3752,6 +4098,7 @@
         },
         {
           "en": "sandwich",
+          "es": "sándwich / bocadillo",
           "ipa": "ˈsæn.wɪdʒ",
           "pos": "noun",
           "meanings": [
@@ -3760,6 +4107,7 @@
         },
         {
           "en": "Saturday",
+          "es": "sábado",
           "ipa": "ˈsæt.ə.deɪ",
           "pos": "noun",
           "meanings": [
@@ -3768,14 +4116,17 @@
         },
         {
           "en": "scared",
+          "es": "asustado (tener miedo)",
           "ipa": "skeəd",
           "pos": "adjective",
           "meanings": [
             "frightened or worried"
-          ]
+          ],
+          "note": "I'm scared = tengo miedo."
         },
         {
           "en": "scenery",
+          "es": "paisaje",
           "ipa": "ˈsiː.nər.i",
           "pos": "noun",
           "meanings": [
@@ -3784,6 +4135,7 @@
         },
         {
           "en": "sea",
+          "es": "mar",
           "ipa": "siː",
           "pos": "noun",
           "meanings": [
@@ -3792,6 +4144,7 @@
         },
         {
           "en": "search for information",
+          "es": "buscar información",
           "ipa": "sɜːtʃ fɔːr ˌɪn.fəˈmeɪ.ʃən",
           "pos": "phrase",
           "meanings": [
@@ -3800,6 +4153,7 @@
         },
         {
           "en": "seat",
+          "es": "asiento",
           "ipa": "siːt",
           "pos": "noun",
           "meanings": [
@@ -3808,6 +4162,7 @@
         },
         {
           "en": "second",
+          "es": "segundo (de tiempo)",
           "ipa": "ˈsek.ənd",
           "pos": "noun",
           "meanings": [
@@ -3816,6 +4171,7 @@
         },
         {
           "en": "second",
+          "es": "segundo",
           "ipa": "ˈsek.ənd",
           "pos": "number",
           "meanings": [
@@ -3824,6 +4180,7 @@
         },
         {
           "en": "sell things online",
+          "es": "vender cosas por internet",
           "ipa": "sel θɪŋz ˈɒn.laɪn",
           "pos": "phrase",
           "meanings": [
@@ -3832,6 +4189,7 @@
         },
         {
           "en": "send emails",
+          "es": "enviar correos electrónicos",
           "ipa": "send ˈiː.meɪlz",
           "pos": "phrase",
           "meanings": [
@@ -3840,6 +4198,7 @@
         },
         {
           "en": "September",
+          "es": "septiembre",
           "ipa": "sepˈtem.bər",
           "pos": "noun",
           "meanings": [
@@ -3848,6 +4207,7 @@
         },
         {
           "en": "seven",
+          "es": "siete",
           "ipa": "ˈsev.ən",
           "pos": "number",
           "meanings": [
@@ -3856,6 +4216,7 @@
         },
         {
           "en": "seventeen",
+          "es": "diecisiete",
           "ipa": "ˌsev.ənˈtiːn",
           "pos": "number",
           "meanings": [
@@ -3864,6 +4225,7 @@
         },
         {
           "en": "seventeenth",
+          "es": "decimoséptimo",
           "ipa": "ˌsev.ənˈtiːnθ",
           "pos": "number",
           "meanings": [
@@ -3872,6 +4234,7 @@
         },
         {
           "en": "seventh",
+          "es": "séptimo",
           "ipa": "ˈsev.ənθ",
           "pos": "number",
           "meanings": [
@@ -3880,6 +4243,7 @@
         },
         {
           "en": "seventy",
+          "es": "setenta",
           "ipa": "ˈsev.ən.ti",
           "pos": "number",
           "meanings": [
@@ -3888,11 +4252,13 @@
         },
         {
           "en": "shirt",
+          "es": "camisa",
           "ipa": "ʃɜːt",
           "pos": "noun"
         },
         {
           "en": "shoe",
+          "es": "zapato",
           "ipa": "ʃuː",
           "pos": "noun",
           "meanings": [
@@ -3901,14 +4267,17 @@
         },
         {
           "en": "shopping centre",
+          "es": "centro comercial",
           "ipa": "ˈʃɒpɪŋ ˌsentər",
           "pos": "noun",
           "meanings": [
             "a place where a lot of shops have been built close together"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, mall."
         },
         {
           "en": "shopping for clothes",
+          "es": "comprar ropa",
           "ipa": "ˈʃɒp.ɪŋ fɔːr kləʊðz",
           "pos": "phrase",
           "meanings": [
@@ -3917,6 +4286,7 @@
         },
         {
           "en": "short",
+          "es": "corto",
           "ipa": "ʃɔːt",
           "pos": "adjective",
           "meanings": [
@@ -3925,6 +4295,7 @@
         },
         {
           "en": "sing",
+          "es": "cantar",
           "ipa": "sɪŋ",
           "pos": "verb",
           "meanings": [
@@ -3933,6 +4304,7 @@
         },
         {
           "en": "singer",
+          "es": "cantante",
           "ipa": "ˈsɪŋ.ər",
           "pos": "noun",
           "meanings": [
@@ -3941,6 +4313,7 @@
         },
         {
           "en": "single",
+          "es": "soltero",
           "ipa": "ˈsɪŋ.ɡl̩",
           "pos": "adjective",
           "meanings": [
@@ -3949,14 +4322,17 @@
         },
         {
           "en": "single",
+          "es": "billete de ida / boleto de ida",
           "ipa": "ˈsɪŋ.ɡl̩",
           "pos": "noun",
           "meanings": [
             "a ticket for a journey that is from one place to another but not back again"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, one-way ticket."
         },
         {
           "en": "sister",
+          "es": "hermana",
           "ipa": "ˈsɪs.tər",
           "pos": "noun",
           "meanings": [
@@ -3965,6 +4341,7 @@
         },
         {
           "en": "six",
+          "es": "seis",
           "ipa": "sɪks",
           "pos": "number",
           "meanings": [
@@ -3973,6 +4350,7 @@
         },
         {
           "en": "sixteen",
+          "es": "dieciséis",
           "ipa": "ˌsɪkˈstiːn",
           "pos": "number",
           "meanings": [
@@ -3981,6 +4359,7 @@
         },
         {
           "en": "sixteenth",
+          "es": "decimosexto",
           "ipa": "ˌsɪkˈstiːnθ",
           "pos": "number",
           "meanings": [
@@ -3989,6 +4368,7 @@
         },
         {
           "en": "sixth",
+          "es": "sexto",
           "ipa": "sɪksθ",
           "pos": "number",
           "meanings": [
@@ -3997,6 +4377,7 @@
         },
         {
           "en": "sixty",
+          "es": "sesenta",
           "ipa": "ˈsɪk.sti",
           "pos": "number",
           "meanings": [
@@ -4005,6 +4386,7 @@
         },
         {
           "en": "ski",
+          "es": "esquiar",
           "ipa": "skiː",
           "pos": "verb",
           "meanings": [
@@ -4013,6 +4395,7 @@
         },
         {
           "en": "skirt",
+          "es": "falda",
           "ipa": "skɜːt",
           "pos": "noun",
           "meanings": [
@@ -4021,11 +4404,13 @@
         },
         {
           "en": "sleep",
+          "es": "dormir",
           "ipa": "sliːp",
           "pos": "verb"
         },
         {
           "en": "small",
+          "es": "pequeño",
           "ipa": "smɔːl",
           "pos": "adjective",
           "meanings": [
@@ -4034,11 +4419,13 @@
         },
         {
           "en": "soap operas",
+          "es": "telenovelas",
           "ipa": "ˈsəʊpˌɒp.ər.əz",
           "pos": "noun"
         },
         {
           "en": "sometimes",
+          "es": "a veces",
           "ipa": "ˈsʌm.taɪmz",
           "pos": "adverb",
           "meanings": [
@@ -4047,6 +4434,7 @@
         },
         {
           "en": "son",
+          "es": "hijo",
           "ipa": "sʌn",
           "pos": "noun",
           "meanings": [
@@ -4055,6 +4443,7 @@
         },
         {
           "en": "Spain",
+          "es": "España",
           "ipa": "speɪn",
           "pos": "noun",
           "meanings": [
@@ -4063,6 +4452,7 @@
         },
         {
           "en": "Spanish",
+          "es": "español",
           "ipa": "ˈspæn.ɪʃ",
           "pos": "adjective",
           "meanings": [
@@ -4071,14 +4461,17 @@
         },
         {
           "en": "sparkling",
+          "es": "con gas",
           "ipa": "ˈspɑː.klɪŋ",
           "pos": "adjective",
           "meanings": [
             "A sparkling drink has bubbles in it."
-          ]
+          ],
+          "note": "Sparkling water = agua con gas."
         },
         {
           "en": "speak German",
+          "es": "hablar alemán",
           "ipa": "spiːk ˈdʒɜː.mən",
           "pos": "phrase",
           "meanings": [
@@ -4087,6 +4480,7 @@
         },
         {
           "en": "square",
+          "es": "plaza",
           "ipa": "skweər",
           "pos": "noun",
           "meanings": [
@@ -4095,6 +4489,7 @@
         },
         {
           "en": "stadium",
+          "es": "estadio",
           "ipa": "ˈsteɪ.di.əm",
           "pos": "noun",
           "meanings": [
@@ -4103,6 +4498,7 @@
         },
         {
           "en": "start a new job",
+          "es": "empezar un trabajo nuevo",
           "ipa": "stɑːt ə njuː dʒɒb",
           "pos": "phrase",
           "meanings": [
@@ -4111,6 +4507,7 @@
         },
         {
           "en": "start school",
+          "es": "empezar la escuela",
           "ipa": "stɑːt skuːl",
           "pos": "phrase",
           "meanings": [
@@ -4119,6 +4516,7 @@
         },
         {
           "en": "start university",
+          "es": "empezar la universidad",
           "ipa": "stɑːt ˌjuː.nɪˈvɜː.sɪ.ti",
           "pos": "phrase",
           "meanings": [
@@ -4127,6 +4525,7 @@
         },
         {
           "en": "start work",
+          "es": "empezar a trabajar",
           "ipa": "stɑːt wɜːk",
           "pos": "phrase",
           "meanings": [
@@ -4135,6 +4534,7 @@
         },
         {
           "en": "stay in a hotel",
+          "es": "alojarse en un hotel",
           "ipa": "steɪ ɪn ə həʊˈtel",
           "pos": "phrase",
           "meanings": [
@@ -4143,6 +4543,7 @@
         },
         {
           "en": "stay with family",
+          "es": "quedarse en casa de la familia",
           "ipa": "steɪ wɪð ˈfæm.əl.i",
           "pos": "phrase",
           "meanings": [
@@ -4151,6 +4552,7 @@
         },
         {
           "en": "stay with friends",
+          "es": "quedarse en casa de amigos",
           "ipa": "steɪ wɪð frendz",
           "pos": "phrase",
           "meanings": [
@@ -4159,14 +4561,17 @@
         },
         {
           "en": "still",
+          "es": "sin gas",
           "ipa": "stɪl",
           "pos": "adjective",
           "meanings": [
             "A still drink does not have any bubbles in it."
-          ]
+          ],
+          "note": "Still water = agua sin gas."
         },
         {
           "en": "strawberry ice cream",
+          "es": "helado de fresa",
           "ipa": "ˈstrɔː.bər.i aɪs kriːm",
           "pos": "noun",
           "meanings": [
@@ -4175,6 +4580,7 @@
         },
         {
           "en": "street",
+          "es": "calle",
           "ipa": "striːt",
           "pos": "noun",
           "meanings": [
@@ -4183,6 +4589,7 @@
         },
         {
           "en": "study English",
+          "es": "estudiar inglés",
           "ipa": "ˈstʌd.i ˈɪŋ.ɡlɪʃ",
           "pos": "phrase",
           "meanings": [
@@ -4191,6 +4598,7 @@
         },
         {
           "en": "study languages",
+          "es": "estudiar idiomas",
           "ipa": "ˈstʌd.i ˈlæŋ.ɡwɪdʒɪz",
           "pos": "phrase",
           "meanings": [
@@ -4199,6 +4607,7 @@
         },
         {
           "en": "sugar",
+          "es": "azúcar",
           "ipa": "ˈʃʊɡ.ər",
           "pos": "noun",
           "meanings": [
@@ -4207,6 +4616,7 @@
         },
         {
           "en": "suit",
+          "es": "traje",
           "ipa": "suːt",
           "pos": "noun",
           "meanings": [
@@ -4215,6 +4625,7 @@
         },
         {
           "en": "Sunday",
+          "es": "domingo",
           "ipa": "ˈsʌn.deɪ",
           "pos": "noun",
           "meanings": [
@@ -4223,6 +4634,7 @@
         },
         {
           "en": "supermarket",
+          "es": "supermercado",
           "ipa": "ˈsuː.pəˌmɑː.kɪt",
           "pos": "noun",
           "meanings": [
@@ -4231,6 +4643,7 @@
         },
         {
           "en": "surname",
+          "es": "apellido",
           "ipa": "ˈsɜː.neɪm",
           "pos": "noun",
           "meanings": [
@@ -4239,14 +4652,17 @@
         },
         {
           "en": "sweet",
+          "es": "caramelo / dulce",
           "ipa": "swiːt",
           "pos": "noun",
           "meanings": [
             "a small piece of sweet food, often made of sugar or chocolate"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, candy."
         },
         {
           "en": "swim",
+          "es": "nadar",
           "ipa": "swɪm",
           "pos": "verb",
           "meanings": [
@@ -4255,6 +4671,7 @@
         },
         {
           "en": "(train) station",
+          "es": "estación (de tren)",
           "ipa": "ˈsteɪ.ʃən",
           "pos": "noun",
           "meanings": [
@@ -4268,6 +4685,7 @@
       "items": [
         {
           "en": "table",
+          "es": "mesa",
           "ipa": "ˈteɪ.bl̩",
           "pos": "noun",
           "meanings": [
@@ -4276,6 +4694,7 @@
         },
         {
           "en": "take photos",
+          "es": "sacar fotos / tomar fotos",
           "ipa": "teɪk ˈfəʊ.təʊz",
           "pos": "phrase",
           "meanings": [
@@ -4284,6 +4703,7 @@
         },
         {
           "en": "taxi",
+          "es": "taxi",
           "ipa": "ˈtæk.si",
           "pos": "noun",
           "meanings": [
@@ -4292,6 +4712,7 @@
         },
         {
           "en": "taxi driver",
+          "es": "taxista",
           "ipa": "ˈtæk.si ˈdraɪ.vər",
           "pos": "noun",
           "meanings": [
@@ -4300,6 +4721,7 @@
         },
         {
           "en": "tea",
+          "es": "té",
           "ipa": "tiː",
           "pos": "noun",
           "meanings": [
@@ -4308,6 +4730,7 @@
         },
         {
           "en": "teacher",
+          "es": "profesor / profesora, maestro / maestra",
           "ipa": "ˈtiː.tʃər",
           "pos": "noun",
           "meanings": [
@@ -4316,14 +4739,17 @@
         },
         {
           "en": "tell",
+          "es": "decir / contar",
           "ipa": "tel",
           "pos": "verb",
           "meanings": [
             "to say something to someone, usually giving them information"
-          ]
+          ],
+          "note": "Tell lleva a quién: tell me, tell her."
         },
         {
           "en": "ten",
+          "es": "diez",
           "ipa": "ten",
           "pos": "number",
           "meanings": [
@@ -4332,6 +4758,7 @@
         },
         {
           "en": "tenth",
+          "es": "décimo",
           "ipa": "tenθ",
           "pos": "number",
           "meanings": [
@@ -4340,6 +4767,7 @@
         },
         {
           "en": "terrible",
+          "es": "terrible / horrible",
           "ipa": "ˈter.ə.bl̩",
           "pos": "adjective",
           "meanings": [
@@ -4348,6 +4776,7 @@
         },
         {
           "en": "Thailand",
+          "es": "Tailandia",
           "ipa": "ˈtaɪ.lænd",
           "pos": "noun",
           "meanings": [
@@ -4356,11 +4785,13 @@
         },
         {
           "en": "the UK",
+          "es": "el Reino Unido",
           "ipa": "ˌjuːˈkeɪ",
           "pos": "noun"
         },
         {
           "en": "the USA",
+          "es": "Estados Unidos (EE. UU.)",
           "ipa": "ˌjuː.esˈeɪ",
           "pos": "noun",
           "meanings": [
@@ -4369,14 +4800,17 @@
         },
         {
           "en": "theatre",
+          "es": "teatro",
           "ipa": "ˈθɪə.tər",
           "pos": "noun",
           "meanings": [
             "a building with a stage where people go to watch plays"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos se escribe theater."
         },
         {
           "en": "third",
+          "es": "tercero",
           "ipa": "θɜːd",
           "pos": "number",
           "meanings": [
@@ -4385,6 +4819,7 @@
         },
         {
           "en": "thirteen",
+          "es": "trece",
           "ipa": "θɜːˈtiːn",
           "pos": "number",
           "meanings": [
@@ -4393,6 +4828,7 @@
         },
         {
           "en": "thirteenth",
+          "es": "decimotercero",
           "ipa": "θɜːˈtiːnθ",
           "pos": "number",
           "meanings": [
@@ -4401,6 +4837,7 @@
         },
         {
           "en": "thirtieth",
+          "es": "trigésimo",
           "ipa": "ˈθɜː.ti.əθ",
           "pos": "number",
           "meanings": [
@@ -4409,6 +4846,7 @@
         },
         {
           "en": "thirty",
+          "es": "treinta",
           "ipa": "ˈθɜː.ti",
           "pos": "number",
           "meanings": [
@@ -4417,14 +4855,17 @@
         },
         {
           "en": "thirty-first",
+          "es": "trigésimo primero",
           "ipa": "ˈθɜː.ti ˈfɜːst",
           "pos": "number",
           "meanings": [
             "31st"
-          ]
+          ],
+          "note": "En fechas: the thirty-first = el 31."
         },
         {
           "en": "thousand",
+          "es": "mil",
           "ipa": "ˈθaʊ.zənd",
           "pos": "number",
           "meanings": [
@@ -4433,6 +4874,7 @@
         },
         {
           "en": "three",
+          "es": "tres",
           "ipa": "θriː",
           "pos": "number",
           "meanings": [
@@ -4441,6 +4883,7 @@
         },
         {
           "en": "three months ago",
+          "es": "hace tres meses",
           "ipa": "θriː mʌntθs əˈɡəʊ",
           "pos": "phrase",
           "meanings": [
@@ -4449,6 +4892,7 @@
         },
         {
           "en": "throw",
+          "es": "lanzar / tirar",
           "ipa": "θrəʊ",
           "pos": "verb",
           "meanings": [
@@ -4457,6 +4901,7 @@
         },
         {
           "en": "Thursday",
+          "es": "jueves",
           "ipa": "ˈθɜːz.deɪ",
           "pos": "noun",
           "meanings": [
@@ -4465,6 +4910,7 @@
         },
         {
           "en": "ticket machine",
+          "es": "máquina expendedora de billetes / boletos",
           "ipa": "ˈtɪk.ɪt məˈʃiːn",
           "pos": "noun",
           "meanings": [
@@ -4473,6 +4919,7 @@
         },
         {
           "en": "ticket office",
+          "es": "taquilla / boletería",
           "ipa": "ˈtɪk.ɪt ˈɒf.ɪs",
           "pos": "noun",
           "meanings": [
@@ -4481,6 +4928,7 @@
         },
         {
           "en": "tie",
+          "es": "corbata",
           "ipa": "taɪ",
           "pos": "noun",
           "meanings": [
@@ -4489,6 +4937,7 @@
         },
         {
           "en": "tired",
+          "es": "cansado",
           "ipa": "taɪəd",
           "pos": "adjective",
           "meanings": [
@@ -4497,6 +4946,7 @@
         },
         {
           "en": "tissue",
+          "es": "pañuelo de papel",
           "ipa": "ˈtɪʃ.uː",
           "pos": "noun",
           "meanings": [
@@ -4505,6 +4955,7 @@
         },
         {
           "en": "today",
+          "es": "hoy",
           "ipa": "təˈdeɪ",
           "pos": "adverb",
           "meanings": [
@@ -4513,6 +4964,7 @@
         },
         {
           "en": "together",
+          "es": "juntos",
           "ipa": "təˈɡeð.ər",
           "pos": "adverb",
           "meanings": [
@@ -4521,6 +4973,7 @@
         },
         {
           "en": "told",
+          "es": "dije, contó… (pasado de tell)",
           "ipa": "təʊld",
           "pos": "verb",
           "meanings": [
@@ -4529,6 +4982,7 @@
         },
         {
           "en": "tomorrow",
+          "es": "mañana",
           "ipa": "təˈmɒr.əʊ",
           "pos": "adverb",
           "meanings": [
@@ -4537,6 +4991,7 @@
         },
         {
           "en": "tomorrow morning",
+          "es": "mañana por la mañana",
           "ipa": "təˈmɒr.əʊ ˈmɔː.nɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -4545,6 +5000,7 @@
         },
         {
           "en": "tonight",
+          "es": "esta noche",
           "ipa": "təˈnaɪt",
           "pos": "adverb",
           "meanings": [
@@ -4553,6 +5009,7 @@
         },
         {
           "en": "took photos",
+          "es": "saqué fotos, tomó fotos… (pasado de take photos)",
           "ipa": "tʊk ˈfəʊ.təʊz",
           "pos": "verb",
           "meanings": [
@@ -4561,6 +5018,7 @@
         },
         {
           "en": "tourist",
+          "es": "turista",
           "ipa": "ˈtʊə.rɪst",
           "pos": "noun",
           "meanings": [
@@ -4569,6 +5027,7 @@
         },
         {
           "en": "train",
+          "es": "tren",
           "ipa": "treɪn",
           "pos": "noun",
           "meanings": [
@@ -4577,14 +5036,17 @@
         },
         {
           "en": "trainer",
+          "es": "zapatilla (de deporte) / tenis",
           "ipa": "ˈtreɪ.nər",
           "pos": "noun",
           "meanings": [
             "a soft sports shoe"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, sneaker."
         },
         {
           "en": "travel around",
+          "es": "viajar por / recorrer",
           "ipa": "ˈtræv.əl əˈraʊnd",
           "pos": "phrase",
           "meanings": [
@@ -4593,19 +5055,23 @@
         },
         {
           "en": "trousers",
+          "es": "pantalones",
           "ipa": "ˈtraʊ.zəz",
           "pos": "noun",
           "meanings": [
             "a piece of clothing that covers the legs and has a separate part for each leg"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, pants. Siempre en plural."
         },
         {
           "en": "T-shirt",
+          "es": "camiseta / playera",
           "ipa": "ˈtiː.ʃɜːt",
           "pos": "noun"
         },
         {
           "en": "Tuesday",
+          "es": "martes",
           "ipa": "ˈtjuːz.deɪ",
           "pos": "noun",
           "meanings": [
@@ -4614,10 +5080,12 @@
         },
         {
           "en": "tuk-tuk",
+          "es": "tuk-tuk (mototaxi)",
           "pos": "noun"
         },
         {
           "en": "tuna salad",
+          "es": "ensalada de atún",
           "ipa": "ˈtjuː.nə ˈsæl.əd",
           "pos": "noun",
           "meanings": [
@@ -4626,6 +5094,7 @@
         },
         {
           "en": "Turkey",
+          "es": "Turquía",
           "ipa": "ˈtɜː.ki",
           "pos": "noun",
           "meanings": [
@@ -4634,6 +5103,7 @@
         },
         {
           "en": "Turkish",
+          "es": "turco",
           "ipa": "ˈtɜː.kɪʃ",
           "pos": "adjective",
           "meanings": [
@@ -4642,6 +5112,7 @@
         },
         {
           "en": "twelfth",
+          "es": "duodécimo",
           "ipa": "twelfθ",
           "pos": "number",
           "meanings": [
@@ -4650,6 +5121,7 @@
         },
         {
           "en": "twelve",
+          "es": "doce",
           "ipa": "twelv",
           "pos": "number",
           "meanings": [
@@ -4658,6 +5130,7 @@
         },
         {
           "en": "twentieth",
+          "es": "vigésimo",
           "ipa": "ˈtwen.ti.əθ",
           "pos": "number",
           "meanings": [
@@ -4666,6 +5139,7 @@
         },
         {
           "en": "twenty",
+          "es": "veinte",
           "ipa": "ˈtwen.ti",
           "pos": "number",
           "meanings": [
@@ -4674,6 +5148,7 @@
         },
         {
           "en": "twenty-eighth",
+          "es": "vigésimo octavo",
           "ipa": "ˈtwen.ti eɪtθ",
           "pos": "number",
           "meanings": [
@@ -4682,6 +5157,7 @@
         },
         {
           "en": "twenty-fifth",
+          "es": "vigésimo quinto",
           "ipa": "ˈtwen.ti fɪfθ",
           "pos": "number",
           "meanings": [
@@ -4690,14 +5166,17 @@
         },
         {
           "en": "twenty-first",
+          "es": "vigésimo primero",
           "ipa": "ˌtwen.tiˈfɜːst",
           "pos": "number",
           "meanings": [
             "21st"
-          ]
+          ],
+          "note": "En fechas: the twenty-first = el 21."
         },
         {
           "en": "twenty-fourth",
+          "es": "vigésimo cuarto",
           "ipa": "ˈtwen.ti fɔːθ",
           "pos": "number",
           "meanings": [
@@ -4706,6 +5185,7 @@
         },
         {
           "en": "twenty-ninth",
+          "es": "vigésimo noveno",
           "ipa": "ˈtwen.ti naɪnθ",
           "pos": "number",
           "meanings": [
@@ -4714,6 +5194,7 @@
         },
         {
           "en": "twenty-second",
+          "es": "vigésimo segundo",
           "ipa": "ˈtwen.ti ˈsek.ənd",
           "pos": "number",
           "meanings": [
@@ -4722,6 +5203,7 @@
         },
         {
           "en": "twenty-seventh",
+          "es": "vigésimo séptimo",
           "ipa": "ˈtwen.ti ˈsev.ənθ",
           "pos": "number",
           "meanings": [
@@ -4730,6 +5212,7 @@
         },
         {
           "en": "twenty-sixth",
+          "es": "vigésimo sexto",
           "ipa": "ˈtwen.ti sɪksθ",
           "pos": "number",
           "meanings": [
@@ -4738,6 +5221,7 @@
         },
         {
           "en": "twenty-third",
+          "es": "vigésimo tercero",
           "ipa": "ˈtwen.ti θɜːd",
           "pos": "number",
           "meanings": [
@@ -4746,6 +5230,7 @@
         },
         {
           "en": "twin",
+          "es": "gemelo / mellizo",
           "ipa": "twɪn",
           "pos": "noun",
           "meanings": [
@@ -4754,6 +5239,7 @@
         },
         {
           "en": "two",
+          "es": "dos",
           "ipa": "tuː",
           "pos": "number",
           "meanings": [
@@ -4762,6 +5248,7 @@
         },
         {
           "en": "two hours ago",
+          "es": "hace dos horas",
           "ipa": "tuː ˈaʊəz əˈɡəʊ",
           "pos": "phrase",
           "meanings": [
@@ -4775,6 +5262,7 @@
       "items": [
         {
           "en": "ugly",
+          "es": "feo",
           "ipa": "ˈʌɡ.li",
           "pos": "adjective",
           "meanings": [
@@ -4783,6 +5271,7 @@
         },
         {
           "en": "umbrella",
+          "es": "paraguas",
           "ipa": "ʌmˈbrel.ə",
           "pos": "noun",
           "meanings": [
@@ -4791,6 +5280,7 @@
         },
         {
           "en": "unfriendly",
+          "es": "antipático / poco amable",
           "ipa": "ʌnˈfrend.li",
           "pos": "adjective",
           "meanings": [
@@ -4799,6 +5289,7 @@
         },
         {
           "en": "unhappy",
+          "es": "infeliz / triste",
           "ipa": "ʌnˈhæp.i",
           "pos": "adjective",
           "meanings": [
@@ -4807,11 +5298,13 @@
         },
         {
           "en": "university",
+          "es": "universidad",
           "ipa": "ˌjuː.nɪˈvɜː.sɪ.ti",
           "pos": "noun"
         },
         {
           "en": "unlucky",
+          "es": "desafortunado / de mala suerte",
           "ipa": "ʌnˈlʌk.i",
           "pos": "adjective",
           "meanings": [
@@ -4820,6 +5313,7 @@
         },
         {
           "en": "usually",
+          "es": "normalmente / por lo general",
           "ipa": "ˈjuː.ʒu.ə.li",
           "pos": "adverb",
           "meanings": [
@@ -4833,6 +5327,7 @@
       "items": [
         {
           "en": "vanilla ice cream",
+          "es": "helado de vainilla",
           "ipa": "vəˈnɪl.ə aɪs kriːm",
           "pos": "noun",
           "meanings": [
@@ -4841,6 +5336,7 @@
         },
         {
           "en": "vegetable",
+          "es": "verdura / vegetal",
           "ipa": "ˈvedʒ.tə.bl̩",
           "pos": "noun",
           "meanings": [
@@ -4849,6 +5345,7 @@
         },
         {
           "en": "vegetarian",
+          "es": "vegetariano",
           "ipa": "ˌvedʒ.ɪˈteə.ri.ən",
           "pos": "noun",
           "meanings": [
@@ -4857,11 +5354,13 @@
         },
         {
           "en": "vegetarian lasagne",
+          "es": "lasaña vegetariana",
           "ipa": "ˌvedʒ.ɪˈteə.ri.ən ləˈzæn.jə",
           "pos": "noun"
         },
         {
           "en": "very",
+          "es": "muy",
           "ipa": "ˈver.i",
           "pos": "adverb",
           "meanings": [
@@ -4870,6 +5369,7 @@
         },
         {
           "en": "visiting new places",
+          "es": "visitar lugares nuevos",
           "ipa": "ˈvɪzɪ.tɪŋ njuː pleɪsɪz",
           "pos": "phrase",
           "meanings": [
@@ -4883,6 +5383,7 @@
       "items": [
         {
           "en": "waiter",
+          "es": "mesero / camarero",
           "ipa": "ˈweɪ.tər",
           "pos": "noun",
           "meanings": [
@@ -4891,6 +5392,7 @@
         },
         {
           "en": "waitress",
+          "es": "mesera / camarera",
           "ipa": "ˈweɪ.trəs",
           "pos": "noun",
           "meanings": [
@@ -4899,11 +5401,13 @@
         },
         {
           "en": "wallet",
+          "es": "billetera / cartera",
           "ipa": "ˈwɒl.ɪt",
           "pos": "noun"
         },
         {
           "en": "watch",
+          "es": "reloj (de pulsera)",
           "ipa": "wɒtʃ",
           "pos": "noun",
           "meanings": [
@@ -4912,6 +5416,7 @@
         },
         {
           "en": "watch DVDs",
+          "es": "ver DVD",
           "ipa": "wɒtʃ ˌdiː.viːˈdiːz",
           "pos": "phrase",
           "meanings": [
@@ -4920,6 +5425,7 @@
         },
         {
           "en": "watch the news",
+          "es": "ver las noticias",
           "ipa": "wɒtʃ ðiː njuːz",
           "pos": "phrase",
           "meanings": [
@@ -4928,6 +5434,7 @@
         },
         {
           "en": "watch TV",
+          "es": "ver la tele",
           "ipa": "wɒtʃ ˌtiːˈviː",
           "pos": "phrase",
           "meanings": [
@@ -4936,6 +5443,7 @@
         },
         {
           "en": "watch TV programmes",
+          "es": "ver programas de televisión",
           "ipa": "wɒtʃ ˌtiːˈviː ˈprəʊ.ɡræmz",
           "pos": "phrase",
           "meanings": [
@@ -4944,6 +5452,7 @@
         },
         {
           "en": "watch videos",
+          "es": "ver videos",
           "ipa": "wɒtʃ ˈvɪd.i.əʊz",
           "pos": "phrase",
           "meanings": [
@@ -4952,6 +5461,7 @@
         },
         {
           "en": "watching sport on TV",
+          "es": "ver deportes en la tele",
           "ipa": "wɒtʃɪŋ spɔːt ɒn ˌtiːˈviː",
           "pos": "phrase",
           "meanings": [
@@ -4960,6 +5470,7 @@
         },
         {
           "en": "water",
+          "es": "agua",
           "ipa": "ˈwɔː.tər",
           "pos": "noun",
           "meanings": [
@@ -4968,14 +5479,17 @@
         },
         {
           "en": "weather",
+          "es": "tiempo (atmosférico) / clima",
           "ipa": "ˈweð.ər",
           "pos": "noun",
           "meanings": [
             "the temperature or conditions outside, for example if it is hot, cold, sunny, etc"
-          ]
+          ],
+          "note": "What's the weather like? = ¿Qué tiempo hace?"
         },
         {
           "en": "wedding",
+          "es": "boda",
           "ipa": "ˈwed.ɪŋ",
           "pos": "noun",
           "meanings": [
@@ -4984,6 +5498,7 @@
         },
         {
           "en": "Wednesday",
+          "es": "miércoles",
           "ipa": "ˈwenz.deɪ",
           "pos": "noun",
           "meanings": [
@@ -4992,6 +5507,7 @@
         },
         {
           "en": "week",
+          "es": "semana",
           "ipa": "wiːk",
           "pos": "noun",
           "meanings": [
@@ -5000,6 +5516,7 @@
         },
         {
           "en": "weekend",
+          "es": "fin de semana",
           "ipa": "ˌwiːkˈend",
           "pos": "noun",
           "meanings": [
@@ -5008,6 +5525,7 @@
         },
         {
           "en": "went",
+          "es": "fui, fue… (pasado de go)",
           "ipa": "went",
           "pos": "verb",
           "meanings": [
@@ -5016,6 +5534,7 @@
         },
         {
           "en": "What",
+          "es": "qué",
           "ipa": "wɒt",
           "pos": "pronoun",
           "meanings": [
@@ -5024,6 +5543,7 @@
         },
         {
           "en": "When",
+          "es": "cuándo",
           "ipa": "wen",
           "pos": "pronoun",
           "meanings": [
@@ -5032,6 +5552,7 @@
         },
         {
           "en": "Where",
+          "es": "dónde",
           "ipa": "weər",
           "pos": "adverb",
           "meanings": [
@@ -5040,6 +5561,7 @@
         },
         {
           "en": "white",
+          "es": "blanco",
           "ipa": "waɪt",
           "pos": "adjective",
           "meanings": [
@@ -5048,19 +5570,23 @@
         },
         {
           "en": "Who",
+          "es": "quién",
           "ipa": "huː",
           "pos": "pronoun"
         },
         {
           "en": "Why",
+          "es": "por qué",
           "ipa": "waɪ",
           "pos": "adverb",
           "meanings": [
             "used to ask or talk about the reasons for something"
-          ]
+          ],
+          "note": "La respuesta empieza con because (porque)."
         },
         {
           "en": "wife",
+          "es": "esposa / mujer",
           "ipa": "waɪf",
           "pos": "noun",
           "meanings": [
@@ -5069,14 +5595,17 @@
         },
         {
           "en": "woman",
+          "es": "mujer",
           "ipa": "ˈwʊm.ən",
           "pos": "noun",
           "meanings": [
             "an adult female person"
-          ]
+          ],
+          "note": "Plural irregular: women."
         },
         {
           "en": "work for a Spanish company",
+          "es": "trabajar para una empresa española",
           "ipa": "wɜːk fɔːr ə ˈspæn.ɪʃ ˈkʌm.pə.ni",
           "pos": "phrase",
           "meanings": [
@@ -5085,6 +5614,7 @@
         },
         {
           "en": "work in an office",
+          "es": "trabajar en una oficina",
           "ipa": "wɜːk ɪn ən ˈɒf.ɪs",
           "pos": "phrase",
           "meanings": [
@@ -5093,6 +5623,7 @@
         },
         {
           "en": "work in groups",
+          "es": "trabajar en grupos",
           "ipa": "wɜːk ɪn ɡruːps",
           "pos": "phrase",
           "meanings": [
@@ -5101,6 +5632,7 @@
         },
         {
           "en": "work in pairs",
+          "es": "trabajar en parejas",
           "ipa": "wɜːk ɪn peəz",
           "pos": "phrase",
           "meanings": [
@@ -5109,6 +5641,7 @@
         },
         {
           "en": "write",
+          "es": "escribir",
           "ipa": "raɪt",
           "pos": "verb",
           "meanings": [
@@ -5118,11 +5651,13 @@
         },
         {
           "en": "write a blog",
+          "es": "escribir un blog",
           "ipa": "raɪt ə blɒɡ",
           "pos": "phrase"
         },
         {
           "en": "wrong",
+          "es": "incorrecto / equivocado",
           "ipa": "rɒŋ",
           "pos": "adjective",
           "meanings": [
@@ -5131,6 +5666,7 @@
         },
         {
           "en": "wrote",
+          "es": "escribí, escribió… (pasado de write)",
           "ipa": "rəʊt",
           "pos": "verb",
           "meanings": [
@@ -5144,11 +5680,13 @@
       "items": [
         {
           "en": "year",
+          "es": "año",
           "ipa": "jɪər",
           "pos": "noun"
         },
         {
           "en": "yellow",
+          "es": "amarillo",
           "ipa": "ˈjel.əʊ",
           "pos": "adjective",
           "meanings": [
@@ -5157,6 +5695,7 @@
         },
         {
           "en": "yesterday morning",
+          "es": "ayer por la mañana",
           "ipa": "ˈjes.tə.deɪ ˈmɔː.nɪŋ",
           "pos": "phrase",
           "meanings": [
@@ -5165,6 +5704,7 @@
         },
         {
           "en": "young",
+          "es": "joven",
           "ipa": "jʌŋ",
           "pos": "adjective",
           "meanings": [
@@ -5178,6 +5718,7 @@
       "items": [
         {
           "en": "zero",
+          "es": "cero",
           "ipa": "ˈzɪə.rəʊ",
           "pos": "number",
           "meanings": [

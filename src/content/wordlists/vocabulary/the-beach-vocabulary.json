@@ -11,138 +11,172 @@
       "items": [
         {
           "en": "Air mattress",
+          "es": "colchoneta inflable",
           "level": "C1"
         },
         {
           "en": "Beach ball",
+          "es": "pelota de playa",
           "level": "A2"
         },
         {
           "en": "Beach umbrella",
+          "es": "sombrilla",
           "level": "B2"
         },
         {
           "en": "Bikini",
+          "es": "bikini",
           "level": "C1"
         },
         {
           "en": "Binoculars",
+          "es": "prismáticos / binoculares",
           "level": "C1"
         },
         {
           "en": "Bucket",
+          "es": "cubo / cubeta",
           "level": "B2"
         },
         {
           "en": "Cooler / cool box",
+          "es": "hielera / nevera portátil",
           "level": "A2"
         },
         {
           "en": "Deckchair (UK) / beach chair (US)",
+          "es": "tumbona / silla de playa",
           "level": "B1"
         },
         {
           "en": "Diver",
+          "es": "buzo / buceador",
           "level": "C1"
         },
         {
           "en": "Diving mask",
+          "es": "gafas de buceo / visor",
           "level": "B2"
         },
         {
           "en": "Flip-flops",
+          "es": "chanclas / chancletas",
           "level": "C1"
         },
         {
           "en": "Goggles",
+          "es": "gafas de natación / goggles",
           "level": "C1"
         },
         {
           "en": "Life guard",
+          "es": "socorrista / salvavidas",
           "level": "A2"
         },
         {
           "en": "Life jacket (UK) / life vest (US)",
+          "es": "chaleco salvavidas",
           "level": "B1"
         },
         {
           "en": "Life preserver / buoy",
+          "es": "salvavidas / boya",
           "level": "C1"
         },
         {
           "en": "Lighthouse",
+          "es": "faro",
           "level": "C1"
         },
         {
           "en": "Raft",
+          "es": "balsa",
           "level": "C1"
         },
         {
           "en": "Regulator",
+          "es": "regulador (de buceo)",
           "level": "C1"
         },
         {
           "en": "Sand",
+          "es": "arena",
           "level": "B1"
         },
         {
           "en": "Sandcastle",
+          "es": "castillo de arena",
           "level": "C1"
         },
         {
           "en": "Sea",
+          "es": "mar",
           "level": "A1"
         },
         {
           "en": "Seashore",
+          "es": "orilla del mar",
           "level": "C1"
         },
         {
           "en": "Seaweed",
+          "es": "alga(s)",
           "level": "B1"
         },
         {
           "en": "Shell",
+          "es": "concha",
           "level": "B1"
         },
         {
           "en": "Snorkel",
+          "es": "tubo de buceo / esnórquel",
           "level": "C1"
         },
         {
           "en": "Sunglasses",
+          "es": "lentes de sol / gafas de sol",
           "level": "C1"
         },
         {
           "en": "Sunscreen",
+          "es": "protector solar / bloqueador",
           "level": "C1"
         },
         {
           "en": "Surfboard",
+          "es": "tabla de surf",
           "level": "C1"
         },
         {
           "en": "Swim ring",
+          "es": "flotador",
           "level": "B2"
         },
         {
           "en": "Swimming suit / bathing suit",
+          "es": "traje de baño / bañador",
           "level": "B1"
         },
         {
           "en": "Swimming trunks",
+          "es": "bañador (de hombre) / short de baño",
           "level": "C1"
         },
         {
           "en": "Swimsuit",
+          "es": "traje de baño / bañador",
           "level": "C1"
         },
         {
           "en": "Towel",
+          "es": "toalla",
           "level": "B2"
         },
         {
           "en": "Wave",
+          "es": "ola",
           "level": "B1"
         }
       ]

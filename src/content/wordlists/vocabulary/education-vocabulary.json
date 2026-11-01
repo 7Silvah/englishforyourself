@@ -11,154 +11,198 @@
       "items": [
         {
           "en": "Kindergarten",
+          "es": "jardín de niños / jardín de infancia",
           "level": "C1"
         },
         {
           "en": "Nursery school",
+          "es": "guardería / preescolar",
           "level": "B2"
         },
         {
           "en": "Primary school (UK) / elementary school (US)",
+          "es": "escuela primaria",
           "level": "A2"
         },
         {
           "en": "Secondary school (UK) / high school (US)",
+          "es": "escuela secundaria / instituto / preparatoria",
           "level": "A1"
         },
         {
           "en": "College",
-          "level": "A2"
+          "es": "instituto de educación superior / universidad",
+          "level": "A2",
+          "note": "No es «colegio» (school).",
+          "falseFriend": "colegio"
         },
         {
           "en": "University",
+          "es": "universidad",
           "level": "A1"
         },
         {
           "en": "Attendance",
+          "es": "asistencia",
           "level": "B2"
         },
         {
           "en": "Bachelor’s degree",
+          "es": "licenciatura / grado",
           "level": "C1"
         },
         {
           "en": "Basic education",
+          "es": "educación básica",
           "level": "A2"
         },
         {
           "en": "Boarding school",
+          "es": "internado",
           "level": "B2"
         },
         {
           "en": "Campus",
+          "es": "campus",
           "level": "A2"
         },
         {
           "en": "Class",
+          "es": "clase",
           "level": "B1"
         },
         {
           "en": "Course",
+          "es": "curso",
           "level": "A2"
         },
         {
           "en": "Diploma",
+          "es": "diploma",
           "level": "C1"
         },
         {
           "en": "Dissertation",
+          "es": "tesina / tesis",
           "level": "C1"
         },
         {
           "en": "Examination",
+          "es": "examen",
           "level": "B1"
         },
         {
           "en": "Faculty",
-          "level": "B1"
+          "es": "facultad / profesorado",
+          "level": "B1",
+          "note": "En Estados Unidos, faculty es el cuerpo docente."
         },
         {
           "en": "Graduation",
+          "es": "graduación",
           "level": "B2"
         },
         {
           "en": "Higher education",
+          "es": "educación superior",
           "level": "A2"
         },
         {
           "en": "Homework",
+          "es": "tarea / deberes",
           "level": "A2"
         },
         {
           "en": "Master’s degree",
+          "es": "máster / maestría",
           "level": "C1"
         },
         {
           "en": "Master’s student",
+          "es": "estudiante de máster / de maestría",
           "level": "C1"
         },
         {
           "en": "Online education",
+          "es": "educación en línea / a distancia",
           "level": "A2"
         },
         {
           "en": "PhD students",
+          "es": "estudiantes de doctorado",
           "level": "B2"
         },
         {
           "en": "Private school",
+          "es": "escuela privada / colegio privado",
           "level": "A1"
         },
         {
           "en": "Professor",
-          "level": "A2"
+          "es": "catedrático / profesor universitario",
+          "level": "A2",
+          "note": "En inglés británico, professor es solo el catedrático."
         },
         {
           "en": "Researcher",
+          "es": "investigador / investigadora",
           "level": "B2"
         },
         {
           "en": "Schoolyard",
+          "es": "patio de la escuela",
           "level": "C1"
         },
         {
           "en": "Semester",
+          "es": "semestre",
           "level": "B2"
         },
         {
           "en": "State school",
-          "level": "A1"
+          "es": "escuela pública",
+          "level": "A1",
+          "note": "Inglés británico; en Estados Unidos, public school."
         },
         {
           "en": "Student loan",
+          "es": "préstamo estudiantil",
           "level": "A2"
         },
         {
           "en": "Students / pupils",
+          "es": "estudiantes / alumnos",
           "level": "A1"
         },
         {
           "en": "Teacher",
+          "es": "profesor / profesora, maestro / maestra",
           "level": "A1"
         },
         {
           "en": "Technical college",
+          "es": "escuela técnica",
           "level": "A2"
         },
         {
           "en": "Thesis",
+          "es": "tesis",
           "level": "B2"
         },
         {
           "en": "Tuition",
-          "level": "B2"
+          "es": "matrícula / clases",
+          "level": "B2",
+          "note": "En Estados Unidos, tuition es lo que se paga por estudiar."
         },
         {
           "en": "Undergraduate",
+          "es": "estudiante universitario (de grado)",
           "level": "B2"
         },
         {
           "en": "Vocational college",
+          "es": "escuela de formación profesional",
           "level": "C1"
         }
       ]
