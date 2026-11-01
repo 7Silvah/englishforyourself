@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Colours and Shapes Vocabulary",
+  "titleEs": "Colores y formas",
   "order": 5,
   "legacyPath": "lessons/vocabulary/colours-and-shapes-vocabulary.html",
   "intro": "In this section of vocabulary, you will learn the colours and shapes vocabulary in English.",
@@ -12,95 +13,118 @@
       "items": [
         {
           "en": "Black",
-          "es": "negro"
+          "es": "negro",
+          "level": "A1"
         },
         {
           "en": "Blue",
-          "es": "azul"
+          "es": "azul",
+          "level": "A1"
         },
         {
           "en": "Brown",
-          "es": "marrón / café"
+          "es": "marrón / café",
+          "level": "A1"
         },
         {
           "en": "Coral",
-          "es": "coral"
+          "es": "coral",
+          "level": "B1"
         },
         {
           "en": "Dark blue",
-          "es": "azul oscuro"
+          "es": "azul oscuro",
+          "level": "A2"
         },
         {
           "en": "Gold",
-          "es": "dorado"
+          "es": "dorado",
+          "level": "A1"
         },
         {
           "en": "Green",
-          "es": "verde"
+          "es": "verde",
+          "level": "A1"
         },
         {
           "en": "Grey or gray",
-          "es": "gris"
+          "es": "gris",
+          "level": "A1"
         },
         {
           "en": "Indigo",
-          "es": "índigo / añil"
+          "es": "índigo / añil",
+          "level": "C1"
         },
         {
           "en": "Khaki",
-          "es": "caqui"
+          "es": "caqui",
+          "level": "C1"
         },
         {
           "en": "Light blue",
-          "es": "azul claro / celeste"
+          "es": "azul claro / celeste",
+          "level": "A2"
         },
         {
           "en": "Magenta",
-          "es": "magenta"
+          "es": "magenta",
+          "level": "C1"
         },
         {
           "en": "Maroon",
-          "es": "granate / guinda"
+          "es": "granate / guinda",
+          "level": "C1"
         },
         {
           "en": "Navy blue",
-          "es": "azul marino"
+          "es": "azul marino",
+          "level": "B1"
         },
         {
           "en": "Orange",
-          "es": "naranja"
+          "es": "naranja",
+          "level": "A2"
         },
         {
           "en": "Pink",
-          "es": "rosa / rosado"
+          "es": "rosa / rosado",
+          "level": "A1"
         },
         {
           "en": "Purple",
-          "es": "morado"
+          "es": "morado",
+          "level": "A2"
         },
         {
           "en": "Red",
-          "es": "rojo"
+          "es": "rojo",
+          "level": "A1"
         },
         {
           "en": "Salmon",
-          "es": "salmón"
+          "es": "salmón",
+          "level": "B2"
         },
         {
           "en": "Silver",
-          "es": "plateado"
+          "es": "plateado",
+          "level": "A2"
         },
         {
           "en": "Turquoise",
-          "es": "turquesa"
+          "es": "turquesa",
+          "level": "C1"
         },
         {
           "en": "White",
-          "es": "blanco"
+          "es": "blanco",
+          "level": "A1"
         },
         {
           "en": "Yellow",
-          "es": "amarillo"
+          "es": "amarillo",
+          "level": "A1"
         }
       ]
     },
@@ -109,67 +133,83 @@
       "items": [
         {
           "en": "Circle",
-          "es": "círculo"
+          "es": "círculo",
+          "level": "A2"
         },
         {
           "en": "Triangle",
-          "es": "triángulo"
+          "es": "triángulo",
+          "level": "B2"
         },
         {
           "en": "Square",
-          "es": "cuadrado"
+          "es": "cuadrado",
+          "level": "A1"
         },
         {
           "en": "Rectangle",
-          "es": "rectángulo"
+          "es": "rectángulo",
+          "level": "C1"
         },
         {
           "en": "Oval",
-          "es": "óvalo"
+          "es": "óvalo",
+          "level": "B2"
         },
         {
           "en": "Pentagon",
-          "es": "pentágono"
+          "es": "pentágono",
+          "level": "C1"
         },
         {
           "en": "Hexagon",
-          "es": "hexágono"
+          "es": "hexágono",
+          "level": "C1"
         },
         {
           "en": "Heptagon",
-          "es": "heptágono"
+          "es": "heptágono",
+          "level": "C1"
         },
         {
           "en": "Octagon",
-          "es": "octágono"
+          "es": "octágono",
+          "level": "C1"
         },
         {
           "en": "Parallelogram",
-          "es": "paralelogramo"
+          "es": "paralelogramo",
+          "level": "C1"
         },
         {
           "en": "Cross",
-          "es": "cruz"
+          "es": "cruz",
+          "level": "B1"
         },
         {
           "en": "Cube",
-          "es": "cubo"
+          "es": "cubo",
+          "level": "B2"
         },
         {
           "en": "Cone",
-          "es": "cono"
+          "es": "cono",
+          "level": "B2"
         },
         {
           "en": "Cylinder",
-          "es": "cilindro"
+          "es": "cilindro",
+          "level": "B2"
         },
         {
           "en": "Rhombus",
-          "es": "rombo"
+          "es": "rombo",
+          "level": "C1"
         },
         {
           "en": "Trapezoid",
-          "es": "trapecio"
+          "es": "trapecio",
+          "level": "C1"
         }
       ]
     }

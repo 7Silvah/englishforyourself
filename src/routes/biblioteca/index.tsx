@@ -3,7 +3,6 @@ import {
   BookOpenText,
   Clock,
   Combine,
-  GraduationCap,
   Languages,
   MessagesSquare,
   Puzzle,
@@ -13,6 +12,7 @@ import {
 import { PageHeader } from "@/components/layout/page-header";
 import { getAllLessons } from "@/content";
 import { sections, type SectionSlug } from "@/content/sections";
+import { VOCABULARY_SECTION, vocabularyTopics } from "@/features/vocabulary/lessons";
 import { es } from "@/i18n/es";
 
 export const Route = createFileRoute("/biblioteca/")({
@@ -23,7 +23,6 @@ const sectionIcons: Record<SectionSlug, LucideIcon> = {
   "verb-tenses": Clock,
   grammar: BookOpenText,
   vocabulary: Languages,
-  "vocabulary-by-level": GraduationCap,
   "ways-to-say": MessagesSquare,
   "phrasal-verbs": Puzzle,
   collocations: Combine,
@@ -51,9 +50,12 @@ function LibraryPage() {
                   </h2>
                   <p className="mt-1 text-sm text-muted-foreground">{section.descriptionEs}</p>
                   <p className="mt-2 text-xs font-medium text-primary">
-                    {es.library.lessonsCount(
-                      getAllLessons().filter((l) => l.section === section.slug).length,
-                    )}
+                    {/* Vocabulario es una tabla: lo que se elige ahí son temas, no lecciones */}
+                    {section.slug === VOCABULARY_SECTION
+                      ? es.library.vocabularyTable.topicsCount(vocabularyTopics().length)
+                      : es.library.lessonsCount(
+                          getAllLessons().filter((l) => l.section === section.slug).length,
+                        )}
                   </p>
                 </div>
               </Link>

@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The School Vocabulary",
+  "titleEs": "La escuela",
   "order": 25,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-school-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the school in English.",
@@ -12,63 +13,78 @@
       "items": [
         {
           "en": "Arithmetic",
-          "es": "aritmética"
+          "es": "aritmética",
+          "level": "C1"
         },
         {
           "en": "Art",
-          "es": "arte"
+          "es": "arte",
+          "level": "A2"
         },
         {
           "en": "Biology",
-          "es": "biología"
+          "es": "biología",
+          "level": "B1"
         },
         {
           "en": "Chemistry",
-          "es": "química"
+          "es": "química",
+          "level": "B1"
         },
         {
           "en": "Drama",
-          "es": "teatro"
+          "es": "teatro",
+          "level": "B1"
         },
         {
           "en": "English",
-          "es": "inglés"
+          "es": "inglés",
+          "level": "A2"
         },
         {
           "en": "Geography",
-          "es": "geografía"
+          "es": "geografía",
+          "level": "B2"
         },
         {
           "en": "History",
-          "es": "historia"
+          "es": "historia",
+          "level": "A1"
         },
         {
           "en": "Information technology",
-          "es": "informática"
+          "es": "informática",
+          "level": "A1"
         },
         {
           "en": "Literature",
-          "es": "literatura"
+          "es": "literatura",
+          "level": "A2"
         },
         {
           "en": "Mathematics / maths / math",
-          "es": "matemáticas"
+          "es": "matemáticas",
+          "level": "B1"
         },
         {
           "en": "Music",
-          "es": "música"
+          "es": "música",
+          "level": "A2"
         },
         {
           "en": "Physical education or PE",
-          "es": "educación física"
+          "es": "educación física",
+          "level": "A2"
         },
         {
           "en": "Physics",
-          "es": "física"
+          "es": "física",
+          "level": "A2"
         },
         {
           "en": "Science",
-          "es": "ciencias"
+          "es": "ciencias",
+          "level": "A1"
         }
       ]
     },
@@ -77,135 +93,168 @@
       "items": [
         {
           "en": "Agenda",
-          "es": "agenda"
+          "es": "agenda",
+          "level": "B1"
         },
         {
           "en": "Backpack",
-          "es": "mochila"
+          "es": "mochila",
+          "level": "C1"
         },
         {
           "en": "Ballpoints",
-          "es": "bolígrafos"
+          "es": "bolígrafos",
+          "level": "C1"
         },
         {
           "en": "Binder clips",
-          "es": "pinzas sujetapapeles"
+          "es": "pinzas sujetapapeles",
+          "level": "C1"
         },
         {
           "en": "Binders",
-          "es": "carpetas de anillas"
+          "es": "carpetas de anillas",
+          "level": "C1"
         },
         {
           "en": "Blackboard",
-          "es": "pizarra / pizarrón"
+          "es": "pizarra / pizarrón",
+          "level": "C1"
         },
         {
           "en": "Books",
-          "es": "libros"
+          "es": "libros",
+          "level": "A1"
         },
         {
           "en": "Calculator",
-          "es": "calculadora"
+          "es": "calculadora",
+          "level": "C1"
         },
         {
           "en": "Chair",
-          "es": "silla"
+          "es": "silla",
+          "level": "A1"
         },
         {
           "en": "Clips",
-          "es": "clips"
+          "es": "clips",
+          "level": "B2"
         },
         {
           "en": "Clock",
-          "es": "reloj (de pared)"
+          "es": "reloj (de pared)",
+          "level": "B1"
         },
         {
           "en": "Coloured pencils (UK) / colored pencils (US)",
-          "es": "lápices de colores"
+          "es": "lápices de colores",
+          "level": "C1"
         },
         {
           "en": "Compass",
-          "es": "compás"
+          "es": "compás",
+          "level": "B1"
         },
         {
           "en": "Crayons",
-          "es": "crayones / ceras"
+          "es": "crayones / ceras",
+          "level": "C1"
         },
         {
           "en": "Desk",
-          "es": "pupitre / escritorio"
+          "es": "pupitre / escritorio",
+          "level": "A2"
         },
         {
           "en": "Glue",
-          "es": "pegamento"
+          "es": "pegamento",
+          "level": "B2"
         },
         {
           "en": "Highlighter",
-          "es": "resaltador / marcador fluorescente"
+          "es": "resaltador / marcador fluorescente",
+          "level": "C1"
         },
         {
           "en": "Hole puncher",
-          "es": "perforadora"
+          "es": "perforadora",
+          "level": "C1"
         },
         {
           "en": "Map",
-          "es": "mapa"
+          "es": "mapa",
+          "level": "A1"
         },
         {
           "en": "Notebooks",
-          "es": "cuadernos"
+          "es": "cuadernos",
+          "level": "C1"
         },
         {
           "en": "Notepad",
-          "es": "bloc de notas"
+          "es": "bloc de notas",
+          "level": "C1"
         },
         {
           "en": "Paper",
-          "es": "papel"
+          "es": "papel",
+          "level": "B1"
         },
         {
           "en": "Pencil case",
-          "es": "estuche"
+          "es": "estuche",
+          "level": "B2"
         },
         {
           "en": "Pencil sharpener",
-          "es": "sacapuntas"
+          "es": "sacapuntas",
+          "level": "C1"
         },
         {
           "en": "Pencils",
-          "es": "lápices"
+          "es": "lápices",
+          "level": "C1"
         },
         {
           "en": "Pins",
-          "es": "alfileres"
+          "es": "alfileres",
+          "level": "B2"
         },
         {
           "en": "Protractor",
-          "es": "transportador"
+          "es": "transportador",
+          "level": "C1"
         },
         {
           "en": "Rubber (UK) / eraser (US)",
-          "es": "goma de borrar"
+          "es": "goma de borrar",
+          "level": "B1"
         },
         {
           "en": "Ruler",
-          "es": "regla"
+          "es": "regla",
+          "level": "B2"
         },
         {
           "en": "Scissors",
-          "es": "tijeras"
+          "es": "tijeras",
+          "level": "C1"
         },
         {
           "en": "Scotch tape",
-          "es": "cinta adhesiva"
+          "es": "cinta adhesiva",
+          "level": "C1"
         },
         {
           "en": "Stapler",
-          "es": "grapadora / engrapadora"
+          "es": "grapadora / engrapadora",
+          "level": "C1"
         },
         {
           "en": "Whiteboard",
-          "es": "pizarra blanca"
+          "es": "pizarra blanca",
+          "level": "C1"
         }
       ]
     },
@@ -214,71 +263,88 @@
       "items": [
         {
           "en": "Classmates",
-          "es": "compañeros de clase"
+          "es": "compañeros de clase",
+          "level": "C1"
         },
         {
           "en": "Coach",
-          "es": "entrenador / entrenadora"
+          "es": "entrenador / entrenadora",
+          "level": "A2"
         },
         {
           "en": "Computer",
-          "es": "computadora / ordenador"
+          "es": "computadora / ordenador",
+          "level": "A1"
         },
         {
           "en": "Fan",
-          "es": "ventilador"
+          "es": "ventilador",
+          "level": "B1"
         },
         {
           "en": "Janitor",
-          "es": "conserje"
+          "es": "conserje",
+          "level": "C1"
         },
         {
           "en": "Librarian",
-          "es": "bibliotecario / bibliotecaria"
+          "es": "bibliotecario / bibliotecaria",
+          "level": "C1"
         },
         {
           "en": "Principal",
-          "es": "director / directora (de la escuela)"
+          "es": "director / directora (de la escuela)",
+          "level": "A2"
         },
         {
           "en": "Projector",
-          "es": "proyector"
+          "es": "proyector",
+          "level": "C1"
         },
         {
           "en": "School bell",
-          "es": "timbre de la escuela"
+          "es": "timbre de la escuela",
+          "level": "A2"
         },
         {
           "en": "School bus",
-          "es": "autobús escolar"
+          "es": "autobús escolar",
+          "level": "A2"
         },
         {
           "en": "Students",
-          "es": "estudiantes / alumnos"
+          "es": "estudiantes / alumnos",
+          "level": "A1"
         },
         {
           "en": "Teacher",
-          "es": "profesor / profesora, maestro / maestra"
+          "es": "profesor / profesora, maestro / maestra",
+          "level": "A1"
         },
         {
           "en": "The bathroom",
-          "es": "el baño"
+          "es": "el baño",
+          "level": "A2"
         },
         {
           "en": "The classroom",
-          "es": "el aula / el salón de clases"
+          "es": "el aula / el salón de clases",
+          "level": "B2"
         },
         {
           "en": "The library",
-          "es": "la biblioteca"
+          "es": "la biblioteca",
+          "level": "A2"
         },
         {
           "en": "The lockers",
-          "es": "los casilleros / las taquillas"
+          "es": "los casilleros / las taquillas",
+          "level": "C1"
         },
         {
           "en": "The principal’s office",
-          "es": "la dirección (oficina del director)"
+          "es": "la dirección (oficina del director)",
+          "level": "C1"
         }
       ]
     }

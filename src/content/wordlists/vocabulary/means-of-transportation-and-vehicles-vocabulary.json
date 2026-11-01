@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Means of Transportation and Vehicles Vocabulary",
+  "titleEs": "Transportes y vehículos",
   "order": 26,
   "legacyPath": "lessons/vocabulary/means-of-transportation-and-vehicles-vocabulary.html",
   "intro": "In this section you will learn vocabulary about means of transportation and vehicles in English.",
@@ -12,151 +13,188 @@
       "items": [
         {
           "en": "Aerial tramway",
-          "es": "teleférico"
+          "es": "teleférico",
+          "level": "C1"
         },
         {
           "en": "Ambulance",
-          "es": "ambulancia"
+          "es": "ambulancia",
+          "level": "B2"
         },
         {
           "en": "Balloon",
-          "es": "globo aerostático"
+          "es": "globo aerostático",
+          "level": "B2"
         },
         {
           "en": "Bicycle",
-          "es": "bicicleta"
+          "es": "bicicleta",
+          "level": "A2"
         },
         {
           "en": "Bus",
-          "es": "autobús"
+          "es": "autobús",
+          "level": "A1"
         },
         {
           "en": "Canoe",
-          "es": "canoa"
+          "es": "canoa",
+          "level": "C1"
         },
         {
           "en": "Car",
-          "es": "coche / carro / auto"
+          "es": "coche / carro / auto",
+          "level": "A1"
         },
         {
           "en": "Carriage",
-          "es": "carruaje"
+          "es": "carruaje",
+          "level": "B1"
         },
         {
           "en": "Cement mixer",
-          "es": "camión hormigonera"
+          "es": "camión hormigonera",
+          "level": "C1"
         },
         {
           "en": "Double-decker",
-          "es": "autobús de dos pisos"
+          "es": "autobús de dos pisos",
+          "level": "C1"
         },
         {
           "en": "Dump truck",
-          "es": "volquete / camión de volteo"
+          "es": "volquete / camión de volteo",
+          "level": "B2"
         },
         {
           "en": "Fire engine",
-          "es": "camión de bomberos"
+          "es": "camión de bomberos",
+          "level": "A2"
         },
         {
           "en": "Forklift",
-          "es": "montacargas / carretilla elevadora"
+          "es": "montacargas / carretilla elevadora",
+          "level": "C1"
         },
         {
           "en": "Helicopter",
-          "es": "helicóptero"
+          "es": "helicóptero",
+          "level": "A2"
         },
         {
           "en": "Limousine",
-          "es": "limusina"
+          "es": "limusina",
+          "level": "C1"
         },
         {
           "en": "Lorry (UK) / truck (US)",
-          "es": "camión"
+          "es": "camión",
+          "level": "A2"
         },
         {
           "en": "Mixer",
-          "es": "hormigonera"
+          "es": "hormigonera",
+          "level": "C1"
         },
         {
           "en": "Motorbike / motorcycle",
-          "es": "moto / motocicleta"
+          "es": "moto / motocicleta",
+          "level": "A1"
         },
         {
           "en": "Motorboat",
-          "es": "lancha a motor"
+          "es": "lancha a motor",
+          "level": "C1"
         },
         {
           "en": "Pick-up truck",
-          "es": "camioneta (pickup)"
+          "es": "camioneta (pickup)",
+          "level": "A2"
         },
         {
           "en": "Plane",
-          "es": "avión"
+          "es": "avión",
+          "level": "A1"
         },
         {
           "en": "Police car",
-          "es": "coche patrulla"
+          "es": "coche patrulla",
+          "level": "A1"
         },
         {
           "en": "Recycling truck",
-          "es": "camión de reciclaje"
+          "es": "camión de reciclaje",
+          "level": "C1"
         },
         {
           "en": "Rowboat",
-          "es": "bote de remos"
+          "es": "bote de remos",
+          "level": "C1"
         },
         {
           "en": "Sailboat",
-          "es": "velero"
+          "es": "velero",
+          "level": "C1"
         },
         {
           "en": "School bus",
-          "es": "autobús escolar"
+          "es": "autobús escolar",
+          "level": "A2"
         },
         {
           "en": "Scooter",
-          "es": "patinete / scooter"
+          "es": "patinete / scooter",
+          "level": "A2"
         },
         {
           "en": "Ship",
-          "es": "barco"
+          "es": "barco",
+          "level": "A2"
         },
         {
           "en": "Skateboard",
-          "es": "monopatín / patineta"
+          "es": "monopatín / patineta",
+          "level": "C1"
         },
         {
           "en": "Submarine",
-          "es": "submarino"
+          "es": "submarino",
+          "level": "B2"
         },
         {
           "en": "Taxi",
-          "es": "taxi"
+          "es": "taxi",
+          "level": "A1"
         },
         {
           "en": "Tractor",
-          "es": "tractor"
+          "es": "tractor",
+          "level": "C1"
         },
         {
           "en": "Train",
-          "es": "tren"
+          "es": "tren",
+          "level": "A1"
         },
         {
           "en": "Tram (UK) / streetcar (US)",
-          "es": "tranvía"
+          "es": "tranvía",
+          "level": "A2"
         },
         {
           "en": "Underground (UK) / subway (US)",
-          "es": "metro"
+          "es": "metro",
+          "level": "B1"
         },
         {
           "en": "Van",
-          "es": "furgoneta / camioneta"
+          "es": "furgoneta / camioneta",
+          "level": "A2"
         },
         {
           "en": "Yacht",
-          "es": "yate"
+          "es": "yate",
+          "level": "B2"
         }
       ]
     }

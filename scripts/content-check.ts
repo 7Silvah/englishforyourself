@@ -92,6 +92,10 @@ for (const file of await files(`${ROOT}/wordlists`, ".json")) {
       if (w.es) c.translated++;
       if (w.ipa && !IPA.test(w.ipa))
         errors.push(`${file}: la IPA de "${w.en}" tiene caracteres que no son IPA: ${w.ipa}`);
+      // Cada palabra de un tema tiene nivel (scripts/vocabulary-levels.ts); las de Face2Face
+      // toman el de su lista
+      if (section === "vocabulary" && list?.source !== "face2face" && !w.level)
+        errors.push(`${file}: "${w.en}" no tiene nivel (npx tsx scripts/vocabulary-levels.ts)`);
       // Los sentidos de una palabra con el mismo tipo van juntos en `meanings`
       if (w.pos) {
         const key = `${w.en}|${w.pos}`;

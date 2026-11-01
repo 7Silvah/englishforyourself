@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Holidays and Vacations Vocabulary",
+  "titleEs": "Vacaciones",
   "order": 40,
   "legacyPath": "lessons/vocabulary/holidays-and-vacations-vocabulary.html",
   "intro": "In this section you will learn vocabulary about holidays and vacations in English.",
@@ -9,118 +10,156 @@
       "title": "Holiday and vacations vocabulary",
       "items": [
         {
-          "en": "Accommodation"
+          "en": "Accommodation",
+          "level": "B2"
         },
         {
-          "en": "Brochure"
+          "en": "Brochure",
+          "level": "C1"
         },
         {
-          "en": "Campsite"
+          "en": "Campsite",
+          "level": "C1"
         },
         {
-          "en": "Car hire (UK) / car rental (US)"
+          "en": "Car hire (UK) / car rental (US)",
+          "level": "B1"
         },
         {
-          "en": "Caravan"
+          "en": "Caravan",
+          "level": "C1"
         },
         {
-          "en": "Check-in"
+          "en": "Check-in",
+          "level": "A2"
         },
         {
-          "en": "City centre (UK) / downtown (US)"
+          "en": "City centre (UK) / downtown (US)",
+          "level": "B1"
         },
         {
-          "en": "Cruise"
+          "en": "Cruise",
+          "level": "B1"
         },
         {
-          "en": "Destination"
+          "en": "Destination",
+          "level": "B1"
         },
         {
-          "en": "Excursion"
+          "en": "Excursion",
+          "level": "C1"
         },
         {
-          "en": "Expedition"
+          "en": "Expedition",
+          "level": "B1"
         },
         {
-          "en": "Guide"
+          "en": "Guide",
+          "level": "B1"
         },
         {
-          "en": "High season / peak season"
+          "en": "High season / peak season",
+          "level": "A1"
         },
         {
-          "en": "Holiday season"
+          "en": "Holiday season",
+          "level": "A2"
         },
         {
-          "en": "Hostel"
+          "en": "Hostel",
+          "level": "C1"
         },
         {
-          "en": "Hotel"
+          "en": "Hotel",
+          "level": "A1"
         },
         {
-          "en": "Inn"
+          "en": "Inn",
+          "level": "B2"
         },
         {
-          "en": "Lodging"
+          "en": "Lodging",
+          "level": "C1"
         },
         {
-          "en": "Low season"
+          "en": "Low season",
+          "level": "A1"
         },
         {
-          "en": "Map"
+          "en": "Map",
+          "level": "A1"
         },
         {
-          "en": "One-way ticket"
+          "en": "One-way ticket",
+          "level": "A2"
         },
         {
-          "en": "Resort"
+          "en": "Resort",
+          "level": "B1"
         },
         {
-          "en": "Road trip"
+          "en": "Road trip",
+          "level": "A2"
         },
         {
-          "en": "Round-trip ticket"
+          "en": "Round-trip ticket",
+          "level": "B1"
         },
         {
-          "en": "Safari"
+          "en": "Safari",
+          "level": "C1"
         },
         {
-          "en": "Sightseeing tour"
+          "en": "Sightseeing tour",
+          "level": "C1"
         },
         {
-          "en": "Sightseer"
+          "en": "Sightseer",
+          "level": "C1"
         },
         {
-          "en": "Souvenir"
+          "en": "Souvenir",
+          "level": "C1"
         },
         {
-          "en": "Ticket"
+          "en": "Ticket",
+          "level": "A2"
         },
         {
-          "en": "To book a flight"
+          "en": "To book a flight",
+          "level": "A1"
         },
         {
-          "en": "To go sightseeing"
+          "en": "To go sightseeing",
+          "level": "A1"
         },
         {
-          "en": "To make a reservation"
+          "en": "To make a reservation",
+          "level": "B2"
         },
         {
-          "en": "To travel"
+          "en": "To travel",
+          "level": "A1"
         },
         {
-          "en": "Tour"
+          "en": "Tour",
+          "level": "A2"
         },
         {
-          "en": "Tourists"
+          "en": "Tourists",
+          "level": "B2"
         },
         {
-          "en": "Travel agency"
+          "en": "Travel agency",
+          "level": "A2"
         },
         {
-          "en": "Traveler"
+          "en": "Traveler",
+          "level": "C1"
         },
         {
-          "en": "Voyage"
+          "en": "Voyage",
+          "level": "B2"
         }
       ]
     }

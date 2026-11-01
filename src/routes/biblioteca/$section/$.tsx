@@ -1,4 +1,4 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { createFileRoute, Link, notFound, redirect } from "@tanstack/react-router";
 import { Layers, PencilLine } from "lucide-react";
 import { ChildLessons, LessonFooter } from "@/components/lesson/lesson-nav";
 import { mdxComponents } from "@/components/lesson/mdx-components";
@@ -6,25 +6,26 @@ import { WordList } from "@/components/lesson/word-list";
 import { buttonVariants } from "@/components/ui/button";
 import { getLesson } from "@/content";
 import { canPractice } from "@/features/exercises/list-practice";
-import { isLevelList, WORD_TYPES, type VocabularyFilters } from "@/features/vocabulary/logic";
-import { VocabularyTable } from "@/features/vocabulary/vocabulary-table";
+import { VOCABULARY_SECTION, vocabularyRedirect } from "@/features/vocabulary/lessons";
 import { es } from "@/i18n/es";
-import { cn } from "@/lib/utils";
 import { pageTitle } from "@/lib/page-title";
 
 // Ruta "splat" ($): captura el resto de la URL, incluidas subcarpetas,
 // p. ej. /biblioteca/grammar/adjectives/types-of-adjectives → _splat = "adjectives/types-of-adjectives".
 export const Route = createFileRoute("/biblioteca/$section/$")({
-  // Filtros de las listas por nivel: ?letra=B&tipo=verb&q=casa. Lo que no sea válido se ignora.
-  validateSearch: (search: Record<string, unknown>): VocabularyFilters => ({
-    letra: typeof search.letra === "string" ? search.letra : undefined,
-    tipo: WORD_TYPES.find((type) => type === search.tipo),
-    q: typeof search.q === "string" && search.q ? search.q : undefined,
-  }),
   // El loader espera al cuerpo de la lección (MDX o JSON), que se descarga solo ahora
   loader: async ({ params }) => {
     const lesson = getLesson(params.section, params._splat ?? "");
     if (!lesson) throw notFound();
+    // Las listas de vocabulario se ven en la tabla de la sección, filtrada por su tema (o
+    // su nivel, las de Face2Face). Así sus URLs de siempre siguen funcionando.
+    if (lesson.section === VOCABULARY_SECTION)
+      throw redirect({
+        to: "/biblioteca/$section",
+        params: { section: lesson.section },
+        search: vocabularyRedirect(lesson),
+        replace: true,
+      });
     const loaded = await lesson.load();
     return { crumb: lesson.meta.title, lesson, loaded };
   },
@@ -34,13 +35,10 @@ export const Route = createFileRoute("/biblioteca/$section/$")({
 
 function LessonPage() {
   const { lesson, loaded } = Route.useLoaderData();
-  const filters = Route.useSearch();
   const parent = lesson.parent ? getParent(lesson.parent) : undefined;
-  // Las listas por nivel son una tabla de 4 columnas: necesitan más ancho que la prosa
-  const table = loaded.kind === "wordlist" && isLevelList(loaded.list);
 
   return (
-    <article className={cn(table ? "max-w-5xl" : "max-w-3xl")}>
+    <article className="max-w-3xl">
       {parent && (
         <p className="mb-2 text-sm text-muted-foreground">
           {es.library.partOf}{" "}
@@ -92,8 +90,6 @@ function LessonPage() {
         <div lang="en">
           <loaded.Content components={mdxComponents} />
         </div>
-      ) : table ? (
-        <VocabularyTable list={loaded.list} filters={filters} />
       ) : (
         <WordList list={loaded.list} />
       )}

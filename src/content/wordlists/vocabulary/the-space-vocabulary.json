@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Space Vocabulary",
+  "titleEs": "El espacio",
   "order": 51,
   "legacyPath": "lessons/vocabulary/the-space-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the space in English.",
@@ -9,94 +10,124 @@
       "title": "The space vocabulary",
       "items": [
         {
-          "en": "Mercury"
+          "en": "Mercury",
+          "level": "B2"
         },
         {
-          "en": "Venus"
+          "en": "Venus",
+          "level": "B2"
         },
         {
-          "en": "Earth"
+          "en": "Earth",
+          "level": "A1"
         },
         {
-          "en": "Mars"
+          "en": "Mars",
+          "level": "B1"
         },
         {
-          "en": "Jupiter"
+          "en": "Jupiter",
+          "level": "C1"
         },
         {
-          "en": "Saturn"
+          "en": "Saturn",
+          "level": "C1"
         },
         {
-          "en": "Uranus"
+          "en": "Uranus",
+          "level": "C1"
         },
         {
-          "en": "Neptune"
+          "en": "Neptune",
+          "level": "C1"
         },
         {
-          "en": "Alien"
+          "en": "Alien",
+          "level": "B1"
         },
         {
-          "en": "Asteroid"
+          "en": "Asteroid",
+          "level": "C1"
         },
         {
-          "en": "Astronaut"
+          "en": "Astronaut",
+          "level": "C1"
         },
         {
-          "en": "Astronomer"
+          "en": "Astronomer",
+          "level": "C1"
         },
         {
-          "en": "Comet"
+          "en": "Comet",
+          "level": "C1"
         },
         {
-          "en": "Constellation"
+          "en": "Constellation",
+          "level": "C1"
         },
         {
-          "en": "Eclipse"
+          "en": "Eclipse",
+          "level": "B2"
         },
         {
-          "en": "Galaxy"
+          "en": "Galaxy",
+          "level": "B1"
         },
         {
-          "en": "Gravity"
+          "en": "Gravity",
+          "level": "B1"
         },
         {
-          "en": "Moon"
+          "en": "Moon",
+          "level": "A1"
         },
         {
-          "en": "Observatory"
+          "en": "Observatory",
+          "level": "A2"
         },
         {
-          "en": "Orbit"
+          "en": "Orbit",
+          "level": "B2"
         },
         {
-          "en": "Planet"
+          "en": "Planet",
+          "level": "A2"
         },
         {
-          "en": "Rocket"
+          "en": "Rocket",
+          "level": "B1"
         },
         {
-          "en": "Satellite"
+          "en": "Satellite",
+          "level": "B1"
         },
         {
-          "en": "Solar system"
+          "en": "Solar system",
+          "level": "B1"
         },
         {
-          "en": "Space shuttle"
+          "en": "Space shuttle",
+          "level": "B2"
         },
         {
-          "en": "Space station"
+          "en": "Space station",
+          "level": "A2"
         },
         {
-          "en": "Star"
+          "en": "Star",
+          "level": "A2"
         },
         {
-          "en": "The sun"
+          "en": "The sun",
+          "level": "A2"
         },
         {
-          "en": "The moon"
+          "en": "The moon",
+          "level": "A2"
         },
         {
-          "en": "UFO (unidentified flying object)"
+          "en": "UFO (unidentified flying object)",
+          "level": "C1"
         }
       ]
     }

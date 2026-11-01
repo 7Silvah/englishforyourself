@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Work and Employment Vocabulary",
+  "titleEs": "Trabajo y empleo",
   "order": 39,
   "legacyPath": "lessons/vocabulary/work-and-employment-vocabulary.html",
   "intro": "In this section you will learn vocabulary about work and employment in English.",
@@ -9,178 +10,236 @@
       "title": "Work and employment vocabulary",
       "items": [
         {
-          "en": "Applicant"
+          "en": "Applicant",
+          "level": "C1"
         },
         {
-          "en": "Application form"
+          "en": "Application form",
+          "level": "A2"
         },
         {
-          "en": "Apprenticeship"
+          "en": "Apprenticeship",
+          "level": "C1"
         },
         {
-          "en": "Bonus"
+          "en": "Bonus",
+          "level": "B1"
         },
         {
-          "en": "Boss"
+          "en": "Boss",
+          "level": "A2"
         },
         {
-          "en": "Coworker"
+          "en": "Coworker",
+          "level": "C1"
         },
         {
-          "en": "CV (curriculum vitae) / resume"
+          "en": "CV (curriculum vitae) / resume",
+          "level": "B2"
         },
         {
-          "en": "Day shift"
+          "en": "Day shift",
+          "level": "A2"
         },
         {
-          "en": "Employee"
+          "en": "Employee",
+          "level": "A2"
         },
         {
-          "en": "Employer"
+          "en": "Employer",
+          "level": "B1"
         },
         {
-          "en": "Ethics"
+          "en": "Ethics",
+          "level": "B2"
         },
         {
-          "en": "Full-time job"
+          "en": "Full-time job",
+          "level": "A1"
         },
         {
-          "en": "Interview"
+          "en": "Interview",
+          "level": "B1"
         },
         {
-          "en": "Interviewee"
+          "en": "Interviewee",
+          "level": "C1"
         },
         {
-          "en": "Interviewer"
+          "en": "Interviewer",
+          "level": "C1"
         },
         {
-          "en": "Job"
+          "en": "Job",
+          "level": "A2"
         },
         {
-          "en": "Lunch break"
+          "en": "Lunch break",
+          "level": "A2"
         },
         {
-          "en": "Maternity leave"
+          "en": "Maternity leave",
+          "level": "C1"
         },
         {
-          "en": "Minimum wages"
+          "en": "Minimum wages",
+          "level": "B2"
         },
         {
-          "en": "Night shift"
+          "en": "Night shift",
+          "level": "A2"
         },
         {
-          "en": "Occupation"
+          "en": "Occupation",
+          "level": "B1"
         },
         {
-          "en": "Part-time job"
+          "en": "Part-time job",
+          "level": "A1"
         },
         {
-          "en": "Payday"
+          "en": "Payday",
+          "level": "C1"
         },
         {
-          "en": "Permanent job"
+          "en": "Permanent job",
+          "level": "A2"
         },
         {
-          "en": "Personnel"
+          "en": "Personnel",
+          "level": "A2"
         },
         {
-          "en": "Personnel officer"
+          "en": "Personnel officer",
+          "level": "B1"
         },
         {
-          "en": "Position"
+          "en": "Position",
+          "level": "A1"
         },
         {
-          "en": "Profession"
+          "en": "Profession",
+          "level": "B2"
         },
         {
-          "en": "Promotion"
+          "en": "Promotion",
+          "level": "B1"
         },
         {
-          "en": "Prospects"
+          "en": "Prospects",
+          "level": "B2"
         },
         {
-          "en": "Qualifications"
+          "en": "Qualifications",
+          "level": "A2"
         },
         {
-          "en": "Regular job"
+          "en": "Regular job",
+          "level": "A2"
         },
         {
-          "en": "Responsibilities"
+          "en": "Responsibilities",
+          "level": "B2"
         },
         {
-          "en": "Salary"
+          "en": "Salary",
+          "level": "B1"
         },
         {
-          "en": "Sick leave"
+          "en": "Sick leave",
+          "level": "A2"
         },
         {
-          "en": "Strike"
+          "en": "Strike",
+          "level": "B1"
         },
         {
-          "en": "Temporary job"
+          "en": "Temporary job",
+          "level": "B1"
         },
         {
-          "en": "To apply for a job"
+          "en": "To apply for a job",
+          "level": "A2"
         },
         {
-          "en": "To fire"
+          "en": "To fire",
+          "level": "B1"
         },
         {
-          "en": "To get a raise"
+          "en": "To get a raise",
+          "level": "A2"
         },
         {
-          "en": "To hire"
+          "en": "To hire",
+          "level": "B1"
         },
         {
-          "en": "To make redundant"
+          "en": "To make redundant",
+          "level": "C1"
         },
         {
-          "en": "To recruit"
+          "en": "To recruit",
+          "level": "B2"
         },
         {
-          "en": "To resign"
+          "en": "To resign",
+          "level": "B2"
         },
         {
-          "en": "To retire"
+          "en": "To retire",
+          "level": "B1"
         },
         {
-          "en": "To run a firm"
+          "en": "To run a firm",
+          "level": "A2"
         },
         {
-          "en": "To take on"
+          "en": "To take on",
+          "level": "A1"
         },
         {
-          "en": "To work overtime"
+          "en": "To work overtime",
+          "level": "B2"
         },
         {
-          "en": "Trainee / apprentice"
+          "en": "Trainee / apprentice",
+          "level": "C1"
         },
         {
-          "en": "Training course"
+          "en": "Training course",
+          "level": "A2"
         },
         {
-          "en": "Unemployment"
+          "en": "Unemployment",
+          "level": "B1"
         },
         {
-          "en": "Vacancy"
+          "en": "Vacancy",
+          "level": "C1"
         },
         {
-          "en": "Wage cut"
+          "en": "Wage cut",
+          "level": "B1"
         },
         {
-          "en": "Workaholic"
+          "en": "Workaholic",
+          "level": "B1"
         },
         {
-          "en": "Workday"
+          "en": "Workday",
+          "level": "C1"
         },
         {
-          "en": "Worker"
+          "en": "Worker",
+          "level": "B1"
         },
         {
-          "en": "Workplace"
+          "en": "Workplace",
+          "level": "B2"
         },
         {
-          "en": "Workspace"
+          "en": "Workspace",
+          "level": "C1"
         }
       ]
     }

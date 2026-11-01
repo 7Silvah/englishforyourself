@@ -18,14 +18,8 @@ export const sections = [
     slug: "vocabulary",
     title: "Vocabulary",
     titleEs: "Vocabulario",
-    descriptionEs: "Palabras por temas: la casa, la comida, el trabajo, los animales y más.",
-  },
-  {
-    slug: "vocabulary-by-level",
-    title: "Vocabulary by Level",
-    titleEs: "Vocabulario por nivel",
     descriptionEs:
-      "Las palabras de cada nivel (A1, A2, B1) con pronunciación, tipo de palabra y significado.",
+      "Todas las palabras, por nivel (A1–C1) y por tema: la casa, la comida, el trabajo…",
   },
   {
     slug: "ways-to-say",

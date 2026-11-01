@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Environment Vocabulary",
+  "titleEs": "El medio ambiente",
   "order": 45,
   "legacyPath": "lessons/vocabulary/the-environment-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the environment in English.",
@@ -9,172 +10,228 @@
       "title": "Environment vocabulary",
       "items": [
         {
-          "en": "Acid rain"
+          "en": "Acid rain",
+          "level": "B1"
         },
         {
-          "en": "Air pollution"
+          "en": "Air pollution",
+          "level": "B2"
         },
         {
-          "en": "Animal rights"
+          "en": "Animal rights",
+          "level": "A2"
         },
         {
-          "en": "Biodiversity"
+          "en": "Biodiversity",
+          "level": "C1"
         },
         {
-          "en": "Bioenergy"
+          "en": "Bioenergy",
+          "level": "C1"
         },
         {
-          "en": "Biomass"
+          "en": "Biomass",
+          "level": "C1"
         },
         {
-          "en": "Carbon dioxide"
+          "en": "Carbon dioxide",
+          "level": "C1"
         },
         {
-          "en": "Carbon footprint"
+          "en": "Carbon footprint",
+          "level": "C1"
         },
         {
-          "en": "Climate change"
+          "en": "Climate change",
+          "level": "B1"
         },
         {
-          "en": "Compost"
+          "en": "Compost",
+          "level": "C1"
         },
         {
-          "en": "Conservation"
+          "en": "Conservation",
+          "level": "B1"
         },
         {
-          "en": "Contaminant"
+          "en": "Contaminant",
+          "level": "C1"
         },
         {
-          "en": "Contamination"
+          "en": "Contamination",
+          "level": "C1"
         },
         {
-          "en": "Deforestation"
+          "en": "Deforestation",
+          "level": "C1"
         },
         {
-          "en": "Ecologist"
+          "en": "Ecologist",
+          "level": "C1"
         },
         {
-          "en": "Ecology"
+          "en": "Ecology",
+          "level": "C1"
         },
         {
-          "en": "Ecosystem"
+          "en": "Ecosystem",
+          "level": "C1"
         },
         {
-          "en": "Ecotourism"
+          "en": "Ecotourism",
+          "level": "C1"
         },
         {
-          "en": "Endangered species"
+          "en": "Endangered species",
+          "level": "B2"
         },
         {
-          "en": "Environmentalist"
+          "en": "Environmentalist",
+          "level": "C1"
         },
         {
-          "en": "Erosion"
+          "en": "Erosion",
+          "level": "C1"
         },
         {
-          "en": "Extinction"
+          "en": "Extinction",
+          "level": "C1"
         },
         {
-          "en": "Fauna"
+          "en": "Fauna",
+          "level": "C1"
         },
         {
-          "en": "Flora"
+          "en": "Flora",
+          "level": "C1"
         },
         {
-          "en": "Fossil fuels"
+          "en": "Fossil fuels",
+          "level": "C1"
         },
         {
-          "en": "Global warming"
+          "en": "Global warming",
+          "level": "B1"
         },
         {
-          "en": "Greenhouse effect"
+          "en": "Greenhouse effect",
+          "level": "C1"
         },
         {
-          "en": "Land pollution"
+          "en": "Land pollution",
+          "level": "B2"
         },
         {
-          "en": "Landfills"
+          "en": "Landfills",
+          "level": "C1"
         },
         {
-          "en": "Marine pollution"
+          "en": "Marine pollution",
+          "level": "B2"
         },
         {
-          "en": "Natural habitat"
+          "en": "Natural habitat",
+          "level": "B2"
         },
         {
-          "en": "Natural resources"
+          "en": "Natural resources",
+          "level": "A2"
         },
         {
-          "en": "Nuclear energy"
+          "en": "Nuclear energy",
+          "level": "A2"
         },
         {
-          "en": "Oil spill"
+          "en": "Oil spill",
+          "level": "B2"
         },
         {
-          "en": "Overpopulation"
+          "en": "Overpopulation",
+          "level": "C1"
         },
         {
-          "en": "Pesticides"
+          "en": "Pesticides",
+          "level": "C1"
         },
         {
-          "en": "Poaching"
+          "en": "Poaching",
+          "level": "C1"
         },
         {
-          "en": "Pollutant"
+          "en": "Pollutant",
+          "level": "C1"
         },
         {
-          "en": "Pollution"
+          "en": "Pollution",
+          "level": "B1"
         },
         {
-          "en": "Radioactive waste"
+          "en": "Radioactive waste",
+          "level": "C1"
         },
         {
-          "en": "Rainforest"
+          "en": "Rainforest",
+          "level": "C1"
         },
         {
-          "en": "Recycling"
+          "en": "Recycling",
+          "level": "C1"
         },
         {
-          "en": "Reforestation"
+          "en": "Reforestation",
+          "level": "C1"
         },
         {
-          "en": "Sewage"
+          "en": "Sewage",
+          "level": "C1"
         },
         {
-          "en": "Sewage farm (UK) / sewage plant (US)"
+          "en": "Sewage farm (UK) / sewage plant (US)",
+          "level": "C1"
         },
         {
-          "en": "Smog"
+          "en": "Smog",
+          "level": "C1"
         },
         {
-          "en": "Solar energy"
+          "en": "Solar energy",
+          "level": "B1"
         },
         {
-          "en": "Solar panels"
+          "en": "Solar panels",
+          "level": "B2"
         },
         {
-          "en": "Solar power"
+          "en": "Solar power",
+          "level": "B1"
         },
         {
-          "en": "Sustainability"
+          "en": "Sustainability",
+          "level": "C1"
         },
         {
-          "en": "Tidal energy"
+          "en": "Tidal energy",
+          "level": "C1"
         },
         {
-          "en": "Toxic waste"
+          "en": "Toxic waste",
+          "level": "B2"
         },
         {
-          "en": "Wildfires"
+          "en": "Wildfires",
+          "level": "C1"
         },
         {
-          "en": "Wildlife"
+          "en": "Wildlife",
+          "level": "B1"
         },
         {
-          "en": "Wind power"
+          "en": "Wind power",
+          "level": "A2"
         },
         {
-          "en": "Wind turbine"
+          "en": "Wind turbine",
+          "level": "C1"
         }
       ]
     }

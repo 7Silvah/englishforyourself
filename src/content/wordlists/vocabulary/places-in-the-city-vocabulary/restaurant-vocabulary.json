@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Restaurant Vocabulary",
+  "titleEs": "El restaurante",
   "order": 24,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/restaurant-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the restaurant in English.",
@@ -9,91 +10,120 @@
       "title": "Restaurant vocabulary",
       "items": [
         {
-          "en": "Appetizer"
+          "en": "Appetizer",
+          "level": "C1"
         },
         {
-          "en": "Bill (UK) / check (US)"
+          "en": "Bill (UK) / check (US)",
+          "level": "A1"
         },
         {
-          "en": "Buffet"
+          "en": "Buffet",
+          "level": "C1"
         },
         {
-          "en": "Chef"
+          "en": "Chef",
+          "level": "B1"
         },
         {
-          "en": "Cook"
+          "en": "Cook",
+          "level": "A1"
         },
         {
-          "en": "Customer"
+          "en": "Customer",
+          "level": "A1"
         },
         {
-          "en": "Dessert"
+          "en": "Dessert",
+          "level": "A2"
         },
         {
-          "en": "Dish"
+          "en": "Dish",
+          "level": "B1"
         },
         {
-          "en": "Dressing"
+          "en": "Dressing",
+          "level": "B2"
         },
         {
-          "en": "Drink"
+          "en": "Drink",
+          "level": "A1"
         },
         {
-          "en": "Drive-in restaurant"
+          "en": "Drive-in restaurant",
+          "level": "A2"
         },
         {
-          "en": "Fast-food restaurant"
+          "en": "Fast-food restaurant",
+          "level": "A2"
         },
         {
-          "en": "Main course"
+          "en": "Main course",
+          "level": "A1"
         },
         {
-          "en": "Meal"
+          "en": "Meal",
+          "level": "B1"
         },
         {
-          "en": "Menu"
+          "en": "Menu",
+          "level": "B1"
         },
         {
-          "en": "Napkins"
+          "en": "Napkins",
+          "level": "C1"
         },
         {
-          "en": "Order"
+          "en": "Order",
+          "level": "B1"
         },
         {
-          "en": "Self-service restaurant"
+          "en": "Self-service restaurant",
+          "level": "A2"
         },
         {
-          "en": "Side dish"
+          "en": "Side dish",
+          "level": "B1"
         },
         {
-          "en": "Takeout"
+          "en": "Takeout",
+          "level": "C1"
         },
         {
-          "en": "Tip"
+          "en": "Tip",
+          "level": "B1"
         },
         {
-          "en": "Tray"
+          "en": "Tray",
+          "level": "C1"
         },
         {
-          "en": "Waiter"
+          "en": "Waiter",
+          "level": "A1"
         },
         {
-          "en": "Waitress"
+          "en": "Waitress",
+          "level": "A1"
         },
         {
-          "en": "Waitstaff"
+          "en": "Waitstaff",
+          "level": "C1"
         },
         {
-          "en": "Rare"
+          "en": "Rare",
+          "level": "A2"
         },
         {
-          "en": "Medium rare"
+          "en": "Medium rare",
+          "level": "A2"
         },
         {
-          "en": "Well done"
+          "en": "Well done",
+          "level": "A1"
         },
         {
-          "en": "Overdone"
+          "en": "Overdone",
+          "level": "C1"
         }
       ]
     },
@@ -101,25 +131,32 @@
       "title": "The menu",
       "items": [
         {
-          "en": "Food"
+          "en": "Food",
+          "level": "A1"
         },
         {
-          "en": "Starters"
+          "en": "Starters",
+          "level": "C1"
         },
         {
-          "en": "Main course"
+          "en": "Main course",
+          "level": "A1"
         },
         {
-          "en": "Side dishes"
+          "en": "Side dishes",
+          "level": "B2"
         },
         {
-          "en": "Drinks"
+          "en": "Drinks",
+          "level": "B1"
         },
         {
-          "en": "Desserts"
+          "en": "Desserts",
+          "level": "C1"
         },
         {
-          "en": "Snacks"
+          "en": "Snacks",
+          "level": "B2"
         }
       ]
     }

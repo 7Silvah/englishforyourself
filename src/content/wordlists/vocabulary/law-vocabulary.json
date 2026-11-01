@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Law Vocabulary",
+  "titleEs": "Derecho y justicia",
   "order": 47,
   "legacyPath": "lessons/vocabulary/law-vocabulary.html",
   "intro": "In this section you will learn vocabulary about law in English.",
@@ -9,169 +10,224 @@
       "title": "Law vocabulary",
       "items": [
         {
-          "en": "Acquittal"
+          "en": "Acquittal",
+          "level": "C1"
         },
         {
-          "en": "Advocate"
+          "en": "Advocate",
+          "level": "B1"
         },
         {
-          "en": "Alibi"
+          "en": "Alibi",
+          "level": "C1"
         },
         {
-          "en": "Allegation"
+          "en": "Allegation",
+          "level": "C1"
         },
         {
-          "en": "Appeal"
+          "en": "Appeal",
+          "level": "A2"
         },
         {
-          "en": "Arrest"
+          "en": "Arrest",
+          "level": "B1"
         },
         {
-          "en": "Attorney"
+          "en": "Attorney",
+          "level": "A2"
         },
         {
-          "en": "Barrister"
+          "en": "Barrister",
+          "level": "C1"
         },
         {
-          "en": "Burglar"
+          "en": "Burglar",
+          "level": "C1"
         },
         {
-          "en": "Confession"
+          "en": "Confession",
+          "level": "B2"
         },
         {
-          "en": "Convict"
+          "en": "Convict",
+          "level": "C1"
         },
         {
-          "en": "Court"
+          "en": "Court",
+          "level": "A1"
         },
         {
-          "en": "Courthouse"
+          "en": "Courthouse",
+          "level": "C1"
         },
         {
-          "en": "Courtroom"
+          "en": "Courtroom",
+          "level": "C1"
         },
         {
-          "en": "Crime"
+          "en": "Crime",
+          "level": "A2"
         },
         {
-          "en": "Criminal"
+          "en": "Criminal",
+          "level": "A2"
         },
         {
-          "en": "Custody"
+          "en": "Custody",
+          "level": "B1"
         },
         {
-          "en": "Death sentence"
+          "en": "Death sentence",
+          "level": "A2"
         },
         {
-          "en": "Defendant"
+          "en": "Defendant",
+          "level": "B2"
         },
         {
-          "en": "Detective"
+          "en": "Detective",
+          "level": "B1"
         },
         {
-          "en": "Embezzlement"
+          "en": "Embezzlement",
+          "level": "C1"
         },
         {
-          "en": "Evidence"
+          "en": "Evidence",
+          "level": "A1"
         },
         {
-          "en": "Felony"
+          "en": "Felony",
+          "level": "C1"
         },
         {
-          "en": "Fine"
+          "en": "Fine",
+          "level": "A1"
         },
         {
-          "en": "Fingerprint"
+          "en": "Fingerprint",
+          "level": "C1"
         },
         {
-          "en": "Fraud"
+          "en": "Fraud",
+          "level": "B1"
         },
         {
-          "en": "Fugitive"
+          "en": "Fugitive",
+          "level": "C1"
         },
         {
-          "en": "Guilty"
+          "en": "Guilty",
+          "level": "A2"
         },
         {
-          "en": "Handcuffs"
+          "en": "Handcuffs",
+          "level": "C1"
         },
         {
-          "en": "Hearing"
+          "en": "Hearing",
+          "level": "A2"
         },
         {
-          "en": "Hefty fine"
+          "en": "Hefty fine",
+          "level": "C1"
         },
         {
-          "en": "Innocent"
+          "en": "Innocent",
+          "level": "B1"
         },
         {
-          "en": "Judge"
+          "en": "Judge",
+          "level": "A2"
         },
         {
-          "en": "Juror"
+          "en": "Juror",
+          "level": "C1"
         },
         {
-          "en": "Jury"
+          "en": "Jury",
+          "level": "B1"
         },
         {
-          "en": "Justice"
+          "en": "Justice",
+          "level": "A2"
         },
         {
-          "en": "Juvenile court"
+          "en": "Juvenile court",
+          "level": "B2"
         },
         {
-          "en": "Lawsuit"
+          "en": "Lawsuit",
+          "level": "B2"
         },
         {
-          "en": "Lawyer"
+          "en": "Lawyer",
+          "level": "A2"
         },
         {
-          "en": "Libel"
+          "en": "Libel",
+          "level": "C1"
         },
         {
-          "en": "Magistrate"
+          "en": "Magistrate",
+          "level": "C1"
         },
         {
-          "en": "Manslaughter"
+          "en": "Manslaughter",
+          "level": "C1"
         },
         {
-          "en": "Mugging"
+          "en": "Mugging",
+          "level": "C1"
         },
         {
-          "en": "Notary"
+          "en": "Notary",
+          "level": "C1"
         },
         {
-          "en": "Prosecution"
+          "en": "Prosecution",
+          "level": "B2"
         },
         {
-          "en": "Prosecutor"
+          "en": "Prosecutor",
+          "level": "B2"
         },
         {
-          "en": "Punishment"
+          "en": "Punishment",
+          "level": "B1"
         },
         {
-          "en": "Securities fraud"
+          "en": "Securities fraud",
+          "level": "B2"
         },
         {
-          "en": "Sentence"
+          "en": "Sentence",
+          "level": "A2"
         },
         {
-          "en": "Supreme Court"
+          "en": "Supreme Court",
+          "level": "A2"
         },
         {
-          "en": "Testimony"
+          "en": "Testimony",
+          "level": "B2"
         },
         {
-          "en": "Trial"
+          "en": "Trial",
+          "level": "B1"
         },
         {
-          "en": "Vandalism"
+          "en": "Vandalism",
+          "level": "C1"
         },
         {
-          "en": "Verdict"
+          "en": "Verdict",
+          "level": "B2"
         },
         {
-          "en": "Witness"
+          "en": "Witness",
+          "level": "A2"
         }
       ]
     }

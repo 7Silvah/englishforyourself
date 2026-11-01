@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Hotel Vocabulary",
+  "titleEs": "El hotel",
   "order": 23,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-hotel-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the hotel in English.",
@@ -9,115 +10,152 @@
       "title": "The hotel vocabulary",
       "items": [
         {
-          "en": "Amenities"
+          "en": "Amenities",
+          "level": "C1"
         },
         {
-          "en": "Arrival date"
+          "en": "Arrival date",
+          "level": "B1"
         },
         {
-          "en": "Baggage"
+          "en": "Baggage",
+          "level": "C1"
         },
         {
-          "en": "Bellboy"
+          "en": "Bellboy",
+          "level": "C1"
         },
         {
-          "en": "Check-in"
+          "en": "Check-in",
+          "level": "A2"
         },
         {
-          "en": "Check-out"
+          "en": "Check-out",
+          "level": "A1"
         },
         {
-          "en": "Concierge"
+          "en": "Concierge",
+          "level": "C1"
         },
         {
-          "en": "Departure date"
+          "en": "Departure date",
+          "level": "B1"
         },
         {
-          "en": "Dormitory"
+          "en": "Dormitory",
+          "level": "C1"
         },
         {
-          "en": "Double room"
+          "en": "Double room",
+          "level": "A1"
         },
         {
-          "en": "Family room"
+          "en": "Family room",
+          "level": "A1"
         },
         {
-          "en": "Guest"
+          "en": "Guest",
+          "level": "A2"
         },
         {
-          "en": "Hotel maid"
+          "en": "Hotel maid",
+          "level": "B2"
         },
         {
-          "en": "Hotel manager"
+          "en": "Hotel manager",
+          "level": "A2"
         },
         {
-          "en": "Ice machine"
+          "en": "Ice machine",
+          "level": "A2"
         },
         {
-          "en": "Indoor pool"
+          "en": "Indoor pool",
+          "level": "B2"
         },
         {
-          "en": "Jacuzzi"
+          "en": "Jacuzzi",
+          "level": "C1"
         },
         {
-          "en": "Key"
+          "en": "Key",
+          "level": "A1"
         },
         {
-          "en": "King-size bed"
+          "en": "King-size bed",
+          "level": "A1"
         },
         {
-          "en": "Lift (UK) / elevator (US)"
+          "en": "Lift (UK) / elevator (US)",
+          "level": "A2"
         },
         {
-          "en": "Lobby"
+          "en": "Lobby",
+          "level": "B2"
         },
         {
-          "en": "Pull out sofa"
+          "en": "Pull out sofa",
+          "level": "B2"
         },
         {
-          "en": "Reception / front desk"
+          "en": "Reception / front desk",
+          "level": "B1"
         },
         {
-          "en": "Receptionist"
+          "en": "Receptionist",
+          "level": "A2"
         },
         {
-          "en": "Registration form"
+          "en": "Registration form",
+          "level": "B1"
         },
         {
-          "en": "Reservation"
+          "en": "Reservation",
+          "level": "B2"
         },
         {
-          "en": "Room number"
+          "en": "Room number",
+          "level": "A1"
         },
         {
-          "en": "Room service"
+          "en": "Room service",
+          "level": "A1"
         },
         {
-          "en": "Sauna"
+          "en": "Sauna",
+          "level": "C1"
         },
         {
-          "en": "Single bed"
+          "en": "Single bed",
+          "level": "A1"
         },
         {
-          "en": "Single room"
+          "en": "Single room",
+          "level": "A1"
         },
         {
-          "en": "Suitcase"
+          "en": "Suitcase",
+          "level": "A2"
         },
         {
-          "en": "Suite"
+          "en": "Suite",
+          "level": "B2"
         },
         {
-          "en": "Twin room"
+          "en": "Twin room",
+          "level": "B1"
         },
         {
-          "en": "Vacancy"
+          "en": "Vacancy",
+          "level": "C1"
         },
         {
-          "en": "Valet"
+          "en": "Valet",
+          "level": "C1"
         },
         {
-          "en": "Vending machine"
+          "en": "Vending machine",
+          "level": "C1"
         }
       ]
     }

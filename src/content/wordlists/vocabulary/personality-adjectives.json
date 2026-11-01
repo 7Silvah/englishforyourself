@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Personality Adjectives",
+  "titleEs": "Adjetivos de personalidad",
   "order": 14,
   "legacyPath": "lessons/vocabulary/personality-adjectives.html",
   "intro": "In this section you will learn a list of adjectives that describe someone’s personality in English.",
@@ -9,364 +10,484 @@
       "title": "Positive personality adjectives",
       "items": [
         {
-          "en": "Accurate"
+          "en": "Accurate",
+          "level": "A2"
         },
         {
-          "en": "Active"
+          "en": "Active",
+          "level": "A2"
         },
         {
-          "en": "Adventurous"
+          "en": "Adventurous",
+          "level": "B1"
         },
         {
-          "en": "Affable"
+          "en": "Affable",
+          "level": "C1"
         },
         {
-          "en": "Agreeable"
+          "en": "Agreeable",
+          "level": "C1"
         },
         {
-          "en": "Ambitious"
+          "en": "Ambitious",
+          "level": "B1"
         },
         {
-          "en": "Amiable"
+          "en": "Amiable",
+          "level": "C1"
         },
         {
-          "en": "Amicable"
+          "en": "Amicable",
+          "level": "C1"
         },
         {
-          "en": "Amusing"
+          "en": "Amusing",
+          "level": "C1"
         },
         {
-          "en": "Approachable"
+          "en": "Approachable",
+          "level": "C1"
         },
         {
-          "en": "Attentive"
+          "en": "Attentive",
+          "level": "C1"
         },
         {
-          "en": "Audacious"
+          "en": "Audacious",
+          "level": "C1"
         },
         {
-          "en": "Brave"
+          "en": "Brave",
+          "level": "B1"
         },
         {
-          "en": "Bright"
+          "en": "Bright",
+          "level": "A2"
         },
         {
-          "en": "Calm"
+          "en": "Calm",
+          "level": "B1"
         },
         {
-          "en": "Capable"
+          "en": "Capable",
+          "level": "A2"
         },
         {
-          "en": "Careful"
+          "en": "Careful",
+          "level": "A2"
         },
         {
-          "en": "Caring"
+          "en": "Caring",
+          "level": "B1"
         },
         {
-          "en": "Charming"
+          "en": "Charming",
+          "level": "B2"
         },
         {
-          "en": "Cheerful"
+          "en": "Cheerful",
+          "level": "C1"
         },
         {
-          "en": "Clever"
+          "en": "Clever",
+          "level": "B1"
         },
         {
-          "en": "Communicative"
+          "en": "Communicative",
+          "level": "C1"
         },
         {
-          "en": "Compassionate"
+          "en": "Compassionate",
+          "level": "C1"
         },
         {
-          "en": "Competent"
+          "en": "Competent",
+          "level": "B2"
         },
         {
-          "en": "Conscientious"
+          "en": "Conscientious",
+          "level": "C1"
         },
         {
-          "en": "Considerate"
+          "en": "Considerate",
+          "level": "B1"
         },
         {
-          "en": "Cool"
+          "en": "Cool",
+          "level": "A1"
         },
         {
-          "en": "Cooperative"
+          "en": "Cooperative",
+          "level": "B2"
         },
         {
-          "en": "Courageous"
+          "en": "Courageous",
+          "level": "C1"
         },
         {
-          "en": "Courteous"
+          "en": "Courteous",
+          "level": "C1"
         },
         {
-          "en": "Creative"
+          "en": "Creative",
+          "level": "A2"
         },
         {
-          "en": "Determined"
+          "en": "Determined",
+          "level": "B1"
         },
         {
-          "en": "Diligent"
+          "en": "Diligent",
+          "level": "C1"
         },
         {
-          "en": "Dynamic"
+          "en": "Dynamic",
+          "level": "B1"
         },
         {
-          "en": "Easy-going"
+          "en": "Easy-going",
+          "level": "A1"
         },
         {
-          "en": "Efficient"
+          "en": "Efficient",
+          "level": "B1"
         },
         {
-          "en": "Eloquent"
+          "en": "Eloquent",
+          "level": "C1"
         },
         {
-          "en": "Energetic"
+          "en": "Energetic",
+          "level": "C1"
         },
         {
-          "en": "Exciting"
+          "en": "Exciting",
+          "level": "A2"
         },
         {
-          "en": "Extraordinary"
+          "en": "Extraordinary",
+          "level": "B1"
         },
         {
-          "en": "Extroverted"
+          "en": "Extroverted",
+          "level": "C1"
         },
         {
-          "en": "Exuberant"
+          "en": "Exuberant",
+          "level": "C1"
         },
         {
-          "en": "Fair"
+          "en": "Fair",
+          "level": "A2"
         },
         {
-          "en": "Fair-minded"
+          "en": "Fair-minded",
+          "level": "B2"
         },
         {
-          "en": "Faithful"
+          "en": "Faithful",
+          "level": "B2"
         },
         {
-          "en": "Fearless"
+          "en": "Fearless",
+          "level": "C1"
         },
         {
-          "en": "Firm"
+          "en": "Firm",
+          "level": "A2"
         },
         {
-          "en": "Flexible"
+          "en": "Flexible",
+          "level": "B2"
         },
         {
-          "en": "Frank"
+          "en": "Frank",
+          "level": "A2"
         },
         {
-          "en": "Friendly"
+          "en": "Friendly",
+          "level": "A1"
         },
         {
-          "en": "Funny"
+          "en": "Funny",
+          "level": "A2"
         },
         {
-          "en": "Generous"
+          "en": "Generous",
+          "level": "A2"
         },
         {
-          "en": "Gentle"
+          "en": "Gentle",
+          "level": "B2"
         },
         {
-          "en": "Genuine"
+          "en": "Genuine",
+          "level": "B1"
         },
         {
-          "en": "Good"
+          "en": "Good",
+          "level": "A1"
         },
         {
-          "en": "Gracious"
+          "en": "Gracious",
+          "level": "C1"
         },
         {
-          "en": "Great"
+          "en": "Great",
+          "level": "A1"
         },
         {
-          "en": "Gregarious"
+          "en": "Gregarious",
+          "level": "C1"
         },
         {
-          "en": "Hard-working"
+          "en": "Hard-working",
+          "level": "A2"
         },
         {
-          "en": "Helpful"
+          "en": "Helpful",
+          "level": "B1"
         },
         {
-          "en": "Honest"
+          "en": "Honest",
+          "level": "B1"
         },
         {
-          "en": "Honorable"
+          "en": "Honorable",
+          "level": "B2"
         },
         {
-          "en": "Hopeful"
+          "en": "Hopeful",
+          "level": "B1"
         },
         {
-          "en": "Humble"
+          "en": "Humble",
+          "level": "B2"
         },
         {
-          "en": "Humorous"
+          "en": "Humorous",
+          "level": "C1"
         },
         {
-          "en": "Impressive"
+          "en": "Impressive",
+          "level": "B1"
         },
         {
-          "en": "Independent"
+          "en": "Independent",
+          "level": "B1"
         },
         {
-          "en": "Ingenious"
+          "en": "Ingenious",
+          "level": "C1"
         },
         {
-          "en": "Intellectual"
+          "en": "Intellectual",
+          "level": "B1"
         },
         {
-          "en": "Intelligent"
+          "en": "Intelligent",
+          "level": "B1"
         },
         {
-          "en": "Interesting"
+          "en": "Interesting",
+          "level": "A1"
         },
         {
-          "en": "Kind"
+          "en": "Kind",
+          "level": "A2"
         },
         {
-          "en": "Likeable"
+          "en": "Likeable",
+          "level": "C1"
         },
         {
-          "en": "Loveable"
+          "en": "Loveable",
+          "level": "C1"
         },
         {
-          "en": "Loving"
+          "en": "Loving",
+          "level": "B1"
         },
         {
-          "en": "Loyal"
+          "en": "Loyal",
+          "level": "B1"
         },
         {
-          "en": "Lucky"
+          "en": "Lucky",
+          "level": "A2"
         },
         {
-          "en": "Mature"
+          "en": "Mature",
+          "level": "B1"
         },
         {
-          "en": "Neat"
+          "en": "Neat",
+          "level": "B2"
         },
         {
-          "en": "Nice"
+          "en": "Nice",
+          "level": "A1"
         },
         {
-          "en": "Obedient"
+          "en": "Obedient",
+          "level": "C1"
         },
         {
-          "en": "Open-minded"
+          "en": "Open-minded",
+          "level": "B2"
         },
         {
-          "en": "Optimistic"
+          "en": "Optimistic",
+          "level": "B1"
         },
         {
-          "en": "Organized"
+          "en": "Organized",
+          "level": "A2"
         },
         {
-          "en": "Outgoing"
+          "en": "Outgoing",
+          "level": "A2"
         },
         {
-          "en": "Passionate"
+          "en": "Passionate",
+          "level": "B2"
         },
         {
-          "en": "Patient"
+          "en": "Patient",
+          "level": "B1"
         },
         {
-          "en": "Philosophical"
+          "en": "Philosophical",
+          "level": "B2"
         },
         {
-          "en": "Pleasant"
+          "en": "Pleasant",
+          "level": "B1"
         },
         {
-          "en": "Polite"
+          "en": "Polite",
+          "level": "B1"
         },
         {
-          "en": "Popular"
+          "en": "Popular",
+          "level": "A2"
         },
         {
-          "en": "Positive"
+          "en": "Positive",
+          "level": "B1"
         },
         {
-          "en": "Powerful"
+          "en": "Powerful",
+          "level": "A2"
         },
         {
-          "en": "Practical"
+          "en": "Practical",
+          "level": "B1"
         },
         {
-          "en": "Rational"
+          "en": "Rational",
+          "level": "B2"
         },
         {
-          "en": "Realistic"
+          "en": "Realistic",
+          "level": "B2"
         },
         {
-          "en": "Reasonable"
+          "en": "Reasonable",
+          "level": "A2"
         },
         {
-          "en": "Reliable"
+          "en": "Reliable",
+          "level": "A2"
         },
         {
-          "en": "Resourceful"
+          "en": "Resourceful",
+          "level": "C1"
         },
         {
-          "en": "Respectful"
+          "en": "Respectful",
+          "level": "C1"
         },
         {
-          "en": "Responsible"
+          "en": "Responsible",
+          "level": "B1"
         },
         {
-          "en": "Romantic"
+          "en": "Romantic",
+          "level": "B1"
         },
         {
-          "en": "Self-confident"
+          "en": "Self-confident",
+          "level": "B1"
         },
         {
-          "en": "Sensible"
+          "en": "Sensible",
+          "level": "B1"
         },
         {
-          "en": "Sensitive"
+          "en": "Sensitive",
+          "level": "B1"
         },
         {
-          "en": "Sincere"
+          "en": "Sincere",
+          "level": "B2"
         },
         {
-          "en": "Smart"
+          "en": "Smart",
+          "level": "A2"
         },
         {
-          "en": "Sociable"
+          "en": "Sociable",
+          "level": "B1"
         },
         {
-          "en": "Strong"
+          "en": "Strong",
+          "level": "A1"
         },
         {
-          "en": "Sympathetic"
+          "en": "Sympathetic",
+          "level": "B2"
         },
         {
-          "en": "Tactful"
+          "en": "Tactful",
+          "level": "C1"
         },
         {
-          "en": "Thankful"
+          "en": "Thankful",
+          "level": "B2"
         },
         {
-          "en": "Thoughtful"
+          "en": "Thoughtful",
+          "level": "B2"
         },
         {
-          "en": "Tidy"
+          "en": "Tidy",
+          "level": "B1"
         },
         {
-          "en": "Trustworthy"
+          "en": "Trustworthy",
+          "level": "C1"
         },
         {
-          "en": "Truthful"
+          "en": "Truthful",
+          "level": "C1"
         },
         {
-          "en": "Understanding"
+          "en": "Understanding",
+          "level": "A2"
         },
         {
-          "en": "Versatile"
+          "en": "Versatile",
+          "level": "C1"
         },
         {
-          "en": "Willing"
+          "en": "Willing",
+          "level": "A2"
         },
         {
-          "en": "Wise"
+          "en": "Wise",
+          "level": "A2"
         }
       ]
     },
@@ -374,409 +495,544 @@
       "title": "Negative personality adjectives",
       "items": [
         {
-          "en": "Abrasive"
+          "en": "Abrasive",
+          "level": "C1"
         },
         {
-          "en": "Absent-minded"
+          "en": "Absent-minded",
+          "level": "C1"
         },
         {
-          "en": "Aggressive"
+          "en": "Aggressive",
+          "level": "B1"
         },
         {
-          "en": "Aloof"
+          "en": "Aloof",
+          "level": "C1"
         },
         {
-          "en": "Amoral"
+          "en": "Amoral",
+          "level": "C1"
         },
         {
-          "en": "Annoying"
+          "en": "Annoying",
+          "level": "B1"
         },
         {
-          "en": "Apathetic"
+          "en": "Apathetic",
+          "level": "C1"
         },
         {
-          "en": "Argumentative"
+          "en": "Argumentative",
+          "level": "C1"
         },
         {
-          "en": "Arrogant"
+          "en": "Arrogant",
+          "level": "C1"
         },
         {
-          "en": "Authoritarian"
+          "en": "Authoritarian",
+          "level": "C1"
         },
         {
-          "en": "Bad-tempered"
+          "en": "Bad-tempered",
+          "level": "C1"
         },
         {
-          "en": "Belligerent"
+          "en": "Belligerent",
+          "level": "C1"
         },
         {
-          "en": "Big-headed"
+          "en": "Big-headed",
+          "level": "A2"
         },
         {
-          "en": "Bizarre"
+          "en": "Bizarre",
+          "level": "B1"
         },
         {
-          "en": "Boastful"
+          "en": "Boastful",
+          "level": "C1"
         },
         {
-          "en": "Boring"
+          "en": "Boring",
+          "level": "A1"
         },
         {
-          "en": "Bossy"
+          "en": "Bossy",
+          "level": "C1"
         },
         {
-          "en": "Callous"
+          "en": "Callous",
+          "level": "C1"
         },
         {
-          "en": "Careless"
+          "en": "Careless",
+          "level": "C1"
         },
         {
-          "en": "Cheeky"
+          "en": "Cheeky",
+          "level": "C1"
         },
         {
-          "en": "Childish"
+          "en": "Childish",
+          "level": "C1"
         },
         {
-          "en": "Clumsy"
+          "en": "Clumsy",
+          "level": "C1"
         },
         {
-          "en": "Cocky"
+          "en": "Cocky",
+          "level": "C1"
         },
         {
-          "en": "Conceited"
+          "en": "Conceited",
+          "level": "C1"
         },
         {
-          "en": "Confrontational"
+          "en": "Confrontational",
+          "level": "C1"
         },
         {
-          "en": "Controlling"
+          "en": "Controlling",
+          "level": "B2"
         },
         {
-          "en": "Cruel"
+          "en": "Cruel",
+          "level": "B2"
         },
         {
-          "en": "Cunning"
+          "en": "Cunning",
+          "level": "C1"
         },
         {
-          "en": "Cynical"
+          "en": "Cynical",
+          "level": "C1"
         },
         {
-          "en": "Deceitful"
+          "en": "Deceitful",
+          "level": "C1"
         },
         {
-          "en": "Defensive"
+          "en": "Defensive",
+          "level": "B1"
         },
         {
-          "en": "Dense"
+          "en": "Dense",
+          "level": "B2"
         },
         {
-          "en": "Desperate"
+          "en": "Desperate",
+          "level": "B1"
         },
         {
-          "en": "Devious"
+          "en": "Devious",
+          "level": "C1"
         },
         {
-          "en": "Dim"
+          "en": "Dim",
+          "level": "C1"
         },
         {
-          "en": "Dishonest"
+          "en": "Dishonest",
+          "level": "B1"
         },
         {
-          "en": "Disloyal"
+          "en": "Disloyal",
+          "level": "B1"
         },
         {
-          "en": "Disobedient"
+          "en": "Disobedient",
+          "level": "C1"
         },
         {
-          "en": "Disorganized"
+          "en": "Disorganized",
+          "level": "C1"
         },
         {
-          "en": "Disrespectful"
+          "en": "Disrespectful",
+          "level": "C1"
         },
         {
-          "en": "Disruptive"
+          "en": "Disruptive",
+          "level": "C1"
         },
         {
-          "en": "Distant"
+          "en": "Distant",
+          "level": "B2"
         },
         {
-          "en": "Dominant"
+          "en": "Dominant",
+          "level": "B1"
         },
         {
-          "en": "Dull"
+          "en": "Dull",
+          "level": "B1"
         },
         {
-          "en": "Ego-centric"
+          "en": "Ego-centric",
+          "level": "C1"
         },
         {
-          "en": "Egotistical"
+          "en": "Egotistical",
+          "level": "C1"
         },
         {
-          "en": "Envious"
+          "en": "Envious",
+          "level": "C1"
         },
         {
-          "en": "Evasive"
+          "en": "Evasive",
+          "level": "C1"
         },
         {
-          "en": "Evil"
+          "en": "Evil",
+          "level": "B1"
         },
         {
-          "en": "False"
+          "en": "False",
+          "level": "A2"
         },
         {
-          "en": "Foolish"
+          "en": "Foolish",
+          "level": "B2"
         },
         {
-          "en": "Forgetful"
+          "en": "Forgetful",
+          "level": "C1"
         },
         {
-          "en": "Fraudulent"
+          "en": "Fraudulent",
+          "level": "C1"
         },
         {
-          "en": "Frivolous"
+          "en": "Frivolous",
+          "level": "C1"
         },
         {
-          "en": "Fussy"
+          "en": "Fussy",
+          "level": "C1"
         },
         {
-          "en": "Gloomy"
+          "en": "Gloomy",
+          "level": "C1"
         },
         {
-          "en": "Gossipy"
+          "en": "Gossipy",
+          "level": "C1"
         },
         {
-          "en": "Greedy"
+          "en": "Greedy",
+          "level": "C1"
         },
         {
-          "en": "Grumpy"
+          "en": "Grumpy",
+          "level": "C1"
         },
         {
-          "en": "Gullible"
+          "en": "Gullible",
+          "level": "C1"
         },
         {
-          "en": "Harsh"
+          "en": "Harsh",
+          "level": "B2"
         },
         {
-          "en": "Hostile"
+          "en": "Hostile",
+          "level": "B2"
         },
         {
-          "en": "Humorless"
+          "en": "Humorless",
+          "level": "C1"
         },
         {
-          "en": "Hypocritical"
+          "en": "Hypocritical",
+          "level": "C1"
         },
         {
-          "en": "Ignorant"
+          "en": "Ignorant",
+          "level": "B2"
         },
         {
-          "en": "Impatient"
+          "en": "Impatient",
+          "level": "B1"
         },
         {
-          "en": "Impolite"
+          "en": "Impolite",
+          "level": "B1"
         },
         {
-          "en": "Impractical"
+          "en": "Impractical",
+          "level": "C1"
         },
         {
-          "en": "Impulsive"
+          "en": "Impulsive",
+          "level": "C1"
         },
         {
-          "en": "Inconsiderate"
+          "en": "Inconsiderate",
+          "level": "B1"
         },
         {
-          "en": "Indifferent"
+          "en": "Indifferent",
+          "level": "C1"
         },
         {
-          "en": "Insecure"
+          "en": "Insecure",
+          "level": "C1"
         },
         {
-          "en": "Insensitive"
+          "en": "Insensitive",
+          "level": "B1"
         },
         {
-          "en": "Insincere"
+          "en": "Insincere",
+          "level": "C1"
         },
         {
-          "en": "Insolent"
+          "en": "Insolent",
+          "level": "C1"
         },
         {
-          "en": "Insulting"
+          "en": "Insulting",
+          "level": "C1"
         },
         {
-          "en": "Interfering"
+          "en": "Interfering",
+          "level": "C1"
         },
         {
-          "en": "Irrational"
+          "en": "Irrational",
+          "level": "C1"
         },
         {
-          "en": "Irresponsible"
+          "en": "Irresponsible",
+          "level": "B1"
         },
         {
-          "en": "Irritable"
+          "en": "Irritable",
+          "level": "C1"
         },
         {
-          "en": "Jealous"
+          "en": "Jealous",
+          "level": "B1"
         },
         {
-          "en": "Judgmental"
+          "en": "Judgmental",
+          "level": "C1"
         },
         {
-          "en": "Lazy"
+          "en": "Lazy",
+          "level": "A2"
         },
         {
-          "en": "Machiavellian"
+          "en": "Machiavellian",
+          "level": "C1"
         },
         {
-          "en": "Malicious"
+          "en": "Malicious",
+          "level": "C1"
         },
         {
-          "en": "Manipulative"
+          "en": "Manipulative",
+          "level": "C1"
         },
         {
-          "en": "Materialistic"
+          "en": "Materialistic",
+          "level": "C1"
         },
         {
-          "en": "Mean"
+          "en": "Mean",
+          "level": "B1"
         },
         {
-          "en": "Messy"
+          "en": "Messy",
+          "level": "B2"
         },
         {
-          "en": "Miserable"
+          "en": "Miserable",
+          "level": "B2"
         },
         {
-          "en": "Moody"
+          "en": "Moody",
+          "level": "C1"
         },
         {
-          "en": "Narrow-minded"
+          "en": "Narrow-minded",
+          "level": "B2"
         },
         {
-          "en": "Nasty"
+          "en": "Nasty",
+          "level": "B1"
         },
         {
-          "en": "Nosey"
+          "en": "Nosey",
+          "level": "C1"
         },
         {
-          "en": "Obnoxious"
+          "en": "Obnoxious",
+          "level": "C1"
         },
         {
-          "en": "Obsessive"
+          "en": "Obsessive",
+          "level": "C1"
         },
         {
-          "en": "Obstinate"
+          "en": "Obstinate",
+          "level": "C1"
         },
         {
-          "en": "Overcritical"
+          "en": "Overcritical",
+          "level": "C1"
         },
         {
-          "en": "Paranoid"
+          "en": "Paranoid",
+          "level": "C1"
         },
         {
-          "en": "Perverse"
+          "en": "Perverse",
+          "level": "C1"
         },
         {
-          "en": "Pessimistic"
+          "en": "Pessimistic",
+          "level": "B1"
         },
         {
-          "en": "Petty"
+          "en": "Petty",
+          "level": "B2"
         },
         {
-          "en": "Picky"
+          "en": "Picky",
+          "level": "C1"
         },
         {
-          "en": "Pompous"
+          "en": "Pompous",
+          "level": "C1"
         },
         {
-          "en": "Possessive"
+          "en": "Possessive",
+          "level": "C1"
         },
         {
-          "en": "Prejudiced"
+          "en": "Prejudiced",
+          "level": "C1"
         },
         {
-          "en": "Pretentious"
+          "en": "Pretentious",
+          "level": "C1"
         },
         {
-          "en": "Quarrelsome"
+          "en": "Quarrelsome",
+          "level": "C1"
         },
         {
-          "en": "Querulous"
+          "en": "Querulous",
+          "level": "C1"
         },
         {
-          "en": "Reckless"
+          "en": "Reckless",
+          "level": "B2"
         },
         {
-          "en": "Resentful"
+          "en": "Resentful",
+          "level": "C1"
         },
         {
-          "en": "Rude"
+          "en": "Rude",
+          "level": "B1"
         },
         {
-          "en": "Secretive"
+          "en": "Secretive",
+          "level": "C1"
         },
         {
-          "en": "Selfish"
+          "en": "Selfish",
+          "level": "A2"
         },
         {
-          "en": "Self-seeking"
+          "en": "Self-seeking",
+          "level": "A2"
         },
         {
-          "en": "Sleazy"
+          "en": "Sleazy",
+          "level": "C1"
         },
         {
-          "en": "Spiteful"
+          "en": "Spiteful",
+          "level": "C1"
         },
         {
-          "en": "Spoiled"
+          "en": "Spoiled",
+          "level": "B2"
         },
         {
-          "en": "Stingy"
+          "en": "Stingy",
+          "level": "C1"
         },
         {
-          "en": "Strict"
+          "en": "Strict",
+          "level": "B1"
         },
         {
-          "en": "Stubborn"
+          "en": "Stubborn",
+          "level": "B1"
         },
         {
-          "en": "Stupid"
+          "en": "Stupid",
+          "level": "A2"
         },
         {
-          "en": "Superficial"
+          "en": "Superficial",
+          "level": "C1"
         },
         {
-          "en": "Tactless"
+          "en": "Tactless",
+          "level": "C1"
         },
         {
-          "en": "Unkind"
+          "en": "Unkind",
+          "level": "C1"
         },
         {
-          "en": "Unlucky"
+          "en": "Unlucky",
+          "level": "A1"
         },
         {
-          "en": "Unmotivated"
+          "en": "Unmotivated",
+          "level": "C1"
         },
         {
-          "en": "Unpredictable"
+          "en": "Unpredictable",
+          "level": "C1"
         },
         {
-          "en": "Unreliable"
+          "en": "Unreliable",
+          "level": "B1"
         },
         {
-          "en": "Unsympathetic"
+          "en": "Unsympathetic",
+          "level": "C1"
         },
         {
-          "en": "Untidy"
+          "en": "Untidy",
+          "level": "C1"
         },
         {
-          "en": "Untrustworthy"
+          "en": "Untrustworthy",
+          "level": "C1"
         },
         {
-          "en": "Vague"
+          "en": "Vague",
+          "level": "B2"
         },
         {
-          "en": "Vain"
+          "en": "Vain",
+          "level": "C1"
         },
         {
-          "en": "Vulgar"
+          "en": "Vulgar",
+          "level": "C1"
         }
       ]
     }

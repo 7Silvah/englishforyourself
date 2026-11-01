@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Parts of the Body Vocabulary",
+  "titleEs": "Partes del cuerpo",
   "order": 13,
   "legacyPath": "lessons/vocabulary/parts-of-the-body-vocabulary.html",
   "intro": "In this section you will learn vocabulary words about the parts of the body. In addition, you will also learn vocabulary words about the face.",
@@ -12,155 +13,193 @@
       "items": [
         {
           "en": "Arm",
-          "es": "brazo"
+          "es": "brazo",
+          "level": "A2"
         },
         {
           "en": "Armpit",
-          "es": "axila"
+          "es": "axila",
+          "level": "C1"
         },
         {
           "en": "Back",
-          "es": "espalda"
+          "es": "espalda",
+          "level": "A2"
         },
         {
           "en": "Bellybutton",
-          "es": "ombligo"
+          "es": "ombligo",
+          "level": "C1"
         },
         {
           "en": "Bottom",
-          "es": "trasero"
+          "es": "trasero",
+          "level": "A2"
         },
         {
           "en": "Buttock",
-          "es": "nalga"
+          "es": "nalga",
+          "level": "C1"
         },
         {
           "en": "Calf",
-          "es": "pantorrilla"
+          "es": "pantorrilla",
+          "level": "C1"
         },
         {
           "en": "Chest",
-          "es": "pecho"
+          "es": "pecho",
+          "level": "A2"
         },
         {
           "en": "Elbow",
-          "es": "codo"
+          "es": "codo",
+          "level": "B2"
         },
         {
           "en": "Forearm",
-          "es": "antebrazo"
+          "es": "antebrazo",
+          "level": "C1"
         },
         {
           "en": "Hand",
-          "es": "mano"
+          "es": "mano",
+          "level": "A1"
         },
         {
           "en": "Head",
-          "es": "cabeza"
+          "es": "cabeza",
+          "level": "A1"
         },
         {
           "en": "Hip",
-          "es": "cadera"
+          "es": "cadera",
+          "level": "B1"
         },
         {
           "en": "Knee",
-          "es": "rodilla"
+          "es": "rodilla",
+          "level": "B1"
         },
         {
           "en": "Leg",
-          "es": "pierna"
+          "es": "pierna",
+          "level": "A2"
         },
         {
           "en": "Neck",
-          "es": "cuello"
+          "es": "cuello",
+          "level": "A2"
         },
         {
           "en": "Nipple",
-          "es": "pezón"
+          "es": "pezón",
+          "level": "C1"
         },
         {
           "en": "Shoulder",
-          "es": "hombro"
+          "es": "hombro",
+          "level": "B1"
         },
         {
           "en": "Stomach / abdomen",
-          "es": "estómago / abdomen"
+          "es": "estómago / abdomen",
+          "level": "A2"
         },
         {
           "en": "Thigh",
-          "es": "muslo"
+          "es": "muslo",
+          "level": "C1"
         },
         {
           "en": "Upper arm",
-          "es": "brazo (parte superior)"
+          "es": "brazo (parte superior)",
+          "level": "B1"
         },
         {
           "en": "Wrist",
-          "es": "muñeca"
+          "es": "muñeca",
+          "level": "B2"
         },
         {
           "en": "Foot",
-          "es": "pie"
+          "es": "pie",
+          "level": "A2"
         },
         {
           "en": "Heel",
-          "es": "talón"
+          "es": "talón",
+          "level": "B2"
         },
         {
           "en": "Ankle",
-          "es": "tobillo"
+          "es": "tobillo",
+          "level": "B2"
         },
         {
           "en": "Arch",
-          "es": "arco del pie"
+          "es": "arco del pie",
+          "level": "B2"
         },
         {
           "en": "Toes",
-          "es": "dedos del pie"
+          "es": "dedos del pie",
+          "level": "B2"
         },
         {
           "en": "Big toes",
-          "es": "dedos gordos del pie"
+          "es": "dedos gordos del pie",
+          "level": "B2"
         },
         {
           "en": "Hand",
-          "es": "mano"
+          "es": "mano",
+          "level": "A1"
         },
         {
           "en": "Palm",
-          "es": "palma"
+          "es": "palma",
+          "level": "B1"
         },
         {
           "en": "Thumb",
-          "es": "pulgar"
+          "es": "pulgar",
+          "level": "B2"
         },
         {
           "en": "Index finger",
-          "es": "dedo índice"
+          "es": "dedo índice",
+          "level": "B1"
         },
         {
           "en": "Middle finger",
-          "es": "dedo medio / corazón"
+          "es": "dedo medio / corazón",
+          "level": "B1"
         },
         {
           "en": "Ring finger",
-          "es": "dedo anular"
+          "es": "dedo anular",
+          "level": "B1"
         },
         {
           "en": "Little finger / pinkie",
-          "es": "dedo meñique"
+          "es": "dedo meñique",
+          "level": "B1"
         },
         {
           "en": "Finger",
-          "es": "dedo (de la mano)"
+          "es": "dedo (de la mano)",
+          "level": "B1"
         },
         {
           "en": "Fingernail",
-          "es": "uña"
+          "es": "uña",
+          "level": "C1"
         },
         {
           "en": "Knuckle",
-          "es": "nudillo"
+          "es": "nudillo",
+          "level": "C1"
         }
       ]
     },
@@ -169,79 +208,98 @@
       "items": [
         {
           "en": "Cheek",
-          "es": "mejilla"
+          "es": "mejilla",
+          "level": "B2"
         },
         {
           "en": "Chin",
-          "es": "barbilla / mentón"
+          "es": "barbilla / mentón",
+          "level": "B2"
         },
         {
           "en": "Ear",
-          "es": "oreja / oído"
+          "es": "oreja / oído",
+          "level": "B1"
         },
         {
           "en": "Ear lobe",
-          "es": "lóbulo de la oreja"
+          "es": "lóbulo de la oreja",
+          "level": "C1"
         },
         {
           "en": "Eye",
-          "es": "ojo"
+          "es": "ojo",
+          "level": "A2"
         },
         {
           "en": "Eyebrow",
-          "es": "ceja"
+          "es": "ceja",
+          "level": "C1"
         },
         {
           "en": "Eyelash",
-          "es": "pestaña"
+          "es": "pestaña",
+          "level": "C1"
         },
         {
           "en": "Eyelid",
-          "es": "párpado"
+          "es": "párpado",
+          "level": "C1"
         },
         {
           "en": "Forehead",
-          "es": "frente"
+          "es": "frente",
+          "level": "B2"
         },
         {
           "en": "Hair",
-          "es": "pelo / cabello"
+          "es": "pelo / cabello",
+          "level": "A2"
         },
         {
           "en": "Iris",
-          "es": "iris"
+          "es": "iris",
+          "level": "C1"
         },
         {
           "en": "Jaw",
-          "es": "mandíbula"
+          "es": "mandíbula",
+          "level": "B2"
         },
         {
           "en": "Lips",
-          "es": "labios"
+          "es": "labios",
+          "level": "B1"
         },
         {
           "en": "Mouth",
-          "es": "boca"
+          "es": "boca",
+          "level": "A2"
         },
         {
           "en": "Nose",
-          "es": "nariz"
+          "es": "nariz",
+          "level": "A2"
         },
         {
           "en": "Nostril",
-          "es": "fosa nasal"
+          "es": "fosa nasal",
+          "level": "C1"
         },
         {
           "en": "Pupil",
-          "es": "pupila"
+          "es": "pupila",
+          "level": "B2"
         },
         {
           "en": "Temple",
-          "es": "sien"
+          "es": "sien",
+          "level": "B1"
         },
         {
           "en": "Tongue",
-          "es": "lengua"
+          "es": "lengua",
+          "level": "B1"
         }
       ]
     },
@@ -250,23 +308,28 @@
       "items": [
         {
           "en": "Hearing",
-          "es": "oído (sentido)"
+          "es": "oído (sentido)",
+          "level": "A2"
         },
         {
           "en": "Sight",
-          "es": "vista"
+          "es": "vista",
+          "level": "A2"
         },
         {
           "en": "Smell",
-          "es": "olfato"
+          "es": "olfato",
+          "level": "B1"
         },
         {
           "en": "Taste",
-          "es": "gusto"
+          "es": "gusto",
+          "level": "B1"
         },
         {
           "en": "Touch",
-          "es": "tacto"
+          "es": "tacto",
+          "level": "A2"
         }
       ]
     }
