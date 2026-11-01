@@ -1,0 +1,174 @@
+{
+  "title": "Past perfect: more practice",
+  "titleEs": "Pasado perfecto: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "pasado-perfecto",
+  "topics": [
+    "past-perfect",
+    "past-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Ya había empezado.",
+          "right": "It had already started."
+        },
+        {
+          "left": "No habíamos comido.",
+          "right": "We hadn't eaten."
+        },
+        {
+          "left": "¿Habías estado allí?",
+          "right": "Had you been there?"
+        },
+        {
+          "left": "Llevaban horas esperando.",
+          "right": "They had been waiting for hours."
+        },
+        {
+          "left": "Se había ido.",
+          "right": "He had gone."
+        }
+      ],
+      "explanationEs": "Había + participio es had + participio. Llevaba + gerundio es had been + -ing."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "Regular",
+          "labelEs": "participio con -ed",
+          "items": [
+            "worked",
+            "stopped",
+            "studied",
+            "played"
+          ]
+        },
+        {
+          "label": "Irregular",
+          "labelEs": "participio irregular",
+          "items": [
+            "gone",
+            "written",
+            "taken",
+            "seen"
+          ]
+        }
+      ],
+      "explanationEs": "Los participios regulares son iguales que el pasado (-ed); los irregulares hay que aprenderlos."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "El tren ya se había ido cuando llegué.",
+      "answers": [
+        "The train had already left when I arrived."
+      ],
+      "wordBank": [
+        "The",
+        "train",
+        "had",
+        "already",
+        "left",
+        "when",
+        "I",
+        "arrived.",
+        "has",
+        "leaved"
+      ],
+      "explanationEs": "Se había ido: had + participio de leave (left). Already va entre had y el participio."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "She had never been to a concert before.",
+      "explanationEs": "Pasado perfecto con never: had + never + participio (been)."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Past perfect",
+      "columns": [
+        "Affirmative",
+        "Negative"
+      ],
+      "rows": [
+        {
+          "header": "I (go)",
+          "cells": [
+            {
+              "answers": [
+                "had gone",
+                "’d gone"
+              ]
+            },
+            {
+              "answers": [
+                "hadn't gone",
+                "had not gone",
+                "’d not gone"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "she (see)",
+          "cells": [
+            {
+              "answers": [
+                "had seen",
+                "’d seen"
+              ]
+            },
+            {
+              "answers": [
+                "hadn't seen",
+                "had not seen",
+                "’d not seen"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they (eat)",
+          "cells": [
+            {
+              "answers": [
+                "had eaten",
+                "’d eaten"
+              ]
+            },
+            {
+              "answers": [
+                "hadn't eaten",
+                "had not eaten",
+                "’d not eaten"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Had es igual con todas las personas; detrás, el participio."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "We had finished our dinner.",
+      "options": [
+        "We had finished our dinner.",
+        "We have finished our dinner.",
+        "We finished our dinner."
+      ],
+      "answer": 0,
+      "explanationEs": "Had finished: habíamos terminado. Fíjate en had antes del participio."
+    }
+  ]
+}

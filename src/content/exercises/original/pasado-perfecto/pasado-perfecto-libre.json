@@ -1,0 +1,96 @@
+{
+  "title": "Past perfect: free practice",
+  "titleEs": "Pasado perfecto: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "pasado-perfecto",
+  "topics": [
+    "past-perfect",
+    "past-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "The streets were wet because it ___ (to rain).",
+      "blanks": [
+        {
+          "answers": [
+            "had been raining",
+            "’d been raining",
+            "had rained",
+            "’d rained",
+            "rained"
+          ]
+        }
+      ],
+      "explanationEs": "Llovió antes de lo que se ve (las calles mojadas): had been raining o had rained. Rained también vale, pero el pasado perfecto deja claro el orden."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "When we arrived at the cinema, the film ___ already ___ (to start).",
+      "blanks": [
+        {
+          "answers": [
+            "had"
+          ]
+        },
+        {
+          "answers": [
+            "started"
+          ]
+        }
+      ],
+      "explanationEs": "Empezó antes de que llegáramos: had + already + participio."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "I ___ (not / eat) anything, so I was very hungry.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn't eaten",
+            "had not eaten",
+            "’d not eaten"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa: hadn't + participio de eat (eaten)."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "She had finished the exam.",
+      "to": "q",
+      "answers": [
+        "Had she finished the exam?"
+      ],
+      "explanationEs": "Pregunta: had pasa delante del sujeto."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "They had been living in Spain.",
+      "to": "neg",
+      "answers": [
+        "They hadn't been living in Spain.",
+        "They’d not been living in Spain."
+      ],
+      "explanationEs": "Negativa: hadn't + been + verbo con -ing."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "He had never flew before that trip.",
+      "wrong": "flew",
+      "answers": [
+        "flown"
+      ],
+      "explanationEs": "Después de had, el participio de fly: flown. Flew es el pasado."
+    }
+  ]
+}

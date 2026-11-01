@@ -1,0 +1,75 @@
+{
+  "title": "Past perfect: guided practice",
+  "titleEs": "Pasado perfecto: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "pasado-perfecto",
+  "topics": [
+    "past-perfect",
+    "past-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "When I got home, my parents ___ dinner.",
+      "options": [
+        "had already eaten",
+        "have already eaten",
+        "had already ate"
+      ],
+      "answer": 0,
+      "explanationEs": "Cenaron antes de que yo llegara: had + participio (eaten)."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "When I got to the door, I noticed that I ___ my keys.",
+      "options": [
+        "had lost",
+        "have lost",
+        "had lose"
+      ],
+      "answer": 0,
+      "explanationEs": "Las perdí antes de llegar a la puerta: had lost."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "By the time the police arrived, the thief had escaped.",
+      "answer": true,
+      "explanationEs": "El ladrón escapó antes de que llegara la policía: had escaped."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She had already went to bed when I called.",
+      "answer": false,
+      "explanationEs": "Después de had, el participio: had already gone."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Had you ever seen the sea before?"
+      ],
+      "distractors": [
+        "Did"
+      ],
+      "explanationEs": "Pregunta: had + sujeto + participio."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "They had been working all day."
+      ],
+      "distractors": [
+        "have"
+      ],
+      "explanationEs": "Pasado perfecto continuo: had + been + verbo con -ing."
+    }
+  ]
+}
