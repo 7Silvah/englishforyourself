@@ -8,7 +8,7 @@
       "prompt": "___ is cold today.",
       "options": [
         "It",
-        "He",
+        "They",
         "There"
       ],
       "answer": 0
