@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Arts Vocabulary",
+  "titleEs": "Arte",
   "order": 36,
   "legacyPath": "lessons/vocabulary/arts-vocabulary.html",
   "intro": "In this section you will learn vocabulary about arts in English.",
@@ -9,133 +10,176 @@
       "title": "Arts vocabulary",
       "items": [
         {
-          "en": "Abstract art"
+          "en": "Abstract art",
+          "level": "B2"
         },
         {
-          "en": "Acrylics"
+          "en": "Acrylics",
+          "level": "C1"
         },
         {
-          "en": "Applause"
+          "en": "Applause",
+          "level": "B2"
         },
         {
-          "en": "Architecture"
+          "en": "Architecture",
+          "level": "B1"
         },
         {
-          "en": "Art critic"
+          "en": "Art critic",
+          "level": "B2"
         },
         {
-          "en": "Art gallery"
+          "en": "Art gallery",
+          "level": "B1"
         },
         {
-          "en": "Art school"
+          "en": "Art school",
+          "level": "A1"
         },
         {
-          "en": "Artist"
+          "en": "Artist",
+          "level": "A2"
         },
         {
-          "en": "Audience"
+          "en": "Audience",
+          "level": "B1"
         },
         {
-          "en": "Ballet"
+          "en": "Ballet",
+          "level": "B2"
         },
         {
-          "en": "Bust"
+          "en": "Bust",
+          "level": "B2"
         },
         {
-          "en": "Canvas"
+          "en": "Canvas",
+          "level": "B2"
         },
         {
-          "en": "Ceramics"
+          "en": "Ceramics",
+          "level": "C1"
         },
         {
-          "en": "Collage"
+          "en": "Collage",
+          "level": "C1"
         },
         {
-          "en": "Constructivism cubism"
+          "en": "Constructivism cubism",
+          "level": "C1"
         },
         {
-          "en": "Design"
+          "en": "Design",
+          "level": "A1"
         },
         {
-          "en": "Drawing"
+          "en": "Drawing",
+          "level": "A2"
         },
         {
-          "en": "Easel"
+          "en": "Easel",
+          "level": "C1"
         },
         {
-          "en": "Expressionism"
+          "en": "Expressionism",
+          "level": "C1"
         },
         {
-          "en": "Frame"
+          "en": "Frame",
+          "level": "A2"
         },
         {
-          "en": "Glitter"
+          "en": "Glitter",
+          "level": "C1"
         },
         {
-          "en": "Landscape"
+          "en": "Landscape",
+          "level": "B1"
         },
         {
-          "en": "Lighting"
+          "en": "Lighting",
+          "level": "B1"
         },
         {
-          "en": "Model"
+          "en": "Model",
+          "level": "A1"
         },
         {
-          "en": "Oil"
+          "en": "Oil",
+          "level": "A1"
         },
         {
-          "en": "Oil pastel"
+          "en": "Oil pastel",
+          "level": "C1"
         },
         {
-          "en": "Opera"
+          "en": "Opera",
+          "level": "B1"
         },
         {
-          "en": "Paint"
+          "en": "Paint",
+          "level": "A2"
         },
         {
-          "en": "Paint brushes"
+          "en": "Paint brushes",
+          "level": "C1"
         },
         {
-          "en": "Painter"
+          "en": "Painter",
+          "level": "B2"
         },
         {
-          "en": "Painting"
+          "en": "Painting",
+          "level": "A2"
         },
         {
-          "en": "Palette"
+          "en": "Palette",
+          "level": "C1"
         },
         {
-          "en": "Pedestal"
+          "en": "Pedestal",
+          "level": "C1"
         },
         {
-          "en": "Perspective"
+          "en": "Perspective",
+          "level": "A2"
         },
         {
-          "en": "Poetry"
+          "en": "Poetry",
+          "level": "B1"
         },
         {
-          "en": "Portfolio"
+          "en": "Portfolio",
+          "level": "B2"
         },
         {
-          "en": "Portrait"
+          "en": "Portrait",
+          "level": "B1"
         },
         {
-          "en": "Sculptor"
+          "en": "Sculptor",
+          "level": "C1"
         },
         {
-          "en": "Sculpture"
+          "en": "Sculpture",
+          "level": "B1"
         },
         {
-          "en": "Sketch"
+          "en": "Sketch",
+          "level": "B2"
         },
         {
-          "en": "Stickers"
+          "en": "Stickers",
+          "level": "C1"
         },
         {
-          "en": "Surrealism"
+          "en": "Surrealism",
+          "level": "C1"
         },
         {
-          "en": "Watercolors"
+          "en": "Watercolors",
+          "level": "C1"
         }
       ]
     }

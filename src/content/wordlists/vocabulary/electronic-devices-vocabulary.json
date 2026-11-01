@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Electronic Devices Vocabulary",
+  "titleEs": "Aparatos electrónicos",
   "order": 33,
   "legacyPath": "lessons/vocabulary/electronic-devices-vocabulary.html",
   "intro": "In this section you will learn vocabulary about electronic devices in English.",
@@ -9,145 +10,192 @@
       "title": "Electronic devices vocabulary",
       "items": [
         {
-          "en": "Backup charger"
+          "en": "Backup charger",
+          "level": "C1"
         },
         {
-          "en": "Battery"
+          "en": "Battery",
+          "level": "A1"
         },
         {
-          "en": "Bluetooth speaker"
+          "en": "Bluetooth speaker",
+          "level": "C1"
         },
         {
-          "en": "Calculator"
+          "en": "Calculator",
+          "level": "C1"
         },
         {
-          "en": "Camera"
+          "en": "Camera",
+          "level": "A1"
         },
         {
-          "en": "Cellphone"
+          "en": "Cellphone",
+          "level": "C1"
         },
         {
-          "en": "Circuit breaker"
+          "en": "Circuit breaker",
+          "level": "C1"
         },
         {
-          "en": "Clock"
+          "en": "Clock",
+          "level": "B1"
         },
         {
-          "en": "Computer"
+          "en": "Computer",
+          "level": "A1"
         },
         {
-          "en": "Copier"
+          "en": "Copier",
+          "level": "C1"
         },
         {
-          "en": "Cord"
+          "en": "Cord",
+          "level": "B2"
         },
         {
-          "en": "Digital camera"
+          "en": "Digital camera",
+          "level": "A2"
         },
         {
-          "en": "Drone"
+          "en": "Drone",
+          "level": "B2"
         },
         {
-          "en": "Earphones"
+          "en": "Earphones",
+          "level": "C1"
         },
         {
-          "en": "Electric pencil sharpener"
+          "en": "Electric pencil sharpener",
+          "level": "C1"
         },
         {
-          "en": "Exhaust fan"
+          "en": "Exhaust fan",
+          "level": "C1"
         },
         {
-          "en": "Extension cord"
+          "en": "Extension cord",
+          "level": "B2"
         },
         {
-          "en": "External hard drive"
+          "en": "External hard drive",
+          "level": "B1"
         },
         {
-          "en": "Fuse"
+          "en": "Fuse",
+          "level": "C1"
         },
         {
-          "en": "Hard drive"
+          "en": "Hard drive",
+          "level": "B1"
         },
         {
-          "en": "Headphones"
+          "en": "Headphones",
+          "level": "B2"
         },
         {
-          "en": "Laptop"
+          "en": "Laptop",
+          "level": "A1"
         },
         {
-          "en": "Memory stick"
+          "en": "Memory stick",
+          "level": "B1"
         },
         {
-          "en": "Microphone"
+          "en": "Microphone",
+          "level": "C1"
         },
         {
-          "en": "Microphone stand"
+          "en": "Microphone stand",
+          "level": "C1"
         },
         {
-          "en": "Mouse"
+          "en": "Mouse",
+          "level": "A2"
         },
         {
-          "en": "Mp3 player"
+          "en": "Mp3 player",
+          "level": "A2"
         },
         {
-          "en": "Outlet"
+          "en": "Outlet",
+          "level": "B2"
         },
         {
-          "en": "Plug"
+          "en": "Plug",
+          "level": "B2"
         },
         {
-          "en": "Power strip"
+          "en": "Power strip",
+          "level": "B1"
         },
         {
-          "en": "Printer"
+          "en": "Printer",
+          "level": "B1"
         },
         {
-          "en": "Projector"
+          "en": "Projector",
+          "level": "C1"
         },
         {
-          "en": "Radio"
+          "en": "Radio",
+          "level": "A2"
         },
         {
-          "en": "Remote control"
+          "en": "Remote control",
+          "level": "B1"
         },
         {
-          "en": "Security camera"
+          "en": "Security camera",
+          "level": "A2"
         },
         {
-          "en": "Smartphone"
+          "en": "Smartphone",
+          "level": "B2"
         },
         {
-          "en": "Smartwatch"
+          "en": "Smartwatch",
+          "level": "C1"
         },
         {
-          "en": "Speaker"
+          "en": "Speaker",
+          "level": "B1"
         },
         {
-          "en": "Stereo"
+          "en": "Stereo",
+          "level": "C1"
         },
         {
-          "en": "Tablet"
+          "en": "Tablet",
+          "level": "B2"
         },
         {
-          "en": "Television / TV"
+          "en": "Television / TV",
+          "level": "A2"
         },
         {
-          "en": "USB drive"
+          "en": "USB drive",
+          "level": "B2"
         },
         {
-          "en": "Walkie-talkie"
+          "en": "Walkie-talkie",
+          "level": "C1"
         },
         {
-          "en": "Wall fan"
+          "en": "Wall fan",
+          "level": "A2"
         },
         {
-          "en": "Webcam"
+          "en": "Webcam",
+          "level": "C1"
         },
         {
-          "en": "Wi-fi modem"
+          "en": "Wi-fi modem",
+          "level": "C1"
         },
         {
-          "en": "Wire"
+          "en": "Wire",
+          "level": "B1"
         }
       ]
     }

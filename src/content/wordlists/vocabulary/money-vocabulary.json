@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Money Vocabulary",
+  "titleEs": "Dinero",
   "order": 48,
   "legacyPath": "lessons/vocabulary/money-vocabulary.html",
   "intro": "In this section you will learn vocabulary about money in English.",
@@ -9,127 +10,168 @@
       "title": "Money vocabulary",
       "items": [
         {
-          "en": "Assets"
+          "en": "Assets",
+          "level": "A2"
         },
         {
-          "en": "Balance"
+          "en": "Balance",
+          "level": "A2"
         },
         {
-          "en": "Bank"
+          "en": "Bank",
+          "level": "A1"
         },
         {
-          "en": "Bank account"
+          "en": "Bank account",
+          "level": "A2"
         },
         {
-          "en": "Bank charges"
+          "en": "Bank charges",
+          "level": "A2"
         },
         {
-          "en": "Bank statement"
+          "en": "Bank statement",
+          "level": "A2"
         },
         {
-          "en": "Banknote (UK) / note (US)"
+          "en": "Banknote (UK) / note (US)",
+          "level": "A1"
         },
         {
-          "en": "Bills"
+          "en": "Bills",
+          "level": "A2"
         },
         {
-          "en": "Bonds"
+          "en": "Bonds",
+          "level": "B1"
         },
         {
-          "en": "Buck"
+          "en": "Buck",
+          "level": "B2"
         },
         {
-          "en": "Budget"
+          "en": "Budget",
+          "level": "A2"
         },
         {
-          "en": "Cash"
+          "en": "Cash",
+          "level": "A2"
         },
         {
-          "en": "Cash machine"
+          "en": "Cash machine",
+          "level": "A2"
         },
         {
-          "en": "Check"
+          "en": "Check",
+          "level": "A1"
         },
         {
-          "en": "Coin"
+          "en": "Coin",
+          "level": "B2"
         },
         {
-          "en": "Coupon"
+          "en": "Coupon",
+          "level": "B2"
         },
         {
-          "en": "Credit card"
+          "en": "Credit card",
+          "level": "A1"
         },
         {
-          "en": "Currency"
+          "en": "Currency",
+          "level": "B1"
         },
         {
-          "en": "Deflation"
+          "en": "Deflation",
+          "level": "C1"
         },
         {
-          "en": "Dollars"
+          "en": "Dollars",
+          "level": "A2"
         },
         {
-          "en": "Euros"
+          "en": "Euros",
+          "level": "C1"
         },
         {
-          "en": "Exchange rate"
+          "en": "Exchange rate",
+          "level": "A2"
         },
         {
-          "en": "Finance"
+          "en": "Finance",
+          "level": "A2"
         },
         {
-          "en": "Fund(s)"
+          "en": "Fund(s)",
+          "level": "A2"
         },
         {
-          "en": "Gold bar"
+          "en": "Gold bar",
+          "level": "A2"
         },
         {
-          "en": "Hire purchase"
+          "en": "Hire purchase",
+          "level": "B1"
         },
         {
-          "en": "Income"
+          "en": "Income",
+          "level": "A2"
         },
         {
-          "en": "Inflation"
+          "en": "Inflation",
+          "level": "B2"
         },
         {
-          "en": "Installment plan"
+          "en": "Installment plan",
+          "level": "C1"
         },
         {
-          "en": "Mortgage"
+          "en": "Mortgage",
+          "level": "B1"
         },
         {
-          "en": "Pounds"
+          "en": "Pounds",
+          "level": "A2"
         },
         {
-          "en": "Poverty"
+          "en": "Poverty",
+          "level": "B1"
         },
         {
-          "en": "Retail"
+          "en": "Retail",
+          "level": "A2"
         },
         {
-          "en": "Retailer"
+          "en": "Retailer",
+          "level": "C1"
         },
         {
-          "en": "Savings account"
+          "en": "Savings account",
+          "level": "B1"
         },
         {
-          "en": "Shares"
+          "en": "Shares",
+          "level": "A2"
         },
         {
-          "en": "Silver bar"
+          "en": "Silver bar",
+          "level": "A2"
         },
         {
-          "en": "Token"
+          "en": "Token",
+          "level": "B2"
         },
         {
-          "en": "Vault"
+          "en": "Vault",
+          "level": "B2"
         },
         {
-          "en": "Wealth"
+          "en": "Wealth",
+          "level": "A2"
         },
         {
-          "en": "Withdrawal"
+          "en": "Withdrawal",
+          "level": "B2"
         }
       ]
     }

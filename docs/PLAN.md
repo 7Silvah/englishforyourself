@@ -14,7 +14,7 @@
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
-| 4 · Gramática intermedia (B1–B2) | F16–F17c | 🟨 en curso — F16 ✅ F17 ✅ F17b ✅ F17c 🟨 (V1 ✅ V2 ✅ V3 🟨 V4 ✅) |
+| 4 · Gramática intermedia (B1–B2) | F16–F17c | 🟨 en curso — F16 ✅ F17 ✅ F17b ✅ F17c 🟨 (V1 ✅ V2 ✅ V3 🟨 V4 ✅ V5 ✅) |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
@@ -1025,6 +1025,35 @@ se escribe desde el inglés y la definición, y el ruso solo sirve para confirma
     carga inicial; la tabla se carga aparte. Se recupera en F18 con la propuesta del
     backlog (metadatos del contenido solo donde se usan).
 
+- [x] **V5 · Un solo Vocabulario, con nivel por palabra** (misma rama; decidido el
+  01/11/2026). Las listas por temas eran solo etiquetas: ahora cada palabra tiene **nivel**
+  y el tema es un filtro. La sección `vocabulary-by-level` desaparece (nunca se publicó):
+  las tres listas de Face2Face pasan a `vocabulary/`.
+  - **Nivel de cada palabra** (`level` en `Word`, 3096 palabras de 49 temas):
+    `scripts/vocabulary-levels.ts`. Si sale en Face2Face, el del libro (596); si no, por
+    frecuencia de uso con **wordfreq** (`scripts/word-zipf.py`, Python, solo en local),
+    según su puesto en el inglés como la Oxford 3000/5000: A1 ≤ 1000 (Zipf ≥ 5,0), A2 ≤ 3000
+    (4,5), B1 ≤ 5000 (4,2), B2 ≤ 10 000 (3,8), C1 el resto. Una expresión vale lo que su
+    palabra más rara (*hanging out with friends* → B1). Reparto: A1 316 · A2 497 · B1 469 ·
+    B2 479 · C1 1335. `content:check` exige nivel en las palabras de los temas.
+  - Limitación: la frecuencia sale de textos y subtítulos, donde algo muy cotidiano puede
+    ser raro (*to comb my hair* C1, *to brush my teeth* B2). El script no pisa niveles
+    puestos sin `--force`: esas correcciones se hacen a mano y se conservan (revisión, D1).
+  - Los 49 temas tienen `titleEs` («Aficiones», «La casa»…): es el nombre del filtro.
+  - **Una tabla para todo**: `/biblioteca/vocabulary` junta Face2Face y los temas
+    (`buildVocabulary`): 4622 palabras distintas de 5742 entradas. Una palabra del libro
+    que sale en un tema no se repite (gana el tema y su traducción si el libro no la tiene);
+    una palabra en dos temas es una fila con los dos. Filtros en la URL: `?nivel=`,
+    `?tema=` (`<select>` nativo, `native-select` de shadcn), `?tipo=`, `?letra=`, `?q=`;
+    cada fila enlaza sus temas; 150 filas y «Mostrar 150 más».
+  - Las URLs de cada lista **redirigen** a la tabla filtrada (`?tema=` o, las de
+    Face2Face, `?nivel=`): siguen valiendo las redirecciones del sitio antiguo y el
+    progreso de flashcards (las claves siguen siendo por lista). Con un tema o nivel
+    elegido salen «Flashcards» y «Practicar» de esa lista. La Biblioteca muestra «49 temas».
+  - 244 tests. JS inicial 201,4 KB gzip (+1,1: textos y títulos de los temas). Un menú
+    desplegable de Base UI en la tabla costaba +2,5 KB (su código pasaba a un chunk
+    compartido): por eso el tema es un `<select>`.
+
 **Listo cuando:** Starter, Elementary e Intermediate están en la Biblioteca con todas sus
 columnas y traducción al español, y se pueden practicar como las otras listas.
 
@@ -1032,7 +1061,7 @@ columnas y traducción al español, y se pueden practicar como las otras listas.
 #### F18 — Calidad y PWA
 - [ ] Playwright: portada → unidad → set → resultado → repaso; axe en 6 páginas clave.
 - [ ] `vite-plugin-pwa` (precache de la app y del contenido).
-- [ ] JS inicial < 200 KB gzip (en F17c V4 quedó en 200,3); Lighthouse ≥ 90 en rendimiento y accesibilidad.
+- [ ] JS inicial < 200 KB gzip (en F17c V5 quedó en 201,4); Lighthouse ≥ 90 en rendimiento y accesibilidad.
 - [ ] Metadatos por ruta (`head` de TanStack Router).
 #### F19 — SEO y publicación
 - [ ] Migrar a TanStack Start con prerender de las rutas del manifiesto; `sitemap.xml`.

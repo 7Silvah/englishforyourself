@@ -2,7 +2,7 @@
 // Uso: npx tsx scripts/face2face-extract.ts [--content [--force]]
 // Lee de docs/Cambridg…Face2Face…/ y escribe la extracción completa (con el ruso) en
 // .face2face/, ignorada por Git: el material tiene derechos (docs/PLAN.md F17c, §15).
-// Con --content genera además las listas de src/content/wordlists/vocabulary-by-level/.
+// Con --content genera además las listas por nivel en src/content/wordlists/vocabulary/.
 // Después se editan a mano (traducciones de V3): sin --force no se sobrescriben.
 import { existsSync } from "node:fs";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
@@ -11,7 +11,7 @@ import { extractTextItems, getDocumentProxy } from "unpdf";
 import { PartOfSpeech, type Level, type Word, type WordList } from "@/content/schema";
 
 const OUT_DIR = ".face2face";
-const CONTENT_DIR = "src/content/wordlists/vocabulary-by-level";
+const CONTENT_DIR = "src/content/wordlists/vocabulary";
 
 type Source = {
   id: string;

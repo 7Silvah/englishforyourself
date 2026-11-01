@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Sports Vocabulary",
+  "titleEs": "Deportes",
   "order": 10,
   "legacyPath": "lessons/vocabulary/sports-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the sports in English.",
@@ -12,167 +13,208 @@
       "items": [
         {
           "en": "Aerobics",
-          "es": "aeróbic"
+          "es": "aeróbic",
+          "level": "C1"
         },
         {
           "en": "Archery",
-          "es": "tiro con arco"
+          "es": "tiro con arco",
+          "level": "C1"
         },
         {
           "en": "Badminton",
-          "es": "bádminton"
+          "es": "bádminton",
+          "level": "C1"
         },
         {
           "en": "Baseball",
-          "es": "béisbol"
+          "es": "béisbol",
+          "level": "A2"
         },
         {
           "en": "Basketball",
-          "es": "baloncesto / básquetbol"
+          "es": "baloncesto / básquetbol",
+          "level": "A2"
         },
         {
           "en": "Biking",
-          "es": "ciclismo"
+          "es": "ciclismo",
+          "level": "C1"
         },
         {
           "en": "Bowling",
-          "es": "bolos"
+          "es": "bolos",
+          "level": "B2"
         },
         {
           "en": "Boxing",
-          "es": "boxeo"
+          "es": "boxeo",
+          "level": "B2"
         },
         {
           "en": "Canoeing",
-          "es": "piragüismo / canotaje"
+          "es": "piragüismo / canotaje",
+          "level": "C1"
         },
         {
           "en": "Dancing",
-          "es": "baile"
+          "es": "baile",
+          "level": "A1"
         },
         {
           "en": "Fencing",
-          "es": "esgrima"
+          "es": "esgrima",
+          "level": "C1"
         },
         {
           "en": "Fishing",
-          "es": "pesca"
+          "es": "pesca",
+          "level": "B1"
         },
         {
           "en": "Football (UK) / soccer (US)",
-          "es": "fútbol"
+          "es": "fútbol",
+          "level": "A2"
         },
         {
           "en": "Golf",
-          "es": "golf"
+          "es": "golf",
+          "level": "A2"
         },
         {
           "en": "Golfing",
-          "es": "jugar al golf"
+          "es": "jugar al golf",
+          "level": "C1"
         },
         {
           "en": "Gymnastics",
-          "es": "gimnasia"
+          "es": "gimnasia",
+          "level": "C1"
         },
         {
           "en": "Handball",
-          "es": "balonmano"
+          "es": "balonmano",
+          "level": "C1"
         },
         {
           "en": "Hockey",
-          "es": "hockey"
+          "es": "hockey",
+          "level": "B1"
         },
         {
           "en": "Horseback riding",
-          "es": "equitación"
+          "es": "equitación",
+          "level": "C1"
         },
         {
           "en": "Ice hockey (UK) / hockey (US)",
-          "es": "hockey sobre hielo"
+          "es": "hockey sobre hielo",
+          "level": "B1"
         },
         {
           "en": "Judo",
-          "es": "judo"
+          "es": "judo",
+          "level": "C1"
         },
         {
           "en": "Karate",
-          "es": "kárate"
+          "es": "kárate",
+          "level": "C1"
         },
         {
           "en": "Kayaking",
-          "es": "kayak"
+          "es": "kayak",
+          "level": "C1"
         },
         {
           "en": "Martial arts",
-          "es": "artes marciales"
+          "es": "artes marciales",
+          "level": "B2"
         },
         {
           "en": "Motorcycling",
-          "es": "motociclismo"
+          "es": "motociclismo",
+          "level": "C1"
         },
         {
           "en": "Paddle boarding",
-          "es": "paddle surf"
+          "es": "paddle surf",
+          "level": "C1"
         },
         {
           "en": "Parachuting",
-          "es": "paracaidismo"
+          "es": "paracaidismo",
+          "level": "C1"
         },
         {
           "en": "Running",
-          "es": "correr (running)"
+          "es": "correr (running)",
+          "level": "A2"
         },
         {
           "en": "Sailing",
-          "es": "vela (navegación)"
+          "es": "vela (navegación)",
+          "level": "B2"
         },
         {
           "en": "Scuba diving",
-          "es": "buceo"
+          "es": "buceo",
+          "level": "C1"
         },
         {
           "en": "Skateboarding",
-          "es": "skateboarding (patinar en monopatín)"
+          "es": "skateboarding (patinar en monopatín)",
+          "level": "C1"
         },
         {
           "en": "Skiing",
-          "es": "esquí"
+          "es": "esquí",
+          "level": "A2"
         },
         {
           "en": "Skydiving",
-          "es": "paracaidismo en caída libre"
+          "es": "paracaidismo en caída libre",
+          "level": "C1"
         },
         {
           "en": "Snowboarding",
-          "es": "snowboard"
+          "es": "snowboard",
+          "level": "C1"
         },
         {
           "en": "Taekwondo",
-          "es": "taekwondo"
+          "es": "taekwondo",
+          "level": "C1"
         },
         {
           "en": "Track and field",
-          "es": "atletismo"
+          "es": "atletismo",
+          "level": "A2"
         },
         {
           "en": "Volleyball",
-          "es": "voleibol"
+          "es": "voleibol",
+          "level": "B2"
         },
         {
           "en": "Water polo",
-          "es": "waterpolo"
+          "es": "waterpolo",
+          "level": "C1"
         },
         {
           "en": "Weightlifting",
-          "es": "halterofilia / levantamiento de pesas"
+          "es": "halterofilia / levantamiento de pesas",
+          "level": "C1"
         },
         {
           "en": "Windsurfing",
-          "es": "windsurf"
+          "es": "windsurf",
+          "level": "C1"
         },
         {
           "en": "Wrestling",
-          "es": "lucha libre"
+          "es": "lucha libre",
+          "level": "B2"
         }
       ]
     }

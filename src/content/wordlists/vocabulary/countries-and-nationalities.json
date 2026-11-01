@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Countries and Nationalities",
+  "titleEs": "Países y nacionalidades",
   "order": 42,
   "legacyPath": "lessons/vocabulary/countries-and-nationalities.html",
   "intro": "In this section you will learn the countries and nationalities in English.",
@@ -12,415 +13,518 @@
       "items": [
         {
           "en": "Albania – Albanian",
-          "es": "Albania – albanés"
+          "es": "Albania – albanés",
+          "level": "C1"
         },
         {
           "en": "Algeria – Algerian",
-          "es": "Argelia – argelino"
+          "es": "Argelia – argelino",
+          "level": "C1"
         },
         {
           "en": "Argentina – Argentinian",
-          "es": "Argentina – argentino"
+          "es": "Argentina – argentino",
+          "level": "A2"
         },
         {
           "en": "Australia – Australian",
-          "es": "Australia – australiano"
+          "es": "Australia – australiano",
+          "level": "A1"
         },
         {
           "en": "Austria – Austrian",
-          "es": "Austria – austriaco"
+          "es": "Austria – austriaco",
+          "level": "B2"
         },
         {
           "en": "Bahamas – Bahamian",
-          "es": "Bahamas – bahameño"
+          "es": "Bahamas – bahameño",
+          "level": "C1"
         },
         {
           "en": "Bangladesh – Bangladeshi",
-          "es": "Bangladés – bangladesí"
+          "es": "Bangladés – bangladesí",
+          "level": "B2"
         },
         {
           "en": "Belgium – Belgian",
-          "es": "Bélgica – belga"
+          "es": "Bélgica – belga",
+          "level": "B2"
         },
         {
           "en": "Belize – Belizean",
-          "es": "Belice – beliceño"
+          "es": "Belice – beliceño",
+          "level": "C1"
         },
         {
           "en": "Bolivia – Bolivian",
-          "es": "Bolivia – boliviano"
+          "es": "Bolivia – boliviano",
+          "level": "C1"
         },
         {
           "en": "Brazil – Brazilian",
-          "es": "Brasil – brasileño"
+          "es": "Brasil – brasileño",
+          "level": "A1"
         },
         {
           "en": "Cambodia – Cambodian",
-          "es": "Camboya – camboyano"
+          "es": "Camboya – camboyano",
+          "level": "C1"
         },
         {
           "en": "Cameroon – Cameroonian",
-          "es": "Camerún – camerunés"
+          "es": "Camerún – camerunés",
+          "level": "C1"
         },
         {
           "en": "Canada – Canadian",
-          "es": "Canadá – canadiense"
+          "es": "Canadá – canadiense",
+          "level": "A2"
         },
         {
           "en": "Chile – Chilean",
-          "es": "Chile – chileno"
+          "es": "Chile – chileno",
+          "level": "B2"
         },
         {
           "en": "China – Chinese",
-          "es": "China – chino"
+          "es": "China – chino",
+          "level": "A1"
         },
         {
           "en": "Costa Rica – Costa Rican",
-          "es": "Costa Rica – costarricense"
+          "es": "Costa Rica – costarricense",
+          "level": "C1"
         },
         {
           "en": "Croatia – Croat / Croatian",
-          "es": "Croacia – croata"
+          "es": "Croacia – croata",
+          "level": "C1"
         },
         {
           "en": "Cuba – Cuban",
-          "es": "Cuba – cubano"
+          "es": "Cuba – cubano",
+          "level": "B2"
         },
         {
           "en": "Denmark – Danish",
-          "es": "Dinamarca – danés"
+          "es": "Dinamarca – danés",
+          "level": "B2"
         },
         {
           "en": "Ecuador – Ecuadorian",
-          "es": "Ecuador – ecuatoriano"
+          "es": "Ecuador – ecuatoriano",
+          "level": "C1"
         },
         {
           "en": "Egypt – Egyptian",
-          "es": "Egipto – egipcio"
+          "es": "Egipto – egipcio",
+          "level": "A1"
         },
         {
           "en": "El Salvador – Salvadorian",
-          "es": "El Salvador – salvadoreño"
+          "es": "El Salvador – salvadoreño",
+          "level": "C1"
         },
         {
           "en": "England – English",
-          "es": "Inglaterra – inglés"
+          "es": "Inglaterra – inglés",
+          "level": "A2"
         },
         {
           "en": "Estonia – Estonian",
-          "es": "Estonia – estonio"
+          "es": "Estonia – estonio",
+          "level": "C1"
         },
         {
           "en": "Ethiopia – Ethiopian",
-          "es": "Etiopía – etíope"
+          "es": "Etiopía – etíope",
+          "level": "C1"
         },
         {
           "en": "Fiji – Fijian",
-          "es": "Fiyi – fiyiano"
+          "es": "Fiyi – fiyiano",
+          "level": "C1"
         },
         {
           "en": "Finland – Finnish",
-          "es": "Finlandia – finlandés"
+          "es": "Finlandia – finlandés",
+          "level": "B2"
         },
         {
           "en": "France – French",
-          "es": "Francia – francés"
+          "es": "Francia – francés",
+          "level": "A1"
         },
         {
           "en": "Georgia – Georgian",
-          "es": "Georgia – georgiano"
+          "es": "Georgia – georgiano",
+          "level": "B1"
         },
         {
           "en": "Germany – German",
-          "es": "Alemania – alemán"
+          "es": "Alemania – alemán",
+          "level": "A1"
         },
         {
           "en": "Ghana – Ghanaian",
-          "es": "Ghana – ghanés"
+          "es": "Ghana – ghanés",
+          "level": "B2"
         },
         {
           "en": "Greece – Greek",
-          "es": "Grecia – griego"
+          "es": "Grecia – griego",
+          "level": "A2"
         },
         {
           "en": "Guatemala – Guatemalan",
-          "es": "Guatemala – guatemalteco"
+          "es": "Guatemala – guatemalteco",
+          "level": "C1"
         },
         {
           "en": "Haiti – Haitian",
-          "es": "Haití – haitiano"
+          "es": "Haití – haitiano",
+          "level": "C1"
         },
         {
           "en": "Honduras – Honduran",
-          "es": "Honduras – hondureño"
+          "es": "Honduras – hondureño",
+          "level": "C1"
         },
         {
           "en": "Hungary – Hungarian",
-          "es": "Hungría – húngaro"
+          "es": "Hungría – húngaro",
+          "level": "B2"
         },
         {
           "en": "Iceland – Icelandic",
-          "es": "Islandia – islandés"
+          "es": "Islandia – islandés",
+          "level": "C1"
         },
         {
           "en": "India – Indian",
-          "es": "India – indio"
+          "es": "India – indio",
+          "level": "A1"
         },
         {
           "en": "Indonesia – Indonesian",
-          "es": "Indonesia – indonesio"
+          "es": "Indonesia – indonesio",
+          "level": "A1"
         },
         {
           "en": "Iran – Iranian",
-          "es": "Irán – iraní"
+          "es": "Irán – iraní",
+          "level": "A2"
         },
         {
           "en": "Iraq – Iraqi",
-          "es": "Irak – iraquí"
+          "es": "Irak – iraquí",
+          "level": "B1"
         },
         {
           "en": "Ireland – Irish",
-          "es": "Irlanda – irlandés"
+          "es": "Irlanda – irlandés",
+          "level": "A2"
         },
         {
           "en": "Israel – Israeli",
-          "es": "Israel – israelí"
+          "es": "Israel – israelí",
+          "level": "A2"
         },
         {
           "en": "Italy – Italian",
-          "es": "Italia – italiano"
+          "es": "Italia – italiano",
+          "level": "A1"
         },
         {
           "en": "Jamaica – Jamaican",
-          "es": "Jamaica – jamaicano"
+          "es": "Jamaica – jamaicano",
+          "level": "B2"
         },
         {
           "en": "Japan – Japanese",
-          "es": "Japón – japonés"
+          "es": "Japón – japonés",
+          "level": "A1"
         },
         {
           "en": "Jordan – Jordanian",
-          "es": "Jordania – jordano"
+          "es": "Jordania – jordano",
+          "level": "A2"
         },
         {
           "en": "Kenya – Kenyan",
-          "es": "Kenia – keniano"
+          "es": "Kenia – keniano",
+          "level": "B2"
         },
         {
           "en": "Laos – Lao",
-          "es": "Laos – laosiano"
+          "es": "Laos – laosiano",
+          "level": "C1"
         },
         {
           "en": "Libya – Libyan",
-          "es": "Libia – libio"
+          "es": "Libia – libio",
+          "level": "A1"
         },
         {
           "en": "Lithuania – Lithuanian",
-          "es": "Lituania – lituano"
+          "es": "Lituania – lituano",
+          "level": "C1"
         },
         {
           "en": "Madagascar – Malagasy",
-          "es": "Madagascar – malgache"
+          "es": "Madagascar – malgache",
+          "level": "C1"
         },
         {
           "en": "Malaysia – Malaysian",
-          "es": "Malasia – malasio"
+          "es": "Malasia – malasio",
+          "level": "B1"
         },
         {
           "en": "Maldives – Maldivian",
-          "es": "Maldivas – maldivo"
+          "es": "Maldivas – maldivo",
+          "level": "C1"
         },
         {
           "en": "Mali – Malian",
-          "es": "Malí – maliense"
+          "es": "Malí – maliense",
+          "level": "C1"
         },
         {
           "en": "Malta – Maltese",
-          "es": "Malta – maltés"
+          "es": "Malta – maltés",
+          "level": "C1"
         },
         {
           "en": "Mexico – Mexican",
-          "es": "México – mexicano"
+          "es": "México – mexicano",
+          "level": "A1"
         },
         {
           "en": "Mongolia – Mongolian",
-          "es": "Mongolia – mongol"
+          "es": "Mongolia – mongol",
+          "level": "C1"
         },
         {
           "en": "Morocco – Moroccan",
-          "es": "Marruecos – marroquí"
+          "es": "Marruecos – marroquí",
+          "level": "B2"
         },
         {
           "en": "Mozambique – Mozambican",
-          "es": "Mozambique – mozambiqueño"
+          "es": "Mozambique – mozambiqueño",
+          "level": "C1"
         },
         {
           "en": "Namibia – Namibian",
-          "es": "Namibia – namibio"
+          "es": "Namibia – namibio",
+          "level": "C1"
         },
         {
           "en": "Nepal – Nepalese",
-          "es": "Nepal – nepalí"
+          "es": "Nepal – nepalí",
+          "level": "B2"
         },
         {
           "en": "Netherlands – Dutch",
-          "es": "Países Bajos – neerlandés"
+          "es": "Países Bajos – neerlandés",
+          "level": "B1"
         },
         {
           "en": "New Zealand – New Zealand",
-          "es": "Nueva Zelanda – neozelandés"
+          "es": "Nueva Zelanda – neozelandés",
+          "level": "B1"
         },
         {
           "en": "Nicaragua – Nicaraguan",
-          "es": "Nicaragua – nicaragüense"
+          "es": "Nicaragua – nicaragüense",
+          "level": "C1"
         },
         {
           "en": "North Korea – North Korean",
-          "es": "Corea del Norte – norcoreano"
+          "es": "Corea del Norte – norcoreano",
+          "level": "A2"
         },
         {
           "en": "Norway – Norwegian",
-          "es": "Noruega – noruego"
+          "es": "Noruega – noruego",
+          "level": "B2"
         },
         {
           "en": "Panama – Panamanian",
-          "es": "Panamá – panameño"
+          "es": "Panamá – panameño",
+          "level": "B2"
         },
         {
           "en": "Peru – Peruvian",
-          "es": "Perú – peruano"
+          "es": "Perú – peruano",
+          "level": "A1"
         },
         {
           "en": "Poland – Polish",
-          "es": "Polonia – polaco"
+          "es": "Polonia – polaco",
+          "level": "A1"
         },
         {
           "en": "Portugal – Portuguese",
-          "es": "Portugal – portugués"
+          "es": "Portugal – portugués",
+          "level": "B2"
         },
         {
           "en": "Qatar – Qatari",
-          "es": "Catar – catarí"
+          "es": "Catar – catarí",
+          "level": "C1"
         },
         {
           "en": "Romania – Romanian",
-          "es": "Rumania – rumano"
+          "es": "Rumania – rumano",
+          "level": "C1"
         },
         {
           "en": "Russia – Russian",
-          "es": "Rusia – ruso"
+          "es": "Rusia – ruso",
+          "level": "A1"
         },
         {
           "en": "Saudi Arabia – Saudi",
-          "es": "Arabia Saudita – saudí"
+          "es": "Arabia Saudita – saudí",
+          "level": "B1"
         },
         {
           "en": "Scotland – Scottish",
-          "es": "Escocia – escocés"
+          "es": "Escocia – escocés",
+          "level": "A2"
         },
         {
           "en": "Serbia – Serb / Serbian",
-          "es": "Serbia – serbio"
+          "es": "Serbia – serbio",
+          "level": "C1"
         },
         {
           "en": "Singapore – Singaporean",
-          "es": "Singapur – singapurense"
+          "es": "Singapur – singapurense",
+          "level": "B1"
         },
         {
           "en": "Slovakia – Slovak",
-          "es": "Eslovaquia – eslovaco"
+          "es": "Eslovaquia – eslovaco",
+          "level": "C1"
         },
         {
           "en": "Slovenia – Slovene / Slovenian",
-          "es": "Eslovenia – esloveno"
+          "es": "Eslovenia – esloveno",
+          "level": "C1"
         },
         {
           "en": "Somalia – Somali",
-          "es": "Somalia – somalí"
+          "es": "Somalia – somalí",
+          "level": "C1"
         },
         {
           "en": "South Africa – South African",
-          "es": "Sudáfrica – sudafricano"
+          "es": "Sudáfrica – sudafricano",
+          "level": "A2"
         },
         {
           "en": "South Korea – South Korean",
-          "es": "Corea del Sur – surcoreano"
+          "es": "Corea del Sur – surcoreano",
+          "level": "A2"
         },
         {
           "en": "Spain – Spanish",
-          "es": "España – español"
+          "es": "España – español",
+          "level": "A1"
         },
         {
           "en": "Sri Lanka – Sri Lankan",
-          "es": "Sri Lanka – esrilanqués"
+          "es": "Sri Lanka – esrilanqués",
+          "level": "C1"
         },
         {
           "en": "Sudan – Sudanese",
-          "es": "Sudán – sudanés"
+          "es": "Sudán – sudanés",
+          "level": "B2"
         },
         {
           "en": "Sweden – Swedish",
-          "es": "Suecia – sueco"
+          "es": "Suecia – sueco",
+          "level": "B1"
         },
         {
           "en": "Switzerland – Swiss",
-          "es": "Suiza – suizo"
+          "es": "Suiza – suizo",
+          "level": "B1"
         },
         {
           "en": "Syria – Syrian",
-          "es": "Siria – sirio"
+          "es": "Siria – sirio",
+          "level": "B1"
         },
         {
           "en": "Taiwan – Taiwanese",
-          "es": "Taiwán – taiwanés"
+          "es": "Taiwán – taiwanés",
+          "level": "B2"
         },
         {
           "en": "Tanzania – Tanzanian",
-          "es": "Tanzania – tanzano"
+          "es": "Tanzania – tanzano",
+          "level": "C1"
         },
         {
           "en": "Thailand – Thai",
-          "es": "Tailandia – tailandés"
+          "es": "Tailandia – tailandés",
+          "level": "A1"
         },
         {
           "en": "The United Kingdom – British",
-          "es": "Reino Unido – británico"
+          "es": "Reino Unido – británico",
+          "level": "A1"
         },
         {
           "en": "The United States – American",
-          "es": "Estados Unidos – estadounidense"
+          "es": "Estados Unidos – estadounidense",
+          "level": "A1"
         },
         {
           "en": "Turkey – Turkish",
-          "es": "Turquía – turco"
+          "es": "Turquía – turco",
+          "level": "A1"
         },
         {
           "en": "Ukraine – Ukrainian",
-          "es": "Ucrania – ucraniano"
+          "es": "Ucrania – ucraniano",
+          "level": "B1"
         },
         {
           "en": "Uruguay – Uruguayan",
-          "es": "Uruguay – uruguayo"
+          "es": "Uruguay – uruguayo",
+          "level": "C1"
         },
         {
           "en": "Venezuela – Venezuelan",
-          "es": "Venezuela – venezolano"
+          "es": "Venezuela – venezolano",
+          "level": "B2"
         },
         {
           "en": "Vietnam – Vietnamese",
-          "es": "Vietnam – vietnamita"
+          "es": "Vietnam – vietnamita",
+          "level": "B1"
         },
         {
           "en": "Wales – Welsh",
-          "es": "Gales – galés"
+          "es": "Gales – galés",
+          "level": "A2"
         },
         {
           "en": "Zambia – Zambian",
-          "es": "Zambia – zambiano"
+          "es": "Zambia – zambiano",
+          "level": "C1"
         },
         {
           "en": "Zimbabwe – Zimbabwean",
-          "es": "Zimbabue – zimbabuense"
+          "es": "Zimbabue – zimbabuense",
+          "level": "C1"
         }
       ]
     }

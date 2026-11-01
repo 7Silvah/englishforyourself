@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Physical Description Vocabulary",
+  "titleEs": "Descripción física",
   "order": 12,
   "legacyPath": "lessons/vocabulary/physical-description-vocabulary.html",
   "intro": "In this section, you will learn physical description vocabulary words in English.",
@@ -9,100 +10,132 @@
       "title": "Physical descriptions vocabulary",
       "items": [
         {
-          "en": "Tall"
+          "en": "Tall",
+          "level": "A2"
         },
         {
-          "en": "Small"
+          "en": "Small",
+          "level": "A1"
         },
         {
-          "en": "Short"
+          "en": "Short",
+          "level": "A1"
         },
         {
-          "en": "Medium height"
+          "en": "Medium height",
+          "level": "B1"
         },
         {
-          "en": "Young"
+          "en": "Young",
+          "level": "A1"
         },
         {
-          "en": "Old"
+          "en": "Old",
+          "level": "A1"
         },
         {
-          "en": "Skinny"
+          "en": "Skinny",
+          "level": "B2"
         },
         {
-          "en": "Thin"
+          "en": "Thin",
+          "level": "A2"
         },
         {
-          "en": "Slim"
+          "en": "Slim",
+          "level": "A2"
         },
         {
-          "en": "Chubby"
+          "en": "Chubby",
+          "level": "C1"
         },
         {
-          "en": "Overweight or fat"
+          "en": "Overweight or fat",
+          "level": "A2"
         },
         {
-          "en": "Large"
+          "en": "Large",
+          "level": "A1"
         },
         {
-          "en": "Muscular"
+          "en": "Muscular",
+          "level": "C1"
         },
         {
-          "en": "Slender"
+          "en": "Slender",
+          "level": "C1"
         },
         {
-          "en": "Well-built"
+          "en": "Well-built",
+          "level": "A1"
         },
         {
-          "en": "Beautiful"
+          "en": "Beautiful",
+          "level": "A1"
         },
         {
-          "en": "Pretty"
+          "en": "Pretty",
+          "level": "A1"
         },
         {
-          "en": "Handsome"
+          "en": "Handsome",
+          "level": "B1"
         },
         {
-          "en": "Sun-tanned"
+          "en": "Sun-tanned",
+          "level": "C1"
         },
         {
-          "en": "Pale"
+          "en": "Pale",
+          "level": "B2"
         },
         {
-          "en": "Long hair"
+          "en": "Long hair",
+          "level": "A1"
         },
         {
-          "en": "Short hair"
+          "en": "Short hair",
+          "level": "A2"
         },
         {
-          "en": "Straight hair"
+          "en": "Straight hair",
+          "level": "A2"
         },
         {
-          "en": "Wavy hair"
+          "en": "Wavy hair",
+          "level": "C1"
         },
         {
-          "en": "Curly hair"
+          "en": "Curly hair",
+          "level": "C1"
         },
         {
-          "en": "Brown / black / blonde / red / dyed hair"
+          "en": "Brown / black / blonde / red / dyed hair",
+          "level": "A1"
         },
         {
-          "en": "Blue / green / brown eyes"
+          "en": "Blue / green / brown eyes",
+          "level": "A1"
         },
         {
-          "en": "(A) small / big / long nose"
+          "en": "(A) small / big / long nose",
+          "level": "A1"
         },
         {
-          "en": "Bald"
+          "en": "Bald",
+          "level": "A2"
         },
         {
-          "en": "Beard"
+          "en": "Beard",
+          "level": "A2"
         },
         {
-          "en": "Pimples"
+          "en": "Pimples",
+          "level": "C1"
         },
         {
-          "en": "Scruffy"
+          "en": "Scruffy",
+          "level": "C1"
         }
       ]
     }

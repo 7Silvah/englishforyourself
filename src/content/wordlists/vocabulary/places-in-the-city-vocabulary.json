@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Places in the City Vocabulary",
+  "titleEs": "Lugares de la ciudad",
   "order": 20,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the places in the city in English.",
@@ -12,288 +13,359 @@
       "items": [
         {
           "en": "Airport",
-          "es": "aeropuerto"
+          "es": "aeropuerto",
+          "level": "A1"
         },
         {
           "en": "Amusement Park",
-          "es": "parque de atracciones / de diversiones"
+          "es": "parque de atracciones / de diversiones",
+          "level": "C1"
         },
         {
           "en": "Art gallery",
-          "es": "galería de arte"
+          "es": "galería de arte",
+          "level": "B1"
         },
         {
           "en": "Bakery",
-          "es": "panadería"
+          "es": "panadería",
+          "level": "C1"
         },
         {
           "en": "Bank",
-          "es": "banco"
+          "es": "banco",
+          "level": "A1"
         },
         {
           "en": "Bar",
-          "es": "bar"
+          "es": "bar",
+          "level": "A2"
         },
         {
           "en": "Barbershop",
-          "es": "barbería"
+          "es": "barbería",
+          "level": "C1"
         },
         {
           "en": "Beauty salon",
-          "es": "salón de belleza"
+          "es": "salón de belleza",
+          "level": "B2"
         },
         {
           "en": "Bookshop or bookstore",
-          "es": "librería"
+          "es": "librería",
+          "level": "A2"
         },
         {
           "en": "Bus station",
-          "es": "estación de autobuses"
+          "es": "estación de autobuses",
+          "level": "A1"
         },
         {
           "en": "Butcher’s",
-          "es": "carnicería"
+          "es": "carnicería",
+          "level": "A2"
         },
         {
           "en": "Café",
-          "es": "cafetería"
+          "es": "cafetería",
+          "level": "A1"
         },
         {
           "en": "Canteen",
-          "es": "comedor"
+          "es": "comedor",
+          "level": "C1"
         },
         {
           "en": "Car park (UK) / parking lot (US)",
-          "es": "estacionamiento / aparcamiento"
+          "es": "estacionamiento / aparcamiento",
+          "level": "A2"
         },
         {
           "en": "Casino",
-          "es": "casino"
+          "es": "casino",
+          "level": "B2"
         },
         {
           "en": "Cathedral",
-          "es": "catedral"
+          "es": "catedral",
+          "level": "B2"
         },
         {
           "en": "Cemetery / graveyard",
-          "es": "cementerio"
+          "es": "cementerio",
+          "level": "B2"
         },
         {
           "en": "Church",
-          "es": "iglesia"
+          "es": "iglesia",
+          "level": "A1"
         },
         {
           "en": "Cinema",
-          "es": "cine"
+          "es": "cine",
+          "level": "A2"
         },
         {
           "en": "City centre (UK) / city center (US)",
-          "es": "centro de la ciudad"
+          "es": "centro de la ciudad",
+          "level": "B1"
         },
         {
           "en": "Clothing store",
-          "es": "tienda de ropa"
+          "es": "tienda de ropa",
+          "level": "B1"
         },
         {
           "en": "Convent",
-          "es": "convento"
+          "es": "convento",
+          "level": "C1"
         },
         {
           "en": "Court",
-          "es": "tribunal / juzgado"
+          "es": "tribunal / juzgado",
+          "level": "A1"
         },
         {
           "en": "Craft market",
-          "es": "mercado de artesanía"
+          "es": "mercado de artesanía",
+          "level": "B1"
         },
         {
           "en": "Craft shop",
-          "es": "tienda de artesanía"
+          "es": "tienda de artesanía",
+          "level": "B1"
         },
         {
           "en": "Crossroads",
-          "es": "cruce"
+          "es": "cruce",
+          "level": "C1"
         },
         {
           "en": "Delicatessen",
-          "es": "tienda gourmet (delicatessen)"
+          "es": "tienda gourmet (delicatessen)",
+          "level": "C1"
         },
         {
           "en": "Department store",
-          "es": "grandes almacenes / tienda departamental"
+          "es": "grandes almacenes / tienda departamental",
+          "level": "A2"
         },
         {
           "en": "Disco",
-          "es": "discoteca"
+          "es": "discoteca",
+          "level": "C1"
         },
         {
           "en": "DIY superstore",
-          "es": "tienda de bricolaje"
+          "es": "tienda de bricolaje",
+          "level": "C1"
         },
         {
           "en": "Drugstore",
-          "es": "farmacia (EE. UU.)"
+          "es": "farmacia (EE. UU.)",
+          "level": "C1"
         },
         {
           "en": "Factory",
-          "es": "fábrica"
+          "es": "fábrica",
+          "level": "A2"
         },
         {
           "en": "Farm",
-          "es": "granja"
+          "es": "granja",
+          "level": "A2"
         },
         {
           "en": "Farmers’ market",
-          "es": "mercado de productores"
+          "es": "mercado de productores",
+          "level": "B1"
         },
         {
           "en": "Fast food restaurant",
-          "es": "restaurante de comida rápida"
+          "es": "restaurante de comida rápida",
+          "level": "B1"
         },
         {
           "en": "Fire station",
-          "es": "estación de bomberos"
+          "es": "estación de bomberos",
+          "level": "A2"
         },
         {
           "en": "Gym",
-          "es": "gimnasio"
+          "es": "gimnasio",
+          "level": "A2"
         },
         {
           "en": "Hairdresser’s",
-          "es": "peluquería"
+          "es": "peluquería",
+          "level": "C1"
         },
         {
           "en": "Hospital",
-          "es": "hospital"
+          "es": "hospital",
+          "level": "A2"
         },
         {
           "en": "Hotel",
-          "es": "hotel"
+          "es": "hotel",
+          "level": "A1"
         },
         {
           "en": "Jail / prison",
-          "es": "cárcel / prisión"
+          "es": "cárcel / prisión",
+          "level": "A2"
         },
         {
           "en": "Laundromat",
-          "es": "lavandería"
+          "es": "lavandería",
+          "level": "C1"
         },
         {
           "en": "Library",
           "es": "biblioteca",
+          "level": "A2",
           "falseFriend": "librería"
         },
         {
           "en": "Market",
-          "es": "mercado"
+          "es": "mercado",
+          "level": "A1"
         },
         {
           "en": "Millinery shop",
-          "es": "sombrerería"
+          "es": "sombrerería",
+          "level": "C1"
         },
         {
           "en": "Museum",
-          "es": "museo"
+          "es": "museo",
+          "level": "A1"
         },
         {
           "en": "Organic food shop",
-          "es": "tienda de productos orgánicos"
+          "es": "tienda de productos orgánicos",
+          "level": "B1"
         },
         {
           "en": "Park",
-          "es": "parque"
+          "es": "parque",
+          "level": "A1"
         },
         {
           "en": "Pavement (UK) / sidewalk (US)",
-          "es": "acera / banqueta"
+          "es": "acera / banqueta",
+          "level": "C1"
         },
         {
           "en": "Pet shop",
-          "es": "tienda de mascotas"
+          "es": "tienda de mascotas",
+          "level": "B1"
         },
         {
           "en": "Petrol station (UK) / gas station (US)",
-          "es": "gasolinera"
+          "es": "gasolinera",
+          "level": "A2"
         },
         {
           "en": "Pharmacy",
-          "es": "farmacia"
+          "es": "farmacia",
+          "level": "B2"
         },
         {
           "en": "Playground",
-          "es": "parque infantil"
+          "es": "parque infantil",
+          "level": "C1"
         },
         {
           "en": "Police station",
-          "es": "comisaría / estación de policía"
+          "es": "comisaría / estación de policía",
+          "level": "A2"
         },
         {
           "en": "Post office",
-          "es": "oficina de correos"
+          "es": "oficina de correos",
+          "level": "A1"
         },
         {
           "en": "Pub",
-          "es": "pub / bar"
+          "es": "pub / bar",
+          "level": "A2"
         },
         {
           "en": "Railway station",
-          "es": "estación de tren"
+          "es": "estación de tren",
+          "level": "B1"
         },
         {
           "en": "Restaurant",
-          "es": "restaurante"
+          "es": "restaurante",
+          "level": "A1"
         },
         {
           "en": "Roundabout",
-          "es": "glorieta / rotonda"
+          "es": "glorieta / rotonda",
+          "level": "C1"
         },
         {
           "en": "School",
-          "es": "escuela"
+          "es": "escuela",
+          "level": "A2"
         },
         {
           "en": "Sports centre (UK) / sports center (US)",
-          "es": "centro deportivo / polideportivo"
+          "es": "centro deportivo / polideportivo",
+          "level": "A2"
         },
         {
           "en": "Square",
-          "es": "plaza"
+          "es": "plaza",
+          "level": "A1"
         },
         {
           "en": "Supermarket",
-          "es": "supermercado"
+          "es": "supermercado",
+          "level": "A1"
         },
         {
           "en": "Swimming pool",
-          "es": "piscina / alberca"
+          "es": "piscina / alberca",
+          "level": "B1"
         },
         {
           "en": "Theatre (UK) / theater (US)",
-          "es": "teatro"
+          "es": "teatro",
+          "level": "A1"
         },
         {
           "en": "Train station",
-          "es": "estación de tren"
+          "es": "estación de tren",
+          "level": "A2"
         },
         {
           "en": "Travel agency",
-          "es": "agencia de viajes"
+          "es": "agencia de viajes",
+          "level": "A2"
         },
         {
           "en": "Underground station (UK) / subway station (US)",
-          "es": "estación de metro"
+          "es": "estación de metro",
+          "level": "B1"
         },
         {
           "en": "University",
-          "es": "universidad"
+          "es": "universidad",
+          "level": "A1"
         },
         {
           "en": "Warehouse",
-          "es": "almacén / bodega"
+          "es": "almacén / bodega",
+          "level": "B1"
         },
         {
           "en": "Zoo",
-          "es": "zoológico"
+          "es": "zoológico",
+          "level": "B2"
         }
       ]
     }

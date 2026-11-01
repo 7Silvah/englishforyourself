@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Airport Vocabulary",
+  "titleEs": "El aeropuerto",
   "order": 21,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-airport-vocabulary.html",
   "intro": "In this section you will learn vocabulary and the airport in English.",
@@ -9,136 +10,180 @@
       "title": "Airport vocabulary",
       "items": [
         {
-          "en": "Air traffic control"
+          "en": "Air traffic control",
+          "level": "A2"
         },
         {
-          "en": "Aircraft"
+          "en": "Aircraft",
+          "level": "A2"
         },
         {
-          "en": "Airline"
+          "en": "Airline",
+          "level": "B2"
         },
         {
-          "en": "Aisle"
+          "en": "Aisle",
+          "level": "A2"
         },
         {
-          "en": "Arrivals"
+          "en": "Arrivals",
+          "level": "C1"
         },
         {
-          "en": "Aisle seat"
+          "en": "Aisle seat",
+          "level": "C1"
         },
         {
-          "en": "Baggage / luggage"
+          "en": "Baggage / luggage",
+          "level": "B2"
         },
         {
-          "en": "Baggage allowance"
+          "en": "Baggage allowance",
+          "level": "C1"
         },
         {
-          "en": "Baggage carousel"
+          "en": "Baggage carousel",
+          "level": "C1"
         },
         {
-          "en": "Baggage claim"
+          "en": "Baggage claim",
+          "level": "C1"
         },
         {
-          "en": "Boarding pass"
+          "en": "Boarding pass",
+          "level": "A2"
         },
         {
-          "en": "Boarding time"
+          "en": "Boarding time",
+          "level": "B2"
         },
         {
-          "en": "Cabin"
+          "en": "Cabin",
+          "level": "B2"
         },
         {
-          "en": "Carry-on luggage"
+          "en": "Carry-on luggage",
+          "level": "B2"
         },
         {
-          "en": "Cockpit"
+          "en": "Cockpit",
+          "level": "C1"
         },
         {
-          "en": "Control tower"
+          "en": "Control tower",
+          "level": "A2"
         },
         {
-          "en": "Co-pilot"
+          "en": "Co-pilot",
+          "level": "A2"
         },
         {
-          "en": "Crew"
+          "en": "Crew",
+          "level": "A2"
         },
         {
-          "en": "Customs"
+          "en": "Customs",
+          "level": "B2"
         },
         {
-          "en": "Customs official"
+          "en": "Customs official",
+          "level": "B2"
         },
         {
-          "en": "Delay"
+          "en": "Delay",
+          "level": "B1"
         },
         {
-          "en": "Departure lounge"
+          "en": "Departure lounge",
+          "level": "B2"
         },
         {
-          "en": "Departures"
+          "en": "Departures",
+          "level": "C1"
         },
         {
-          "en": "Direct flight"
+          "en": "Direct flight",
+          "level": "A2"
         },
         {
-          "en": "Emergency exit"
+          "en": "Emergency exit",
+          "level": "B1"
         },
         {
-          "en": "Emergency landing"
+          "en": "Emergency landing",
+          "level": "B1"
         },
         {
-          "en": "Final destination"
+          "en": "Final destination",
+          "level": "B1"
         },
         {
-          "en": "First-class"
+          "en": "First-class",
+          "level": "A1"
         },
         {
-          "en": "Gate"
+          "en": "Gate",
+          "level": "A2"
         },
         {
-          "en": "Identification"
+          "en": "Identification",
+          "level": "B2"
         },
         {
-          "en": "Overhead bin /compartment"
+          "en": "Overhead bin /compartment",
+          "level": "C1"
         },
         {
-          "en": "Oxygen mask"
+          "en": "Oxygen mask",
+          "level": "B1"
         },
         {
-          "en": "Passport"
+          "en": "Passport",
+          "level": "A1"
         },
         {
-          "en": "Pilot"
+          "en": "Pilot",
+          "level": "A2"
         },
         {
-          "en": "Priority boarding"
+          "en": "Priority boarding",
+          "level": "B2"
         },
         {
-          "en": "Round trip"
+          "en": "Round trip",
+          "level": "A2"
         },
         {
-          "en": "Runway"
+          "en": "Runway",
+          "level": "B2"
         },
         {
-          "en": "Seatbelt"
+          "en": "Seatbelt",
+          "level": "C1"
         },
         {
-          "en": "Stewardess / steward / flight attendant / air hostess"
+          "en": "Stewardess / steward / flight attendant / air hostess",
+          "level": "C1"
         },
         {
-          "en": "Takeoff"
+          "en": "Takeoff",
+          "level": "C1"
         },
         {
-          "en": "Terminal"
+          "en": "Terminal",
+          "level": "B1"
         },
         {
-          "en": "Turbulence"
+          "en": "Turbulence",
+          "level": "C1"
         },
         {
-          "en": "Visa"
+          "en": "Visa",
+          "level": "B2"
         },
         {
-          "en": "Window seat"
+          "en": "Window seat",
+          "level": "A2"
         }
       ]
     }

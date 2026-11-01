@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Jobs and Occupations",
+  "titleEs": "Trabajos y profesiones",
   "order": 17,
   "legacyPath": "lessons/vocabulary/jobs-and-occupations.html",
   "intro": "In this section you will learn about the different types of jobs and occupations in English.",
@@ -12,412 +13,514 @@
       "items": [
         {
           "en": "Accountant",
-          "es": "contador / contable"
+          "es": "contador / contable",
+          "level": "A2"
         },
         {
           "en": "Actor / actress",
-          "es": "actor / actriz"
+          "es": "actor / actriz",
+          "level": "A1"
         },
         {
           "en": "Architect",
-          "es": "arquitecto / arquitecta"
+          "es": "arquitecto / arquitecta",
+          "level": "B2"
         },
         {
           "en": "Artist",
-          "es": "artista"
+          "es": "artista",
+          "level": "A2"
         },
         {
           "en": "Astronomer",
-          "es": "astrónomo / astrónoma"
+          "es": "astrónomo / astrónoma",
+          "level": "C1"
         },
         {
           "en": "Author",
-          "es": "autor / autora"
+          "es": "autor / autora",
+          "level": "A2"
         },
         {
           "en": "Baker",
-          "es": "panadero / panadera"
+          "es": "panadero / panadera",
+          "level": "B1"
         },
         {
           "en": "Bank clerk",
-          "es": "empleado / empleada de banco"
+          "es": "empleado / empleada de banco",
+          "level": "B2"
         },
         {
           "en": "Barber",
-          "es": "barbero"
+          "es": "barbero",
+          "level": "B2"
         },
         {
           "en": "Barman (UK) / bartender (US)",
-          "es": "barman / cantinero"
+          "es": "barman / cantinero",
+          "level": "C1"
         },
         {
           "en": "Beekeeper",
-          "es": "apicultor / apicultora"
+          "es": "apicultor / apicultora",
+          "level": "C1"
         },
         {
           "en": "Bellboy",
-          "es": "botones"
+          "es": "botones",
+          "level": "C1"
         },
         {
           "en": "Bishop",
-          "es": "obispo"
+          "es": "obispo",
+          "level": "B1"
         },
         {
           "en": "Bricklayer",
-          "es": "albañil"
+          "es": "albañil",
+          "level": "C1"
         },
         {
           "en": "Bus driver",
-          "es": "conductor / conductora de autobús"
+          "es": "conductor / conductora de autobús",
+          "level": "B1"
         },
         {
           "en": "Butcher",
-          "es": "carnicero / carnicera"
+          "es": "carnicero / carnicera",
+          "level": "C1"
         },
         {
           "en": "Cameraman",
-          "es": "camarógrafo"
+          "es": "camarógrafo",
+          "level": "C1"
         },
         {
           "en": "Caretaker",
-          "es": "conserje"
+          "es": "conserje",
+          "level": "C1"
         },
         {
           "en": "Carpenter",
-          "es": "carpintero / carpintera"
+          "es": "carpintero / carpintera",
+          "level": "B2"
         },
         {
           "en": "Cashier",
-          "es": "cajero / cajera"
+          "es": "cajero / cajera",
+          "level": "C1"
         },
         {
           "en": "Chauffeur",
-          "es": "chofer"
+          "es": "chofer",
+          "level": "C1"
         },
         {
           "en": "Chef / cook",
-          "es": "chef / cocinero"
+          "es": "chef / cocinero",
+          "level": "A1"
         },
         {
           "en": "Cleaner",
-          "es": "limpiador / limpiadora"
+          "es": "limpiador / limpiadora",
+          "level": "A2"
         },
         {
           "en": "Clown",
-          "es": "payaso / payasa"
+          "es": "payaso / payasa",
+          "level": "B2"
         },
         {
           "en": "Computer programmer",
-          "es": "programador / programadora"
+          "es": "programador / programadora",
+          "level": "C1"
         },
         {
           "en": "Construction worker",
-          "es": "obrero / obrera de la construcción"
+          "es": "obrero / obrera de la construcción",
+          "level": "B1"
         },
         {
           "en": "Consultant",
-          "es": "consultor / consultora"
+          "es": "consultor / consultora",
+          "level": "B2"
         },
         {
           "en": "Customs officer",
-          "es": "agente de aduanas"
+          "es": "agente de aduanas",
+          "level": "B2"
         },
         {
           "en": "Delivery man",
-          "es": "repartidor"
+          "es": "repartidor",
+          "level": "A2"
         },
         {
           "en": "Dentist",
-          "es": "dentista"
+          "es": "dentista",
+          "level": "A2"
         },
         {
           "en": "Designer",
-          "es": "diseñador / diseñadora"
+          "es": "diseñador / diseñadora",
+          "level": "A2"
         },
         {
           "en": "Doctor",
-          "es": "médico / médica"
+          "es": "médico / médica",
+          "level": "A1"
         },
         {
           "en": "Electrician",
-          "es": "electricista"
+          "es": "electricista",
+          "level": "C1"
         },
         {
           "en": "Engineer",
-          "es": "ingeniero / ingeniera"
+          "es": "ingeniero / ingeniera",
+          "level": "A2"
         },
         {
           "en": "Entrepreneur",
-          "es": "emprendedor / emprendedora"
+          "es": "emprendedor / emprendedora",
+          "level": "B2"
         },
         {
           "en": "Factory worker",
-          "es": "obrero / obrera de fábrica"
+          "es": "obrero / obrera de fábrica",
+          "level": "B2"
         },
         {
           "en": "Farmer",
-          "es": "agricultor / granjero"
+          "es": "agricultor / granjero",
+          "level": "B2"
         },
         {
           "en": "Fashion designer",
-          "es": "diseñador / diseñadora de moda"
+          "es": "diseñador / diseñadora de moda",
+          "level": "B1"
         },
         {
           "en": "Firefighter",
-          "es": "bombero / bombera"
+          "es": "bombero / bombera",
+          "level": "B1"
         },
         {
           "en": "Fisherman",
-          "es": "pescador"
+          "es": "pescador",
+          "level": "C1"
         },
         {
           "en": "Flight attendant",
-          "es": "auxiliar de vuelo / azafata"
+          "es": "auxiliar de vuelo / azafata",
+          "level": "C1"
         },
         {
           "en": "Florist",
-          "es": "florista"
+          "es": "florista",
+          "level": "C1"
         },
         {
           "en": "Gardener",
-          "es": "jardinero / jardinera"
+          "es": "jardinero / jardinera",
+          "level": "C1"
         },
         {
           "en": "Graphic designer",
-          "es": "diseñador / diseñadora gráfica"
+          "es": "diseñador / diseñadora gráfica",
+          "level": "B2"
         },
         {
           "en": "Hairdresser",
-          "es": "peluquero / peluquera"
+          "es": "peluquero / peluquera",
+          "level": "C1"
         },
         {
           "en": "Interior designer",
-          "es": "diseñador / diseñadora de interiores"
+          "es": "diseñador / diseñadora de interiores",
+          "level": "B2"
         },
         {
           "en": "Interpreter",
-          "es": "intérprete"
+          "es": "intérprete",
+          "level": "C1"
         },
         {
           "en": "Janitor",
-          "es": "conserje"
+          "es": "conserje",
+          "level": "C1"
         },
         {
           "en": "Jeweller (UK) / jeweler (US)",
-          "es": "joyero / joyera"
+          "es": "joyero / joyera",
+          "level": "C1"
         },
         {
           "en": "Journalist",
-          "es": "periodista"
+          "es": "periodista",
+          "level": "B1"
         },
         {
           "en": "Judge",
-          "es": "juez / jueza"
+          "es": "juez / jueza",
+          "level": "A2"
         },
         {
           "en": "Lawyer",
-          "es": "abogado / abogada"
+          "es": "abogado / abogada",
+          "level": "A2"
         },
         {
           "en": "Lecturer",
           "es": "profesor / profesora universitaria",
+          "level": "C1",
           "falseFriend": "lector"
         },
         {
           "en": "Librarian",
-          "es": "bibliotecario / bibliotecaria"
+          "es": "bibliotecario / bibliotecaria",
+          "level": "C1"
         },
         {
           "en": "Lifeguard",
-          "es": "socorrista / salvavidas"
+          "es": "socorrista / salvavidas",
+          "level": "B1"
         },
         {
           "en": "Maid",
-          "es": "empleada doméstica"
+          "es": "empleada doméstica",
+          "level": "B2"
         },
         {
           "en": "Mechanic",
-          "es": "mecánico / mecánica"
+          "es": "mecánico / mecánica",
+          "level": "A2"
         },
         {
           "en": "Miner",
-          "es": "minero / minera"
+          "es": "minero / minera",
+          "level": "C1"
         },
         {
           "en": "Model",
-          "es": "modelo"
+          "es": "modelo",
+          "level": "A1"
         },
         {
           "en": "Nanny",
-          "es": "niñera"
+          "es": "niñera",
+          "level": "C1"
         },
         {
           "en": "Newsreader",
-          "es": "presentador / presentadora de noticias"
+          "es": "presentador / presentadora de noticias",
+          "level": "C1"
         },
         {
           "en": "Nurse",
-          "es": "enfermero / enfermera"
+          "es": "enfermero / enfermera",
+          "level": "B1"
         },
         {
           "en": "Office worker",
-          "es": "oficinista"
+          "es": "oficinista",
+          "level": "B1"
         },
         {
           "en": "Optician",
-          "es": "óptico / óptica"
+          "es": "óptico / óptica",
+          "level": "C1"
         },
         {
           "en": "Painter",
-          "es": "pintor / pintora"
+          "es": "pintor / pintora",
+          "level": "B2"
         },
         {
           "en": "Pharmacist",
-          "es": "farmacéutico / farmacéutica"
+          "es": "farmacéutico / farmacéutica",
+          "level": "C1"
         },
         {
           "en": "Photographer",
-          "es": "fotógrafo / fotógrafa"
+          "es": "fotógrafo / fotógrafa",
+          "level": "B1"
         },
         {
           "en": "Pilot",
-          "es": "piloto"
+          "es": "piloto",
+          "level": "A2"
         },
         {
           "en": "Plumber",
-          "es": "plomero / fontanero"
+          "es": "plomero / fontanero",
+          "level": "C1"
         },
         {
           "en": "Policewoman / policeman",
-          "es": "policía"
+          "es": "policía",
+          "level": "C1"
         },
         {
           "en": "Politician",
-          "es": "político / política"
+          "es": "político / política",
+          "level": "B2"
         },
         {
           "en": "Postman",
-          "es": "cartero"
+          "es": "cartero",
+          "level": "C1"
         },
         {
           "en": "Priest",
-          "es": "sacerdote / cura"
+          "es": "sacerdote / cura",
+          "level": "B1"
         },
         {
           "en": "Psychiatrist",
-          "es": "psiquiatra"
+          "es": "psiquiatra",
+          "level": "C1"
         },
         {
           "en": "Psychologist",
-          "es": "psicólogo / psicóloga"
+          "es": "psicólogo / psicóloga",
+          "level": "B1"
         },
         {
           "en": "Real estate agent",
-          "es": "agente inmobiliario"
+          "es": "agente inmobiliario",
+          "level": "B1"
         },
         {
           "en": "Receptionist",
-          "es": "recepcionista"
+          "es": "recepcionista",
+          "level": "A2"
         },
         {
           "en": "Refuse collector / dustman",
-          "es": "recolector de basura / basurero"
+          "es": "recolector de basura / basurero",
+          "level": "C1"
         },
         {
           "en": "Reporter",
-          "es": "reportero / reportera"
+          "es": "reportero / reportera",
+          "level": "B1"
         },
         {
           "en": "Sailor",
-          "es": "marinero / marinera"
+          "es": "marinero / marinera",
+          "level": "C1"
         },
         {
           "en": "Saleswoman / salesman",
-          "es": "vendedora / vendedor"
+          "es": "vendedora / vendedor",
+          "level": "C1"
         },
         {
           "en": "Scientist",
-          "es": "científico / científica"
+          "es": "científico / científica",
+          "level": "A2"
         },
         {
           "en": "Secretary",
-          "es": "secretario / secretaria"
+          "es": "secretario / secretaria",
+          "level": "A2"
         },
         {
           "en": "Shoemaker",
-          "es": "zapatero / zapatera"
+          "es": "zapatero / zapatera",
+          "level": "C1"
         },
         {
           "en": "Shop assistant",
-          "es": "dependiente / dependienta"
+          "es": "dependiente / dependienta",
+          "level": "B1"
         },
         {
           "en": "Singer",
-          "es": "cantante"
+          "es": "cantante",
+          "level": "A1"
         },
         {
           "en": "Soldier",
-          "es": "soldado"
+          "es": "soldado",
+          "level": "B1"
         },
         {
           "en": "Sports instructor",
-          "es": "instructor / instructora deportiva"
+          "es": "instructor / instructora deportiva",
+          "level": "B2"
         },
         {
           "en": "Stockbroker",
-          "es": "corredor / corredora de bolsa"
+          "es": "corredor / corredora de bolsa",
+          "level": "C1"
         },
         {
           "en": "Street vendor",
-          "es": "vendedor / vendedora ambulante"
+          "es": "vendedor / vendedora ambulante",
+          "level": "C1"
         },
         {
           "en": "Surgeon",
-          "es": "cirujano / cirujana"
+          "es": "cirujano / cirujana",
+          "level": "B1"
         },
         {
           "en": "Tailor / seamstress",
-          "es": "sastre / costurera"
+          "es": "sastre / costurera",
+          "level": "C1"
         },
         {
           "en": "Taxi driver",
-          "es": "taxista"
+          "es": "taxista",
+          "level": "A1"
         },
         {
           "en": "Teacher",
-          "es": "profesor / profesora, maestro / maestra"
+          "es": "profesor / profesora, maestro / maestra",
+          "level": "A1"
         },
         {
           "en": "Therapist",
-          "es": "terapeuta"
+          "es": "terapeuta",
+          "level": "B2"
         },
         {
           "en": "Tourist guide",
-          "es": "guía turístico"
+          "es": "guía turístico",
+          "level": "B2"
         },
         {
           "en": "Traffic warden",
-          "es": "agente de tránsito"
+          "es": "agente de tránsito",
+          "level": "C1"
         },
         {
           "en": "Translator",
-          "es": "traductor / traductora"
+          "es": "traductor / traductora",
+          "level": "C1"
         },
         {
           "en": "Travel agent",
-          "es": "agente de viajes"
+          "es": "agente de viajes",
+          "level": "A2"
         },
         {
           "en": "Veterinarian",
-          "es": "veterinario / veterinaria"
+          "es": "veterinario / veterinaria",
+          "level": "C1"
         },
         {
           "en": "Waiter / waitress",
-          "es": "mesero / camarero (mesera / camarera)"
+          "es": "mesero / camarero (mesera / camarera)",
+          "level": "A1"
         },
         {
           "en": "Window cleaner",
-          "es": "limpiacristales"
+          "es": "limpiacristales",
+          "level": "B2"
         }
       ]
     }

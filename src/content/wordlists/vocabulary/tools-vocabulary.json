@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Tools Vocabulary",
+  "titleEs": "Herramientas",
   "order": 32,
   "legacyPath": "lessons/vocabulary/tools-vocabulary.html",
   "intro": "In this section you will learn vocabulary about tools in English.",
@@ -9,118 +10,156 @@
       "title": "Tools vocabulary",
       "items": [
         {
-          "en": "Adjustable wrench"
+          "en": "Adjustable wrench",
+          "level": "C1"
         },
         {
-          "en": "Anvil"
+          "en": "Anvil",
+          "level": "C1"
         },
         {
-          "en": "Backsaw"
+          "en": "Backsaw",
+          "level": "C1"
         },
         {
-          "en": "Bolt"
+          "en": "Bolt",
+          "level": "B2"
         },
         {
-          "en": "Brace"
+          "en": "Brace",
+          "level": "C1"
         },
         {
-          "en": "Bradawl"
+          "en": "Bradawl",
+          "level": "C1"
         },
         {
-          "en": "Caulking gun"
+          "en": "Caulking gun",
+          "level": "C1"
         },
         {
-          "en": "Chainsaw"
+          "en": "Chainsaw",
+          "level": "C1"
         },
         {
-          "en": "Chisel"
+          "en": "Chisel",
+          "level": "C1"
         },
         {
-          "en": "Coping saw"
+          "en": "Coping saw",
+          "level": "C1"
         },
         {
-          "en": "Cutting pliers"
+          "en": "Cutting pliers",
+          "level": "C1"
         },
         {
-          "en": "Drill"
+          "en": "Drill",
+          "level": "B2"
         },
         {
-          "en": "Drill bit"
+          "en": "Drill bit",
+          "level": "B2"
         },
         {
-          "en": "Electric drill"
+          "en": "Electric drill",
+          "level": "B2"
         },
         {
-          "en": "File"
+          "en": "File",
+          "level": "A2"
         },
         {
-          "en": "Gimlet"
+          "en": "Gimlet",
+          "level": "C1"
         },
         {
-          "en": "Hacksaw"
+          "en": "Hacksaw",
+          "level": "C1"
         },
         {
-          "en": "Hammer"
+          "en": "Hammer",
+          "level": "B2"
         },
         {
-          "en": "Handsaw"
+          "en": "Handsaw",
+          "level": "C1"
         },
         {
-          "en": "Level"
+          "en": "Level",
+          "level": "A1"
         },
         {
-          "en": "Mallet"
+          "en": "Mallet",
+          "level": "C1"
         },
         {
-          "en": "Nail"
+          "en": "Nail",
+          "level": "B1"
         },
         {
-          "en": "Nut"
+          "en": "Nut",
+          "level": "B2"
         },
         {
-          "en": "Pick"
+          "en": "Pick",
+          "level": "B1"
         },
         {
-          "en": "Pipe wrench"
+          "en": "Pipe wrench",
+          "level": "C1"
         },
         {
-          "en": "Pliers"
+          "en": "Pliers",
+          "level": "C1"
         },
         {
-          "en": "Plunger"
+          "en": "Plunger",
+          "level": "C1"
         },
         {
-          "en": "Pocketknife"
+          "en": "Pocketknife",
+          "level": "C1"
         },
         {
-          "en": "Screw"
+          "en": "Screw",
+          "level": "B1"
         },
         {
-          "en": "Screwdriver"
+          "en": "Screwdriver",
+          "level": "C1"
         },
         {
-          "en": "Shears"
+          "en": "Shears",
+          "level": "C1"
         },
         {
-          "en": "Slip joint pliers"
+          "en": "Slip joint pliers",
+          "level": "C1"
         },
         {
-          "en": "Spanner / monkey wrench"
+          "en": "Spanner / monkey wrench",
+          "level": "C1"
         },
         {
-          "en": "Stepladder"
+          "en": "Stepladder",
+          "level": "C1"
         },
         {
-          "en": "Tape measure"
+          "en": "Tape measure",
+          "level": "B1"
         },
         {
-          "en": "Toolbox"
+          "en": "Toolbox",
+          "level": "C1"
         },
         {
-          "en": "Vise"
+          "en": "Vise",
+          "level": "C1"
         },
         {
-          "en": "Wrench"
+          "en": "Wrench",
+          "level": "C1"
         }
       ]
     }

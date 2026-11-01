@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Holidays Vocabulary",
+  "titleEs": "Días festivos",
   "order": 50,
   "legacyPath": "lessons/vocabulary/holidays-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the holidays in English.",
@@ -9,34 +10,44 @@
       "title": "Holidays",
       "items": [
         {
-          "en": "April Fools’ Day"
+          "en": "April Fools’ Day",
+          "level": "B2"
         },
         {
-          "en": "Christmas"
+          "en": "Christmas",
+          "level": "A2"
         },
         {
-          "en": "Earth Day"
+          "en": "Earth Day",
+          "level": "A1"
         },
         {
-          "en": "Easter"
+          "en": "Easter",
+          "level": "B2"
         },
         {
-          "en": "Father’s Day"
+          "en": "Father’s Day",
+          "level": "B1"
         },
         {
-          "en": "Halloween"
+          "en": "Halloween",
+          "level": "B2"
         },
         {
-          "en": "Mother’s Day"
+          "en": "Mother’s Day",
+          "level": "B1"
         },
         {
-          "en": "New Year’s Eve"
+          "en": "New Year’s Eve",
+          "level": "A2"
         },
         {
-          "en": "Thanksgiving Day"
+          "en": "Thanksgiving Day",
+          "level": "B2"
         },
         {
-          "en": "Valentine’s Day"
+          "en": "Valentine’s Day",
+          "level": "C1"
         }
       ]
     },
@@ -44,130 +55,172 @@
       "title": "Halloween vocabulary",
       "items": [
         {
-          "en": "Bat"
+          "en": "Bat",
+          "level": "B1"
         },
         {
-          "en": "Black cat"
+          "en": "Black cat",
+          "level": "A2"
         },
         {
-          "en": "Blood"
+          "en": "Blood",
+          "level": "A1"
         },
         {
-          "en": "Bones"
+          "en": "Bones",
+          "level": "B1"
         },
         {
-          "en": "Candle"
+          "en": "Candle",
+          "level": "B1"
         },
         {
-          "en": "Candy bags / treat bags"
+          "en": "Candy bags / treat bags",
+          "level": "B1"
         },
         {
-          "en": "Cauldron"
+          "en": "Cauldron",
+          "level": "C1"
         },
         {
-          "en": "Coffin"
+          "en": "Coffin",
+          "level": "B2"
         },
         {
-          "en": "Costume"
+          "en": "Costume",
+          "level": "B1"
         },
         {
-          "en": "Crystal ball"
+          "en": "Crystal ball",
+          "level": "B1"
         },
         {
-          "en": "Fairy"
+          "en": "Fairy",
+          "level": "B2"
         },
         {
-          "en": "Frankenstein"
+          "en": "Frankenstein",
+          "level": "C1"
         },
         {
-          "en": "Full moon"
+          "en": "Full moon",
+          "level": "A2"
         },
         {
-          "en": "Ghost"
+          "en": "Ghost",
+          "level": "B1"
         },
         {
-          "en": "Goblin"
+          "en": "Goblin",
+          "level": "C1"
         },
         {
-          "en": "Gravestone"
+          "en": "Gravestone",
+          "level": "C1"
         },
         {
-          "en": "Graveyard / cemetery"
+          "en": "Graveyard / cemetery",
+          "level": "B2"
         },
         {
-          "en": "Halloween decorations"
+          "en": "Halloween decorations",
+          "level": "C1"
         },
         {
-          "en": "Haunted house"
+          "en": "Haunted house",
+          "level": "B2"
         },
         {
-          "en": "Jack-o’-lantern"
+          "en": "Jack-o’-lantern",
+          "level": "C1"
         },
         {
-          "en": "Magic"
+          "en": "Magic",
+          "level": "A2"
         },
         {
-          "en": "Mask"
+          "en": "Mask",
+          "level": "B1"
         },
         {
-          "en": "Monster"
+          "en": "Monster",
+          "level": "B1"
         },
         {
-          "en": "Mummy"
+          "en": "Mummy",
+          "level": "C1"
         },
         {
-          "en": "Owl"
+          "en": "Owl",
+          "level": "B2"
         },
         {
-          "en": "Pirate"
+          "en": "Pirate",
+          "level": "B2"
         },
         {
-          "en": "Potion"
+          "en": "Potion",
+          "level": "C1"
         },
         {
-          "en": "Pumpkin"
+          "en": "Pumpkin",
+          "level": "B2"
         },
         {
-          "en": "Scarecrow"
+          "en": "Scarecrow",
+          "level": "C1"
         },
         {
-          "en": "Skeleton"
+          "en": "Skeleton",
+          "level": "B2"
         },
         {
-          "en": "Skull"
+          "en": "Skull",
+          "level": "B2"
         },
         {
-          "en": "Spell"
+          "en": "Spell",
+          "level": "B1"
         },
         {
-          "en": "Spider"
+          "en": "Spider",
+          "level": "B1"
         },
         {
-          "en": "Spiderweb"
+          "en": "Spiderweb",
+          "level": "C1"
         },
         {
-          "en": "Sweets (UK) / candy (US)"
+          "en": "Sweets (UK) / candy (US)",
+          "level": "B1"
         },
         {
-          "en": "Trick or treat"
+          "en": "Trick or treat",
+          "level": "B1"
         },
         {
-          "en": "Troll"
+          "en": "Troll",
+          "level": "C1"
         },
         {
-          "en": "Vampire"
+          "en": "Vampire",
+          "level": "B2"
         },
         {
-          "en": "Werewolf"
+          "en": "Werewolf",
+          "level": "C1"
         },
         {
-          "en": "Witch"
+          "en": "Witch",
+          "level": "B2"
         },
         {
-          "en": "Wizard"
+          "en": "Wizard",
+          "level": "B2"
         },
         {
-          "en": "Zombie"
+          "en": "Zombie",
+          "level": "B2"
         }
       ]
     },
@@ -175,88 +228,116 @@
       "title": "Christmas vocabulary",
       "items": [
         {
-          "en": "Bow"
+          "en": "Bow",
+          "level": "B1"
         },
         {
-          "en": "Candy cane"
+          "en": "Candy cane",
+          "level": "C1"
         },
         {
-          "en": "Carol"
+          "en": "Carol",
+          "level": "B2"
         },
         {
-          "en": "Christmas card"
+          "en": "Christmas card",
+          "level": "A2"
         },
         {
-          "en": "Cracker"
+          "en": "Cracker",
+          "level": "C1"
         },
         {
-          "en": "Christmas Eve"
+          "en": "Christmas Eve",
+          "level": "B1"
         },
         {
-          "en": "Christmas tree"
+          "en": "Christmas tree",
+          "level": "A2"
         },
         {
-          "en": "Fireplace"
+          "en": "Fireplace",
+          "level": "C1"
         },
         {
-          "en": "Fireworks"
+          "en": "Fireworks",
+          "level": "B2"
         },
         {
-          "en": "Garlands"
+          "en": "Garlands",
+          "level": "C1"
         },
         {
-          "en": "Gifts / presents"
+          "en": "Gifts / presents",
+          "level": "B1"
         },
         {
-          "en": "Gingerbread man"
+          "en": "Gingerbread man",
+          "level": "C1"
         },
         {
-          "en": "Holly"
+          "en": "Holly",
+          "level": "B2"
         },
         {
-          "en": "Lights"
+          "en": "Lights",
+          "level": "A2"
         },
         {
-          "en": "Mistletoe"
+          "en": "Mistletoe",
+          "level": "C1"
         },
         {
-          "en": "Nativity"
+          "en": "Nativity",
+          "level": "C1"
         },
         {
-          "en": "New Year’s Eve"
+          "en": "New Year’s Eve",
+          "level": "A2"
         },
         {
-          "en": "Ornaments"
+          "en": "Ornaments",
+          "level": "C1"
         },
         {
-          "en": "Pudding"
+          "en": "Pudding",
+          "level": "C1"
         },
         {
-          "en": "Reindeer"
+          "en": "Reindeer",
+          "level": "C1"
         },
         {
-          "en": "Santa Claus / Father Christmas"
+          "en": "Santa Claus / Father Christmas",
+          "level": "A2"
         },
         {
-          "en": "Snow globe"
+          "en": "Snow globe",
+          "level": "B2"
         },
         {
-          "en": "Snowflake"
+          "en": "Snowflake",
+          "level": "C1"
         },
         {
-          "en": "snowman"
+          "en": "snowman",
+          "level": "C1"
         },
         {
-          "en": "Star"
+          "en": "Star",
+          "level": "A2"
         },
         {
-          "en": "Stocking"
+          "en": "Stocking",
+          "level": "C1"
         },
         {
-          "en": "Turkey"
+          "en": "Turkey",
+          "level": "A1"
         },
         {
-          "en": "Wreath"
+          "en": "Wreath",
+          "level": "C1"
         }
       ]
     },
@@ -264,40 +345,52 @@
       "title": "Thanksgiving Day vocabulary",
       "items": [
         {
-          "en": "Corn"
+          "en": "Corn",
+          "level": "B2"
         },
         {
-          "en": "Cranberry"
+          "en": "Cranberry",
+          "level": "C1"
         },
         {
-          "en": "Feast"
+          "en": "Feast",
+          "level": "B2"
         },
         {
-          "en": "Football"
+          "en": "Football",
+          "level": "A2"
         },
         {
-          "en": "Gravy"
+          "en": "Gravy",
+          "level": "C1"
         },
         {
-          "en": "Harvest"
+          "en": "Harvest",
+          "level": "B2"
         },
         {
-          "en": "Mashed potatoes"
+          "en": "Mashed potatoes",
+          "level": "C1"
         },
         {
-          "en": "Parade"
+          "en": "Parade",
+          "level": "B2"
         },
         {
-          "en": "Pilgrim"
+          "en": "Pilgrim",
+          "level": "C1"
         },
         {
-          "en": "Pumpkin pie"
+          "en": "Pumpkin pie",
+          "level": "C1"
         },
         {
-          "en": "Squash"
+          "en": "Squash",
+          "level": "C1"
         },
         {
-          "en": "Turkey"
+          "en": "Turkey",
+          "level": "A1"
         }
       ]
     },
@@ -305,61 +398,80 @@
       "title": "Valentine’s day vocabulary",
       "items": [
         {
-          "en": "Arrow"
+          "en": "Arrow",
+          "level": "B2"
         },
         {
-          "en": "Balloon"
+          "en": "Balloon",
+          "level": "B2"
         },
         {
-          "en": "Candy"
+          "en": "Candy",
+          "level": "B1"
         },
         {
-          "en": "Chocolate"
+          "en": "Chocolate",
+          "level": "A1"
         },
         {
-          "en": "Couple"
+          "en": "Couple",
+          "level": "A2"
         },
         {
-          "en": "Cupid"
+          "en": "Cupid",
+          "level": "C1"
         },
         {
-          "en": "Date"
+          "en": "Date",
+          "level": "B1"
         },
         {
-          "en": "February"
+          "en": "February",
+          "level": "A1"
         },
         {
-          "en": "Flowers"
+          "en": "Flowers",
+          "level": "A2"
         },
         {
-          "en": "Gift / present"
+          "en": "Gift / present",
+          "level": "A1"
         },
         {
-          "en": "Heart"
+          "en": "Heart",
+          "level": "A1"
         },
         {
-          "en": "Hug"
+          "en": "Hug",
+          "level": "B2"
         },
         {
-          "en": "Kiss"
+          "en": "Kiss",
+          "level": "A2"
         },
         {
-          "en": "Love"
+          "en": "Love",
+          "level": "A1"
         },
         {
-          "en": "Lover"
+          "en": "Lover",
+          "level": "B1"
         },
         {
-          "en": "Poem"
+          "en": "Poem",
+          "level": "B1"
         },
         {
-          "en": "Rose"
+          "en": "Rose",
+          "level": "A2"
         },
         {
-          "en": "Teddy bear"
+          "en": "Teddy bear",
+          "level": "B2"
         },
         {
-          "en": "Valentine card"
+          "en": "Valentine card",
+          "level": "C1"
         }
       ]
     },
@@ -367,31 +479,40 @@
       "title": "Easter Day vocabulary",
       "items": [
         {
-          "en": "Basket"
+          "en": "Basket",
+          "level": "B2"
         },
         {
-          "en": "Chocolate"
+          "en": "Chocolate",
+          "level": "A1"
         },
         {
-          "en": "Crucifixion"
+          "en": "Crucifixion",
+          "level": "C1"
         },
         {
-          "en": "Easter bunny"
+          "en": "Easter bunny",
+          "level": "C1"
         },
         {
-          "en": "Holy week"
+          "en": "Holy week",
+          "level": "A2"
         },
         {
-          "en": "Easter egg"
+          "en": "Easter egg",
+          "level": "B2"
         },
         {
-          "en": "Easter egg hunt"
+          "en": "Easter egg hunt",
+          "level": "B2"
         },
         {
-          "en": "Patterns"
+          "en": "Patterns",
+          "level": "B1"
         },
         {
-          "en": "Resurrection"
+          "en": "Resurrection",
+          "level": "C1"
         }
       ]
     }

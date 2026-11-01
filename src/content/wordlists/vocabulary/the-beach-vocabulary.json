@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Beach Vocabulary",
+  "titleEs": "La playa",
   "order": 29,
   "legacyPath": "lessons/vocabulary/the-beach-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the beach in English.",
@@ -9,106 +10,140 @@
       "title": "Beach vocabulary",
       "items": [
         {
-          "en": "Air mattress"
+          "en": "Air mattress",
+          "level": "C1"
         },
         {
-          "en": "Beach ball"
+          "en": "Beach ball",
+          "level": "A2"
         },
         {
-          "en": "Beach umbrella"
+          "en": "Beach umbrella",
+          "level": "B2"
         },
         {
-          "en": "Bikini"
+          "en": "Bikini",
+          "level": "C1"
         },
         {
-          "en": "Binoculars"
+          "en": "Binoculars",
+          "level": "C1"
         },
         {
-          "en": "Bucket"
+          "en": "Bucket",
+          "level": "B2"
         },
         {
-          "en": "Cooler / cool box"
+          "en": "Cooler / cool box",
+          "level": "A2"
         },
         {
-          "en": "Deckchair (UK) / beach chair (US)"
+          "en": "Deckchair (UK) / beach chair (US)",
+          "level": "B1"
         },
         {
-          "en": "Diver"
+          "en": "Diver",
+          "level": "C1"
         },
         {
-          "en": "Diving mask"
+          "en": "Diving mask",
+          "level": "B2"
         },
         {
-          "en": "Flip-flops"
+          "en": "Flip-flops",
+          "level": "C1"
         },
         {
-          "en": "Goggles"
+          "en": "Goggles",
+          "level": "C1"
         },
         {
-          "en": "Life guard"
+          "en": "Life guard",
+          "level": "A2"
         },
         {
-          "en": "Life jacket (UK) / life vest (US)"
+          "en": "Life jacket (UK) / life vest (US)",
+          "level": "B1"
         },
         {
-          "en": "Life preserver / buoy"
+          "en": "Life preserver / buoy",
+          "level": "C1"
         },
         {
-          "en": "Lighthouse"
+          "en": "Lighthouse",
+          "level": "C1"
         },
         {
-          "en": "Raft"
+          "en": "Raft",
+          "level": "C1"
         },
         {
-          "en": "Regulator"
+          "en": "Regulator",
+          "level": "C1"
         },
         {
-          "en": "Sand"
+          "en": "Sand",
+          "level": "B1"
         },
         {
-          "en": "Sandcastle"
+          "en": "Sandcastle",
+          "level": "C1"
         },
         {
-          "en": "Sea"
+          "en": "Sea",
+          "level": "A1"
         },
         {
-          "en": "Seashore"
+          "en": "Seashore",
+          "level": "C1"
         },
         {
-          "en": "Seaweed"
+          "en": "Seaweed",
+          "level": "B1"
         },
         {
-          "en": "Shell"
+          "en": "Shell",
+          "level": "B1"
         },
         {
-          "en": "Snorkel"
+          "en": "Snorkel",
+          "level": "C1"
         },
         {
-          "en": "Sunglasses"
+          "en": "Sunglasses",
+          "level": "C1"
         },
         {
-          "en": "Sunscreen"
+          "en": "Sunscreen",
+          "level": "C1"
         },
         {
-          "en": "Surfboard"
+          "en": "Surfboard",
+          "level": "C1"
         },
         {
-          "en": "Swim ring"
+          "en": "Swim ring",
+          "level": "B2"
         },
         {
-          "en": "Swimming suit / bathing suit"
+          "en": "Swimming suit / bathing suit",
+          "level": "B1"
         },
         {
-          "en": "Swimming trunks"
+          "en": "Swimming trunks",
+          "level": "C1"
         },
         {
-          "en": "Swimsuit"
+          "en": "Swimsuit",
+          "level": "C1"
         },
         {
-          "en": "Towel"
+          "en": "Towel",
+          "level": "B2"
         },
         {
-          "en": "Wave"
+          "en": "Wave",
+          "level": "B1"
         }
       ]
     }

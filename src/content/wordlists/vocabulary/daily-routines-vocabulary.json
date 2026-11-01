@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Daily Routines Vocabulary",
+  "titleEs": "Rutina diaria",
   "order": 16,
   "legacyPath": "lessons/vocabulary/daily-routines-vocabulary.html",
   "intro": "In this section you will learn vocabulary about daily routines in English.",
@@ -12,119 +13,148 @@
       "items": [
         {
           "en": "To wake up",
-          "es": "despertarse"
+          "es": "despertarse",
+          "level": "B1"
         },
         {
           "en": "To get up",
-          "es": "levantarse"
+          "es": "levantarse",
+          "level": "A1"
         },
         {
           "en": "To make my bed",
-          "es": "hacer la cama"
+          "es": "hacer la cama",
+          "level": "A1"
         },
         {
           "en": "To take a shower",
-          "es": "ducharse / bañarse"
+          "es": "ducharse / bañarse",
+          "level": "B1"
         },
         {
           "en": "To brush my teeth",
-          "es": "lavarse los dientes"
+          "es": "lavarse los dientes",
+          "level": "B2"
         },
         {
           "en": "To comb my hair",
-          "es": "peinarse"
+          "es": "peinarse",
+          "level": "C1"
         },
         {
           "en": "To get dressed",
-          "es": "vestirse"
+          "es": "vestirse",
+          "level": "B1"
         },
         {
           "en": "To have breakfast",
-          "es": "desayunar"
+          "es": "desayunar",
+          "level": "A1"
         },
         {
           "en": "To drive / go to work",
-          "es": "ir en coche al trabajo / ir al trabajo"
+          "es": "ir en coche al trabajo / ir al trabajo",
+          "level": "A1"
         },
         {
           "en": "To start work",
-          "es": "empezar a trabajar"
+          "es": "empezar a trabajar",
+          "level": "A1"
         },
         {
           "en": "To finish work",
-          "es": "terminar de trabajar"
+          "es": "terminar de trabajar",
+          "level": "A1"
         },
         {
           "en": "To get / arrive home",
-          "es": "llegar a casa"
+          "es": "llegar a casa",
+          "level": "A1"
         },
         {
           "en": "To go to school",
-          "es": "ir a la escuela"
+          "es": "ir a la escuela",
+          "level": "A1"
         },
         {
           "en": "To eat lunch",
-          "es": "almorzar"
+          "es": "almorzar",
+          "level": "A2"
         },
         {
           "en": "To do my homework",
-          "es": "hacer la tarea / los deberes"
+          "es": "hacer la tarea / los deberes",
+          "level": "B2"
         },
         {
           "en": "To study",
-          "es": "estudiar"
+          "es": "estudiar",
+          "level": "A2"
         },
         {
           "en": "To watch television",
-          "es": "ver la televisión"
+          "es": "ver la televisión",
+          "level": "A2"
         },
         {
           "en": "To do the laundry",
-          "es": "lavar la ropa"
+          "es": "lavar la ropa",
+          "level": "B2"
         },
         {
           "en": "To iron the clothes",
-          "es": "planchar la ropa"
+          "es": "planchar la ropa",
+          "level": "B1"
         },
         {
           "en": "To hang the clothes",
-          "es": "tender la ropa"
+          "es": "tender la ropa",
+          "level": "B1"
         },
         {
           "en": "To sweep the floor",
-          "es": "barrer el piso / suelo"
+          "es": "barrer el piso / suelo",
+          "level": "B2"
         },
         {
           "en": "To vacuum the floor",
-          "es": "pasar la aspiradora"
+          "es": "pasar la aspiradora",
+          "level": "B2"
         },
         {
           "en": "To do the dishes",
-          "es": "lavar los platos"
+          "es": "lavar los platos",
+          "level": "B2"
         },
         {
           "en": "To take out the rubbish",
-          "es": "sacar la basura"
+          "es": "sacar la basura",
+          "level": "B2"
         },
         {
           "en": "To read the paper",
-          "es": "leer el periódico"
+          "es": "leer el periódico",
+          "level": "A2"
         },
         {
           "en": "To wash the car",
-          "es": "lavar el coche / carro"
+          "es": "lavar el coche / carro",
+          "level": "B1"
         },
         {
           "en": "To have dinner",
-          "es": "cenar"
+          "es": "cenar",
+          "level": "A1"
         },
         {
           "en": "To go to bed",
-          "es": "acostarse / irse a dormir"
+          "es": "acostarse / irse a dormir",
+          "level": "A1"
         },
         {
           "en": "To fall asleep / sleep",
-          "es": "dormirse / dormir"
+          "es": "dormirse / dormir",
+          "level": "A1"
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Days of the Week and Times of the Day",
+  "titleEs": "Días de la semana y momentos del día",
   "order": 3,
   "legacyPath": "lessons/vocabulary/days-of-the-week-and-times-of-the-day.html",
   "intro": "In this section of vocabulary, you will learn the days of the week and the times of the day.",
@@ -12,31 +13,38 @@
       "items": [
         {
           "en": "Monday",
-          "es": "lunes"
+          "es": "lunes",
+          "level": "A1"
         },
         {
           "en": "Tuesday",
-          "es": "martes"
+          "es": "martes",
+          "level": "A1"
         },
         {
           "en": "Wednesday",
-          "es": "miércoles"
+          "es": "miércoles",
+          "level": "A1"
         },
         {
           "en": "Thursday",
-          "es": "jueves"
+          "es": "jueves",
+          "level": "A1"
         },
         {
           "en": "Friday",
-          "es": "viernes"
+          "es": "viernes",
+          "level": "A1"
         },
         {
           "en": "Saturday",
-          "es": "sábado"
+          "es": "sábado",
+          "level": "A1"
         },
         {
           "en": "Sunday",
-          "es": "domingo"
+          "es": "domingo",
+          "level": "A1"
         }
       ]
     },
@@ -45,43 +53,53 @@
       "items": [
         {
           "en": "Sunrise",
-          "es": "amanecer / salida del sol"
+          "es": "amanecer / salida del sol",
+          "level": "B2"
         },
         {
           "en": "Morning",
-          "es": "mañana"
+          "es": "mañana",
+          "level": "A2"
         },
         {
           "en": "Midday or noon",
-          "es": "mediodía"
+          "es": "mediodía",
+          "level": "A1"
         },
         {
           "en": "Afternoon",
-          "es": "tarde"
+          "es": "tarde",
+          "level": "A2"
         },
         {
           "en": "Sunset",
-          "es": "puesta del sol / atardecer"
+          "es": "puesta del sol / atardecer",
+          "level": "B2"
         },
         {
           "en": "Dusk",
-          "es": "anochecer / crepúsculo"
+          "es": "anochecer / crepúsculo",
+          "level": "C1"
         },
         {
           "en": "Evening",
-          "es": "tarde-noche (al anochecer)"
+          "es": "tarde-noche (al anochecer)",
+          "level": "A2"
         },
         {
           "en": "Night",
-          "es": "noche"
+          "es": "noche",
+          "level": "A2"
         },
         {
           "en": "Midnight",
-          "es": "medianoche"
+          "es": "medianoche",
+          "level": "A1"
         },
         {
           "en": "Dawn",
-          "es": "alba / amanecer"
+          "es": "alba / amanecer",
+          "level": "B1"
         }
       ]
     }

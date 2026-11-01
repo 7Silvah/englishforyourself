@@ -59,6 +59,9 @@ export const Word = z.strictObject({
   es: z.string().optional(), // "Erizo"
   ipa: z.string().optional(), // pronunciación británica, sin barras: "ˈæp.l̩"
   pos: PartOfSpeech.optional(),
+  // Nivel de la palabra (F17c V5): el de Face2Face si sale en sus listas; si no, por su
+  // frecuencia de uso (scripts/vocabulary-levels.ts). Sin él, vale el `level` de la lista.
+  level: Level.optional(),
   meanings: z.array(z.string()).optional(), // definiciones en inglés (phrasal verbs, idioms)
   example: z.string().optional(),
   exampleEs: z.string().optional(),

@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Education Vocabulary",
+  "titleEs": "Educación",
   "order": 38,
   "legacyPath": "lessons/vocabulary/education-vocabulary.html",
   "intro": "In this section you will learn vocabulary about education in English.",
@@ -9,118 +10,156 @@
       "title": "Education vocabulary",
       "items": [
         {
-          "en": "Kindergarten"
+          "en": "Kindergarten",
+          "level": "C1"
         },
         {
-          "en": "Nursery school"
+          "en": "Nursery school",
+          "level": "B2"
         },
         {
-          "en": "Primary school (UK) / elementary school (US)"
+          "en": "Primary school (UK) / elementary school (US)",
+          "level": "A2"
         },
         {
-          "en": "Secondary school (UK) / high school (US)"
+          "en": "Secondary school (UK) / high school (US)",
+          "level": "A1"
         },
         {
-          "en": "College"
+          "en": "College",
+          "level": "A2"
         },
         {
-          "en": "University"
+          "en": "University",
+          "level": "A1"
         },
         {
-          "en": "Attendance"
+          "en": "Attendance",
+          "level": "B2"
         },
         {
-          "en": "Bachelor’s degree"
+          "en": "Bachelor’s degree",
+          "level": "C1"
         },
         {
-          "en": "Basic education"
+          "en": "Basic education",
+          "level": "A2"
         },
         {
-          "en": "Boarding school"
+          "en": "Boarding school",
+          "level": "B2"
         },
         {
-          "en": "Campus"
+          "en": "Campus",
+          "level": "A2"
         },
         {
-          "en": "Class"
+          "en": "Class",
+          "level": "B1"
         },
         {
-          "en": "Course"
+          "en": "Course",
+          "level": "A2"
         },
         {
-          "en": "Diploma"
+          "en": "Diploma",
+          "level": "C1"
         },
         {
-          "en": "Dissertation"
+          "en": "Dissertation",
+          "level": "C1"
         },
         {
-          "en": "Examination"
+          "en": "Examination",
+          "level": "B1"
         },
         {
-          "en": "Faculty"
+          "en": "Faculty",
+          "level": "B1"
         },
         {
-          "en": "Graduation"
+          "en": "Graduation",
+          "level": "B2"
         },
         {
-          "en": "Higher education"
+          "en": "Higher education",
+          "level": "A2"
         },
         {
-          "en": "Homework"
+          "en": "Homework",
+          "level": "A2"
         },
         {
-          "en": "Master’s degree"
+          "en": "Master’s degree",
+          "level": "C1"
         },
         {
-          "en": "Master’s student"
+          "en": "Master’s student",
+          "level": "C1"
         },
         {
-          "en": "Online education"
+          "en": "Online education",
+          "level": "A2"
         },
         {
-          "en": "PhD students"
+          "en": "PhD students",
+          "level": "B2"
         },
         {
-          "en": "Private school"
+          "en": "Private school",
+          "level": "A1"
         },
         {
-          "en": "Professor"
+          "en": "Professor",
+          "level": "A2"
         },
         {
-          "en": "Researcher"
+          "en": "Researcher",
+          "level": "B2"
         },
         {
-          "en": "Schoolyard"
+          "en": "Schoolyard",
+          "level": "C1"
         },
         {
-          "en": "Semester"
+          "en": "Semester",
+          "level": "B2"
         },
         {
-          "en": "State school"
+          "en": "State school",
+          "level": "A1"
         },
         {
-          "en": "Student loan"
+          "en": "Student loan",
+          "level": "A2"
         },
         {
-          "en": "Students / pupils"
+          "en": "Students / pupils",
+          "level": "A1"
         },
         {
-          "en": "Teacher"
+          "en": "Teacher",
+          "level": "A1"
         },
         {
-          "en": "Technical college"
+          "en": "Technical college",
+          "level": "A2"
         },
         {
-          "en": "Thesis"
+          "en": "Thesis",
+          "level": "B2"
         },
         {
-          "en": "Tuition"
+          "en": "Tuition",
+          "level": "B2"
         },
         {
-          "en": "Undergraduate"
+          "en": "Undergraduate",
+          "level": "B2"
         },
         {
-          "en": "Vocational college"
+          "en": "Vocational college",
+          "level": "C1"
         }
       ]
     }

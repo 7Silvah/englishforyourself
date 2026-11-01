@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Makeup and Personal Care Vocabulary",
+  "titleEs": "Maquillaje e higiene personal",
   "order": 19,
   "legacyPath": "lessons/vocabulary/makeup-and-personal-care-vocabulary.html",
   "intro": "In this section you will find vocabulary about makeup and personal care in English.",
@@ -9,67 +10,88 @@
       "title": "Makeup and cosmetics vocabulary",
       "items": [
         {
-          "en": "Blush"
+          "en": "Blush",
+          "level": "B1"
         },
         {
-          "en": "Brightener"
+          "en": "Brightener",
+          "level": "C1"
         },
         {
-          "en": "Bronzer"
+          "en": "Bronzer",
+          "level": "C1"
         },
         {
-          "en": "Brushes"
+          "en": "Brushes",
+          "level": "C1"
         },
         {
-          "en": "Concealer"
+          "en": "Concealer",
+          "level": "C1"
         },
         {
-          "en": "Curling tong"
+          "en": "Curling tong",
+          "level": "C1"
         },
         {
-          "en": "Eye liner"
+          "en": "Eye liner",
+          "level": "C1"
         },
         {
-          "en": "Eye shadow"
+          "en": "Eye shadow",
+          "level": "B1"
         },
         {
-          "en": "Face powder"
+          "en": "Face powder",
+          "level": "B1"
         },
         {
-          "en": "Foundation"
+          "en": "Foundation",
+          "level": "A2"
         },
         {
-          "en": "Hair dryer"
+          "en": "Hair dryer",
+          "level": "C1"
         },
         {
-          "en": "Lip gloss"
+          "en": "Lip gloss",
+          "level": "C1"
         },
         {
-          "en": "Lip liner"
+          "en": "Lip liner",
+          "level": "C1"
         },
         {
-          "en": "Lipstick"
+          "en": "Lipstick",
+          "level": "C1"
         },
         {
-          "en": "Lotion"
+          "en": "Lotion",
+          "level": "C1"
         },
         {
-          "en": "Makeup kit"
+          "en": "Makeup kit",
+          "level": "B2"
         },
         {
-          "en": "Mascara"
+          "en": "Mascara",
+          "level": "C1"
         },
         {
-          "en": "Nail polish"
+          "en": "Nail polish",
+          "level": "B2"
         },
         {
-          "en": "Primer"
+          "en": "Primer",
+          "level": "C1"
         },
         {
-          "en": "Sponge"
+          "en": "Sponge",
+          "level": "C1"
         },
         {
-          "en": "Straightener"
+          "en": "Straightener",
+          "level": "C1"
         }
       ]
     },
@@ -77,52 +99,68 @@
       "title": "Personal care vocabulary",
       "items": [
         {
-          "en": "Conditioner"
+          "en": "Conditioner",
+          "level": "C1"
         },
         {
-          "en": "Cotton buds (UK) / cotton swabs (US)"
+          "en": "Cotton buds (UK) / cotton swabs (US)",
+          "level": "C1"
         },
         {
-          "en": "Dental floss"
+          "en": "Dental floss",
+          "level": "C1"
         },
         {
-          "en": "Deodorant"
+          "en": "Deodorant",
+          "level": "C1"
         },
         {
-          "en": "Hair gel"
+          "en": "Hair gel",
+          "level": "B2"
         },
         {
-          "en": "Hair spray"
+          "en": "Hair spray",
+          "level": "B2"
         },
         {
-          "en": "Hand lotion"
+          "en": "Hand lotion",
+          "level": "C1"
         },
         {
-          "en": "Mouthwash"
+          "en": "Mouthwash",
+          "level": "C1"
         },
         {
-          "en": "Nail polish remover"
+          "en": "Nail polish remover",
+          "level": "C1"
         },
         {
-          "en": "Perfume / cologne"
+          "en": "Perfume / cologne",
+          "level": "B1"
         },
         {
-          "en": "Razor"
+          "en": "Razor",
+          "level": "C1"
         },
         {
-          "en": "Shampoo"
+          "en": "Shampoo",
+          "level": "C1"
         },
         {
-          "en": "Tissues"
+          "en": "Tissues",
+          "level": "B2"
         },
         {
-          "en": "Toothbrush"
+          "en": "Toothbrush",
+          "level": "C1"
         },
         {
-          "en": "Toothpaste"
+          "en": "Toothpaste",
+          "level": "C1"
         },
         {
-          "en": "Tweezers"
+          "en": "Tweezers",
+          "level": "C1"
         }
       ]
     },
@@ -130,43 +168,56 @@
       "title": "Skincare products vocabulary",
       "items": [
         {
-          "en": "Day / night cream"
+          "en": "Day / night cream",
+          "level": "A1"
         },
         {
-          "en": "Essence"
+          "en": "Essence",
+          "level": "B2"
         },
         {
-          "en": "Exfoliant"
+          "en": "Exfoliant",
+          "level": "C1"
         },
         {
-          "en": "Eye cream"
+          "en": "Eye cream",
+          "level": "B1"
         },
         {
-          "en": "Facial spray"
+          "en": "Facial spray",
+          "level": "B2"
         },
         {
-          "en": "Foam cleanser"
+          "en": "Foam cleanser",
+          "level": "C1"
         },
         {
-          "en": "Lip balm"
+          "en": "Lip balm",
+          "level": "C1"
         },
         {
-          "en": "Moisturizer"
+          "en": "Moisturizer",
+          "level": "C1"
         },
         {
-          "en": "Oil cleanser"
+          "en": "Oil cleanser",
+          "level": "C1"
         },
         {
-          "en": "Serum"
+          "en": "Serum",
+          "level": "C1"
         },
         {
-          "en": "Sheet mask"
+          "en": "Sheet mask",
+          "level": "B2"
         },
         {
-          "en": "Sunscreen"
+          "en": "Sunscreen",
+          "level": "C1"
         },
         {
-          "en": "Toner"
+          "en": "Toner",
+          "level": "C1"
         }
       ]
     }

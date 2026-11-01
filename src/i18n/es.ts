@@ -398,11 +398,21 @@ export const es = {
     emptySection: "Esta sección todavía no tiene lecciones.",
     // Tabla de las listas por nivel (F17c)
     vocabularyTable: {
+      intro:
+        "Todas las palabras de la Biblioteca en una tabla. El nivel es el del curso Face2Face cuando la palabra sale en él; si no, depende de lo común que es en inglés: cuanto menos se usa, más alto.",
+      caption: "Palabras del vocabulario",
+      topicsCount: (n: number) => (n === 1 ? "1 tema" : `${n} temas`),
       search: "Buscar en la lista",
       searchPlaceholder: "Palabra en inglés o en español",
+      level: "Nivel",
+      topic: "Tema",
+      allTopics: "Todos los temas",
       letter: "Letra",
       type: "Tipo",
       all: "Todas",
+      allLevels: "Todos",
+      topicsOf: "Temas",
+      showMore: (n: number) => `Mostrar ${n} más`,
       types: {
         noun: "Sustantivos",
         verb: "Verbos",
@@ -432,6 +442,7 @@ export const es = {
       },
       columns: {
         word: "Palabra",
+        level: "Nivel",
         type: "Tipo",
         spanish: "Español",
         meaning: "Significado y ejemplo",

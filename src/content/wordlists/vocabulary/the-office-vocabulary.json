@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Office Vocabulary",
+  "titleEs": "La oficina",
   "order": 28,
   "legacyPath": "lessons/vocabulary/the-office-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the office in English.",
@@ -9,115 +10,152 @@
       "title": "The office vocabulary",
       "items": [
         {
-          "en": "Bin"
+          "en": "Bin",
+          "level": "B1"
         },
         {
-          "en": "Box"
+          "en": "Box",
+          "level": "A2"
         },
         {
-          "en": "Briefcase"
+          "en": "Briefcase",
+          "level": "C1"
         },
         {
-          "en": "Bulletin board"
+          "en": "Bulletin board",
+          "level": "C1"
         },
         {
-          "en": "Calendar"
+          "en": "Calendar",
+          "level": "B1"
         },
         {
-          "en": "Clipboard"
+          "en": "Clipboard",
+          "level": "C1"
         },
         {
-          "en": "Computer"
+          "en": "Computer",
+          "level": "A1"
         },
         {
-          "en": "Copier"
+          "en": "Copier",
+          "level": "C1"
         },
         {
-          "en": "Cubicle"
+          "en": "Cubicle",
+          "level": "C1"
         },
         {
-          "en": "Desk"
+          "en": "Desk",
+          "level": "A2"
         },
         {
-          "en": "Drawer"
+          "en": "Drawer",
+          "level": "B1"
         },
         {
-          "en": "Envelope"
+          "en": "Envelope",
+          "level": "A2"
         },
         {
-          "en": "Fax machine"
+          "en": "Fax machine",
+          "level": "C1"
         },
         {
-          "en": "File"
+          "en": "File",
+          "level": "A2"
         },
         {
-          "en": "File folder"
+          "en": "File folder",
+          "level": "C1"
         },
         {
-          "en": "Filing cabinet"
+          "en": "Filing cabinet",
+          "level": "B2"
         },
         {
-          "en": "Keyboard"
+          "en": "Keyboard",
+          "level": "B2"
         },
         {
-          "en": "Marker"
+          "en": "Marker",
+          "level": "B2"
         },
         {
-          "en": "Monitor"
+          "en": "Monitor",
+          "level": "B1"
         },
         {
-          "en": "Mouse"
+          "en": "Mouse",
+          "level": "A2"
         },
         {
-          "en": "Paperclip"
+          "en": "Paperclip",
+          "level": "C1"
         },
         {
-          "en": "Pencil"
+          "en": "Pencil",
+          "level": "A1"
         },
         {
-          "en": "Pencil holder"
+          "en": "Pencil holder",
+          "level": "C1"
         },
         {
-          "en": "Photocopier"
+          "en": "Photocopier",
+          "level": "C1"
         },
         {
-          "en": "Photocopy"
+          "en": "Photocopy",
+          "level": "C1"
         },
         {
-          "en": "Scanner"
+          "en": "Scanner",
+          "level": "C1"
         },
         {
-          "en": "Scotch tape"
+          "en": "Scotch tape",
+          "level": "C1"
         },
         {
-          "en": "Sheet of paper"
+          "en": "Sheet of paper",
+          "level": "B1"
         },
         {
-          "en": "Shredder"
+          "en": "Shredder",
+          "level": "B1"
         },
         {
-          "en": "Staple"
+          "en": "Staple",
+          "level": "C1"
         },
         {
-          "en": "Staple remover"
+          "en": "Staple remover",
+          "level": "C1"
         },
         {
-          "en": "Stapler"
+          "en": "Stapler",
+          "level": "C1"
         },
         {
-          "en": "Tape"
+          "en": "Tape",
+          "level": "B1"
         },
         {
-          "en": "Telephone"
+          "en": "Telephone",
+          "level": "B1"
         },
         {
-          "en": "Waste bin"
+          "en": "Waste bin",
+          "level": "B2"
         },
         {
-          "en": "Water cooler"
+          "en": "Water cooler",
+          "level": "B2"
         },
         {
-          "en": "White board"
+          "en": "White board",
+          "level": "A1"
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Members of the Family Vocabulary",
+  "titleEs": "La familia",
   "order": 11,
   "legacyPath": "lessons/vocabulary/members-of-the-family-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the members of the family in English.",
@@ -12,188 +13,234 @@
       "items": [
         {
           "en": "Great-grandmother",
-          "es": "bisabuela"
+          "es": "bisabuela",
+          "level": "B2"
         },
         {
           "en": "Great-grandfather",
-          "es": "bisabuelo"
+          "es": "bisabuelo",
+          "level": "B1"
         },
         {
           "en": "Great-aunt",
-          "es": "tía abuela"
+          "es": "tía abuela",
+          "level": "B2"
         },
         {
           "en": "Great-uncle",
-          "es": "tío abuelo"
+          "es": "tío abuelo",
+          "level": "B1"
         },
         {
           "en": "Grandparents",
-          "es": "abuelos"
+          "es": "abuelos",
+          "level": "B2"
         },
         {
           "en": "Grandmother",
-          "es": "abuela"
+          "es": "abuela",
+          "level": "A1"
         },
         {
           "en": "Grandfather",
-          "es": "abuelo"
+          "es": "abuelo",
+          "level": "A1"
         },
         {
           "en": "Grandchildren",
-          "es": "nietos"
+          "es": "nietos",
+          "level": "A2"
         },
         {
           "en": "Grandson",
-          "es": "nieto"
+          "es": "nieto",
+          "level": "A1"
         },
         {
           "en": "Granddaughter",
-          "es": "nieta"
+          "es": "nieta",
+          "level": "A1"
         },
         {
           "en": "Aunt",
-          "es": "tía"
+          "es": "tía",
+          "level": "A2"
         },
         {
           "en": "Uncle",
-          "es": "tío"
+          "es": "tío",
+          "level": "A2"
         },
         {
           "en": "Parents",
           "es": "padres",
+          "level": "A1",
           "falseFriend": "parientes"
         },
         {
           "en": "Husband",
-          "es": "esposo / marido"
+          "es": "esposo / marido",
+          "level": "A1"
         },
         {
           "en": "Wife",
-          "es": "esposa"
+          "es": "esposa",
+          "level": "A1"
         },
         {
           "en": "Father",
-          "es": "padre"
+          "es": "padre",
+          "level": "A1"
         },
         {
           "en": "Mother",
-          "es": "madre"
+          "es": "madre",
+          "level": "A1"
         },
         {
           "en": "Brother-in-law",
-          "es": "cuñado"
+          "es": "cuñado",
+          "level": "A2"
         },
         {
           "en": "Sister-in-law",
-          "es": "cuñada"
+          "es": "cuñada",
+          "level": "A2"
         },
         {
           "en": "Mother-in-law",
-          "es": "suegra"
+          "es": "suegra",
+          "level": "A1"
         },
         {
           "en": "Father-in-law",
-          "es": "suegro"
+          "es": "suegro",
+          "level": "A1"
         },
         {
           "en": "Son",
-          "es": "hijo"
+          "es": "hijo",
+          "level": "A1"
         },
         {
           "en": "Daughter",
-          "es": "hija"
+          "es": "hija",
+          "level": "A1"
         },
         {
           "en": "Sibling(s)",
-          "es": "hermano(s) (sin indicar si es hombre o mujer)"
+          "es": "hermano(s) (sin indicar si es hombre o mujer)",
+          "level": "C1"
         },
         {
           "en": "Sister",
-          "es": "hermana"
+          "es": "hermana",
+          "level": "A1"
         },
         {
           "en": "Brother",
-          "es": "hermano"
+          "es": "hermano",
+          "level": "A1"
         },
         {
           "en": "Cousin",
-          "es": "primo / prima"
+          "es": "primo / prima",
+          "level": "A2"
         },
         {
           "en": "Niece",
-          "es": "sobrina"
+          "es": "sobrina",
+          "level": "B2"
         },
         {
           "en": "Nephew",
-          "es": "sobrino"
+          "es": "sobrino",
+          "level": "B2"
         },
         {
           "en": "Daughter-in-law",
-          "es": "nuera"
+          "es": "nuera",
+          "level": "A2"
         },
         {
           "en": "Son-in-law",
-          "es": "yerno"
+          "es": "yerno",
+          "level": "A1"
         },
         {
           "en": "Godmother",
-          "es": "madrina"
+          "es": "madrina",
+          "level": "C1"
         },
         {
           "en": "Godfather",
-          "es": "padrino"
+          "es": "padrino",
+          "level": "C1"
         },
         {
           "en": "Stepmother",
-          "es": "madrastra"
+          "es": "madrastra",
+          "level": "C1"
         },
         {
           "en": "Stepfather",
-          "es": "padrastro"
+          "es": "padrastro",
+          "level": "C1"
         },
         {
           "en": "Stepdaughter",
-          "es": "hijastra"
+          "es": "hijastra",
+          "level": "C1"
         },
         {
           "en": "Stepson",
-          "es": "hijastro"
+          "es": "hijastro",
+          "level": "C1"
         },
         {
           "en": "Half-sister",
-          "es": "media hermana"
+          "es": "media hermana",
+          "level": "A2"
         },
         {
           "en": "Half-brother",
-          "es": "medio hermano"
+          "es": "medio hermano",
+          "level": "A2"
         },
         {
           "en": "Great-great granddaughter",
-          "es": "tataranieta"
+          "es": "tataranieta",
+          "level": "C1"
         },
         {
           "en": "Great-great grandson",
-          "es": "tataranieto"
+          "es": "tataranieto",
+          "level": "B2"
         },
         {
           "en": "Firstborn",
-          "es": "primogénito / primogénita"
+          "es": "primogénito / primogénita",
+          "level": "C1"
         },
         {
           "en": "Descendants",
-          "es": "descendientes"
+          "es": "descendientes",
+          "level": "C1"
         },
         {
           "en": "Twins",
-          "es": "gemelos / mellizos"
+          "es": "gemelos / mellizos",
+          "level": "B2"
         },
         {
           "en": "Relative",
-          "es": "pariente / familiar"
+          "es": "pariente / familiar",
+          "level": "B1"
         },
         {
           "en": "Acquaintance",
-          "es": "conocido / conocida"
+          "es": "conocido / conocida",
+          "level": "C1"
         }
       ]
     }
