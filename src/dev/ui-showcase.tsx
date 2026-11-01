@@ -1,10 +1,15 @@
 // Página de muestra del sistema de diseño: solo existe en desarrollo (/dev/ui).
 // Sus textos van sueltos a propósito: no es interfaz para el estudiante.
+import { X } from "lucide-react";
 import type { ReactNode } from "react";
 import { toast } from "sonner";
 import { Badge } from "@/components/ui/badge";
 import { LEVELS } from "@/content/levels";
-import { LevelBadge } from "@/features/vocabulary/level-badge";
+import { filterChip, segmentedItem } from "@/components/shared/filter-styles";
+import { LevelBadge } from "@/components/shared/level-badge";
+import { SectionCard } from "@/components/shared/section-card";
+import { Segmented } from "@/components/shared/segmented";
+import { SpeakButton } from "@/components/shared/speak-button";
 import { Button } from "@/components/ui/button";
 import { Formula } from "@/components/lesson/formula";
 import { Modes } from "@/components/lesson/modes";
@@ -142,15 +147,46 @@ export function UiShowcase() {
           <SentenceBlocks pieces={question} swap />
         </Section>
 
-        <Section title="Niveles del MCER">
+        <Section title="Componentes compartidos (U2)">
           <p className="text-sm text-muted-foreground">
-            Tokens level-a1 … level-c1 (Vocabulario): tonos propios, distintos de los modos.
+            src/components/shared: los mismos en toda la app. Niveles con tokens level-a1 …
+            level-c1, tonos propios y distintos de los modos gramaticales.
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             {LEVELS.map((level) => (
               <LevelBadge key={level} level={level} />
             ))}
           </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <SpeakButton text="Hello" size="sm" />
+            <SpeakButton text="Hello" />
+            <SpeakButton text="Hello" size="lg" />
+            <span className="text-sm text-muted-foreground">SpeakButton sm · md · lg</span>
+          </div>
+          <div className="flex flex-wrap items-center gap-6">
+            <Segmented label="Nivel">
+              <button type="button" aria-pressed="false" className={segmentedItem()}>
+                Todos
+              </button>
+              <button type="button" aria-pressed="true" className={segmentedItem({ active: true })}>
+                A1
+              </button>
+              <button type="button" aria-pressed="false" className={segmentedItem()}>
+                A2
+              </button>
+            </Segmented>
+            <span className={filterChip()}>
+              Nivel: A1 <X aria-hidden />
+            </span>
+          </div>
+          <SectionCard
+            header={
+              <span className="text-sm font-semibold tracking-wider uppercase">Cabecera</span>
+            }
+            footer={<span className="text-sm text-muted-foreground">Pie</span>}
+          >
+            <p className="p-4 md:px-6">SectionCard: cuerpo sin relleno propio.</p>
+          </SectionCard>
         </Section>
 
         <Section title="Estados de corrección">

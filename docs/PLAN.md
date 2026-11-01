@@ -13,7 +13,7 @@
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
-| U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
+| U · Refresco visual | U1–U2 | 🟨 en curso — U1 ✅ U2 🟨 |
 | 4 · Gramática intermedia (B1–B2) | F16–F17c | ✅ terminada — F16 ✅ F17 ✅ F17b ✅ F17c ✅ (V1–V6) |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -160,6 +160,27 @@ XP y el objeto en morado (la regla fija lo quiere gris).
 - [x] Tense Lab: bloques redondeados, como en `Formula`.
 - [x] Corrección del player: icono en un círculo a la izquierda y el texto a su lado.
 - [x] `/dev/ui` muestra los componentes reales (no copias) y las superficies. 193 tests.
+
+#### U2 — Sistema visual unificado
+Añadida el 01/11/2026, antes de F18 (decidido por el dueño del repo): lo que se diseñó para
+Vocabulario en F17c V6 pasa a toda la app y queda como regla. Rama `u2-sistema-visual`,
+creada desde `f17c-vocabulario-v6` (aún sin fusionar).
+- [x] **Paso 1 · Componentes compartidos** en `src/components/shared/`: `LevelBadge` (nivel
+  con su color; movido desde Vocabulario), `SpeakButton` redondo (círculo con el icono de
+  audio, tamaños `sm`/`md`/`lg`; se oculta si no hay voces en inglés; movido desde
+  `components/lesson`), `Segmented` y estilos `segmentedItem`/`filterChip` (`cva`, como
+  `buttonVariants`, para el `<Link>` tipado de cada pantalla) y `SectionCard` (tarjeta con
+  cabecera y pie). Vocabulario ya los usa; las listas de la Biblioteca, las lecciones, la
+  corrección y las flashcards ya tienen el 🔊 redondo. Se ven en `/dev/ui` («Componentes
+  compartidos (U2)») y `CLAUDE.md` tiene la carpeta en «Dónde va cada cosa». 254 tests,
+  JS inicial 201,6 KB gzip (sin cambios).
+- [ ] **Paso 2 · Aplicarlos en toda la app**: curso (badge y color de acento de cada nivel),
+  ejercicios (catálogo con filtros segmentados y chips), prueba de nivel, progreso, Tense
+  Lab, flashcards, lecciones y `/dev/revision`.
+- [ ] **Paso 3 · Regla escrita**: sección «Reglas» en `/dev/ui` (cada patrón, cuándo se usa y
+  un ejemplo vivo), §9.2 de este plan y una línea en `CLAUDE.md`.
+- [ ] **Paso 4 · Comprobar**: tests de los componentes, JS inicial y cada pantalla en el
+  navegador en claro y oscuro.
 
 **Listo cuando:** `/dev/ui`, una unidad y un ejercicio se ven con el estilo nuevo en claro y en oscuro, con contraste AA. ✅
 

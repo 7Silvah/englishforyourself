@@ -2,7 +2,11 @@ import { Link, useNavigate } from "@tanstack/react-router";
 import { Search, Star, X } from "lucide-react";
 import { useEffect, useRef, type ReactNode } from "react";
 import { FalseFriendBadge } from "@/components/lesson/false-friend-badge";
-import { SpeakButton } from "@/components/lesson/speak-button";
+import { filterChip, segmentedItem } from "@/components/shared/filter-styles";
+import { LevelBadge } from "@/components/shared/level-badge";
+import { SectionCard } from "@/components/shared/section-card";
+import { Segmented } from "@/components/shared/segmented";
+import { SpeakButton } from "@/components/shared/speak-button";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { NativeSelect, NativeSelectOption } from "@/components/ui/native-select";
@@ -11,7 +15,6 @@ import { LEVELS } from "@/content/levels";
 import { useSettingsStore } from "@/features/settings/store";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
-import { LevelBadge } from "./level-badge";
 import {
   countByTopic,
   pageNumbers,
@@ -49,28 +52,10 @@ function FilterLink({
       search={search}
       replace
       aria-current={active ? "true" : undefined}
-      className={cn(
-        "rounded-md px-2.5 py-1 text-sm transition-colors hover:bg-muted hover:text-foreground",
-        active
-          ? "bg-primary font-semibold text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground"
-          : "text-muted-foreground",
-        className,
-      )}
+      className={cn(segmentedItem({ active }), className)}
     >
       {children}
     </Link>
-  );
-}
-
-// Grupo de opciones con aspecto de control segmentado (Nivel, Tipo)
-function Segmented({ label, children }: { label: string; children: ReactNode }) {
-  return (
-    <div role="group" aria-label={label} className="flex flex-wrap items-center gap-2">
-      <span className="text-xs font-semibold tracking-wider text-muted-foreground uppercase">
-        {label}
-      </span>
-      <div className="flex flex-wrap gap-0.5 rounded-lg border bg-background p-0.5">{children}</div>
-    </div>
   );
 }
 
@@ -105,11 +90,7 @@ function WordRow({
     <tr className="relative grid gap-2 border-b px-4 py-4 last:border-b-0 md:table-row md:px-0">
       <td className="align-top md:w-60 md:py-4 md:pl-6">
         <div className="flex items-start gap-2 pr-10 md:pr-0">
-          <SpeakButton
-            text={word.en}
-            label={t.listenWord(word.en)}
-            className="mt-0.5 size-8 shrink-0 rounded-full bg-muted"
-          />
+          <SpeakButton text={word.en} label={t.listenWord(word.en)} className="mt-0.5" />
           <div>
             <span lang="en" className="text-base font-semibold">
               {word.en}
@@ -334,7 +315,7 @@ export function VocabularyTable({
 
   return (
     <div className="space-y-6">
-      <div className="space-y-4 rounded-2xl border bg-card p-4 sm:p-6">
+      <SectionCard className="space-y-4 p-4 sm:p-6">
         <span className="relative block">
           <Search
             aria-hidden
@@ -475,10 +456,10 @@ export function VocabularyTable({
                     search={chip.search}
                     replace
                     aria-label={t.removeFilter(chip.label)}
-                    className="flex items-center gap-1 rounded-md border border-primary/40 bg-primary/10 px-2 py-0.5 text-sm text-primary hover:bg-primary/20"
+                    className={filterChip()}
                   >
                     {chip.label}
-                    <X aria-hidden className="size-3.5" />
+                    <X aria-hidden />
                   </Link>
                 ))}
                 <Button variant="link" size="sm" onClick={clear}>
@@ -498,14 +479,23 @@ export function VocabularyTable({
             </label>
           </div>
         </div>
-      </div>
+      </SectionCard>
 
       {visible.length === 0 ? (
         <p className="rounded-2xl border border-dashed p-8 text-center text-muted-foreground">
           {filters.fav && favorites.size === 0 ? t.emptyFavorites : t.empty}
         </p>
       ) : (
-        <section className="overflow-hidden rounded-2xl border bg-card">
+        <SectionCard
+          footer={
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <p className="text-sm text-muted-foreground">
+                {t.range((page - 1) * PAGE_SIZE + 1, Math.min(page * PAGE_SIZE, shown), shown)}
+              </p>
+              {pages > 1 && <Pagination page={page} pages={pages} filters={base} />}
+            </div>
+          }
+        >
           <table className="block w-full text-left md:table">
             <caption className="sr-only">{t.caption}</caption>
             <thead className="hidden border-b bg-muted/40 text-xs tracking-wider text-muted-foreground uppercase md:table-header-group">
@@ -570,13 +560,7 @@ export function VocabularyTable({
               );
             })}
           </table>
-          <div className="flex flex-wrap items-center justify-between gap-3 border-t px-4 py-4 md:px-6">
-            <p className="text-sm text-muted-foreground">
-              {t.range((page - 1) * PAGE_SIZE + 1, Math.min(page * PAGE_SIZE, shown), shown)}
-            </p>
-            {pages > 1 && <Pagination page={page} pages={pages} filters={base} />}
-          </div>
-        </section>
+        </SectionCard>
       )}
     </div>
   );

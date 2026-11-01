@@ -3,7 +3,7 @@ import type { Word, WordList as WordListData } from "@/content/schema";
 import { useSettingsStore } from "@/features/settings/store";
 import { es } from "@/i18n/es";
 import { FalseFriendBadge } from "./false-friend-badge";
-import { SpeakButton } from "./speak-button";
+import { SpeakButton } from "@/components/shared/speak-button";
 
 function hasDetails(words: Word[]) {
   return words.some((w) => (w.meanings?.length ?? 0) > 0 || w.example);
@@ -23,7 +23,7 @@ function WordGrid({ words, showEs }: { words: Word[]; showEs: boolean }) {
           </span>
           {showEs && w.es && <span className="text-sm text-muted-foreground">{w.es}</span>}
           {w.falseFriend && <FalseFriendBadge word={w.falseFriend} />}
-          <SpeakButton text={w.en} className="ml-auto size-7" />
+          <SpeakButton text={w.en} size="sm" className="ml-auto" />
         </li>
       ))}
     </ul>
@@ -46,7 +46,7 @@ function WordDefinitions({ words, showEs }: { words: Word[]; showEs: boolean }) 
                 </span>
               )}
               {w.falseFriend && <FalseFriendBadge word={w.falseFriend} />}
-              <SpeakButton text={w.en} className="size-7" />
+              <SpeakButton text={w.en} size="sm" />
             </dt>
             {meanings.length === 1 && <dd className="mt-1 text-muted-foreground">{meanings[0]}</dd>}
             {meanings.length > 1 && (

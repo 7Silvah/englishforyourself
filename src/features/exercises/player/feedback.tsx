@@ -1,5 +1,5 @@
 import { CircleAlert, CircleCheck, CircleX } from "lucide-react";
-import { SpeakButton } from "@/components/lesson/speak-button";
+import { SpeakButton } from "@/components/shared/speak-button";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
 import type { CheckResult, Status, ExerciseItem } from "../check";
