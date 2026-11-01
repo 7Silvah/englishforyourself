@@ -399,20 +399,41 @@ export const es = {
     // Tabla de las listas por nivel (F17c)
     vocabularyTable: {
       intro:
-        "Todas las palabras de la Biblioteca en una tabla. El nivel es el del curso Face2Face cuando la palabra sale en él; si no, depende de lo común que es en inglés: cuanto menos se usa, más alto.",
+        "Todas las palabras por nivel (A1–C1) y por tema. El nivel es el del curso Face2Face cuando la palabra sale en él; si no, depende de lo común que es en inglés: cuanto menos se usa, más alto.",
       caption: "Palabras del vocabulario",
       topicsCount: (n: number) => (n === 1 ? "1 tema" : `${n} temas`),
+      practiceFlashcards: (n: number) =>
+        n === 1 ? "Practicar 1 palabra con flashcards" : `Practicar ${n} palabras con flashcards`,
+      practiceQuiz: "Modo quiz",
       search: "Buscar en la lista",
       searchPlaceholder: "Palabra en inglés o en español",
+      searchShortcut: "Pulsa / para buscar",
+      clearSearch: "Borrar la búsqueda",
       level: "Nivel",
       topic: "Tema",
       allTopics: "Todos los temas",
+      topicOption: (title: string, n: number) => `${title} (${n})`,
       letter: "Letra",
       type: "Tipo",
       all: "Todas",
       allLevels: "Todos",
+      onlyFavorites: "Solo favoritas",
       topicsOf: "Temas",
-      showMore: (n: number) => `Mostrar ${n} más`,
+      applied: "Filtros aplicados:",
+      removeFilter: (label: string) => `Quitar el filtro ${label}`,
+      chipLevel: (level: string) => `Nivel: ${level}`,
+      chipTopic: (topic: string) => `Tema: ${topic}`,
+      chipType: (type: string) => `Tipo: ${type}`,
+      chipLetter: (letter: string) => `Letra: ${letter}`,
+      chipSearch: (q: string) => `Búsqueda: «${q}»`,
+      chipFavorites: "Favoritas",
+      resetAll: "Restablecer todos",
+      // Título de las prácticas de lo filtrado: «Vocabulario · C1 · Deportes»
+      filteredTitle: (parts: string[]) =>
+        parts.length ? `Vocabulario · ${parts.join(" · ")}` : "Vocabulario · todas las palabras",
+      letterHeading: (letter: string) =>
+        letter === "0–9" ? "Números y fechas" : `Palabras que empiezan por ${letter}`,
+      results: (n: number) => (n === 1 ? "1 resultado" : `${n} resultados`),
       types: {
         noun: "Sustantivos",
         verb: "Verbos",
@@ -441,20 +462,28 @@ export const es = {
         idiom: "modismo",
       },
       columns: {
-        word: "Palabra",
+        word: "Término en inglés",
         level: "Nivel",
         type: "Tipo",
         spanish: "Español",
         meaning: "Significado y ejemplo",
+        action: "Favorita",
       },
       ipaLabel: "Pronunciación británica",
       listenWord: (word: string) => `Escuchar «${word}»`,
+      favorite: (word: string) => `Marcar «${word}» como favorita`,
       showing: (shown: number, total: number) =>
         shown === total
-          ? `${total} palabras`
-          : `${shown} de ${total} ${total === 1 ? "palabra" : "palabras"}`,
+          ? `${total.toLocaleString("es")} palabras`
+          : `${shown.toLocaleString("es")} de ${total.toLocaleString("es")} palabras`,
+      range: (from: number, to: number, total: number) =>
+        `Mostrando ${from} a ${to} de ${total.toLocaleString("es")} palabras`,
+      pagination: "Páginas",
+      previous: "Anterior",
+      next: "Siguiente",
+      page: (n: number) => `Página ${n}`,
       empty: "Ninguna palabra coincide con estos filtros.",
-      clear: "Quitar filtros",
+      emptyFavorites: "Todavía no tienes favoritas: márcalas con la estrella de cada palabra.",
     },
   },
   flashcards: {

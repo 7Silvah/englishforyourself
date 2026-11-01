@@ -3,6 +3,8 @@
 import type { ReactNode } from "react";
 import { toast } from "sonner";
 import { Badge } from "@/components/ui/badge";
+import { LEVELS } from "@/content/levels";
+import { LevelBadge } from "@/features/vocabulary/level-badge";
 import { Button } from "@/components/ui/button";
 import { Formula } from "@/components/lesson/formula";
 import { Modes } from "@/components/lesson/modes";
@@ -138,6 +140,17 @@ export function UiShowcase() {
           />
           <SentenceBlocks pieces={negative} />
           <SentenceBlocks pieces={question} swap />
+        </Section>
+
+        <Section title="Niveles del MCER">
+          <p className="text-sm text-muted-foreground">
+            Tokens level-a1 … level-c1 (Vocabulario): tonos propios, distintos de los modos.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {LEVELS.map((level) => (
+              <LevelBadge key={level} level={level} />
+            ))}
+          </div>
         </Section>
 
         <Section title="Estados de corrección">

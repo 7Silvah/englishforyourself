@@ -1,14 +1,16 @@
 import { describe, expect, it } from "vitest";
 import {
   buildVocabulary,
+  countByTopic,
   filterGroups,
-  firstRows,
   fold,
-  parseFilters,
+  pageNumbers,
+  pageOf,
   wordKeys,
   wordType,
   type VocabularySource,
 } from "./logic";
+import { parseFilters, parsePracticeSearch, wordFilters } from "./filters";
 
 const starter: VocabularySource = {
   slug: "starter-a1",
@@ -124,33 +126,106 @@ describe("filterGroups", () => {
   });
 });
 
-describe("firstRows", () => {
-  it("corta en el límite sin dejar grupos vacíos", () => {
-    const rows = firstRows(groups, 2);
-    expect(rows.map((g) => [g.title, g.items.length])).toEqual([["A", 2]]);
-    expect(firstRows(groups, 3).map((g) => [g.title, g.items.length])).toEqual([
-      ["A", 2],
-      ["D", 1],
+describe("lista principal (home)", () => {
+  it("es la de Face2Face si la palabra está en el libro y, si no, su primer tema", () => {
+    expect(all.find((e) => e.en === "apple")?.home).toBe("starter-a1");
+    expect(all.find((e) => e.en === "Fork")?.home).toBe("house");
+  });
+});
+
+describe("favoritas", () => {
+  it("con fav=true solo quedan las marcadas", () => {
+    const favorites = new Set(["t:shaddock", "drink|verb"]);
+    expect(words(filterGroups(groups, { fav: true }, favorites))).toEqual([
+      "drink (verb)",
+      "Shaddock",
     ]);
   });
 
-  it("con un límite mayor que el total devuelve todo", () => {
-    expect(firstRows(groups, 100)).toEqual(groups);
+  it("sin fav las marcadas no filtran nada", () => {
+    expect(filterGroups(groups, {}, new Set(["t:shaddock"]))).toEqual(groups);
+  });
+});
+
+describe("pageOf y pageNumbers", () => {
+  it("corta por páginas sin dejar grupos vacíos", () => {
+    const sizes = (page: number) => pageOf(groups, page, 2).map((g) => [g.title, g.items.length]);
+    expect(sizes(1)).toEqual([["A", 2]]);
+    expect(sizes(2)).toEqual([["D", 2]]);
+    expect(sizes(3)).toEqual([
+      ["F", 1],
+      ["L", 1],
+    ]);
+    expect(sizes(4)).toEqual([["S", 1]]);
+    expect(sizes(5)).toEqual([]);
+  });
+
+  it("muestra la primera, la última y las vecinas, con «…» entre medias", () => {
+    expect(pageNumbers(1, 1)).toEqual([1]);
+    expect(pageNumbers(1, 3)).toEqual([1, 2, 3]);
+    expect(pageNumbers(5, 10)).toEqual([1, "…", 4, 5, 6, "…", 10]);
+    expect(pageNumbers(10, 10)).toEqual([1, "…", 9, 10]);
+  });
+});
+
+describe("countByTopic", () => {
+  it("cuenta las palabras de cada tema", () => {
+    const counts = countByTopic(groups);
+    expect(counts.get("fruits")).toBe(2);
+    expect(counts.get("house")).toBe(2);
+    expect(counts.get("dining")).toBe(1);
   });
 });
 
 describe("parseFilters", () => {
   it("acepta lo válido e ignora el resto", () => {
     expect(
-      parseFilters({ nivel: "B2", tema: "fruits", tipo: "verb", letra: "A", q: "casa" }),
-    ).toEqual({ nivel: "B2", tema: "fruits", tipo: "verb", letra: "A", q: "casa" });
-    expect(parseFilters({ nivel: "Z9", tipo: "cosa", q: "", tema: 3 })).toEqual({
+      parseFilters({
+        nivel: "B2",
+        tema: "fruits",
+        tipo: "verb",
+        letra: "A",
+        q: "casa",
+        fav: true,
+        pagina: 3,
+      }),
+    ).toEqual({
+      nivel: "B2",
+      tema: "fruits",
+      tipo: "verb",
+      letra: "A",
+      q: "casa",
+      fav: true,
+      pagina: 3,
+    });
+    expect(
+      parseFilters({ nivel: "Z9", tipo: "cosa", q: "", tema: 3, fav: "no", pagina: 1 }),
+    ).toEqual({
       nivel: undefined,
       tema: undefined,
       tipo: undefined,
       letra: undefined,
       q: undefined,
+      fav: undefined,
+      pagina: undefined,
     });
+  });
+
+  it("wordFilters quita la página", () => {
+    expect(wordFilters({ nivel: "A1", pagina: 4 })).toEqual({ nivel: "A1" });
+  });
+});
+
+describe("parsePracticeSearch", () => {
+  it("una lista o, con vocabulario=true, los filtros de la tabla (sin la página)", () => {
+    expect(parsePracticeSearch({ lista: "vocabulary/fruits" })).toEqual({
+      lista: "vocabulary/fruits",
+    });
+    const filtered = parsePracticeSearch({ vocabulario: true, nivel: "C1", pagina: 2 });
+    expect(filtered).toMatchObject({ vocabulario: true, nivel: "C1" });
+    expect(filtered.pagina).toBeUndefined();
+    // Sin vocabulario=true los filtros se ignoran
+    expect(parsePracticeSearch({ nivel: "C1" })).toEqual({ lista: undefined });
   });
 });
 

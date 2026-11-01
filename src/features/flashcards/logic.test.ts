@@ -3,6 +3,7 @@ import {
   buildSession,
   cardKey,
   deckCards,
+  mixedDeckCards,
   deckStats,
   MAX_BOX,
   NEW_PER_SESSION,
@@ -115,6 +116,18 @@ describe("deckCards", () => {
         es: "bebida / beber / tomar",
         ipa: "drɪŋk",
       },
+    ]);
+  });
+
+  it("lo filtrado: cada tarjeta con la clave de su lista, así cuenta igual que en ella", () => {
+    const cards = mixedDeckCards([
+      { listPath: "vocabulary/starter-a1", en: "apple", es: "manzana" },
+      { listPath: "vocabulary/hobbies", en: "Knitting", es: "tejer" },
+      { listPath: "vocabulary/hobbies", en: "Sewing" },
+    ]);
+    expect(cards.map((c) => c.key)).toEqual([
+      "vocabulary/starter-a1#apple",
+      "vocabulary/hobbies#Knitting",
     ]);
   });
 });
