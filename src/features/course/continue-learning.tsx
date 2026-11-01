@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, History, Repeat } from "lucide-react";
+import { ArrowRight, Gauge, History, Repeat } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import { getExerciseSet, getUnits } from "@/content";
 import { useProgressStore } from "@/features/progress/store";
@@ -11,8 +11,9 @@ export function ContinueLearning() {
   const attempts = useProgressStore((state) => state.attempts);
   const lastSetId = useProgressStore((state) => state.lastSetId);
   const pendingReview = useProgressStore((state) => Object.keys(state.mistakes).length);
+  const placement = useProgressStore((state) => state.placement?.unit ?? null);
   const units = getUnits();
-  const unit = recommendedUnit(units, attempts);
+  const unit = recommendedUnit(units, attempts, placement);
   const lastSet = lastSetId ? getExerciseSet(lastSetId) : undefined;
   const hasProgress = Object.keys(attempts).length > 0;
 
@@ -38,6 +39,15 @@ export function ContinueLearning() {
           {es.home.browseLibrary}
         </Link>
       </div>
+      {!hasProgress && !placement && (
+        <Link
+          to="/prueba-de-nivel"
+          className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground hover:underline"
+        >
+          <Gauge className="size-4" aria-hidden />
+          {es.home.placement}
+        </Link>
+      )}
       {pendingReview > 0 && (
         <Link
           to="/repaso"

@@ -31,6 +31,7 @@ export const es = {
     startCourse: "Empieza el curso",
     startHere: "Empieza aquí",
     nextUnit: "Tu siguiente unidad",
+    placement: "¿Ya sabes algo? Haz la prueba de nivel",
     continue: "Continúa donde lo dejaste",
     browseLibrary: "Explorar la biblioteca",
     pillars: {
@@ -67,8 +68,15 @@ export const es = {
       started: "Empezada",
       completed: "Completada",
       mastered: "Dominada",
+      seen: "Vista en la prueba",
     },
     recommended: "Recomendada",
+    placementCta:
+      "¿Ya sabes algo de inglés? Haz la prueba de nivel y te diremos por qué unidad empezar.",
+    placementDone: (n: number, title: string) =>
+      `Según tu prueba de nivel, empieza por la unidad ${n}: ${title}.`,
+    placementStart: "Hacer la prueba de nivel",
+    placementRetry: "Repetir la prueba",
     objectives: "Al terminar esta unidad sabrás:",
     practiceTitle: "Practica",
     guided: "Práctica guiada",
@@ -398,6 +406,29 @@ export const es = {
     summary: (seen: number, mastered: number, due: number) =>
       `${seen} palabras vistas · ${mastered} dominadas · ${due} para repasar hoy`,
     goToDecks: "Ir a las flashcards",
+  },
+  placement: {
+    title: "Prueba de nivel",
+    description:
+      "Unas 30 preguntas, de lo más básico a lo intermedio, para saber por qué unidad empezar.",
+    intro: [
+      "Son preguntas de opción múltiple, ordenadas de más fácil a más difícil. Tardarás unos 10 minutos.",
+      "No verás si aciertas hasta el final, y no hay pistas.",
+      "Si no sabes una respuesta, elige la que te parezca: no pasa nada. La prueba no cuenta en tu progreso.",
+    ],
+    start: "Empezar la prueba",
+    resultTitle: "Tu resultado",
+    recommendation: (n: number, title: string) =>
+      `Te recomendamos empezar por la unidad ${n}: ${title}.`,
+    allGood:
+      "¡Muy bien! Has acertado casi todo. Empieza por la última unidad o repasa la que quieras.",
+    go: "Ir a la unidad",
+    seenNote:
+      "Las unidades anteriores quedan marcadas como vistas en el curso. Puedes hacerlas igualmente cuando quieras.",
+    byLevel: "Aciertos por nivel",
+    score: (correct: number, total: number) => `${correct} de ${total}`,
+    retry: "Repetir la prueba",
+    course: "Ver el curso",
   },
   review: {
     title: "Repaso",

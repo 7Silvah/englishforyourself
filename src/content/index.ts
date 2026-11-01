@@ -6,7 +6,7 @@
 // Ver scripts/vite-plugin-content-meta.ts para saber por qué hacen falta las dos.
 import type { ComponentType } from "react";
 import { unitSequence } from "@/features/course/logic";
-import type { ExerciseSet, ExerciseSetMeta } from "@/features/exercises/schema";
+import type { ExerciseSet, ExerciseSetMeta, PlacementTest } from "@/features/exercises/schema";
 import type { ArticleMeta, LessonMeta, UnitMeta, WordList, WordListMeta } from "./schema";
 
 type MdxModule = { default: ComponentType<{ components?: Record<string, unknown> }> };
@@ -243,4 +243,17 @@ export function getNextSetFor(setId: string): ExerciseSetEntry | undefined {
   const sequence = unitSequence(unit.meta);
   const nextId = sequence[sequence.indexOf(setId) + 1];
   return nextId ? getExerciseSet(nextId) : undefined;
+}
+
+// ---------- Prueba de nivel ----------
+
+// Carga diferida, como los cuerpos de las lecciones: solo se descarga al abrir la prueba
+const placementBody = import.meta.glob<unknown>("./placement/placement-test.json", {
+  import: "default",
+});
+
+export async function loadPlacementTest(): Promise<PlacementTest> {
+  const loader = Object.values(placementBody)[0];
+  if (!loader) throw new Error("Falta src/content/placement/placement-test.json");
+  return trusted<PlacementTest>(await loader());
 }

@@ -1,13 +1,19 @@
-import { Circle, CircleCheck, CircleDot, Trophy } from "lucide-react";
+import { Circle, CircleCheck, CircleDot, Eye, Trophy } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
-import type { UnitStatus } from "./logic";
+import type { ShownStatus } from "./logic";
 
-const icons = { new: Circle, started: CircleDot, completed: CircleCheck, mastered: Trophy };
+const icons = {
+  new: Circle,
+  started: CircleDot,
+  completed: CircleCheck,
+  mastered: Trophy,
+  seen: Eye,
+};
 
 // Estado de una unidad: icono + texto (el color nunca va solo)
-export function UnitStatusBadge({ status }: { status: UnitStatus }) {
+export function UnitStatusBadge({ status }: { status: ShownStatus }) {
   const Icon = icons[status];
   return (
     <Badge
