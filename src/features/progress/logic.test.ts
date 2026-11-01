@@ -125,7 +125,14 @@ describe("migrateProgress", () => {
     expect(migrateProgress(v1, 1)).toEqual({
       ...v1,
       mistakes: { "s#1": { ...v1.mistakes["s#1"], rightDays: [] } },
+      placement: null,
     });
+  });
+
+  it("conserva el resultado de la prueba de nivel", () => {
+    const placement = { unit: "presente-perfecto", at: "2026-11-01T00:00:00.000Z" };
+    expect(migrateProgress({ placement }, 3).placement).toEqual(placement);
+    expect(migrateProgress({ placement: { unit: 7 } }, 3).placement).toBeNull();
   });
 
   it("descarta lo que no tiene sentido en vez de romper la app", () => {
