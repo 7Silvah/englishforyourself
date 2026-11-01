@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Layers, RefreshCw } from "lucide-react";
 import { useMemo, useState } from "react";
-import { Badge } from "@/components/ui/badge";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import type { Level } from "@/content/schema";
 import type { PracticeSearch } from "@/features/vocabulary/filters";
@@ -50,7 +50,7 @@ export function VocabularyPractice({
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <div className="flex flex-wrap items-center gap-2">
-        <Badge variant="secondary">{level}</Badge>
+        <LevelBadge level={level} />
         <Button variant="outline" size="sm" onClick={() => setSeed(newSeed())}>
           <RefreshCw data-icon="inline-start" aria-hidden />
           {es.generated.newRound}

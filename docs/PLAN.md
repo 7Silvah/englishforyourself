@@ -174,9 +174,20 @@ creada desde `f17c-vocabulario-v6` (aún sin fusionar).
   corrección y las flashcards ya tienen el 🔊 redondo. Se ven en `/dev/ui` («Componentes
   compartidos (U2)») y `CLAUDE.md` tiene la carpeta en «Dónde va cada cosa». 254 tests,
   JS inicial 201,6 KB gzip (sin cambios).
-- [ ] **Paso 2 · Aplicarlos en toda la app**: curso (badge y color de acento de cada nivel),
-  ejercicios (catálogo con filtros segmentados y chips), prueba de nivel, progreso, Tense
-  Lab, flashcards, lecciones y `/dev/revision`.
+- [x] **Paso 2 · Aplicarlos en toda la app**. `LevelBadge` en los 10 sitios que tenían un
+  `Badge` gris (unidad, catálogo, info del set, práctica generada, listas de práctica,
+  práctica de vocabulario, progreso, Tense Lab, `/dev/revision`…). `LevelHeading` («[B1]
+  Intermedio I», con inicio de frase opcional) en los bloques del curso, «Estás en el nivel…»
+  (curso y progreso), los bloques de progreso y el resultado de la prueba de nivel; el
+  número de cada unidad del curso lleva el color de su nivel (`LEVEL_TONE`,
+  `level-styles.ts`). Catálogo de ejercicios con `Segmented`, chips de filtros aplicados,
+  «Restablecer todos» y recuento; los textos comunes de filtros pasan a `es.filters`. El 🔊
+  de los ejercicios de escucha conserva el texto («Escuchar», «Más despacio») pero lleva el
+  icono en un círculo. 254 tests; JS inicial 201,7 KB gzip.
+  - Un test detectó que «Empiezas en el nivel» y la insignia se leían pegados
+    («nivelB1Intermedio»): `LevelHeading` pone espacios reales entre las piezas.
+  - Sin tocar a propósito: los selectores de tiempo y sujeto del Tense Lab (son pestañas,
+    no filtros) y el Tense Lab no tiene audio. Progreso con datos solo lo cubren los tests.
 - [ ] **Paso 3 · Regla escrita**: sección «Reglas» en `/dev/ui` (cada patrón, cuándo se usa y
   un ejemplo vivo), §9.2 de este plan y una línea en `CLAUDE.md`.
 - [ ] **Paso 4 · Comprobar**: tests de los componentes, JS inicial y cada pantalla en el

@@ -303,9 +303,12 @@ export function VocabularyTable({
   // Chips de «Filtros aplicados»: cada uno es un enlace que quita su filtro
   const chips: { label: string; search: VocabularyFilters }[] = [];
   if (filters.nivel)
-    chips.push({ label: t.chipLevel(filters.nivel), search: { ...base, nivel: undefined } });
+    chips.push({
+      label: es.filters.chipLevel(filters.nivel),
+      search: { ...base, nivel: undefined },
+    });
   if (topicTitle)
-    chips.push({ label: t.chipTopic(topicTitle), search: { ...base, tema: undefined } });
+    chips.push({ label: es.filters.chipTopic(topicTitle), search: { ...base, tema: undefined } });
   if (filters.tipo)
     chips.push({ label: t.chipType(t.types[filters.tipo]), search: { ...base, tipo: undefined } });
   if (filters.letra)
@@ -447,7 +450,7 @@ export function VocabularyTable({
             </FilterLink>
             {chips.length > 0 && (
               <>
-                <span className="text-sm text-muted-foreground">{t.applied}</span>
+                <span className="text-sm text-muted-foreground">{es.filters.applied}</span>
                 {chips.map((chip) => (
                   <Link
                     key={chip.label}
@@ -455,7 +458,7 @@ export function VocabularyTable({
                     to="."
                     search={chip.search}
                     replace
-                    aria-label={t.removeFilter(chip.label)}
+                    aria-label={es.filters.removeFilter(chip.label)}
                     className={filterChip()}
                   >
                     {chip.label}
@@ -463,7 +466,7 @@ export function VocabularyTable({
                   </Link>
                 ))}
                 <Button variant="link" size="sm" onClick={clear}>
-                  {t.resetAll}
+                  {es.filters.resetAll}
                 </Button>
               </>
             )}

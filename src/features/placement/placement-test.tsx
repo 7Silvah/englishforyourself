@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, RotateCcw } from "lucide-react";
 import { useState } from "react";
+import { LevelHeading } from "@/components/shared/level-heading";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { getUnit, getUnits } from "@/content";
 import type { PlacementItem } from "@/features/exercises/schema";
@@ -65,7 +66,7 @@ export function PlacementTest({ items }: { items: readonly PlacementItem[] }) {
         {recommended && (
           <>
             <p className="text-2xl font-bold">
-              {t.level(recommended.meta.level, es.course.levels[recommended.meta.level].name)}
+              <LevelHeading level={recommended.meta.level} prefix={t.level} />
             </p>
             <p className="text-muted-foreground">{es.course.levels[recommended.meta.level].goal}</p>
             <p className="text-lg">
