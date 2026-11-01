@@ -16,6 +16,7 @@ import {
 type ProgressStore = ProgressData & {
   recordResults: (setId: string, outcomes: readonly ItemOutcome[], complete: boolean) => void;
   recordReview: (outcomes: readonly ReviewOutcome[]) => void;
+  setPlacement: (unit: string) => void;
   reset: () => void;
 };
 
@@ -26,6 +27,7 @@ export const useProgressStore = create<ProgressStore>()(
       recordResults: (setId, outcomes, complete) =>
         set((state) => applyResults(state, setId, outcomes, { complete, now: new Date() })),
       recordReview: (outcomes) => set((state) => applyReview(state, outcomes, new Date())),
+      setPlacement: (unit) => set({ placement: { unit, at: new Date().toISOString() } }),
       reset: () => set(initialProgress),
     }),
     {
@@ -33,13 +35,15 @@ export const useProgressStore = create<ProgressStore>()(
       // Si cambia la forma de los datos, sube "version" y adapta migrateProgress
       // para convertir lo que ya tienen guardado los estudiantes.
       // v2 (F12): los errores guardan los días en que se acertaron (rightDays).
-      version: 2,
+      // v3 (F17): el resultado de la prueba de nivel (placement).
+      version: 3,
       migrate: migrateProgress,
-      partialize: ({ attempts, mistakes, streak, lastSetId }) => ({
+      partialize: ({ attempts, mistakes, streak, lastSetId, placement }) => ({
         attempts,
         mistakes,
         streak,
         lastSetId,
+        placement,
       }),
     },
   ),

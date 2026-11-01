@@ -25,7 +25,11 @@ export type ProgressData = {
   mistakes: Record<string, Mistake>; // por mistakeKey()
   streak: Streak | null;
   lastSetId: string | null; // para "Continúa donde lo dejaste"
+  placement: Placement | null; // resultado de la prueba de nivel (F17)
 };
+
+/** La unidad que recomendó la prueba de nivel: el curso empieza ahí y las anteriores cuentan como vistas */
+export type Placement = { unit: string; at: string };
 
 export type ItemOutcome = { itemId: string; correct: boolean };
 
@@ -34,6 +38,7 @@ export const initialProgress: ProgressData = {
   mistakes: {},
   streak: null,
   lastSetId: null,
+  placement: null,
 };
 
 export function mistakeKey(setId: string, itemId: string): string {
@@ -92,6 +97,7 @@ export function applyResults(
   }
 
   return {
+    ...data,
     attempts,
     mistakes,
     streak: nextStreak(data.streak, dayKey(now)),
@@ -157,6 +163,7 @@ const isRecord = (value: unknown): value is Record<string, unknown> =>
  * Los datos de localStorage son externos: se comprueban campo a campo y lo que no
  * tenga sentido se descarta, en lugar de confiar en ellos.
  * - v1 → v2: los errores ganan "rightDays" (empiezan sin aciertos).
+ * - v2 → v3: aparece "placement" (sin prueba de nivel hecha).
  */
 export function migrateProgress(persisted: unknown, version: number): ProgressData {
   if (!isRecord(persisted)) return initialProgress;
@@ -201,5 +208,11 @@ export function migrateProgress(persisted: unknown, version: number): ProgressDa
         ? { days: streak.days, lastDay: streak.lastDay }
         : null,
     lastSetId: typeof persisted.lastSetId === "string" ? persisted.lastSetId : null,
+    placement:
+      isRecord(persisted.placement) &&
+      typeof persisted.placement.unit === "string" &&
+      typeof persisted.placement.at === "string"
+        ? { unit: persisted.placement.unit, at: persisted.placement.at }
+        : null,
   };
 }
