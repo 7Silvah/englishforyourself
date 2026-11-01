@@ -13,7 +13,7 @@
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
-| U · Refresco visual | U1–U2 | 🟨 en curso — U1 ✅ U2 🟨 |
+| U · Refresco visual | U1–U2 | ✅ terminada — U1 ✅ U2 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17c | ✅ terminada — F16 ✅ F17 ✅ F17b ✅ F17c ✅ (V1–V6) |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -40,7 +40,7 @@ las wordlists de Face2Face) y V2 (las tres listas en la Biblioteca) terminadas e
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente:** abrir el PR de `f17c-vocabulario-v6`; después la
+**2. Siguiente:** abrir los PR de `f17c-vocabulario-v6` y, cuando esté fusionado, de `u2-sistema-visual`; después la
 Etapa 5, F18 (calidad y PWA), aplazada el 01/11/2026 para hacer antes F17b, F17c y los
 ajustes del curso que decidas: Playwright de punta a punta, axe en las
 páginas clave, la app instalable y sin conexión (`vite-plugin-pwa`), JS inicial < 200 KB y
@@ -196,8 +196,15 @@ creada desde `f17c-vocabulario-v6` (aún sin fusionar).
   - Visto al comprobarlo: `/dev/ui` da en la consola un aviso de React sobre `use()` dentro
     de un `Lazy` (modo desarrollo). Ya pasaba antes de U2 (comprobado con los cambios
     apartados); se revisa en F18.
-- [ ] **Paso 4 · Comprobar**: tests de los componentes, JS inicial y cada pantalla en el
-  navegador en claro y oscuro.
+- [x] **Paso 4 · Comprobar**. `src/components/shared/shared.test.tsx` (13 tests): 🔊 con
+  nombre accesible, ratón y teclado, texto leído al pulsar, tamaños y oculto sin voces en
+  inglés; nivel con su texto y su color; `LevelHeading` que se lee como frase; grupo
+  segmentado con nombre; `SectionCard` con y sin cabecera y pie. Repaso en el navegador en
+  claro y oscuro: curso, unidad, lección con ejemplos, ejercicios, Vocabulario, flashcards,
+  Progreso (con datos de prueba en el navegador de prueba, borrados después) y `/dev/ui`.
+  - Arreglado al repasar: el círculo del 🔊 era `bg-muted` y desaparecía sobre los
+    recuadros de ejemplos (también `bg-muted`); ahora es primario suave (`bg-primary/10`).
+  - 267 tests; JS inicial 201,7 KB gzip.
 
 **Listo cuando:** `/dev/ui`, una unidad y un ejercicio se ven con el estilo nuevo en claro y en oscuro, con contraste AA. ✅
 

@@ -36,7 +36,9 @@ export function SpeakButton({
       aria-label={label}
       title={label}
       className={cn(
-        "shrink-0 rounded-full bg-muted text-primary hover:bg-primary/15 hover:text-primary print:hidden",
+        // Primario suave y no bg-muted: el círculo se ve también sobre fondos grises
+        // (los recuadros de ejemplos de las lecciones son bg-muted)
+        "shrink-0 rounded-full bg-primary/10 text-primary hover:bg-primary/20 hover:text-primary print:hidden",
         SIZES[size],
         className,
       )}
