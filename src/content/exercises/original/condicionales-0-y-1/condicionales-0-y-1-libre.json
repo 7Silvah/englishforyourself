@@ -1,0 +1,92 @@
+{
+  "title": "Zero and first conditionals: free practice",
+  "titleEs": "Condicionales 0 y 1: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-0-y-1",
+  "topics": [
+    "zero-conditional",
+    "first-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "If you ___ (to press) this button, the machine starts.",
+      "blanks": [
+        {
+          "answers": [
+            "press"
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 0: cómo funciona algo, siempre igual. Presente: press."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "If he ___ (to call) me, I ___ (to tell) him the news.",
+      "blanks": [
+        {
+          "answers": [
+            "calls"
+          ]
+        },
+        {
+          "answers": [
+            "will tell",
+            "’ll tell"
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 1: if + presente (calls, con -s por he) y will + verbo (will tell)."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "I ___ (not / go) to the party unless you come with me.",
+      "blanks": [
+        {
+          "answers": [
+            "won't go",
+            "will not go",
+            "’ll not go"
+          ]
+        }
+      ],
+      "explanationEs": "Resultado en el futuro: won't go. Unless significa a menos que."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "You will pass if you study.",
+      "to": "q",
+      "answers": [
+        "Will you pass if you study?"
+      ],
+      "explanationEs": "La pregunta se hace en el resultado: will + sujeto + verbo. La condición no cambia."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "If it rain, we'll stay inside.",
+      "wrong": "rain",
+      "answers": [
+        "rains"
+      ],
+      "explanationEs": "Después de if, presente simple: con it, rains."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "If you heat ice, it melt.",
+      "wrong": "melt",
+      "answers": [
+        "melts"
+      ],
+      "explanationEs": "Condicional 0, presente simple: con it, melts."
+    }
+  ]
+}

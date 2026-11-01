@@ -1,0 +1,74 @@
+{
+  "title": "Past continuous: guided practice",
+  "titleEs": "Pasado continuo: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-continuo",
+  "topics": [
+    "past-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "At nine o'clock last night, I ___ TV.",
+      "options": [
+        "was watching",
+        "were watching",
+        "was watch"
+      ],
+      "answer": 0,
+      "explanationEs": "Con I, was; y el verbo con -ing: was watching."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "They ___ for the bus when it started to rain.",
+      "options": [
+        "were waiting",
+        "was waiting",
+        "were wait"
+      ],
+      "answer": 0,
+      "explanationEs": "Con they, were; y el verbo con -ing: were waiting."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "We were having lunch when you called.",
+      "answer": true,
+      "explanationEs": "La acción larga (having lunch) en pasado continuo; la corta, que la interrumpe (called), en pasado simple."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She was knowing the answer.",
+      "answer": false,
+      "explanationEs": "Know es un verbo de estado y no va en continuo: She knew the answer."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What were you doing at eight?"
+      ],
+      "distractors": [
+        "was"
+      ],
+      "explanationEs": "Pregunta: what + were + sujeto + verbo con -ing. Con you, were."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "She wasn't listening to the teacher."
+      ],
+      "distractors": [
+        "didn't"
+      ],
+      "explanationEs": "Negativa: wasn't + verbo con -ing. Didn't no se usa con was."
+    }
+  ]
+}

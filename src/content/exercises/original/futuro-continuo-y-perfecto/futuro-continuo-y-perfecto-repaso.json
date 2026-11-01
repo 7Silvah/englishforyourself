@@ -1,0 +1,99 @@
+{
+  "title": "Future continuous and future perfect: review",
+  "titleEs": "Futuro continuo y futuro perfecto: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B2",
+  "unit": "futuro-continuo-y-perfecto",
+  "topics": [
+    "future-continuous",
+    "future-perfect",
+    "future-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Don't phone at seven. We ___ dinner.",
+      "options": [
+        "will be having",
+        "will be have",
+        "are going to having"
+      ],
+      "answer": 0,
+      "explanationEs": "A las siete estaremos cenando: will be + -ing."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "By the time you wake up, I ___.",
+      "options": [
+        "will have left",
+        "will have leave",
+        "will leaving"
+      ],
+      "answer": 0,
+      "explanationEs": "Antes de que te despiertes ya me habré ido: will have + participio (left)."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "In July, I will have been living here for five years.",
+      "answer": true,
+      "explanationEs": "Cuánto tiempo llevaré en julio: will have been + -ing con for."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I will have finished the report for Monday.",
+      "answer": false,
+      "explanationEs": "Para (antes de) una fecha es by: by Monday."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What will you be doing at ten?"
+      ],
+      "distractors": [
+        "have"
+      ],
+      "explanationEs": "Pregunta: what + will + sujeto + be + verbo con -ing."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "By 2030, they ___ (to build) the new airport.",
+      "blanks": [
+        {
+          "answers": [
+            "will have built",
+            "’ll have built"
+          ]
+        }
+      ],
+      "explanationEs": "Terminado antes de 2030: will have + participio de build (built)."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "She will be waiting for us.",
+      "to": "q",
+      "answers": [
+        "Will she be waiting for us?"
+      ],
+      "explanationEs": "Pregunta: will + sujeto + be + -ing."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "This time tomorrow we will be fly to Paris.",
+      "wrong": "fly",
+      "answers": [
+        "flying"
+      ],
+      "explanationEs": "Después de will be, el verbo con -ing: will be flying."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Attempt } from "@/features/progress/logic";
-import { recommendedUnit, unitSequence, unitStatus } from "./logic";
+import { levelRange, recommendedUnit, unitSequence, unitStatus } from "./logic";
 
 const unit = {
   guided: ["u-guiada"],
@@ -51,5 +51,15 @@ describe("recommendedUnit", () => {
   it("si todo está dominado, no recomienda ninguna", () => {
     const all = { "a-repaso": attempt(90), "b-repaso": attempt(85) };
     expect(recommendedUnit(units, all)).toBeUndefined();
+  });
+});
+
+describe("levelRange", () => {
+  it("un solo nivel se muestra tal cual", () => {
+    expect(levelRange(["A1", "A1"])).toBe("A1");
+  });
+
+  it("varios niveles, del más bajo al más alto, aunque no vengan en orden", () => {
+    expect(levelRange(["A2", "B2", "B1"])).toBe("A2–B2");
   });
 });

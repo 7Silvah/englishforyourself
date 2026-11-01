@@ -1,0 +1,156 @@
+{
+  "title": "Tag questions: more practice",
+  "titleEs": "Las tag questions: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "tag-questions",
+  "topics": [
+    "tag-questions",
+    "questions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "She's your sister,",
+          "right": "isn't she?"
+        },
+        {
+          "left": "You like jazz,",
+          "right": "don't you?"
+        },
+        {
+          "left": "They can't come,",
+          "right": "can they?"
+        },
+        {
+          "left": "He went home,",
+          "right": "didn't he?"
+        },
+        {
+          "left": "I'm late,",
+          "right": "aren't I?"
+        }
+      ],
+      "explanationEs": "El auxiliar de la frase (o do, did si no hay), con la polaridad contraria. Con I am, aren't I?"
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "… don't you?",
+          "labelEs": "presente con do",
+          "items": [
+            "You like tea,",
+            "You live near here,",
+            "You work late,"
+          ]
+        },
+        {
+          "label": "… aren't you?",
+          "labelEs": "con to be",
+          "items": [
+            "You're tired,",
+            "You're from Chile,",
+            "You're coming,"
+          ]
+        }
+      ],
+      "explanationEs": "Si la frase lleva to be (you're), la tag usa are; si no hay auxiliar, la del presente usa do."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Hace frío, ¿no?",
+      "answers": [
+        "It's cold, isn't it?"
+      ],
+      "wordBank": [
+        "It's",
+        "cold,",
+        "isn't",
+        "it?",
+        "is",
+        "doesn't"
+      ],
+      "explanationEs": "¿No? se construye con el auxiliar de la frase (is) en negativa y el pronombre: isn't it?"
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "You haven't seen my keys, have you?",
+      "answers": [
+        "You haven't seen my keys have you?"
+      ],
+      "explanationEs": "Frase negativa con haven't: tag afirmativa, have you?"
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Tag questions",
+      "columns": [
+        "Tag"
+      ],
+      "rows": [
+        {
+          "header": "She isn't ready,",
+          "cells": [
+            {
+              "answers": [
+                "is she"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "They didn't win,",
+          "cells": [
+            {
+              "answers": [
+                "did they"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "You can't drive,",
+          "cells": [
+            {
+              "answers": [
+                "can you"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "He won't come,",
+          "cells": [
+            {
+              "answers": [
+                "will he"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Frase negativa, tag afirmativa con el mismo auxiliar y el pronombre."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "You're coming, aren't you?",
+      "options": [
+        "You're coming, aren't you?",
+        "You're coming, are you?",
+        "You're coming, isn't it?"
+      ],
+      "answer": 0,
+      "explanationEs": "Frase afirmativa con are: aren't you?"
+    }
+  ]
+}

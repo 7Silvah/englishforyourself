@@ -1,0 +1,153 @@
+{
+  "title": "The passive voice: more practice",
+  "titleEs": "La voz pasiva: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "voz-pasiva",
+  "topics": [
+    "passive-voice"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "They speak English here.",
+          "right": "English is spoken here."
+        },
+        {
+          "left": "They built it in 1990.",
+          "right": "It was built in 1990."
+        },
+        {
+          "left": "They are painting the house.",
+          "right": "The house is being painted."
+        },
+        {
+          "left": "They have sold the car.",
+          "right": "The car has been sold."
+        },
+        {
+          "left": "They will finish it soon.",
+          "right": "It will be finished soon."
+        }
+      ],
+      "explanationEs": "En la pasiva, to be toma el tiempo del verbo activo: speak → is spoken, built → was built, are painting → is being painted."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "Active",
+          "labelEs": "el sujeto hace la acción",
+          "items": [
+            "She wrote a letter.",
+            "They are building a school.",
+            "We cleaned the kitchen."
+          ]
+        },
+        {
+          "label": "Passive",
+          "labelEs": "el sujeto recibe la acción",
+          "items": [
+            "The letter was written.",
+            "A school is being built.",
+            "The kitchen was cleaned."
+          ]
+        }
+      ],
+      "explanationEs": "La pasiva lleva to be + participio; en la activa, el sujeto es quien hace la acción."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Aquí se habla inglés.",
+      "answers": [
+        "English is spoken here."
+      ],
+      "explanationEs": "Se habla es una pasiva: is + participio. Lo que recibe la acción (English) va de sujeto."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "The thief was arrested this morning.",
+      "explanationEs": "Pasiva en pasado: was + participio (arrested). Quién lo arrestó es obvio."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Passive voice",
+      "columns": [
+        "Present simple",
+        "Past simple"
+      ],
+      "rows": [
+        {
+          "header": "it (make)",
+          "cells": [
+            {
+              "answers": [
+                "is made",
+                "’s made"
+              ]
+            },
+            {
+              "answers": [
+                "was made"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they (send)",
+          "cells": [
+            {
+              "answers": [
+                "are sent",
+                "’re sent"
+              ]
+            },
+            {
+              "answers": [
+                "were sent"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "it (write)",
+          "cells": [
+            {
+              "answers": [
+                "is written",
+                "’s written"
+              ]
+            },
+            {
+              "answers": [
+                "was written"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Is / are o was / were, según el tiempo y el sujeto, + participio (made, sent, written)."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "The doors are closed at nine.",
+      "options": [
+        "The doors are closed at nine.",
+        "The doors close at nine.",
+        "The doors were closed at nine."
+      ],
+      "answer": 0,
+      "explanationEs": "Are closed: pasiva en presente (se cierran). Fíjate en are y en la -ed."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "Future continuous and future perfect: free practice",
+  "titleEs": "Futuro continuo y futuro perfecto: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B2",
+  "unit": "futuro-continuo-y-perfecto",
+  "topics": [
+    "future-continuous",
+    "future-perfect",
+    "future-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "At eight o'clock tomorrow, I ___ (to take) an exam.",
+      "blanks": [
+        {
+          "answers": [
+            "will be taking",
+            "’ll be taking"
+          ]
+        }
+      ],
+      "explanationEs": "En curso a una hora concreta del futuro: will be taking."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "By the time you get here, we ___ (to eat) everything.",
+      "blanks": [
+        {
+          "answers": [
+            "will have eaten",
+            "’ll have eaten"
+          ]
+        }
+      ],
+      "explanationEs": "Antes de que llegues ya habremos terminado: will have + participio (eaten)."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "Next month, she ___ (to work) here for twenty years.",
+      "blanks": [
+        {
+          "answers": [
+            "will have been working",
+            "’ll have been working",
+            "will have worked",
+            "’ll have worked"
+          ]
+        }
+      ],
+      "explanationEs": "Cuánto tiempo llevará en un momento del futuro: will have been working (o will have worked)."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "He will be travelling next week.",
+      "to": "neg",
+      "answers": [
+        "He won't be travelling next week.",
+        "He won't be traveling next week."
+      ],
+      "explanationEs": "Negativa: won't + be + verbo con -ing."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "They will have finished the work.",
+      "to": "q",
+      "answers": [
+        "Will they have finished the work?"
+      ],
+      "explanationEs": "Pregunta: will pasa delante del sujeto; have y el participio se quedan detrás."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "By Monday I will have wrote the essay.",
+      "wrong": "wrote",
+      "answers": [
+        "written"
+      ],
+      "explanationEs": "Después de will have, el participio de write: written."
+    }
+  ]
+}

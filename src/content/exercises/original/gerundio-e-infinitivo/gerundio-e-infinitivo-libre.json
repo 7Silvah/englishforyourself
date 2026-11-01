@@ -1,0 +1,88 @@
+{
+  "title": "Gerunds and infinitives: free practice",
+  "titleEs": "Gerundio e infinitivo: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "gerundio-e-infinitivo",
+  "topics": [
+    "gerund",
+    "infinitive"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "Have you finished ___ (to clean) your room?",
+      "blanks": [
+        {
+          "answers": [
+            "cleaning"
+          ]
+        }
+      ],
+      "explanationEs": "Finish va con -ing: finished cleaning."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I can't afford ___ (to buy) a new phone.",
+      "blanks": [
+        {
+          "answers": [
+            "to buy"
+          ]
+        }
+      ],
+      "explanationEs": "Afford va con to + verbo: afford to buy."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "It started ___ (to snow) at midnight.",
+      "blanks": [
+        {
+          "answers": [
+            "snowing",
+            "to snow"
+          ]
+        }
+      ],
+      "explanationEs": "Start admite las dos formas casi sin diferencia: started snowing o started to snow."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "___ (to smoke) is bad for your health.",
+      "blanks": [
+        {
+          "answers": [
+            "Smoking"
+          ]
+        }
+      ],
+      "explanationEs": "Como sujeto de la frase, -ing: Smoking is bad…"
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "He enjoys playing tennis.",
+      "to": "neg",
+      "answers": [
+        "He doesn't enjoy playing tennis."
+      ],
+      "explanationEs": "Negativa en presente: doesn't enjoy. Enjoy sigue con -ing."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "Thanks for help me.",
+      "wrong": "help",
+      "answers": [
+        "helping"
+      ],
+      "explanationEs": "Después de una preposición (for), -ing: thanks for helping me."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "title": "Modals: obligation and advice: more practice",
+  "titleEs": "Modales: obligación y consejo: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "modales-obligacion-y-consejo",
+  "topics": [
+    "modals",
+    "obligation"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "No hace falta que vengas.",
+          "right": "You don't have to come."
+        },
+        {
+          "left": "No debes tocar eso.",
+          "right": "You mustn't touch that."
+        },
+        {
+          "left": "Deberías descansar.",
+          "right": "You should rest."
+        },
+        {
+          "left": "Tuve que trabajar.",
+          "right": "I had to work."
+        },
+        {
+          "left": "¿Tengo que pagar?",
+          "right": "Do I have to pay?"
+        }
+      ],
+      "explanationEs": "No hace falta es don't have to; está prohibido es mustn't; deberías es should; tuve que es had to."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "You mustn't…",
+          "labelEs": "está prohibido",
+          "items": [
+            "use your phone in the exam",
+            "park in front of the hospital",
+            "feed the animals at the zoo"
+          ]
+        },
+        {
+          "label": "You don't have to…",
+          "labelEs": "no hace falta",
+          "items": [
+            "bring food: lunch is included",
+            "wear a suit: it's a casual party",
+            "buy a ticket: the museum is free"
+          ]
+        }
+      ],
+      "explanationEs": "Mustn't prohíbe; don't have to dice que algo no es necesario."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Tengo que estudiar esta noche.",
+      "answers": [
+        "I have to study tonight.",
+        "I must study tonight.",
+        "I've got to study tonight.",
+        "I have got to study tonight."
+      ],
+      "explanationEs": "Tener que es have to (o must, si es una obligación que te pones tú)."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "You don't have to answer now.",
+      "explanationEs": "No hace falta que respondas ahora: don't have to."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Have to",
+      "columns": [
+        "Affirmative",
+        "Negative"
+      ],
+      "rows": [
+        {
+          "header": "I",
+          "cells": [
+            {
+              "answers": [
+                "have to"
+              ]
+            },
+            {
+              "answers": [
+                "don't have to",
+                "do not have to"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "he",
+          "cells": [
+            {
+              "answers": [
+                "has to"
+              ]
+            },
+            {
+              "answers": [
+                "doesn't have to",
+                "does not have to"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "we (yesterday)",
+          "cells": [
+            {
+              "answers": [
+                "had to"
+              ]
+            },
+            {
+              "answers": [
+                "didn't have to",
+                "did not have to"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Have to se conjuga como un verbo normal: has to con he, she, it; had to en pasado; negativa con don't, doesn't o didn't."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "You mustn't park here.",
+      "options": [
+        "You mustn't park here.",
+        "You must park here.",
+        "You don't have to park here."
+      ],
+      "answer": 0,
+      "explanationEs": "Mustn't: está prohibido aparcar aquí."
+    }
+  ]
+}

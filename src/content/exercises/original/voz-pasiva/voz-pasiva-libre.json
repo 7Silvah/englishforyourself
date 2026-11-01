@@ -1,0 +1,85 @@
+{
+  "title": "The passive voice: free practice",
+  "titleEs": "La voz pasiva: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "voz-pasiva",
+  "topics": [
+    "passive-voice"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "In this hotel, the rooms ___ (to clean) every morning.",
+      "blanks": [
+        {
+          "answers": [
+            "are cleaned"
+          ]
+        }
+      ],
+      "explanationEs": "Algo que se hace siempre: pasiva en presente, are + participio."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "The Mona Lisa ___ (to paint) by Leonardo da Vinci.",
+      "blanks": [
+        {
+          "answers": [
+            "was painted"
+          ]
+        }
+      ],
+      "explanationEs": "Algo terminado en el pasado: was + participio."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "The new hospital ___ (to open) next year.",
+      "blanks": [
+        {
+          "answers": [
+            "will be opened",
+            "is going to be opened"
+          ]
+        }
+      ],
+      "explanationEs": "Pasiva en futuro: will be + participio (o is going to be + participio)."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "Someone stole my wallet.",
+      "to": "passive",
+      "answers": [
+        "My wallet was stolen.",
+        "My wallet was stolen by someone."
+      ],
+      "explanationEs": "Lo robado pasa a sujeto y to be va en pasado: was stolen. By someone no aporta nada y suele omitirse."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "They make these cars in Japan.",
+      "to": "passive",
+      "answers": [
+        "These cars are made in Japan."
+      ],
+      "explanationEs": "These cars pasa a sujeto, are + participio (made). By them no aporta nada: se omite."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "The cake was ate by the children.",
+      "wrong": "ate",
+      "answers": [
+        "eaten"
+      ],
+      "explanationEs": "Después de was, el participio: eaten. Ate es el pasado."
+    }
+  ]
+}

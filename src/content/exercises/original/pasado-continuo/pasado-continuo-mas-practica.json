@@ -1,0 +1,180 @@
+{
+  "title": "Past continuous: more practice",
+  "titleEs": "Pasado continuo: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-continuo",
+  "topics": [
+    "past-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Estaba durmiendo.",
+          "right": "I was sleeping."
+        },
+        {
+          "left": "Estábamos esperando.",
+          "right": "We were waiting."
+        },
+        {
+          "left": "¿Estabas trabajando?",
+          "right": "Were you working?"
+        },
+        {
+          "left": "No estaba lloviendo.",
+          "right": "It wasn't raining."
+        },
+        {
+          "left": "Estaban jugando.",
+          "right": "They were playing."
+        }
+      ],
+      "explanationEs": "Estaba + gerundio se dice was o were + verbo con -ing."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "Action",
+          "labelEs": "acción: puede ir con -ing",
+          "items": [
+            "cook",
+            "run",
+            "read",
+            "travel"
+          ]
+        },
+        {
+          "label": "State",
+          "labelEs": "estado: sin -ing",
+          "items": [
+            "know",
+            "like",
+            "want",
+            "need"
+          ]
+        }
+      ],
+      "explanationEs": "Los verbos de estado (saber, gustar, querer, necesitar) no van en continuo: I knew, no I was knowing."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Estaba lloviendo cuando salimos.",
+      "answers": [
+        "It was raining when we left."
+      ],
+      "wordBank": [
+        "It",
+        "was",
+        "raining",
+        "when",
+        "we",
+        "left.",
+        "were"
+      ],
+      "explanationEs": "Lo que estaba pasando (was raining) y lo que pasó (left). La lluvia es it: was."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "What were you doing at that moment?",
+      "explanationEs": "Pregunta en pasado continuo: what + were + you + doing."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Past continuous",
+      "columns": [
+        "Affirmative",
+        "Negative"
+      ],
+      "rows": [
+        {
+          "header": "I",
+          "cells": [
+            {
+              "answers": [
+                "was working"
+              ]
+            },
+            {
+              "answers": [
+                "wasn't working",
+                "was not working"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "she",
+          "cells": [
+            {
+              "answers": [
+                "was working"
+              ]
+            },
+            {
+              "answers": [
+                "wasn't working",
+                "was not working"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "we",
+          "cells": [
+            {
+              "answers": [
+                "were working"
+              ]
+            },
+            {
+              "answers": [
+                "weren't working",
+                "were not working"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they",
+          "cells": [
+            {
+              "answers": [
+                "were working"
+              ]
+            },
+            {
+              "answers": [
+                "weren't working",
+                "were not working"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Was con I, he, she, it; were con you, we, they. El verbo siempre con -ing."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "They were waiting for the bus.",
+      "options": [
+        "They were waiting for the bus.",
+        "They waited for the bus.",
+        "They wait for the bus."
+      ],
+      "answer": 0,
+      "explanationEs": "Were waiting: estaban esperando. Fíjate en el -ing al final del verbo."
+    }
+  ]
+}

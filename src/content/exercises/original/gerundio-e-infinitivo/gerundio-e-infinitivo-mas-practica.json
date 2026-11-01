@@ -1,0 +1,153 @@
+{
+  "title": "Gerunds and infinitives: more practice",
+  "titleEs": "Gerundio e infinitivo: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "gerundio-e-infinitivo",
+  "topics": [
+    "gerund",
+    "infinitive"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Gracias por venir.",
+          "right": "Thanks for coming."
+        },
+        {
+          "left": "Quiero que vengas.",
+          "right": "I want you to come."
+        },
+        {
+          "left": "Nadar es sano.",
+          "right": "Swimming is healthy."
+        },
+        {
+          "left": "Antes de salir…",
+          "right": "Before leaving…"
+        },
+        {
+          "left": "Evito conducir de noche.",
+          "right": "I avoid driving at night."
+        }
+      ],
+      "explanationEs": "Donde el español usa infinitivo, el inglés pide a menudo -ing: después de preposiciones, como sujeto y con verbos como avoid."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "+ -ing",
+          "labelEs": "van con -ing",
+          "items": [
+            "enjoy",
+            "finish",
+            "mind",
+            "avoid",
+            "suggest"
+          ]
+        },
+        {
+          "label": "+ to",
+          "labelEs": "van con to + verbo",
+          "items": [
+            "want",
+            "decide",
+            "hope",
+            "promise",
+            "afford"
+          ]
+        }
+      ],
+      "explanationEs": "Disfrutar o terminar algo (enjoy, finish) suele ir con -ing; planes y deseos (want, hope, decide), con to."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Me gustaría aprender a nadar.",
+      "answers": [
+        "I would like to learn to swim.",
+        "I'd like to learn to swim.",
+        "I would like to learn how to swim.",
+        "I'd like to learn how to swim."
+      ],
+      "explanationEs": "Would like y learn van los dos con to + verbo: I'd like to learn to swim."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "She left without saying goodbye.",
+      "explanationEs": "Después de una preposición (without), -ing: without saying."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Verb + -ing or to",
+      "columns": [
+        "(dance)"
+      ],
+      "rows": [
+        {
+          "header": "I enjoy…",
+          "cells": [
+            {
+              "answers": [
+                "dancing"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "I want…",
+          "cells": [
+            {
+              "answers": [
+                "to dance"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "I'm good at…",
+          "cells": [
+            {
+              "answers": [
+                "dancing"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "I like…",
+          "cells": [
+            {
+              "answers": [
+                "dancing",
+                "to dance"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Enjoy y las preposiciones (at), con -ing; want, con to; like, con las dos."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "I'm thinking of moving to Canada.",
+      "options": [
+        "I'm thinking of moving to Canada.",
+        "I'm thinking to move to Canada.",
+        "I think of moving to Canada."
+      ],
+      "answer": 0,
+      "explanationEs": "Después de la preposición of, -ing: thinking of moving."
+    }
+  ]
+}

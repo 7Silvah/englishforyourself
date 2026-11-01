@@ -43,3 +43,11 @@ export function recommendedUnit<T extends { meta: UnitSets }>(
 ): T | undefined {
   return units.find((u) => unitStatus(u.meta, attempts) !== "mastered");
 }
+
+/** Niveles de un bloque para su título: "A1" o, si mezcla niveles, "A2–B2" */
+export function levelRange(levels: readonly string[]): string {
+  const sorted = [...new Set(levels)].sort();
+  const first = sorted[0] ?? "";
+  const last = sorted[sorted.length - 1] ?? "";
+  return first === last ? first : `${first}–${last}`;
+}

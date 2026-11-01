@@ -1,0 +1,100 @@
+{
+  "title": "Tag questions: review",
+  "titleEs": "Las tag questions: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "tag-questions",
+  "topics": [
+    "tag-questions",
+    "questions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I'm right, ___?",
+      "options": [
+        "aren't I",
+        "am not I",
+        "isn't it"
+      ],
+      "answer": 0,
+      "explanationEs": "Con I am, la tag es aren't I?"
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Your parents live in Madrid, ___?",
+      "options": [
+        "don't they",
+        "doesn't they",
+        "aren't they"
+      ],
+      "answer": 0,
+      "explanationEs": "Presente sin auxiliar, con un plural: don't they?"
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Maria is from Peru, isn't it?",
+      "answer": false,
+      "explanationEs": "Maria es she: Maria is from Peru, isn't she?"
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "You haven't seen this film, have you?",
+      "answer": true,
+      "explanationEs": "Frase negativa con haven't, tag afirmativa: have you?"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "She works here, doesn't she?"
+      ],
+      "distractors": [
+        "isn't"
+      ],
+      "explanationEs": "Presente con she y sin auxiliar: doesn't she?"
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "He can't drive, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "can he"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con can't: tag afirmativa, can he?"
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "We didn't miss the bus, ___?",
+      "blanks": [
+        {
+          "answers": [
+            "did we"
+          ]
+        }
+      ],
+      "explanationEs": "Pasado negativo: tag afirmativa con did."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "It wasn't expensive, was they?",
+      "wrong": "they",
+      "answers": [
+        "it"
+      ],
+      "explanationEs": "En la tag va el pronombre del sujeto: it."
+    }
+  ]
+}

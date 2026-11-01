@@ -1,0 +1,90 @@
+{
+  "title": "Reported speech: free practice",
+  "titleEs": "Estilo indirecto: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B2",
+  "unit": "estilo-indirecto",
+  "topics": [
+    "reported-speech"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "\"Sit down,\" the teacher said. → The teacher told us ___ down.",
+      "blanks": [
+        {
+          "answers": [
+            "to sit"
+          ]
+        }
+      ],
+      "explanationEs": "Una orden: told + persona + to + verbo."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "\"Are you hungry?\" she asked me. → She asked me ___ hungry.",
+      "blanks": [
+        {
+          "answers": [
+            "if I was",
+            "whether I was",
+            "if I were"
+          ]
+        }
+      ],
+      "explanationEs": "Pregunta de sí o no: if + sujeto + verbo un paso atrás (are → was)."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "\"I can't come tomorrow,\" Ana said last week. → Ana said she ___ come the next day.",
+      "blanks": [
+        {
+          "answers": [
+            "couldn't",
+            "could not"
+          ]
+        }
+      ],
+      "explanationEs": "Can da un paso atrás: could. Lo dijo la semana pasada, así que ya es pasado."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "\"Where is the station?\" he asked. → He asked where the station ___.",
+      "blanks": [
+        {
+          "answers": [
+            "was",
+            "is"
+          ]
+        }
+      ],
+      "explanationEs": "Orden de afirmación (the station was). Is también vale: la estación sigue en el mismo sitio."
+    },
+    {
+      "id": "5",
+      "type": "translate",
+      "es": "Me dijo que estaba cansado.",
+      "answers": [
+        "He told me he was tired.",
+        "He told me that he was tired."
+      ],
+      "explanationEs": "Me dijo es told me (tell + a quién). Estoy → estaba: am → was. That se puede quitar."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "He said me that he was tired.",
+      "wrong": "said",
+      "answers": [
+        "told"
+      ],
+      "explanationEs": "Con a quién (me), tell: He told me…"
+    }
+  ]
+}

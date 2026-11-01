@@ -1,0 +1,86 @@
+{
+  "title": "Modals: obligation and advice: free practice",
+  "titleEs": "Modales: obligación y consejo: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "modales-obligacion-y-consejo",
+  "topics": [
+    "modals",
+    "obligation"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "My sister ___ (have to) work on Saturdays.",
+      "blanks": [
+        {
+          "answers": [
+            "has to"
+          ]
+        }
+      ],
+      "explanationEs": "Have to se conjuga: con she, has to."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Yesterday we ___ (have to) wait for two hours.",
+      "blanks": [
+        {
+          "answers": [
+            "had to"
+          ]
+        }
+      ],
+      "explanationEs": "Obligación en el pasado: had to."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "You look tired. You ___ go to bed earlier.",
+      "blanks": [
+        {
+          "answers": [
+            "should",
+            "ought to",
+            "must"
+          ]
+        }
+      ],
+      "explanationEs": "Un consejo: should (u ought to). Must también vale si es un consejo muy fuerte."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "She has to wear glasses.",
+      "to": "neg",
+      "answers": [
+        "She doesn't have to wear glasses."
+      ],
+      "explanationEs": "Negativa de have to: doesn't have to (no le hace falta)."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "We should tell her.",
+      "to": "q",
+      "answers": [
+        "Should we tell her?"
+      ],
+      "explanationEs": "Pregunta con should: should pasa delante del sujeto."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "He have to leave now.",
+      "wrong": "have",
+      "answers": [
+        "has"
+      ],
+      "explanationEs": "Have to se conjuga: con he, has to."
+    }
+  ]
+}

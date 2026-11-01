@@ -1,0 +1,104 @@
+{
+  "title": "Present perfect: review",
+  "titleEs": "Presente perfecto: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "presente-perfecto",
+  "topics": [
+    "present-perfect",
+    "present-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "We ___ to Rome in 2020.",
+      "options": [
+        "went",
+        "have gone",
+        "have been"
+      ],
+      "answer": 0,
+      "explanationEs": "In 2020 es un momento terminado: pasado simple, went."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I've known her ___ we were at school.",
+      "options": [
+        "since",
+        "for",
+        "from"
+      ],
+      "answer": 0,
+      "explanationEs": "Desde que íbamos al colegio es un momento de inicio: since."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Have you finished your homework yet?",
+      "answer": true,
+      "explanationEs": "Pregunta sobre algo reciente: have + participio, con yet al final."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I am here since Monday.",
+      "answer": false,
+      "explanationEs": "Lo que dura hasta hoy va en presente perfecto: I've been here since Monday."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "She has just left the office."
+      ],
+      "distractors": [
+        "yet"
+      ],
+      "explanationEs": "Just (acaba de) va entre has y el participio."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "How long ___ you ___ (to wait)?",
+      "blanks": [
+        {
+          "answers": [
+            "have"
+          ]
+        },
+        {
+          "answers": [
+            "been waiting",
+            "waited"
+          ]
+        }
+      ],
+      "explanationEs": "Cuánto tiempo hasta ahora: have + been waiting (o have waited)."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "She has called her mother.",
+      "to": "neg",
+      "answers": [
+        "She hasn't called her mother.",
+        "She’s not called her mother."
+      ],
+      "explanationEs": "Negativa: hasn't + participio."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "I have saw that film three times.",
+      "wrong": "saw",
+      "answers": [
+        "seen"
+      ],
+      "explanationEs": "Después de have, el participio de see: seen. Saw es el pasado."
+    }
+  ]
+}

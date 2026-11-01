@@ -1,0 +1,76 @@
+{
+  "title": "Future continuous and future perfect: guided practice",
+  "titleEs": "Futuro continuo y futuro perfecto: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B2",
+  "unit": "futuro-continuo-y-perfecto",
+  "topics": [
+    "future-continuous",
+    "future-perfect",
+    "future-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "This time next week, we ___ on the beach.",
+      "options": [
+        "will be lying",
+        "will be lie",
+        "will lying"
+      ],
+      "answer": 0,
+      "explanationEs": "Algo en curso en un momento del futuro: will be + verbo con -ing."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "By the end of the year, I ___ my degree.",
+      "options": [
+        "will have finished",
+        "will have finish",
+        "will has finished"
+      ],
+      "answer": 0,
+      "explanationEs": "Terminado antes de un momento del futuro: will have + participio. Will no cambia: nunca will has."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Don't call me at nine: I'll be having dinner.",
+      "answer": true,
+      "explanationEs": "A las nueve estaré cenando: will be + -ing."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "By 2030, scientists will have find a cure.",
+      "answer": false,
+      "explanationEs": "Después de will have, el participio: will have found."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Will you be using the car tonight?"
+      ],
+      "distractors": [
+        "use"
+      ],
+      "explanationEs": "Pregunta: will + sujeto + be + verbo con -ing."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "They won't have arrived by noon."
+      ],
+      "distractors": [
+        "haven't"
+      ],
+      "explanationEs": "Negativa: won't + have + participio."
+    }
+  ]
+}

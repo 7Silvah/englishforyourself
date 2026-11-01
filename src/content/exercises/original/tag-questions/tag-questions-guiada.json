@@ -1,0 +1,75 @@
+{
+  "title": "Tag questions: guided practice",
+  "titleEs": "Las tag questions: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "tag-questions",
+  "topics": [
+    "tag-questions",
+    "questions"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "It's a beautiful day, ___?",
+      "options": [
+        "isn't it",
+        "is it",
+        "doesn't it"
+      ],
+      "answer": 0,
+      "explanationEs": "Frase afirmativa con is: tag negativa, isn't it?"
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "You don't speak French, ___?",
+      "options": [
+        "do you",
+        "don't you",
+        "are you"
+      ],
+      "answer": 0,
+      "explanationEs": "Frase negativa con don't: tag afirmativa, do you?"
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "They went to the party, didn't they?",
+      "answer": true,
+      "explanationEs": "Pasado sin auxiliar (went): la tag usa did, en negativa: didn't they?"
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She can swim, doesn't she?",
+      "answer": false,
+      "explanationEs": "El auxiliar de la frase es can: She can swim, can't she?"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "You've been to Paris, haven't you?"
+      ],
+      "distractors": [
+        "didn't"
+      ],
+      "explanationEs": "El auxiliar de la frase es have ('ve): haven't you?"
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "He isn't coming, is he?"
+      ],
+      "distractors": [
+        "does"
+      ],
+      "explanationEs": "Frase negativa con isn't: tag afirmativa, is he?"
+    }
+  ]
+}

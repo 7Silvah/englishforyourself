@@ -1,0 +1,97 @@
+{
+  "title": "The passive voice: review",
+  "titleEs": "La voz pasiva: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "voz-pasiva",
+  "topics": [
+    "passive-voice"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "The windows ___ yesterday.",
+      "options": [
+        "were cleaned",
+        "was cleaned",
+        "cleaned"
+      ],
+      "answer": 0,
+      "explanationEs": "Pasiva en pasado con un plural: were + participio."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "My car ___ at the moment, so I'm taking the bus.",
+      "options": [
+        "is being repaired",
+        "is repairing",
+        "is repaired"
+      ],
+      "answer": 0,
+      "explanationEs": "Algo que se está haciendo ahora: pasiva continua, is being + participio."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "Hamlet was written by Shakespeare.",
+      "answer": true,
+      "explanationEs": "Pasiva en pasado, con by para decir quién lo escribió."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "This house built in 1920.",
+      "answer": false,
+      "explanationEs": "Falta to be: This house was built in 1920."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Is breakfast included in the price?"
+      ],
+      "distractors": [
+        "Does"
+      ],
+      "explanationEs": "Pregunta en pasiva: is + sujeto + participio."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Thousands of emails ___ (to send) every second.",
+      "blanks": [
+        {
+          "answers": [
+            "are sent"
+          ]
+        }
+      ],
+      "explanationEs": "Algo que pasa siempre, con un plural: are + participio (sent)."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "The police arrested two men.",
+      "to": "passive",
+      "answers": [
+        "Two men were arrested.",
+        "Two men were arrested by the police."
+      ],
+      "explanationEs": "Two men pasa a sujeto: were arrested. By the police es obvio y se puede omitir."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "The tickets has been sold.",
+      "wrong": "has",
+      "answers": [
+        "have"
+      ],
+      "explanationEs": "The tickets es plural: have been sold."
+    }
+  ]
+}

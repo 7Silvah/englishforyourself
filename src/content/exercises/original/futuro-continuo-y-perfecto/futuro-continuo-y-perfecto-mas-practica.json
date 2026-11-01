@@ -1,0 +1,173 @@
+{
+  "title": "Future continuous and future perfect: more practice",
+  "titleEs": "Futuro continuo y futuro perfecto: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B2",
+  "unit": "futuro-continuo-y-perfecto",
+  "topics": [
+    "future-continuous",
+    "future-perfect",
+    "future-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Estaré trabajando.",
+          "right": "I'll be working."
+        },
+        {
+          "left": "Habremos terminado.",
+          "right": "We'll have finished."
+        },
+        {
+          "left": "¿Estarás usando el coche?",
+          "right": "Will you be using the car?"
+        },
+        {
+          "left": "No habrán llegado.",
+          "right": "They won't have arrived."
+        },
+        {
+          "left": "Llevaré dos años aquí.",
+          "right": "I'll have been here for two years."
+        }
+      ],
+      "explanationEs": "Estaré + gerundio: will be + -ing. Habré + participio: will have + participio."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "will be + -ing",
+          "labelEs": "algo en curso",
+          "items": [
+            "this time tomorrow",
+            "this time next week",
+            "all day tomorrow",
+            "at midnight"
+          ]
+        },
+        {
+          "label": "will have + participle",
+          "labelEs": "algo ya terminado",
+          "items": [
+            "by Friday",
+            "by the time you arrive",
+            "by 2030",
+            "by then"
+          ]
+        }
+      ],
+      "explanationEs": "Un momento concreto pide algo en curso (will be + -ing); by (antes de) pide algo terminado (will have + participio)."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Para el viernes habré terminado el libro.",
+      "answers": [
+        "I will have finished the book by Friday.",
+        "I'll have finished the book by Friday."
+      ],
+      "wordBank": [
+        "I",
+        "I'll",
+        "will",
+        "have",
+        "finished",
+        "the",
+        "book",
+        "by",
+        "Friday.",
+        "for"
+      ],
+      "explanationEs": "Habré terminado: will have finished. Para (antes de) una fecha es by, no for."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "This time next year I'll be living in Canada.",
+      "explanationEs": "Algo en curso en un momento del futuro: I'll be + living."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Future forms",
+      "columns": [
+        "Future continuous",
+        "Future perfect"
+      ],
+      "rows": [
+        {
+          "header": "work",
+          "cells": [
+            {
+              "answers": [
+                "will be working",
+                "’ll be working"
+              ]
+            },
+            {
+              "answers": [
+                "will have worked",
+                "’ll have worked"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "write",
+          "cells": [
+            {
+              "answers": [
+                "will be writing",
+                "’ll be writing"
+              ]
+            },
+            {
+              "answers": [
+                "will have written",
+                "’ll have written"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "go",
+          "cells": [
+            {
+              "answers": [
+                "will be going",
+                "’ll be going"
+              ]
+            },
+            {
+              "answers": [
+                "will have gone",
+                "’ll have gone"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Continuo: will be + -ing. Perfecto: will have + participio (written, gone son irregulares)."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "We'll have left by then.",
+      "options": [
+        "We'll have left by then.",
+        "We'll leave by then.",
+        "We've left by then."
+      ],
+      "answer": 0,
+      "explanationEs": "We'll have left: ya nos habremos ido. Fíjate en have después de we'll."
+    }
+  ]
+}
