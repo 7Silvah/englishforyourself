@@ -1,0 +1,156 @@
+{
+  "title": "Wishes and regrets: more practice",
+  "titleEs": "Deseos y arrepentimientos: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B2",
+  "unit": "deseos-y-arrepentimientos",
+  "topics": [
+    "wishes",
+    "regrets"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Ojalá tuviera tiempo.",
+          "right": "I wish I had time."
+        },
+        {
+          "left": "Ojalá hubiera venido.",
+          "right": "I wish I had come."
+        },
+        {
+          "left": "Ojalá llueva mañana.",
+          "right": "I hope it rains tomorrow."
+        },
+        {
+          "left": "Debería haberte llamado.",
+          "right": "I should have called you."
+        },
+        {
+          "left": "Ojalá te callaras.",
+          "right": "I wish you would be quiet."
+        }
+      ],
+      "explanationEs": "Ojalá + algo posible es hope; + algo imposible, wish + pasado o had + participio. Debería haber es should have."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "I hope…",
+          "labelEs": "algo posible",
+          "items": [
+            "you feel better soon",
+            "it doesn't rain tomorrow",
+            "you enjoy the film"
+          ]
+        },
+        {
+          "label": "I wish…",
+          "labelEs": "algo imposible o que ya pasó",
+          "items": [
+            "I were taller",
+            "I had more free time",
+            "I hadn't eaten so much"
+          ]
+        }
+      ],
+      "explanationEs": "Hope va con algo que puede pasar (en presente); wish, con lo que no es así o ya no tiene arreglo (en pasado o had + participio)."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Ojalá supiera nadar.",
+      "answers": [
+        "I wish I could swim.",
+        "I wish I knew how to swim."
+      ],
+      "explanationEs": "Algo imposible ahora: wish + could (o knew how to)."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "I wish I had bought that jacket.",
+      "explanationEs": "Arrepentimiento: wish + had + participio (bought)."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Wish",
+      "columns": [
+        "Present wish",
+        "Past regret"
+      ],
+      "rows": [
+        {
+          "header": "be",
+          "cells": [
+            {
+              "answers": [
+                "were",
+                "was"
+              ]
+            },
+            {
+              "answers": [
+                "had been",
+                "’d been"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "have",
+          "cells": [
+            {
+              "answers": [
+                "had"
+              ]
+            },
+            {
+              "answers": [
+                "had had",
+                "’d had"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "go",
+          "cells": [
+            {
+              "answers": [
+                "went"
+              ]
+            },
+            {
+              "answers": [
+                "had gone",
+                "’d gone"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Sobre el presente, el pasado (were, had, went); sobre el pasado, had + participio."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "I shouldn't have eaten so much.",
+      "options": [
+        "I shouldn't have eaten so much.",
+        "I should have eaten so much.",
+        "I shouldn't eat so much."
+      ],
+      "answer": 0,
+      "explanationEs": "Shouldn't have eaten: no debería haber comido tanto."
+    }
+  ]
+}

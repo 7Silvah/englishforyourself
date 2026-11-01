@@ -1,0 +1,101 @@
+{
+  "title": "Reported speech: review",
+  "titleEs": "Estilo indirecto: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B2",
+  "unit": "estilo-indirecto",
+  "topics": [
+    "reported-speech"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Last month, Tom said: \"I'm leaving tomorrow.\" → Tom said he was leaving ___.",
+      "options": [
+        "the next day",
+        "tomorrow",
+        "yesterday"
+      ],
+      "answer": 0,
+      "explanationEs": "Lo dijo hace un mes: tomorrow pasa a the next day."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "\"Do you like jazz?\" → She asked me ___ jazz.",
+      "options": [
+        "if I liked",
+        "do I like",
+        "if did I like"
+      ],
+      "answer": 0,
+      "explanationEs": "Pregunta de sí o no: if + orden de afirmación, sin do."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "My mother told me to wear a coat.",
+      "answer": true,
+      "explanationEs": "Una orden o consejo: told + persona + to + verbo."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "He asked me where was the bank.",
+      "answer": false,
+      "explanationEs": "Orden de afirmación: He asked me where the bank was."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "They asked us what time it was."
+      ],
+      "distractors": [
+        "did"
+      ],
+      "explanationEs": "Pregunta indirecta con palabra interrogativa: what time + it was."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "\"Don't open the window,\" he said. → He told me ___ the window.",
+      "blanks": [
+        {
+          "answers": [
+            "not to open"
+          ]
+        }
+      ],
+      "explanationEs": "Orden negativa: told + persona + not to + verbo."
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "\"I saw Laura,\" Sam said. → Sam said he ___ Laura.",
+      "blanks": [
+        {
+          "answers": [
+            "had seen",
+            "’d seen",
+            "saw"
+          ]
+        }
+      ],
+      "explanationEs": "El pasado da un paso atrás: had seen. Saw también se oye mucho."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "She told that she was tired.",
+      "wrong": "told",
+      "answers": [
+        "said"
+      ],
+      "explanationEs": "Sin a quién, say: She said that she was tired."
+    }
+  ]
+}

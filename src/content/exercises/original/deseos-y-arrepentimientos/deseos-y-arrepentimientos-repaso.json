@@ -1,0 +1,102 @@
+{
+  "title": "Wishes and regrets: review",
+  "titleEs": "Deseos y arrepentimientos: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B2",
+  "unit": "deseos-y-arrepentimientos",
+  "topics": [
+    "wishes",
+    "regrets"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I hope you ___ a good time at the party tonight.",
+      "options": [
+        "have",
+        "had",
+        "would have"
+      ],
+      "answer": 0,
+      "explanationEs": "Con hope, algo posible: presente (have)."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "If only I ___ my umbrella! I'm soaking wet.",
+      "options": [
+        "had brought",
+        "brought",
+        "bring"
+      ],
+      "answer": 0,
+      "explanationEs": "Arrepentimiento del pasado: if only + had + participio."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I wish I were on holiday now.",
+      "answer": true,
+      "explanationEs": "Deseo sobre el presente con to be: were (o was)."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I should have went to the doctor.",
+      "answer": false,
+      "explanationEs": "Después de should have, el participio: should have gone."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "I wish you would listen to me."
+      ],
+      "distractors": [
+        "will"
+      ],
+      "explanationEs": "Queja sobre lo que hace otra persona: wish + would."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "It's raining. I wish it ___ (to be) sunny.",
+      "blanks": [
+        {
+          "answers": [
+            "was",
+            "were"
+          ]
+        }
+      ],
+      "explanationEs": "Deseo sobre el presente: were (o was)."
+    },
+    {
+      "id": "7",
+      "type": "fill-blank",
+      "text": "I'm hungry. I ___ (should / eat) breakfast this morning.",
+      "blanks": [
+        {
+          "answers": [
+            "should have eaten",
+            "should’ve eaten"
+          ]
+        }
+      ],
+      "explanationEs": "Lo que habría sido correcto: should have + participio (eaten)."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "I wish I hadn't say that.",
+      "wrong": "say",
+      "answers": [
+        "said"
+      ],
+      "explanationEs": "Después de hadn't, el participio: said."
+    }
+  ]
+}

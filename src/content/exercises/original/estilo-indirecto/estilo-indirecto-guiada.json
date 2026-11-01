@@ -1,0 +1,74 @@
+{
+  "title": "Reported speech: guided practice",
+  "titleEs": "Estilo indirecto: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B2",
+  "unit": "estilo-indirecto",
+  "topics": [
+    "reported-speech"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "She ___ me that she was busy.",
+      "options": [
+        "told",
+        "said",
+        "asked to"
+      ],
+      "answer": 0,
+      "explanationEs": "Con a quién (me): told. Said no lleva persona detrás."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "He asked me where ___.",
+      "options": [
+        "I lived",
+        "did I live",
+        "I did live"
+      ],
+      "answer": 0,
+      "explanationEs": "Pregunta indirecta: orden de afirmación (I lived), sin did."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "They told us not to touch anything.",
+      "answer": true,
+      "explanationEs": "Orden negativa: told + persona + not to + verbo."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "He said me he was hungry.",
+      "answer": false,
+      "explanationEs": "Con a quién, tell: He told me he was hungry (o He said he was hungry)."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "She asked if I could help her."
+      ],
+      "distractors": [
+        "did"
+      ],
+      "explanationEs": "Pregunta de sí o no: asked + if + orden de afirmación. Can pasa a could."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "The teacher told us to be quiet."
+      ],
+      "distractors": [
+        "that"
+      ],
+      "explanationEs": "Una orden: told + persona + to + verbo."
+    }
+  ]
+}

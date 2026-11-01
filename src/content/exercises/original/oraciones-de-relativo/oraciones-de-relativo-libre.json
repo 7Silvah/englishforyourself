@@ -1,0 +1,89 @@
+{
+  "title": "Relative clauses: free practice",
+  "titleEs": "Oraciones de relativo: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "oraciones-de-relativo",
+  "topics": [
+    "relative-clauses"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "I have a friend ___ speaks five languages.",
+      "blanks": [
+        {
+          "answers": [
+            "who",
+            "that"
+          ]
+        }
+      ],
+      "explanationEs": "Una persona, y el relativo es el sujeto de speaks: who (o that)."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "Is this the bag ___ you lost?",
+      "blanks": [
+        {
+          "answers": [
+            "which",
+            "that"
+          ]
+        }
+      ],
+      "explanationEs": "Una cosa: which (o that). Aquí también se podría quitar: the bag you lost."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "My grandmother, ___ is 90, still walks every day.",
+      "blanks": [
+        {
+          "answers": [
+            "who"
+          ]
+        }
+      ],
+      "explanationEs": "Una persona y con comas (información extra): who. Con comas no se usa that."
+    },
+    {
+      "id": "4",
+      "type": "fill-blank",
+      "text": "That's the restaurant ___ we had dinner last week.",
+      "blanks": [
+        {
+          "answers": [
+            "where"
+          ]
+        }
+      ],
+      "explanationEs": "El lugar donde cenamos: where."
+    },
+    {
+      "id": "5",
+      "type": "error-correction",
+      "sentence": "The people which work here are very friendly.",
+      "wrong": "which",
+      "answers": [
+        "who",
+        "that"
+      ],
+      "explanationEs": "Para personas, who (o that), no which."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "Lima, that is the capital of Peru, is a big city.",
+      "wrong": "that",
+      "answers": [
+        "which"
+      ],
+      "explanationEs": "Con comas no se usa that; para una cosa o un lugar, which."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Modals: obligation and advice: review",
+  "titleEs": "Modales: obligación y consejo: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "modales-obligacion-y-consejo",
+  "topics": [
+    "modals",
+    "obligation"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Children ___ go to school until they are 16.",
+      "options": [
+        "have to",
+        "has to",
+        "must to"
+      ],
+      "answer": 0,
+      "explanationEs": "Una obligación con un plural: have to. Must también valdría, pero nunca must to."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "You ___ come if you don't want to.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "haven't"
+      ],
+      "answer": 0,
+      "explanationEs": "Si no quieres, no hace falta: don't have to."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I had to take a taxi because there were no buses.",
+      "answer": true,
+      "explanationEs": "Una obligación en el pasado: had to."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "You mustn't pay: the concert is free.",
+      "answer": false,
+      "explanationEs": "No está prohibido pagar; no hace falta: You don't have to pay."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What should I wear to the interview?"
+      ],
+      "distractors": [
+        "to"
+      ],
+      "explanationEs": "Pregunta con should: what + should + sujeto + verbo sin to."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "Last year she ___ (have to) move to another city for work.",
+      "blanks": [
+        {
+          "answers": [
+            "had to"
+          ]
+        }
+      ],
+      "explanationEs": "Obligación en el pasado: had to, igual con todas las personas."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "You should call him.",
+      "to": "neg",
+      "answers": [
+        "You shouldn't call him."
+      ],
+      "explanationEs": "Negativa: shouldn't + verbo."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "We mustn't buy tickets online: we can pay at the door.",
+      "wrong": "mustn't",
+      "answers": [
+        "don't have to"
+      ],
+      "explanationEs": "No está prohibido comprarlas por internet; no hace falta: don't have to."
+    }
+  ]
+}

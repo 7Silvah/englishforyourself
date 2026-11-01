@@ -1,0 +1,75 @@
+{
+  "title": "Wishes and regrets: guided practice",
+  "titleEs": "Deseos y arrepentimientos: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B2",
+  "unit": "deseos-y-arrepentimientos",
+  "topics": [
+    "wishes",
+    "regrets"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I wish I ___ a car. I have to take the bus every day.",
+      "options": [
+        "had",
+        "have",
+        "will have"
+      ],
+      "answer": 0,
+      "explanationEs": "Deseo sobre el presente (no tengo coche): wish + pasado, had."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I'm so tired. I wish I ___ to bed earlier last night.",
+      "options": [
+        "had gone",
+        "went",
+        "go"
+      ],
+      "answer": 0,
+      "explanationEs": "Arrepentimiento del pasado (last night): wish + had + participio."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I hope you have a great birthday.",
+      "answer": true,
+      "explanationEs": "Algo posible y bueno: hope + presente."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I wish it will be sunny tomorrow.",
+      "answer": false,
+      "explanationEs": "Algo posible en el futuro va con hope: I hope it's sunny tomorrow."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "I should have listened to you."
+      ],
+      "distractors": [
+        "listen"
+      ],
+      "explanationEs": "Lo que habría sido correcto: should have + participio (listened)."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "She wishes she could play the piano."
+      ],
+      "distractors": [
+        "can"
+      ],
+      "explanationEs": "Deseo sobre el presente: can da un paso atrás, could."
+    }
+  ]
+}
