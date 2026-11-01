@@ -1,0 +1,104 @@
+{
+  "title": "Zero and first conditionals: review",
+  "titleEs": "Condicionales 0 y 1: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-0-y-1",
+  "topics": [
+    "zero-conditional",
+    "first-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "If you ___ late again, you'll lose your job.",
+      "options": [
+        "are",
+        "will be",
+        "were"
+      ],
+      "answer": 0,
+      "explanationEs": "Después de if, presente: if you are late."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "If the temperature drops below zero, water ___.",
+      "options": [
+        "freezes",
+        "froze",
+        "freezing"
+      ],
+      "answer": 0,
+      "explanationEs": "Un hecho: condicional 0, presente (freezes)."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I'll be surprised if he comes.",
+      "answer": true,
+      "explanationEs": "El resultado puede ir primero; sin coma cuando if va en medio."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "Unless you don't hurry, you'll be late.",
+      "answer": false,
+      "explanationEs": "Unless ya es negativo (a menos que): Unless you hurry, you'll be late."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "If you see Tom, say hello."
+      ],
+      "distractors": [
+        "will"
+      ],
+      "explanationEs": "El resultado puede ser una orden (say hello). Después de if, presente: see."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "If we ___ (to leave) now, we ___ (to arrive) on time.",
+      "blanks": [
+        {
+          "answers": [
+            "leave"
+          ]
+        },
+        {
+          "answers": [
+            "will arrive",
+            "’ll arrive"
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 1: if + presente (leave) y will + verbo (will arrive)."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "She will help you if you ask her.",
+      "to": "q",
+      "answers": [
+        "Will she help you if you ask her?"
+      ],
+      "explanationEs": "Pregunta en el resultado: will + sujeto + verbo."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "If I see her, I tell her the news tomorrow.",
+      "wrong": "tell",
+      "answers": [
+        "will tell",
+        "’ll tell"
+      ],
+      "explanationEs": "Un resultado en el futuro (tomorrow) va con will: I'll tell her."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "title": "Zero and first conditionals: more practice",
+  "titleEs": "Condicionales 0 y 1: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-0-y-1",
+  "topics": [
+    "zero-conditional",
+    "first-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "If you mix red and yellow,",
+          "right": "you get orange."
+        },
+        {
+          "left": "If I'm tired tonight,",
+          "right": "I'll go to bed early."
+        },
+        {
+          "left": "If it snows tomorrow,",
+          "right": "the schools will close."
+        },
+        {
+          "left": "If you press this button,",
+          "right": "the door opens."
+        },
+        {
+          "left": "If you don't eat breakfast,",
+          "right": "you'll be hungry before lunch."
+        }
+      ],
+      "explanationEs": "Cada condición con su resultado. Los hechos que siempre pasan van en presente; lo que pasará, con will."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "Zero conditional",
+          "labelEs": "siempre pasa",
+          "items": [
+            "If you heat ice, it melts.",
+            "If I eat late, I sleep badly.",
+            "Plants die if they don't get water."
+          ]
+        },
+        {
+          "label": "First conditional",
+          "labelEs": "pasará si…",
+          "items": [
+            "If it rains tomorrow, we'll stay home.",
+            "I'll call you if I have time.",
+            "If you hurry, you'll catch the bus."
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 0: presente + presente (hechos). Condicional 1: presente + will (una situación concreta del futuro)."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Si llueve, no iremos al parque.",
+      "answers": [
+        "If it rains, we won't go to the park.",
+        "If it rains we won't go to the park.",
+        "We won't go to the park if it rains."
+      ],
+      "explanationEs": "Si + presente es if + presente (rains); el resultado en futuro, con won't."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "Call me if you need help.",
+      "explanationEs": "El resultado también puede ser una orden: call me. Después de if, presente: need."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "First conditional",
+      "columns": [
+        "If… (present)",
+        "Result (will)"
+      ],
+      "rows": [
+        {
+          "header": "you · study · pass",
+          "cells": [
+            {
+              "answers": [
+                "study"
+              ]
+            },
+            {
+              "answers": [
+                "will pass",
+                "’ll pass"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "she · work hard · get a promotion",
+          "cells": [
+            {
+              "answers": [
+                "works hard"
+              ]
+            },
+            {
+              "answers": [
+                "will get",
+                "’ll get"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "they · not hurry · be late",
+          "cells": [
+            {
+              "answers": [
+                "don't hurry",
+                "do not hurry"
+              ]
+            },
+            {
+              "answers": [
+                "will be",
+                "’ll be"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "If + presente (con -s para she) y will + verbo en el resultado."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "If it's sunny, we'll go out.",
+      "options": [
+        "If it's sunny, we'll go out.",
+        "If it's sunny, we go out.",
+        "If it's sunny, we went out."
+      ],
+      "answer": 0,
+      "explanationEs": "We'll go out: saldremos. Fíjate en el 'll después de we."
+    }
+  ]
+}
