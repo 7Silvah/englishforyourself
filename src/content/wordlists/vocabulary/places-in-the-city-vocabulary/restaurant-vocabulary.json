@@ -11,118 +11,148 @@
       "items": [
         {
           "en": "Appetizer",
+          "es": "entrante / aperitivo / entrada",
           "level": "C1"
         },
         {
           "en": "Bill (UK) / check (US)",
+          "es": "la cuenta",
           "level": "A1"
         },
         {
           "en": "Buffet",
+          "es": "bufé",
           "level": "C1"
         },
         {
           "en": "Chef",
+          "es": "chef / jefe de cocina",
           "level": "B1"
         },
         {
           "en": "Cook",
+          "es": "cocinero / cocinera",
           "level": "A1"
         },
         {
           "en": "Customer",
+          "es": "cliente",
           "level": "A1"
         },
         {
           "en": "Dessert",
+          "es": "postre",
           "level": "A2"
         },
         {
           "en": "Dish",
+          "es": "plato",
           "level": "B1"
         },
         {
           "en": "Dressing",
+          "es": "aliño / aderezo",
           "level": "B2"
         },
         {
           "en": "Drink",
+          "es": "bebida",
           "level": "A1"
         },
         {
           "en": "Drive-in restaurant",
+          "es": "autoservicio / restaurante drive-in",
           "level": "A2"
         },
         {
           "en": "Fast-food restaurant",
+          "es": "restaurante de comida rápida",
           "level": "A2"
         },
         {
           "en": "Main course",
+          "es": "plato principal / plato fuerte",
           "level": "A1"
         },
         {
           "en": "Meal",
+          "es": "comida",
           "level": "B1"
         },
         {
           "en": "Menu",
+          "es": "carta / menú",
           "level": "B1"
         },
         {
           "en": "Napkins",
+          "es": "servilletas",
           "level": "C1"
         },
         {
           "en": "Order",
+          "es": "pedido / orden",
           "level": "B1"
         },
         {
           "en": "Self-service restaurant",
+          "es": "restaurante de autoservicio",
           "level": "A2"
         },
         {
           "en": "Side dish",
+          "es": "guarnición / acompañamiento",
           "level": "B1"
         },
         {
           "en": "Takeout",
-          "level": "C1"
+          "es": "comida para llevar",
+          "level": "C1",
+          "note": "Inglés de Estados Unidos; en el Reino Unido, takeaway."
         },
         {
           "en": "Tip",
+          "es": "propina",
           "level": "B1"
         },
         {
           "en": "Tray",
+          "es": "bandeja / charola",
           "level": "C1"
         },
         {
           "en": "Waiter",
+          "es": "mesero / camarero",
           "level": "A1"
         },
         {
           "en": "Waitress",
+          "es": "mesera / camarera",
           "level": "A1"
         },
         {
           "en": "Waitstaff",
+          "es": "personal de sala / meseros",
           "level": "C1"
         },
         {
           "en": "Rare",
+          "es": "poco hecho / a la inglesa (carne)",
           "level": "A2"
         },
         {
           "en": "Medium rare",
+          "es": "término medio (tirando a poco hecho)",
           "level": "A2"
         },
         {
           "en": "Well done",
+          "es": "bien hecho / bien cocido",
           "level": "A1"
         },
         {
           "en": "Overdone",
+          "es": "demasiado hecho / pasado",
           "level": "C1"
         }
       ]
@@ -132,30 +162,37 @@
       "items": [
         {
           "en": "Food",
+          "es": "comida",
           "level": "A1"
         },
         {
           "en": "Starters",
+          "es": "entrantes / entradas",
           "level": "C1"
         },
         {
           "en": "Main course",
+          "es": "plato principal / plato fuerte",
           "level": "A1"
         },
         {
           "en": "Side dishes",
+          "es": "guarniciones",
           "level": "B2"
         },
         {
           "en": "Drinks",
+          "es": "bebidas",
           "level": "B1"
         },
         {
           "en": "Desserts",
+          "es": "postres",
           "level": "C1"
         },
         {
           "en": "Snacks",
+          "es": "tentempiés / botanas / aperitivos",
           "level": "B2"
         }
       ]

@@ -11,146 +11,182 @@
       "items": [
         {
           "en": "Allium",
+          "es": "allium / ajo ornamental",
           "level": "C1"
         },
         {
           "en": "Begonia",
+          "es": "begonia",
           "level": "C1"
         },
         {
           "en": "Bellflower",
+          "es": "campanilla",
           "level": "C1"
         },
         {
           "en": "Bluebell",
+          "es": "jacinto silvestre",
           "level": "C1"
         },
         {
           "en": "Bouquet",
+          "es": "ramo de flores",
           "level": "C1"
         },
         {
           "en": "Buttercup",
+          "es": "ranúnculo / botón de oro",
           "level": "C1"
         },
         {
           "en": "Camellia",
+          "es": "camelia",
           "level": "C1"
         },
         {
           "en": "Carnation",
+          "es": "clavel",
           "level": "C1"
         },
         {
           "en": "Daffodil",
+          "es": "narciso",
           "level": "C1"
         },
         {
           "en": "Dahlia",
+          "es": "dalia",
           "level": "C1"
         },
         {
           "en": "Daisy",
+          "es": "margarita",
           "level": "C1"
         },
         {
           "en": "Fern",
+          "es": "helecho",
           "level": "C1"
         },
         {
           "en": "Gardenia",
+          "es": "gardenia",
           "level": "C1"
         },
         {
           "en": "Gladiolus",
+          "es": "gladiolo",
           "level": "C1"
         },
         {
           "en": "Hyacinth",
+          "es": "jacinto",
           "level": "C1"
         },
         {
           "en": "Hydrangea",
+          "es": "hortensia",
           "level": "C1"
         },
         {
           "en": "Iris",
+          "es": "lirio / iris",
           "level": "C1"
         },
         {
           "en": "Jasmine",
+          "es": "jazmín",
           "level": "C1"
         },
         {
           "en": "Lavender",
+          "es": "lavanda",
           "level": "C1"
         },
         {
           "en": "Lilac",
+          "es": "lila",
           "level": "C1"
         },
         {
           "en": "Lilly",
+          "es": "azucena / lirio",
           "level": "C1"
         },
         {
           "en": "Lobelia",
+          "es": "lobelia",
           "level": "C1"
         },
         {
           "en": "Lotus",
+          "es": "loto",
           "level": "C1"
         },
         {
           "en": "Lupine",
+          "es": "lupino / altramuz",
           "level": "C1"
         },
         {
           "en": "Magnolia",
+          "es": "magnolia",
           "level": "C1"
         },
         {
           "en": "Marigold",
+          "es": "caléndula / cempasúchil",
           "level": "C1"
         },
         {
           "en": "Mimosa",
+          "es": "mimosa",
           "level": "C1"
         },
         {
           "en": "Oleander",
+          "es": "adelfa",
           "level": "C1"
         },
         {
           "en": "Orchid",
+          "es": "orquídea",
           "level": "C1"
         },
         {
           "en": "Primrose",
+          "es": "prímula / primavera",
           "level": "C1"
         },
         {
           "en": "Rose",
+          "es": "rosa",
           "level": "A2"
         },
         {
           "en": "Snowdrop",
+          "es": "campanilla de invierno",
           "level": "C1"
         },
         {
           "en": "Sunflower",
+          "es": "girasol",
           "level": "C1"
         },
         {
           "en": "Tulip",
+          "es": "tulipán",
           "level": "C1"
         },
         {
           "en": "Violet",
+          "es": "violeta",
           "level": "B2"
         },
         {
           "en": "Wisteria",
+          "es": "glicina",
           "level": "C1"
         }
       ]

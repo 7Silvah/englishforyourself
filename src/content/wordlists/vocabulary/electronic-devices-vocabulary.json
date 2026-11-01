@@ -11,190 +11,238 @@
       "items": [
         {
           "en": "Backup charger",
+          "es": "batería externa / cargador portátil",
           "level": "C1"
         },
         {
           "en": "Battery",
+          "es": "pila / batería",
           "level": "A1"
         },
         {
           "en": "Bluetooth speaker",
+          "es": "altavoz Bluetooth / bocina Bluetooth",
           "level": "C1"
         },
         {
           "en": "Calculator",
+          "es": "calculadora",
           "level": "C1"
         },
         {
           "en": "Camera",
+          "es": "cámara",
           "level": "A1"
         },
         {
           "en": "Cellphone",
+          "es": "celular / móvil",
           "level": "C1"
         },
         {
           "en": "Circuit breaker",
+          "es": "interruptor automático / breaker",
           "level": "C1"
         },
         {
           "en": "Clock",
+          "es": "reloj (de pared)",
           "level": "B1"
         },
         {
           "en": "Computer",
+          "es": "computadora / ordenador",
           "level": "A1"
         },
         {
           "en": "Copier",
+          "es": "fotocopiadora",
           "level": "C1"
         },
         {
           "en": "Cord",
+          "es": "cable",
           "level": "B2"
         },
         {
           "en": "Digital camera",
+          "es": "cámara digital",
           "level": "A2"
         },
         {
           "en": "Drone",
+          "es": "dron",
           "level": "B2"
         },
         {
           "en": "Earphones",
+          "es": "auriculares / audífonos",
           "level": "C1"
         },
         {
           "en": "Electric pencil sharpener",
+          "es": "sacapuntas eléctrico",
           "level": "C1"
         },
         {
           "en": "Exhaust fan",
+          "es": "extractor",
           "level": "C1"
         },
         {
           "en": "Extension cord",
+          "es": "alargador / extensión",
           "level": "B2"
         },
         {
           "en": "External hard drive",
+          "es": "disco duro externo",
           "level": "B1"
         },
         {
           "en": "Fuse",
+          "es": "fusible",
           "level": "C1"
         },
         {
           "en": "Hard drive",
+          "es": "disco duro",
           "level": "B1"
         },
         {
           "en": "Headphones",
+          "es": "auriculares / audífonos (de diadema)",
           "level": "B2"
         },
         {
           "en": "Laptop",
+          "es": "computadora portátil / portátil",
           "level": "A1"
         },
         {
           "en": "Memory stick",
+          "es": "memoria USB / pendrive",
           "level": "B1"
         },
         {
           "en": "Microphone",
+          "es": "micrófono",
           "level": "C1"
         },
         {
           "en": "Microphone stand",
+          "es": "pie de micrófono",
           "level": "C1"
         },
         {
           "en": "Mouse",
+          "es": "ratón / mouse",
           "level": "A2"
         },
         {
           "en": "Mp3 player",
+          "es": "reproductor de MP3",
           "level": "A2"
         },
         {
           "en": "Outlet",
-          "level": "B2"
+          "es": "enchufe / tomacorriente",
+          "level": "B2",
+          "note": "Inglés de Estados Unidos; en el Reino Unido, socket."
         },
         {
           "en": "Plug",
+          "es": "enchufe (clavija)",
           "level": "B2"
         },
         {
           "en": "Power strip",
+          "es": "regleta / multicontacto",
           "level": "B1"
         },
         {
           "en": "Printer",
+          "es": "impresora",
           "level": "B1"
         },
         {
           "en": "Projector",
+          "es": "proyector",
           "level": "C1"
         },
         {
           "en": "Radio",
+          "es": "radio",
           "level": "A2"
         },
         {
           "en": "Remote control",
+          "es": "control remoto / mando a distancia",
           "level": "B1"
         },
         {
           "en": "Security camera",
+          "es": "cámara de seguridad",
           "level": "A2"
         },
         {
           "en": "Smartphone",
+          "es": "teléfono inteligente / smartphone",
           "level": "B2"
         },
         {
           "en": "Smartwatch",
+          "es": "reloj inteligente",
           "level": "C1"
         },
         {
           "en": "Speaker",
+          "es": "altavoz / bocina",
           "level": "B1"
         },
         {
           "en": "Stereo",
+          "es": "equipo de música",
           "level": "C1"
         },
         {
           "en": "Tablet",
+          "es": "tableta",
           "level": "B2"
         },
         {
           "en": "Television / TV",
+          "es": "televisión / tele",
           "level": "A2"
         },
         {
           "en": "USB drive",
+          "es": "memoria USB",
           "level": "B2"
         },
         {
           "en": "Walkie-talkie",
+          "es": "walkie-talkie",
           "level": "C1"
         },
         {
           "en": "Wall fan",
+          "es": "ventilador de pared",
           "level": "A2"
         },
         {
           "en": "Webcam",
+          "es": "cámara web",
           "level": "C1"
         },
         {
           "en": "Wi-fi modem",
+          "es": "módem wifi / router",
           "level": "C1"
         },
         {
           "en": "Wire",
+          "es": "cable",
           "level": "B1"
         }
       ]

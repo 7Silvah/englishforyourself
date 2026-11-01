@@ -11,222 +11,282 @@
       "items": [
         {
           "en": "Acquittal",
+          "es": "absolución",
           "level": "C1"
         },
         {
           "en": "Advocate",
+          "es": "abogado / defensor",
           "level": "B1"
         },
         {
           "en": "Alibi",
+          "es": "coartada",
           "level": "C1"
         },
         {
           "en": "Allegation",
+          "es": "acusación / alegato",
           "level": "C1"
         },
         {
           "en": "Appeal",
+          "es": "apelación / recurso",
           "level": "A2"
         },
         {
           "en": "Arrest",
+          "es": "arresto / detención",
           "level": "B1"
         },
         {
           "en": "Attorney",
-          "level": "A2"
+          "es": "abogado",
+          "level": "A2",
+          "note": "Inglés de Estados Unidos."
         },
         {
           "en": "Barrister",
-          "level": "C1"
+          "es": "abogado (que litiga ante los tribunales)",
+          "level": "C1",
+          "note": "Inglés británico."
         },
         {
           "en": "Burglar",
+          "es": "ladrón (de casas)",
           "level": "C1"
         },
         {
           "en": "Confession",
+          "es": "confesión",
           "level": "B2"
         },
         {
           "en": "Convict",
+          "es": "condenado / presidiario",
           "level": "C1"
         },
         {
           "en": "Court",
+          "es": "tribunal / juzgado",
           "level": "A1"
         },
         {
           "en": "Courthouse",
+          "es": "palacio de justicia / juzgado",
           "level": "C1"
         },
         {
           "en": "Courtroom",
+          "es": "sala del tribunal",
           "level": "C1"
         },
         {
           "en": "Crime",
+          "es": "delito / crimen",
           "level": "A2"
         },
         {
           "en": "Criminal",
+          "es": "delincuente / criminal",
           "level": "A2"
         },
         {
           "en": "Custody",
+          "es": "custodia / detención",
           "level": "B1"
         },
         {
           "en": "Death sentence",
+          "es": "pena de muerte",
           "level": "A2"
         },
         {
           "en": "Defendant",
+          "es": "acusado / demandado",
           "level": "B2"
         },
         {
           "en": "Detective",
+          "es": "detective",
           "level": "B1"
         },
         {
           "en": "Embezzlement",
+          "es": "desfalco / malversación",
           "level": "C1"
         },
         {
           "en": "Evidence",
-          "level": "A1"
+          "es": "pruebas",
+          "level": "A1",
+          "note": "No se cuenta: a piece of evidence = una prueba. No es «evidencia» obvia."
         },
         {
           "en": "Felony",
+          "es": "delito grave",
           "level": "C1"
         },
         {
           "en": "Fine",
-          "level": "A1"
+          "es": "multa",
+          "level": "A1",
+          "note": "También significa «bien» (I'm fine)."
         },
         {
           "en": "Fingerprint",
+          "es": "huella dactilar",
           "level": "C1"
         },
         {
           "en": "Fraud",
+          "es": "fraude",
           "level": "B1"
         },
         {
           "en": "Fugitive",
+          "es": "fugitivo",
           "level": "C1"
         },
         {
           "en": "Guilty",
+          "es": "culpable",
           "level": "A2"
         },
         {
           "en": "Handcuffs",
+          "es": "esposas (de policía)",
           "level": "C1"
         },
         {
           "en": "Hearing",
+          "es": "audiencia / vista (judicial)",
           "level": "A2"
         },
         {
           "en": "Hefty fine",
+          "es": "multa cuantiosa",
           "level": "C1"
         },
         {
           "en": "Innocent",
+          "es": "inocente",
           "level": "B1"
         },
         {
           "en": "Judge",
+          "es": "juez / jueza",
           "level": "A2"
         },
         {
           "en": "Juror",
+          "es": "miembro del jurado",
           "level": "C1"
         },
         {
           "en": "Jury",
+          "es": "jurado",
           "level": "B1"
         },
         {
           "en": "Justice",
+          "es": "justicia",
           "level": "A2"
         },
         {
           "en": "Juvenile court",
+          "es": "tribunal de menores",
           "level": "B2"
         },
         {
           "en": "Lawsuit",
+          "es": "demanda / pleito",
           "level": "B2"
         },
         {
           "en": "Lawyer",
+          "es": "abogado / abogada",
           "level": "A2"
         },
         {
           "en": "Libel",
+          "es": "difamación (por escrito)",
           "level": "C1"
         },
         {
           "en": "Magistrate",
+          "es": "magistrado / juez de paz",
           "level": "C1"
         },
         {
           "en": "Manslaughter",
+          "es": "homicidio (sin premeditación)",
           "level": "C1"
         },
         {
           "en": "Mugging",
+          "es": "atraco / asalto (en la calle)",
           "level": "C1"
         },
         {
           "en": "Notary",
+          "es": "notario",
           "level": "C1"
         },
         {
           "en": "Prosecution",
+          "es": "acusación / fiscalía",
           "level": "B2"
         },
         {
           "en": "Prosecutor",
+          "es": "fiscal",
           "level": "B2"
         },
         {
           "en": "Punishment",
+          "es": "castigo / pena",
           "level": "B1"
         },
         {
           "en": "Securities fraud",
+          "es": "fraude bursátil",
           "level": "B2"
         },
         {
           "en": "Sentence",
-          "level": "A2"
+          "es": "sentencia / condena",
+          "level": "A2",
+          "note": "También «oración» (gramatical)."
         },
         {
           "en": "Supreme Court",
+          "es": "Tribunal Supremo / Suprema Corte",
           "level": "A2"
         },
         {
           "en": "Testimony",
+          "es": "testimonio / declaración",
           "level": "B2"
         },
         {
           "en": "Trial",
+          "es": "juicio",
           "level": "B1"
         },
         {
           "en": "Vandalism",
+          "es": "vandalismo",
           "level": "C1"
         },
         {
           "en": "Verdict",
+          "es": "veredicto",
           "level": "B2"
         },
         {
           "en": "Witness",
+          "es": "testigo",
           "level": "A2"
         }
       ]

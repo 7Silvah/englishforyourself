@@ -11,234 +11,295 @@
       "items": [
         {
           "en": "Applicant",
+          "es": "solicitante / candidato",
           "level": "C1"
         },
         {
           "en": "Application form",
+          "es": "formulario de solicitud",
           "level": "A2"
         },
         {
           "en": "Apprenticeship",
+          "es": "prácticas / aprendizaje (de un oficio)",
           "level": "C1"
         },
         {
           "en": "Bonus",
+          "es": "bonificación / bono",
           "level": "B1"
         },
         {
           "en": "Boss",
+          "es": "jefe / jefa",
           "level": "A2"
         },
         {
           "en": "Coworker",
+          "es": "compañero de trabajo",
           "level": "C1"
         },
         {
           "en": "CV (curriculum vitae) / resume",
-          "level": "B2"
+          "es": "currículum",
+          "level": "B2",
+          "note": "CV es británico; resume, de Estados Unidos."
         },
         {
           "en": "Day shift",
+          "es": "turno de día",
           "level": "A2"
         },
         {
           "en": "Employee",
+          "es": "empleado",
           "level": "A2"
         },
         {
           "en": "Employer",
+          "es": "empleador / empresa",
           "level": "B1"
         },
         {
           "en": "Ethics",
+          "es": "ética",
           "level": "B2"
         },
         {
           "en": "Full-time job",
+          "es": "trabajo a tiempo completo",
           "level": "A1"
         },
         {
           "en": "Interview",
+          "es": "entrevista",
           "level": "B1"
         },
         {
           "en": "Interviewee",
+          "es": "entrevistado / candidato",
           "level": "C1"
         },
         {
           "en": "Interviewer",
+          "es": "entrevistador",
           "level": "C1"
         },
         {
           "en": "Job",
+          "es": "trabajo / empleo",
           "level": "A2"
         },
         {
           "en": "Lunch break",
+          "es": "pausa para comer / hora de la comida",
           "level": "A2"
         },
         {
           "en": "Maternity leave",
+          "es": "baja por maternidad / incapacidad por maternidad",
           "level": "C1"
         },
         {
           "en": "Minimum wages",
+          "es": "salario mínimo",
           "level": "B2"
         },
         {
           "en": "Night shift",
+          "es": "turno de noche",
           "level": "A2"
         },
         {
           "en": "Occupation",
+          "es": "profesión / ocupación",
           "level": "B1"
         },
         {
           "en": "Part-time job",
+          "es": "trabajo a tiempo parcial / de medio tiempo",
           "level": "A1"
         },
         {
           "en": "Payday",
+          "es": "día de pago",
           "level": "C1"
         },
         {
           "en": "Permanent job",
+          "es": "trabajo fijo",
           "level": "A2"
         },
         {
           "en": "Personnel",
+          "es": "personal / plantilla",
           "level": "A2"
         },
         {
           "en": "Personnel officer",
+          "es": "responsable de personal / de recursos humanos",
           "level": "B1"
         },
         {
           "en": "Position",
+          "es": "puesto / cargo",
           "level": "A1"
         },
         {
           "en": "Profession",
+          "es": "profesión",
           "level": "B2"
         },
         {
           "en": "Promotion",
+          "es": "ascenso",
           "level": "B1"
         },
         {
           "en": "Prospects",
+          "es": "perspectivas (de futuro)",
           "level": "B2"
         },
         {
           "en": "Qualifications",
+          "es": "títulos / cualificaciones",
           "level": "A2"
         },
         {
           "en": "Regular job",
+          "es": "trabajo estable",
           "level": "A2"
         },
         {
           "en": "Responsibilities",
+          "es": "responsabilidades / funciones",
           "level": "B2"
         },
         {
           "en": "Salary",
+          "es": "sueldo / salario",
           "level": "B1"
         },
         {
           "en": "Sick leave",
+          "es": "baja por enfermedad / incapacidad",
           "level": "A2"
         },
         {
           "en": "Strike",
+          "es": "huelga / paro",
           "level": "B1"
         },
         {
           "en": "Temporary job",
+          "es": "trabajo temporal",
           "level": "B1"
         },
         {
           "en": "To apply for a job",
+          "es": "solicitar un trabajo",
           "level": "A2"
         },
         {
           "en": "To fire",
-          "level": "B1"
+          "es": "despedir / correr",
+          "level": "B1",
+          "note": "Informal en México: correr."
         },
         {
           "en": "To get a raise",
+          "es": "conseguir un aumento de sueldo",
           "level": "A2"
         },
         {
           "en": "To hire",
+          "es": "contratar",
           "level": "B1"
         },
         {
           "en": "To make redundant",
-          "level": "C1"
+          "es": "despedir (por recorte de personal)",
+          "level": "C1",
+          "note": "Inglés británico."
         },
         {
           "en": "To recruit",
+          "es": "contratar / reclutar",
           "level": "B2"
         },
         {
           "en": "To resign",
+          "es": "renunciar / dimitir",
           "level": "B2"
         },
         {
           "en": "To retire",
+          "es": "jubilarse",
           "level": "B1"
         },
         {
           "en": "To run a firm",
+          "es": "dirigir una empresa",
           "level": "A2"
         },
         {
           "en": "To take on",
+          "es": "contratar (a alguien)",
           "level": "A1"
         },
         {
           "en": "To work overtime",
+          "es": "hacer horas extra",
           "level": "B2"
         },
         {
           "en": "Trainee / apprentice",
+          "es": "aprendiz / becario",
           "level": "C1"
         },
         {
           "en": "Training course",
+          "es": "curso de formación / capacitación",
           "level": "A2"
         },
         {
           "en": "Unemployment",
+          "es": "desempleo / paro",
           "level": "B1"
         },
         {
           "en": "Vacancy",
+          "es": "vacante",
           "level": "C1"
         },
         {
           "en": "Wage cut",
+          "es": "recorte salarial",
           "level": "B1"
         },
         {
           "en": "Workaholic",
+          "es": "adicto al trabajo",
           "level": "B1"
         },
         {
           "en": "Workday",
+          "es": "jornada laboral / día laborable",
           "level": "C1"
         },
         {
           "en": "Worker",
+          "es": "trabajador",
           "level": "B1"
         },
         {
           "en": "Workplace",
+          "es": "lugar de trabajo",
           "level": "B2"
         },
         {
           "en": "Workspace",
+          "es": "espacio de trabajo",
           "level": "C1"
         }
       ]

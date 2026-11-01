@@ -11,42 +11,53 @@
       "items": [
         {
           "en": "April Fools’ Day",
-          "level": "B2"
+          "es": "Día de los Inocentes (1 de abril)",
+          "level": "B2",
+          "note": "En el mundo anglosajón se celebra el 1 de abril."
         },
         {
           "en": "Christmas",
+          "es": "Navidad",
           "level": "A2"
         },
         {
           "en": "Earth Day",
+          "es": "Día de la Tierra",
           "level": "A1"
         },
         {
           "en": "Easter",
+          "es": "Pascua / Semana Santa",
           "level": "B2"
         },
         {
           "en": "Father’s Day",
+          "es": "Día del Padre",
           "level": "B1"
         },
         {
           "en": "Halloween",
+          "es": "Halloween",
           "level": "B2"
         },
         {
           "en": "Mother’s Day",
+          "es": "Día de la Madre",
           "level": "B1"
         },
         {
           "en": "New Year’s Eve",
+          "es": "Nochevieja / víspera de Año Nuevo",
           "level": "A2"
         },
         {
           "en": "Thanksgiving Day",
+          "es": "Día de Acción de Gracias",
           "level": "B2"
         },
         {
           "en": "Valentine’s Day",
+          "es": "Día de San Valentín",
           "level": "C1"
         }
       ]
@@ -56,170 +67,215 @@
       "items": [
         {
           "en": "Bat",
+          "es": "murciélago",
           "level": "B1"
         },
         {
           "en": "Black cat",
+          "es": "gato negro",
           "level": "A2"
         },
         {
           "en": "Blood",
+          "es": "sangre",
           "level": "A1"
         },
         {
           "en": "Bones",
+          "es": "huesos",
           "level": "B1"
         },
         {
           "en": "Candle",
+          "es": "vela",
           "level": "B1"
         },
         {
           "en": "Candy bags / treat bags",
+          "es": "bolsas de dulces / de golosinas",
           "level": "B1"
         },
         {
           "en": "Cauldron",
+          "es": "caldero",
           "level": "C1"
         },
         {
           "en": "Coffin",
+          "es": "ataúd",
           "level": "B2"
         },
         {
           "en": "Costume",
-          "level": "B1"
+          "es": "disfraz",
+          "level": "B1",
+          "note": "No es «costumbre» (custom).",
+          "falseFriend": "costumbre"
         },
         {
           "en": "Crystal ball",
+          "es": "bola de cristal",
           "level": "B1"
         },
         {
           "en": "Fairy",
+          "es": "hada",
           "level": "B2"
         },
         {
           "en": "Frankenstein",
+          "es": "Frankenstein",
           "level": "C1"
         },
         {
           "en": "Full moon",
+          "es": "luna llena",
           "level": "A2"
         },
         {
           "en": "Ghost",
+          "es": "fantasma",
           "level": "B1"
         },
         {
           "en": "Goblin",
+          "es": "duende / trasgo",
           "level": "C1"
         },
         {
           "en": "Gravestone",
+          "es": "lápida",
           "level": "C1"
         },
         {
           "en": "Graveyard / cemetery",
+          "es": "cementerio",
           "level": "B2"
         },
         {
           "en": "Halloween decorations",
+          "es": "decoración de Halloween",
           "level": "C1"
         },
         {
           "en": "Haunted house",
+          "es": "casa embrujada",
           "level": "B2"
         },
         {
           "en": "Jack-o’-lantern",
+          "es": "calabaza de Halloween (tallada)",
           "level": "C1"
         },
         {
           "en": "Magic",
+          "es": "magia",
           "level": "A2"
         },
         {
           "en": "Mask",
+          "es": "máscara",
           "level": "B1"
         },
         {
           "en": "Monster",
+          "es": "monstruo",
           "level": "B1"
         },
         {
           "en": "Mummy",
-          "level": "C1"
+          "es": "momia",
+          "level": "C1",
+          "note": "En inglés británico, mummy también es «mamá»."
         },
         {
           "en": "Owl",
+          "es": "búho / lechuza",
           "level": "B2"
         },
         {
           "en": "Pirate",
+          "es": "pirata",
           "level": "B2"
         },
         {
           "en": "Potion",
+          "es": "poción",
           "level": "C1"
         },
         {
           "en": "Pumpkin",
+          "es": "calabaza",
           "level": "B2"
         },
         {
           "en": "Scarecrow",
+          "es": "espantapájaros",
           "level": "C1"
         },
         {
           "en": "Skeleton",
+          "es": "esqueleto",
           "level": "B2"
         },
         {
           "en": "Skull",
+          "es": "calavera / cráneo",
           "level": "B2"
         },
         {
           "en": "Spell",
+          "es": "hechizo",
           "level": "B1"
         },
         {
           "en": "Spider",
+          "es": "araña",
           "level": "B1"
         },
         {
           "en": "Spiderweb",
+          "es": "telaraña",
           "level": "C1"
         },
         {
           "en": "Sweets (UK) / candy (US)",
+          "es": "dulces / caramelos / golosinas",
           "level": "B1"
         },
         {
           "en": "Trick or treat",
+          "es": "truco o trato / dulce o travesura",
           "level": "B1"
         },
         {
           "en": "Troll",
+          "es": "trol",
           "level": "C1"
         },
         {
           "en": "Vampire",
+          "es": "vampiro",
           "level": "B2"
         },
         {
           "en": "Werewolf",
+          "es": "hombre lobo",
           "level": "C1"
         },
         {
           "en": "Witch",
+          "es": "bruja",
           "level": "B2"
         },
         {
           "en": "Wizard",
+          "es": "mago / hechicero",
           "level": "B2"
         },
         {
           "en": "Zombie",
+          "es": "zombi",
           "level": "B2"
         }
       ]
@@ -229,114 +285,146 @@
       "items": [
         {
           "en": "Bow",
+          "es": "lazo / moño",
           "level": "B1"
         },
         {
           "en": "Candy cane",
+          "es": "bastón de caramelo",
           "level": "C1"
         },
         {
           "en": "Carol",
+          "es": "villancico",
           "level": "B2"
         },
         {
           "en": "Christmas card",
+          "es": "tarjeta de Navidad / christmas",
           "level": "A2"
         },
         {
           "en": "Cracker",
-          "level": "C1"
+          "es": "cracker navideño (tubo sorpresa)",
+          "level": "C1",
+          "note": "Típico del Reino Unido: se abre tirando entre dos personas."
         },
         {
           "en": "Christmas Eve",
+          "es": "Nochebuena",
           "level": "B1"
         },
         {
           "en": "Christmas tree",
+          "es": "árbol de Navidad",
           "level": "A2"
         },
         {
           "en": "Fireplace",
+          "es": "chimenea",
           "level": "C1"
         },
         {
           "en": "Fireworks",
+          "es": "fuegos artificiales",
           "level": "B2"
         },
         {
           "en": "Garlands",
+          "es": "guirnaldas",
           "level": "C1"
         },
         {
           "en": "Gifts / presents",
+          "es": "regalos",
           "level": "B1"
         },
         {
           "en": "Gingerbread man",
+          "es": "galleta de jengibre (con forma de muñeco)",
           "level": "C1"
         },
         {
           "en": "Holly",
+          "es": "acebo",
           "level": "B2"
         },
         {
           "en": "Lights",
+          "es": "luces",
           "level": "A2"
         },
         {
           "en": "Mistletoe",
+          "es": "muérdago",
           "level": "C1"
         },
         {
           "en": "Nativity",
+          "es": "belén / nacimiento",
           "level": "C1"
         },
         {
           "en": "New Year’s Eve",
+          "es": "Nochevieja / víspera de Año Nuevo",
           "level": "A2"
         },
         {
           "en": "Ornaments",
+          "es": "adornos",
           "level": "C1"
         },
         {
           "en": "Pudding",
-          "level": "C1"
+          "es": "pudin / postre",
+          "level": "C1",
+          "note": "En el Reino Unido, pudding es también «postre» en general."
         },
         {
           "en": "Reindeer",
-          "level": "C1"
+          "es": "reno",
+          "level": "C1",
+          "note": "El plural es igual: reindeer."
         },
         {
           "en": "Santa Claus / Father Christmas",
+          "es": "Papá Noel / Santa Claus",
           "level": "A2"
         },
         {
           "en": "Snow globe",
+          "es": "bola de nieve",
           "level": "B2"
         },
         {
           "en": "Snowflake",
+          "es": "copo de nieve",
           "level": "C1"
         },
         {
           "en": "snowman",
+          "es": "muñeco de nieve",
           "level": "C1"
         },
         {
           "en": "Star",
+          "es": "estrella",
           "level": "A2"
         },
         {
           "en": "Stocking",
+          "es": "calcetín navideño / bota de Navidad",
           "level": "C1"
         },
         {
           "en": "Turkey",
-          "level": "A1"
+          "es": "pavo / guajolote",
+          "level": "A1",
+          "note": "Con mayúscula, Turkey es Turquía."
         },
         {
           "en": "Wreath",
+          "es": "corona (de Navidad)",
           "level": "C1"
         }
       ]
@@ -346,51 +434,65 @@
       "items": [
         {
           "en": "Corn",
+          "es": "maíz / elote",
           "level": "B2"
         },
         {
           "en": "Cranberry",
+          "es": "arándano rojo",
           "level": "C1"
         },
         {
           "en": "Feast",
+          "es": "banquete / festín",
           "level": "B2"
         },
         {
           "en": "Football",
-          "level": "A2"
+          "es": "fútbol americano",
+          "level": "A2",
+          "note": "En Estados Unidos, football es el fútbol americano."
         },
         {
           "en": "Gravy",
+          "es": "salsa de carne / gravy",
           "level": "C1"
         },
         {
           "en": "Harvest",
+          "es": "cosecha",
           "level": "B2"
         },
         {
           "en": "Mashed potatoes",
+          "es": "puré de papas / de patatas",
           "level": "C1"
         },
         {
           "en": "Parade",
+          "es": "desfile",
           "level": "B2"
         },
         {
           "en": "Pilgrim",
+          "es": "peregrino",
           "level": "C1"
         },
         {
           "en": "Pumpkin pie",
+          "es": "pastel de calabaza",
           "level": "C1"
         },
         {
           "en": "Squash",
+          "es": "calabaza (de invierno)",
           "level": "C1"
         },
         {
           "en": "Turkey",
-          "level": "A1"
+          "es": "pavo / guajolote",
+          "level": "A1",
+          "note": "Con mayúscula, Turkey es Turquía."
         }
       ]
     },
@@ -399,78 +501,98 @@
       "items": [
         {
           "en": "Arrow",
+          "es": "flecha",
           "level": "B2"
         },
         {
           "en": "Balloon",
+          "es": "globo",
           "level": "B2"
         },
         {
           "en": "Candy",
-          "level": "B1"
+          "es": "dulces / caramelos",
+          "level": "B1",
+          "note": "Inglés de Estados Unidos; en el Reino Unido, sweets."
         },
         {
           "en": "Chocolate",
+          "es": "chocolate",
           "level": "A1"
         },
         {
           "en": "Couple",
+          "es": "pareja",
           "level": "A2"
         },
         {
           "en": "Cupid",
+          "es": "Cupido",
           "level": "C1"
         },
         {
           "en": "Date",
+          "es": "cita",
           "level": "B1"
         },
         {
           "en": "February",
+          "es": "febrero",
           "level": "A1"
         },
         {
           "en": "Flowers",
+          "es": "flores",
           "level": "A2"
         },
         {
           "en": "Gift / present",
+          "es": "regalo",
           "level": "A1"
         },
         {
           "en": "Heart",
+          "es": "corazón",
           "level": "A1"
         },
         {
           "en": "Hug",
+          "es": "abrazo",
           "level": "B2"
         },
         {
           "en": "Kiss",
+          "es": "beso",
           "level": "A2"
         },
         {
           "en": "Love",
+          "es": "amor",
           "level": "A1"
         },
         {
           "en": "Lover",
+          "es": "amante",
           "level": "B1"
         },
         {
           "en": "Poem",
+          "es": "poema",
           "level": "B1"
         },
         {
           "en": "Rose",
+          "es": "rosa",
           "level": "A2"
         },
         {
           "en": "Teddy bear",
+          "es": "osito de peluche",
           "level": "B2"
         },
         {
           "en": "Valentine card",
+          "es": "tarjeta de San Valentín",
           "level": "C1"
         }
       ]
@@ -480,38 +602,47 @@
       "items": [
         {
           "en": "Basket",
+          "es": "cesta / canasta",
           "level": "B2"
         },
         {
           "en": "Chocolate",
+          "es": "chocolate",
           "level": "A1"
         },
         {
           "en": "Crucifixion",
+          "es": "crucifixión",
           "level": "C1"
         },
         {
           "en": "Easter bunny",
+          "es": "conejo de Pascua",
           "level": "C1"
         },
         {
           "en": "Holy week",
+          "es": "Semana Santa",
           "level": "A2"
         },
         {
           "en": "Easter egg",
+          "es": "huevo de Pascua",
           "level": "B2"
         },
         {
           "en": "Easter egg hunt",
+          "es": "búsqueda de huevos de Pascua",
           "level": "B2"
         },
         {
           "en": "Patterns",
+          "es": "dibujos / motivos (decorativos)",
           "level": "B1"
         },
         {
           "en": "Resurrection",
+          "es": "resurrección",
           "level": "C1"
         }
       ]

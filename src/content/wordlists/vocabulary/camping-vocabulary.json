@@ -11,122 +11,154 @@
       "items": [
         {
           "en": "Axe",
+          "es": "hacha",
           "level": "C1"
         },
         {
           "en": "Backpack",
+          "es": "mochila",
           "level": "C1"
         },
         {
           "en": "Bedroll",
+          "es": "petate / colchoneta enrollable",
           "level": "C1"
         },
         {
           "en": "Binoculars",
+          "es": "prismáticos / binoculares",
           "level": "C1"
         },
         {
           "en": "Camper van",
+          "es": "autocaravana / casa rodante",
           "level": "C1"
         },
         {
           "en": "Campfire",
+          "es": "fogata / hoguera",
           "level": "C1"
         },
         {
           "en": "Compass",
-          "level": "B1"
+          "es": "brújula",
+          "level": "B1",
+          "note": "No es «compás» (de dibujo).",
+          "falseFriend": "compás"
         },
         {
           "en": "Cooler / portable freezer",
+          "es": "hielera / nevera portátil",
           "level": "B2"
         },
         {
           "en": "Deck chair",
+          "es": "silla plegable / tumbona",
           "level": "B1"
         },
         {
           "en": "First aid kit",
+          "es": "botiquín de primeros auxilios",
           "level": "B1"
         },
         {
           "en": "Fishing rod",
+          "es": "caña de pescar",
           "level": "B2"
         },
         {
           "en": "Hammock",
+          "es": "hamaca",
           "level": "C1"
         },
         {
           "en": "Hatchet",
+          "es": "hachuela / hacha pequeña",
           "level": "C1"
         },
         {
           "en": "Hiking boots",
+          "es": "botas de montaña",
           "level": "C1"
         },
         {
           "en": "Kettle",
+          "es": "hervidor / pava",
           "level": "B1"
         },
         {
           "en": "Knife",
+          "es": "cuchillo",
           "level": "B1"
         },
         {
           "en": "Lantern",
+          "es": "farol / linterna de camping",
           "level": "C1"
         },
         {
           "en": "Lighter",
+          "es": "encendedor / mechero",
           "level": "B2"
         },
         {
           "en": "Map",
+          "es": "mapa",
           "level": "A1"
         },
         {
           "en": "Marshmallows",
+          "es": "bombones / malvaviscos",
           "level": "C1"
         },
         {
           "en": "Matches",
+          "es": "cerillos / fósforos",
           "level": "A2"
         },
         {
           "en": "Mug",
+          "es": "taza (alta) / tarro",
           "level": "C1"
         },
         {
           "en": "Pocketknife",
+          "es": "navaja",
           "level": "C1"
         },
         {
           "en": "Repellent",
+          "es": "repelente",
           "level": "B1"
         },
         {
           "en": "Rope",
+          "es": "cuerda",
           "level": "B1"
         },
         {
           "en": "Sleeping bag",
+          "es": "saco de dormir / bolsa de dormir",
           "level": "B1"
         },
         {
           "en": "Tent",
+          "es": "tienda de campaña / casa de campaña",
           "level": "B1"
         },
         {
           "en": "Thermos",
+          "es": "termo",
           "level": "C1"
         },
         {
           "en": "Tinned food (UK) / canned food (US)",
+          "es": "comida enlatada / conservas",
           "level": "C1"
         },
         {
           "en": "Torch (UK) / flashlight (US)",
+          "es": "linterna",
           "level": "C1"
         }
       ]

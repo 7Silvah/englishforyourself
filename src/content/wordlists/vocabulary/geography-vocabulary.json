@@ -11,122 +11,153 @@
       "items": [
         {
           "en": "Bay",
+          "es": "bahía",
           "level": "A2"
         },
         {
           "en": "Beach",
+          "es": "playa",
           "level": "A2"
         },
         {
           "en": "Border",
+          "es": "frontera",
           "level": "A2"
         },
         {
           "en": "Canal",
+          "es": "canal",
           "level": "B1"
         },
         {
           "en": "Cape",
+          "es": "cabo",
           "level": "B1"
         },
         {
           "en": "Capital",
+          "es": "capital",
           "level": "A1"
         },
         {
           "en": "Cliff",
+          "es": "acantilado",
           "level": "B2"
         },
         {
           "en": "Coast",
+          "es": "costa",
           "level": "A2"
         },
         {
           "en": "Coast line",
+          "es": "litoral / línea de costa",
           "level": "A2"
         },
         {
           "en": "Continent",
+          "es": "continente",
           "level": "B2"
         },
         {
           "en": "Desert",
-          "level": "A2"
+          "es": "desierto",
+          "level": "A2",
+          "note": "No confundir con dessert (postre)."
         },
         {
           "en": "Dune",
+          "es": "duna",
           "level": "C1"
         },
         {
           "en": "Earth",
+          "es": "la Tierra",
           "level": "A1"
         },
         {
           "en": "Equator",
+          "es": "ecuador",
           "level": "C1"
         },
         {
           "en": "Forest",
+          "es": "bosque",
           "level": "A2"
         },
         {
           "en": "Frontier",
+          "es": "frontera",
           "level": "B2"
         },
         {
           "en": "Glacier",
+          "es": "glaciar",
           "level": "C1"
         },
         {
           "en": "Hemisphere",
+          "es": "hemisferio",
           "level": "C1"
         },
         {
           "en": "Island",
+          "es": "isla",
           "level": "A2"
         },
         {
           "en": "Jungle",
+          "es": "selva / jungla",
           "level": "B1"
         },
         {
           "en": "Lagoon",
+          "es": "laguna",
           "level": "C1"
         },
         {
           "en": "Lake",
+          "es": "lago",
           "level": "A2"
         },
         {
           "en": "Latitude",
+          "es": "latitud",
           "level": "C1"
         },
         {
           "en": "Longitude",
+          "es": "longitud",
           "level": "C1"
         },
         {
           "en": "Meadow",
+          "es": "prado",
           "level": "C1"
         },
         {
           "en": "Mountain",
+          "es": "montaña",
           "level": "A2"
         },
         {
           "en": "Ocean",
+          "es": "océano",
           "level": "B1"
         },
         {
           "en": "River",
+          "es": "río",
           "level": "A1"
         },
         {
           "en": "Sea",
+          "es": "mar",
           "level": "A1"
         },
         {
           "en": "Waterfall",
+          "es": "cascada / catarata",
           "level": "C1"
         }
       ]
