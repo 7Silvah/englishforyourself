@@ -122,7 +122,7 @@
     {
       "id": "9",
       "type": "fill-blank",
-      "text": "By 3 o’clock, I ___ (to nap) for all morning.",
+      "text": "By 3 o’clock, I ___ (to nap) all morning.",
       "blanks": [
         {
           "answers": [
@@ -135,7 +135,7 @@
     {
       "id": "10",
       "type": "fill-blank",
-      "text": "By tomorrow evening, she ___ (to read) two books.",
+      "text": "By tomorrow evening, she ___ (to read) for two hours.",
       "blanks": [
         {
           "answers": [
