@@ -13,26 +13,32 @@
       "items": [
         {
           "en": "1987 (nineteen eighty-seven)",
+          "es": "1987 (mil novecientos ochenta y siete)",
           "ipa": "ˌnaɪnˈtiːn ˈeɪ.ti ˈsev.ən",
           "pos": "number",
           "meanings": [
             "the year 1987"
-          ]
+          ],
+          "note": "En inglés los años se leen de dos en dos cifras: nineteen / eighty-seven."
         },
         {
           "en": "20 years ago",
+          "es": "hace 20 años",
           "pos": "phrase",
           "meanings": [
             "20 years before now"
-          ]
+          ],
+          "note": "Ago va detrás del tiempo: 20 years ago, no «ago 20 years»."
         },
         {
           "en": "2012 (twenty twelve)",
+          "es": "2012 (dos mil doce)",
           "ipa": "ˈtwen.ti twelv",
           "pos": "number",
           "meanings": [
             "the year 2012"
-          ]
+          ],
+          "note": "También se dice two thousand and twelve."
         }
       ]
     },
@@ -41,6 +47,7 @@
       "items": [
         {
           "en": "about (10.30)",
+          "es": "a eso de / alrededor de (las 10:30)",
           "ipa": "əˈbaʊt",
           "pos": "adverb",
           "meanings": [
@@ -49,6 +56,7 @@
         },
         {
           "en": "actor",
+          "es": "actor",
           "ipa": "ˈæk.tər",
           "pos": "noun",
           "meanings": [
@@ -57,6 +65,7 @@
         },
         {
           "en": "actress",
+          "es": "actriz",
           "ipa": "ˈæk.trəs",
           "pos": "noun",
           "meanings": [
@@ -65,6 +74,7 @@
         },
         {
           "en": "after (10.30)",
+          "es": "después de (las 10:30)",
           "ipa": "ˈɑːf.tər",
           "pos": "preposition",
           "meanings": [
@@ -73,6 +83,7 @@
         },
         {
           "en": "airport",
+          "es": "aeropuerto",
           "ipa": "ˈeə.pɔːt",
           "pos": "noun",
           "meanings": [
@@ -81,6 +92,7 @@
         },
         {
           "en": "alphabet",
+          "es": "alfabeto / abecedario",
           "ipa": "ˈæl.fə.bet",
           "pos": "noun",
           "meanings": [
@@ -89,6 +101,7 @@
         },
         {
           "en": "always",
+          "es": "siempre",
           "ipa": "ˈɔːl.weɪz",
           "pos": "adverb",
           "meanings": [
@@ -97,6 +110,7 @@
         },
         {
           "en": "amazing",
+          "es": "increíble / asombroso",
           "ipa": "əˈmeɪ.zɪŋ",
           "pos": "adjective",
           "meanings": [
@@ -105,19 +119,23 @@
         },
         {
           "en": "American",
+          "es": "estadounidense / americano",
           "ipa": "əˈmer.ɪ.kən",
           "pos": "adjective",
           "meanings": [
             "from, belonging to or relating to the USA"
-          ]
+          ],
+          "note": "En inglés, American casi siempre se refiere a Estados Unidos."
         },
         {
           "en": "angry",
+          "es": "enojado / enfadado",
           "ipa": "ˈæŋ.ɡri",
           "pos": "adjective"
         },
         {
           "en": "animals",
+          "es": "animales",
           "ipa": "ˈæn.ɪ.məlz",
           "pos": "noun",
           "meanings": [
@@ -126,11 +144,13 @@
         },
         {
           "en": "anniversary",
+          "es": "aniversario",
           "ipa": "ˌæn.ɪˈvɜː.sər.i",
           "pos": "noun"
         },
         {
           "en": "apple",
+          "es": "manzana",
           "ipa": "ˈæp.l̩",
           "pos": "noun",
           "meanings": [
@@ -139,24 +159,29 @@
         },
         {
           "en": "apple pie and cream",
+          "es": "pastel de manzana con crema",
           "ipa": "ˈæp.l̩ paɪ ænd kriːm",
           "pos": "noun"
         },
         {
           "en": "April",
+          "es": "abril",
           "ipa": "ˈeɪ.prəl",
           "pos": "noun",
           "meanings": [
             "the fourth month of the year"
-          ]
+          ],
+          "note": "Los meses se escriben con mayúscula en inglés."
         },
         {
           "en": "ask and answer the questions",
+          "es": "hacer y responder las preguntas",
           "ipa": "ɑːsk ænd ˈɑːn.sər ðiː ˈkwes.tʃənz",
           "pos": "phrase"
         },
         {
           "en": "at half past ten",
+          "es": "a las diez y media",
           "ipa": "ət hɑːf pɑːst ten",
           "pos": "phrase",
           "meanings": [
@@ -165,6 +190,7 @@
         },
         {
           "en": "at midday",
+          "es": "al mediodía",
           "ipa": "ət ˌmɪdˈdeɪ",
           "pos": "phrase",
           "meanings": [
@@ -173,6 +199,7 @@
         },
         {
           "en": "at midnight",
+          "es": "a medianoche",
           "ipa": "ət ˈmɪd.naɪt",
           "pos": "phrase",
           "meanings": [
@@ -181,6 +208,7 @@
         },
         {
           "en": "at night",
+          "es": "de noche / por la noche",
           "ipa": "ət naɪt",
           "pos": "phrase",
           "meanings": [
@@ -189,6 +217,7 @@
         },
         {
           "en": "at six o'clock",
+          "es": "a las seis (en punto)",
           "ipa": "ət sɪks əˈklɒk",
           "pos": "phrase",
           "meanings": [
@@ -197,14 +226,17 @@
         },
         {
           "en": "at the weekend",
+          "es": "el fin de semana",
           "ipa": "ət ðiː ˌwiːkˈend",
           "pos": "phrase",
           "meanings": [
             "on Saturday or Sunday"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos se dice on the weekend."
         },
         {
           "en": "ATM",
+          "es": "cajero automático",
           "ipa": "ˌeɪ.tiːˈem",
           "pos": "noun",
           "meanings": [
@@ -213,6 +245,7 @@
         },
         {
           "en": "August",
+          "es": "agosto",
           "ipa": "ɔːˈɡʌst",
           "pos": "noun",
           "meanings": [
@@ -221,6 +254,7 @@
         },
         {
           "en": "Australia",
+          "es": "Australia",
           "ipa": "ɒsˈtreɪ.li.ə",
           "pos": "noun",
           "meanings": [
@@ -229,6 +263,7 @@
         },
         {
           "en": "Australian",
+          "es": "australiano",
           "ipa": "ɒsˈtreɪ.li.ən",
           "pos": "adjective",
           "meanings": [
@@ -237,6 +272,7 @@
         },
         {
           "en": "awful",
+          "es": "horrible / terrible",
           "ipa": "ˈɔː.fəl",
           "pos": "adjective",
           "meanings": [
@@ -250,6 +286,7 @@
       "items": [
         {
           "en": "baby",
+          "es": "bebé",
           "ipa": "ˈbeɪ.bi",
           "pos": "noun",
           "meanings": [
@@ -258,6 +295,7 @@
         },
         {
           "en": "bad",
+          "es": "malo",
           "ipa": "bæd",
           "pos": "adjective",
           "meanings": [
@@ -266,6 +304,7 @@
         },
         {
           "en": "bag",
+          "es": "bolsa / bolso",
           "ipa": "bæɡ",
           "pos": "noun",
           "meanings": [
@@ -274,6 +313,7 @@
         },
         {
           "en": "band",
+          "es": "banda / grupo (de música)",
           "ipa": "bænd",
           "pos": "noun",
           "meanings": [
@@ -282,6 +322,7 @@
         },
         {
           "en": "bank",
+          "es": "banco",
           "ipa": "bæŋk",
           "pos": "noun",
           "meanings": [
@@ -290,6 +331,7 @@
         },
         {
           "en": "battery",
+          "es": "pila / batería",
           "ipa": "ˈbæt.ər.i",
           "pos": "noun",
           "meanings": [
@@ -298,16 +340,19 @@
         },
         {
           "en": "be on Facebook",
+          "es": "estar en Facebook (tener cuenta)",
           "ipa": "biː ɒn ˈfeɪs.bʊk",
           "pos": "phrase"
         },
         {
           "en": "be on Twitter",
+          "es": "estar en Twitter (tener cuenta)",
           "ipa": "biː ɒn ˈtwɪt.ər",
           "pos": "phrase"
         },
         {
           "en": "beautiful",
+          "es": "hermoso / precioso",
           "ipa": "ˈbjuː.tɪ.fəl",
           "pos": "adjective",
           "meanings": [
@@ -316,6 +361,7 @@
         },
         {
           "en": "before (10.30)",
+          "es": "antes de (las 10:30)",
           "ipa": "bɪˈfɔːr",
           "pos": "preposition",
           "meanings": [
@@ -324,6 +370,7 @@
         },
         {
           "en": "big",
+          "es": "grande",
           "ipa": "bɪɡ",
           "pos": "adjective",
           "meanings": [
@@ -332,6 +379,7 @@
         },
         {
           "en": "bike",
+          "es": "bici / bicicleta",
           "ipa": "baɪk",
           "pos": "noun",
           "meanings": [
@@ -340,27 +388,34 @@
         },
         {
           "en": "billion",
+          "es": "mil millones",
           "ipa": "ˈbɪl.jən",
           "pos": "noun",
           "meanings": [
             "the number 1,000,000,000"
-          ]
+          ],
+          "note": "Un billion es 1 000 000 000, no un billón español (un millón de millones).",
+          "falseFriend": "billón"
         },
         {
           "en": "birthday card",
+          "es": "tarjeta de cumpleaños",
           "ipa": "ˈbɜːθ.deɪ kɑːd",
           "pos": "noun"
         },
         {
           "en": "biscuit",
+          "es": "galleta",
           "ipa": "ˈbɪs.kɪt",
           "pos": "noun",
           "meanings": [
             "a thin, flat cake that is dry and usually sweet"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos se dice cookie."
         },
         {
           "en": "black",
+          "es": "negro",
           "ipa": "blæk",
           "pos": "adjective",
           "meanings": [
@@ -369,6 +424,7 @@
         },
         {
           "en": "blue",
+          "es": "azul",
           "ipa": "bluː",
           "pos": "adjective",
           "meanings": [
@@ -377,6 +433,7 @@
         },
         {
           "en": "boat",
+          "es": "barco / bote",
           "ipa": "bəʊt",
           "pos": "noun",
           "meanings": [
@@ -385,6 +442,7 @@
         },
         {
           "en": "book",
+          "es": "libro",
           "ipa": "bʊk",
           "pos": "noun",
           "meanings": [
@@ -393,14 +451,17 @@
         },
         {
           "en": "book a flight",
+          "es": "reservar un vuelo",
           "ipa": "bʊk ə flaɪt",
           "pos": "phrase",
           "meanings": [
             "to arrange to travel by aeroplane at a particular time in the future"
-          ]
+          ],
+          "note": "Aquí book es un verbo: reservar."
         },
         {
           "en": "book a holiday",
+          "es": "reservar unas vacaciones",
           "ipa": "bʊk ə ˈhɒl.ɪ.deɪ",
           "pos": "phrase",
           "meanings": [
@@ -409,6 +470,7 @@
         },
         {
           "en": "book a hotel",
+          "es": "reservar un hotel",
           "ipa": "bʊk ə həʊˈtel",
           "pos": "phrase",
           "meanings": [
@@ -417,6 +479,7 @@
         },
         {
           "en": "boot",
+          "es": "bota",
           "ipa": "buːt",
           "pos": "noun",
           "meanings": [
@@ -425,19 +488,24 @@
         },
         {
           "en": "bored",
+          "es": "aburrido (estar aburrido)",
           "ipa": "bɔːd",
-          "pos": "adjective"
+          "pos": "adjective",
+          "note": "I'm bored = estoy aburrido; I'm boring = soy aburrido."
         },
         {
           "en": "boring",
+          "es": "aburrido (que aburre)",
           "ipa": "ˈbɔː.rɪŋ",
           "pos": "adjective",
           "meanings": [
             "not interesting or exciting"
-          ]
+          ],
+          "note": "The film is boring = la película es aburrida."
         },
         {
           "en": "both",
+          "es": "ambos / los dos",
           "ipa": "bəʊθ",
           "pos": "pronoun",
           "meanings": [
@@ -446,11 +514,13 @@
         },
         {
           "en": "bottle of mineral water",
+          "es": "botella de agua mineral",
           "ipa": "ˈbɒt.l̩ əv ˈmɪn.ər.əl ˈwɔː.tər",
           "pos": "noun"
         },
         {
           "en": "bought",
+          "es": "compré, compró… (pasado de buy)",
           "ipa": "bɔːt",
           "pos": "verb",
           "meanings": [
@@ -459,6 +529,7 @@
         },
         {
           "en": "box of chocolates",
+          "es": "caja de bombones / caja de chocolates",
           "ipa": "bɒks əv ˈtʃɒk.əl.əts",
           "pos": "noun",
           "meanings": [
@@ -467,6 +538,7 @@
         },
         {
           "en": "boy",
+          "es": "niño / chico",
           "ipa": "bɔɪ",
           "pos": "noun",
           "meanings": [
@@ -475,6 +547,7 @@
         },
         {
           "en": "Brazil",
+          "es": "Brasil",
           "ipa": "brəˈzɪl",
           "pos": "noun",
           "meanings": [
@@ -483,6 +556,7 @@
         },
         {
           "en": "Brazilian",
+          "es": "brasileño",
           "ipa": "brəˈzɪl.i.ən",
           "pos": "adjective",
           "meanings": [
@@ -491,6 +565,7 @@
         },
         {
           "en": "bread",
+          "es": "pan",
           "ipa": "bred",
           "pos": "noun",
           "meanings": [
@@ -499,6 +574,7 @@
         },
         {
           "en": "bride",
+          "es": "novia (el día de la boda)",
           "ipa": "braɪd",
           "pos": "noun",
           "meanings": [
@@ -507,6 +583,7 @@
         },
         {
           "en": "British",
+          "es": "británico",
           "ipa": "ˈbrɪt.ɪʃ",
           "pos": "adjective",
           "meanings": [
@@ -515,6 +592,7 @@
         },
         {
           "en": "brother",
+          "es": "hermano",
           "ipa": "ˈbrʌð.ər",
           "pos": "noun",
           "meanings": [
@@ -523,6 +601,7 @@
         },
         {
           "en": "brown",
+          "es": "café / marrón",
           "ipa": "braʊn",
           "pos": "adjective",
           "meanings": [
@@ -531,6 +610,7 @@
         },
         {
           "en": "building",
+          "es": "edificio",
           "ipa": "ˈbɪl.dɪŋ",
           "pos": "noun",
           "meanings": [
@@ -539,11 +619,14 @@
         },
         {
           "en": "burger and chips",
+          "es": "hamburguesa con papas fritas / patatas fritas",
           "ipa": "ˈbɜː.ɡər ænd tʃɪps",
-          "pos": "noun"
+          "pos": "noun",
+          "note": "Chips es inglés británico; en Estados Unidos se dice fries."
         },
         {
           "en": "bus",
+          "es": "autobús",
           "ipa": "bʌs",
           "pos": "noun",
           "meanings": [
@@ -552,6 +635,7 @@
         },
         {
           "en": "bus station",
+          "es": "terminal de autobuses / estación de autobuses",
           "ipa": "ˈbʌsˌsteɪ.ʃən",
           "pos": "noun",
           "meanings": [
@@ -560,6 +644,7 @@
         },
         {
           "en": "bus stop",
+          "es": "parada de autobús",
           "ipa": "ˈbʌsˌstɒp",
           "pos": "noun",
           "meanings": [
@@ -568,6 +653,7 @@
         },
         {
           "en": "busy",
+          "es": "ocupado",
           "ipa": "ˈbɪz.i",
           "pos": "adjective",
           "meanings": [
@@ -576,6 +662,7 @@
         },
         {
           "en": "buy",
+          "es": "comprar",
           "ipa": "baɪ",
           "pos": "verb",
           "meanings": [
@@ -584,6 +671,7 @@
         },
         {
           "en": "buy things online",
+          "es": "comprar cosas por internet",
           "ipa": "baɪ θɪŋz ˈɒn.laɪn",
           "pos": "phrase",
           "meanings": [
@@ -592,6 +680,7 @@
         },
         {
           "en": "by boat",
+          "es": "en barco",
           "ipa": "baɪ bəʊt",
           "pos": "phrase",
           "meanings": [
@@ -600,6 +689,7 @@
         },
         {
           "en": "by car",
+          "es": "en coche / en carro",
           "ipa": "baɪ kɑːr",
           "pos": "phrase"
         }
@@ -610,11 +700,13 @@
       "items": [
         {
           "en": "(black/white) coffee",
+          "es": "café (negro / con leche)",
           "ipa": "ˈkɒf.i",
           "pos": "noun"
         },
         {
           "en": "café",
+          "es": "cafetería / café",
           "ipa": "ˈkæf.eɪ",
           "pos": "noun",
           "meanings": [
@@ -623,6 +715,7 @@
         },
         {
           "en": "came",
+          "es": "vine, vino… (pasado de come)",
           "ipa": "keɪm",
           "pos": "verb",
           "meanings": [
@@ -631,6 +724,7 @@
         },
         {
           "en": "camera",
+          "es": "cámara (de fotos)",
           "ipa": "ˈkæm.rə",
           "pos": "noun",
           "meanings": [
@@ -639,6 +733,7 @@
         },
         {
           "en": "capital (city)",
+          "es": "capital",
           "ipa": "ˈkæp.ɪ.təl",
           "pos": "noun",
           "meanings": [
@@ -647,11 +742,13 @@
         },
         {
           "en": "cappuccino",
+          "es": "capuchino",
           "ipa": "ˌkæp.ʊˈtʃiː.nəʊ",
           "pos": "noun"
         },
         {
           "en": "car",
+          "es": "coche / carro / auto",
           "ipa": "kɑːr",
           "pos": "noun",
           "meanings": [
@@ -660,14 +757,17 @@
         },
         {
           "en": "cashpoint",
+          "es": "cajero automático",
           "ipa": "ˈkæʃ.pɔɪnt",
           "pos": "noun",
           "meanings": [
             "a machine in a wall that you get money from using a plastic card"
-          ]
+          ],
+          "note": "Inglés británico; también ATM."
         },
         {
           "en": "cat",
+          "es": "gato",
           "ipa": "kæt",
           "pos": "noun",
           "meanings": [
@@ -676,6 +776,7 @@
         },
         {
           "en": "cent",
+          "es": "centavo / céntimo",
           "ipa": "sent",
           "pos": "noun",
           "meanings": [
@@ -684,6 +785,7 @@
         },
         {
           "en": "chair",
+          "es": "silla",
           "ipa": "tʃeər",
           "pos": "noun",
           "meanings": [
@@ -692,6 +794,7 @@
         },
         {
           "en": "chat to friends and family",
+          "es": "hablar con amigos y familiares",
           "ipa": "tʃæt tuː frendz ænd ˈfæm.əl.i",
           "pos": "phrase",
           "meanings": [
@@ -700,6 +803,7 @@
         },
         {
           "en": "cheap",
+          "es": "barato",
           "ipa": "tʃiːp",
           "pos": "adjective",
           "meanings": [
@@ -708,6 +812,7 @@
         },
         {
           "en": "cheese",
+          "es": "queso",
           "ipa": "tʃiːz",
           "pos": "noun",
           "meanings": [
@@ -716,6 +821,7 @@
         },
         {
           "en": "cheese and tomato sandwich",
+          "es": "sándwich de queso y tomate",
           "ipa": "tʃiːz ænd təˈmɑː.təʊ ˈsæn.wɪdʒ",
           "pos": "noun",
           "meanings": [
@@ -724,14 +830,17 @@
         },
         {
           "en": "chemist's",
+          "es": "farmacia",
           "ipa": "ˈkem.ɪst",
           "pos": "noun",
           "meanings": [
             "a shop where you can buy drugs, soap, etc"
-          ]
+          ],
+          "note": "Inglés británico; en Estados Unidos, pharmacy o drugstore."
         },
         {
           "en": "chewing gum",
+          "es": "chicle",
           "ipa": "ˈtʃuː.ɪŋˌɡʌm",
           "pos": "noun",
           "meanings": [
@@ -740,6 +849,7 @@
         },
         {
           "en": "chicken salad",
+          "es": "ensalada de pollo",
           "ipa": "ˈtʃɪk.ɪn ˈsæl.əd",
           "pos": "noun",
           "meanings": [
@@ -748,6 +858,7 @@
         },
         {
           "en": "child",
+          "es": "niño / hijo",
           "ipa": "tʃaɪld",
           "pos": "noun",
           "meanings": [
@@ -756,14 +867,17 @@
         },
         {
           "en": "children",
+          "es": "niños / hijos",
           "ipa": "ˈtʃɪl.drən",
           "pos": "noun",
           "meanings": [
             "the plural of 'child'"
-          ]
+          ],
+          "note": "Plural irregular de child."
         },
         {
           "en": "China",
+          "es": "China",
           "ipa": "ˈtʃaɪ.nə",
           "pos": "noun",
           "meanings": [
@@ -772,6 +886,7 @@
         },
         {
           "en": "Chinese",
+          "es": "chino",
           "ipa": "tʃaɪˈniːz",
           "pos": "adjective",
           "meanings": [
@@ -780,6 +895,7 @@
         },
         {
           "en": "chocolate",
+          "es": "chocolate",
           "ipa": "ˈtʃɒk.lət",
           "pos": "noun",
           "meanings": [
@@ -788,6 +904,7 @@
         },
         {
           "en": "chocolate ice cream",
+          "es": "helado de chocolate",
           "ipa": "ˈtʃɒk.lət aɪs kriːm",
           "pos": "noun",
           "meanings": [
@@ -796,6 +913,7 @@
         },
         {
           "en": "classical music",
+          "es": "música clásica",
           "ipa": "ˈklæs.ɪ.kəl ˈmjuː.zɪk",
           "pos": "noun",
           "meanings": [
@@ -804,6 +922,7 @@
         },
         {
           "en": "closed",
+          "es": "cerrado",
           "ipa": "kləʊzd",
           "pos": "adjective",
           "meanings": [
@@ -812,6 +931,7 @@
         },
         {
           "en": "coat",
+          "es": "abrigo",
           "ipa": "kəʊt",
           "pos": "noun",
           "meanings": [
@@ -820,11 +940,13 @@
         },
         {
           "en": "coffee",
+          "es": "café",
           "ipa": "ˈkɒf.i",
           "pos": "noun"
         },
         {
           "en": "cold",
+          "es": "frío",
           "ipa": "kəʊld",
           "pos": "adjective",
           "meanings": [
@@ -833,6 +955,7 @@
         },
         {
           "en": "Colombia",
+          "es": "Colombia",
           "ipa": "kəˈlʌm.bi.ə",
           "pos": "noun",
           "meanings": [
@@ -841,6 +964,7 @@
         },
         {
           "en": "Colombian",
+          "es": "colombiano",
           "ipa": "kəˈlʌm.bi.ən",
           "pos": "adjective",
           "meanings": [
@@ -849,6 +973,7 @@
         },
         {
           "en": "come",
+          "es": "venir / llegar",
           "ipa": "kʌm",
           "pos": "verb",
           "meanings": [
@@ -857,6 +982,7 @@
         },
         {
           "en": "company",
+          "es": "empresa / compañía",
           "ipa": "ˈkʌm.pə.ni",
           "pos": "noun",
           "meanings": [
@@ -865,6 +991,7 @@
         },
         {
           "en": "compare answers",
+          "es": "comparar las respuestas",
           "ipa": "kəmˈpeər ˈɑːnt.səz",
           "pos": "phrase",
           "meanings": [
@@ -873,6 +1000,7 @@
         },
         {
           "en": "computer",
+          "es": "computadora / ordenador",
           "ipa": "kəmˈpjuː.tər",
           "pos": "noun",
           "meanings": [
@@ -881,6 +1009,7 @@
         },
         {
           "en": "cook",
+          "es": "cocinar",
           "ipa": "kʊk",
           "pos": "verb",
           "meanings": [
@@ -889,6 +1018,7 @@
         },
         {
           "en": "credit card",
+          "es": "tarjeta de crédito",
           "ipa": "ˈkred.ɪtˌkɑːd",
           "pos": "noun",
           "meanings": [
@@ -897,6 +1027,7 @@
         },
         {
           "en": "croissant",
+          "es": "cruasán / medialuna",
           "ipa": "ˈkwæs.ɒ̃",
           "pos": "noun",
           "meanings": [
@@ -905,6 +1036,7 @@
         },
         {
           "en": "cup of coffee",
+          "es": "taza de café",
           "ipa": "kʌp əv ˈkɒf.i",
           "pos": "noun",
           "meanings": [
@@ -913,6 +1045,7 @@
         },
         {
           "en": "customer",
+          "es": "cliente",
           "ipa": "ˈkʌs.tə.mər",
           "pos": "noun",
           "meanings": [
@@ -926,6 +1059,7 @@
       "items": [
         {
           "en": "dad",
+          "es": "papá",
           "ipa": "dæd",
           "pos": "noun",
           "meanings": [
@@ -934,6 +1068,7 @@
         },
         {
           "en": "dancing",
+          "es": "el baile / bailar",
           "ipa": "ˈdɑːnt.sɪŋ",
           "pos": "noun",
           "meanings": [
@@ -942,6 +1077,7 @@
         },
         {
           "en": "daughter",
+          "es": "hija",
           "ipa": "ˈdɔː.tər",
           "pos": "noun",
           "meanings": [
@@ -950,6 +1086,7 @@
         },
         {
           "en": "day",
+          "es": "día",
           "ipa": "deɪ",
           "pos": "noun",
           "meanings": [
@@ -958,6 +1095,7 @@
         },
         {
           "en": "December",
+          "es": "diciembre",
           "ipa": "dɪˈsem.bər",
           "pos": "noun",
           "meanings": [
@@ -966,6 +1104,7 @@
         },
         {
           "en": "decide",
+          "es": "decidir",
           "ipa": "dɪˈsaɪd",
           "pos": "verb",
           "meanings": [
@@ -974,19 +1113,23 @@
         },
         {
           "en": "diary",
+          "es": "agenda",
           "ipa": "ˈdaɪə.ri",
           "pos": "noun",
           "meanings": [
             "a book in which you write things that you must remember to do"
-          ]
+          ],
+          "note": "Aquí es la libreta de citas y tareas; también puede ser un diario personal."
         },
         {
           "en": "dictionary",
+          "es": "diccionario",
           "ipa": "ˈdɪk.ʃən.ər.i",
           "pos": "noun"
         },
         {
           "en": "different",
+          "es": "diferente / distinto",
           "ipa": "ˈdɪf.ər.ənt",
           "pos": "adjective",
           "meanings": [
@@ -995,6 +1138,7 @@
         },
         {
           "en": "difficult",
+          "es": "difícil",
           "ipa": "ˈdɪf.ɪ.kəlt",
           "pos": "adjective",
           "meanings": [
@@ -1003,6 +1147,7 @@
         },
         {
           "en": "director",
+          "es": "director (de cine o de teatro)",
           "ipa": "daɪˈrek.tər",
           "pos": "noun",
           "meanings": [
@@ -1011,6 +1156,7 @@
         },
         {
           "en": "do a computer course",
+          "es": "hacer un curso de computación / de informática",
           "ipa": "də ə kəmˈpjuː.tər kɔːs",
           "pos": "phrase",
           "meanings": [
@@ -1019,11 +1165,13 @@
         },
         {
           "en": "do an exam",
+          "es": "hacer un examen / presentar un examen",
           "ipa": "də ən ɪɡˈzæm",
           "pos": "phrase"
         },
         {
           "en": "doctor",
+          "es": "médico / doctor",
           "ipa": "ˈdɒk.tər",
           "pos": "noun",
           "meanings": [
@@ -1032,6 +1180,7 @@
         },
         {
           "en": "dog",
+          "es": "perro",
           "ipa": "dɒɡ",
           "pos": "noun",
           "meanings": [
@@ -1040,6 +1189,7 @@
         },
         {
           "en": "dollar",
+          "es": "dólar",
           "ipa": "ˈdɒl.ər",
           "pos": "noun",
           "meanings": [
@@ -1048,6 +1198,7 @@
         },
         {
           "en": "don’t like",
+          "es": "no gustar (I don't like = no me gusta)",
           "ipa": "dəʊnt laɪk",
           "pos": "verb",
           "meanings": [
@@ -1056,6 +1207,7 @@
         },
         {
           "en": "download apps",
+          "es": "descargar aplicaciones",
           "ipa": "ˌdaʊnˈləʊd æps",
           "pos": "phrase",
           "meanings": [
@@ -1064,6 +1216,7 @@
         },
         {
           "en": "download music",
+          "es": "descargar música",
           "ipa": "ˌdaʊnˈləʊd ˈmjuː.zɪk",
           "pos": "phrase",
           "meanings": [
@@ -1072,6 +1225,7 @@
         },
         {
           "en": "download videos",
+          "es": "descargar videos",
           "ipa": "ˌdaʊnˈləʊd ˈvɪd.i.əʊz",
           "pos": "phrase",
           "meanings": [
@@ -1080,11 +1234,13 @@
         },
         {
           "en": "dress",
+          "es": "vestido",
           "ipa": "dres",
           "pos": "noun"
         },
         {
           "en": "drink",
+          "es": "bebida",
           "ipa": "drɪŋk",
           "pos": "noun",
           "meanings": [
@@ -1093,6 +1249,7 @@
         },
         {
           "en": "drink",
+          "es": "beber / tomar",
           "ipa": "drɪŋk",
           "pos": "verb",
           "meanings": [
@@ -1101,6 +1258,7 @@
         },
         {
           "en": "drive",
+          "es": "manejar / conducir",
           "ipa": "draɪv",
           "pos": "verb",
           "meanings": [
@@ -1109,6 +1267,7 @@
         },
         {
           "en": "driving test",
+          "es": "examen de manejo / examen de conducir",
           "ipa": "ˈdraɪ.vɪŋ test",
           "pos": "noun",
           "meanings": [
@@ -1122,6 +1281,7 @@
       "items": [
         {
           "en": "early",
+          "es": "temprano",
           "ipa": "ˈɜː.li",
           "pos": "adjective",
           "meanings": [
@@ -1130,6 +1290,7 @@
         },
         {
           "en": "earn",
+          "es": "ganar (dinero)",
           "ipa": "ɜːn",
           "pos": "verb",
           "meanings": [
@@ -1138,6 +1299,7 @@
         },
         {
           "en": "Earth",
+          "es": "la Tierra",
           "ipa": "ɜːθ",
           "pos": "noun",
           "meanings": [
@@ -1146,6 +1308,7 @@
         },
         {
           "en": "easy",
+          "es": "fácil",
           "ipa": "ˈiː.zi",
           "pos": "adjective",
           "meanings": [
@@ -1154,6 +1317,7 @@
         },
         {
           "en": "eat",
+          "es": "comer",
           "ipa": "iːt",
           "pos": "verb",
           "meanings": [
@@ -1162,6 +1326,7 @@
         },
         {
           "en": "eat out",
+          "es": "comer fuera",
           "ipa": "iːt aʊt",
           "pos": "phrase",
           "meanings": [
@@ -1170,6 +1335,7 @@
         },
         {
           "en": "egg",
+          "es": "huevo",
           "ipa": "eɡ",
           "pos": "noun",
           "meanings": [
@@ -1178,6 +1344,7 @@
         },
         {
           "en": "egg sandwich",
+          "es": "sándwich de huevo",
           "ipa": "eɡ ˈsæn.wɪdʒ",
           "pos": "noun",
           "meanings": [
