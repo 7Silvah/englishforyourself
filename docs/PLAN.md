@@ -12,7 +12,7 @@
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
-| R · Revisión crítica del contenido | R1–R4 | 🟨 en curso — R1 ✅ R2 ✅ R3 ✅ |
+| R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -21,27 +21,24 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 31/10/2026, con R3 terminada en la rama `r3-revision-worksheets` (sale
-de `main` en 6029cbb: al fusionar el PR #14, GitHub borró `desarrollo`, que tenía lo mismo).*
+*Actualizado el 31/10/2026, con R4 terminada en la rama `r4-revision-traducciones` (sale
+de `desarrollo`, que ya tiene R3). Con R4 se cierra la revisión crítica del contenido.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Recuperar `desarrollo`**: `git push origin main:refs/heads/desarrollo`, o en GitHub
-  *Branches → New branch* desde `main`. Y **protegerla** para que no vuelva a pasar:
-  *Settings → Rules → Rulesets*, regla **Restrict deletions** sobre `desarrollo` (*Automatically
-  delete head branches* la borra al fusionar el PR de `desarrollo` hacia `main`).
-- [ ] **Abrir el PR de `r3-revision-worksheets` hacia `desarrollo`** y fusionarlo con la CI en verde.
-- [ ] **Decidir los hallazgos del motor** de R1–R3 (§11, «R1» y «R3»): la coma en
-  `check.ts`, el `error-correction` con varias palabras y las tag questions sin contraer. No bloquean.
+- [ ] **Abrir el PR de `r4-revision-traducciones` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Decidir los hallazgos del motor** de R1–R4 (§11, «R1», «R3» y «R4»): la coma en
+  `check.ts`, el `error-correction` con varias palabras, las tag questions sin contraer, los
+  distractores sinónimos en el vocabulario y las palabras repetidas en las flashcards. No bloquean.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
 - [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–16, sus sets,
-  las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, y los 207 phrasal verbs de
-  F15. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
+  las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
+  F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: R4, revisión crítica de las traducciones de las listas** (§11,
-«Revisión de contenido»). Después la Etapa 4 (F16, unidades B1–B2), que sale con
-sets de muestra según D1 (§14).
+**2. Siguiente: Etapa 4, F16 (unidades B1–B2)**, con sets de muestra según D1 (§14) y la
+página `/dev/revision`. Antes conviene decidir los hallazgos del motor: arreglarlos después
+obliga a revisar otra vez los ítems que se resolvieron con respuestas extra.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -869,7 +866,13 @@ hacen en commits propios; `reviewed` sigue en `false` (D1).
   - [ ] Las tag questions aceptan la forma sin contraer (*are not you*, *does not she*), que no es correcta: `canonical` desarrolla *n't* antes de comparar. Afecta a los 6 ítems con tag negativa de *tag-questions*. Propuesta: no desarrollar las contracciones cuando la respuesta es una tag (un campo en el ítem o en el set).
 - **Dudas para el profesional:** *past-continuous-negative* #6 *answer the exam* (calco de «contestar el examen»: *do/take the exam*, pero el verbo lo da el enunciado); *zero-conditional* #6 *If you put chicken in oil, it fries* (solo en aceite caliente); *first-conditional* #10 *do a presentation* (más natural *give*); *past-perfect-negative* #10 y *future-perfect-continuous* #7, frases correctas pero de sentido raro.
 #### R4 — Traducciones de las listas
-- [ ] 19 listas A1–A2 (con sus 5 falsos amigos) y 12 de phrasal verbs.
+- [x] 19 listas A1–A2 (1672 palabras, con sus 5 falsos amigos) y 12 de phrasal verbs (207). Español neutro: ninguna forma de *vosotros*; las variantes por país van juntas («papa / patata»). Los 5 falsos amigos son correctos. Las traducciones de los phrasal verbs, sin cambios.
+- [x] Traducciones (4): *Curb* decía «banqueta», que en México es la acera; *Teacher* (trabajos y escuela) mezclaba géneros («profesor / maestra»); *To drive / go to work* atribuía el coche también a *go*.
+- [x] Inglés original (commit aparte): *Mince* → *Mincer* (la máquina), *Hairbrush hairdryer* sin separar, *Veterinary* (adjetivo) → *Veterinarian*, y dos países repetidos (*Croatia – Croat*, *Serbia – Serbian*). Las flashcards guardan el progreso por la palabra en inglés: esas tres tarjetas empiezan de cero.
+- **Hallazgos del motor (pendientes de decidir):**
+  - [ ] **Sinónimos como distractores** (`generators/vocabulary.ts`): de español a inglés, «agradecido» puede ofrecer *Grateful* y *Thankful*, y las dos son correctas. `options()` solo quita textos iguales. Hay 70 parejas que comparten alguna traducción en 13 listas (*Shy/Timid*, *Pumpkin/Squash*, *Caretaker/Janitor*, *Cake/Pie/Tart*…). Propuesta: no usar como distractor una palabra que comparta alguna traducción (separada por «/») con la correcta.
+  - [ ] **Palabras repetidas en una lista** (13 en 4 listas: *Hand*, *Door*, *Fork*, *Otter*…): comparten clave de flashcard, la sesión las muestra dos veces y el contador de nuevas de la lista nunca llega a 0. Están en dos grupos con sentido (el tenedor, en comedor y cocina), así que el arreglo va en el código: quitar repetidas por clave en `/practicar/flashcards` y en el total.
+- **Dudas para el profesional:** *Traffic warden* («agente de tránsito»: en el Reino Unido pone multas de aparcamiento, no dirige el tráfico); *Bell pepper* «pimiento / pimentón» y *Paprika* «pimentón» (pimentón es las dos cosas según el país); *Overcast* marcado como (n); *Agenda* en objetos de clase (en inglés es «orden del día»; la libreta es *planner* o *diary*); *Lecturer* con falso amigo «lector» (en España un lector sí da clase en la universidad).
 
 ### Etapa 4 — Gramática intermedia
 #### F16 — Unidades B1–B2
