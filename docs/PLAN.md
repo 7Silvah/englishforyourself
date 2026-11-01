@@ -188,8 +188,14 @@ creada desde `f17c-vocabulario-v6` (aún sin fusionar).
     («nivelB1Intermedio»): `LevelHeading` pone espacios reales entre las piezas.
   - Sin tocar a propósito: los selectores de tiempo y sujeto del Tense Lab (son pestañas,
     no filtros) y el Tense Lab no tiene audio. Progreso con datos solo lo cubren los tests.
-- [ ] **Paso 3 · Regla escrita**: sección «Reglas» en `/dev/ui` (cada patrón, cuándo se usa y
-  un ejemplo vivo), §9.2 de este plan y una línea en `CLAUDE.md`.
+- [x] **Paso 3 · Regla escrita**: sección «Reglas» al principio de `/dev/ui` con cuatro
+  reglas (nivel, audio, filtros y bloques), cada una con cuándo se usa, su componente y un
+  ejemplo vivo de «✓ Así» frente a «✗ No así»; la §9.2 de este plan describe el sistema
+  visual común, y `CLAUDE.md` lo pide en «Reglas de contenido» (si algo no encaja, se
+  amplía el componente compartido en lugar de dibujar uno propio).
+  - Visto al comprobarlo: `/dev/ui` da en la consola un aviso de React sobre `use()` dentro
+    de un `Lazy` (modo desarrollo). Ya pasaba antes de U2 (comprobado con los cambios
+    apartados); se revisa en F18.
 - [ ] **Paso 4 · Comprobar**: tests de los componentes, JS inicial y cada pantalla en el
   navegador en claro y oscuro.
 
@@ -653,6 +659,22 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
   práctica.
 - Estados de corrección: correcto, casi y fallo, siempre con icono y texto.
 - Modo oscuro con su propia paleta (contraste AA). Fuente Geist Variable (la del preset Nova).
+- **Sistema visual común (U2)**: lo que se repite en varias pantallas se dibuja siempre con
+  los componentes de `src/components/shared/`, que se ven en `/dev/ui` («Reglas» y
+  «Componentes compartidos»):
+  - **Nivel del MCER** → `LevelBadge` (o `LevelHeading` si va con su nombre: «[B1]
+    Intermedio I»). Cada nivel tiene su color (tokens `level-a1` … `level-c1`: verde
+    azulado, cian, índigo, violeta y fucsia), distinto de los colores gramaticales y
+    siempre con el texto del nivel. Como acento (el número de una unidad), `LEVEL_TONE`.
+  - **Audio** → `SpeakButton`: un círculo con el icono 🔊 (tamaños `sm`, `md`, `lg`), que
+    no aparece si el navegador no tiene voces en inglés. Si el audio es la acción
+    principal de la pantalla (ejercicios de escucha), botón con texto y el icono en un
+    círculo.
+  - **Filtros** → `Segmented` con `segmentedItem` para cada opción (un enlace que cambia la
+    URL), chips `filterChip` en «Filtros aplicados» (al pulsarlos se quita el filtro),
+    «Restablecer todos» y el recuento con `aria-live`. Textos en `es.filters`.
+  - **Bloques de contenido** → `SectionCard` (borde fino, esquinas amplias, cabecera y pie
+    opcionales); botones de la página en `PageHeader` con `actions`.
 
 ### 9.3 Funciones pensadas para hispanohablantes
 - Explicaciones en español con equivalencias y diferencias respecto al español.

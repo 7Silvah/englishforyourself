@@ -121,6 +121,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Las traducciones van en campos `*Es` / `es`, en español **neutro** y con **tuteo**. Si no estás seguro de una traducción, déjala vacía antes que inventarla.
 - Todo texto en inglés dentro de la UI lleva `lang="en"`.
 - Los colores de modo gramatical son fijos en todo el sitio: **pos = verde**, **neg = naranja**, **q = amarillo**, `nq` = pregunta negativa. Úsalos siempre con texto o símbolo además del color.
+- **Sistema visual común (U2)**: un nivel del MCER se muestra siempre con `LevelBadge` (o `LevelHeading`), nunca con un `Badge` suelto; un audio, con `SpeakButton` (círculo con 🔊); los filtros, con `Segmented` + `segmentedItem` y chips `filterChip`; los bloques, con `SectionCard`. Todo está en `src/components/shared/` y la regla completa, con ejemplos, en `/dev/ui` («Reglas») y `docs/PLAN.md` §9.2. Si una pantalla necesita algo que no encaja, propón ampliar el componente compartido antes de dibujar uno propio.
 - Bloques del Tense Lab: sujeto azul, auxiliar ámbar, verbo verde, objeto gris.
 - Las explicaciones para hispanohablantes usan los componentes `Explain`, `CommonMistake`, `FalseFriend` y `Tip`, no HTML suelto.
 - Los slugs de las lecciones no se cambian: hay redirecciones que dependen de ellos.

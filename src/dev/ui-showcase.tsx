@@ -1,12 +1,13 @@
 // Página de muestra del sistema de diseño: solo existe en desarrollo (/dev/ui).
 // Sus textos van sueltos a propósito: no es interfaz para el estudiante.
-import { X } from "lucide-react";
+import { Volume2, X } from "lucide-react";
 import type { ReactNode } from "react";
 import { toast } from "sonner";
 import { Badge } from "@/components/ui/badge";
 import { LEVELS } from "@/content/levels";
 import { filterChip, segmentedItem } from "@/components/shared/filter-styles";
 import { LevelBadge } from "@/components/shared/level-badge";
+import { LevelHeading } from "@/components/shared/level-heading";
 import { SectionCard } from "@/components/shared/section-card";
 import { Segmented } from "@/components/shared/segmented";
 import { SpeakButton } from "@/components/shared/speak-button";
@@ -50,6 +51,47 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
       <h2 className="text-lg font-semibold">{title}</h2>
       {children}
     </section>
+  );
+}
+
+// Una regla del sistema visual (U2): qué es, cuándo, con qué componente, y un ejemplo
+// vivo de cómo sí y cómo no
+function Rule({
+  title,
+  when,
+  use,
+  good,
+  bad,
+}: {
+  title: string;
+  when: string;
+  use: string;
+  good: ReactNode;
+  bad: ReactNode;
+}) {
+  return (
+    <SectionCard
+      header={
+        <span className="flex flex-wrap items-baseline justify-between gap-2">
+          <span className="font-semibold">{title}</span>
+          <code className="text-xs text-muted-foreground">{use}</code>
+        </span>
+      }
+    >
+      <div className="space-y-3 p-4 md:px-6">
+        <p className="text-sm text-muted-foreground">{when}</p>
+        <div className="grid gap-3 sm:grid-cols-2">
+          <div className="space-y-2 rounded-lg border border-correct-border bg-correct p-3">
+            <p className="text-xs font-semibold text-correct-fg">✓ Así</p>
+            <div className="flex flex-wrap items-center gap-2">{good}</div>
+          </div>
+          <div className="space-y-2 rounded-lg border border-wrong-border bg-wrong p-3">
+            <p className="text-xs font-semibold text-wrong-fg">✗ No así</p>
+            <div className="flex flex-wrap items-center gap-2">{bad}</div>
+          </div>
+        </div>
+      </div>
+    </SectionCard>
   );
 }
 
@@ -104,6 +146,88 @@ export function UiShowcase() {
           <h1 className="font-heading text-2xl font-bold">Sistema de diseño</h1>
           <p className="text-muted-foreground">Tokens y componentes · /dev/ui</p>
         </header>
+
+        <Section title="Reglas">
+          <p className="text-sm text-muted-foreground">
+            Lo que se repite en varias pantallas se dibuja siempre igual, con src/components/shared
+            (fase U2). Si algo no encaja, se amplía el componente compartido en lugar de hacer uno
+            propio. Detalle en docs/PLAN.md §9.2.
+          </p>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <Rule
+              title="Nivel del MCER"
+              use="<LevelBadge /> · <LevelHeading />"
+              when="Siempre que se muestre un nivel (A1…C1): en tarjetas, tablas, cabeceras y resultados. Cada nivel tiene su color y siempre lleva el texto."
+              good={
+                <>
+                  <LevelBadge level="B1" />
+                  <LevelHeading level="B1" prefix="Estás en el nivel" />
+                </>
+              }
+              bad={
+                <>
+                  <Badge variant="secondary">B1</Badge>
+                  <span className="text-sm">Estás en el nivel B1 · Intermedio I</span>
+                </>
+              }
+            />
+            <Rule
+              title="Audio"
+              use="<SpeakButton size=sm|md|lg />"
+              when="Cada texto en inglés que se pueda escuchar. Si el navegador no tiene voces en inglés, el botón no aparece. Si el audio es la acción principal (ejercicios de escucha), botón con texto y el icono en un círculo."
+              good={
+                <>
+                  <SpeakButton text="Hello" size="sm" />
+                  <SpeakButton text="Hello" />
+                  <SpeakButton text="Hello" size="lg" />
+                </>
+              }
+              bad={
+                <Button variant="ghost" size="icon-sm" aria-label="Escuchar (ejemplo incorrecto)">
+                  <Volume2 aria-hidden />
+                </Button>
+              }
+            />
+            <Rule
+              title="Filtros"
+              use="<Segmented> + segmentedItem() · filterChip()"
+              when="Cualquier lista que se pueda filtrar. Cada opción es un enlace que cambia la URL; los filtros activos salen como chips que se quitan con un clic, con «Restablecer todos» y el recuento."
+              good={
+                <>
+                  <Segmented label="Nivel">
+                    <span className={segmentedItem()}>Todos</span>
+                    <span className={segmentedItem({ active: true })}>A2</span>
+                  </Segmented>
+                  <span className={filterChip()}>
+                    Nivel: A2 <X aria-hidden />
+                  </span>
+                </>
+              }
+              bad={
+                <>
+                  <span className="rounded-full border px-3 py-1 text-sm">Todos</span>
+                  <span className="rounded-full border border-primary bg-primary px-3 py-1 text-sm text-primary-foreground">
+                    A2
+                  </span>
+                </>
+              }
+            />
+            <Rule
+              title="Bloques de contenido"
+              use="<SectionCard header footer> · <PageHeader actions>"
+              when="Paneles de filtros, tablas y grupos con cabecera o pie. Los botones de la página van a la derecha del título con PageHeader actions."
+              good={
+                <SectionCard
+                  className="w-full"
+                  header={<span className="text-sm font-semibold">Cabecera</span>}
+                >
+                  <p className="p-3 text-sm">Contenido</p>
+                </SectionCard>
+              }
+              bad={<div className="w-full rounded border p-3 text-sm shadow-lg">Caja propia</div>}
+            />
+          </div>
+        </Section>
 
         <Section title="Marca">
           <div className="flex flex-wrap items-center gap-6">
