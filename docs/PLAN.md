@@ -14,7 +14,7 @@
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
-| 4 · Gramática intermedia (B1–B2) | F16–F17b | ✅ terminada — F16 ✅ F17 ✅ F17b ✅ |
+| 4 · Gramática intermedia (B1–B2) | F16–F17c | 🟨 en curso — F16 ✅ F17 ✅ F17b ✅ F17c 🟨 (V1 ✅ V2 ✅ V3 🟨 V4 ✅) |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
@@ -22,21 +22,27 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 01/11/2026, con F17b terminada en la rama `f17b-niveles-mcer`: con ella se
-cierra la Etapa 4.*
+*Actualizado el 01/11/2026: F17b fusionada (PR #29) y F17c en curso, con V1 (extracción de
+las wordlists de Face2Face) y V2 (las tres listas en la Biblioteca) terminadas en la rama
+`f17c-vocabulario-v1`.*
 
 **1. Te toca a ti (dueño del repo):**
 
 - [x] **Abrir el PR de `f17-prueba-de-nivel` hacia `desarrollo`** y fusionarlo con la CI en verde.
-- [ ] **Abrir el PR de `f17b-niveles-mcer`** cuando termine F17b.
+- [x] **Abrir el PR de `f17b-niveles-mcer`** cuando termine F17b.
+- [ ] **Confirmar qué se hace con las definiciones y los ejemplos de Face2Face** antes de
+  publicar (F19). V2 aplica la propuesta de §15: se guardan, marcados con `source:
+  "face2face"`, y solo valen con despliegue privado; antes de F19 se quitan o se reescriben.
+- [ ] **Abrir el PR de `f17c-vocabulario-v1`** hacia `desarrollo`.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)**, cuando decidas (el 01/11/2026 decidiste dejarlo para más adelante), con
   [DESPLIEGUE.md](DESPLIEGUE.md).
 - [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–29, sus sets,
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: Etapa 5, F18 (calidad y PWA)**, aplazada el 01/11/2026 para hacer antes F17b
-(ya terminada) y los ajustes del curso que decidas: Playwright de punta a punta, axe en las
+**2. Siguiente: F17c V3, el resto del español de las listas por nivel (por tandas)**; después la
+Etapa 5, F18 (calidad y PWA), aplazada el 01/11/2026 para hacer antes F17b, F17c y los
+ajustes del curso que decidas: Playwright de punta a punta, axe en las
 páginas clave, la app instalable y sin conexión (`vite-plugin-pwa`), JS inicial < 200 KB y
 metadatos por ruta. F19 (publicación) espera a resolver los derechos del contenido (§14).
 
@@ -166,6 +172,7 @@ llega con un nivel previo.
 | F16 | Unidades intermedias (tiempos perfectos y continuos, condicionales, voz pasiva, gerundio/infinitivo, tag questions, estilo indirecto, relativos, modales) |
 | F17 | Prueba de nivel inicial que recomienda desde qué unidad empezar |
 | F17b | Niveles del MCER en el curso y en la prueba: un bloque por nivel (A1, A2, B1, B2) y «tu nivel» |
+| F17c | Vocabulario por nivel a partir de las wordlists de Face2Face: tabla profesional con IPA, tipo, español, definición y ejemplo |
 
 **Terminada cuando:**
 - Todos los worksheets restantes están enlazados a una unidad.
@@ -238,7 +245,7 @@ migración parte del HTML y los PDF versionados aquí.
 | Estado | **Zustand** + `persist` | Progreso y resultados en `localStorage`. |
 | Búsqueda | **MiniSearch** | Búsqueda difusa en el cliente, sin acentos. |
 | Audio | **Web Speech API** | Pronunciación y dictado sin archivos de audio. |
-| PDF → texto | **unpdf** (solo en el script de migración) | Extrae el texto sin depender de herramientas del sistema. |
+| PDF → texto | **unpdf** (solo en scripts: la migración de F4 y `face2face-extract.ts` de F17c) | Extrae el texto, con su posición, sin depender de herramientas del sistema. |
 | Calidad | **oxlint** + Prettier + **Vitest** + Testing Library + **Playwright** + axe | oxlint viene en la plantilla de Vite: es mucho más rápido que ESLint y no necesita configuración. |
 | Offline | **vite-plugin-pwa** (F18) | |
 | Runtime | Node 24 LTS, **npm** | |
@@ -946,11 +953,86 @@ petición (D1).
 **Listo cuando:** `/curso` muestra cuatro bloques (A1, A2, B1, B2) en orden y sin niveles
 mezclados, la prueba dice el nivel MCER y la unidad, y el curso muestra el nivel actual. ✅
 
+#### F17c — Vocabulario por nivel (Face2Face)
+Añadida el 01/11/2026, antes de F18. Fuente verificada: las wordlists de *Face2Face 2nd
+Edition* (Cambridge), en `docs/Cambridge Face2Face 2nd Edition/` **solo en local** (5 GB,
+excluida en `.gitignore`). Columnas: inglés, IPA (UK), tipo, ruso,
+definición; Intermediate añade ejemplo y lección (1A–12C). El ruso no se traduce: el español
+se escribe desde el inglés y la definición, y el ruso solo sirve para confirmar el sentido.
+
+- [x] **V1 · Extracción verificada** (rama `f17c-vocabulario-v1`). `scripts/face2face-extract.ts`
+  lee los PDF con `unpdf` (texto con posición): el PDF guarda la tabla celda a celda y fila a
+  fila, así que una fila nueva empieza cuando el texto vuelve a una columna anterior; une las
+  filas partidas entre páginas. Escribe JSON en `.face2face/` (ignorada por Git) y avisa de
+  filas sin inglés, IPA o tipo, tipos desconocidos y lecciones raras. Resultado: Starter 644,
+  Elementary 887 e Intermediate 1163 entradas, 0 avisos. Cotejado con la imagen de las
+  páginas (Starter p. 1–3, Intermediate p. 30: 22 de 22 filas iguales).
+  - Starter y Elementary traen ~100 definiciones **cortadas en el propio PDF** (el texto se
+    sale de la página: «…because they have done s»).
+  - Pre-Intermediate y Upper-Intermediate **no tienen wordlist** (el *Student's Book* solo
+    trae *Language Summary*): quedan fuera hasta tener una fuente con la misma estructura.
+- [x] **V2 · Modelo de datos** (misma rama). `Word` gana `ipa` (británica, sin barras) y
+  `pos` (enum `PartOfSpeech`, los 16 tipos de la fuente); la lista, `source: "face2face"`
+  para localizar el material de terceros antes de F19. Sección nueva **Vocabulario por
+  nivel** (`vocabulary-by-level`) con `starter-a1` (633 palabras), `elementary-a2` (869) e
+  `intermediate-b1` (1144), `reviewed: false`, generadas con
+  `npx tsx scripts/face2face-extract.ts --content` (no sobrescribe sin `--force`: desde
+  ahora se editan a mano).
+  - Los sentidos de una palabra con el mismo tipo van juntos en `meanings` (48 filas
+    juntadas); la misma palabra con otro tipo (*answer* sustantivo y verbo) es otra entrada.
+  - Las 123 definiciones cortadas en el PDF no se guardan (se detectan porque el texto
+    llega al borde de la página). Las 4 IPA con «X» en lugar de cifra (*20 years ago*,
+    *in 2004*, *tuk-tuk*…) quedan vacías; `'` → `ˈ` y `g` → `ɡ`.
+  - Grupos por letra en las tres listas. La lección del libro (1A–12C) **no se guarda**:
+    sin el libro no le dice nada al estudiante.
+  - `content:check` valida los caracteres de la IPA y que no se repita palabra + tipo en
+    una lista. JS inicial 199,4 KB gzip (+0,3 KB: los metadatos de las listas); cada lista
+    es un chunk diferido (17, 24 y 56 KB gzip). De momento se ven con `WordList` (sin IPA
+    ni tipo): la tabla es V4.
+- [ ] **V3 · Español por tandas** de ~150 palabras (Starter → Elementary → Intermediate),
+  `reviewed: false`, con falsos amigos marcados. Criterios (los de las listas de F14):
+  minúsculas, variantes regionales con « / » (*coche / carro / auto*, *computadora /
+  ordenador*), aclaraciones entre paréntesis, `note` solo para errores típicos de
+  hispanohablantes y diferencias UK/US, y pasados irregulares como «compré, compró… (pasado
+  de buy)». El ruso del PDF solo confirma el sentido; no se traduce.
+  - [x] Tanda 1: Starter 1–150 (*1987* … *egg sandwich*). Falso amigo: *billion* (no es
+    «billón»). Notas: *bored/boring*, *20 years ago*, años leídos de dos en dos, UK/US
+    (*biscuit*, *chips*, *chemist's*, *at the weekend*).
+  - [ ] Tandas 2–5: Starter 151–633.
+  - [ ] Elementary (869) e Intermediate (1144, con `exampleEs`).
+- [x] **V4 · Tabla en la Biblioteca** (misma rama). `features/vocabulary/`:
+  `VocabularyTable` con cuatro columnas (palabra con 🔊 e IPA, tipo en español, español
+  con nota y falso amigo, significado y ejemplo), una fila por palabra y la letra como
+  encabezado de grupo; en el móvil cada fila pasa a tarjeta (`block md:table-row`). Las
+  listas con `pos` la usan (`isLevelList`) y se ven a `max-w-5xl`; las demás siguen con
+  `WordList`.
+  - Filtros en la URL (`validateSearch` de `/biblioteca/$section/$`): `?tipo=` (6 grupos:
+    sustantivos, verbos, adjetivos, adverbios, expresiones, otras; `wordType` en
+    `logic.ts`), `?letra=` y `?q=`, que busca en inglés y español sin tildes y en todas
+    las letras. Tipo y letra son enlaces (como el catálogo de ejercicios); el texto
+    actualiza la URL con `replace`. «Quitar filtros», recuento con `aria-live` e
+    interruptor «Mostrar traducciones», que oculta la columna Español.
+  - Flashcards con la IPA junto al inglés. La misma palabra con dos tipos es **una**
+    tarjeta con las dos traducciones (*drink* → «bebida / beber / tomar»); la clave no
+    cambia, así que el progreso guardado sigue valiendo.
+  - «Practicar» en las listas por nivel con traducciones (`canPractice`), con el
+    generador de vocabulario de F14.
+  - `FalseFriendBadge` pasa a su propio archivo (lo usan `WordList` y la tabla).
+  - 18 tests nuevos (`logic.test.ts`, `vocabulary-table.test.tsx`, `deckCards`): 234.
+    Comprobado en el navegador en claro y oscuro (filtros, búsqueda, flashcards y
+    práctica); el ancho de móvil solo con los tests, porque la ventana no se pudo reducir.
+  - **JS inicial 200,3 KB gzip** (0,3 por encima): los textos nuevos de `es.ts` van en la
+    carga inicial; la tabla se carga aparte. Se recupera en F18 con la propuesta del
+    backlog (metadatos del contenido solo donde se usan).
+
+**Listo cuando:** Starter, Elementary e Intermediate están en la Biblioteca con todas sus
+columnas y traducción al español, y se pueden practicar como las otras listas.
+
 ### Etapa 5 — Calidad, offline y publicación
 #### F18 — Calidad y PWA
 - [ ] Playwright: portada → unidad → set → resultado → repaso; axe en 6 páginas clave.
 - [ ] `vite-plugin-pwa` (precache de la app y del contenido).
-- [ ] JS inicial < 200 KB gzip; Lighthouse ≥ 90 en rendimiento y accesibilidad.
+- [ ] JS inicial < 200 KB gzip (en F17c V4 quedó en 200,3); Lighthouse ≥ 90 en rendimiento y accesibilidad.
 - [ ] Metadatos por ruta (`head` de TanStack Router).
 #### F19 — SEO y publicación
 - [ ] Migrar a TanStack Start con prerender de las rutas del manifiesto; `sitemap.xml`.
@@ -1004,6 +1086,7 @@ una etapa nueva:
 | **Derechos del contenido** (englishforyourself.com vía Wayback, incluidos los worksheets) | Confirmar permiso o reescribir. Hasta entonces, despliegue privado. Los ejercicios `original` y las unidades del curso son propios y no tienen este problema. |
 | Escribir 40–60 ejercicios buenos por unidad lleva tiempo | Plantilla fija (§6.2) y generadores para la práctica repetitiva; el proceso de escritura se define en D1 (§14). |
 | Respuestas válidas no previstas marcadas como error | Normalización + contracciones + “casi”; botón “Creo que mi respuesta es correcta” que lo anota localmente para revisarlo. |
+| **Derechos de Face2Face** (F17c): las definiciones y los ejemplos son texto de Cambridge | Usar del libro solo palabra, tipo, IPA y lección; la traducción es propia. Definiciones y ejemplos, solo con despliegue privado o reescritos antes de F19. Los PDF nunca entran en el repo. |
 | Extracción de PDF con caracteres corruptos | Informe + revisión manual de los 350 ítems (F4). |
 | TTS desigual entre navegadores | Detectar soporte y ocultar los ejercicios de audio si no hay voces. |
 | La SPA no es indexable | Aceptable hasta F19. |

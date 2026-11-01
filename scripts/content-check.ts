@@ -70,6 +70,11 @@ for (const file of await files(`${ROOT}/lessons`, ".mdx")) {
   for (const r of meta?.related ?? []) lessonRefs.push({ file, field: "related", target: r });
 }
 
+// Letras del IPA británico de las listas (la g es ɡ, U+0261), acentos (ˈ ˌ), largas (ː),
+// sílabas (.), diacríticos (silábica, sonora y nasal: U+0329, U+032C, U+0303), sonidos
+// opcionales entre paréntesis y variantes con « / »
+const IPA = /^(?:[a-fh-zæɑɒɔəɜɪʊʌθðʃʒŋɡːˈˌ.() /]|\u{329}|\u{32C}|\u{303})+$/u;
+
 for (const file of await files(`${ROOT}/wordlists`, ".json")) {
   const lessonPath = rel(file, "wordlists");
   if (lessonPaths.has(lessonPath))
@@ -80,10 +85,19 @@ for (const file of await files(`${ROOT}/wordlists`, ".json")) {
     unreviewedLists++;
   const section = lessonPath.split("/")[0] ?? "";
   const c = coverage.get(section) ?? { words: 0, translated: 0 };
+  const withPos = new Set<string>();
   for (const g of list?.groups ?? [])
     for (const w of g.items) {
       c.words++;
       if (w.es) c.translated++;
+      if (w.ipa && !IPA.test(w.ipa))
+        errors.push(`${file}: la IPA de "${w.en}" tiene caracteres que no son IPA: ${w.ipa}`);
+      // Los sentidos de una palabra con el mismo tipo van juntos en `meanings`
+      if (w.pos) {
+        const key = `${w.en}|${w.pos}`;
+        if (withPos.has(key)) errors.push(`${file}: "${w.en}" (${w.pos}) está repetida`);
+        withPos.add(key);
+      }
       if (w.particle) {
         const found = (text: string) => particleMatches(text, w.particle ?? "").length;
         if (found(w.en) === 0)

@@ -32,10 +32,33 @@ export const ArticleMeta = z.strictObject({
 });
 export type ArticleMeta = z.infer<typeof ArticleMeta>;
 
+// Tipo de palabra, como lo da la fuente (wordlists de Face2Face, F17c). En la UI va en español.
+export const PartOfSpeech = z.enum([
+  "noun",
+  "verb",
+  "phrasal verb",
+  "modal verb",
+  "adjective",
+  "adverb",
+  "pronoun",
+  "determiner",
+  "quantifier",
+  "number",
+  "preposition",
+  "conjunction",
+  "exclamation",
+  "prefix",
+  "phrase",
+  "idiom",
+]);
+export type PartOfSpeech = z.infer<typeof PartOfSpeech>;
+
 // Una palabra o expresión de una lista
 export const Word = z.strictObject({
   en: z.string().min(1), // "Hedgehog", "To get along"
   es: z.string().optional(), // "Erizo"
+  ipa: z.string().optional(), // pronunciación británica, sin barras: "ˈæp.l̩"
+  pos: PartOfSpeech.optional(),
   meanings: z.array(z.string()).optional(), // definiciones en inglés (phrasal verbs, idioms)
   example: z.string().optional(),
   exampleEs: z.string().optional(),
@@ -62,6 +85,9 @@ export const WordListMeta = z.strictObject({
   intro: z.string().optional(), // introducción original en inglés
   introEs: z.string().optional(),
   reviewed: z.boolean().optional(), // traducciones revisadas por una persona (decisión D1)
+  // Material de terceros: sus definiciones y ejemplos solo valen con despliegue privado
+  // y hay que quitarlos o reescribirlos antes de publicar (docs/PLAN.md §15).
+  source: z.literal("face2face").optional(),
 });
 export const WordList = z.strictObject({
   ...WordListMeta.shape,

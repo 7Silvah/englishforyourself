@@ -21,6 +21,13 @@ export const sections = [
     descriptionEs: "Palabras por temas: la casa, la comida, el trabajo, los animales y más.",
   },
   {
+    slug: "vocabulary-by-level",
+    title: "Vocabulary by Level",
+    titleEs: "Vocabulario por nivel",
+    descriptionEs:
+      "Las palabras de cada nivel (A1, A2, B1) con pronunciación, tipo de palabra y significado.",
+  },
+  {
     slug: "ways-to-say",
     title: "Ways to Say",
     titleEs: "Formas de decir",
