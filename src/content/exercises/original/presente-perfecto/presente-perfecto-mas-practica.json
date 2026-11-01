@@ -1,0 +1,159 @@
+{
+  "title": "Present perfect: more practice",
+  "titleEs": "Presente perfecto: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "presente-perfecto",
+  "topics": [
+    "present-perfect",
+    "present-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        },
+        {
+          "left": "be",
+          "right": "been"
+        }
+      ],
+      "explanationEs": "Participios irregulares muy frecuentes: la tercera forma del verbo."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "for",
+          "labelEs": "una duración",
+          "items": [
+            "two hours",
+            "a week",
+            "ten years",
+            "a long time"
+          ]
+        },
+        {
+          "label": "since",
+          "labelEs": "el momento en que empezó",
+          "items": [
+            "Monday",
+            "2019",
+            "last summer",
+            "I was a child"
+          ]
+        }
+      ],
+      "explanationEs": "For + cuánto tiempo (for two hours); since + desde cuándo (since Monday)."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Llevo una hora esperando.",
+      "answers": [
+        "I've been waiting for an hour.",
+        "I have been waiting for an hour."
+      ],
+      "wordBank": [
+        "I've",
+        "I",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "an",
+        "hour.",
+        "since"
+      ],
+      "explanationEs": "Llevar + tiempo + gerundio se dice con el presente perfecto continuo: I've been waiting. Una hora es una duración: for."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "Have you ever been to London?",
+      "explanationEs": "Pregunta sobre una experiencia: have + you + ever + been."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Present perfect",
+      "columns": [
+        "Participle"
+      ],
+      "rows": [
+        {
+          "header": "do",
+          "cells": [
+            {
+              "answers": [
+                "done"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "take",
+          "cells": [
+            {
+              "answers": [
+                "taken"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "buy",
+          "cells": [
+            {
+              "answers": [
+                "bought"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "stop",
+          "cells": [
+            {
+              "answers": [
+                "stopped"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Regulares: como el pasado, con -ed (stop dobla la p: stopped). Irregulares: tercera forma (done, taken, bought)."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "They haven't arrived yet.",
+      "options": [
+        "They haven't arrived yet.",
+        "They have arrived yet.",
+        "They didn't arrive yet."
+      ],
+      "answer": 0,
+      "explanationEs": "Haven't arrived yet: todavía no han llegado. Yet va con negativas y preguntas."
+    }
+  ]
+}

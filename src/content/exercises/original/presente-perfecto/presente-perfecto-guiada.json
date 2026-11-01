@@ -1,0 +1,75 @@
+{
+  "title": "Present perfect: guided practice",
+  "titleEs": "Presente perfecto: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "presente-perfecto",
+  "topics": [
+    "present-perfect",
+    "present-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "Have you ever ___ to Japan?",
+      "options": [
+        "been",
+        "went",
+        "go"
+      ],
+      "answer": 0,
+      "explanationEs": "Después de have, el participio: been. Went es el pasado, no el participio."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I ___ my homework yet.",
+      "options": [
+        "haven't finished",
+        "hasn't finished",
+        "haven't finish"
+      ],
+      "answer": 0,
+      "explanationEs": "Con I, haven't + participio (finished)."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "I have visited my grandmother last weekend.",
+      "answer": false,
+      "explanationEs": "Last weekend es un momento terminado: pasado simple, I visited my grandmother last weekend."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "She has worked here since 2018.",
+      "answer": true,
+      "explanationEs": "Empezó en 2018 y sigue hasta hoy: presente perfecto con since."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "How long have you been learning English?"
+      ],
+      "distractors": [
+        "did"
+      ],
+      "explanationEs": "Pregunta: how long + have + sujeto + been + verbo con -ing."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "We have known each other for years."
+      ],
+      "distractors": [
+        "since"
+      ],
+      "explanationEs": "Una duración (years) va con for. Know es de estado: presente perfecto simple, no continuo."
+    }
+  ]
+}
