@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Attempt } from "@/features/progress/logic";
-import { levelRange, recommendedUnit, shownStatus, unitSequence, unitStatus } from "./logic";
+import { groupByLevel, recommendedUnit, shownStatus, unitSequence, unitStatus } from "./logic";
 
 const unit = {
   guided: ["u-guiada"],
@@ -54,13 +54,19 @@ describe("recommendedUnit", () => {
   });
 });
 
-describe("levelRange", () => {
-  it("un solo nivel se muestra tal cual", () => {
-    expect(levelRange(["A1", "A1"])).toBe("A1");
+describe("groupByLevel", () => {
+  it("agrupa por nivel en el orden en que aparecen las unidades", () => {
+    const u = (slug: string, level: "A1" | "A2" | "B1") => ({ slug, meta: { level } });
+    const [a, b, c, d] = [u("a", "A1"), u("b", "A1"), u("c", "A2"), u("d", "B1")];
+    expect(groupByLevel([a, b, c, d])).toEqual([
+      ["A1", [a, b]],
+      ["A2", [c]],
+      ["B1", [d]],
+    ]);
   });
 
-  it("varios niveles, del más bajo al más alto, aunque no vengan en orden", () => {
-    expect(levelRange(["A2", "B2", "B1"])).toBe("A2–B2");
+  it("sin unidades no hay bloques", () => {
+    expect(groupByLevel([])).toEqual([]);
   });
 });
 
