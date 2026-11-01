@@ -5,7 +5,7 @@ import type { UnitBlock } from "@/content/schema";
 import { useProgressStore } from "@/features/progress/store";
 import { es } from "@/i18n/es";
 import { cn } from "@/lib/utils";
-import { recommendedUnit, unitStatus } from "./logic";
+import { levelRange, recommendedUnit, unitStatus } from "./logic";
 import { UnitStatusBadge } from "./unit-status-badge";
 
 // Mapa del curso: todas las unidades por bloque, con su estado y la recomendada
@@ -24,7 +24,7 @@ export function CourseMap() {
       {[...blocks].map(([block, blockUnits]) => (
         <section key={block} aria-labelledby={`block-${block}`} className="space-y-4">
           <h2 id={`block-${block}`} className="font-heading text-xl font-semibold">
-            {es.course.blocks[block]} · {blockUnits[0]?.meta.level}
+            {es.course.blocks[block]} · {levelRange(blockUnits.map((u) => u.meta.level))}
           </h2>
           <ol className="grid gap-3 md:grid-cols-2">
             {blockUnits.map((unit) => {
