@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Computer Vocabulary",
+  "titleEs": "La computadora",
   "order": 34,
   "legacyPath": "lessons/vocabulary/the-computer-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the computer in English.",
@@ -9,85 +10,112 @@
       "title": "The computer vocabulary",
       "items": [
         {
-          "en": "Monitor"
+          "en": "Monitor",
+          "level": "B1"
         },
         {
-          "en": "Screen"
+          "en": "Screen",
+          "level": "A2"
         },
         {
-          "en": "Keyboard"
+          "en": "Keyboard",
+          "level": "B2"
         },
         {
-          "en": "Function keys"
+          "en": "Function keys",
+          "level": "B1"
         },
         {
-          "en": "Escape keys"
+          "en": "Escape keys",
+          "level": "B1"
         },
         {
-          "en": "Tab"
+          "en": "Tab",
+          "level": "B2"
         },
         {
-          "en": "Alt key"
+          "en": "Alt key",
+          "level": "C1"
         },
         {
-          "en": "Arrow keys"
+          "en": "Arrow keys",
+          "level": "B2"
         },
         {
-          "en": "Caps lock"
+          "en": "Caps lock",
+          "level": "B2"
         },
         {
-          "en": "Control key"
+          "en": "Control key",
+          "level": "A2"
         },
         {
-          "en": "Numerical key pad"
+          "en": "Numerical key pad",
+          "level": "C1"
         },
         {
-          "en": "Return"
+          "en": "Return",
+          "level": "A1"
         },
         {
-          "en": "Shift key"
+          "en": "Shift key",
+          "level": "B1"
         },
         {
-          "en": "Spacebar"
+          "en": "Spacebar",
+          "level": "C1"
         },
         {
-          "en": "Button"
+          "en": "Button",
+          "level": "A2"
         },
         {
-          "en": "Case"
+          "en": "Case",
+          "level": "A1"
         },
         {
-          "en": "CPU"
+          "en": "CPU",
+          "level": "C1"
         },
         {
-          "en": "Ethernet cable"
+          "en": "Ethernet cable",
+          "level": "C1"
         },
         {
-          "en": "Hard drive"
+          "en": "Hard drive",
+          "level": "B1"
         },
         {
-          "en": "Laptop"
+          "en": "Laptop",
+          "level": "A1"
         },
         {
-          "en": "Memory"
+          "en": "Memory",
+          "level": "B1"
         },
         {
-          "en": "Microchip"
+          "en": "Microchip",
+          "level": "C1"
         },
         {
-          "en": "Microphone"
+          "en": "Microphone",
+          "level": "C1"
         },
         {
-          "en": "Modem"
+          "en": "Modem",
+          "level": "C1"
         },
         {
-          "en": "Motherboard"
+          "en": "Motherboard",
+          "level": "C1"
         },
         {
-          "en": "Mouse"
+          "en": "Mouse",
+          "level": "A2"
         },
         {
-          "en": "USB cable"
+          "en": "USB cable",
+          "level": "B2"
         }
       ]
     }

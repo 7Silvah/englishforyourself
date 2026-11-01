@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Hobbies Vocabulary",
+  "titleEs": "Aficiones",
   "order": 9,
   "legacyPath": "lessons/vocabulary/hobbies-vocabulary.html",
   "intro": "In this section you will learn vocabulary about hobbies in English.",
@@ -12,135 +13,168 @@
       "items": [
         {
           "en": "Blogging",
-          "es": "escribir un blog"
+          "es": "escribir un blog",
+          "level": "C1"
         },
         {
           "en": "Bowling",
-          "es": "jugar a los bolos"
+          "es": "jugar a los bolos",
+          "level": "B2"
         },
         {
           "en": "Camping",
-          "es": "acampar"
+          "es": "acampar",
+          "level": "A2"
         },
         {
           "en": "Climbing",
-          "es": "escalar"
+          "es": "escalar",
+          "level": "B2"
         },
         {
           "en": "Cooking",
-          "es": "cocinar"
+          "es": "cocinar",
+          "level": "A2"
         },
         {
           "en": "Dancing",
-          "es": "bailar"
+          "es": "bailar",
+          "level": "A1"
         },
         {
           "en": "Doing gymnastics",
-          "es": "hacer gimnasia"
+          "es": "hacer gimnasia",
+          "level": "C1"
         },
         {
           "en": "Doing yoga",
-          "es": "hacer yoga"
+          "es": "hacer yoga",
+          "level": "B2"
         },
         {
           "en": "Drawing",
-          "es": "dibujar"
+          "es": "dibujar",
+          "level": "A2"
         },
         {
           "en": "Fishing",
-          "es": "pescar"
+          "es": "pescar",
+          "level": "B1"
         },
         {
           "en": "Gardening",
-          "es": "hacer jardinería"
+          "es": "hacer jardinería",
+          "level": "C1"
         },
         {
           "en": "Hanging out with friends",
-          "es": "salir con amigos"
+          "es": "salir con amigos",
+          "level": "B1"
         },
         {
           "en": "Knitting",
-          "es": "tejer"
+          "es": "tejer",
+          "level": "C1"
         },
         {
           "en": "Listening to music or podcasts",
-          "es": "escuchar música o pódcasts"
+          "es": "escuchar música o pódcasts",
+          "level": "A2"
         },
         {
           "en": "Meditation",
-          "es": "meditación"
+          "es": "meditación",
+          "level": "B2"
         },
         {
           "en": "Painting",
-          "es": "pintar"
+          "es": "pintar",
+          "level": "A2"
         },
         {
           "en": "Playing an instrument",
-          "es": "tocar un instrumento"
+          "es": "tocar un instrumento",
+          "level": "B1"
         },
         {
           "en": "Playing sports",
-          "es": "hacer deporte"
+          "es": "hacer deporte",
+          "level": "A2"
         },
         {
           "en": "Playing video games",
-          "es": "jugar a los videojuegos"
+          "es": "jugar a los videojuegos",
+          "level": "A2"
         },
         {
           "en": "Reading",
-          "es": "leer"
+          "es": "leer",
+          "level": "A2"
         },
         {
           "en": "Riding a bike",
-          "es": "andar en bicicleta"
+          "es": "andar en bicicleta",
+          "level": "B1"
         },
         {
           "en": "Riding a horse",
-          "es": "montar a caballo"
+          "es": "montar a caballo",
+          "level": "B1"
         },
         {
           "en": "Running",
-          "es": "correr"
+          "es": "correr",
+          "level": "A2"
         },
         {
           "en": "Sewing",
-          "es": "coser"
+          "es": "coser",
+          "level": "C1"
         },
         {
           "en": "Shopping",
-          "es": "ir de compras"
+          "es": "ir de compras",
+          "level": "A2"
         },
         {
           "en": "Skateboarding",
-          "es": "andar en monopatín"
+          "es": "andar en monopatín",
+          "level": "C1"
         },
         {
           "en": "Skiing",
-          "es": "esquiar"
+          "es": "esquiar",
+          "level": "A2"
         },
         {
           "en": "Swimming",
-          "es": "nadar"
+          "es": "nadar",
+          "level": "A2"
         },
         {
           "en": "Taking photos",
-          "es": "sacar fotos"
+          "es": "sacar fotos",
+          "level": "A2"
         },
         {
           "en": "Travelling",
-          "es": "viajar"
+          "es": "viajar",
+          "level": "A2"
         },
         {
           "en": "Watching TV",
-          "es": "ver la tele"
+          "es": "ver la tele",
+          "level": "A2"
         },
         {
           "en": "Working out",
-          "es": "hacer ejercicio"
+          "es": "hacer ejercicio",
+          "level": "A1"
         },
         {
           "en": "Writing",
-          "es": "escribir"
+          "es": "escribir",
+          "level": "A1"
         }
       ]
     }

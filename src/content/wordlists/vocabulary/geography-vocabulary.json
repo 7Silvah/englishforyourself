@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Geography Vocabulary",
+  "titleEs": "Geografía",
   "order": 43,
   "legacyPath": "lessons/vocabulary/geography-vocabulary.html",
   "intro": "In this section you will learn vocabulary about geography in English.",
@@ -9,94 +10,124 @@
       "title": "Geography vocabulary",
       "items": [
         {
-          "en": "Bay"
+          "en": "Bay",
+          "level": "A2"
         },
         {
-          "en": "Beach"
+          "en": "Beach",
+          "level": "A2"
         },
         {
-          "en": "Border"
+          "en": "Border",
+          "level": "A2"
         },
         {
-          "en": "Canal"
+          "en": "Canal",
+          "level": "B1"
         },
         {
-          "en": "Cape"
+          "en": "Cape",
+          "level": "B1"
         },
         {
-          "en": "Capital"
+          "en": "Capital",
+          "level": "A1"
         },
         {
-          "en": "Cliff"
+          "en": "Cliff",
+          "level": "B2"
         },
         {
-          "en": "Coast"
+          "en": "Coast",
+          "level": "A2"
         },
         {
-          "en": "Coast line"
+          "en": "Coast line",
+          "level": "A2"
         },
         {
-          "en": "Continent"
+          "en": "Continent",
+          "level": "B2"
         },
         {
-          "en": "Desert"
+          "en": "Desert",
+          "level": "A2"
         },
         {
-          "en": "Dune"
+          "en": "Dune",
+          "level": "C1"
         },
         {
-          "en": "Earth"
+          "en": "Earth",
+          "level": "A1"
         },
         {
-          "en": "Equator"
+          "en": "Equator",
+          "level": "C1"
         },
         {
-          "en": "Forest"
+          "en": "Forest",
+          "level": "A2"
         },
         {
-          "en": "Frontier"
+          "en": "Frontier",
+          "level": "B2"
         },
         {
-          "en": "Glacier"
+          "en": "Glacier",
+          "level": "C1"
         },
         {
-          "en": "Hemisphere"
+          "en": "Hemisphere",
+          "level": "C1"
         },
         {
-          "en": "Island"
+          "en": "Island",
+          "level": "A2"
         },
         {
-          "en": "Jungle"
+          "en": "Jungle",
+          "level": "B1"
         },
         {
-          "en": "Lagoon"
+          "en": "Lagoon",
+          "level": "C1"
         },
         {
-          "en": "Lake"
+          "en": "Lake",
+          "level": "A2"
         },
         {
-          "en": "Latitude"
+          "en": "Latitude",
+          "level": "C1"
         },
         {
-          "en": "Longitude"
+          "en": "Longitude",
+          "level": "C1"
         },
         {
-          "en": "Meadow"
+          "en": "Meadow",
+          "level": "C1"
         },
         {
-          "en": "Mountain"
+          "en": "Mountain",
+          "level": "A2"
         },
         {
-          "en": "Ocean"
+          "en": "Ocean",
+          "level": "B1"
         },
         {
-          "en": "River"
+          "en": "River",
+          "level": "A1"
         },
         {
-          "en": "Sea"
+          "en": "Sea",
+          "level": "A1"
         },
         {
-          "en": "Waterfall"
+          "en": "Waterfall",
+          "level": "C1"
         }
       ]
     }

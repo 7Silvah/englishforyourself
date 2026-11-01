@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Musical Instruments Vocabulary",
+  "titleEs": "Instrumentos musicales",
   "order": 35,
   "legacyPath": "lessons/vocabulary/musical-instruments-vocabulary.html",
   "intro": "In this section you will learn vocabulary about musical instruments in English.",
@@ -9,91 +10,120 @@
       "title": "Musical instruments vocabulary",
       "items": [
         {
-          "en": "Accordion"
+          "en": "Accordion",
+          "level": "C1"
         },
         {
-          "en": "Acoustic guitar"
+          "en": "Acoustic guitar",
+          "level": "B2"
         },
         {
-          "en": "Bagpipes"
+          "en": "Bagpipes",
+          "level": "C1"
         },
         {
-          "en": "Banjo"
+          "en": "Banjo",
+          "level": "C1"
         },
         {
-          "en": "Bass drum"
+          "en": "Bass drum",
+          "level": "B2"
         },
         {
-          "en": "Bass guitar"
+          "en": "Bass guitar",
+          "level": "B2"
         },
         {
-          "en": "Bell"
+          "en": "Bell",
+          "level": "A2"
         },
         {
-          "en": "Bongo drums"
+          "en": "Bongo drums",
+          "level": "C1"
         },
         {
-          "en": "Bugle"
+          "en": "Bugle",
+          "level": "C1"
         },
         {
-          "en": "Cello"
+          "en": "Cello",
+          "level": "C1"
         },
         {
-          "en": "Clarinet"
+          "en": "Clarinet",
+          "level": "C1"
         },
         {
-          "en": "Conga"
+          "en": "Conga",
+          "level": "C1"
         },
         {
-          "en": "Double bass"
+          "en": "Double bass",
+          "level": "B1"
         },
         {
-          "en": "Drums"
+          "en": "Drums",
+          "level": "B2"
         },
         {
-          "en": "Electric guitar"
+          "en": "Electric guitar",
+          "level": "B1"
         },
         {
-          "en": "Electric keyboard"
+          "en": "Electric keyboard",
+          "level": "B2"
         },
         {
-          "en": "French horn"
+          "en": "French horn",
+          "level": "B2"
         },
         {
-          "en": "Guitar"
+          "en": "Guitar",
+          "level": "B1"
         },
         {
-          "en": "Harmonica"
+          "en": "Harmonica",
+          "level": "C1"
         },
         {
-          "en": "Harp"
+          "en": "Harp",
+          "level": "C1"
         },
         {
-          "en": "Maracas"
+          "en": "Maracas",
+          "level": "C1"
         },
         {
-          "en": "Piano"
+          "en": "Piano",
+          "level": "B1"
         },
         {
-          "en": "Saxophone"
+          "en": "Saxophone",
+          "level": "C1"
         },
         {
-          "en": "Tambourine"
+          "en": "Tambourine",
+          "level": "C1"
         },
         {
-          "en": "Trombone"
+          "en": "Trombone",
+          "level": "C1"
         },
         {
-          "en": "Trumpet"
+          "en": "Trumpet",
+          "level": "C1"
         },
         {
-          "en": "Tuba"
+          "en": "Tuba",
+          "level": "C1"
         },
         {
-          "en": "Violin"
+          "en": "Violin",
+          "level": "C1"
         },
         {
-          "en": "Xylophone"
+          "en": "Xylophone",
+          "level": "C1"
         }
       ]
     }

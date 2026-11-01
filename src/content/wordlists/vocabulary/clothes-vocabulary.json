@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Clothes Vocabulary",
+  "titleEs": "Ropa",
   "order": 18,
   "legacyPath": "lessons/vocabulary/clothes-vocabulary.html",
   "intro": "In this section you will learn vocabulary about clothes in English.",
@@ -12,183 +13,228 @@
       "items": [
         {
           "en": "Anorak",
-          "es": "anorak / chaqueta impermeable"
+          "es": "anorak / chaqueta impermeable",
+          "level": "C1"
         },
         {
           "en": "Bathrobe",
-          "es": "bata de baño / albornoz"
+          "es": "bata de baño / albornoz",
+          "level": "C1"
         },
         {
           "en": "Bikini",
-          "es": "bikini"
+          "es": "bikini",
+          "level": "C1"
         },
         {
           "en": "Blouse",
-          "es": "blusa"
+          "es": "blusa",
+          "level": "C1"
         },
         {
           "en": "Brassiere",
-          "es": "sostén / brasier"
+          "es": "sostén / brasier",
+          "level": "C1"
         },
         {
           "en": "Camp shirt",
-          "es": "camisa veraniega de manga corta"
+          "es": "camisa veraniega de manga corta",
+          "level": "B1"
         },
         {
           "en": "Cardigan",
-          "es": "cárdigan / chaqueta de punto"
+          "es": "cárdigan / chaqueta de punto",
+          "level": "C1"
         },
         {
           "en": "Cargo pants",
-          "es": "pantalones cargo"
+          "es": "pantalones cargo",
+          "level": "B2"
         },
         {
           "en": "Coat",
-          "es": "abrigo"
+          "es": "abrigo",
+          "level": "A1"
         },
         {
           "en": "Denim jacket",
-          "es": "chaqueta vaquera / de mezclilla"
+          "es": "chaqueta vaquera / de mezclilla",
+          "level": "C1"
         },
         {
           "en": "Dress",
-          "es": "vestido"
+          "es": "vestido",
+          "level": "A1"
         },
         {
           "en": "Dungarees (UK) / overalls (US)",
-          "es": "overol / peto"
+          "es": "overol / peto",
+          "level": "C1"
         },
         {
           "en": "Gown",
-          "es": "vestido largo / de gala"
+          "es": "vestido largo / de gala",
+          "level": "C1"
         },
         {
           "en": "Hoodie",
-          "es": "sudadera con capucha"
+          "es": "sudadera con capucha",
+          "level": "C1"
         },
         {
           "en": "Jeans",
-          "es": "jeans / vaqueros"
+          "es": "jeans / vaqueros",
+          "level": "A1"
         },
         {
           "en": "Jumper (UK) / sweater (US)",
-          "es": "suéter / jersey"
+          "es": "suéter / jersey",
+          "level": "A1"
         },
         {
           "en": "Long-sleeve top",
-          "es": "camiseta de manga larga"
+          "es": "camiseta de manga larga",
+          "level": "B2"
         },
         {
           "en": "Overcoat",
-          "es": "abrigo largo"
+          "es": "abrigo largo",
+          "level": "C1"
         },
         {
           "en": "Knickers (UK) / panties (US)",
-          "es": "bragas / pantaletas"
+          "es": "bragas / pantaletas",
+          "level": "C1"
         },
         {
           "en": "Polo shirt",
-          "es": "camiseta polo"
+          "es": "camiseta polo",
+          "level": "C1"
         },
         {
           "en": "Pullover",
-          "es": "suéter / jersey"
+          "es": "suéter / jersey",
+          "level": "C1"
         },
         {
           "en": "Pyjamas (UK) / pajamas (US)",
-          "es": "pijama"
+          "es": "pijama",
+          "level": "C1"
         },
         {
           "en": "Raincoat",
-          "es": "impermeable"
+          "es": "impermeable",
+          "level": "C1"
         },
         {
           "en": "Ruffled skirt",
-          "es": "falda con volantes"
+          "es": "falda con volantes",
+          "level": "C1"
         },
         {
           "en": "Shirt",
-          "es": "camisa"
+          "es": "camisa",
+          "level": "A1"
         },
         {
           "en": "Shorts",
-          "es": "pantalones cortos / shorts"
+          "es": "pantalones cortos / shorts",
+          "level": "A2"
         },
         {
           "en": "Short-sleeved shirt",
-          "es": "camisa de manga corta"
+          "es": "camisa de manga corta",
+          "level": "C1"
         },
         {
           "en": "Skirt",
-          "es": "falda"
+          "es": "falda",
+          "level": "A1"
         },
         {
           "en": "Sleeveless shirt",
-          "es": "camisa sin mangas"
+          "es": "camisa sin mangas",
+          "level": "C1"
         },
         {
           "en": "Socks",
-          "es": "calcetines"
+          "es": "calcetines",
+          "level": "A2"
         },
         {
           "en": "Suit",
-          "es": "traje"
+          "es": "traje",
+          "level": "A1"
         },
         {
           "en": "Sweatpants",
-          "es": "pantalones deportivos / de chándal"
+          "es": "pantalones deportivos / de chándal",
+          "level": "C1"
         },
         {
           "en": "Sweatshirt",
-          "es": "sudadera"
+          "es": "sudadera",
+          "level": "C1"
         },
         {
           "en": "Swimming trunks",
-          "es": "bañador de hombre"
+          "es": "bañador de hombre",
+          "level": "C1"
         },
         {
           "en": "Bathing suit / swim suit",
-          "es": "traje de baño"
+          "es": "traje de baño",
+          "level": "B2"
         },
         {
           "en": "Tank top",
-          "es": "camiseta de tirantes"
+          "es": "camiseta de tirantes",
+          "level": "A2"
         },
         {
           "en": "Trench coat",
-          "es": "gabardina"
+          "es": "gabardina",
+          "level": "C1"
         },
         {
           "en": "Trousers (UK) / pants (US)",
-          "es": "pantalones"
+          "es": "pantalones",
+          "level": "A1"
         },
         {
           "en": "T-shirt",
-          "es": "camiseta / playera"
+          "es": "camiseta / playera",
+          "level": "A1"
         },
         {
           "en": "Tuxedo",
-          "es": "esmoquin"
+          "es": "esmoquin",
+          "level": "C1"
         },
         {
           "en": "Underpants",
-          "es": "calzoncillos"
+          "es": "calzoncillos",
+          "level": "C1"
         },
         {
           "en": "Underwear",
-          "es": "ropa interior"
+          "es": "ropa interior",
+          "level": "B2"
         },
         {
           "en": "Vest",
-          "es": "chaleco (EE. UU.) / camiseta interior (Reino Unido)"
+          "es": "chaleco (EE. UU.) / camiseta interior (Reino Unido)",
+          "level": "C1"
         },
         {
           "en": "V-neck t-shirt",
-          "es": "camiseta de cuello en V"
+          "es": "camiseta de cuello en V",
+          "level": "B1"
         },
         {
           "en": "Waist coat",
-          "es": "chaleco"
+          "es": "chaleco",
+          "level": "B2"
         }
       ]
     },
@@ -197,103 +243,128 @@
       "items": [
         {
           "en": "Baby carriage / pram / stroller",
-          "es": "cochecito de bebé"
+          "es": "cochecito de bebé",
+          "level": "B2"
         },
         {
           "en": "Bib",
-          "es": "babero"
+          "es": "babero",
+          "level": "C1"
         },
         {
           "en": "Baby food",
-          "es": "comida para bebé"
+          "es": "comida para bebé",
+          "level": "A1"
         },
         {
           "en": "Baby mittens",
-          "es": "manoplas de bebé"
+          "es": "manoplas de bebé",
+          "level": "C1"
         },
         {
           "en": "Bottle / baby bottle",
-          "es": "biberón"
+          "es": "biberón",
+          "level": "A2"
         },
         {
           "en": "Baby powder",
-          "es": "talco para bebé"
+          "es": "talco para bebé",
+          "level": "B1"
         },
         {
           "en": "Baby shampoo",
-          "es": "champú para bebé"
+          "es": "champú para bebé",
+          "level": "C1"
         },
         {
           "en": "Bouncer",
-          "es": "hamaca / mecedora de bebé"
+          "es": "hamaca / mecedora de bebé",
+          "level": "C1"
         },
         {
           "en": "Baby wipes",
-          "es": "toallitas húmedas"
+          "es": "toallitas húmedas",
+          "level": "C1"
         },
         {
           "en": "Car seat",
-          "es": "silla de auto para bebé"
+          "es": "silla de auto para bebé",
+          "level": "A2"
         },
         {
           "en": "Baby apron",
-          "es": "delantal de bebé"
+          "es": "delantal de bebé",
+          "level": "C1"
         },
         {
           "en": "Changing table",
-          "es": "cambiador"
+          "es": "cambiador",
+          "level": "A2"
         },
         {
           "en": "Cot (UK) / crib (US)",
-          "es": "cuna"
+          "es": "cuna",
+          "level": "C1"
         },
         {
           "en": "Cradle",
-          "es": "moisés / cuna mecedora"
+          "es": "moisés / cuna mecedora",
+          "level": "C1"
         },
         {
           "en": "Diaper / nappy",
-          "es": "pañal"
+          "es": "pañal",
+          "level": "C1"
         },
         {
           "en": "Diaper pins",
-          "es": "alfileres de pañal"
+          "es": "alfileres de pañal",
+          "level": "C1"
         },
         {
           "en": "Dummy (UK) / pacifier (US)",
-          "es": "chupete / chupón"
+          "es": "chupete / chupón",
+          "level": "C1"
         },
         {
           "en": "Highchair",
-          "es": "silla alta / trona"
+          "es": "silla alta / trona",
+          "level": "C1"
         },
         {
           "en": "Play pen",
-          "es": "corral / parque para bebé"
+          "es": "corral / parque para bebé",
+          "level": "B1"
         },
         {
           "en": "Potty",
-          "es": "orinal / bacinica"
+          "es": "orinal / bacinica",
+          "level": "C1"
         },
         {
           "en": "Rattle",
-          "es": "sonajero"
+          "es": "sonajero",
+          "level": "C1"
         },
         {
           "en": "Romper suit",
-          "es": "pelele / mameluco"
+          "es": "pelele / mameluco",
+          "level": "C1"
         },
         {
           "en": "Singlet / onesie",
-          "es": "body de bebé"
+          "es": "body de bebé",
+          "level": "C1"
         },
         {
           "en": "Teddy bear",
-          "es": "osito de peluche"
+          "es": "osito de peluche",
+          "level": "B2"
         },
         {
           "en": "Walker",
-          "es": "andador"
+          "es": "andador",
+          "level": "B1"
         }
       ]
     },
@@ -302,99 +373,123 @@
       "items": [
         {
           "en": "Beanie",
-          "es": "gorro de lana"
+          "es": "gorro de lana",
+          "level": "C1"
         },
         {
           "en": "Belt",
-          "es": "cinturón"
+          "es": "cinturón",
+          "level": "B1"
         },
         {
           "en": "Bonnet",
-          "es": "gorro de bebé / capota"
+          "es": "gorro de bebé / capota",
+          "level": "C1"
         },
         {
           "en": "Bow tie",
-          "es": "pajarita / corbata de moño"
+          "es": "pajarita / corbata de moño",
+          "level": "B2"
         },
         {
           "en": "Bracelet",
-          "es": "pulsera"
+          "es": "pulsera",
+          "level": "C1"
         },
         {
           "en": "Cap",
-          "es": "gorra"
+          "es": "gorra",
+          "level": "A2"
         },
         {
           "en": "Derby hat",
-          "es": "bombín"
+          "es": "bombín",
+          "level": "B2"
         },
         {
           "en": "Earmuffs",
-          "es": "orejeras"
+          "es": "orejeras",
+          "level": "C1"
         },
         {
           "en": "Earrings",
-          "es": "aretes / pendientes"
+          "es": "aretes / pendientes",
+          "level": "C1"
         },
         {
           "en": "Gloves",
-          "es": "guantes"
+          "es": "guantes",
+          "level": "B2"
         },
         {
           "en": "Hair band",
-          "es": "diadema / cinta para el pelo"
+          "es": "diadema / cinta para el pelo",
+          "level": "A2"
         },
         {
           "en": "Hair clip (UK) / bobby pin (US)",
-          "es": "pasador / horquilla"
+          "es": "pasador / horquilla",
+          "level": "B1"
         },
         {
           "en": "Handbag",
-          "es": "bolso / cartera"
+          "es": "bolso / cartera",
+          "level": "C1"
         },
         {
           "en": "Hat",
-          "es": "sombrero"
+          "es": "sombrero",
+          "level": "A2"
         },
         {
           "en": "Helmet",
-          "es": "casco"
+          "es": "casco",
+          "level": "B2"
         },
         {
           "en": "Necklace",
-          "es": "collar"
+          "es": "collar",
+          "level": "B2"
         },
         {
           "en": "Ring",
-          "es": "anillo"
+          "es": "anillo",
+          "level": "A2"
         },
         {
           "en": "Scarf",
-          "es": "bufanda"
+          "es": "bufanda",
+          "level": "C1"
         },
         {
           "en": "Stockings",
-          "es": "medias"
+          "es": "medias",
+          "level": "C1"
         },
         {
           "en": "Straw hat",
-          "es": "sombrero de paja"
+          "es": "sombrero de paja",
+          "level": "B2"
         },
         {
           "en": "Sunglasses",
-          "es": "gafas / lentes de sol"
+          "es": "gafas / lentes de sol",
+          "level": "C1"
         },
         {
           "en": "Tie",
-          "es": "corbata"
+          "es": "corbata",
+          "level": "A1"
         },
         {
           "en": "Watch",
-          "es": "reloj (de pulsera)"
+          "es": "reloj (de pulsera)",
+          "level": "A1"
         },
         {
           "en": "Winter cap",
-          "es": "gorro de invierno"
+          "es": "gorro de invierno",
+          "level": "B1"
         }
       ]
     },
@@ -403,83 +498,103 @@
       "items": [
         {
           "en": "Ankle boots",
-          "es": "botines"
+          "es": "botines",
+          "level": "B2"
         },
         {
           "en": "Ballet shoes",
-          "es": "zapatillas de ballet"
+          "es": "zapatillas de ballet",
+          "level": "B2"
         },
         {
           "en": "Boots",
-          "es": "botas"
+          "es": "botas",
+          "level": "A2"
         },
         {
           "en": "Clogs",
-          "es": "zuecos"
+          "es": "zuecos",
+          "level": "C1"
         },
         {
           "en": "Cowboy boots",
-          "es": "botas vaqueras"
+          "es": "botas vaqueras",
+          "level": "C1"
         },
         {
           "en": "Crocs",
-          "es": "crocs"
+          "es": "crocs",
+          "level": "C1"
         },
         {
           "en": "Flats",
-          "es": "zapatos planos / bailarinas"
+          "es": "zapatos planos / bailarinas",
+          "level": "C1"
         },
         {
           "en": "Flip flops / thongs",
-          "es": "chanclas / sandalias de dedo"
+          "es": "chanclas / sandalias de dedo",
+          "level": "C1"
         },
         {
           "en": "High heels",
-          "es": "zapatos de tacón"
+          "es": "zapatos de tacón",
+          "level": "B2"
         },
         {
           "en": "Hiking boots",
-          "es": "botas de montaña"
+          "es": "botas de montaña",
+          "level": "C1"
         },
         {
           "en": "Knee-high boots",
-          "es": "botas altas (hasta la rodilla)"
+          "es": "botas altas (hasta la rodilla)",
+          "level": "B2"
         },
         {
           "en": "Platform",
-          "es": "zapatos de plataforma"
+          "es": "zapatos de plataforma",
+          "level": "A1"
         },
         {
           "en": "Pumps",
-          "es": "zapatos de tacón (de salón)"
+          "es": "zapatos de tacón (de salón)",
+          "level": "B2"
         },
         {
           "en": "Riding boots",
-          "es": "botas de montar"
+          "es": "botas de montar",
+          "level": "B2"
         },
         {
           "en": "Sandals",
-          "es": "sandalias"
+          "es": "sandalias",
+          "level": "C1"
         },
         {
           "en": "Slippers",
-          "es": "pantuflas / zapatillas de casa"
+          "es": "pantuflas / zapatillas de casa",
+          "level": "C1"
         },
         {
           "en": "Sneakers / trainers",
-          "es": "zapatillas deportivas / tenis"
+          "es": "zapatillas deportivas / tenis",
+          "level": "A2"
         },
         {
           "en": "Sport shoes",
-          "es": "zapatos deportivos"
+          "es": "zapatos deportivos",
+          "level": "B1"
         },
         {
           "en": "Stilettos",
-          "es": "tacones de aguja"
+          "es": "tacones de aguja",
+          "level": "C1"
         },
         {
           "en": "Wedges / wedge heel shoes",
-          "es": "zapatos de cuña"
+          "es": "zapatos de cuña",
+          "level": "C1"
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Science Vocabulary",
+  "titleEs": "Ciencia",
   "order": 49,
   "legacyPath": "lessons/vocabulary/science-vocabulary.html",
   "intro": "In this section you will learn vocabulary about science in English.",
@@ -8,115 +9,152 @@
     {
       "items": [
         {
-          "en": "Science"
+          "en": "Science",
+          "level": "A1"
         },
         {
-          "en": "Atom"
+          "en": "Atom",
+          "level": "C1"
         },
         {
-          "en": "Electron"
+          "en": "Electron",
+          "level": "B2"
         },
         {
-          "en": "Neutron"
+          "en": "Neutron",
+          "level": "C1"
         },
         {
-          "en": "Proton"
+          "en": "Proton",
+          "level": "C1"
         },
         {
-          "en": "Nucleus"
+          "en": "Nucleus",
+          "level": "C1"
         },
         {
-          "en": "Alcohol burner"
+          "en": "Alcohol burner",
+          "level": "C1"
         },
         {
-          "en": "Bacteria"
+          "en": "Bacteria",
+          "level": "B2"
         },
         {
-          "en": "Barometer"
+          "en": "Barometer",
+          "level": "C1"
         },
         {
-          "en": "Beaker"
+          "en": "Beaker",
+          "level": "C1"
         },
         {
-          "en": "Bunsen burner"
+          "en": "Bunsen burner",
+          "level": "C1"
         },
         {
-          "en": "Cell"
+          "en": "Cell",
+          "level": "A2"
         },
         {
-          "en": "Cell culture"
+          "en": "Cell culture",
+          "level": "A2"
         },
         {
-          "en": "Chemical"
+          "en": "Chemical",
+          "level": "B1"
         },
         {
-          "en": "DNA"
+          "en": "DNA",
+          "level": "B1"
         },
         {
-          "en": "Dropper"
+          "en": "Dropper",
+          "level": "C1"
         },
         {
-          "en": "Erlenmeyer flask"
+          "en": "Erlenmeyer flask",
+          "level": "C1"
         },
         {
-          "en": "Experiment"
+          "en": "Experiment",
+          "level": "B1"
         },
         {
-          "en": "Flask"
+          "en": "Flask",
+          "level": "C1"
         },
         {
-          "en": "Funnel"
+          "en": "Funnel",
+          "level": "C1"
         },
         {
-          "en": "Genetics"
+          "en": "Genetics",
+          "level": "B2"
         },
         {
-          "en": "Graduated cylinder"
+          "en": "Graduated cylinder",
+          "level": "C1"
         },
         {
-          "en": "Laboratory / lab"
+          "en": "Laboratory / lab",
+          "level": "B1"
         },
         {
-          "en": "Magnet"
+          "en": "Magnet",
+          "level": "C1"
         },
         {
-          "en": "Magnifier"
+          "en": "Magnifier",
+          "level": "C1"
         },
         {
-          "en": "Microscope"
+          "en": "Microscope",
+          "level": "C1"
         },
         {
-          "en": "Molecule"
+          "en": "Molecule",
+          "level": "C1"
         },
         {
-          "en": "Organism"
+          "en": "Organism",
+          "level": "C1"
         },
         {
-          "en": "Periodic table"
+          "en": "Periodic table",
+          "level": "C1"
         },
         {
-          "en": "Pipettes"
+          "en": "Pipettes",
+          "level": "C1"
         },
         {
-          "en": "Scale"
+          "en": "Scale",
+          "level": "A2"
         },
         {
-          "en": "Scientist"
+          "en": "Scientist",
+          "level": "A2"
         },
         {
-          "en": "Test tube"
+          "en": "Test tube",
+          "level": "B1"
         },
         {
-          "en": "Test tube racks"
+          "en": "Test tube racks",
+          "level": "C1"
         },
         {
-          "en": "Theory"
+          "en": "Theory",
+          "level": "A2"
         },
         {
-          "en": "Thermometer"
+          "en": "Thermometer",
+          "level": "C1"
         },
         {
-          "en": "Virus"
+          "en": "Virus",
+          "level": "B1"
         }
       ]
     }

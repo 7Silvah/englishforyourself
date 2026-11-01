@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Shopping Vocabulary",
+  "titleEs": "De compras",
   "order": 30,
   "legacyPath": "lessons/vocabulary/shopping-vocabulary.html",
   "intro": "In this section you will learn vocabulary about shopping in English.",
@@ -9,73 +10,96 @@
       "title": "Shopping vocabulary",
       "items": [
         {
-          "en": "Barcode"
+          "en": "Barcode",
+          "level": "C1"
         },
         {
-          "en": "Bargain-hunter"
+          "en": "Bargain-hunter",
+          "level": "B2"
         },
         {
-          "en": "Basket"
+          "en": "Basket",
+          "level": "B2"
         },
         {
-          "en": "Brand"
+          "en": "Brand",
+          "level": "A2"
         },
         {
-          "en": "Cashier"
+          "en": "Cashier",
+          "level": "C1"
         },
         {
-          "en": "Checker / cash register"
+          "en": "Checker / cash register",
+          "level": "B1"
         },
         {
-          "en": "Clerk"
+          "en": "Clerk",
+          "level": "B2"
         },
         {
-          "en": "Coins"
+          "en": "Coins",
+          "level": "B1"
         },
         {
-          "en": "Credit card"
+          "en": "Credit card",
+          "level": "A1"
         },
         {
-          "en": "Customer"
+          "en": "Customer",
+          "level": "A1"
         },
         {
-          "en": "Debit card"
+          "en": "Debit card",
+          "level": "C1"
         },
         {
-          "en": "Discount"
+          "en": "Discount",
+          "level": "B1"
         },
         {
-          "en": "Factory outlet"
+          "en": "Factory outlet",
+          "level": "B2"
         },
         {
-          "en": "Gift voucher"
+          "en": "Gift voucher",
+          "level": "C1"
         },
         {
-          "en": "Knock-down price"
+          "en": "Knock-down price",
+          "level": "B1"
         },
         {
-          "en": "Money"
+          "en": "Money",
+          "level": "A1"
         },
         {
-          "en": "Price"
+          "en": "Price",
+          "level": "A1"
         },
         {
-          "en": "Receipt"
+          "en": "Receipt",
+          "level": "B2"
         },
         {
-          "en": "Retailer"
+          "en": "Retailer",
+          "level": "C1"
         },
         {
-          "en": "Returns policy"
+          "en": "Returns policy",
+          "level": "A2"
         },
         {
-          "en": "Salesman / saleswoman"
+          "en": "Salesman / saleswoman",
+          "level": "C1"
         },
         {
-          "en": "Trolley"
+          "en": "Trolley",
+          "level": "C1"
         },
         {
-          "en": "Wallet / purse"
+          "en": "Wallet / purse",
+          "level": "A1"
         }
       ]
     }

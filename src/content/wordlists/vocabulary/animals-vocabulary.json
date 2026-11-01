@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Animals Vocabulary",
+  "titleEs": "Animales",
   "order": 6,
   "legacyPath": "lessons/vocabulary/animals-vocabulary.html",
   "intro": "In this section of English vocabulary, you will learn vocabulary about animals: mammals, birds, reptiles, amphibians, marine animals, insects and arachnids.",
@@ -12,291 +13,363 @@
       "items": [
         {
           "en": "Anteater",
-          "es": "oso hormiguero"
+          "es": "oso hormiguero",
+          "level": "C1"
         },
         {
           "en": "Antelope",
-          "es": "antílope"
+          "es": "antílope",
+          "level": "C1"
         },
         {
           "en": "Armadillo",
-          "es": "armadillo"
+          "es": "armadillo",
+          "level": "C1"
         },
         {
           "en": "Badger",
-          "es": "tejón"
+          "es": "tejón",
+          "level": "C1"
         },
         {
           "en": "Bat",
-          "es": "murciélago"
+          "es": "murciélago",
+          "level": "B1"
         },
         {
           "en": "Bear",
-          "es": "oso"
+          "es": "oso",
+          "level": "B1"
         },
         {
           "en": "Beaver",
-          "es": "castor"
+          "es": "castor",
+          "level": "C1"
         },
         {
           "en": "Boar",
-          "es": "jabalí"
+          "es": "jabalí",
+          "level": "C1"
         },
         {
           "en": "Buck",
-          "es": "macho (del ciervo o del conejo)"
+          "es": "macho (del ciervo o del conejo)",
+          "level": "B2"
         },
         {
           "en": "Bullock",
-          "es": "novillo / buey"
+          "es": "novillo / buey",
+          "level": "C1"
         },
         {
           "en": "Camel",
-          "es": "camello"
+          "es": "camello",
+          "level": "A2"
         },
         {
           "en": "Cat",
-          "es": "gato"
+          "es": "gato",
+          "level": "A1"
         },
         {
           "en": "Cheetah",
-          "es": "guepardo"
+          "es": "guepardo",
+          "level": "C1"
         },
         {
           "en": "Chimpanzee",
-          "es": "chimpancé"
+          "es": "chimpancé",
+          "level": "C1"
         },
         {
           "en": "Chipmunk",
-          "es": "ardilla listada"
+          "es": "ardilla listada",
+          "level": "C1"
         },
         {
           "en": "Cow",
-          "es": "vaca"
+          "es": "vaca",
+          "level": "A2"
         },
         {
           "en": "Coyote",
-          "es": "coyote"
+          "es": "coyote",
+          "level": "C1"
         },
         {
           "en": "Dachshund",
-          "es": "perro salchicha"
+          "es": "perro salchicha",
+          "level": "C1"
         },
         {
           "en": "Deer",
-          "es": "ciervo / venado"
+          "es": "ciervo / venado",
+          "level": "B2"
         },
         {
           "en": "Doe",
-          "es": "cierva"
+          "es": "cierva",
+          "level": "B2"
         },
         {
           "en": "Dog",
-          "es": "perro"
+          "es": "perro",
+          "level": "A1"
         },
         {
           "en": "Elephant",
-          "es": "elefante"
+          "es": "elefante",
+          "level": "A2"
         },
         {
           "en": "Elk or moose",
-          "es": "alce"
+          "es": "alce",
+          "level": "C1"
         },
         {
           "en": "Fawn",
-          "es": "cervatillo"
+          "es": "cervatillo",
+          "level": "C1"
         },
         {
           "en": "Fox",
-          "es": "zorro"
+          "es": "zorro",
+          "level": "A2"
         },
         {
           "en": "Gazelle",
-          "es": "gacela"
+          "es": "gacela",
+          "level": "C1"
         },
         {
           "en": "Gerbil",
-          "es": "jerbo"
+          "es": "jerbo",
+          "level": "C1"
         },
         {
           "en": "Gibbon",
-          "es": "gibón"
+          "es": "gibón",
+          "level": "C1"
         },
         {
           "en": "Giraffe",
-          "es": "jirafa"
+          "es": "jirafa",
+          "level": "C1"
         },
         {
           "en": "Goat",
-          "es": "cabra"
+          "es": "cabra",
+          "level": "B2"
         },
         {
           "en": "Gopher",
-          "es": "tuza"
+          "es": "tuza",
+          "level": "C1"
         },
         {
           "en": "Gorilla",
-          "es": "gorila"
+          "es": "gorila",
+          "level": "A2"
         },
         {
           "en": "Guinea pig",
-          "es": "cobaya / cuy"
+          "es": "cobaya / cuy",
+          "level": "B2"
         },
         {
           "en": "Hamster",
-          "es": "hámster"
+          "es": "hámster",
+          "level": "C1"
         },
         {
           "en": "Hare",
-          "es": "liebre"
+          "es": "liebre",
+          "level": "C1"
         },
         {
           "en": "Hedgehog",
-          "es": "erizo"
+          "es": "erizo",
+          "level": "C1"
         },
         {
           "en": "Horse",
-          "es": "caballo"
+          "es": "caballo",
+          "level": "A2"
         },
         {
           "en": "Hyena",
-          "es": "hiena"
+          "es": "hiena",
+          "level": "C1"
         },
         {
           "en": "Kangaroo",
-          "es": "canguro"
+          "es": "canguro",
+          "level": "C1"
         },
         {
           "en": "Koala",
-          "es": "koala"
+          "es": "koala",
+          "level": "C1"
         },
         {
           "en": "Leopard",
-          "es": "leopardo"
+          "es": "leopardo",
+          "level": "C1"
         },
         {
           "en": "Lion",
-          "es": "león"
+          "es": "león",
+          "level": "A2"
         },
         {
           "en": "Llama",
-          "es": "llama"
+          "es": "llama",
+          "level": "C1"
         },
         {
           "en": "Lynx",
-          "es": "lince"
+          "es": "lince",
+          "level": "C1"
         },
         {
           "en": "Mammoth",
-          "es": "mamut"
+          "es": "mamut",
+          "level": "C1"
         },
         {
           "en": "Mink",
-          "es": "visón"
+          "es": "visón",
+          "level": "C1"
         },
         {
           "en": "Mole",
-          "es": "topo"
+          "es": "topo",
+          "level": "C1"
         },
         {
           "en": "Mongoose",
-          "es": "mangosta"
+          "es": "mangosta",
+          "level": "C1"
         },
         {
           "en": "Monkey",
-          "es": "mono"
+          "es": "mono",
+          "level": "A2"
         },
         {
           "en": "Mouse",
-          "es": "ratón"
+          "es": "ratón",
+          "level": "A2"
         },
         {
           "en": "Mule",
-          "es": "mula"
+          "es": "mula",
+          "level": "C1"
         },
         {
           "en": "Orangutan",
-          "es": "orangután"
+          "es": "orangután",
+          "level": "C1"
         },
         {
           "en": "Otter",
-          "es": "nutria"
+          "es": "nutria",
+          "level": "C1"
         },
         {
           "en": "Panda",
-          "es": "panda"
+          "es": "panda",
+          "level": "C1"
         },
         {
           "en": "Pig",
-          "es": "cerdo"
+          "es": "cerdo",
+          "level": "B2"
         },
         {
           "en": "Polar bear",
-          "es": "oso polar"
+          "es": "oso polar",
+          "level": "B2"
         },
         {
           "en": "Pony",
-          "es": "poni"
+          "es": "poni",
+          "level": "B2"
         },
         {
           "en": "Puma",
-          "es": "puma"
+          "es": "puma",
+          "level": "C1"
         },
         {
           "en": "Rabbit",
-          "es": "conejo"
+          "es": "conejo",
+          "level": "A2"
         },
         {
           "en": "Raccoon",
-          "es": "mapache"
+          "es": "mapache",
+          "level": "C1"
         },
         {
           "en": "Ram",
-          "es": "carnero"
+          "es": "carnero",
+          "level": "B2"
         },
         {
           "en": "Rat",
-          "es": "rata"
+          "es": "rata",
+          "level": "B2"
         },
         {
           "en": "Reindeer",
-          "es": "reno"
+          "es": "reno",
+          "level": "C1"
         },
         {
           "en": "Rhinoceros",
-          "es": "rinoceronte"
+          "es": "rinoceronte",
+          "level": "C1"
         },
         {
           "en": "Sheep",
-          "es": "oveja"
+          "es": "oveja",
+          "level": "A2"
         },
         {
           "en": "Skunk",
-          "es": "mofeta / zorrillo"
+          "es": "mofeta / zorrillo",
+          "level": "C1"
         },
         {
           "en": "Sloth",
-          "es": "perezoso (animal)"
+          "es": "perezoso (animal)",
+          "level": "C1"
         },
         {
           "en": "Squirrel",
-          "es": "ardilla"
+          "es": "ardilla",
+          "level": "C1"
         },
         {
           "en": "Tiger",
-          "es": "tigre"
+          "es": "tigre",
+          "level": "A2"
         },
         {
           "en": "Weasel",
-          "es": "comadreja"
+          "es": "comadreja",
+          "level": "C1"
         },
         {
           "en": "Wolf",
-          "es": "lobo"
+          "es": "lobo",
+          "level": "A2"
         },
         {
           "en": "Zebra",
-          "es": "cebra"
+          "es": "cebra",
+          "level": "C1"
         }
       ]
     },
@@ -305,199 +378,248 @@
       "items": [
         {
           "en": "Albatross",
-          "es": "albatros"
+          "es": "albatros",
+          "level": "C1"
         },
         {
           "en": "Canary",
-          "es": "canario"
+          "es": "canario",
+          "level": "C1"
         },
         {
           "en": "Chicken",
-          "es": "pollo / gallina"
+          "es": "pollo / gallina",
+          "level": "A2"
         },
         {
           "en": "Crane",
-          "es": "grulla"
+          "es": "grulla",
+          "level": "B2"
         },
         {
           "en": "Crow",
-          "es": "cuervo"
+          "es": "cuervo",
+          "level": "B2"
         },
         {
           "en": "Cuckoo",
-          "es": "cuco"
+          "es": "cuco",
+          "level": "C1"
         },
         {
           "en": "Dove",
-          "es": "paloma (tórtola)"
+          "es": "paloma (tórtola)",
+          "level": "C1"
         },
         {
           "en": "Duck",
-          "es": "pato"
+          "es": "pato",
+          "level": "B1"
         },
         {
           "en": "Eagle",
-          "es": "águila"
+          "es": "águila",
+          "level": "B2"
         },
         {
           "en": "Falcon",
-          "es": "halcón"
+          "es": "halcón",
+          "level": "C1"
         },
         {
           "en": "Finch",
-          "es": "pinzón"
+          "es": "pinzón",
+          "level": "C1"
         },
         {
           "en": "Flamingo",
-          "es": "flamenco"
+          "es": "flamenco",
+          "level": "C1"
         },
         {
           "en": "Goose",
-          "es": "ganso / oca"
+          "es": "ganso / oca",
+          "level": "B2"
         },
         {
           "en": "Gull",
-          "es": "gaviota"
+          "es": "gaviota",
+          "level": "C1"
         },
         {
           "en": "Hawk",
-          "es": "gavilán / halcón"
+          "es": "gavilán / halcón",
+          "level": "B2"
         },
         {
           "en": "Hen",
-          "es": "gallina"
+          "es": "gallina",
+          "level": "C1"
         },
         {
           "en": "Heron",
-          "es": "garza"
+          "es": "garza",
+          "level": "C1"
         },
         {
           "en": "Hornbill",
-          "es": "cálao"
+          "es": "cálao",
+          "level": "C1"
         },
         {
           "en": "Hummingbird",
-          "es": "colibrí"
+          "es": "colibrí",
+          "level": "C1"
         },
         {
           "en": "Jackdaw",
-          "es": "grajilla"
+          "es": "grajilla",
+          "level": "C1"
         },
         {
           "en": "Kestrel",
-          "es": "cernícalo"
+          "es": "cernícalo",
+          "level": "C1"
         },
         {
           "en": "Kingfisher",
-          "es": "martín pescador"
+          "es": "martín pescador",
+          "level": "C1"
         },
         {
           "en": "Kite",
-          "es": "milano"
+          "es": "milano",
+          "level": "C1"
         },
         {
           "en": "Kiwi",
-          "es": "kiwi (ave)"
+          "es": "kiwi (ave)",
+          "level": "C1"
         },
         {
           "en": "Mynah",
-          "es": "miná"
+          "es": "miná",
+          "level": "C1"
         },
         {
           "en": "Nightingale",
-          "es": "ruiseñor"
+          "es": "ruiseñor",
+          "level": "C1"
         },
         {
           "en": "Ostrich",
-          "es": "avestruz"
+          "es": "avestruz",
+          "level": "C1"
         },
         {
           "en": "Owl",
-          "es": "búho / lechuza"
+          "es": "búho / lechuza",
+          "level": "B2"
         },
         {
           "en": "Parrot",
-          "es": "loro"
+          "es": "loro",
+          "level": "C1"
         },
         {
           "en": "Partridge",
-          "es": "perdiz"
+          "es": "perdiz",
+          "level": "C1"
         },
         {
           "en": "Peacock",
-          "es": "pavo real"
+          "es": "pavo real",
+          "level": "C1"
         },
         {
           "en": "Pelican",
-          "es": "pelícano"
+          "es": "pelícano",
+          "level": "C1"
         },
         {
           "en": "Penguin",
-          "es": "pingüino"
+          "es": "pingüino",
+          "level": "C1"
         },
         {
           "en": "Pigeon",
-          "es": "paloma"
+          "es": "paloma",
+          "level": "C1"
         },
         {
           "en": "Quail",
-          "es": "codorniz"
+          "es": "codorniz",
+          "level": "C1"
         },
         {
           "en": "Robin",
-          "es": "petirrojo"
+          "es": "petirrojo",
+          "level": "B1"
         },
         {
           "en": "Rooster",
-          "es": "gallo"
+          "es": "gallo",
+          "level": "C1"
         },
         {
           "en": "Skylark",
-          "es": "alondra"
+          "es": "alondra",
+          "level": "C1"
         },
         {
           "en": "Sparrow",
-          "es": "gorrión"
+          "es": "gorrión",
+          "level": "C1"
         },
         {
           "en": "Stork",
-          "es": "cigüeña"
+          "es": "cigüeña",
+          "level": "C1"
         },
         {
           "en": "Swallow",
-          "es": "golondrina"
+          "es": "golondrina",
+          "level": "B2"
         },
         {
           "en": "Swan",
-          "es": "cisne"
+          "es": "cisne",
+          "level": "B2"
         },
         {
           "en": "Swift",
-          "es": "vencejo"
+          "es": "vencejo",
+          "level": "B2"
         },
         {
           "en": "Tailorbird",
-          "es": "pájaro sastre"
+          "es": "pájaro sastre",
+          "level": "C1"
         },
         {
           "en": "Turkey",
-          "es": "pavo"
+          "es": "pavo",
+          "level": "A1"
         },
         {
           "en": "Vulture",
-          "es": "buitre"
+          "es": "buitre",
+          "level": "C1"
         },
         {
           "en": "Weaver",
-          "es": "tejedor (pájaro)"
+          "es": "tejedor (pájaro)",
+          "level": "C1"
         },
         {
           "en": "Woodpecker",
-          "es": "pájaro carpintero"
+          "es": "pájaro carpintero",
+          "level": "C1"
         },
         {
           "en": "Wren",
-          "es": "chochín"
+          "es": "chochín",
+          "level": "C1"
         }
       ]
     },
@@ -506,115 +628,143 @@
       "items": [
         {
           "en": "Alligator",
-          "es": "caimán (aligátor)"
+          "es": "caimán (aligátor)",
+          "level": "C1"
         },
         {
           "en": "Anaconda",
-          "es": "anaconda"
+          "es": "anaconda",
+          "level": "C1"
         },
         {
           "en": "Black mamba",
-          "es": "mamba negra"
+          "es": "mamba negra",
+          "level": "C1"
         },
         {
           "en": "Blindworm",
-          "es": "lución"
+          "es": "lución",
+          "level": "C1"
         },
         {
           "en": "Boa",
-          "es": "boa"
+          "es": "boa",
+          "level": "C1"
         },
         {
           "en": "Caiman",
-          "es": "caimán"
+          "es": "caimán",
+          "level": "C1"
         },
         {
           "en": "Chameleon",
-          "es": "camaleón"
+          "es": "camaleón",
+          "level": "C1"
         },
         {
           "en": "Cobra",
-          "es": "cobra"
+          "es": "cobra",
+          "level": "C1"
         },
         {
           "en": "Constrictor",
-          "es": "serpiente constrictora"
+          "es": "serpiente constrictora",
+          "level": "C1"
         },
         {
           "en": "Copperhead",
-          "es": "cabeza de cobre (serpiente)"
+          "es": "cabeza de cobre (serpiente)",
+          "level": "C1"
         },
         {
           "en": "Coral snake",
-          "es": "serpiente coral"
+          "es": "serpiente coral",
+          "level": "C1"
         },
         {
           "en": "Cottonmouth",
-          "es": "mocasín de agua"
+          "es": "mocasín de agua",
+          "level": "C1"
         },
         {
           "en": "Crocodile",
-          "es": "cocodrilo"
+          "es": "cocodrilo",
+          "level": "C1"
         },
         {
           "en": "Gavialis",
-          "es": "gavial"
+          "es": "gavial",
+          "level": "C1"
         },
         {
           "en": "Gecko",
-          "es": "geco / salamanquesa"
+          "es": "geco / salamanquesa",
+          "level": "C1"
         },
         {
           "en": "Gharial",
-          "es": "gavial"
+          "es": "gavial",
+          "level": "C1"
         },
         {
           "en": "Iguana",
-          "es": "iguana"
+          "es": "iguana",
+          "level": "C1"
         },
         {
           "en": "Lizard",
-          "es": "lagarto / lagartija"
+          "es": "lagarto / lagartija",
+          "level": "C1"
         },
         {
           "en": "Python",
-          "es": "pitón"
+          "es": "pitón",
+          "level": "C1"
         },
         {
           "en": "Rattlesnake",
-          "es": "serpiente de cascabel"
+          "es": "serpiente de cascabel",
+          "level": "C1"
         },
         {
           "en": "Saurian",
-          "es": "saurio"
+          "es": "saurio",
+          "level": "C1"
         },
         {
           "en": "Sea snake",
-          "es": "serpiente marina"
+          "es": "serpiente marina",
+          "level": "B2"
         },
         {
           "en": "Skink",
-          "es": "eslizón"
+          "es": "eslizón",
+          "level": "C1"
         },
         {
           "en": "Taipan",
-          "es": "taipán"
+          "es": "taipán",
+          "level": "C1"
         },
         {
           "en": "Terrapin",
-          "es": "tortuga de agua dulce"
+          "es": "tortuga de agua dulce",
+          "level": "C1"
         },
         {
           "en": "Tortoise or turtle",
-          "es": "tortuga"
+          "es": "tortuga",
+          "level": "B1"
         },
         {
           "en": "Viper",
-          "es": "víbora"
+          "es": "víbora",
+          "level": "C1"
         },
         {
           "en": "Worm lizard",
-          "es": "anfisbena (culebrilla ciega)"
+          "es": "anfisbena (culebrilla ciega)",
+          "level": "C1"
         }
       ]
     },
@@ -623,47 +773,58 @@
       "items": [
         {
           "en": "Axolotl",
-          "es": "ajolote"
+          "es": "ajolote",
+          "level": "C1"
         },
         {
           "en": "Bullfrog",
-          "es": "rana toro"
+          "es": "rana toro",
+          "level": "C1"
         },
         {
           "en": "Caecilian",
-          "es": "cecilia"
+          "es": "cecilia",
+          "level": "C1"
         },
         {
           "en": "Frog",
-          "es": "rana"
+          "es": "rana",
+          "level": "B2"
         },
         {
           "en": "Frogspawn",
-          "es": "huevos de rana"
+          "es": "huevos de rana",
+          "level": "C1"
         },
         {
           "en": "Hyla",
-          "es": "rana arborícola"
+          "es": "rana arborícola",
+          "level": "C1"
         },
         {
           "en": "Mudpuppy",
-          "es": "necturo"
+          "es": "necturo",
+          "level": "C1"
         },
         {
           "en": "Newt",
-          "es": "tritón"
+          "es": "tritón",
+          "level": "C1"
         },
         {
           "en": "Salamander",
-          "es": "salamandra"
+          "es": "salamandra",
+          "level": "C1"
         },
         {
           "en": "Tadpole",
-          "es": "renacuajo"
+          "es": "renacuajo",
+          "level": "C1"
         },
         {
           "en": "Toad",
-          "es": "sapo"
+          "es": "sapo",
+          "level": "C1"
         }
       ]
     },
@@ -672,147 +833,183 @@
       "items": [
         {
           "en": "Catfish",
-          "es": "bagre / pez gato"
+          "es": "bagre / pez gato",
+          "level": "C1"
         },
         {
           "en": "Clams",
-          "es": "almejas"
+          "es": "almejas",
+          "level": "C1"
         },
         {
           "en": "Clownfish",
-          "es": "pez payaso"
+          "es": "pez payaso",
+          "level": "C1"
         },
         {
           "en": "Coral",
-          "es": "coral"
+          "es": "coral",
+          "level": "B1"
         },
         {
           "en": "Cormorant",
-          "es": "cormorán"
+          "es": "cormorán",
+          "level": "C1"
         },
         {
           "en": "Crab",
-          "es": "cangrejo"
+          "es": "cangrejo",
+          "level": "C1"
         },
         {
           "en": "Cuttlefish",
-          "es": "sepia"
+          "es": "sepia",
+          "level": "C1"
         },
         {
           "en": "Dolphin",
-          "es": "delfín"
+          "es": "delfín",
+          "level": "C1"
         },
         {
           "en": "Eel",
-          "es": "anguila"
+          "es": "anguila",
+          "level": "C1"
         },
         {
           "en": "Goldfish",
-          "es": "pez dorado"
+          "es": "pez dorado",
+          "level": "C1"
         },
         {
           "en": "Jellyfish",
-          "es": "medusa"
+          "es": "medusa",
+          "level": "C1"
         },
         {
           "en": "Killer whale",
-          "es": "orca"
+          "es": "orca",
+          "level": "B2"
         },
         {
           "en": "Lobster",
-          "es": "langosta"
+          "es": "langosta",
+          "level": "C1"
         },
         {
           "en": "Narwhal",
-          "es": "narval"
+          "es": "narval",
+          "level": "C1"
         },
         {
           "en": "Octopus",
-          "es": "pulpo"
+          "es": "pulpo",
+          "level": "C1"
         },
         {
           "en": "Otter",
-          "es": "nutria"
+          "es": "nutria",
+          "level": "C1"
         },
         {
           "en": "Oyster",
-          "es": "ostra"
+          "es": "ostra",
+          "level": "C1"
         },
         {
           "en": "Pelican",
-          "es": "pelícano"
+          "es": "pelícano",
+          "level": "C1"
         },
         {
           "en": "Piranha",
-          "es": "piraña"
+          "es": "piraña",
+          "level": "C1"
         },
         {
           "en": "Platypus",
-          "es": "ornitorrinco"
+          "es": "ornitorrinco",
+          "level": "C1"
         },
         {
           "en": "Prawn",
-          "es": "gamba / langostino"
+          "es": "gamba / langostino",
+          "level": "C1"
         },
         {
           "en": "Sea anemone",
-          "es": "anémona de mar"
+          "es": "anémona de mar",
+          "level": "C1"
         },
         {
           "en": "Seahorse",
-          "es": "caballito de mar"
+          "es": "caballito de mar",
+          "level": "C1"
         },
         {
           "en": "Seal",
-          "es": "foca"
+          "es": "foca",
+          "level": "B1"
         },
         {
           "en": "Sea urchin",
-          "es": "erizo de mar"
+          "es": "erizo de mar",
+          "level": "C1"
         },
         {
           "en": "Shark",
-          "es": "tiburón"
+          "es": "tiburón",
+          "level": "B1"
         },
         {
           "en": "Sea turtle",
-          "es": "tortuga marina"
+          "es": "tortuga marina",
+          "level": "B2"
         },
         {
           "en": "Shell",
-          "es": "concha"
+          "es": "concha",
+          "level": "B1"
         },
         {
           "en": "Sea lion",
-          "es": "león marino"
+          "es": "león marino",
+          "level": "B2"
         },
         {
           "en": "Shrimp",
-          "es": "camarón"
+          "es": "camarón",
+          "level": "C1"
         },
         {
           "en": "Squid",
-          "es": "calamar"
+          "es": "calamar",
+          "level": "C1"
         },
         {
           "en": "Starfish",
-          "es": "estrella de mar"
+          "es": "estrella de mar",
+          "level": "C1"
         },
         {
           "en": "Sturgeon",
-          "es": "esturión"
+          "es": "esturión",
+          "level": "C1"
         },
         {
           "en": "Tuna",
-          "es": "atún"
+          "es": "atún",
+          "level": "A2"
         },
         {
           "en": "Walrus",
-          "es": "morsa"
+          "es": "morsa",
+          "level": "C1"
         },
         {
           "en": "Whale",
-          "es": "ballena"
+          "es": "ballena",
+          "level": "A2"
         }
       ]
     },
@@ -821,143 +1018,178 @@
       "items": [
         {
           "en": "Ant",
-          "es": "hormiga"
+          "es": "hormiga",
+          "level": "B1"
         },
         {
           "en": "Aphid",
-          "es": "pulgón"
+          "es": "pulgón",
+          "level": "C1"
         },
         {
           "en": "Bed bug",
-          "es": "chinche"
+          "es": "chinche",
+          "level": "B2"
         },
         {
           "en": "Bee",
-          "es": "abeja"
+          "es": "abeja",
+          "level": "B2"
         },
         {
           "en": "Beetle",
-          "es": "escarabajo"
+          "es": "escarabajo",
+          "level": "C1"
         },
         {
           "en": "Bumblebee",
-          "es": "abejorro"
+          "es": "abejorro",
+          "level": "C1"
         },
         {
           "en": "Butterfly",
-          "es": "mariposa"
+          "es": "mariposa",
+          "level": "B2"
         },
         {
           "en": "Caterpillar",
-          "es": "oruga"
+          "es": "oruga",
+          "level": "C1"
         },
         {
           "en": "Centipede",
-          "es": "ciempiés"
+          "es": "ciempiés",
+          "level": "C1"
         },
         {
           "en": "Cicada",
-          "es": "cigarra / chicharra"
+          "es": "cigarra / chicharra",
+          "level": "C1"
         },
         {
           "en": "Cockroach",
-          "es": "cucaracha"
+          "es": "cucaracha",
+          "level": "C1"
         },
         {
           "en": "Cocoon",
-          "es": "capullo"
+          "es": "capullo",
+          "level": "C1"
         },
         {
           "en": "Cricket",
-          "es": "grillo"
+          "es": "grillo",
+          "level": "B1"
         },
         {
           "en": "Dragonfly",
-          "es": "libélula"
+          "es": "libélula",
+          "level": "C1"
         },
         {
           "en": "Earwig",
-          "es": "tijereta"
+          "es": "tijereta",
+          "level": "C1"
         },
         {
           "en": "Firefly",
-          "es": "luciérnaga"
+          "es": "luciérnaga",
+          "level": "C1"
         },
         {
           "en": "Flea",
-          "es": "pulga"
+          "es": "pulga",
+          "level": "C1"
         },
         {
           "en": "Fly",
-          "es": "mosca"
+          "es": "mosca",
+          "level": "A2"
         },
         {
           "en": "Gadfly",
-          "es": "tábano"
+          "es": "tábano",
+          "level": "C1"
         },
         {
           "en": "Grasshopper",
-          "es": "saltamontes"
+          "es": "saltamontes",
+          "level": "C1"
         },
         {
           "en": "Ladybug",
-          "es": "mariquita"
+          "es": "mariquita",
+          "level": "C1"
         },
         {
           "en": "Larva",
-          "es": "larva"
+          "es": "larva",
+          "level": "C1"
         },
         {
           "en": "Leaf insect",
-          "es": "insecto hoja"
+          "es": "insecto hoja",
+          "level": "C1"
         },
         {
           "en": "Locust",
-          "es": "langosta (insecto)"
+          "es": "langosta (insecto)",
+          "level": "C1"
         },
         {
           "en": "Louse",
-          "es": "piojo"
+          "es": "piojo",
+          "level": "C1"
         },
         {
           "en": "Maggot",
-          "es": "gusano (larva de mosca)"
+          "es": "gusano (larva de mosca)",
+          "level": "C1"
         },
         {
           "en": "Midge",
-          "es": "jején"
+          "es": "jején",
+          "level": "C1"
         },
         {
           "en": "Millipede",
-          "es": "milpiés"
+          "es": "milpiés",
+          "level": "C1"
         },
         {
           "en": "Mosquito",
-          "es": "mosquito"
+          "es": "mosquito",
+          "level": "C1"
         },
         {
           "en": "Moth",
-          "es": "polilla"
+          "es": "polilla",
+          "level": "C1"
         },
         {
           "en": "Nymph",
-          "es": "ninfa"
+          "es": "ninfa",
+          "level": "C1"
         },
         {
           "en": "Praying mantis",
-          "es": "mantis religiosa"
+          "es": "mantis religiosa",
+          "level": "C1"
         },
         {
           "en": "Stick insect",
-          "es": "insecto palo"
+          "es": "insecto palo",
+          "level": "C1"
         },
         {
           "en": "Termite",
-          "es": "termita"
+          "es": "termita",
+          "level": "C1"
         },
         {
           "en": "Wasp",
-          "es": "avispa"
+          "es": "avispa",
+          "level": "B1"
         }
       ]
     },
@@ -966,23 +1198,28 @@
       "items": [
         {
           "en": "Scorpion",
-          "es": "escorpión / alacrán"
+          "es": "escorpión / alacrán",
+          "level": "B1"
         },
         {
           "en": "Spider",
-          "es": "araña"
+          "es": "araña",
+          "level": "B1"
         },
         {
           "en": "Tarantula",
-          "es": "tarántula"
+          "es": "tarántula",
+          "level": "C1"
         },
         {
           "en": "Tick",
-          "es": "garrapata"
+          "es": "garrapata",
+          "level": "B2"
         },
         {
           "en": "Water spider",
-          "es": "araña de agua"
+          "es": "araña de agua",
+          "level": "B1"
         }
       ]
     }

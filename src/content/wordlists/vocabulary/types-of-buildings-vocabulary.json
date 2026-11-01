@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Types of Buildings Vocabulary",
+  "titleEs": "Tipos de edificios",
   "order": 31,
   "legacyPath": "lessons/vocabulary/types-of-buildings-vocabulary.html",
   "intro": "In this section you will learn about the types of buildings in English.",
@@ -9,46 +10,60 @@
       "title": "Types of buildings vocabulary",
       "items": [
         {
-          "en": "Block of flats"
+          "en": "Block of flats",
+          "level": "C1"
         },
         {
-          "en": "Bungalow"
+          "en": "Bungalow",
+          "level": "C1"
         },
         {
-          "en": "Castle"
+          "en": "Castle",
+          "level": "A2"
         },
         {
-          "en": "Cottage"
+          "en": "Cottage",
+          "level": "B1"
         },
         {
-          "en": "Detached house"
+          "en": "Detached house",
+          "level": "C1"
         },
         {
-          "en": "Flat (UK) / apartment (US)"
+          "en": "Flat (UK) / apartment (US)",
+          "level": "A2"
         },
         {
-          "en": "Igloo"
+          "en": "Igloo",
+          "level": "C1"
         },
         {
-          "en": "Lighthouse"
+          "en": "Lighthouse",
+          "level": "C1"
         },
         {
-          "en": "Semi-detached house"
+          "en": "Semi-detached house",
+          "level": "C1"
         },
         {
-          "en": "Skyscraper"
+          "en": "Skyscraper",
+          "level": "B1"
         },
         {
-          "en": "Terraced house (UK) / row house (US)"
+          "en": "Terraced house (UK) / row house (US)",
+          "level": "B1"
         },
         {
-          "en": "Tower"
+          "en": "Tower",
+          "level": "A2"
         },
         {
-          "en": "Villa"
+          "en": "Villa",
+          "level": "B1"
         },
         {
-          "en": "Windmill"
+          "en": "Windmill",
+          "level": "C1"
         }
       ]
     }

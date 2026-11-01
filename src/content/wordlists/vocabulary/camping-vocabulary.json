@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Camping Vocabulary",
+  "titleEs": "Acampada",
   "order": 37,
   "legacyPath": "lessons/vocabulary/camping-vocabulary.html",
   "intro": "In this section you will learn vocabulary about camping in English.",
@@ -9,94 +10,124 @@
       "title": "Camping vocabulary",
       "items": [
         {
-          "en": "Axe"
+          "en": "Axe",
+          "level": "C1"
         },
         {
-          "en": "Backpack"
+          "en": "Backpack",
+          "level": "C1"
         },
         {
-          "en": "Bedroll"
+          "en": "Bedroll",
+          "level": "C1"
         },
         {
-          "en": "Binoculars"
+          "en": "Binoculars",
+          "level": "C1"
         },
         {
-          "en": "Camper van"
+          "en": "Camper van",
+          "level": "C1"
         },
         {
-          "en": "Campfire"
+          "en": "Campfire",
+          "level": "C1"
         },
         {
-          "en": "Compass"
+          "en": "Compass",
+          "level": "B1"
         },
         {
-          "en": "Cooler / portable freezer"
+          "en": "Cooler / portable freezer",
+          "level": "B2"
         },
         {
-          "en": "Deck chair"
+          "en": "Deck chair",
+          "level": "B1"
         },
         {
-          "en": "First aid kit"
+          "en": "First aid kit",
+          "level": "B1"
         },
         {
-          "en": "Fishing rod"
+          "en": "Fishing rod",
+          "level": "B2"
         },
         {
-          "en": "Hammock"
+          "en": "Hammock",
+          "level": "C1"
         },
         {
-          "en": "Hatchet"
+          "en": "Hatchet",
+          "level": "C1"
         },
         {
-          "en": "Hiking boots"
+          "en": "Hiking boots",
+          "level": "C1"
         },
         {
-          "en": "Kettle"
+          "en": "Kettle",
+          "level": "B1"
         },
         {
-          "en": "Knife"
+          "en": "Knife",
+          "level": "B1"
         },
         {
-          "en": "Lantern"
+          "en": "Lantern",
+          "level": "C1"
         },
         {
-          "en": "Lighter"
+          "en": "Lighter",
+          "level": "B2"
         },
         {
-          "en": "Map"
+          "en": "Map",
+          "level": "A1"
         },
         {
-          "en": "Marshmallows"
+          "en": "Marshmallows",
+          "level": "C1"
         },
         {
-          "en": "Matches"
+          "en": "Matches",
+          "level": "A2"
         },
         {
-          "en": "Mug"
+          "en": "Mug",
+          "level": "C1"
         },
         {
-          "en": "Pocketknife"
+          "en": "Pocketknife",
+          "level": "C1"
         },
         {
-          "en": "Repellent"
+          "en": "Repellent",
+          "level": "B1"
         },
         {
-          "en": "Rope"
+          "en": "Rope",
+          "level": "B1"
         },
         {
-          "en": "Sleeping bag"
+          "en": "Sleeping bag",
+          "level": "B1"
         },
         {
-          "en": "Tent"
+          "en": "Tent",
+          "level": "B1"
         },
         {
-          "en": "Thermos"
+          "en": "Thermos",
+          "level": "C1"
         },
         {
-          "en": "Tinned food (UK) / canned food (US)"
+          "en": "Tinned food (UK) / canned food (US)",
+          "level": "C1"
         },
         {
-          "en": "Torch (UK) / flashlight (US)"
+          "en": "Torch (UK) / flashlight (US)",
+          "level": "C1"
         }
       ]
     }

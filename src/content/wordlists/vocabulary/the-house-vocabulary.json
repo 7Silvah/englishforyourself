@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The House Vocabulary",
+  "titleEs": "La casa",
   "order": 27,
   "legacyPath": "lessons/vocabulary/the-house-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the house in English.",
@@ -12,131 +13,163 @@
       "items": [
         {
           "en": "Attic",
-          "es": "ático / desván"
+          "es": "ático / desván",
+          "level": "C1"
         },
         {
           "en": "Balcony",
-          "es": "balcón"
+          "es": "balcón",
+          "level": "A2"
         },
         {
           "en": "Bannister",
-          "es": "barandilla / pasamanos"
+          "es": "barandilla / pasamanos",
+          "level": "C1"
         },
         {
           "en": "Basement",
-          "es": "sótano"
+          "es": "sótano",
+          "level": "B2"
         },
         {
           "en": "Chimney",
-          "es": "chimenea (exterior)"
+          "es": "chimenea (exterior)",
+          "level": "C1"
         },
         {
           "en": "Curb",
-          "es": "bordillo / borde de la acera"
+          "es": "bordillo / borde de la acera",
+          "level": "C1"
         },
         {
           "en": "Door",
-          "es": "puerta"
+          "es": "puerta",
+          "level": "A2"
         },
         {
           "en": "Driveway",
-          "es": "entrada para coches"
+          "es": "entrada para coches",
+          "level": "C1"
         },
         {
           "en": "Garage",
-          "es": "garaje / cochera"
+          "es": "garaje / cochera",
+          "level": "B1"
         },
         {
           "en": "Garage door",
-          "es": "puerta del garaje"
+          "es": "puerta del garaje",
+          "level": "B2"
         },
         {
           "en": "Gutter",
-          "es": "canaleta / canalón"
+          "es": "canaleta / canalón",
+          "level": "C1"
         },
         {
           "en": "Letterbox (UK) / mailbox (US)",
-          "es": "buzón"
+          "es": "buzón",
+          "level": "C1"
         },
         {
           "en": "Path",
-          "es": "sendero / camino"
+          "es": "sendero / camino",
+          "level": "A2"
         },
         {
           "en": "Pavement",
-          "es": "acera"
+          "es": "acera",
+          "level": "C1"
         },
         {
           "en": "Ridge",
-          "es": "cumbrera (del tejado)"
+          "es": "cumbrera (del tejado)",
+          "level": "B2"
         },
         {
           "en": "Roof",
-          "es": "techo / tejado"
+          "es": "techo / tejado",
+          "level": "B1"
         },
         {
           "en": "Shutter",
-          "es": "contraventana / persiana"
+          "es": "contraventana / persiana",
+          "level": "C1"
         },
         {
           "en": "Stairs",
-          "es": "escaleras"
+          "es": "escaleras",
+          "level": "B1"
         },
         {
           "en": "Window",
-          "es": "ventana"
+          "es": "ventana",
+          "level": "A2"
         },
         {
           "en": "Yard",
-          "es": "patio / jardín"
+          "es": "patio / jardín",
+          "level": "A2"
         },
         {
           "en": "Room",
-          "es": "habitación / cuarto"
+          "es": "habitación / cuarto",
+          "level": "A1"
         },
         {
           "en": "Ceiling",
-          "es": "techo (interior)"
+          "es": "techo (interior)",
+          "level": "B2"
         },
         {
           "en": "Wall",
-          "es": "pared"
+          "es": "pared",
+          "level": "A1"
         },
         {
           "en": "Floor",
-          "es": "piso / suelo"
+          "es": "piso / suelo",
+          "level": "A2"
         },
         {
           "en": "Hall / hallway",
-          "es": "pasillo / vestíbulo"
+          "es": "pasillo / vestíbulo",
+          "level": "A2"
         },
         {
           "en": "Door",
-          "es": "puerta"
+          "es": "puerta",
+          "level": "A2"
         },
         {
           "en": "Door knocker / knocker",
-          "es": "aldaba"
+          "es": "aldaba",
+          "level": "C1"
         },
         {
           "en": "Peephole",
-          "es": "mirilla"
+          "es": "mirilla",
+          "level": "C1"
         },
         {
           "en": "Doorbell",
-          "es": "timbre"
+          "es": "timbre",
+          "level": "C1"
         },
         {
           "en": "Door knob",
-          "es": "pomo de la puerta"
+          "es": "pomo de la puerta",
+          "level": "C1"
         },
         {
           "en": "Keyhole",
-          "es": "ojo de la cerradura"
+          "es": "ojo de la cerradura",
+          "level": "C1"
         },
         {
           "en": "Door handle",
-          "es": "manija / picaporte"
+          "es": "manija / picaporte",
+          "level": "A2"
         }
       ]
     },
@@ -145,131 +178,163 @@
       "items": [
         {
           "en": "Axe",
-          "es": "hacha"
+          "es": "hacha",
+          "level": "C1"
         },
         {
           "en": "Boots",
-          "es": "botas"
+          "es": "botas",
+          "level": "A2"
         },
         {
           "en": "Broom",
-          "es": "escoba"
+          "es": "escoba",
+          "level": "C1"
         },
         {
           "en": "Bucket",
-          "es": "cubo / cubeta"
+          "es": "cubo / cubeta",
+          "level": "B2"
         },
         {
           "en": "Faucet",
-          "es": "grifo / llave"
+          "es": "grifo / llave",
+          "level": "C1"
         },
         {
           "en": "Fence",
-          "es": "valla / cerca"
+          "es": "valla / cerca",
+          "level": "B1"
         },
         {
           "en": "Fertilizer",
-          "es": "fertilizante / abono"
+          "es": "fertilizante / abono",
+          "level": "C1"
         },
         {
           "en": "Flowerpot",
-          "es": "maceta"
+          "es": "maceta",
+          "level": "C1"
         },
         {
           "en": "Garden hose",
-          "es": "manguera"
+          "es": "manguera",
+          "level": "C1"
         },
         {
           "en": "Gloves",
-          "es": "guantes"
+          "es": "guantes",
+          "level": "B2"
         },
         {
           "en": "Grass",
-          "es": "césped / pasto"
+          "es": "césped / pasto",
+          "level": "B1"
         },
         {
           "en": "Hedge",
-          "es": "seto"
+          "es": "seto",
+          "level": "C1"
         },
         {
           "en": "Hoe",
-          "es": "azada"
+          "es": "azada",
+          "level": "C1"
         },
         {
           "en": "Lawn mower",
-          "es": "cortacésped / podadora"
+          "es": "cortacésped / podadora",
+          "level": "C1"
         },
         {
           "en": "Plant",
-          "es": "planta"
+          "es": "planta",
+          "level": "A2"
         },
         {
           "en": "Pond",
-          "es": "estanque"
+          "es": "estanque",
+          "level": "B2"
         },
         {
           "en": "Pot",
-          "es": "maceta"
+          "es": "maceta",
+          "level": "B1"
         },
         {
           "en": "Pruning saw",
-          "es": "sierra de podar"
+          "es": "sierra de podar",
+          "level": "C1"
         },
         {
           "en": "Rake",
-          "es": "rastrillo"
+          "es": "rastrillo",
+          "level": "C1"
         },
         {
           "en": "Secateurs",
-          "es": "tijeras de podar"
+          "es": "tijeras de podar",
+          "level": "C1"
         },
         {
           "en": "Seed packet",
-          "es": "sobre de semillas"
+          "es": "sobre de semillas",
+          "level": "C1"
         },
         {
           "en": "Seed tray",
-          "es": "semillero"
+          "es": "semillero",
+          "level": "C1"
         },
         {
           "en": "Shovel",
-          "es": "pala"
+          "es": "pala",
+          "level": "C1"
         },
         {
           "en": "Soil",
-          "es": "tierra"
+          "es": "tierra",
+          "level": "B1"
         },
         {
           "en": "Spade",
-          "es": "pala (de jardín)"
+          "es": "pala (de jardín)",
+          "level": "C1"
         },
         {
           "en": "Sprinkler",
-          "es": "aspersor"
+          "es": "aspersor",
+          "level": "C1"
         },
         {
           "en": "Tool shed",
-          "es": "cobertizo de herramientas"
+          "es": "cobertizo de herramientas",
+          "level": "B2"
         },
         {
           "en": "Tree",
-          "es": "árbol"
+          "es": "árbol",
+          "level": "A2"
         },
         {
           "en": "Vegetable garden",
-          "es": "huerto"
+          "es": "huerto",
+          "level": "B2"
         },
         {
           "en": "Watering can",
-          "es": "regadera"
+          "es": "regadera",
+          "level": "C1"
         },
         {
           "en": "Wheelbarrow",
-          "es": "carretilla"
+          "es": "carretilla",
+          "level": "C1"
         },
         {
           "en": "Wheelie bin (UK) / recycling bin (US)",
-          "es": "contenedor de basura con ruedas"
+          "es": "contenedor de basura con ruedas",
+          "level": "B1"
         }
       ]
     },
@@ -278,108 +343,134 @@
       "items": [
         {
           "en": "Arm chair",
-          "es": "sillón"
+          "es": "sillón",
+          "level": "B1"
         },
         {
           "en": "Blinds",
-          "es": "persianas"
+          "es": "persianas",
+          "level": "C1"
         },
         {
           "en": "Bookcase",
-          "es": "librero / estantería"
+          "es": "librero / estantería",
+          "level": "A2"
         },
         {
           "en": "Carpet",
           "es": "alfombra (moqueta)",
+          "level": "A2",
           "falseFriend": "carpeta"
         },
         {
           "en": "Coffee table",
-          "es": "mesa de centro"
+          "es": "mesa de centro",
+          "level": "A2"
         },
         {
           "en": "Curtains",
-          "es": "cortinas"
+          "es": "cortinas",
+          "level": "A2"
         },
         {
           "en": "Cushion",
-          "es": "cojín"
+          "es": "cojín",
+          "level": "C1"
         },
         {
           "en": "Decorations",
-          "es": "adornos"
+          "es": "adornos",
+          "level": "C1"
         },
         {
           "en": "DVD player",
-          "es": "reproductor de DVD"
+          "es": "reproductor de DVD",
+          "level": "A2"
         },
         {
           "en": "End table",
-          "es": "mesita auxiliar"
+          "es": "mesita auxiliar",
+          "level": "A2"
         },
         {
           "en": "Fan",
-          "es": "ventilador"
+          "es": "ventilador",
+          "level": "B1"
         },
         {
           "en": "Fireplace",
-          "es": "chimenea"
+          "es": "chimenea",
+          "level": "C1"
         },
         {
           "en": "Floor lamp",
-          "es": "lámpara de pie"
+          "es": "lámpara de pie",
+          "level": "B2"
         },
         {
           "en": "Lamp",
-          "es": "lámpara"
+          "es": "lámpara",
+          "level": "A2"
         },
         {
           "en": "Picture",
-          "es": "cuadro"
+          "es": "cuadro",
+          "level": "A1"
         },
         {
           "en": "Remote",
-          "es": "control remoto / mando a distancia"
+          "es": "control remoto / mando a distancia",
+          "level": "B1"
         },
         {
           "en": "Rocking chair",
-          "es": "mecedora"
+          "es": "mecedora",
+          "level": "C1"
         },
         {
           "en": "Rug",
-          "es": "alfombra / tapete"
+          "es": "alfombra / tapete",
+          "level": "C1"
         },
         {
           "en": "Shelves",
-          "es": "estantes"
+          "es": "estantes",
+          "level": "C1"
         },
         {
           "en": "Sofa / couch",
-          "es": "sofá"
+          "es": "sofá",
+          "level": "A2"
         },
         {
           "en": "Speaker",
-          "es": "altavoz / bocina"
+          "es": "altavoz / bocina",
+          "level": "B1"
         },
         {
           "en": "Tea set",
-          "es": "juego de té"
+          "es": "juego de té",
+          "level": "A2"
         },
         {
           "en": "Television / TV",
-          "es": "televisión / tele"
+          "es": "televisión / tele",
+          "level": "A2"
         },
         {
           "en": "TV stand",
-          "es": "mueble de la tele"
+          "es": "mueble de la tele",
+          "level": "A2"
         },
         {
           "en": "Vase",
-          "es": "jarrón / florero"
+          "es": "jarrón / florero",
+          "level": "C1"
         },
         {
           "en": "Wall clock",
-          "es": "reloj de pared"
+          "es": "reloj de pared",
+          "level": "B1"
         }
       ]
     },
@@ -388,71 +479,88 @@
       "items": [
         {
           "en": "Eating utensils / cutlery",
-          "es": "cubiertos"
+          "es": "cubiertos",
+          "level": "C1"
         },
         {
           "en": "Knife",
-          "es": "cuchillo"
+          "es": "cuchillo",
+          "level": "B1"
         },
         {
           "en": "Spoon",
-          "es": "cuchara"
+          "es": "cuchara",
+          "level": "B2"
         },
         {
           "en": "Fork",
-          "es": "tenedor"
+          "es": "tenedor",
+          "level": "B2"
         },
         {
           "en": "Bowl",
-          "es": "tazón / cuenco"
+          "es": "tazón / cuenco",
+          "level": "A2"
         },
         {
           "en": "Cup",
-          "es": "taza"
+          "es": "taza",
+          "level": "A1"
         },
         {
           "en": "Dining chairs",
-          "es": "sillas del comedor"
+          "es": "sillas del comedor",
+          "level": "C1"
         },
         {
           "en": "Glass",
-          "es": "vaso"
+          "es": "vaso",
+          "level": "A2"
         },
         {
           "en": "Napkin",
-          "es": "servilleta"
+          "es": "servilleta",
+          "level": "C1"
         },
         {
           "en": "Pitcher",
-          "es": "jarra"
+          "es": "jarra",
+          "level": "C1"
         },
         {
           "en": "Place setting",
-          "es": "cubierto (plato, cubiertos y vaso de una persona)"
+          "es": "cubierto (plato, cubiertos y vaso de una persona)",
+          "level": "A2"
         },
         {
           "en": "Placemat",
-          "es": "mantel individual"
+          "es": "mantel individual",
+          "level": "C1"
         },
         {
           "en": "Plate",
-          "es": "plato"
+          "es": "plato",
+          "level": "A2"
         },
         {
           "en": "Saucer",
-          "es": "platillo"
+          "es": "platillo",
+          "level": "C1"
         },
         {
           "en": "Table",
-          "es": "mesa"
+          "es": "mesa",
+          "level": "A1"
         },
         {
           "en": "Table cloth",
-          "es": "mantel"
+          "es": "mantel",
+          "level": "B2"
         },
         {
           "en": "Teaspoon",
-          "es": "cucharita"
+          "es": "cucharita",
+          "level": "C1"
         }
       ]
     },
@@ -461,311 +569,388 @@
       "items": [
         {
           "en": "Apron",
-          "es": "delantal"
+          "es": "delantal",
+          "level": "C1"
         },
         {
           "en": "Baking tin (UK) / baking Pan (US)",
-          "es": "molde para hornear"
+          "es": "molde para hornear",
+          "level": "C1"
         },
         {
           "en": "Baking tray",
-          "es": "bandeja de horno"
+          "es": "bandeja de horno",
+          "level": "C1"
         },
         {
           "en": "Beater",
-          "es": "batidor"
+          "es": "batidor",
+          "level": "C1"
         },
         {
           "en": "Blender",
-          "es": "licuadora / batidora"
+          "es": "licuadora / batidora",
+          "level": "B1"
         },
         {
           "en": "Bowl",
-          "es": "tazón / cuenco"
+          "es": "tazón / cuenco",
+          "level": "A2"
         },
         {
           "en": "Bread basket",
-          "es": "panera"
+          "es": "panera",
+          "level": "B2"
         },
         {
           "en": "Cabinet",
-          "es": "gabinete / armario"
+          "es": "gabinete / armario",
+          "level": "B1"
         },
         {
           "en": "Cake slice",
-          "es": "pala para tartas"
+          "es": "pala para tartas",
+          "level": "B2"
         },
         {
           "en": "Can opener",
-          "es": "abrelatas"
+          "es": "abrelatas",
+          "level": "B2"
         },
         {
           "en": "Champagne cooler",
-          "es": "enfriador de champán"
+          "es": "enfriador de champán",
+          "level": "C1"
         },
         {
           "en": "Chest freezer",
-          "es": "congelador horizontal"
+          "es": "congelador horizontal",
+          "level": "C1"
         },
         {
           "en": "Chopping board / cutting board",
-          "es": "tabla de cortar"
+          "es": "tabla de cortar",
+          "level": "A2"
         },
         {
           "en": "Chopsticks",
-          "es": "palillos chinos"
+          "es": "palillos chinos",
+          "level": "C1"
         },
         {
           "en": "Cleaver",
-          "es": "cuchillo de carnicero"
+          "es": "cuchillo de carnicero",
+          "level": "C1"
         },
         {
           "en": "Coffee machine",
-          "es": "cafetera"
+          "es": "cafetera",
+          "level": "A2"
         },
         {
           "en": "Cooker / stove",
-          "es": "estufa / cocina"
+          "es": "estufa / cocina",
+          "level": "A2"
         },
         {
           "en": "Corkscrew",
-          "es": "sacacorchos"
+          "es": "sacacorchos",
+          "level": "C1"
         },
         {
           "en": "Cup",
-          "es": "taza"
+          "es": "taza",
+          "level": "A1"
         },
         {
           "en": "Cupboard",
-          "es": "alacena / armario"
+          "es": "alacena / armario",
+          "level": "A2"
         },
         {
           "en": "Deep fryer",
-          "es": "freidora"
+          "es": "freidora",
+          "level": "C1"
         },
         {
           "en": "Dish cloth",
-          "es": "paño de cocina"
+          "es": "paño de cocina",
+          "level": "B2"
         },
         {
           "en": "Dish rack",
-          "es": "escurreplatos"
+          "es": "escurreplatos",
+          "level": "C1"
         },
         {
           "en": "Dishwasher",
-          "es": "lavavajillas / lavaplatos"
+          "es": "lavavajillas / lavaplatos",
+          "level": "C1"
         },
         {
           "en": "Dishwashing liquid / washing-up liquid / dish soap",
-          "es": "lavavajillas líquido / jabón para platos"
+          "es": "lavavajillas líquido / jabón para platos",
+          "level": "B2"
         },
         {
           "en": "Extractor hood",
-          "es": "campana extractora"
+          "es": "campana extractora",
+          "level": "C1"
         },
         {
           "en": "Food processor",
-          "es": "procesador de alimentos"
+          "es": "procesador de alimentos",
+          "level": "B2"
         },
         {
           "en": "Fork",
-          "es": "tenedor"
+          "es": "tenedor",
+          "level": "B2"
         },
         {
           "en": "Freezer",
-          "es": "congelador"
+          "es": "congelador",
+          "level": "C1"
         },
         {
           "en": "Frying pan / pan",
-          "es": "sartén"
+          "es": "sartén",
+          "level": "B1"
         },
         {
           "en": "Funnel",
-          "es": "embudo"
+          "es": "embudo",
+          "level": "C1"
         },
         {
           "en": "Garbage disposal",
-          "es": "triturador de basura"
+          "es": "triturador de basura",
+          "level": "C1"
         },
         {
           "en": "Garlic press",
-          "es": "prensa de ajos"
+          "es": "prensa de ajos",
+          "level": "B2"
         },
         {
           "en": "Gas stove",
-          "es": "estufa de gas"
+          "es": "estufa de gas",
+          "level": "C1"
         },
         {
           "en": "Glass",
-          "es": "vaso"
+          "es": "vaso",
+          "level": "A2"
         },
         {
           "en": "Grater",
-          "es": "rallador"
+          "es": "rallador",
+          "level": "C1"
         },
         {
           "en": "Jug",
-          "es": "jarra"
+          "es": "jarra",
+          "level": "C1"
         },
         {
           "en": "Juicer",
-          "es": "exprimidor / extractor de jugo"
+          "es": "exprimidor / extractor de jugo",
+          "level": "C1"
         },
         {
           "en": "Kettle",
-          "es": "hervidor / tetera eléctrica"
+          "es": "hervidor / tetera eléctrica",
+          "level": "B1"
         },
         {
           "en": "Kitchen counter",
-          "es": "encimera / barra de cocina"
+          "es": "encimera / barra de cocina",
+          "level": "B1"
         },
         {
           "en": "Kitchen foil",
-          "es": "papel de aluminio"
+          "es": "papel de aluminio",
+          "level": "C1"
         },
         {
           "en": "Knives",
-          "es": "cuchillos"
+          "es": "cuchillos",
+          "level": "B2"
         },
         {
           "en": "Ladle",
-          "es": "cucharón"
+          "es": "cucharón",
+          "level": "C1"
         },
         {
           "en": "Loaf tin (UK) / loaf pan (US)",
-          "es": "molde para pan"
+          "es": "molde para pan",
+          "level": "C1"
         },
         {
           "en": "Measuring cups",
-          "es": "tazas medidoras"
+          "es": "tazas medidoras",
+          "level": "C1"
         },
         {
           "en": "Measuring spoons",
-          "es": "cucharas medidoras"
+          "es": "cucharas medidoras",
+          "level": "C1"
         },
         {
           "en": "Meat fork",
-          "es": "trinche para carne"
+          "es": "trinche para carne",
+          "level": "B2"
         },
         {
           "en": "Mesh skimmer",
-          "es": "espumadera"
+          "es": "espumadera",
+          "level": "C1"
         },
         {
           "en": "Microwave",
-          "es": "microondas"
+          "es": "microondas",
+          "level": "B2"
         },
         {
           "en": "Mincer (UK) / grinder (US)",
-          "es": "picadora de carne"
+          "es": "picadora de carne",
+          "level": "C1"
         },
         {
           "en": "Mixer",
-          "es": "batidora"
+          "es": "batidora",
+          "level": "C1"
         },
         {
           "en": "Oven glove",
-          "es": "guante de horno"
+          "es": "guante de horno",
+          "level": "C1"
         },
         {
           "en": "Peeler",
-          "es": "pelador"
+          "es": "pelador",
+          "level": "C1"
         },
         {
           "en": "Pepper mill",
-          "es": "molinillo de pimienta"
+          "es": "molinillo de pimienta",
+          "level": "B2"
         },
         {
           "en": "Piping bag",
-          "es": "manga pastelera"
+          "es": "manga pastelera",
+          "level": "C1"
         },
         {
           "en": "Pressure cooker",
-          "es": "olla a presión"
+          "es": "olla a presión",
+          "level": "C1"
         },
         {
           "en": "Refrigerator / fridge",
-          "es": "refrigerador / nevera"
+          "es": "refrigerador / nevera",
+          "level": "A2"
         },
         {
           "en": "Rice cooker",
-          "es": "olla arrocera"
+          "es": "olla arrocera",
+          "level": "C1"
         },
         {
           "en": "Rolling pin",
-          "es": "rodillo (de cocina)"
+          "es": "rodillo (de cocina)",
+          "level": "B2"
         },
         {
           "en": "Sandwich maker",
-          "es": "sandwichera"
+          "es": "sandwichera",
+          "level": "B2"
         },
         {
           "en": "Saucepan (UK) / pot (US)",
-          "es": "cacerola / olla"
+          "es": "cacerola / olla",
+          "level": "B1"
         },
         {
           "en": "Scouring pad / scourer",
-          "es": "estropajo"
+          "es": "estropajo",
+          "level": "C1"
         },
         {
           "en": "Sieve",
-          "es": "colador / tamiz"
+          "es": "colador / tamiz",
+          "level": "C1"
         },
         {
           "en": "Sink",
-          "es": "fregadero"
+          "es": "fregadero",
+          "level": "A2"
         },
         {
           "en": "Spatula",
-          "es": "espátula"
+          "es": "espátula",
+          "level": "C1"
         },
         {
           "en": "Spice containers",
-          "es": "especieros"
+          "es": "especieros",
+          "level": "C1"
         },
         {
           "en": "Spoon",
-          "es": "cuchara"
+          "es": "cuchara",
+          "level": "B2"
         },
         {
           "en": "Spring-clip tin (UK) / springform pan (US)",
-          "es": "molde desmontable"
+          "es": "molde desmontable",
+          "level": "B2"
         },
         {
           "en": "Squeezer",
-          "es": "exprimidor"
+          "es": "exprimidor",
+          "level": "C1"
         },
         {
           "en": "Steak hammer",
-          "es": "mazo para carne"
+          "es": "mazo para carne",
+          "level": "C1"
         },
         {
           "en": "Strainer",
-          "es": "colador"
+          "es": "colador",
+          "level": "C1"
         },
         {
           "en": "Teapot",
-          "es": "tetera"
+          "es": "tetera",
+          "level": "C1"
         },
         {
           "en": "Toaster",
-          "es": "tostadora"
+          "es": "tostadora",
+          "level": "C1"
         },
         {
           "en": "Waffle-iron",
-          "es": "gofrera / wafflera"
+          "es": "gofrera / wafflera",
+          "level": "C1"
         },
         {
           "en": "Whisk",
-          "es": "batidor de varillas"
+          "es": "batidor de varillas",
+          "level": "C1"
         },
         {
           "en": "Wooden spoon",
-          "es": "cuchara de madera"
+          "es": "cuchara de madera",
+          "level": "C1"
         },
         {
           "en": "Muffin pan",
-          "es": "molde para magdalenas"
+          "es": "molde para magdalenas",
+          "level": "C1"
         }
       ]
     },
@@ -774,155 +959,193 @@
       "items": [
         {
           "en": "Bath mat",
-          "es": "alfombra de baño"
+          "es": "alfombra de baño",
+          "level": "C1"
         },
         {
           "en": "Bath towel",
-          "es": "toalla de baño"
+          "es": "toalla de baño",
+          "level": "B2"
         },
         {
           "en": "Bathtub",
-          "es": "bañera / tina"
+          "es": "bañera / tina",
+          "level": "C1"
         },
         {
           "en": "Cold water",
-          "es": "agua fría"
+          "es": "agua fría",
+          "level": "A2"
         },
         {
           "en": "Comb",
-          "es": "peine"
+          "es": "peine",
+          "level": "C1"
         },
         {
           "en": "Conditioner",
-          "es": "acondicionador"
+          "es": "acondicionador",
+          "level": "C1"
         },
         {
           "en": "Curtain rings",
-          "es": "anillas de cortina"
+          "es": "anillas de cortina",
+          "level": "C1"
         },
         {
           "en": "Curtain rod",
-          "es": "barra de cortina"
+          "es": "barra de cortina",
+          "level": "C1"
         },
         {
           "en": "Drain",
-          "es": "desagüe"
+          "es": "desagüe",
+          "level": "B2"
         },
         {
           "en": "Electric razor",
-          "es": "afeitadora eléctrica"
+          "es": "afeitadora eléctrica",
+          "level": "C1"
         },
         {
           "en": "Flannel",
-          "es": "toallita para la cara"
+          "es": "toallita para la cara",
+          "level": "C1"
         },
         {
           "en": "Hairbrush / hairdryer",
-          "es": "cepillo / secador de pelo"
+          "es": "cepillo / secador de pelo",
+          "level": "C1"
         },
         {
           "en": "Hand towel",
-          "es": "toalla de manos"
+          "es": "toalla de manos",
+          "level": "B2"
         },
         {
           "en": "Hot water",
-          "es": "agua caliente"
+          "es": "agua caliente",
+          "level": "A1"
         },
         {
           "en": "Mirror",
-          "es": "espejo"
+          "es": "espejo",
+          "level": "A2"
         },
         {
           "en": "Nailbrush",
-          "es": "cepillo de uñas"
+          "es": "cepillo de uñas",
+          "level": "C1"
         },
         {
           "en": "Plunger",
-          "es": "desatascador / destapacaños"
+          "es": "desatascador / destapacaños",
+          "level": "C1"
         },
         {
           "en": "Razor",
-          "es": "rastrillo / maquinilla de afeitar"
+          "es": "rastrillo / maquinilla de afeitar",
+          "level": "C1"
         },
         {
           "en": "Rubber mat",
-          "es": "alfombrilla antideslizante"
+          "es": "alfombrilla antideslizante",
+          "level": "C1"
         },
         {
           "en": "Shampoo",
-          "es": "champú"
+          "es": "champú",
+          "level": "C1"
         },
         {
           "en": "Shower",
-          "es": "ducha / regadera"
+          "es": "ducha / regadera",
+          "level": "A2"
         },
         {
           "en": "Shower cap",
-          "es": "gorro de ducha"
+          "es": "gorro de ducha",
+          "level": "B1"
         },
         {
           "en": "Shaving cream",
-          "es": "crema de afeitar"
+          "es": "crema de afeitar",
+          "level": "C1"
         },
         {
           "en": "Shower curtain",
-          "es": "cortina de ducha"
+          "es": "cortina de ducha",
+          "level": "C1"
         },
         {
           "en": "Shower head",
-          "es": "regadera / alcachofa de la ducha"
+          "es": "regadera / alcachofa de la ducha",
+          "level": "B1"
         },
         {
           "en": "Sink / basin",
-          "es": "lavabo / lavamanos"
+          "es": "lavabo / lavamanos",
+          "level": "A2"
         },
         {
           "en": "Soap",
-          "es": "jabón"
+          "es": "jabón",
+          "level": "B2"
         },
         {
           "en": "Soap tray",
-          "es": "jabonera"
+          "es": "jabonera",
+          "level": "C1"
         },
         {
           "en": "Sponge",
-          "es": "esponja"
+          "es": "esponja",
+          "level": "C1"
         },
         {
           "en": "Toilet",
-          "es": "inodoro / retrete"
+          "es": "inodoro / retrete",
+          "level": "A2"
         },
         {
           "en": "Toilet brush",
-          "es": "escobilla del inodoro"
+          "es": "escobilla del inodoro",
+          "level": "B2"
         },
         {
           "en": "Tap (UK) / faucet (US)",
-          "es": "grifo / llave"
+          "es": "grifo / llave",
+          "level": "B1"
         },
         {
           "en": "Toilet paper",
-          "es": "papel higiénico"
+          "es": "papel higiénico",
+          "level": "B1"
         },
         {
           "en": "Toilet roll",
-          "es": "rollo de papel higiénico"
+          "es": "rollo de papel higiénico",
+          "level": "B2"
         },
         {
           "en": "Toothbrush",
-          "es": "cepillo de dientes"
+          "es": "cepillo de dientes",
+          "level": "C1"
         },
         {
           "en": "Toilet seat",
-          "es": "asiento del inodoro"
+          "es": "asiento del inodoro",
+          "level": "B2"
         },
         {
           "en": "Toothpaste",
-          "es": "pasta de dientes"
+          "es": "pasta de dientes",
+          "level": "C1"
         },
         {
           "en": "Towel rack",
-          "es": "toallero"
+          "es": "toallero",
+          "level": "C1"
         }
       ]
     },
@@ -931,99 +1154,123 @@
       "items": [
         {
           "en": "Air conditioner",
-          "es": "aire acondicionado"
+          "es": "aire acondicionado",
+          "level": "C1"
         },
         {
           "en": "Bed",
-          "es": "cama"
+          "es": "cama",
+          "level": "A2"
         },
         {
           "en": "Bed spread",
-          "es": "colcha / cubrecama"
+          "es": "colcha / cubrecama",
+          "level": "A2"
         },
         {
           "en": "Blanket",
-          "es": "manta / cobija"
+          "es": "manta / cobija",
+          "level": "B2"
         },
         {
           "en": "Blankets",
-          "es": "mantas / cobijas"
+          "es": "mantas / cobijas",
+          "level": "C1"
         },
         {
           "en": "Bunk bed",
-          "es": "litera"
+          "es": "litera",
+          "level": "C1"
         },
         {
           "en": "Chair",
-          "es": "silla"
+          "es": "silla",
+          "level": "A1"
         },
         {
           "en": "Chest of drawers / dresser",
-          "es": "cómoda"
+          "es": "cómoda",
+          "level": "C1"
         },
         {
           "en": "Closet / wardrobe",
-          "es": "clóset / armario"
+          "es": "clóset / armario",
+          "level": "B2"
         },
         {
           "en": "Clothes hanger",
-          "es": "percha / gancho"
+          "es": "percha / gancho",
+          "level": "C1"
         },
         {
           "en": "Drawer",
-          "es": "cajón"
+          "es": "cajón",
+          "level": "B1"
         },
         {
           "en": "Headboard",
-          "es": "cabecera"
+          "es": "cabecera",
+          "level": "C1"
         },
         {
           "en": "Jewelry box",
-          "es": "joyero"
+          "es": "joyero",
+          "level": "B2"
         },
         {
           "en": "Mattress",
-          "es": "colchón"
+          "es": "colchón",
+          "level": "C1"
         },
         {
           "en": "Nightstand / bedside table / night table",
-          "es": "mesita de noche"
+          "es": "mesita de noche",
+          "level": "A2"
         },
         {
           "en": "Pillow",
-          "es": "almohada"
+          "es": "almohada",
+          "level": "B2"
         },
         {
           "en": "Pillow case",
-          "es": "funda de almohada"
+          "es": "funda de almohada",
+          "level": "B2"
         },
         {
           "en": "Sheet",
-          "es": "sábana"
+          "es": "sábana",
+          "level": "B1"
         },
         {
           "en": "Single bed",
-          "es": "cama individual"
+          "es": "cama individual",
+          "level": "A2"
         },
         {
           "en": "Slipper",
-          "es": "pantufla"
+          "es": "pantufla",
+          "level": "C1"
         },
         {
           "en": "Storage bin",
-          "es": "caja de almacenaje"
+          "es": "caja de almacenaje",
+          "level": "B2"
         },
         {
           "en": "Table lamp",
-          "es": "lámpara de mesa"
+          "es": "lámpara de mesa",
+          "level": "B2"
         },
         {
           "en": "Twin bed",
-          "es": "cama individual (de un par)"
+          "es": "cama individual (de un par)",
+          "level": "B1"
         },
         {
           "en": "Writing desk",
-          "es": "escritorio"
+          "es": "escritorio",
+          "level": "B1"
         }
       ]
     },
@@ -1032,79 +1279,98 @@
       "items": [
         {
           "en": "Bleach",
-          "es": "lejía / cloro"
+          "es": "lejía / cloro",
+          "level": "C1"
         },
         {
           "en": "Boiler",
-          "es": "caldera"
+          "es": "caldera",
+          "level": "C1"
         },
         {
           "en": "Broom",
-          "es": "escoba"
+          "es": "escoba",
+          "level": "C1"
         },
         {
           "en": "Bucket",
-          "es": "cubo / cubeta"
+          "es": "cubo / cubeta",
+          "level": "B2"
         },
         {
           "en": "Clothes basket",
-          "es": "cesto de la ropa"
+          "es": "cesto de la ropa",
+          "level": "B2"
         },
         {
           "en": "Clothes line",
-          "es": "tendedero"
+          "es": "tendedero",
+          "level": "A2"
         },
         {
           "en": "Detergent",
-          "es": "detergente"
+          "es": "detergente",
+          "level": "C1"
         },
         {
           "en": "Clothes peg",
-          "es": "pinza de la ropa"
+          "es": "pinza de la ropa",
+          "level": "C1"
         },
         {
           "en": "Dirty clothes hamper",
-          "es": "cesto de la ropa sucia"
+          "es": "cesto de la ropa sucia",
+          "level": "C1"
         },
         {
           "en": "Dryer",
-          "es": "secadora"
+          "es": "secadora",
+          "level": "C1"
         },
         {
           "en": "Dustpan",
-          "es": "recogedor"
+          "es": "recogedor",
+          "level": "C1"
         },
         {
           "en": "Hanger",
-          "es": "percha / gancho"
+          "es": "percha / gancho",
+          "level": "C1"
         },
         {
           "en": "Iron",
-          "es": "plancha"
+          "es": "plancha",
+          "level": "A2"
         },
         {
           "en": "Ironing board",
-          "es": "tabla de planchar"
+          "es": "tabla de planchar",
+          "level": "C1"
         },
         {
           "en": "Mop",
-          "es": "trapeador / fregona"
+          "es": "trapeador / fregona",
+          "level": "C1"
         },
         {
           "en": "Scrub brush",
-          "es": "cepillo de fregar"
+          "es": "cepillo de fregar",
+          "level": "C1"
         },
         {
           "en": "Spray bottle",
-          "es": "atomizador"
+          "es": "atomizador",
+          "level": "B2"
         },
         {
           "en": "Vacuum cleaner / hoover",
-          "es": "aspiradora"
+          "es": "aspiradora",
+          "level": "C1"
         },
         {
           "en": "Washing machine",
-          "es": "lavadora"
+          "es": "lavadora",
+          "level": "A2"
         }
       ]
     }

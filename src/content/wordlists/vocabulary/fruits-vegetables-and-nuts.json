@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Fruits, Vegetables and Nuts Vocabulary",
+  "titleEs": "Frutas, verduras y frutos secos",
   "order": 7,
   "legacyPath": "lessons/vocabulary/fruits-vegetables-and-nuts.html",
   "intro": "In this section of English vocabulary, you will learn vocabulary about fruits, vegetables and nuts.",
@@ -12,182 +13,227 @@
       "items": [
         {
           "en": "Apple",
-          "es": "manzana"
+          "es": "manzana",
+          "level": "A1"
         },
         {
           "en": "Apricot",
-          "es": "albaricoque / damasco"
+          "es": "albaricoque / damasco",
+          "level": "C1"
         },
         {
           "en": "Avocado",
-          "es": "aguacate / palta"
+          "es": "aguacate / palta",
+          "level": "C1"
         },
         {
           "en": "Banana",
-          "es": "plátano / banana"
+          "es": "plátano / banana",
+          "level": "A2"
         },
         {
           "en": "Blackberry",
-          "es": "mora"
+          "es": "mora",
+          "level": "C1"
         },
         {
           "en": "Blackcurrant",
-          "es": "grosella negra"
+          "es": "grosella negra",
+          "level": "C1"
         },
         {
           "en": "Blueberry",
-          "es": "arándano"
+          "es": "arándano",
+          "level": "C1"
         },
         {
           "en": "Cherry",
-          "es": "cereza"
+          "es": "cereza",
+          "level": "B2"
         },
         {
           "en": "Coconut",
-          "es": "coco"
+          "es": "coco",
+          "level": "B2"
         },
         {
           "en": "Cranberry",
-          "es": "arándano rojo"
+          "es": "arándano rojo",
+          "level": "C1"
         },
         {
           "en": "Custard apple",
-          "es": "chirimoya"
+          "es": "chirimoya",
+          "level": "C1"
         },
         {
           "en": "Date",
-          "es": "dátil"
+          "es": "dátil",
+          "level": "B1"
         },
         {
           "en": "Dragon fruit",
-          "es": "pitahaya"
+          "es": "pitahaya",
+          "level": "B2"
         },
         {
           "en": "Durian",
-          "es": "durián"
+          "es": "durián",
+          "level": "C1"
         },
         {
           "en": "Fig",
-          "es": "higo"
+          "es": "higo",
+          "level": "B2"
         },
         {
           "en": "Goji berry",
-          "es": "baya de goji"
+          "es": "baya de goji",
+          "level": "C1"
         },
         {
           "en": "Gooseberry",
-          "es": "grosella espinosa"
+          "es": "grosella espinosa",
+          "level": "C1"
         },
         {
           "en": "Grape",
-          "es": "uva"
+          "es": "uva",
+          "level": "C1"
         },
         {
           "en": "Grapefruit",
-          "es": "toronja / pomelo"
+          "es": "toronja / pomelo",
+          "level": "C1"
         },
         {
           "en": "Guava",
-          "es": "guayaba"
+          "es": "guayaba",
+          "level": "C1"
         },
         {
           "en": "Jujube",
-          "es": "azufaifa"
+          "es": "azufaifa",
+          "level": "C1"
         },
         {
           "en": "Kiwi",
-          "es": "kiwi"
+          "es": "kiwi",
+          "level": "C1"
         },
         {
           "en": "Lemon",
-          "es": "limón"
+          "es": "limón",
+          "level": "B2"
         },
         {
           "en": "Lime",
-          "es": "lima"
+          "es": "lima",
+          "level": "B2"
         },
         {
           "en": "Lychee",
-          "es": "lichi"
+          "es": "lichi",
+          "level": "C1"
         },
         {
           "en": "Mango",
-          "es": "mango"
+          "es": "mango",
+          "level": "C1"
         },
         {
           "en": "Melon",
-          "es": "melón"
+          "es": "melón",
+          "level": "C1"
         },
         {
           "en": "Nectarine",
-          "es": "nectarina"
+          "es": "nectarina",
+          "level": "C1"
         },
         {
           "en": "Orange",
-          "es": "naranja"
+          "es": "naranja",
+          "level": "A2"
         },
         {
           "en": "Papaya",
-          "es": "papaya"
+          "es": "papaya",
+          "level": "C1"
         },
         {
           "en": "Passion fruit",
-          "es": "maracuyá / fruta de la pasión"
+          "es": "maracuyá / fruta de la pasión",
+          "level": "B1"
         },
         {
           "en": "Peach",
-          "es": "melocotón / durazno"
+          "es": "melocotón / durazno",
+          "level": "C1"
         },
         {
           "en": "Pear",
-          "es": "pera"
+          "es": "pera",
+          "level": "C1"
         },
         {
           "en": "Persimmons",
-          "es": "caquis"
+          "es": "caquis",
+          "level": "C1"
         },
         {
           "en": "Pineapple",
-          "es": "piña"
+          "es": "piña",
+          "level": "C1"
         },
         {
           "en": "Plum",
-          "es": "ciruela"
+          "es": "ciruela",
+          "level": "C1"
         },
         {
           "en": "Pomegranate",
-          "es": "granada"
+          "es": "granada",
+          "level": "C1"
         },
         {
           "en": "Quince",
-          "es": "membrillo"
+          "es": "membrillo",
+          "level": "C1"
         },
         {
           "en": "Raspberry",
-          "es": "frambuesa"
+          "es": "frambuesa",
+          "level": "C1"
         },
         {
           "en": "Red currant",
-          "es": "grosella roja"
+          "es": "grosella roja",
+          "level": "C1"
         },
         {
           "en": "Sapodilla",
-          "es": "zapote / chicozapote"
+          "es": "zapote / chicozapote",
+          "level": "C1"
         },
         {
-          "en": "Shaddock"
+          "en": "Shaddock",
+          "level": "C1"
         },
         {
           "en": "Strawberry",
-          "es": "fresa / frutilla"
+          "es": "fresa / frutilla",
+          "level": "A2"
         },
         {
           "en": "Tangerine",
-          "es": "mandarina"
+          "es": "mandarina",
+          "level": "C1"
         },
         {
           "en": "Watermelon",
-          "es": "sandía"
+          "es": "sandía",
+          "level": "C1"
         }
       ]
     },
@@ -196,235 +242,293 @@
       "items": [
         {
           "en": "Artichoke",
-          "es": "alcachofa"
+          "es": "alcachofa",
+          "level": "C1"
         },
         {
           "en": "Arugula",
-          "es": "rúcula"
+          "es": "rúcula",
+          "level": "C1"
         },
         {
           "en": "Asparagus",
-          "es": "espárrago"
+          "es": "espárrago",
+          "level": "C1"
         },
         {
           "en": "Aubergine or eggplant",
-          "es": "berenjena"
+          "es": "berenjena",
+          "level": "C1"
         },
         {
           "en": "Beans",
-          "es": "frijoles / judías"
+          "es": "frijoles / judías",
+          "level": "B2"
         },
         {
           "en": "Beetroot",
-          "es": "remolacha / betabel"
+          "es": "remolacha / betabel",
+          "level": "C1"
         },
         {
           "en": "Beets",
-          "es": "remolachas / betabeles"
+          "es": "remolachas / betabeles",
+          "level": "C1"
         },
         {
           "en": "Bell pepper or capsicum",
-          "es": "pimiento / pimentón"
+          "es": "pimiento / pimentón",
+          "level": "B2"
         },
         {
           "en": "Broccoli",
-          "es": "brócoli"
+          "es": "brócoli",
+          "level": "C1"
         },
         {
           "en": "Brussels sprouts",
-          "es": "coles de Bruselas"
+          "es": "coles de Bruselas",
+          "level": "C1"
         },
         {
           "en": "Cabbage",
-          "es": "repollo / col"
+          "es": "repollo / col",
+          "level": "C1"
         },
         {
           "en": "Carrot",
-          "es": "zanahoria"
+          "es": "zanahoria",
+          "level": "C1"
         },
         {
           "en": "Cassava",
-          "es": "yuca"
+          "es": "yuca",
+          "level": "C1"
         },
         {
           "en": "Cauliflower",
-          "es": "coliflor"
+          "es": "coliflor",
+          "level": "C1"
         },
         {
           "en": "Celery",
-          "es": "apio"
+          "es": "apio",
+          "level": "C1"
         },
         {
           "en": "Chayote",
-          "es": "chayote"
+          "es": "chayote",
+          "level": "C1"
         },
         {
           "en": "Chickpeas",
-          "es": "garbanzos"
+          "es": "garbanzos",
+          "level": "C1"
         },
         {
           "en": "Chili pepper",
-          "es": "chile / ají"
+          "es": "chile / ají",
+          "level": "C1"
         },
         {
           "en": "Collards",
-          "es": "berza"
+          "es": "berza",
+          "level": "C1"
         },
         {
           "en": "Coriander",
-          "es": "cilantro"
+          "es": "cilantro",
+          "level": "C1"
         },
         {
           "en": "Corn or maize",
-          "es": "maíz"
+          "es": "maíz",
+          "level": "B2"
         },
         {
           "en": "Courgetti",
-          "es": "espaguetis de calabacín"
+          "es": "espaguetis de calabacín",
+          "level": "C1"
         },
         {
           "en": "Cucumber",
-          "es": "pepino"
+          "es": "pepino",
+          "level": "B1"
         },
         {
           "en": "Fennel",
-          "es": "hinojo"
+          "es": "hinojo",
+          "level": "C1"
         },
         {
           "en": "Garlic",
-          "es": "ajo"
+          "es": "ajo",
+          "level": "A1"
         },
         {
           "en": "Ginger",
-          "es": "jengibre"
+          "es": "jengibre",
+          "level": "B2"
         },
         {
           "en": "Green onion",
-          "es": "cebolleta / cebollín"
+          "es": "cebolleta / cebollín",
+          "level": "B2"
         },
         {
           "en": "Habanero pepper",
-          "es": "chile habanero"
+          "es": "chile habanero",
+          "level": "C1"
         },
         {
           "en": "Jicama",
-          "es": "jícama"
+          "es": "jícama",
+          "level": "C1"
         },
         {
           "en": "Kale",
-          "es": "col rizada (kale)"
+          "es": "col rizada (kale)",
+          "level": "C1"
         },
         {
           "en": "Kelp",
-          "es": "alga marina (kelp)"
+          "es": "alga marina (kelp)",
+          "level": "C1"
         },
         {
           "en": "Korean radish",
-          "es": "rábano coreano"
+          "es": "rábano coreano",
+          "level": "C1"
         },
         {
           "en": "Leek",
-          "es": "puerro"
+          "es": "puerro",
+          "level": "C1"
         },
         {
           "en": "Lentils",
-          "es": "lentejas"
+          "es": "lentejas",
+          "level": "C1"
         },
         {
           "en": "Lettuce",
-          "es": "lechuga"
+          "es": "lechuga",
+          "level": "B1"
         },
         {
           "en": "Mint",
-          "es": "menta"
+          "es": "menta",
+          "level": "B2"
         },
         {
           "en": "Mushroom",
-          "es": "champiñón / hongo"
+          "es": "champiñón / hongo",
+          "level": "C1"
         },
         {
           "en": "Mustard greens",
-          "es": "hojas de mostaza"
+          "es": "hojas de mostaza",
+          "level": "C1"
         },
         {
           "en": "Onion",
-          "es": "cebolla"
+          "es": "cebolla",
+          "level": "B2"
         },
         {
           "en": "Parsnips",
-          "es": "chirivías"
+          "es": "chirivías",
+          "level": "C1"
         },
         {
           "en": "Peas",
-          "es": "guisantes / arvejas"
+          "es": "guisantes / arvejas",
+          "level": "C1"
         },
         {
           "en": "Pepper",
-          "es": "pimiento"
+          "es": "pimiento",
+          "level": "B1"
         },
         {
           "en": "Pickle",
-          "es": "pepinillo encurtido"
+          "es": "pepinillo encurtido",
+          "level": "C1"
         },
         {
           "en": "Potato",
-          "es": "papa / patata"
+          "es": "papa / patata",
+          "level": "B1"
         },
         {
           "en": "Pumpkin",
-          "es": "calabaza"
+          "es": "calabaza",
+          "level": "B2"
         },
         {
           "en": "Radish",
-          "es": "rábano"
+          "es": "rábano",
+          "level": "C1"
         },
         {
           "en": "Rye",
-          "es": "centeno"
+          "es": "centeno",
+          "level": "C1"
         },
         {
           "en": "Spinach",
-          "es": "espinaca"
+          "es": "espinaca",
+          "level": "C1"
         },
         {
           "en": "Squash",
-          "es": "calabaza"
+          "es": "calabaza",
+          "level": "C1"
         },
         {
           "en": "Sweet potato",
-          "es": "batata / camote"
+          "es": "batata / camote",
+          "level": "B2"
         },
         {
           "en": "Swiss chard",
-          "es": "acelga"
+          "es": "acelga",
+          "level": "C1"
         },
         {
           "en": "Taro",
-          "es": "taro / malanga"
+          "es": "taro / malanga",
+          "level": "C1"
         },
         {
           "en": "Tomato",
-          "es": "tomate"
+          "es": "tomate",
+          "level": "A2"
         },
         {
           "en": "Turnip",
-          "es": "nabo"
+          "es": "nabo",
+          "level": "C1"
         },
         {
           "en": "Watercress",
-          "es": "berro"
+          "es": "berro",
+          "level": "C1"
         },
         {
           "en": "Wheat",
-          "es": "trigo"
+          "es": "trigo",
+          "level": "B2"
         },
         {
           "en": "Wild lettuce",
-          "es": "lechuga silvestre"
+          "es": "lechuga silvestre",
+          "level": "C1"
         },
         {
           "en": "Zucchini",
-          "es": "calabacín"
+          "es": "calabacín",
+          "level": "C1"
         }
       ]
     },
@@ -433,27 +537,33 @@
       "items": [
         {
           "en": "Peanut",
-          "es": "cacahuate / maní"
+          "es": "cacahuate / maní",
+          "level": "B1"
         },
         {
           "en": "Almond",
-          "es": "almendra"
+          "es": "almendra",
+          "level": "C1"
         },
         {
           "en": "Walnut",
-          "es": "nuez"
+          "es": "nuez",
+          "level": "C1"
         },
         {
           "en": "Hazelnut",
-          "es": "avellana"
+          "es": "avellana",
+          "level": "C1"
         },
         {
           "en": "Cashew",
-          "es": "anacardo / castaña de cajú"
+          "es": "anacardo / castaña de cajú",
+          "level": "C1"
         },
         {
           "en": "Pecan",
-          "es": "nuez pecana"
+          "es": "nuez pecana",
+          "level": "C1"
         }
       ]
     }

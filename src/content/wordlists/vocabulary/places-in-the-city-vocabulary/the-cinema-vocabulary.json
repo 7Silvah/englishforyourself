@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "The Cinema Vocabulary",
+  "titleEs": "El cine",
   "order": 22,
   "legacyPath": "lessons/vocabulary/places-in-the-city-vocabulary/the-cinema-vocabulary.html",
   "intro": "In this section you will learn vocabulary about the cinema in English.",
@@ -9,91 +10,120 @@
       "title": "Cinema vocabulary",
       "items": [
         {
-          "en": "Film (UK) / movie (US)"
+          "en": "Film (UK) / movie (US)",
+          "level": "A2"
         },
         {
-          "en": "Full-length film / movie"
+          "en": "Full-length film / movie",
+          "level": "A1"
         },
         {
-          "en": "Short film / movie"
+          "en": "Short film / movie",
+          "level": "A1"
         },
         {
-          "en": "Actor"
+          "en": "Actor",
+          "level": "A1"
         },
         {
-          "en": "Actress"
+          "en": "Actress",
+          "level": "A1"
         },
         {
-          "en": "Box office"
+          "en": "Box office",
+          "level": "A1"
         },
         {
-          "en": "Cameraman"
+          "en": "Cameraman",
+          "level": "C1"
         },
         {
-          "en": "Cast"
+          "en": "Cast",
+          "level": "A2"
         },
         {
-          "en": "Character"
+          "en": "Character",
+          "level": "A1"
         },
         {
-          "en": "Critic"
+          "en": "Critic",
+          "level": "B2"
         },
         {
-          "en": "Dialogue"
+          "en": "Dialogue",
+          "level": "B1"
         },
         {
-          "en": "Director"
+          "en": "Director",
+          "level": "A1"
         },
         {
-          "en": "Editor"
+          "en": "Editor",
+          "level": "A2"
         },
         {
-          "en": "Hairstylist"
+          "en": "Hairstylist",
+          "level": "C1"
         },
         {
-          "en": "Lighting"
+          "en": "Lighting",
+          "level": "B1"
         },
         {
-          "en": "Movie stars"
+          "en": "Movie stars",
+          "level": "A2"
         },
         {
-          "en": "Plot"
+          "en": "Plot",
+          "level": "A2"
         },
         {
-          "en": "Premiere"
+          "en": "Premiere",
+          "level": "B2"
         },
         {
-          "en": "Prequel"
+          "en": "Prequel",
+          "level": "C1"
         },
         {
-          "en": "Producer"
+          "en": "Producer",
+          "level": "B1"
         },
         {
-          "en": "Role"
+          "en": "Role",
+          "level": "A1"
         },
         {
-          "en": "Scene"
+          "en": "Scene",
+          "level": "A2"
         },
         {
-          "en": "Screenwriter"
+          "en": "Screenwriter",
+          "level": "C1"
         },
         {
-          "en": "Sequel"
+          "en": "Sequel",
+          "level": "B2"
         },
         {
-          "en": "Set"
+          "en": "Set",
+          "level": "A1"
         },
         {
-          "en": "Soundtrack"
+          "en": "Soundtrack",
+          "level": "B2"
         },
         {
-          "en": "Special effects"
+          "en": "Special effects",
+          "level": "A2"
         },
         {
-          "en": "Supporting actor"
+          "en": "Supporting actor",
+          "level": "A2"
         },
         {
-          "en": "Supporting role"
+          "en": "Supporting role",
+          "level": "A2"
         }
       ]
     },
@@ -101,64 +131,84 @@
       "title": "Genres (of films, books) vocabulary",
       "items": [
         {
-          "en": "Action"
+          "en": "Action",
+          "level": "A1"
         },
         {
-          "en": "Adventure"
+          "en": "Adventure",
+          "level": "B1"
         },
         {
-          "en": "Animated"
+          "en": "Animated",
+          "level": "B2"
         },
         {
-          "en": "Comedy"
+          "en": "Comedy",
+          "level": "B1"
         },
         {
-          "en": "Crime"
+          "en": "Crime",
+          "level": "A2"
         },
         {
-          "en": "Documentary"
+          "en": "Documentary",
+          "level": "B1"
         },
         {
-          "en": "Drama"
+          "en": "Drama",
+          "level": "B1"
         },
         {
-          "en": "Fantasy"
+          "en": "Fantasy",
+          "level": "A2"
         },
         {
-          "en": "Historical"
+          "en": "Historical",
+          "level": "A2"
         },
         {
-          "en": "Horror"
+          "en": "Horror",
+          "level": "B1"
         },
         {
-          "en": "Musical"
+          "en": "Musical",
+          "level": "A2"
         },
         {
-          "en": "Mystery"
+          "en": "Mystery",
+          "level": "B1"
         },
         {
-          "en": "Paranormal"
+          "en": "Paranormal",
+          "level": "C1"
         },
         {
-          "en": "Psychological"
+          "en": "Psychological",
+          "level": "B1"
         },
         {
-          "en": "Romance"
+          "en": "Romance",
+          "level": "B1"
         },
         {
-          "en": "Sci-fi"
+          "en": "Sci-fi",
+          "level": "B2"
         },
         {
-          "en": "Sport"
+          "en": "Sport",
+          "level": "A2"
         },
         {
-          "en": "Suspense"
+          "en": "Suspense",
+          "level": "C1"
         },
         {
-          "en": "Thriller"
+          "en": "Thriller",
+          "level": "B2"
         },
         {
-          "en": "Western"
+          "en": "Western",
+          "level": "A1"
         }
       ]
     }

@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Flowers Vocabulary",
+  "titleEs": "Flores",
   "order": 44,
   "legacyPath": "lessons/vocabulary/flowers-vocabulary.html",
   "intro": "In this section you will learn vocabulary about flowers in English.",
@@ -9,112 +10,148 @@
       "title": "Flowers vocabulary",
       "items": [
         {
-          "en": "Allium"
+          "en": "Allium",
+          "level": "C1"
         },
         {
-          "en": "Begonia"
+          "en": "Begonia",
+          "level": "C1"
         },
         {
-          "en": "Bellflower"
+          "en": "Bellflower",
+          "level": "C1"
         },
         {
-          "en": "Bluebell"
+          "en": "Bluebell",
+          "level": "C1"
         },
         {
-          "en": "Bouquet"
+          "en": "Bouquet",
+          "level": "C1"
         },
         {
-          "en": "Buttercup"
+          "en": "Buttercup",
+          "level": "C1"
         },
         {
-          "en": "Camellia"
+          "en": "Camellia",
+          "level": "C1"
         },
         {
-          "en": "Carnation"
+          "en": "Carnation",
+          "level": "C1"
         },
         {
-          "en": "Daffodil"
+          "en": "Daffodil",
+          "level": "C1"
         },
         {
-          "en": "Dahlia"
+          "en": "Dahlia",
+          "level": "C1"
         },
         {
-          "en": "Daisy"
+          "en": "Daisy",
+          "level": "C1"
         },
         {
-          "en": "Fern"
+          "en": "Fern",
+          "level": "C1"
         },
         {
-          "en": "Gardenia"
+          "en": "Gardenia",
+          "level": "C1"
         },
         {
-          "en": "Gladiolus"
+          "en": "Gladiolus",
+          "level": "C1"
         },
         {
-          "en": "Hyacinth"
+          "en": "Hyacinth",
+          "level": "C1"
         },
         {
-          "en": "Hydrangea"
+          "en": "Hydrangea",
+          "level": "C1"
         },
         {
-          "en": "Iris"
+          "en": "Iris",
+          "level": "C1"
         },
         {
-          "en": "Jasmine"
+          "en": "Jasmine",
+          "level": "C1"
         },
         {
-          "en": "Lavender"
+          "en": "Lavender",
+          "level": "C1"
         },
         {
-          "en": "Lilac"
+          "en": "Lilac",
+          "level": "C1"
         },
         {
-          "en": "Lilly"
+          "en": "Lilly",
+          "level": "C1"
         },
         {
-          "en": "Lobelia"
+          "en": "Lobelia",
+          "level": "C1"
         },
         {
-          "en": "Lotus"
+          "en": "Lotus",
+          "level": "C1"
         },
         {
-          "en": "Lupine"
+          "en": "Lupine",
+          "level": "C1"
         },
         {
-          "en": "Magnolia"
+          "en": "Magnolia",
+          "level": "C1"
         },
         {
-          "en": "Marigold"
+          "en": "Marigold",
+          "level": "C1"
         },
         {
-          "en": "Mimosa"
+          "en": "Mimosa",
+          "level": "C1"
         },
         {
-          "en": "Oleander"
+          "en": "Oleander",
+          "level": "C1"
         },
         {
-          "en": "Orchid"
+          "en": "Orchid",
+          "level": "C1"
         },
         {
-          "en": "Primrose"
+          "en": "Primrose",
+          "level": "C1"
         },
         {
-          "en": "Rose"
+          "en": "Rose",
+          "level": "A2"
         },
         {
-          "en": "Snowdrop"
+          "en": "Snowdrop",
+          "level": "C1"
         },
         {
-          "en": "Sunflower"
+          "en": "Sunflower",
+          "level": "C1"
         },
         {
-          "en": "Tulip"
+          "en": "Tulip",
+          "level": "C1"
         },
         {
-          "en": "Violet"
+          "en": "Violet",
+          "level": "B2"
         },
         {
-          "en": "Wisteria"
+          "en": "Wisteria",
+          "level": "C1"
         }
       ]
     }

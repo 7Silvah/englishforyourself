@@ -1,6 +1,7 @@
 {
   "kind": "wordlist",
   "title": "Health Vocabulary",
+  "titleEs": "Salud",
   "order": 46,
   "legacyPath": "lessons/vocabulary/health-vocabulary.html",
   "intro": "In this section you will learn vocabulary about health in English.",
@@ -9,85 +10,112 @@
       "title": "Illnesses / health problems",
       "items": [
         {
-          "en": "A rash"
+          "en": "A rash",
+          "level": "C1"
         },
         {
-          "en": "Asthma"
+          "en": "Asthma",
+          "level": "B1"
         },
         {
-          "en": "Backache"
+          "en": "Backache",
+          "level": "C1"
         },
         {
-          "en": "Broken bone"
+          "en": "Broken bone",
+          "level": "B1"
         },
         {
-          "en": "Broken leg / arm"
+          "en": "Broken leg / arm",
+          "level": "A2"
         },
         {
-          "en": "Bruise"
+          "en": "Bruise",
+          "level": "C1"
         },
         {
-          "en": "Chickenpox"
+          "en": "Chickenpox",
+          "level": "C1"
         },
         {
-          "en": "Chills"
+          "en": "Chills",
+          "level": "C1"
         },
         {
-          "en": "Cold"
+          "en": "Cold",
+          "level": "A1"
         },
         {
-          "en": "Cough"
+          "en": "Cough",
+          "level": "A2"
         },
         {
-          "en": "Diabetes"
+          "en": "Diabetes",
+          "level": "B2"
         },
         {
-          "en": "Diarrhea"
+          "en": "Diarrhea",
+          "level": "C1"
         },
         {
-          "en": "Dizziness"
+          "en": "Dizziness",
+          "level": "C1"
         },
         {
-          "en": "Earache"
+          "en": "Earache",
+          "level": "C1"
         },
         {
-          "en": "Fever"
+          "en": "Fever",
+          "level": "B1"
         },
         {
-          "en": "Flu"
+          "en": "Flu",
+          "level": "B1"
         },
         {
-          "en": "Heart disease"
+          "en": "Heart disease",
+          "level": "A2"
         },
         {
-          "en": "Injury"
+          "en": "Injury",
+          "level": "A2"
         },
         {
-          "en": "Nausea"
+          "en": "Nausea",
+          "level": "C1"
         },
         {
-          "en": "Runny nose"
+          "en": "Runny nose",
+          "level": "B1"
         },
         {
-          "en": "Sore finger"
+          "en": "Sore finger",
+          "level": "B2"
         },
         {
-          "en": "Sore throat"
+          "en": "Sore throat",
+          "level": "B2"
         },
         {
-          "en": "Sprain"
+          "en": "Sprain",
+          "level": "C1"
         },
         {
-          "en": "Stomachache"
+          "en": "Stomachache",
+          "level": "C1"
         },
         {
-          "en": "Sunburn"
+          "en": "Sunburn",
+          "level": "C1"
         },
         {
-          "en": "The measles"
+          "en": "The measles",
+          "level": "C1"
         },
         {
-          "en": "Toothache"
+          "en": "Toothache",
+          "level": "A2"
         }
       ]
     },
@@ -95,82 +123,108 @@
       "title": "Healthcare vocabulary",
       "items": [
         {
-          "en": "Antiseptic"
+          "en": "Antiseptic",
+          "level": "C1"
         },
         {
-          "en": "Aspirin"
+          "en": "Aspirin",
+          "level": "A2"
         },
         {
-          "en": "Blood test"
+          "en": "Blood test",
+          "level": "A2"
         },
         {
-          "en": "Capsule"
+          "en": "Capsule",
+          "level": "C1"
         },
         {
-          "en": "Cough syrup"
+          "en": "Cough syrup",
+          "level": "C1"
         },
         {
-          "en": "Crutch"
+          "en": "Crutch",
+          "level": "C1"
         },
         {
-          "en": "Decongestant spray"
+          "en": "Decongestant spray",
+          "level": "C1"
         },
         {
-          "en": "Effervescent tablet"
+          "en": "Effervescent tablet",
+          "level": "C1"
         },
         {
-          "en": "Examination"
+          "en": "Examination",
+          "level": "B1"
         },
         {
-          "en": "Eye drops"
+          "en": "Eye drops",
+          "level": "B1"
         },
         {
-          "en": "First aid kit"
+          "en": "First aid kit",
+          "level": "B1"
         },
         {
-          "en": "Infusion"
+          "en": "Infusion",
+          "level": "C1"
         },
         {
-          "en": "Lozenges"
+          "en": "Lozenges",
+          "level": "C1"
         },
         {
-          "en": "Medicine"
+          "en": "Medicine",
+          "level": "A2"
         },
         {
-          "en": "Ointment"
+          "en": "Ointment",
+          "level": "C1"
         },
         {
-          "en": "Oral rinse"
+          "en": "Oral rinse",
+          "level": "C1"
         },
         {
-          "en": "Physical therapy"
+          "en": "Physical therapy",
+          "level": "B1"
         },
         {
-          "en": "Pills"
+          "en": "Pills",
+          "level": "B2"
         },
         {
-          "en": "Plaster / band-aid"
+          "en": "Plaster / band-aid",
+          "level": "A2"
         },
         {
-          "en": "Prescription"
+          "en": "Prescription",
+          "level": "B1"
         },
         {
-          "en": "Blood pressure monitor"
+          "en": "Blood pressure monitor",
+          "level": "B1"
         },
         {
-          "en": "Solution"
+          "en": "Solution",
+          "level": "A2"
         },
         {
-          "en": "Syringe"
+          "en": "Syringe",
+          "level": "C1"
         },
         {
-          "en": "Tablet"
+          "en": "Tablet",
+          "level": "B2"
         },
         {
-          "en": "Vaccine"
+          "en": "Vaccine",
+          "level": "B2"
         },
         {
-          "en": "Wheelchair"
+          "en": "Wheelchair",
+          "level": "B2"
         }
       ]
     }
