@@ -1,0 +1,5190 @@
+{
+  "kind": "wordlist",
+  "title": "Starter Vocabulary",
+  "titleEs": "Vocabulario A1 · Starter",
+  "level": "A1",
+  "order": 1,
+  "source": "face2face",
+  "introEs": "Las palabras del nivel A1, con su pronunciación británica (IPA), el tipo de palabra y lo que significan en inglés.",
+  "reviewed": false,
+  "groups": [
+    {
+      "title": "0–9",
+      "items": [
+        {
+          "en": "1987 (nineteen eighty-seven)",
+          "es": "1987 (mil novecientos ochenta y siete)",
+          "ipa": "ˌnaɪnˈtiːn ˈeɪ.ti ˈsev.ən",
+          "pos": "number",
+          "meanings": [
+            "the year 1987"
+          ],
+          "note": "En inglés los años se leen de dos en dos cifras: nineteen / eighty-seven."
+        },
+        {
+          "en": "20 years ago",
+          "es": "hace 20 años",
+          "pos": "phrase",
+          "meanings": [
+            "20 years before now"
+          ],
+          "note": "Ago va detrás del tiempo: 20 years ago, no «ago 20 years»."
+        },
+        {
+          "en": "2012 (twenty twelve)",
+          "es": "2012 (dos mil doce)",
+          "ipa": "ˈtwen.ti twelv",
+          "pos": "number",
+          "meanings": [
+            "the year 2012"
+          ],
+          "note": "También se dice two thousand and twelve."
+        }
+      ]
+    },
+    {
+      "title": "A",
+      "items": [
+        {
+          "en": "about (10.30)",
+          "es": "a eso de / alrededor de (las 10:30)",
+          "ipa": "əˈbaʊt",
+          "pos": "adverb",
+          "meanings": [
+            "at approximately (10.30)"
+          ]
+        },
+        {
+          "en": "actor",
+          "es": "actor",
+          "ipa": "ˈæk.tər",
+          "pos": "noun",
+          "meanings": [
+            "someone, especially a man, who performs in plays and films"
+          ]
+        },
+        {
+          "en": "actress",
+          "es": "actriz",
+          "ipa": "ˈæk.trəs",
+          "pos": "noun",
+          "meanings": [
+            "a woman who performs in plays and films"
+          ]
+        },
+        {
+          "en": "after (10.30)",
+          "es": "después de (las 10:30)",
+          "ipa": "ˈɑːf.tər",
+          "pos": "preposition",
+          "meanings": [
+            "later than (10.30)"
+          ]
+        },
+        {
+          "en": "airport",
+          "es": "aeropuerto",
+          "ipa": "ˈeə.pɔːt",
+          "pos": "noun",
+          "meanings": [
+            "a place where planes take off and land"
+          ]
+        },
+        {
+          "en": "alphabet",
+          "es": "alfabeto / abecedario",
+          "ipa": "ˈæl.fə.bet",
+          "pos": "noun",
+          "meanings": [
+            "a set of letters used for writing a language"
+          ]
+        },
+        {
+          "en": "always",
+          "es": "siempre",
+          "ipa": "ˈɔːl.weɪz",
+          "pos": "adverb",
+          "meanings": [
+            "every time, or at all times"
+          ]
+        },
+        {
+          "en": "amazing",
+          "es": "increíble / asombroso",
+          "ipa": "əˈmeɪ.zɪŋ",
+          "pos": "adjective",
+          "meanings": [
+            "very surprising"
+          ]
+        },
+        {
+          "en": "American",
+          "es": "estadounidense / americano",
+          "ipa": "əˈmer.ɪ.kən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to the USA"
+          ],
+          "note": "En inglés, American casi siempre se refiere a Estados Unidos."
+        },
+        {
+          "en": "angry",
+          "es": "enojado / enfadado",
+          "ipa": "ˈæŋ.ɡri",
+          "pos": "adjective"
+        },
+        {
+          "en": "animals",
+          "es": "animales",
+          "ipa": "ˈæn.ɪ.məlz",
+          "pos": "noun",
+          "meanings": [
+            "things that live and move but are not people, birds, fish, or insects"
+          ]
+        },
+        {
+          "en": "anniversary",
+          "es": "aniversario",
+          "ipa": "ˌæn.ɪˈvɜː.sər.i",
+          "pos": "noun"
+        },
+        {
+          "en": "apple",
+          "es": "manzana",
+          "ipa": "ˈæp.l̩",
+          "pos": "noun",
+          "meanings": [
+            "a hard, round fruit with a green or red skin"
+          ]
+        },
+        {
+          "en": "apple pie and cream",
+          "es": "pastel de manzana con crema",
+          "ipa": "ˈæp.l̩ paɪ ænd kriːm",
+          "pos": "noun"
+        },
+        {
+          "en": "April",
+          "es": "abril",
+          "ipa": "ˈeɪ.prəl",
+          "pos": "noun",
+          "meanings": [
+            "the fourth month of the year"
+          ],
+          "note": "Los meses se escriben con mayúscula en inglés."
+        },
+        {
+          "en": "ask and answer the questions",
+          "es": "hacer y responder las preguntas",
+          "ipa": "ɑːsk ænd ˈɑːn.sər ðiː ˈkwes.tʃənz",
+          "pos": "phrase"
+        },
+        {
+          "en": "at half past ten",
+          "es": "a las diez y media",
+          "ipa": "ət hɑːf pɑːst ten",
+          "pos": "phrase",
+          "meanings": [
+            "at 10.30"
+          ]
+        },
+        {
+          "en": "at midday",
+          "es": "al mediodía",
+          "ipa": "ət ˌmɪdˈdeɪ",
+          "pos": "phrase",
+          "meanings": [
+            "at 12.00 in the middle of the day"
+          ]
+        },
+        {
+          "en": "at midnight",
+          "es": "a medianoche",
+          "ipa": "ət ˈmɪd.naɪt",
+          "pos": "phrase",
+          "meanings": [
+            "at 12.00 in the middle of the night"
+          ]
+        },
+        {
+          "en": "at night",
+          "es": "de noche / por la noche",
+          "ipa": "ət naɪt",
+          "pos": "phrase",
+          "meanings": [
+            "during the time when it is dark and people usually sleep"
+          ]
+        },
+        {
+          "en": "at six o'clock",
+          "es": "a las seis (en punto)",
+          "ipa": "ət sɪks əˈklɒk",
+          "pos": "phrase",
+          "meanings": [
+            "at 6.00"
+          ]
+        },
+        {
+          "en": "at the weekend",
+          "es": "el fin de semana",
+          "ipa": "ət ðiː ˌwiːkˈend",
+          "pos": "phrase",
+          "meanings": [
+            "on Saturday or Sunday"
+          ],
+          "note": "Inglés británico; en Estados Unidos se dice on the weekend."
+        },
+        {
+          "en": "ATM",
+          "es": "cajero automático",
+          "ipa": "ˌeɪ.tiːˈem",
+          "pos": "noun",
+          "meanings": [
+            "a machine that you get money from using a plastic card"
+          ]
+        },
+        {
+          "en": "August",
+          "es": "agosto",
+          "ipa": "ɔːˈɡʌst",
+          "pos": "noun",
+          "meanings": [
+            "the eighth month of the year"
+          ]
+        },
+        {
+          "en": "Australia",
+          "es": "Australia",
+          "ipa": "ɒsˈtreɪ.li.ə",
+          "pos": "noun",
+          "meanings": [
+            "a country north-west of New Zealand"
+          ]
+        },
+        {
+          "en": "Australian",
+          "es": "australiano",
+          "ipa": "ɒsˈtreɪ.li.ən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Australia"
+          ]
+        },
+        {
+          "en": "awful",
+          "es": "horrible / terrible",
+          "ipa": "ˈɔː.fəl",
+          "pos": "adjective",
+          "meanings": [
+            "very bad"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "B",
+      "items": [
+        {
+          "en": "baby",
+          "es": "bebé",
+          "ipa": "ˈbeɪ.bi",
+          "pos": "noun",
+          "meanings": [
+            "a very young child"
+          ]
+        },
+        {
+          "en": "bad",
+          "es": "malo",
+          "ipa": "bæd",
+          "pos": "adjective",
+          "meanings": [
+            "not good or pleasant"
+          ]
+        },
+        {
+          "en": "bag",
+          "es": "bolsa / bolso",
+          "ipa": "bæɡ",
+          "pos": "noun",
+          "meanings": [
+            "a container used for carrying things"
+          ]
+        },
+        {
+          "en": "band",
+          "es": "banda / grupo (de música)",
+          "ipa": "bænd",
+          "pos": "noun",
+          "meanings": [
+            "a group of musicians who play modern music together"
+          ]
+        },
+        {
+          "en": "bank",
+          "es": "banco",
+          "ipa": "bæŋk",
+          "pos": "noun",
+          "meanings": [
+            "an organization or place where you can save and borrow money"
+          ]
+        },
+        {
+          "en": "battery",
+          "es": "pila / batería",
+          "ipa": "ˈbæt.ər.i",
+          "pos": "noun",
+          "meanings": [
+            "an object that provides electricity for things such as radios, toys, or cars"
+          ]
+        },
+        {
+          "en": "be on Facebook",
+          "es": "estar en Facebook (tener cuenta)",
+          "ipa": "biː ɒn ˈfeɪs.bʊk",
+          "pos": "phrase"
+        },
+        {
+          "en": "be on Twitter",
+          "es": "estar en Twitter (tener cuenta)",
+          "ipa": "biː ɒn ˈtwɪt.ər",
+          "pos": "phrase"
+        },
+        {
+          "en": "beautiful",
+          "es": "hermoso / precioso",
+          "ipa": "ˈbjuː.tɪ.fəl",
+          "pos": "adjective",
+          "meanings": [
+            "very attractive"
+          ]
+        },
+        {
+          "en": "before (10.30)",
+          "es": "antes de (las 10:30)",
+          "ipa": "bɪˈfɔːr",
+          "pos": "preposition",
+          "meanings": [
+            "earlier than (10.30)"
+          ]
+        },
+        {
+          "en": "big",
+          "es": "grande",
+          "ipa": "bɪɡ",
+          "pos": "adjective",
+          "meanings": [
+            "large in size or amount"
+          ]
+        },
+        {
+          "en": "bike",
+          "es": "bici / bicicleta",
+          "ipa": "baɪk",
+          "pos": "noun",
+          "meanings": [
+            "bicycle"
+          ]
+        },
+        {
+          "en": "billion",
+          "es": "mil millones",
+          "ipa": "ˈbɪl.jən",
+          "pos": "noun",
+          "meanings": [
+            "the number 1,000,000,000"
+          ],
+          "note": "Un billion es 1 000 000 000, no un billón español (un millón de millones).",
+          "falseFriend": "billón"
+        },
+        {
+          "en": "birthday card",
+          "es": "tarjeta de cumpleaños",
+          "ipa": "ˈbɜːθ.deɪ kɑːd",
+          "pos": "noun"
+        },
+        {
+          "en": "biscuit",
+          "es": "galleta",
+          "ipa": "ˈbɪs.kɪt",
+          "pos": "noun",
+          "meanings": [
+            "a thin, flat cake that is dry and usually sweet"
+          ],
+          "note": "Inglés británico; en Estados Unidos se dice cookie."
+        },
+        {
+          "en": "black",
+          "es": "negro",
+          "ipa": "blæk",
+          "pos": "adjective",
+          "meanings": [
+            "being the colour of the sky on a dark night"
+          ]
+        },
+        {
+          "en": "blue",
+          "es": "azul",
+          "ipa": "bluː",
+          "pos": "adjective",
+          "meanings": [
+            "being the same colour as the sky when there are no clouds"
+          ]
+        },
+        {
+          "en": "boat",
+          "es": "barco / bote",
+          "ipa": "bəʊt",
+          "pos": "noun",
+          "meanings": [
+            "a vehicle for travelling on water"
+          ]
+        },
+        {
+          "en": "book",
+          "es": "libro",
+          "ipa": "bʊk",
+          "pos": "noun",
+          "meanings": [
+            "a set of pages with writing on them fastened together in a cover"
+          ]
+        },
+        {
+          "en": "book a flight",
+          "es": "reservar un vuelo",
+          "ipa": "bʊk ə flaɪt",
+          "pos": "phrase",
+          "meanings": [
+            "to arrange to travel by aeroplane at a particular time in the future"
+          ],
+          "note": "Aquí book es un verbo: reservar."
+        },
+        {
+          "en": "book a holiday",
+          "es": "reservar unas vacaciones",
+          "ipa": "bʊk ə ˈhɒl.ɪ.deɪ",
+          "pos": "phrase",
+          "meanings": [
+            "to arrange to go on holiday at a particular time in the future"
+          ]
+        },
+        {
+          "en": "book a hotel",
+          "es": "reservar un hotel",
+          "ipa": "bʊk ə həʊˈtel",
+          "pos": "phrase",
+          "meanings": [
+            "to arrange to stay at a hotel at a particular time in the future"
+          ]
+        },
+        {
+          "en": "boot",
+          "es": "bota",
+          "ipa": "buːt",
+          "pos": "noun",
+          "meanings": [
+            "a shoe that covers your foot and part of your leg"
+          ]
+        },
+        {
+          "en": "bored",
+          "es": "aburrido (estar aburrido)",
+          "ipa": "bɔːd",
+          "pos": "adjective",
+          "note": "I'm bored = estoy aburrido; I'm boring = soy aburrido."
+        },
+        {
+          "en": "boring",
+          "es": "aburrido (que aburre)",
+          "ipa": "ˈbɔː.rɪŋ",
+          "pos": "adjective",
+          "meanings": [
+            "not interesting or exciting"
+          ],
+          "note": "The film is boring = la película es aburrida."
+        },
+        {
+          "en": "both",
+          "es": "ambos / los dos",
+          "ipa": "bəʊθ",
+          "pos": "pronoun",
+          "meanings": [
+            "used to talk about two people or things"
+          ]
+        },
+        {
+          "en": "bottle of mineral water",
+          "es": "botella de agua mineral",
+          "ipa": "ˈbɒt.l̩ əv ˈmɪn.ər.əl ˈwɔː.tər",
+          "pos": "noun"
+        },
+        {
+          "en": "bought",
+          "es": "compré, compró… (pasado de buy)",
+          "ipa": "bɔːt",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of buy"
+          ]
+        },
+        {
+          "en": "box of chocolates",
+          "es": "caja de bombones / caja de chocolates",
+          "ipa": "bɒks əv ˈtʃɒk.əl.əts",
+          "pos": "noun",
+          "meanings": [
+            "a box with small pieces of sweet food covered in chocolate in it"
+          ]
+        },
+        {
+          "en": "boy",
+          "es": "niño / chico",
+          "ipa": "bɔɪ",
+          "pos": "noun",
+          "meanings": [
+            "a male child or young man"
+          ]
+        },
+        {
+          "en": "Brazil",
+          "es": "Brasil",
+          "ipa": "brəˈzɪl",
+          "pos": "noun",
+          "meanings": [
+            "a country in South America"
+          ]
+        },
+        {
+          "en": "Brazilian",
+          "es": "brasileño",
+          "ipa": "brəˈzɪl.i.ən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Brazil"
+          ]
+        },
+        {
+          "en": "bread",
+          "es": "pan",
+          "ipa": "bred",
+          "pos": "noun",
+          "meanings": [
+            "a basic food made by mixing and baking flour and water"
+          ]
+        },
+        {
+          "en": "bride",
+          "es": "novia (el día de la boda)",
+          "ipa": "braɪd",
+          "pos": "noun",
+          "meanings": [
+            "a woman who is getting married"
+          ]
+        },
+        {
+          "en": "British",
+          "es": "británico",
+          "ipa": "ˈbrɪt.ɪʃ",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to the UK"
+          ]
+        },
+        {
+          "en": "brother",
+          "es": "hermano",
+          "ipa": "ˈbrʌð.ər",
+          "pos": "noun",
+          "meanings": [
+            "a boy or man who has the same parents as you"
+          ]
+        },
+        {
+          "en": "brown",
+          "es": "café / marrón",
+          "ipa": "braʊn",
+          "pos": "adjective",
+          "meanings": [
+            "being the same colour as chocolate"
+          ]
+        },
+        {
+          "en": "building",
+          "es": "edificio",
+          "ipa": "ˈbɪl.dɪŋ",
+          "pos": "noun",
+          "meanings": [
+            "a structure with walls and a roof, such as a house or school"
+          ]
+        },
+        {
+          "en": "burger and chips",
+          "es": "hamburguesa con papas fritas / patatas fritas",
+          "ipa": "ˈbɜː.ɡər ænd tʃɪps",
+          "pos": "noun",
+          "note": "Chips es inglés británico; en Estados Unidos se dice fries."
+        },
+        {
+          "en": "bus",
+          "es": "autobús",
+          "ipa": "bʌs",
+          "pos": "noun",
+          "meanings": [
+            "a large vehicle that carries passengers by road, usually along a fixed route"
+          ]
+        },
+        {
+          "en": "bus station",
+          "es": "terminal de autobuses / estación de autobuses",
+          "ipa": "ˈbʌsˌsteɪ.ʃən",
+          "pos": "noun",
+          "meanings": [
+            "a building where a bus starts or ends its journey"
+          ]
+        },
+        {
+          "en": "bus stop",
+          "es": "parada de autobús",
+          "ipa": "ˈbʌsˌstɒp",
+          "pos": "noun",
+          "meanings": [
+            "a place where buses stop so that you can get on or off them"
+          ]
+        },
+        {
+          "en": "busy",
+          "es": "ocupado",
+          "ipa": "ˈbɪz.i",
+          "pos": "adjective",
+          "meanings": [
+            "working hard, or giving your attention to a particular activity"
+          ]
+        },
+        {
+          "en": "buy",
+          "es": "comprar",
+          "ipa": "baɪ",
+          "pos": "verb",
+          "meanings": [
+            "to get something by giving money for it"
+          ]
+        },
+        {
+          "en": "buy things online",
+          "es": "comprar cosas por internet",
+          "ipa": "baɪ θɪŋz ˈɒn.laɪn",
+          "pos": "phrase",
+          "meanings": [
+            "buy things on the internet"
+          ]
+        },
+        {
+          "en": "by boat",
+          "es": "en barco",
+          "ipa": "baɪ bəʊt",
+          "pos": "phrase",
+          "meanings": [
+            "in a vehicle for travelling on water"
+          ]
+        },
+        {
+          "en": "by car",
+          "es": "en coche / en carro",
+          "ipa": "baɪ kɑːr",
+          "pos": "phrase"
+        }
+      ]
+    },
+    {
+      "title": "C",
+      "items": [
+        {
+          "en": "(black/white) coffee",
+          "es": "café (negro / con leche)",
+          "ipa": "ˈkɒf.i",
+          "pos": "noun"
+        },
+        {
+          "en": "café",
+          "es": "cafetería / café",
+          "ipa": "ˈkæf.eɪ",
+          "pos": "noun",
+          "meanings": [
+            "a small restaurant where you buy drinks and small meals"
+          ]
+        },
+        {
+          "en": "came",
+          "es": "vine, vino… (pasado de come)",
+          "ipa": "keɪm",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of come"
+          ]
+        },
+        {
+          "en": "camera",
+          "es": "cámara (de fotos)",
+          "ipa": "ˈkæm.rə",
+          "pos": "noun",
+          "meanings": [
+            "a piece of equipment used to take photographs"
+          ]
+        },
+        {
+          "en": "capital (city)",
+          "es": "capital",
+          "ipa": "ˈkæp.ɪ.təl",
+          "pos": "noun",
+          "meanings": [
+            "the most important city in a country or state"
+          ]
+        },
+        {
+          "en": "cappuccino",
+          "es": "capuchino",
+          "ipa": "ˌkæp.ʊˈtʃiː.nəʊ",
+          "pos": "noun"
+        },
+        {
+          "en": "car",
+          "es": "coche / carro / auto",
+          "ipa": "kɑːr",
+          "pos": "noun",
+          "meanings": [
+            "a vehicle with an engine, four wheels, and seats for a few people"
+          ]
+        },
+        {
+          "en": "cashpoint",
+          "es": "cajero automático",
+          "ipa": "ˈkæʃ.pɔɪnt",
+          "pos": "noun",
+          "meanings": [
+            "a machine in a wall that you get money from using a plastic card"
+          ],
+          "note": "Inglés británico; también ATM."
+        },
+        {
+          "en": "cat",
+          "es": "gato",
+          "ipa": "kæt",
+          "pos": "noun",
+          "meanings": [
+            "an animal with fur that is kept as a pet"
+          ]
+        },
+        {
+          "en": "cent",
+          "es": "centavo / céntimo",
+          "ipa": "sent",
+          "pos": "noun",
+          "meanings": [
+            "a coin in some countries with a low value"
+          ]
+        },
+        {
+          "en": "chair",
+          "es": "silla",
+          "ipa": "tʃeər",
+          "pos": "noun",
+          "meanings": [
+            "a seat for one person, with a back and usually four legs"
+          ]
+        },
+        {
+          "en": "chat to friends and family",
+          "es": "hablar con amigos y familiares",
+          "ipa": "tʃæt tuː frendz ænd ˈfæm.əl.i",
+          "pos": "phrase",
+          "meanings": [
+            "to talk to friends and family, maybe online"
+          ]
+        },
+        {
+          "en": "cheap",
+          "es": "barato",
+          "ipa": "tʃiːp",
+          "pos": "adjective",
+          "meanings": [
+            "not expensive, or costing less than usual"
+          ]
+        },
+        {
+          "en": "cheese",
+          "es": "queso",
+          "ipa": "tʃiːz",
+          "pos": "noun",
+          "meanings": [
+            "a yellow or white solid food made from milk"
+          ]
+        },
+        {
+          "en": "cheese and tomato sandwich",
+          "es": "sándwich de queso y tomate",
+          "ipa": "tʃiːz ænd təˈmɑː.təʊ ˈsæn.wɪdʒ",
+          "pos": "noun",
+          "meanings": [
+            "two pieces of bread with cheese and tomatoes between them"
+          ]
+        },
+        {
+          "en": "chemist's",
+          "es": "farmacia",
+          "ipa": "ˈkem.ɪst",
+          "pos": "noun",
+          "meanings": [
+            "a shop where you can buy drugs, soap, etc"
+          ],
+          "note": "Inglés británico; en Estados Unidos, pharmacy o drugstore."
+        },
+        {
+          "en": "chewing gum",
+          "es": "chicle",
+          "ipa": "ˈtʃuː.ɪŋˌɡʌm",
+          "pos": "noun",
+          "meanings": [
+            "a sweet that you chew but do not eat"
+          ]
+        },
+        {
+          "en": "chicken salad",
+          "es": "ensalada de pollo",
+          "ipa": "ˈtʃɪk.ɪn ˈsæl.əd",
+          "pos": "noun",
+          "meanings": [
+            "a salad with chicken in it"
+          ]
+        },
+        {
+          "en": "child",
+          "es": "niño / hijo",
+          "ipa": "tʃaɪld",
+          "pos": "noun",
+          "meanings": [
+            "a son or daughter, also when they are adults"
+          ]
+        },
+        {
+          "en": "children",
+          "es": "niños / hijos",
+          "ipa": "ˈtʃɪl.drən",
+          "pos": "noun",
+          "meanings": [
+            "the plural of 'child'"
+          ],
+          "note": "Plural irregular de child."
+        },
+        {
+          "en": "China",
+          "es": "China",
+          "ipa": "ˈtʃaɪ.nə",
+          "pos": "noun",
+          "meanings": [
+            "a country in Asia"
+          ]
+        },
+        {
+          "en": "Chinese",
+          "es": "chino",
+          "ipa": "tʃaɪˈniːz",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to China"
+          ]
+        },
+        {
+          "en": "chocolate",
+          "es": "chocolate",
+          "ipa": "ˈtʃɒk.lət",
+          "pos": "noun",
+          "meanings": [
+            "a sweet, brown food that is usually sold in a block"
+          ]
+        },
+        {
+          "en": "chocolate ice cream",
+          "es": "helado de chocolate",
+          "ipa": "ˈtʃɒk.lət aɪs kriːm",
+          "pos": "noun",
+          "meanings": [
+            "a sweet food with chocolate flavour made from frozen milk or cream and sugar"
+          ]
+        },
+        {
+          "en": "classical music",
+          "es": "música clásica",
+          "ipa": "ˈklæs.ɪ.kəl ˈmjuː.zɪk",
+          "pos": "noun",
+          "meanings": [
+            "serious music by people like Mozart and Stravinsky"
+          ]
+        },
+        {
+          "en": "closed",
+          "es": "cerrado",
+          "ipa": "kləʊzd",
+          "pos": "adjective",
+          "meanings": [
+            "not open for business"
+          ]
+        },
+        {
+          "en": "coat",
+          "es": "abrigo",
+          "ipa": "kəʊt",
+          "pos": "noun",
+          "meanings": [
+            "a piece of clothing that you wear over your other clothes when you are outside"
+          ]
+        },
+        {
+          "en": "coffee",
+          "es": "café",
+          "ipa": "ˈkɒf.i",
+          "pos": "noun"
+        },
+        {
+          "en": "cold",
+          "es": "frío",
+          "ipa": "kəʊld",
+          "pos": "adjective",
+          "meanings": [
+            "having a low temperature"
+          ]
+        },
+        {
+          "en": "Colombia",
+          "es": "Colombia",
+          "ipa": "kəˈlʌm.bi.ə",
+          "pos": "noun",
+          "meanings": [
+            "a country in South America"
+          ]
+        },
+        {
+          "en": "Colombian",
+          "es": "colombiano",
+          "ipa": "kəˈlʌm.bi.ən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Colombia"
+          ]
+        },
+        {
+          "en": "come",
+          "es": "venir / llegar",
+          "ipa": "kʌm",
+          "pos": "verb",
+          "meanings": [
+            "to arrive somewhere"
+          ]
+        },
+        {
+          "en": "company",
+          "es": "empresa / compañía",
+          "ipa": "ˈkʌm.pə.ni",
+          "pos": "noun",
+          "meanings": [
+            "an organization which sells things or services"
+          ]
+        },
+        {
+          "en": "compare answers",
+          "es": "comparar las respuestas",
+          "ipa": "kəmˈpeər ˈɑːnt.səz",
+          "pos": "phrase",
+          "meanings": [
+            "to see if two answers are different or similar"
+          ]
+        },
+        {
+          "en": "computer",
+          "es": "computadora / ordenador",
+          "ipa": "kəmˈpjuː.tər",
+          "pos": "noun",
+          "meanings": [
+            "an electronic machine that can store and arrange large amounts of information"
+          ]
+        },
+        {
+          "en": "cook",
+          "es": "cocinar",
+          "ipa": "kʊk",
+          "pos": "verb",
+          "meanings": [
+            "to make food ready to eat"
+          ]
+        },
+        {
+          "en": "credit card",
+          "es": "tarjeta de crédito",
+          "ipa": "ˈkred.ɪtˌkɑːd",
+          "pos": "noun",
+          "meanings": [
+            "a small plastic card that allows you to buy something and pay for it later"
+          ]
+        },
+        {
+          "en": "croissant",
+          "es": "cruasán / medialuna",
+          "ipa": "ˈkwæs.ɒ̃",
+          "pos": "noun",
+          "meanings": [
+            "a soft, curved piece of bread, eaten for breakfast"
+          ]
+        },
+        {
+          "en": "cup of coffee",
+          "es": "taza de café",
+          "ipa": "kʌp əv ˈkɒf.i",
+          "pos": "noun",
+          "meanings": [
+            "a cup of a hot drink made from dark beans"
+          ]
+        },
+        {
+          "en": "customer",
+          "es": "cliente",
+          "ipa": "ˈkʌs.tə.mər",
+          "pos": "noun",
+          "meanings": [
+            "a person or organization that buys things or services from a shop or business"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "D",
+      "items": [
+        {
+          "en": "dad",
+          "es": "papá",
+          "ipa": "dæd",
+          "pos": "noun",
+          "meanings": [
+            "father"
+          ]
+        },
+        {
+          "en": "dancing",
+          "es": "el baile / bailar",
+          "ipa": "ˈdɑːnt.sɪŋ",
+          "pos": "noun",
+          "meanings": [
+            "moving your feet and body to the rhythm (=regular, repeating pattern of sound) of"
+          ]
+        },
+        {
+          "en": "daughter",
+          "es": "hija",
+          "ipa": "ˈdɔː.tər",
+          "pos": "noun",
+          "meanings": [
+            "your female child"
+          ]
+        },
+        {
+          "en": "day",
+          "es": "día",
+          "ipa": "deɪ",
+          "pos": "noun",
+          "meanings": [
+            "a period of 24 hours"
+          ]
+        },
+        {
+          "en": "December",
+          "es": "diciembre",
+          "ipa": "dɪˈsem.bər",
+          "pos": "noun",
+          "meanings": [
+            "the twelfth month of the year"
+          ]
+        },
+        {
+          "en": "decide",
+          "es": "decidir",
+          "ipa": "dɪˈsaɪd",
+          "pos": "verb",
+          "meanings": [
+            "to choose something after thinking about the possibilities"
+          ]
+        },
+        {
+          "en": "diary",
+          "es": "agenda",
+          "ipa": "ˈdaɪə.ri",
+          "pos": "noun",
+          "meanings": [
+            "a book in which you write things that you must remember to do"
+          ],
+          "note": "Aquí es la libreta de citas y tareas; también puede ser un diario personal."
+        },
+        {
+          "en": "dictionary",
+          "es": "diccionario",
+          "ipa": "ˈdɪk.ʃən.ər.i",
+          "pos": "noun"
+        },
+        {
+          "en": "different",
+          "es": "diferente / distinto",
+          "ipa": "ˈdɪf.ər.ənt",
+          "pos": "adjective",
+          "meanings": [
+            "not the same as someone or something else"
+          ]
+        },
+        {
+          "en": "difficult",
+          "es": "difícil",
+          "ipa": "ˈdɪf.ɪ.kəlt",
+          "pos": "adjective",
+          "meanings": [
+            "not easy to do or understand"
+          ]
+        },
+        {
+          "en": "director",
+          "es": "director (de cine o de teatro)",
+          "ipa": "daɪˈrek.tər",
+          "pos": "noun",
+          "meanings": [
+            "someone who tells the actors in a film or play what to do"
+          ]
+        },
+        {
+          "en": "do a computer course",
+          "es": "hacer un curso de computación / de informática",
+          "ipa": "də ə kəmˈpjuː.tər kɔːs",
+          "pos": "phrase",
+          "meanings": [
+            "to do a series of lessons about computers"
+          ]
+        },
+        {
+          "en": "do an exam",
+          "es": "hacer un examen / presentar un examen",
+          "ipa": "də ən ɪɡˈzæm",
+          "pos": "phrase"
+        },
+        {
+          "en": "doctor",
+          "es": "médico / doctor",
+          "ipa": "ˈdɒk.tər",
+          "pos": "noun",
+          "meanings": [
+            "a person whose job is to treat people who are ill or hurt"
+          ]
+        },
+        {
+          "en": "dog",
+          "es": "perro",
+          "ipa": "dɒɡ",
+          "pos": "noun",
+          "meanings": [
+            "an animal with fur, four legs and a tail that is kept as a pet"
+          ]
+        },
+        {
+          "en": "dollar",
+          "es": "dólar",
+          "ipa": "ˈdɒl.ər",
+          "pos": "noun",
+          "meanings": [
+            "the unit of money used in the US, Canada, and some other countries; $"
+          ]
+        },
+        {
+          "en": "don’t like",
+          "es": "no gustar (I don't like = no me gusta)",
+          "ipa": "dəʊnt laɪk",
+          "pos": "verb",
+          "meanings": [
+            "to not enjoy something or think that someone or something is not nice"
+          ]
+        },
+        {
+          "en": "download apps",
+          "es": "descargar aplicaciones",
+          "ipa": "ˌdaʊnˈləʊd æps",
+          "pos": "phrase",
+          "meanings": [
+            "download computer programs onto a mobile phone or small computer"
+          ]
+        },
+        {
+          "en": "download music",
+          "es": "descargar música",
+          "ipa": "ˌdaʊnˈləʊd ˈmjuː.zɪk",
+          "pos": "phrase",
+          "meanings": [
+            "download recordings of sound that is made by playing instruments or singing"
+          ]
+        },
+        {
+          "en": "download videos",
+          "es": "descargar videos",
+          "ipa": "ˌdaʊnˈləʊd ˈvɪd.i.əʊz",
+          "pos": "phrase",
+          "meanings": [
+            "download recordings of moving pictures and sound"
+          ]
+        },
+        {
+          "en": "dress",
+          "es": "vestido",
+          "ipa": "dres",
+          "pos": "noun"
+        },
+        {
+          "en": "drink",
+          "es": "bebida",
+          "ipa": "drɪŋk",
+          "pos": "noun",
+          "meanings": [
+            "a liquid or an amount of liquid that you drink"
+          ]
+        },
+        {
+          "en": "drink",
+          "es": "beber / tomar",
+          "ipa": "drɪŋk",
+          "pos": "verb",
+          "meanings": [
+            "to put liquid into your mouth and swallow it"
+          ]
+        },
+        {
+          "en": "drive",
+          "es": "manejar / conducir",
+          "ipa": "draɪv",
+          "pos": "verb",
+          "meanings": [
+            "to make a car, bus, or train move, and control what it does"
+          ]
+        },
+        {
+          "en": "driving test",
+          "es": "examen de manejo / examen de conducir",
+          "ipa": "ˈdraɪ.vɪŋ test",
+          "pos": "noun",
+          "meanings": [
+            "an official test that allows you to drive a car"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "E",
+      "items": [
+        {
+          "en": "early",
+          "es": "temprano",
+          "ipa": "ˈɜː.li",
+          "pos": "adjective",
+          "meanings": [
+            "before the usual time or the time that was planned"
+          ]
+        },
+        {
+          "en": "earn",
+          "es": "ganar (dinero)",
+          "ipa": "ɜːn",
+          "pos": "verb",
+          "meanings": [
+            "to get money for doing work"
+          ]
+        },
+        {
+          "en": "Earth",
+          "es": "la Tierra",
+          "ipa": "ɜːθ",
+          "pos": "noun",
+          "meanings": [
+            "the planet that we live on"
+          ]
+        },
+        {
+          "en": "easy",
+          "es": "fácil",
+          "ipa": "ˈiː.zi",
+          "pos": "adjective",
+          "meanings": [
+            "not difficult"
+          ]
+        },
+        {
+          "en": "eat",
+          "es": "comer",
+          "ipa": "iːt",
+          "pos": "verb",
+          "meanings": [
+            "to put food into your mouth and then swallow it"
+          ]
+        },
+        {
+          "en": "eat out",
+          "es": "comer fuera",
+          "ipa": "iːt aʊt",
+          "pos": "phrase",
+          "meanings": [
+            "to eat in a restaurant"
+          ]
+        },
+        {
+          "en": "egg",
+          "es": "huevo",
+          "ipa": "eɡ",
+          "pos": "noun",
+          "meanings": [
+            "an oval object made by a female chicken, that you eat as food"
+          ]
+        },
+        {
+          "en": "egg sandwich",
+          "es": "sándwich de huevo",
+          "ipa": "eɡ ˈsæn.wɪdʒ",
+          "pos": "noun",
+          "meanings": [
+            "two pieces of bread with egg between them"
+          ]
+        },
+        {
+          "en": "Egypt",
+          "ipa": "ˈiː.dʒɪpt",
+          "pos": "noun",
+          "meanings": [
+            "a country in Africa and Asia"
+          ]
+        },
+        {
+          "en": "Egyptian",
+          "ipa": "ɪˈdʒɪp.ʃən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Egypt"
+          ]
+        },
+        {
+          "en": "eight",
+          "ipa": "eɪt",
+          "pos": "number",
+          "meanings": [
+            "the number 8"
+          ]
+        },
+        {
+          "en": "eighteen",
+          "ipa": "ˌeɪˈtiːn",
+          "pos": "number",
+          "meanings": [
+            "the number 18"
+          ]
+        },
+        {
+          "en": "eighteenth",
+          "ipa": "ˌeɪˈtiːnθ",
+          "pos": "number",
+          "meanings": [
+            "18th"
+          ]
+        },
+        {
+          "en": "eighth",
+          "ipa": "eɪtθ",
+          "pos": "number",
+          "meanings": [
+            "8th"
+          ]
+        },
+        {
+          "en": "eighty",
+          "ipa": "ˈeɪ.ti",
+          "pos": "number",
+          "meanings": [
+            "the number 80"
+          ]
+        },
+        {
+          "en": "election",
+          "ipa": "ɪˈlek.ʃən",
+          "pos": "noun",
+          "meanings": [
+            "a time when people vote in order to choose someone for a political or official job"
+          ]
+        },
+        {
+          "en": "eleven",
+          "ipa": "ɪˈlev.ən",
+          "pos": "number",
+          "meanings": [
+            "the number 11"
+          ]
+        },
+        {
+          "en": "eleventh",
+          "ipa": "ɪˈlev.ənθ",
+          "pos": "number",
+          "meanings": [
+            "11th"
+          ]
+        },
+        {
+          "en": "email address",
+          "ipa": "ˈiː.meɪl əˈdres",
+          "pos": "noun",
+          "meanings": [
+            "a series of letters, numbers, and symbols used to send and receive email"
+          ]
+        },
+        {
+          "en": "empty",
+          "ipa": "ˈemp.ti",
+          "pos": "adjective",
+          "meanings": [
+            "with nothing or no one inside"
+          ]
+        },
+        {
+          "en": "espresso",
+          "ipa": "esˈpres.əʊ",
+          "pos": "noun",
+          "meanings": [
+            "strong, black coffee"
+          ]
+        },
+        {
+          "en": "euro",
+          "ipa": "ˈjʊə.rəʊ",
+          "pos": "noun",
+          "meanings": [
+            "a unit of money that is used in many European countries; €"
+          ]
+        },
+        {
+          "en": "Europe",
+          "ipa": "ˈjʊə.rəp",
+          "pos": "noun",
+          "meanings": [
+            "a continent"
+          ]
+        },
+        {
+          "en": "every evening",
+          "ipa": "ˈev.ri ˈiːv.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "every day in the part of the day between the afternoon and the night"
+          ]
+        },
+        {
+          "en": "every week",
+          "ipa": "ˈev.ri wiːk",
+          "pos": "phrase",
+          "meanings": [
+            "every seven days"
+          ]
+        },
+        {
+          "en": "every year",
+          "ipa": "ˈev.ri jɪər",
+          "pos": "phrase",
+          "meanings": [
+            "every 12 months"
+          ]
+        },
+        {
+          "en": "excited",
+          "ipa": "ɪkˈsaɪ.tɪd",
+          "pos": "adjective",
+          "meanings": [
+            "feeling very happy and interested"
+          ]
+        },
+        {
+          "en": "expensive",
+          "ipa": "ɪkˈspen.sɪv",
+          "pos": "adjective",
+          "meanings": [
+            "costing a lot of money"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "F",
+      "items": [
+        {
+          "en": "famous",
+          "ipa": "ˈfeɪ.məs",
+          "pos": "adjective",
+          "meanings": [
+            "known by many people"
+          ]
+        },
+        {
+          "en": "fantastic",
+          "ipa": "fænˈtæs.tɪk",
+          "pos": "adjective",
+          "meanings": [
+            "very good"
+          ]
+        },
+        {
+          "en": "father",
+          "ipa": "ˈfɑː.ðər",
+          "pos": "noun",
+          "meanings": [
+            "your male parent"
+          ]
+        },
+        {
+          "en": "February",
+          "ipa": "ˈfeb.ru.ər.i",
+          "pos": "noun",
+          "meanings": [
+            "the second month of the year"
+          ]
+        },
+        {
+          "en": "festival",
+          "ipa": "ˈfes.tɪ.vəl",
+          "pos": "noun",
+          "meanings": [
+            "a series of special events or performances"
+          ]
+        },
+        {
+          "en": "fifteen",
+          "ipa": "ˌfɪfˈtiːn",
+          "pos": "number",
+          "meanings": [
+            "the number 15"
+          ]
+        },
+        {
+          "en": "fifteenth",
+          "ipa": "ˌfɪfˈtiːnθ",
+          "pos": "number",
+          "meanings": [
+            "15th"
+          ]
+        },
+        {
+          "en": "fifth",
+          "ipa": "fɪfθ",
+          "pos": "number",
+          "meanings": [
+            "5th"
+          ]
+        },
+        {
+          "en": "fifty",
+          "ipa": "ˈfɪf.ti",
+          "pos": "number",
+          "meanings": [
+            "the number 50"
+          ]
+        },
+        {
+          "en": "fill in the gaps",
+          "ipa": "fɪl ɪn ðiː ɡæps",
+          "pos": "phrase",
+          "meanings": [
+            "to write the necessary information in the gaps"
+          ]
+        },
+        {
+          "en": "finish work",
+          "ipa": "ˈfɪn.ɪʃ wɜːk",
+          "pos": "phrase",
+          "meanings": [
+            "to stop doing what you do as a job to earn money, usually at the end of the day"
+          ]
+        },
+        {
+          "en": "first",
+          "ipa": "ˈfɜːst",
+          "pos": "number",
+          "meanings": [
+            "1st"
+          ]
+        },
+        {
+          "en": "first name",
+          "ipa": "ˈfɜːstˌneɪm",
+          "pos": "noun",
+          "meanings": [
+            "the name that comes before your family name"
+          ]
+        },
+        {
+          "en": "fish",
+          "ipa": "fɪʃ",
+          "pos": "noun",
+          "meanings": [
+            "an animal that lives only in water, swims, and can be eaten as food"
+          ]
+        },
+        {
+          "en": "five",
+          "ipa": "faɪv",
+          "pos": "number",
+          "meanings": [
+            "the number 5"
+          ]
+        },
+        {
+          "en": "flight",
+          "ipa": "flaɪt",
+          "pos": "noun",
+          "meanings": [
+            "a journey in an aircraft"
+          ]
+        },
+        {
+          "en": "flying",
+          "ipa": "ˈflaɪ.ɪŋ",
+          "pos": "noun",
+          "meanings": [
+            "travelling in an aeroplane"
+          ]
+        },
+        {
+          "en": "food",
+          "ipa": "fuːd",
+          "pos": "noun",
+          "meanings": [
+            "something that people and animals eat to keep them alive"
+          ]
+        },
+        {
+          "en": "forty",
+          "ipa": "ˈfɔː.ti",
+          "pos": "number",
+          "meanings": [
+            "the number 40"
+          ]
+        },
+        {
+          "en": "four",
+          "ipa": "fɔːr",
+          "pos": "number",
+          "meanings": [
+            "the number 4"
+          ]
+        },
+        {
+          "en": "fourteen",
+          "ipa": "ˌfɔːˈtiːn",
+          "pos": "number",
+          "meanings": [
+            "the number 14"
+          ]
+        },
+        {
+          "en": "fourteenth",
+          "ipa": "ˌfɔːˈtiːnθ",
+          "pos": "number",
+          "meanings": [
+            "14th"
+          ]
+        },
+        {
+          "en": "fourth",
+          "ipa": "fɔːθ",
+          "pos": "number",
+          "meanings": [
+            "4th"
+          ]
+        },
+        {
+          "en": "France",
+          "ipa": "frɑːns",
+          "pos": "noun",
+          "meanings": [
+            "a country in Europe"
+          ]
+        },
+        {
+          "en": "free",
+          "ipa": "friː",
+          "pos": "adjective",
+          "meanings": [
+            "costing no money"
+          ]
+        },
+        {
+          "en": "French",
+          "ipa": "frentʃ",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to France"
+          ]
+        },
+        {
+          "en": "Friday",
+          "ipa": "ˈfraɪ.deɪ",
+          "pos": "noun",
+          "meanings": [
+            "the day of the week after Thursday and before Saturday"
+          ]
+        },
+        {
+          "en": "friendly",
+          "ipa": "ˈfrend.li",
+          "pos": "adjective",
+          "meanings": [
+            "behaving in a pleasant, kind way towards someone"
+          ]
+        },
+        {
+          "en": "fruit",
+          "ipa": "fruːt",
+          "pos": "noun"
+        },
+        {
+          "en": "fruit salad",
+          "ipa": "ˌfruːt ˈsæləd",
+          "pos": "noun",
+          "meanings": [
+            "a mixture of pieces of different types of fruit that is usually a dessert"
+          ]
+        },
+        {
+          "en": "full",
+          "ipa": "fʊl",
+          "pos": "adjective",
+          "meanings": [
+            "containing a lot of things or people"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "G",
+      "items": [
+        {
+          "en": "garlic",
+          "ipa": "ˈɡɑː.lɪk",
+          "pos": "noun",
+          "meanings": [
+            "a vegetable like a small onion with a very strong taste and smell"
+          ]
+        },
+        {
+          "en": "gave",
+          "ipa": "ɡeɪv",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of give"
+          ]
+        },
+        {
+          "en": "German",
+          "ipa": "ˈdʒɜː.mən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Germany"
+          ]
+        },
+        {
+          "en": "Germany",
+          "ipa": "ˈdʒɜː.mə.ni",
+          "pos": "noun",
+          "meanings": [
+            "a country in Europe"
+          ]
+        },
+        {
+          "en": "get",
+          "ipa": "ɡet",
+          "pos": "verb",
+          "meanings": [
+            "to receive something"
+          ]
+        },
+        {
+          "en": "get emails",
+          "ipa": "ɡet ˈiː.meɪlz",
+          "pos": "phrase",
+          "meanings": [
+            "receive messages electronically"
+          ]
+        },
+        {
+          "en": "get engaged",
+          "ipa": "ɡet ɪnˈɡeɪdʒd",
+          "pos": "phrase",
+          "meanings": [
+            "If two people get engaged, they formally agreed to marry each other."
+          ]
+        },
+        {
+          "en": "get home",
+          "ipa": "ɡet həʊm",
+          "pos": "phrase",
+          "meanings": [
+            "to arrive at your house or flat"
+          ]
+        },
+        {
+          "en": "get married",
+          "ipa": "ɡet ˈmær.id",
+          "pos": "phrase",
+          "meanings": [
+            "to begin a legal relationship with someone as their husband or wife"
+          ]
+        },
+        {
+          "en": "get up",
+          "ipa": "ˈɡet.ʌp",
+          "pos": "phrase",
+          "meanings": [
+            "to get out of bed after sleeping"
+          ]
+        },
+        {
+          "en": "girl",
+          "ipa": "ɡɜːl",
+          "pos": "noun",
+          "meanings": [
+            "a female child or young woman"
+          ]
+        },
+        {
+          "en": "give",
+          "ipa": "ɡɪv",
+          "pos": "verb",
+          "meanings": [
+            "to provide someone with something"
+          ]
+        },
+        {
+          "en": "go",
+          "ipa": "ɡəʊ",
+          "pos": "verb",
+          "meanings": [
+            "to move or travel somewhere"
+          ]
+        },
+        {
+          "en": "go for a walk",
+          "ipa": "ɡəʊ fɔːr ə wɔːk",
+          "pos": "phrase"
+        },
+        {
+          "en": "go on holiday",
+          "ipa": "ɡəʊ ɒn ˈhɒl.ɪ.deɪ",
+          "pos": "phrase",
+          "meanings": [
+            "to go on a long visit to a place away from where you live, for pleasure"
+          ]
+        },
+        {
+          "en": "go out with friends",
+          "ipa": "ɡəʊ aʊt wɪð frendz",
+          "pos": "phrase"
+        },
+        {
+          "en": "go running",
+          "ipa": "ɡəʊ ˈrʌn.ɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "to move on your feet at a speed faster than walking"
+          ]
+        },
+        {
+          "en": "go shopping",
+          "ipa": "ɡəʊ ˈʃɒp.ɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "to go to shops to buy things"
+          ]
+        },
+        {
+          "en": "go sightseeing",
+          "ipa": "ɡəʊ ˈsaɪtˌsiː.ɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "to visit interesting places, especially on holiday"
+          ]
+        },
+        {
+          "en": "go swimming",
+          "ipa": "ɡəʊ ˈswɪm.ɪŋ",
+          "pos": "phrase"
+        },
+        {
+          "en": "go to a club",
+          "ipa": "ɡəʊ tuː ə klʌb",
+          "pos": "phrase",
+          "meanings": [
+            "to go to a place where you can dance at night"
+          ]
+        },
+        {
+          "en": "go to a party",
+          "ipa": "ɡəʊ tuː ə ˈpɑː.ti",
+          "pos": "phrase"
+        },
+        {
+          "en": "go to bed",
+          "ipa": "ɡəʊ tuː bed",
+          "pos": "phrase",
+          "meanings": [
+            "to go to sleep in a bed"
+          ]
+        },
+        {
+          "en": "go to concerts",
+          "ipa": "ɡəʊ tuː kənˈsɜːts",
+          "pos": "phrase",
+          "meanings": [
+            "to go to performances of music and singing"
+          ]
+        },
+        {
+          "en": "go to the beach",
+          "ipa": "ɡəʊ tuː ðiː biːtʃ",
+          "pos": "phrase",
+          "meanings": [
+            "to go to an area of sand or rocks next to the sea"
+          ]
+        },
+        {
+          "en": "go to the cinema",
+          "ipa": "ɡəʊ tuː ðiː ˈsɪn.ə.mə",
+          "pos": "phrase",
+          "meanings": [
+            "to go to a building where you go to watch films"
+          ]
+        },
+        {
+          "en": "go to the gym",
+          "ipa": "ɡəʊ tuː ðiː dʒɪm",
+          "pos": "phrase",
+          "meanings": [
+            "to go to a building with equipment for doing exercises"
+          ]
+        },
+        {
+          "en": "good",
+          "ipa": "ɡʊd",
+          "pos": "adjective",
+          "meanings": [
+            "of a high quality"
+          ]
+        },
+        {
+          "en": "Good afternoon",
+          "ipa": "ˌɡʊd.ɑːf.təˈnuːn",
+          "pos": "phrase",
+          "meanings": [
+            "something you say to greet someone when you meet them in the afternoon"
+          ]
+        },
+        {
+          "en": "Good evening",
+          "ipa": "ˌɡʊdˈiːv.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "something you say to greet someone in the evening"
+          ]
+        },
+        {
+          "en": "Good morning",
+          "ipa": "ɡʊdˈmɔː.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "something you say to greet someone when you meet them in the morning"
+          ]
+        },
+        {
+          "en": "Good night",
+          "ipa": "ˌɡʊdˈnaɪt",
+          "pos": "phrase"
+        },
+        {
+          "en": "got",
+          "ipa": "ɡɒt",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of get"
+          ]
+        },
+        {
+          "en": "grandchild",
+          "ipa": "ˈɡræn.tʃaɪld",
+          "pos": "noun",
+          "meanings": [
+            "the child of your son or daughter"
+          ]
+        },
+        {
+          "en": "granddaughter",
+          "ipa": "ˈɡræn.dɔː.tər",
+          "pos": "noun",
+          "meanings": [
+            "the daughter of your son or daughter"
+          ]
+        },
+        {
+          "en": "grandfather",
+          "ipa": "ˈɡræn.fɑː.ðər",
+          "pos": "noun",
+          "meanings": [
+            "the father of your mother or father"
+          ]
+        },
+        {
+          "en": "grandmother",
+          "ipa": "ˈɡræn.mʌð.ər",
+          "pos": "noun",
+          "meanings": [
+            "the mother of your mother or father"
+          ]
+        },
+        {
+          "en": "grandparent",
+          "ipa": "ˈɡræn.peə.rənt",
+          "pos": "noun",
+          "meanings": [
+            "the parent of your mother or father"
+          ]
+        },
+        {
+          "en": "grandson",
+          "ipa": "ˈɡræn.sʌn",
+          "pos": "noun",
+          "meanings": [
+            "the son of your son or daughter"
+          ]
+        },
+        {
+          "en": "great",
+          "ipa": "ɡreɪt",
+          "pos": "adjective",
+          "meanings": [
+            "very good"
+          ]
+        },
+        {
+          "en": "green",
+          "ipa": "ɡriːn",
+          "pos": "adjective",
+          "meanings": [
+            "being the same colour as grass"
+          ]
+        },
+        {
+          "en": "grey",
+          "ipa": "ɡreɪ",
+          "pos": "adjective",
+          "meanings": [
+            "being a colour that is a mixture of black and white"
+          ]
+        },
+        {
+          "en": "groom",
+          "ipa": "ɡruːm",
+          "pos": "noun",
+          "meanings": [
+            "a man who is getting married"
+          ]
+        },
+        {
+          "en": "guide book",
+          "ipa": "ˈɡaɪd.bʊk",
+          "pos": "noun",
+          "meanings": [
+            "a book that gives visitors information about a particular place"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "H",
+      "items": [
+        {
+          "en": "had",
+          "ipa": "hæd",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of have"
+          ]
+        },
+        {
+          "en": "half past",
+          "ipa": "hɑːf pɑːst",
+          "pos": "phrase",
+          "meanings": [
+            "30 minutes past one o'clock/two o'clock/three o'clock, etc"
+          ]
+        },
+        {
+          "en": "happy",
+          "ipa": "ˈhæp.i",
+          "pos": "adjective",
+          "meanings": [
+            "pleased and in a good mood, especially because something good has happened"
+          ]
+        },
+        {
+          "en": "hate",
+          "ipa": "heɪt",
+          "pos": "verb",
+          "meanings": [
+            "to dislike someone or something very much"
+          ]
+        },
+        {
+          "en": "have a car",
+          "ipa": "hæv ə kɑːr",
+          "pos": "phrase"
+        },
+        {
+          "en": "have a good time",
+          "ipa": "hæv ə ɡʊd taɪm",
+          "pos": "phrase",
+          "meanings": [
+            "to enjoy yourself"
+          ]
+        },
+        {
+          "en": "have a party",
+          "ipa": "hæv ə ˈpɑː.ti",
+          "pos": "phrase"
+        },
+        {
+          "en": "have an idea",
+          "ipa": "hæv ən aɪˈdɪə",
+          "pos": "phrase",
+          "meanings": [
+            "to have a suggestion or plan"
+          ]
+        },
+        {
+          "en": "have breakfast",
+          "ipa": "hæv ˈbrek.fəst",
+          "pos": "phrase",
+          "meanings": [
+            "eat the food you eat in the morning after you wake up"
+          ]
+        },
+        {
+          "en": "have coffee with friends",
+          "ipa": "hæv ˈkɒf.i wɪð frendz",
+          "pos": "phrase",
+          "meanings": [
+            "to drink coffee with friends"
+          ]
+        },
+        {
+          "en": "have dinner",
+          "ipa": "hæv ˈdɪn.ər",
+          "pos": "phrase",
+          "meanings": [
+            "to eat the main meal of the day that people usually eat in the evening"
+          ]
+        },
+        {
+          "en": "have dinner with friends",
+          "ipa": "hæv ˈdɪn.ər wɪð frendz",
+          "pos": "phrase",
+          "meanings": [
+            "to eat the evening meal with friends"
+          ]
+        },
+        {
+          "en": "have lunch",
+          "ipa": "hæv lʌntʃ",
+          "pos": "phrase",
+          "meanings": [
+            "to eat a meal that you eat in the middle of the day"
+          ]
+        },
+        {
+          "en": "have two children",
+          "ipa": "hæv tuː ˈtʃɪl.drən",
+          "pos": "phrase",
+          "meanings": [
+            "to have two sons, or two daughters, or one son and one daughter"
+          ]
+        },
+        {
+          "en": "home number",
+          "ipa": "həʊm ˈnʌm.bər",
+          "pos": "noun",
+          "meanings": [
+            "the telephone number at the house or apartment where you live"
+          ]
+        },
+        {
+          "en": "horror films",
+          "ipa": "ˈhɒr.ər fɪlmz",
+          "pos": "noun",
+          "meanings": [
+            "films or stories that entertain people by shocking or frightening them"
+          ]
+        },
+        {
+          "en": "hot",
+          "ipa": "hɒt",
+          "pos": "adjective",
+          "meanings": [
+            "very warm"
+          ]
+        },
+        {
+          "en": "hot springs",
+          "ipa": "hɒt sprɪŋz",
+          "pos": "noun",
+          "meanings": [
+            "a place where hot water comes out of the ground"
+          ]
+        },
+        {
+          "en": "hotel",
+          "ipa": "həʊˈtel",
+          "pos": "noun",
+          "meanings": [
+            "a place where you pay to stay when you are away from home"
+          ]
+        },
+        {
+          "en": "hour",
+          "ipa": "aʊər",
+          "pos": "noun",
+          "meanings": [
+            "a period of time equal to 60 minutes"
+          ]
+        },
+        {
+          "en": "house",
+          "ipa": "haʊs",
+          "pos": "noun",
+          "meanings": [
+            "a building where people live, usually one family or group"
+          ]
+        },
+        {
+          "en": "How many",
+          "ipa": "haʊ ˈmen.i",
+          "pos": "phrase",
+          "meanings": [
+            "used in questions to ask about the number of something"
+          ]
+        },
+        {
+          "en": "How much",
+          "ipa": "haʊ mʌtʃ",
+          "pos": "phrase",
+          "meanings": [
+            "used to ask about the price or cost of something"
+          ]
+        },
+        {
+          "en": "How old",
+          "ipa": "haʊ əʊld",
+          "pos": "phrase",
+          "meanings": [
+            "used to ask about age"
+          ]
+        },
+        {
+          "en": "hundred",
+          "ipa": "ˈhʌn.drəd",
+          "pos": "number",
+          "meanings": [
+            "the number 100"
+          ]
+        },
+        {
+          "en": "hungry",
+          "ipa": "ˈhʌŋ.ɡri",
+          "pos": "adjective",
+          "meanings": [
+            "wanting or needing food"
+          ]
+        },
+        {
+          "en": "husband",
+          "ipa": "ˈhʌz.bənd",
+          "pos": "noun",
+          "meanings": [
+            "the man you are married to"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "I",
+      "items": [
+        {
+          "en": "ice cream",
+          "ipa": "ˌaɪsˈkriːm",
+          "pos": "noun",
+          "meanings": [
+            "a sweet, cold food made from frozen milk"
+          ]
+        },
+        {
+          "en": "ID card",
+          "ipa": "ˌaɪˈdiːˌkɑːd",
+          "pos": "noun",
+          "meanings": [
+            "an identity card"
+          ]
+        },
+        {
+          "en": "in",
+          "ipa": "ɪn",
+          "pos": "preposition",
+          "meanings": [
+            "inside a place or area"
+          ]
+        },
+        {
+          "en": "in 2004",
+          "pos": "phrase",
+          "meanings": [
+            "in the year 2004"
+          ]
+        },
+        {
+          "en": "in 2025",
+          "pos": "phrase",
+          "meanings": [
+            "in the year 2025"
+          ]
+        },
+        {
+          "en": "in December",
+          "ipa": "ɪn dɪˈsem.bər",
+          "pos": "phrase",
+          "meanings": [
+            "in the last month of the year"
+          ]
+        },
+        {
+          "en": "in the afternoon",
+          "ipa": "ɪn ðiː ˌɑːf.təˈnuːn",
+          "pos": "phrase",
+          "meanings": [
+            "between the middle of the day and the evening"
+          ]
+        },
+        {
+          "en": "in the centre of the city",
+          "ipa": "ɪn ðiː ˈsen.tər əv ðiː ˈsɪt.i",
+          "pos": "phrase",
+          "meanings": [
+            "in the middle of the city"
+          ]
+        },
+        {
+          "en": "in the evening",
+          "ipa": "ɪn ðiː ˈiːv.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "during the part of the day between the afternoon and the night"
+          ]
+        },
+        {
+          "en": "in the morning",
+          "ipa": "ɪn ðiː ˈmɔː.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "during the early part of the day"
+          ]
+        },
+        {
+          "en": "in the week",
+          "ipa": "ɪn ðiː wiːk",
+          "pos": "phrase"
+        },
+        {
+          "en": "India",
+          "ipa": "ˈɪn.di.ə",
+          "pos": "noun",
+          "meanings": [
+            "a country in Asia"
+          ]
+        },
+        {
+          "en": "Indonesia",
+          "ipa": "ˌɪn.dəˈniː.ʒə",
+          "pos": "noun",
+          "meanings": [
+            "a country in Asia"
+          ]
+        },
+        {
+          "en": "interesting",
+          "ipa": "ˈɪn.trəs.tɪŋ",
+          "pos": "adjective",
+          "meanings": [
+            "keeping your attention"
+          ]
+        },
+        {
+          "en": "Italian",
+          "ipa": "ɪˈtæl.jən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Italy"
+          ]
+        },
+        {
+          "en": "Italy",
+          "ipa": "ˈɪt.ə.li",
+          "pos": "noun",
+          "meanings": [
+            "a country in Europe"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "J",
+      "items": [
+        {
+          "en": "jacket",
+          "ipa": "ˈdʒæk.ɪt",
+          "pos": "noun",
+          "meanings": [
+            "a short coat"
+          ]
+        },
+        {
+          "en": "January",
+          "ipa": "ˈdʒæn.jʊ.ri",
+          "pos": "noun",
+          "meanings": [
+            "the first month of the year"
+          ]
+        },
+        {
+          "en": "Japan",
+          "ipa": "dʒəˈpæn",
+          "pos": "noun",
+          "meanings": [
+            "a country in Asia"
+          ]
+        },
+        {
+          "en": "Japanese",
+          "ipa": "ˌdzæp.əˈniːz",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Japan"
+          ]
+        },
+        {
+          "en": "jeans",
+          "ipa": "dʒiːnz",
+          "pos": "noun",
+          "meanings": [
+            "trousers made from denim (=a strong, usually blue, material)"
+          ]
+        },
+        {
+          "en": "journey",
+          "ipa": "ˈdʒɜː.ni",
+          "pos": "noun",
+          "meanings": [
+            "when you travel from one place to another"
+          ]
+        },
+        {
+          "en": "July",
+          "ipa": "dʒʊˈlaɪ",
+          "pos": "noun",
+          "meanings": [
+            "the seventh month of the year"
+          ]
+        },
+        {
+          "en": "jumper",
+          "ipa": "ˈdʒʌm.pər",
+          "pos": "noun"
+        },
+        {
+          "en": "June",
+          "ipa": "dʒuːn",
+          "pos": "noun",
+          "meanings": [
+            "the sixth month of the year"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "K",
+      "items": [
+        {
+          "en": "key",
+          "ipa": "kiː",
+          "pos": "noun",
+          "meanings": [
+            "a piece of metal that you use for locking doors or for starting engines"
+          ]
+        },
+        {
+          "en": "kilo",
+          "ipa": "ˈkiː.ləʊ",
+          "pos": "noun",
+          "meanings": [
+            "kilogram"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "L",
+      "items": [
+        {
+          "en": "laptop",
+          "ipa": "ˈlæp.tɒp",
+          "pos": "noun",
+          "meanings": [
+            "a small computer that you can carry around with you"
+          ]
+        },
+        {
+          "en": "last night",
+          "ipa": "lɑːst naɪt",
+          "pos": "phrase",
+          "meanings": [
+            "yesterday evening"
+          ]
+        },
+        {
+          "en": "last week",
+          "ipa": "lɑːst wiːk",
+          "pos": "phrase",
+          "meanings": [
+            "the week before this one"
+          ]
+        },
+        {
+          "en": "last year",
+          "ipa": "lɑːst jɪər",
+          "pos": "phrase",
+          "meanings": [
+            "the year before this one"
+          ]
+        },
+        {
+          "en": "late",
+          "ipa": "leɪt",
+          "pos": "adjective",
+          "meanings": [
+            "after the usual time or the time that was arranged"
+          ]
+        },
+        {
+          "en": "leave",
+          "ipa": "liːv",
+          "pos": "verb",
+          "meanings": [
+            "to go away from a place"
+          ]
+        },
+        {
+          "en": "leave home",
+          "ipa": "liːv həʊm",
+          "pos": "phrase",
+          "meanings": [
+            "to go away from your house or flat"
+          ]
+        },
+        {
+          "en": "leave school",
+          "ipa": "liːv skuːl",
+          "pos": "phrase",
+          "meanings": [
+            "to stop going to school"
+          ]
+        },
+        {
+          "en": "leave university",
+          "ipa": "liːv ˌjuː.nɪˈvɜː.sɪ.ti",
+          "pos": "phrase",
+          "meanings": [
+            "to stop going to university"
+          ]
+        },
+        {
+          "en": "leave your job",
+          "ipa": "liːv jɔːr dʒɒb",
+          "pos": "phrase",
+          "meanings": [
+            "to give up your job"
+          ]
+        },
+        {
+          "en": "left",
+          "ipa": "left",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of leave"
+          ]
+        },
+        {
+          "en": "Libya",
+          "ipa": "ˈlɪb.i.ə",
+          "pos": "noun",
+          "meanings": [
+            "a country in Africa"
+          ]
+        },
+        {
+          "en": "like",
+          "ipa": "laɪk",
+          "pos": "verb",
+          "meanings": [
+            "to enjoy something or think that someone or something is nice"
+          ]
+        },
+        {
+          "en": "like football",
+          "ipa": "laɪk ˈfʊt.bɔːl",
+          "pos": "phrase"
+        },
+        {
+          "en": "like rock music",
+          "ipa": "laɪk rɒk ˈmjuː.zɪk",
+          "pos": "phrase"
+        },
+        {
+          "en": "listen",
+          "ipa": "ˈlɪs.ən",
+          "pos": "verb",
+          "meanings": [
+            "to give attention to someone or something in order to hear them"
+          ]
+        },
+        {
+          "en": "listen and check",
+          "ipa": "ˈlɪs.ən ænd tʃek",
+          "pos": "phrase",
+          "meanings": [
+            "to listen and make sure that the answers are correct"
+          ]
+        },
+        {
+          "en": "listen and practise",
+          "ipa": "ˈlɪs.ən ænd ˈpræk.tɪs",
+          "pos": "phrase",
+          "meanings": [
+            "to listen to something and then say it in order to improve your ability"
+          ]
+        },
+        {
+          "en": "listen to music",
+          "ipa": "ˈlɪs.ən tuː ˈmjuː.zɪk",
+          "pos": "phrase",
+          "meanings": [
+            "to listen to sound that is made by playing instruments or singing"
+          ]
+        },
+        {
+          "en": "listen to the radio",
+          "ipa": "ˈlɪs.ən tuː ðiː ˈreɪ.di.əʊ",
+          "pos": "phrase",
+          "meanings": [
+            "to listen to programmes broadcast (=sent out) on the radio"
+          ]
+        },
+        {
+          "en": "live in a flat",
+          "ipa": "lɪv ɪn ə flæt",
+          "pos": "phrase",
+          "meanings": [
+            "to have a set of rooms to live in, with all the rooms on one level of a building"
+          ]
+        },
+        {
+          "en": "long",
+          "ipa": "lɒŋ",
+          "pos": "adjective",
+          "meanings": [
+            "continuing for a large amount of time"
+          ]
+        },
+        {
+          "en": "look at the photo",
+          "ipa": "lʊk ət ðiː ˈfəʊ.təʊ",
+          "pos": "phrase",
+          "meanings": [
+            "look at a picture produced with a camera"
+          ]
+        },
+        {
+          "en": "look for a flat",
+          "ipa": "lʊk fɔːr ə flæt",
+          "pos": "phrase",
+          "meanings": [
+            "to search a flat to buy or rent"
+          ]
+        },
+        {
+          "en": "look for a house",
+          "ipa": "lʊk fɔːr ə haʊs",
+          "pos": "phrase",
+          "meanings": [
+            "to search a house to buy or rent"
+          ]
+        },
+        {
+          "en": "look for a new job",
+          "ipa": "lʊk fɔːr ə njuː dʒɒb",
+          "pos": "phrase",
+          "meanings": [
+            "to search for a new job"
+          ]
+        },
+        {
+          "en": "love",
+          "ipa": "lʌv",
+          "pos": "verb",
+          "meanings": [
+            "to like something very much"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "M",
+      "items": [
+        {
+          "en": "magazine",
+          "ipa": "ˌmæɡ.əˈziːn",
+          "pos": "noun"
+        },
+        {
+          "en": "man",
+          "ipa": "mæn",
+          "pos": "noun",
+          "meanings": [
+            "an adult male human"
+          ]
+        },
+        {
+          "en": "manager",
+          "ipa": "ˈmæn.ɪ.dʒər",
+          "pos": "noun",
+          "meanings": [
+            "someone in control of an office, shop, team, etc"
+          ]
+        },
+        {
+          "en": "map",
+          "ipa": "mæp",
+          "pos": "noun",
+          "meanings": [
+            "a picture that shows where countries, towns, roads, etc are"
+          ]
+        },
+        {
+          "en": "March",
+          "ipa": "mɑːtʃ",
+          "pos": "noun",
+          "meanings": [
+            "the third month of the year"
+          ]
+        },
+        {
+          "en": "market",
+          "ipa": "ˈmɑː.kɪt",
+          "pos": "noun",
+          "meanings": [
+            "a place where people go to buy or sell things, often outside"
+          ]
+        },
+        {
+          "en": "married",
+          "ipa": "ˈmær.id",
+          "pos": "adjective",
+          "meanings": [
+            "A married man or woman has a wife or husband."
+          ]
+        },
+        {
+          "en": "match",
+          "ipa": "mætʃ",
+          "pos": "verb",
+          "meanings": [
+            "If two things match, they are the same colour or type."
+          ]
+        },
+        {
+          "en": "match",
+          "ipa": "mætʃ",
+          "pos": "noun",
+          "meanings": [
+            "a sports competition in which two people or teams compete against each other"
+          ]
+        },
+        {
+          "en": "May",
+          "ipa": "meɪ",
+          "pos": "noun",
+          "meanings": [
+            "the fifth month of the year"
+          ]
+        },
+        {
+          "en": "meat",
+          "ipa": "miːt",
+          "pos": "noun",
+          "meanings": [
+            "the soft parts of animals, used as food"
+          ]
+        },
+        {
+          "en": "meet",
+          "ipa": "miːt",
+          "pos": "verb",
+          "meanings": [
+            "to come to the same place as someone else"
+          ]
+        },
+        {
+          "en": "met",
+          "ipa": "met",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of meet"
+          ]
+        },
+        {
+          "en": "Mexican",
+          "ipa": "ˈmek.sɪ.kən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Mexico"
+          ]
+        },
+        {
+          "en": "Mexico",
+          "ipa": "ˈmek.sɪ.kəʊ",
+          "pos": "noun",
+          "meanings": [
+            "a country in South America"
+          ]
+        },
+        {
+          "en": "midday",
+          "ipa": "ˌmɪdˈdeɪ",
+          "pos": "noun",
+          "meanings": [
+            "12 o'clock in the middle of the day"
+          ]
+        },
+        {
+          "en": "midnight",
+          "ipa": "ˈmɪd.naɪt",
+          "pos": "noun",
+          "meanings": [
+            "12 o'clock at night"
+          ]
+        },
+        {
+          "en": "mile",
+          "ipa": "maɪl",
+          "pos": "noun",
+          "meanings": [
+            "a unit for measuring distance, equal to 1609 metres or 1760 yards"
+          ]
+        },
+        {
+          "en": "milk",
+          "ipa": "mɪlk",
+          "pos": "noun"
+        },
+        {
+          "en": "million",
+          "ipa": "ˈmɪl.jən",
+          "pos": "number",
+          "meanings": [
+            "the number 1,000,000"
+          ]
+        },
+        {
+          "en": "mineral water",
+          "ipa": "ˈmɪn.ə.rəlˌwɔːt.ər",
+          "pos": "noun",
+          "meanings": [
+            "water which is taken from the ground"
+          ]
+        },
+        {
+          "en": "minute",
+          "ipa": "ˈmɪn.ɪt",
+          "pos": "noun",
+          "meanings": [
+            "a period of time equal to 60 seconds"
+          ]
+        },
+        {
+          "en": "Miss",
+          "ipa": "mɪs",
+          "pos": "noun",
+          "meanings": [
+            "a title for a girl or woman who is not married"
+          ]
+        },
+        {
+          "en": "mobile (phone)",
+          "ipa": "ˈməʊ.baɪl",
+          "pos": "noun",
+          "meanings": [
+            "a telephone that you can carry everywhere with you"
+          ]
+        },
+        {
+          "en": "mobile number",
+          "ipa": "ˈməʊ.baɪl ˈnʌm.bər",
+          "pos": "noun",
+          "meanings": [
+            "the number for your mobile phone"
+          ]
+        },
+        {
+          "en": "Monday",
+          "ipa": "ˈmʌn.deɪ",
+          "pos": "noun",
+          "meanings": [
+            "the day of the week after Sunday and before Tuesday"
+          ]
+        },
+        {
+          "en": "money",
+          "ipa": "ˈmʌn.i",
+          "pos": "noun",
+          "meanings": [
+            "the coins or pieces of paper that are used for buying things"
+          ]
+        },
+        {
+          "en": "month",
+          "ipa": "mʌnθ",
+          "pos": "noun",
+          "meanings": [
+            "one of the twelve periods of time that a year is divided into"
+          ]
+        },
+        {
+          "en": "moon",
+          "ipa": "muːn",
+          "pos": "noun",
+          "meanings": [
+            "the round object that shines in the sky at night and moves around the Earth"
+          ]
+        },
+        {
+          "en": "mosque",
+          "ipa": "mɒsk",
+          "pos": "noun",
+          "meanings": [
+            "a building where Muslims say their prayers"
+          ]
+        },
+        {
+          "en": "mother",
+          "ipa": "ˈmʌð.ər",
+          "pos": "noun",
+          "meanings": [
+            "your female parent"
+          ]
+        },
+        {
+          "en": "motorbike",
+          "ipa": "ˈməʊ.tə.baɪk",
+          "pos": "noun",
+          "meanings": [
+            "a vehicle with two wheels and an engine"
+          ]
+        },
+        {
+          "en": "move house",
+          "ipa": "muːv haʊs",
+          "pos": "phrase",
+          "meanings": [
+            "to leave your home in order to live in a new one"
+          ]
+        },
+        {
+          "en": "move to another city",
+          "ipa": "muːv tuː əˈnʌð.ər ˈsɪt.i",
+          "pos": "phrase",
+          "meanings": [
+            "If a person moves to another city, they go to a different city to live."
+          ]
+        },
+        {
+          "en": "move to another country",
+          "ipa": "muːv tuː əˈnʌð.ər ˈkʌn.tri",
+          "pos": "phrase",
+          "meanings": [
+            "If a person moves to another country, they go to a different country to live."
+          ]
+        },
+        {
+          "en": "Mr",
+          "ipa": "ˈmɪs.tər",
+          "pos": "noun",
+          "meanings": [
+            "a title for a man, used before his family name or full name"
+          ]
+        },
+        {
+          "en": "Mrs",
+          "ipa": "ˈmɪs.ɪz",
+          "pos": "noun",
+          "meanings": [
+            "a title for a married woman, used before her family name or full name"
+          ]
+        },
+        {
+          "en": "Ms",
+          "ipa": "ˌemˈes",
+          "pos": "noun",
+          "meanings": [
+            "a title for a woman, used before her family name or full name"
+          ]
+        },
+        {
+          "en": "mum",
+          "ipa": "mʌm",
+          "pos": "noun",
+          "meanings": [
+            "mother"
+          ]
+        },
+        {
+          "en": "museum",
+          "ipa": "mjuːˈziː.əm",
+          "pos": "noun"
+        },
+        {
+          "en": "mushroom pizza",
+          "ipa": "ˈmʌʃ.ruːm ˈpiːt.sə",
+          "pos": "noun"
+        },
+        {
+          "en": "musician",
+          "ipa": "mjuːˈzɪʃ.ən",
+          "pos": "noun",
+          "meanings": [
+            "someone who plays a musical instrument, often as a job"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "N",
+      "items": [
+        {
+          "en": "nationality",
+          "ipa": "ˌnæʃ.ənˈæl.ə.ti",
+          "pos": "noun"
+        },
+        {
+          "en": "near",
+          "ipa": "nɪər",
+          "pos": "preposition",
+          "meanings": [
+            "not far away in distance"
+          ]
+        },
+        {
+          "en": "never",
+          "ipa": "ˈnev.ər",
+          "pos": "adverb",
+          "meanings": [
+            "not ever, not one time"
+          ]
+        },
+        {
+          "en": "new",
+          "ipa": "njuː",
+          "pos": "adjective",
+          "meanings": [
+            "recently made"
+          ]
+        },
+        {
+          "en": "New Year's Eve fireworks",
+          "ipa": "njuː jɪər iːv ˈfaɪə.wɜːks",
+          "pos": "noun"
+        },
+        {
+          "en": "newspaper",
+          "ipa": "ˈnjuːzˌpeɪ.pər",
+          "pos": "noun"
+        },
+        {
+          "en": "next month",
+          "ipa": "nekst mʌnθ",
+          "pos": "phrase",
+          "meanings": [
+            "the month after this one"
+          ]
+        },
+        {
+          "en": "next to",
+          "ipa": "nekst tuː",
+          "pos": "phrase",
+          "meanings": [
+            "very close to something, with nothing in between"
+          ]
+        },
+        {
+          "en": "next week",
+          "ipa": "nekst wiːk",
+          "pos": "phrase",
+          "meanings": [
+            "the week after this one"
+          ]
+        },
+        {
+          "en": "next year",
+          "ipa": "nekst jɪər",
+          "pos": "phrase",
+          "meanings": [
+            "in the year after this one"
+          ]
+        },
+        {
+          "en": "nice",
+          "ipa": "naɪs",
+          "pos": "adjective",
+          "meanings": [
+            "pleasant"
+          ]
+        },
+        {
+          "en": "nine",
+          "ipa": "naɪn",
+          "pos": "number",
+          "meanings": [
+            "the number 9"
+          ]
+        },
+        {
+          "en": "nineteen",
+          "ipa": "ˌnaɪnˈtiːn",
+          "pos": "number",
+          "meanings": [
+            "the number 19"
+          ]
+        },
+        {
+          "en": "nineteenth",
+          "ipa": "ˌnaɪnˈtiːnθ",
+          "pos": "number",
+          "meanings": [
+            "19th"
+          ]
+        },
+        {
+          "en": "ninety",
+          "ipa": "ˈnaɪn.ti",
+          "pos": "number",
+          "meanings": [
+            "the number 90"
+          ]
+        },
+        {
+          "en": "ninth",
+          "ipa": "naɪnθ",
+          "pos": "number",
+          "meanings": [
+            "9th"
+          ]
+        },
+        {
+          "en": "noise",
+          "ipa": "nɔɪz",
+          "pos": "noun",
+          "meanings": [
+            "a sound, often a loud, bad sound"
+          ]
+        },
+        {
+          "en": "not usually",
+          "ipa": "nɒt ˈjuː.ʒu.ə.li",
+          "pos": "phrase",
+          "meanings": [
+            "not in the way that most often happens"
+          ]
+        },
+        {
+          "en": "notebook",
+          "ipa": "ˈnəʊt.bʊk",
+          "pos": "noun",
+          "meanings": [
+            "a book with empty pages that you can write in"
+          ]
+        },
+        {
+          "en": "November",
+          "ipa": "nəʊˈvem.bər",
+          "pos": "noun",
+          "meanings": [
+            "the eleventh month of the year"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "O",
+      "items": [
+        {
+          "en": "o’clock",
+          "ipa": "əˈklɒk",
+          "pos": "adverb"
+        },
+        {
+          "en": "October",
+          "ipa": "ɒkˈtəʊ.bər",
+          "pos": "noun",
+          "meanings": [
+            "the tenth month of the year"
+          ]
+        },
+        {
+          "en": "old",
+          "ipa": "əʊld",
+          "pos": "adjective",
+          "meanings": [
+            "having lived or existed for a long time"
+          ]
+        },
+        {
+          "en": "on Friday evening",
+          "ipa": "ɒn ˈfraɪ.deɪ ˈiːv.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "during the part of the day between the afternoon and the night on Friday"
+          ]
+        },
+        {
+          "en": "on Monday",
+          "ipa": "ɒn ˈmʌn.deɪ",
+          "pos": "phrase",
+          "meanings": [
+            "on the day of the week after Sunday"
+          ]
+        },
+        {
+          "en": "on Saturday afternoon",
+          "ipa": "ɒn ˈsæt.ə.deɪ ˌɑːf.təˈnuːn",
+          "pos": "phrase",
+          "meanings": [
+            "between the middle of the day and the evening, on Saturday"
+          ]
+        },
+        {
+          "en": "on Sunday",
+          "ipa": "ɒn ˈsʌn.deɪ",
+          "pos": "phrase",
+          "meanings": [
+            "on the day of the week after Saturday"
+          ]
+        },
+        {
+          "en": "on the left",
+          "ipa": "ɒn ðiː left",
+          "pos": "phrase",
+          "meanings": [
+            "on or towards the side of your body that is to the west when you are facing north"
+          ]
+        },
+        {
+          "en": "on the right",
+          "ipa": "ɒn ðiː raɪt",
+          "pos": "phrase",
+          "meanings": [
+            "on or towards the side of your body that is to the east when you are facing north"
+          ]
+        },
+        {
+          "en": "on Tuesday morning",
+          "ipa": "ɒn ˈtjuːz.deɪ ˈmɔː.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "during the early part of Tuesday"
+          ]
+        },
+        {
+          "en": "one",
+          "ipa": "wʌn",
+          "pos": "number",
+          "meanings": [
+            "the number 1"
+          ]
+        },
+        {
+          "en": "open",
+          "ipa": "ˈəʊ.pən",
+          "pos": "adjective",
+          "meanings": [
+            "A shop or business is open during the time it can do business."
+          ]
+        },
+        {
+          "en": "opposite",
+          "ipa": "ˈɒp.ə.zɪt",
+          "pos": "preposition",
+          "meanings": [
+            "in a position facing something or someone but on the other side"
+          ]
+        },
+        {
+          "en": "orange juice",
+          "ipa": "ˈɒr.ɪndʒ dʒuːs",
+          "pos": "noun",
+          "meanings": [
+            "the liquid that comes from oranges"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "P",
+      "items": [
+        {
+          "en": "p",
+          "ipa": "piː",
+          "pos": "noun",
+          "meanings": [
+            "abbreviation for penny or pence"
+          ]
+        },
+        {
+          "en": "palace",
+          "ipa": "ˈpæl.ɪs",
+          "pos": "noun",
+          "meanings": [
+            "a large house where a king or queen lives"
+          ]
+        },
+        {
+          "en": "parent",
+          "ipa": "ˈpeə.rənt",
+          "pos": "noun",
+          "meanings": [
+            "your mother or father"
+          ]
+        },
+        {
+          "en": "park",
+          "ipa": "pɑːk",
+          "pos": "noun"
+        },
+        {
+          "en": "party",
+          "ipa": "ˈpɑː.ti",
+          "pos": "noun"
+        },
+        {
+          "en": "passport",
+          "ipa": "ˈpɑːs.pɔːt",
+          "pos": "noun",
+          "meanings": [
+            "a small book with your photograph in that you need to enter a country"
+          ]
+        },
+        {
+          "en": "pasta",
+          "ipa": "ˈpæs.tə",
+          "pos": "noun",
+          "meanings": [
+            "a food that is made from flour and water and is made in many different shapes"
+          ]
+        },
+        {
+          "en": "pen",
+          "ipa": "pen",
+          "pos": "noun",
+          "meanings": [
+            "a long, thin object that you use to write or draw in ink"
+          ]
+        },
+        {
+          "en": "pence",
+          "ipa": "pents",
+          "pos": "noun",
+          "meanings": [
+            "plural of British penny; p"
+          ]
+        },
+        {
+          "en": "pencil",
+          "ipa": "ˈpen.səl",
+          "pos": "noun"
+        },
+        {
+          "en": "Peru",
+          "ipa": "pəˈruː",
+          "pos": "noun",
+          "meanings": [
+            "a country in South America"
+          ]
+        },
+        {
+          "en": "phone number",
+          "ipa": "ˈfəʊn ˌnʌmbər",
+          "pos": "noun",
+          "meanings": [
+            "the number of a particular telephone"
+          ]
+        },
+        {
+          "en": "pink",
+          "ipa": "pɪŋk",
+          "pos": "adjective",
+          "meanings": [
+            "being a pale red colour"
+          ]
+        },
+        {
+          "en": "plane",
+          "ipa": "pleɪn",
+          "pos": "noun",
+          "meanings": [
+            "a vehicle that flies and has an engine and wings"
+          ]
+        },
+        {
+          "en": "platform",
+          "ipa": "ˈplæt.fɔːm",
+          "pos": "noun",
+          "meanings": [
+            "the area in a railway station where you get on and off the train"
+          ]
+        },
+        {
+          "en": "play basketball",
+          "ipa": "pleɪ ˈbɑː.skɪt.bɔːl",
+          "pos": "phrase"
+        },
+        {
+          "en": "play computer games",
+          "ipa": "pleɪ kəmˈpjuː.tər ɡeɪmz",
+          "pos": "phrase"
+        },
+        {
+          "en": "play tennis",
+          "ipa": "pleɪ ˈten.ɪs",
+          "pos": "phrase",
+          "meanings": [
+            "to play a sport in which people hit a small ball to each other over a net"
+          ]
+        },
+        {
+          "en": "play the guitar",
+          "ipa": "pleɪ ðiː ɡɪˈtɑːr",
+          "pos": "phrase"
+        },
+        {
+          "en": "play the piano",
+          "ipa": "pleɪ ðiː piˈæn.əʊ",
+          "pos": "phrase"
+        },
+        {
+          "en": "Poland",
+          "ipa": "ˈpəʊ.lənd",
+          "pos": "noun",
+          "meanings": [
+            "a country in Europe"
+          ]
+        },
+        {
+          "en": "police officer",
+          "ipa": "pəˈliːsˌɒf.ɪ.sər",
+          "pos": "noun",
+          "meanings": [
+            "someone who is a member of the police"
+          ]
+        },
+        {
+          "en": "post office",
+          "ipa": "ˈpəʊstˌɒf.ɪs",
+          "pos": "noun",
+          "meanings": [
+            "a place where you can buy stamps and send letters and parcels"
+          ]
+        },
+        {
+          "en": "postcard",
+          "ipa": "ˈpəʊst.kɑːd",
+          "pos": "noun",
+          "meanings": [
+            "a card with a picture on one side that you send without an envelope"
+          ]
+        },
+        {
+          "en": "pound",
+          "ipa": "paʊnd",
+          "pos": "noun",
+          "meanings": [
+            "the unit of money used in the UK and Ireland; £"
+          ]
+        },
+        {
+          "en": "present",
+          "ipa": "ˈprez.ənt",
+          "pos": "noun",
+          "meanings": [
+            "something that you give to someone, usually on a special day"
+          ]
+        },
+        {
+          "en": "President",
+          "ipa": "ˈprez.ɪ.dənt",
+          "pos": "noun"
+        },
+        {
+          "en": "purse",
+          "ipa": "pɜːs",
+          "pos": "noun",
+          "meanings": [
+            "a small container for money, usually used by a woman"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Q",
+      "items": [
+        {
+          "en": "quarter past",
+          "ipa": "ˈkwɔː.tər pɑːst",
+          "pos": "phrase",
+          "meanings": [
+            "15 minutes past one o'clock/two o'clock/three o'clock, etc"
+          ]
+        },
+        {
+          "en": "quarter to",
+          "ipa": "ˈkwɔː.tər tuː",
+          "pos": "phrase",
+          "meanings": [
+            "15 minutes before one o'clock/two o'clock/three o'clock, etc"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "R",
+      "items": [
+        {
+          "en": "raise money for charity",
+          "ipa": "reɪz ˈmʌn.i fɔːr ˈtʃær.ɪ.ti",
+          "pos": "phrase"
+        },
+        {
+          "en": "rap",
+          "ipa": "ræp",
+          "pos": "noun",
+          "meanings": [
+            "a type of music in which the words are spoken and there is a strong beat"
+          ]
+        },
+        {
+          "en": "read",
+          "ipa": "riːd",
+          "pos": "verb",
+          "meanings": [
+            "to look at words and understand what they mean"
+          ]
+        },
+        {
+          "en": "read blogs",
+          "ipa": "riːd blɒɡz",
+          "pos": "phrase"
+        },
+        {
+          "en": "receive emails",
+          "ipa": "rɪˈsiːv ˈiː.meɪlz",
+          "pos": "phrase",
+          "meanings": [
+            "receive messages electronically"
+          ]
+        },
+        {
+          "en": "red",
+          "ipa": "red",
+          "pos": "adjective",
+          "meanings": [
+            "being the same colour as blood"
+          ]
+        },
+        {
+          "en": "rent a car",
+          "ipa": "rent ə kɑːr",
+          "pos": "phrase",
+          "meanings": [
+            "to pay money to use a car for a short time"
+          ]
+        },
+        {
+          "en": "restaurant",
+          "ipa": "ˈres.trɒnt",
+          "pos": "noun",
+          "meanings": [
+            "a place where you can buy and eat a meal"
+          ]
+        },
+        {
+          "en": "return",
+          "ipa": "rɪˈtɜːn",
+          "pos": "noun",
+          "meanings": [
+            "a ticket that lets you travel to a place and back again"
+          ]
+        },
+        {
+          "en": "rice",
+          "ipa": "raɪs",
+          "pos": "noun",
+          "meanings": [
+            "small grains from a plant that are cooked and eaten"
+          ]
+        },
+        {
+          "en": "ride a bike",
+          "ipa": "raɪd ə baɪk",
+          "pos": "phrase",
+          "meanings": [
+            "to travel by bicycle"
+          ]
+        },
+        {
+          "en": "right",
+          "ipa": "raɪt",
+          "pos": "adjective",
+          "meanings": [
+            "correct or true"
+          ]
+        },
+        {
+          "en": "river",
+          "ipa": "ˈrɪv.ər",
+          "pos": "noun",
+          "meanings": [
+            "a long, natural area of water that flows across the land"
+          ]
+        },
+        {
+          "en": "road",
+          "ipa": "rəʊd",
+          "pos": "noun",
+          "meanings": [
+            "a long, hard surface built for cars to drive on"
+          ]
+        },
+        {
+          "en": "room",
+          "ipa": "ruːm",
+          "pos": "noun"
+        },
+        {
+          "en": "Russia",
+          "ipa": "ˈrʌ.ʃə",
+          "pos": "noun",
+          "meanings": [
+            "the largest country in the world,"
+          ]
+        },
+        {
+          "en": "Russian",
+          "ipa": "ˈrʌʃ.ən",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Russia"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "S",
+      "items": [
+        {
+          "en": "sad",
+          "ipa": "sæd",
+          "pos": "adjective",
+          "meanings": [
+            "unhappy"
+          ]
+        },
+        {
+          "en": "sales assistant",
+          "ipa": "seɪlz əˈsɪs.tənt",
+          "pos": "noun",
+          "meanings": [
+            "someone who serves customers in a shop"
+          ]
+        },
+        {
+          "en": "samba",
+          "ipa": "ˈsæm.bə",
+          "pos": "noun",
+          "meanings": [
+            "an dance originally from Brazil"
+          ]
+        },
+        {
+          "en": "same",
+          "ipa": "seɪm",
+          "pos": "adjective",
+          "meanings": [
+            "exactly alike someone or something else"
+          ]
+        },
+        {
+          "en": "sandwich",
+          "ipa": "ˈsæn.wɪdʒ",
+          "pos": "noun",
+          "meanings": [
+            "two slices of bread with meat, cheese, etc between them"
+          ]
+        },
+        {
+          "en": "Saturday",
+          "ipa": "ˈsæt.ə.deɪ",
+          "pos": "noun",
+          "meanings": [
+            "the day of the week after Friday and before Sunday"
+          ]
+        },
+        {
+          "en": "scared",
+          "ipa": "skeəd",
+          "pos": "adjective",
+          "meanings": [
+            "frightened or worried"
+          ]
+        },
+        {
+          "en": "scenery",
+          "ipa": "ˈsiː.nər.i",
+          "pos": "noun",
+          "meanings": [
+            "the attractive, natural things that you see in the countryside"
+          ]
+        },
+        {
+          "en": "sea",
+          "ipa": "siː",
+          "pos": "noun",
+          "meanings": [
+            "a large area of salt water"
+          ]
+        },
+        {
+          "en": "search for information",
+          "ipa": "sɜːtʃ fɔːr ˌɪn.fəˈmeɪ.ʃən",
+          "pos": "phrase",
+          "meanings": [
+            "to try to find some information"
+          ]
+        },
+        {
+          "en": "seat",
+          "ipa": "siːt",
+          "pos": "noun",
+          "meanings": [
+            "something that you sit on"
+          ]
+        },
+        {
+          "en": "second",
+          "ipa": "ˈsek.ənd",
+          "pos": "noun",
+          "meanings": [
+            "one of the 60 parts a minute is divided into"
+          ]
+        },
+        {
+          "en": "second",
+          "ipa": "ˈsek.ənd",
+          "pos": "number",
+          "meanings": [
+            "2nd"
+          ]
+        },
+        {
+          "en": "sell things online",
+          "ipa": "sel θɪŋz ˈɒn.laɪn",
+          "pos": "phrase",
+          "meanings": [
+            "sell things on the internet"
+          ]
+        },
+        {
+          "en": "send emails",
+          "ipa": "send ˈiː.meɪlz",
+          "pos": "phrase",
+          "meanings": [
+            "send messages electronically"
+          ]
+        },
+        {
+          "en": "September",
+          "ipa": "sepˈtem.bər",
+          "pos": "noun",
+          "meanings": [
+            "the ninth month of the year"
+          ]
+        },
+        {
+          "en": "seven",
+          "ipa": "ˈsev.ən",
+          "pos": "number",
+          "meanings": [
+            "the number 7"
+          ]
+        },
+        {
+          "en": "seventeen",
+          "ipa": "ˌsev.ənˈtiːn",
+          "pos": "number",
+          "meanings": [
+            "the number 17"
+          ]
+        },
+        {
+          "en": "seventeenth",
+          "ipa": "ˌsev.ənˈtiːnθ",
+          "pos": "number",
+          "meanings": [
+            "17th"
+          ]
+        },
+        {
+          "en": "seventh",
+          "ipa": "ˈsev.ənθ",
+          "pos": "number",
+          "meanings": [
+            "7th"
+          ]
+        },
+        {
+          "en": "seventy",
+          "ipa": "ˈsev.ən.ti",
+          "pos": "number",
+          "meanings": [
+            "the number 70"
+          ]
+        },
+        {
+          "en": "shirt",
+          "ipa": "ʃɜːt",
+          "pos": "noun"
+        },
+        {
+          "en": "shoe",
+          "ipa": "ʃuː",
+          "pos": "noun",
+          "meanings": [
+            "a strong covering for the foot, often made of leather"
+          ]
+        },
+        {
+          "en": "shopping centre",
+          "ipa": "ˈʃɒpɪŋ ˌsentər",
+          "pos": "noun",
+          "meanings": [
+            "a place where a lot of shops have been built close together"
+          ]
+        },
+        {
+          "en": "shopping for clothes",
+          "ipa": "ˈʃɒp.ɪŋ fɔːr kləʊðz",
+          "pos": "phrase",
+          "meanings": [
+            "going to shops to buy clothes"
+          ]
+        },
+        {
+          "en": "short",
+          "ipa": "ʃɔːt",
+          "pos": "adjective",
+          "meanings": [
+            "continuing for a small amount of time"
+          ]
+        },
+        {
+          "en": "sing",
+          "ipa": "sɪŋ",
+          "pos": "verb",
+          "meanings": [
+            "to make musical sounds with your voice"
+          ]
+        },
+        {
+          "en": "singer",
+          "ipa": "ˈsɪŋ.ər",
+          "pos": "noun",
+          "meanings": [
+            "someone who sings"
+          ]
+        },
+        {
+          "en": "single",
+          "ipa": "ˈsɪŋ.ɡl̩",
+          "pos": "adjective",
+          "meanings": [
+            "not married"
+          ]
+        },
+        {
+          "en": "single",
+          "ipa": "ˈsɪŋ.ɡl̩",
+          "pos": "noun",
+          "meanings": [
+            "a ticket for a journey that is from one place to another but not back again"
+          ]
+        },
+        {
+          "en": "sister",
+          "ipa": "ˈsɪs.tər",
+          "pos": "noun",
+          "meanings": [
+            "a girl or woman who has the same parents as you"
+          ]
+        },
+        {
+          "en": "six",
+          "ipa": "sɪks",
+          "pos": "number",
+          "meanings": [
+            "the number 6"
+          ]
+        },
+        {
+          "en": "sixteen",
+          "ipa": "ˌsɪkˈstiːn",
+          "pos": "number",
+          "meanings": [
+            "the number 16"
+          ]
+        },
+        {
+          "en": "sixteenth",
+          "ipa": "ˌsɪkˈstiːnθ",
+          "pos": "number",
+          "meanings": [
+            "16th"
+          ]
+        },
+        {
+          "en": "sixth",
+          "ipa": "sɪksθ",
+          "pos": "number",
+          "meanings": [
+            "6th"
+          ]
+        },
+        {
+          "en": "sixty",
+          "ipa": "ˈsɪk.sti",
+          "pos": "number",
+          "meanings": [
+            "the number 60"
+          ]
+        },
+        {
+          "en": "ski",
+          "ipa": "skiː",
+          "pos": "verb",
+          "meanings": [
+            "to move over snow wearing skis"
+          ]
+        },
+        {
+          "en": "skirt",
+          "ipa": "skɜːt",
+          "pos": "noun",
+          "meanings": [
+            "a piece of women's clothing that hangs from the waist and has no legs"
+          ]
+        },
+        {
+          "en": "sleep",
+          "ipa": "sliːp",
+          "pos": "verb"
+        },
+        {
+          "en": "small",
+          "ipa": "smɔːl",
+          "pos": "adjective",
+          "meanings": [
+            "little in size or amount"
+          ]
+        },
+        {
+          "en": "soap operas",
+          "ipa": "ˈsəʊpˌɒp.ər.əz",
+          "pos": "noun"
+        },
+        {
+          "en": "sometimes",
+          "ipa": "ˈsʌm.taɪmz",
+          "pos": "adverb",
+          "meanings": [
+            "on some occasions but not always or often"
+          ]
+        },
+        {
+          "en": "son",
+          "ipa": "sʌn",
+          "pos": "noun",
+          "meanings": [
+            "your male child"
+          ]
+        },
+        {
+          "en": "Spain",
+          "ipa": "speɪn",
+          "pos": "noun",
+          "meanings": [
+            "a country in Europe"
+          ]
+        },
+        {
+          "en": "Spanish",
+          "ipa": "ˈspæn.ɪʃ",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Spain"
+          ]
+        },
+        {
+          "en": "sparkling",
+          "ipa": "ˈspɑː.klɪŋ",
+          "pos": "adjective",
+          "meanings": [
+            "A sparkling drink has bubbles in it."
+          ]
+        },
+        {
+          "en": "speak German",
+          "ipa": "spiːk ˈdʒɜː.mən",
+          "pos": "phrase",
+          "meanings": [
+            "speak the language of Germany, Austria, and parts of Switzerland"
+          ]
+        },
+        {
+          "en": "square",
+          "ipa": "skweər",
+          "pos": "noun",
+          "meanings": [
+            "an open area with buildings around it, often in the centre of a town"
+          ]
+        },
+        {
+          "en": "stadium",
+          "ipa": "ˈsteɪ.di.əm",
+          "pos": "noun",
+          "meanings": [
+            "a large, open area with seats around it, used for playing and watching sports"
+          ]
+        },
+        {
+          "en": "start a new job",
+          "ipa": "stɑːt ə njuː dʒɒb",
+          "pos": "phrase",
+          "meanings": [
+            "to begin a new job"
+          ]
+        },
+        {
+          "en": "start school",
+          "ipa": "stɑːt skuːl",
+          "pos": "phrase",
+          "meanings": [
+            "to begin going to school"
+          ]
+        },
+        {
+          "en": "start university",
+          "ipa": "stɑːt ˌjuː.nɪˈvɜː.sɪ.ti",
+          "pos": "phrase",
+          "meanings": [
+            "to begin going to university"
+          ]
+        },
+        {
+          "en": "start work",
+          "ipa": "stɑːt wɜːk",
+          "pos": "phrase",
+          "meanings": [
+            "to start doing what you do as a job to earn money, usually in the morning"
+          ]
+        },
+        {
+          "en": "stay in a hotel",
+          "ipa": "steɪ ɪn ə həʊˈtel",
+          "pos": "phrase",
+          "meanings": [
+            "to be in a hotel overnight"
+          ]
+        },
+        {
+          "en": "stay with family",
+          "ipa": "steɪ wɪð ˈfæm.əl.i",
+          "pos": "phrase",
+          "meanings": [
+            "to visit family for a short period of time and stay overnight"
+          ]
+        },
+        {
+          "en": "stay with friends",
+          "ipa": "steɪ wɪð frendz",
+          "pos": "phrase",
+          "meanings": [
+            "to visit friends for a short period of time and stay overnight"
+          ]
+        },
+        {
+          "en": "still",
+          "ipa": "stɪl",
+          "pos": "adjective",
+          "meanings": [
+            "A still drink does not have any bubbles in it."
+          ]
+        },
+        {
+          "en": "strawberry ice cream",
+          "ipa": "ˈstrɔː.bər.i aɪs kriːm",
+          "pos": "noun",
+          "meanings": [
+            "a sweet food with strawberry flavour made from frozen milk or cream and sugar"
+          ]
+        },
+        {
+          "en": "street",
+          "ipa": "striːt",
+          "pos": "noun",
+          "meanings": [
+            "a road in a town or city that has houses or other buildings"
+          ]
+        },
+        {
+          "en": "study English",
+          "ipa": "ˈstʌd.i ˈɪŋ.ɡlɪʃ",
+          "pos": "phrase",
+          "meanings": [
+            "to learn about English"
+          ]
+        },
+        {
+          "en": "study languages",
+          "ipa": "ˈstʌd.i ˈlæŋ.ɡwɪdʒɪz",
+          "pos": "phrase",
+          "meanings": [
+            "to learn about languages"
+          ]
+        },
+        {
+          "en": "sugar",
+          "ipa": "ˈʃʊɡ.ər",
+          "pos": "noun",
+          "meanings": [
+            "a very sweet substance used to give flavour to food and drinks"
+          ]
+        },
+        {
+          "en": "suit",
+          "ipa": "suːt",
+          "pos": "noun",
+          "meanings": [
+            "a jacket and trousers or a jacket and skirt that are made from the same material"
+          ]
+        },
+        {
+          "en": "Sunday",
+          "ipa": "ˈsʌn.deɪ",
+          "pos": "noun",
+          "meanings": [
+            "the day of the week after Saturday and before Monday"
+          ]
+        },
+        {
+          "en": "supermarket",
+          "ipa": "ˈsuː.pəˌmɑː.kɪt",
+          "pos": "noun",
+          "meanings": [
+            "a large shop that sells food, drink, things for the home, etc"
+          ]
+        },
+        {
+          "en": "surname",
+          "ipa": "ˈsɜː.neɪm",
+          "pos": "noun",
+          "meanings": [
+            "the name that you and people in your family all have"
+          ]
+        },
+        {
+          "en": "sweet",
+          "ipa": "swiːt",
+          "pos": "noun",
+          "meanings": [
+            "a small piece of sweet food, often made of sugar or chocolate"
+          ]
+        },
+        {
+          "en": "swim",
+          "ipa": "swɪm",
+          "pos": "verb",
+          "meanings": [
+            "to move through water by moving your body"
+          ]
+        },
+        {
+          "en": "(train) station",
+          "ipa": "ˈsteɪ.ʃən",
+          "pos": "noun",
+          "meanings": [
+            "a place where trains stop so that you can get on or off them"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "T",
+      "items": [
+        {
+          "en": "table",
+          "ipa": "ˈteɪ.bl̩",
+          "pos": "noun",
+          "meanings": [
+            "a piece of furniture with four legs, used for eating off, putting things on, etc"
+          ]
+        },
+        {
+          "en": "take photos",
+          "ipa": "teɪk ˈfəʊ.təʊz",
+          "pos": "phrase",
+          "meanings": [
+            "to make pictures with a camera"
+          ]
+        },
+        {
+          "en": "taxi",
+          "ipa": "ˈtæk.si",
+          "pos": "noun",
+          "meanings": [
+            "a car with a driver who you pay to take you somewhere"
+          ]
+        },
+        {
+          "en": "taxi driver",
+          "ipa": "ˈtæk.si ˈdraɪ.vər",
+          "pos": "noun",
+          "meanings": [
+            "someone who drives a taxi"
+          ]
+        },
+        {
+          "en": "tea",
+          "ipa": "tiː",
+          "pos": "noun",
+          "meanings": [
+            "a hot drink that you make by pouring water onto dried leaves"
+          ]
+        },
+        {
+          "en": "teacher",
+          "ipa": "ˈtiː.tʃər",
+          "pos": "noun",
+          "meanings": [
+            "someone whose job is to teach in a school, college, etc"
+          ]
+        },
+        {
+          "en": "tell",
+          "ipa": "tel",
+          "pos": "verb",
+          "meanings": [
+            "to say something to someone, usually giving them information"
+          ]
+        },
+        {
+          "en": "ten",
+          "ipa": "ten",
+          "pos": "number",
+          "meanings": [
+            "the number 10"
+          ]
+        },
+        {
+          "en": "tenth",
+          "ipa": "tenθ",
+          "pos": "number",
+          "meanings": [
+            "10th"
+          ]
+        },
+        {
+          "en": "terrible",
+          "ipa": "ˈter.ə.bl̩",
+          "pos": "adjective",
+          "meanings": [
+            "very bad"
+          ]
+        },
+        {
+          "en": "Thailand",
+          "ipa": "ˈtaɪ.lænd",
+          "pos": "noun",
+          "meanings": [
+            "a country in Asia"
+          ]
+        },
+        {
+          "en": "the UK",
+          "ipa": "ˌjuːˈkeɪ",
+          "pos": "noun"
+        },
+        {
+          "en": "the USA",
+          "ipa": "ˌjuː.esˈeɪ",
+          "pos": "noun",
+          "meanings": [
+            "abbreviation for the United States of America"
+          ]
+        },
+        {
+          "en": "theatre",
+          "ipa": "ˈθɪə.tər",
+          "pos": "noun",
+          "meanings": [
+            "a building with a stage where people go to watch plays"
+          ]
+        },
+        {
+          "en": "third",
+          "ipa": "θɜːd",
+          "pos": "number",
+          "meanings": [
+            "3rd"
+          ]
+        },
+        {
+          "en": "thirteen",
+          "ipa": "θɜːˈtiːn",
+          "pos": "number",
+          "meanings": [
+            "the number 13"
+          ]
+        },
+        {
+          "en": "thirteenth",
+          "ipa": "θɜːˈtiːnθ",
+          "pos": "number",
+          "meanings": [
+            "13th"
+          ]
+        },
+        {
+          "en": "thirtieth",
+          "ipa": "ˈθɜː.ti.əθ",
+          "pos": "number",
+          "meanings": [
+            "30th"
+          ]
+        },
+        {
+          "en": "thirty",
+          "ipa": "ˈθɜː.ti",
+          "pos": "number",
+          "meanings": [
+            "the number 30"
+          ]
+        },
+        {
+          "en": "thirty-first",
+          "ipa": "ˈθɜː.ti ˈfɜːst",
+          "pos": "number",
+          "meanings": [
+            "31st"
+          ]
+        },
+        {
+          "en": "thousand",
+          "ipa": "ˈθaʊ.zənd",
+          "pos": "number",
+          "meanings": [
+            "the number 1,000"
+          ]
+        },
+        {
+          "en": "three",
+          "ipa": "θriː",
+          "pos": "number",
+          "meanings": [
+            "the number 3"
+          ]
+        },
+        {
+          "en": "three months ago",
+          "ipa": "θriː mʌntθs əˈɡəʊ",
+          "pos": "phrase",
+          "meanings": [
+            "three months before now"
+          ]
+        },
+        {
+          "en": "throw",
+          "ipa": "θrəʊ",
+          "pos": "verb",
+          "meanings": [
+            "to make something move through the air by pushing it out of your hand"
+          ]
+        },
+        {
+          "en": "Thursday",
+          "ipa": "ˈθɜːz.deɪ",
+          "pos": "noun",
+          "meanings": [
+            "the day of the week after Wednesday and before Friday"
+          ]
+        },
+        {
+          "en": "ticket machine",
+          "ipa": "ˈtɪk.ɪt məˈʃiːn",
+          "pos": "noun",
+          "meanings": [
+            "a machine where you can buy tickets"
+          ]
+        },
+        {
+          "en": "ticket office",
+          "ipa": "ˈtɪk.ɪt ˈɒf.ɪs",
+          "pos": "noun",
+          "meanings": [
+            "a part of a building where you can buy tickets"
+          ]
+        },
+        {
+          "en": "tie",
+          "ipa": "taɪ",
+          "pos": "noun",
+          "meanings": [
+            "a long, thin piece of cloth that a man wears around his neck with a shirt"
+          ]
+        },
+        {
+          "en": "tired",
+          "ipa": "taɪəd",
+          "pos": "adjective",
+          "meanings": [
+            "feeling that you want to rest or sleep"
+          ]
+        },
+        {
+          "en": "tissue",
+          "ipa": "ˈtɪʃ.uː",
+          "pos": "noun",
+          "meanings": [
+            "a soft piece of paper that you use for cleaning your nose"
+          ]
+        },
+        {
+          "en": "today",
+          "ipa": "təˈdeɪ",
+          "pos": "adverb",
+          "meanings": [
+            "this day, or on this day"
+          ]
+        },
+        {
+          "en": "together",
+          "ipa": "təˈɡeð.ər",
+          "pos": "adverb",
+          "meanings": [
+            "with each other"
+          ]
+        },
+        {
+          "en": "told",
+          "ipa": "təʊld",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of tell"
+          ]
+        },
+        {
+          "en": "tomorrow",
+          "ipa": "təˈmɒr.əʊ",
+          "pos": "adverb",
+          "meanings": [
+            "the day after today or on the day after today"
+          ]
+        },
+        {
+          "en": "tomorrow morning",
+          "ipa": "təˈmɒr.əʊ ˈmɔː.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "the morning of the day after today"
+          ]
+        },
+        {
+          "en": "tonight",
+          "ipa": "təˈnaɪt",
+          "pos": "adverb",
+          "meanings": [
+            "the night of this day, or during the night of this day"
+          ]
+        },
+        {
+          "en": "took photos",
+          "ipa": "tʊk ˈfəʊ.təʊz",
+          "pos": "verb",
+          "meanings": [
+            "Past simple of take photos"
+          ]
+        },
+        {
+          "en": "tourist",
+          "ipa": "ˈtʊə.rɪst",
+          "pos": "noun",
+          "meanings": [
+            "someone who visits a place for pleasure and does not live there"
+          ]
+        },
+        {
+          "en": "train",
+          "ipa": "treɪn",
+          "pos": "noun",
+          "meanings": [
+            "a long, thin vehicle which travels along metal tracks and carries people or goods"
+          ]
+        },
+        {
+          "en": "trainer",
+          "ipa": "ˈtreɪ.nər",
+          "pos": "noun",
+          "meanings": [
+            "a soft sports shoe"
+          ]
+        },
+        {
+          "en": "travel around",
+          "ipa": "ˈtræv.əl əˈraʊnd",
+          "pos": "phrase",
+          "meanings": [
+            "to travel from one place to another"
+          ]
+        },
+        {
+          "en": "trousers",
+          "ipa": "ˈtraʊ.zəz",
+          "pos": "noun",
+          "meanings": [
+            "a piece of clothing that covers the legs and has a separate part for each leg"
+          ]
+        },
+        {
+          "en": "T-shirt",
+          "ipa": "ˈtiː.ʃɜːt",
+          "pos": "noun"
+        },
+        {
+          "en": "Tuesday",
+          "ipa": "ˈtjuːz.deɪ",
+          "pos": "noun",
+          "meanings": [
+            "the day of the week after Monday and before Wednesday"
+          ]
+        },
+        {
+          "en": "tuk-tuk",
+          "pos": "noun"
+        },
+        {
+          "en": "tuna salad",
+          "ipa": "ˈtjuː.nə ˈsæl.əd",
+          "pos": "noun",
+          "meanings": [
+            "a salad with tuna and mayonnaise in it"
+          ]
+        },
+        {
+          "en": "Turkey",
+          "ipa": "ˈtɜː.ki",
+          "pos": "noun",
+          "meanings": [
+            "a country in Asia and Europe"
+          ]
+        },
+        {
+          "en": "Turkish",
+          "ipa": "ˈtɜː.kɪʃ",
+          "pos": "adjective",
+          "meanings": [
+            "from, belonging to or relating to Turkey"
+          ]
+        },
+        {
+          "en": "twelfth",
+          "ipa": "twelfθ",
+          "pos": "number",
+          "meanings": [
+            "12th"
+          ]
+        },
+        {
+          "en": "twelve",
+          "ipa": "twelv",
+          "pos": "number",
+          "meanings": [
+            "the number 12"
+          ]
+        },
+        {
+          "en": "twentieth",
+          "ipa": "ˈtwen.ti.əθ",
+          "pos": "number",
+          "meanings": [
+            "20th"
+          ]
+        },
+        {
+          "en": "twenty",
+          "ipa": "ˈtwen.ti",
+          "pos": "number",
+          "meanings": [
+            "the number 20"
+          ]
+        },
+        {
+          "en": "twenty-eighth",
+          "ipa": "ˈtwen.ti eɪtθ",
+          "pos": "number",
+          "meanings": [
+            "28th"
+          ]
+        },
+        {
+          "en": "twenty-fifth",
+          "ipa": "ˈtwen.ti fɪfθ",
+          "pos": "number",
+          "meanings": [
+            "25th"
+          ]
+        },
+        {
+          "en": "twenty-first",
+          "ipa": "ˌtwen.tiˈfɜːst",
+          "pos": "number",
+          "meanings": [
+            "21st"
+          ]
+        },
+        {
+          "en": "twenty-fourth",
+          "ipa": "ˈtwen.ti fɔːθ",
+          "pos": "number",
+          "meanings": [
+            "24th"
+          ]
+        },
+        {
+          "en": "twenty-ninth",
+          "ipa": "ˈtwen.ti naɪnθ",
+          "pos": "number",
+          "meanings": [
+            "29th"
+          ]
+        },
+        {
+          "en": "twenty-second",
+          "ipa": "ˈtwen.ti ˈsek.ənd",
+          "pos": "number",
+          "meanings": [
+            "22nd"
+          ]
+        },
+        {
+          "en": "twenty-seventh",
+          "ipa": "ˈtwen.ti ˈsev.ənθ",
+          "pos": "number",
+          "meanings": [
+            "27th"
+          ]
+        },
+        {
+          "en": "twenty-sixth",
+          "ipa": "ˈtwen.ti sɪksθ",
+          "pos": "number",
+          "meanings": [
+            "26th"
+          ]
+        },
+        {
+          "en": "twenty-third",
+          "ipa": "ˈtwen.ti θɜːd",
+          "pos": "number",
+          "meanings": [
+            "23rd"
+          ]
+        },
+        {
+          "en": "twin",
+          "ipa": "twɪn",
+          "pos": "noun",
+          "meanings": [
+            "one of two children who are born to the same mother at the same time"
+          ]
+        },
+        {
+          "en": "two",
+          "ipa": "tuː",
+          "pos": "number",
+          "meanings": [
+            "the number 2"
+          ]
+        },
+        {
+          "en": "two hours ago",
+          "ipa": "tuː ˈaʊəz əˈɡəʊ",
+          "pos": "phrase",
+          "meanings": [
+            "two hours before now"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "U",
+      "items": [
+        {
+          "en": "ugly",
+          "ipa": "ˈʌɡ.li",
+          "pos": "adjective",
+          "meanings": [
+            "bad to look at"
+          ]
+        },
+        {
+          "en": "umbrella",
+          "ipa": "ʌmˈbrel.ə",
+          "pos": "noun",
+          "meanings": [
+            "a thing that you hold above your head to keep yourself dry when it is raining"
+          ]
+        },
+        {
+          "en": "unfriendly",
+          "ipa": "ʌnˈfrend.li",
+          "pos": "adjective",
+          "meanings": [
+            "not friendly"
+          ]
+        },
+        {
+          "en": "unhappy",
+          "ipa": "ʌnˈhæp.i",
+          "pos": "adjective",
+          "meanings": [
+            "sad"
+          ]
+        },
+        {
+          "en": "university",
+          "ipa": "ˌjuː.nɪˈvɜː.sɪ.ti",
+          "pos": "noun"
+        },
+        {
+          "en": "unlucky",
+          "ipa": "ʌnˈlʌk.i",
+          "pos": "adjective",
+          "meanings": [
+            "having or causing bad luck"
+          ]
+        },
+        {
+          "en": "usually",
+          "ipa": "ˈjuː.ʒu.ə.li",
+          "pos": "adverb",
+          "meanings": [
+            "in the way that most often happens"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "V",
+      "items": [
+        {
+          "en": "vanilla ice cream",
+          "ipa": "vəˈnɪl.ə aɪs kriːm",
+          "pos": "noun",
+          "meanings": [
+            "a sweet food with vanilla flavour made from frozen milk or cream and sugar"
+          ]
+        },
+        {
+          "en": "vegetable",
+          "ipa": "ˈvedʒ.tə.bl̩",
+          "pos": "noun",
+          "meanings": [
+            "a plant that you eat, for example a potato, onion, etc"
+          ]
+        },
+        {
+          "en": "vegetarian",
+          "ipa": "ˌvedʒ.ɪˈteə.ri.ən",
+          "pos": "noun",
+          "meanings": [
+            "someone who does not eat meat or fish"
+          ]
+        },
+        {
+          "en": "vegetarian lasagne",
+          "ipa": "ˌvedʒ.ɪˈteə.ri.ən ləˈzæn.jə",
+          "pos": "noun"
+        },
+        {
+          "en": "very",
+          "ipa": "ˈver.i",
+          "pos": "adverb",
+          "meanings": [
+            "used to make an adjective or adverb stronger"
+          ]
+        },
+        {
+          "en": "visiting new places",
+          "ipa": "ˈvɪzɪ.tɪŋ njuː pleɪsɪz",
+          "pos": "phrase",
+          "meanings": [
+            "visiting places not visited before"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "W",
+      "items": [
+        {
+          "en": "waiter",
+          "ipa": "ˈweɪ.tər",
+          "pos": "noun",
+          "meanings": [
+            "a man who works in a restaurant, bringing food to customers"
+          ]
+        },
+        {
+          "en": "waitress",
+          "ipa": "ˈweɪ.trəs",
+          "pos": "noun",
+          "meanings": [
+            "a woman who works in a restaurant, bringing food to customers"
+          ]
+        },
+        {
+          "en": "wallet",
+          "ipa": "ˈwɒl.ɪt",
+          "pos": "noun"
+        },
+        {
+          "en": "watch",
+          "ipa": "wɒtʃ",
+          "pos": "noun",
+          "meanings": [
+            "a small clock on a strap that you fasten round your arm"
+          ]
+        },
+        {
+          "en": "watch DVDs",
+          "ipa": "wɒtʃ ˌdiː.viːˈdiːz",
+          "pos": "phrase",
+          "meanings": [
+            "to watch films stored on small discs"
+          ]
+        },
+        {
+          "en": "watch the news",
+          "ipa": "wɒtʃ ðiː njuːz",
+          "pos": "phrase",
+          "meanings": [
+            "to watch the announcement of important events on television"
+          ]
+        },
+        {
+          "en": "watch TV",
+          "ipa": "wɒtʃ ˌtiːˈviː",
+          "pos": "phrase",
+          "meanings": [
+            "to watch television"
+          ]
+        },
+        {
+          "en": "watch TV programmes",
+          "ipa": "wɒtʃ ˌtiːˈviː ˈprəʊ.ɡræmz",
+          "pos": "phrase",
+          "meanings": [
+            "watch shows on television or radio"
+          ]
+        },
+        {
+          "en": "watch videos",
+          "ipa": "wɒtʃ ˈvɪd.i.əʊz",
+          "pos": "phrase",
+          "meanings": [
+            "watch recordings of moving pictures and sound, especially online"
+          ]
+        },
+        {
+          "en": "watching sport on TV",
+          "ipa": "wɒtʃɪŋ spɔːt ɒn ˌtiːˈviː",
+          "pos": "phrase",
+          "meanings": [
+            "watching games like football or tennis on television"
+          ]
+        },
+        {
+          "en": "water",
+          "ipa": "ˈwɔː.tər",
+          "pos": "noun",
+          "meanings": [
+            "the clear liquid that falls from the sky as rain and that is in seas, lakes, and rivers"
+          ]
+        },
+        {
+          "en": "weather",
+          "ipa": "ˈweð.ər",
+          "pos": "noun",
+          "meanings": [
+            "the temperature or conditions outside, for example if it is hot, cold, sunny, etc"
+          ]
+        },
+        {
+          "en": "wedding",
+          "ipa": "ˈwed.ɪŋ",
+          "pos": "noun",
+          "meanings": [
+            "an official ceremony at which a man and woman get married"
+          ]
+        },
+        {
+          "en": "Wednesday",
+          "ipa": "ˈwenz.deɪ",
+          "pos": "noun",
+          "meanings": [
+            "the day of the week after Tuesday and before Thursday"
+          ]
+        },
+        {
+          "en": "week",
+          "ipa": "wiːk",
+          "pos": "noun",
+          "meanings": [
+            "a period of seven days"
+          ]
+        },
+        {
+          "en": "weekend",
+          "ipa": "ˌwiːkˈend",
+          "pos": "noun",
+          "meanings": [
+            "Saturday and Sunday, the two days in the week when many people do not work"
+          ]
+        },
+        {
+          "en": "went",
+          "ipa": "went",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of go"
+          ]
+        },
+        {
+          "en": "What",
+          "ipa": "wɒt",
+          "pos": "pronoun",
+          "meanings": [
+            "used to ask for information about something"
+          ]
+        },
+        {
+          "en": "When",
+          "ipa": "wen",
+          "pos": "pronoun",
+          "meanings": [
+            "used to ask at what time something happened or will happen"
+          ]
+        },
+        {
+          "en": "Where",
+          "ipa": "weər",
+          "pos": "adverb",
+          "meanings": [
+            "used to ask about the place or position of someone or something"
+          ]
+        },
+        {
+          "en": "white",
+          "ipa": "waɪt",
+          "pos": "adjective",
+          "meanings": [
+            "being the colour of snow or milk"
+          ]
+        },
+        {
+          "en": "Who",
+          "ipa": "huː",
+          "pos": "pronoun"
+        },
+        {
+          "en": "Why",
+          "ipa": "waɪ",
+          "pos": "adverb",
+          "meanings": [
+            "used to ask or talk about the reasons for something"
+          ]
+        },
+        {
+          "en": "wife",
+          "ipa": "waɪf",
+          "pos": "noun",
+          "meanings": [
+            "the woman that a man is married to"
+          ]
+        },
+        {
+          "en": "woman",
+          "ipa": "ˈwʊm.ən",
+          "pos": "noun",
+          "meanings": [
+            "an adult female person"
+          ]
+        },
+        {
+          "en": "work for a Spanish company",
+          "ipa": "wɜːk fɔːr ə ˈspæn.ɪʃ ˈkʌm.pə.ni",
+          "pos": "phrase",
+          "meanings": [
+            "to work for a company from Spain"
+          ]
+        },
+        {
+          "en": "work in an office",
+          "ipa": "wɜːk ɪn ən ˈɒf.ɪs",
+          "pos": "phrase",
+          "meanings": [
+            "to work in a building where other people work"
+          ]
+        },
+        {
+          "en": "work in groups",
+          "ipa": "wɜːk ɪn ɡruːps",
+          "pos": "phrase",
+          "meanings": [
+            "work together"
+          ]
+        },
+        {
+          "en": "work in pairs",
+          "ipa": "wɜːk ɪn peəz",
+          "pos": "phrase",
+          "meanings": [
+            "work in groups of two people who are doing something together"
+          ]
+        },
+        {
+          "en": "write",
+          "ipa": "raɪt",
+          "pos": "verb",
+          "meanings": [
+            "to make words, letters, or numbers on a surface using a pen or pencil",
+            "to create a book, story, article, etc or a piece of music"
+          ]
+        },
+        {
+          "en": "write a blog",
+          "ipa": "raɪt ə blɒɡ",
+          "pos": "phrase"
+        },
+        {
+          "en": "wrong",
+          "ipa": "rɒŋ",
+          "pos": "adjective",
+          "meanings": [
+            "not correct"
+          ]
+        },
+        {
+          "en": "wrote",
+          "ipa": "rəʊt",
+          "pos": "verb",
+          "meanings": [
+            "Past Simple of write"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Y",
+      "items": [
+        {
+          "en": "year",
+          "ipa": "jɪər",
+          "pos": "noun"
+        },
+        {
+          "en": "yellow",
+          "ipa": "ˈjel.əʊ",
+          "pos": "adjective",
+          "meanings": [
+            "being the same colour as a lemon or the sun"
+          ]
+        },
+        {
+          "en": "yesterday morning",
+          "ipa": "ˈjes.tə.deɪ ˈmɔː.nɪŋ",
+          "pos": "phrase",
+          "meanings": [
+            "the morning of the day before today"
+          ]
+        },
+        {
+          "en": "young",
+          "ipa": "jʌŋ",
+          "pos": "adjective",
+          "meanings": [
+            "having lived or existed for only a short time and not old"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Z",
+      "items": [
+        {
+          "en": "zero",
+          "ipa": "ˈzɪə.rəʊ",
+          "pos": "number",
+          "meanings": [
+            "the number 0; nothing"
+          ]
+        }
+      ]
+    }
+  ]
+}

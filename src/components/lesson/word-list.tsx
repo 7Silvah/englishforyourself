@@ -2,19 +2,8 @@ import { Switch } from "@/components/ui/switch";
 import type { Word, WordList as WordListData } from "@/content/schema";
 import { useSettingsStore } from "@/features/settings/store";
 import { es } from "@/i18n/es";
+import { FalseFriendBadge } from "./false-friend-badge";
 import { SpeakButton } from "./speak-button";
-
-// Aviso de falso amigo: texto además del color (no solo el color)
-function FalseFriendBadge({ word }: { word: string }) {
-  return (
-    <span
-      lang="es"
-      className="rounded bg-neg-soft px-1.5 py-0.5 text-xs font-normal text-foreground"
-    >
-      {es.lesson.falseFriendBadge(word)}
-    </span>
-  );
-}
 
 function hasDetails(words: Word[]) {
   return words.some((w) => (w.meanings?.length ?? 0) > 0 || w.example);
@@ -25,7 +14,10 @@ function WordGrid({ words, showEs }: { words: Word[]; showEs: boolean }) {
   return (
     <ul className="grid gap-x-6 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
       {words.map((w) => (
-        <li key={w.en} className="flex items-center gap-1 border-b border-dashed py-1">
+        <li
+          key={`${w.en}|${w.pos ?? ""}`}
+          className="flex items-center gap-1 border-b border-dashed py-1"
+        >
           <span lang="en" className="font-medium">
             {w.en}
           </span>
@@ -45,7 +37,7 @@ function WordDefinitions({ words, showEs }: { words: Word[]; showEs: boolean }) 
       {words.map((w) => {
         const meanings = w.meanings ?? [];
         return (
-          <div key={w.en} className="px-4 py-3" lang="en">
+          <div key={`${w.en}|${w.pos ?? ""}`} className="px-4 py-3" lang="en">
             <dt className="flex flex-wrap items-center gap-x-2 font-semibold">
               {w.en}
               {showEs && w.es && (

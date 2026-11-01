@@ -102,4 +102,19 @@ describe("deckCards", () => {
     ]);
     expect(cards.map((c) => c.key)).toEqual(["vocabulary/house#Fork", "vocabulary/house#Knife"]);
   });
+
+  it("la misma palabra con otro tipo y otra traducción da una tarjeta con las dos", () => {
+    const cards = deckCards("vocabulary-by-level/starter-a1", [
+      { en: "drink", es: "bebida", ipa: "drɪŋk" },
+      { en: "drink", es: "beber / tomar", ipa: "drɪŋk" },
+    ]);
+    expect(cards).toEqual([
+      {
+        key: "vocabulary-by-level/starter-a1#drink",
+        en: "drink",
+        es: "bebida / beber / tomar",
+        ipa: "drɪŋk",
+      },
+    ]);
+  });
 });

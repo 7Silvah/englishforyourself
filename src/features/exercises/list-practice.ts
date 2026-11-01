@@ -20,10 +20,17 @@ const COLLOCATION_VERBS = ["make", "do", "have", "take"];
 const collocationVerb = (lesson: LessonEntry) => lesson.slug.match(/-with-(\w+)$/)?.[1];
 
 /** Secciones que ofrecen práctica, en el orden en que se muestran */
-export const PRACTICE_SECTIONS = ["vocabulary", "phrasal-verbs", "collocations", "ways-to-say"];
+export const PRACTICE_SECTIONS = [
+  "vocabulary-by-level",
+  "vocabulary",
+  "phrasal-verbs",
+  "collocations",
+  "ways-to-say",
+];
 
 export function canPractice(lesson: LessonEntry): boolean {
   switch (lesson.section) {
+    case "vocabulary-by-level":
     case "vocabulary":
     case "phrasal-verbs":
       return lesson.translatedCount > 0;
@@ -46,6 +53,8 @@ export async function loadListPractice(lesson: LessonEntry): Promise<ListPractic
   if (!canPractice(lesson)) return undefined;
   const siblings = getSectionLessons(lesson.section).filter(canPractice);
   switch (lesson.section) {
+    // Las listas por nivel se practican como las de vocabulario: palabra ↔ traducción
+    case "vocabulary-by-level":
     case "vocabulary":
       return {
         kind: "vocabulary",

@@ -8,7 +8,7 @@ import { seededShuffle } from "@/lib/random";
 
 export type CardState = { box: number; due: string }; // due: día "2026-10-30" en que toca repasarla
 
-export type Card = { key: string; en: string; es: string };
+export type Card = { key: string; en: string; es: string; ipa?: string };
 
 /** Días que espera una tarjeta según su caja (la caja 1 vuelve el mismo día) */
 export const BOX_INTERVALS = [0, 1, 3, 7, 14] as const;
@@ -26,15 +26,19 @@ export function cardKey(listPath: string, en: string): string {
  * Tarjetas de una lista: las palabras con traducción, una sola vez cada una. Una palabra
  * puede estar en dos grupos (fork, en comedor y en cocina) y comparte clave: repetida, la
  * sesión la mostraría dos veces y el contador de nuevas de la lista nunca llegaría a 0.
+ * Si se repite con otra traducción (drink: bebida y beber, F17c), la tarjeta lleva las dos.
  */
 export function deckCards(
   listPath: string,
-  words: readonly { en: string; es?: string | undefined }[],
+  words: readonly { en: string; es?: string | undefined; ipa?: string | undefined }[],
 ): Card[] {
   const cards = new Map<string, Card>();
-  for (const { en, es } of words) {
+  for (const { en, es, ipa } of words) {
+    if (!es) continue;
     const key = cardKey(listPath, en);
-    if (es && !cards.has(key)) cards.set(key, { key, en, es });
+    const card = cards.get(key);
+    if (!card) cards.set(key, { key, en, es, ...(ipa && { ipa }) });
+    else if (card.es !== es) card.es = `${card.es} / ${es}`;
   }
   return [...cards.values()];
 }

@@ -24,6 +24,19 @@ function isControl(target: EventTarget | null): boolean {
   );
 }
 
+// Pronunciación británica, junto al lado en inglés (listas por nivel, F17c)
+function Ipa({ ipa }: { ipa: string }) {
+  return (
+    <p
+      lang="en-fonipa"
+      title={es.library.vocabularyTable.ipaLabel}
+      className="text-muted-foreground"
+    >
+      /{ipa}/
+    </p>
+  );
+}
+
 export function FlashcardSession({ cards }: { cards: readonly Card[] }) {
   const answer = useFlashcardStore((state) => state.answer);
   // La sesión se arma una vez con el estado de ese momento; las respuestas no la cambian
@@ -136,6 +149,7 @@ export function FlashcardSession({ cards }: { cards: readonly Card[] }) {
           <span lang={reverse ? "es" : "en"}>{front}</span>
           {!reverse && <SpeakButton text={current.en} />}
         </p>
+        {!reverse && current.ipa && <Ipa ipa={current.ipa} />}
         {/* aria-live: al girar la tarjeta, el lector de pantalla lee la respuesta */}
         <div aria-live="polite" className="min-h-10">
           {flipped && (
@@ -144,6 +158,7 @@ export function FlashcardSession({ cards }: { cards: readonly Card[] }) {
               {reverse && <SpeakButton text={current.en} />}
             </p>
           )}
+          {flipped && reverse && current.ipa && <Ipa ipa={current.ipa} />}
         </div>
       </div>
 

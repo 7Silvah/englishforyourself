@@ -396,6 +396,55 @@ export const es = {
     practiceTense: "Practica este tiempo verbal",
     showTranslations: "Mostrar traducciones",
     emptySection: "Esta sección todavía no tiene lecciones.",
+    // Tabla de las listas por nivel (F17c)
+    vocabularyTable: {
+      search: "Buscar en la lista",
+      searchPlaceholder: "Palabra en inglés o en español",
+      letter: "Letra",
+      type: "Tipo",
+      all: "Todas",
+      types: {
+        noun: "Sustantivos",
+        verb: "Verbos",
+        adjective: "Adjetivos",
+        adverb: "Adverbios",
+        phrase: "Expresiones",
+        other: "Otras",
+      },
+      // Tipo de cada palabra, como lo da la fuente
+      pos: {
+        noun: "sustantivo",
+        verb: "verbo",
+        "phrasal verb": "phrasal verb",
+        "modal verb": "verbo modal",
+        adjective: "adjetivo",
+        adverb: "adverbio",
+        pronoun: "pronombre",
+        determiner: "determinante",
+        quantifier: "cuantificador",
+        number: "número",
+        preposition: "preposición",
+        conjunction: "conjunción",
+        exclamation: "interjección",
+        prefix: "prefijo",
+        phrase: "expresión",
+        idiom: "modismo",
+      },
+      columns: {
+        word: "Palabra",
+        type: "Tipo",
+        spanish: "Español",
+        meaning: "Significado y ejemplo",
+      },
+      ipaLabel: "Pronunciación británica",
+      listenWord: (word: string) => `Escuchar «${word}»`,
+      showing: (shown: number, total: number) =>
+        shown === total
+          ? `${total} palabras`
+          : `${shown} de ${total} ${total === 1 ? "palabra" : "palabras"}`,
+      empty: "Ninguna palabra coincide con estos filtros.",
+      clear: "Quitar filtros",
+    },
   },
   flashcards: {
     title: "Flashcards",
