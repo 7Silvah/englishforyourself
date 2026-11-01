@@ -878,7 +878,7 @@ hacen en commits propios; `reviewed` sigue en `false` (D1).
 #### F16 — Unidades B1–B2
 - [ ] Unidades de §6.1 (intermedio), con todos los worksheets restantes enlazados.
 - [ ] Sets de muestra por unidad, como en F6 y F9 (guiada, libre, más práctica y repaso, al menos 6 tipos), `reviewed: false` (D1).
-- [ ] Página `/dev/revision` (solo en desarrollo): sets y listas con `reviewed: false`, agrupados por unidad, con enlace para jugarlos.
+- [x] Página `/dev/revision` (solo en desarrollo): sets y listas con `reviewed: false`, agrupados por unidad (con su papel: guiada, libre, worksheet, repaso), los sets fuera de las unidades y las listas por sección, con enlaces para jugarlos, Flashcards y Practicar. Adelantada a petición del dueño del repo. 193 tests.
 #### F17 — Prueba de nivel
 - [ ] Unos 30 ítems escalonados A1→B2; recomienda una unidad y marca como vistas las anteriores.
 

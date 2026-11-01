@@ -21,6 +21,7 @@ import { Route as BibliotecaIndexRouteImport } from './routes/biblioteca/index'
 import { Route as BibliotecaSectionRouteRouteImport } from './routes/biblioteca/$section/route'
 import { Route as CursoIndexRouteImport } from './routes/curso/index'
 import { Route as CursoUnidadRouteImport } from './routes/curso/$unidad'
+import { Route as DevRevisionRouteImport } from './routes/dev/revision'
 import { Route as DevUiRouteImport } from './routes/dev/ui'
 import { Route as EjerciciosIndexRouteImport } from './routes/ejercicios/index'
 import { Route as EjerciciosIdRouteRouteImport } from './routes/ejercicios/$id/route'
@@ -93,6 +94,11 @@ const CursoUnidadRoute = CursoUnidadRouteImport.update({
   path: '/$unidad',
   getParentRoute: () => CursoRouteRoute,
 } as any)
+const DevRevisionRoute = DevRevisionRouteImport.update({
+  id: '/dev/revision',
+  path: '/dev/revision',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DevUiRoute = DevUiRouteImport.update({
   id: '/dev/ui',
   path: '/dev/ui',
@@ -161,6 +167,7 @@ export interface FileRoutesByFullPath {
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
+  '/dev/revision': typeof DevRevisionRoute
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/practicar/flashcards': typeof PracticarFlashcardsRoute
@@ -181,6 +188,7 @@ export interface FileRoutesByTo {
   '/progreso': typeof ProgresoRoute
   '/repaso': typeof RepasoRoute
   '/curso/$unidad': typeof CursoUnidadRoute
+  '/dev/revision': typeof DevRevisionRoute
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/practicar/flashcards': typeof PracticarFlashcardsRoute
@@ -207,6 +215,7 @@ export interface FileRoutesById {
   '/biblioteca/$section': typeof BibliotecaSectionRouteRouteWithChildren
   '/ejercicios/$id': typeof EjerciciosIdRouteRouteWithChildren
   '/curso/$unidad': typeof CursoUnidadRoute
+  '/dev/revision': typeof DevRevisionRoute
   '/dev/ui': typeof DevUiRoute
   '/herramientas/tense-lab': typeof HerramientasTenseLabRoute
   '/practicar/flashcards': typeof PracticarFlashcardsRoute
@@ -234,6 +243,7 @@ export interface FileRouteTypes {
     | '/biblioteca/$section'
     | '/ejercicios/$id'
     | '/curso/$unidad'
+    | '/dev/revision'
     | '/dev/ui'
     | '/herramientas/tense-lab'
     | '/practicar/flashcards'
@@ -254,6 +264,7 @@ export interface FileRouteTypes {
     | '/progreso'
     | '/repaso'
     | '/curso/$unidad'
+    | '/dev/revision'
     | '/dev/ui'
     | '/herramientas/tense-lab'
     | '/practicar/flashcards'
@@ -279,6 +290,7 @@ export interface FileRouteTypes {
     | '/biblioteca/$section'
     | '/ejercicios/$id'
     | '/curso/$unidad'
+    | '/dev/revision'
     | '/dev/ui'
     | '/herramientas/tense-lab'
     | '/practicar/flashcards'
@@ -302,6 +314,7 @@ export interface RootRouteChildren {
   BuscarRoute: typeof BuscarRoute
   ProgresoRoute: typeof ProgresoRoute
   RepasoRoute: typeof RepasoRoute
+  DevRevisionRoute: typeof DevRevisionRoute
   DevUiRoute: typeof DevUiRoute
   HerramientasTenseLabRoute: typeof HerramientasTenseLabRoute
   PracticarFlashcardsRoute: typeof PracticarFlashcardsRoute
@@ -393,6 +406,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/curso/$unidad'
       preLoaderRoute: typeof CursoUnidadRouteImport
       parentRoute: typeof CursoRouteRoute
+    }
+    '/dev/revision': {
+      id: '/dev/revision'
+      path: '/dev/revision'
+      fullPath: '/dev/revision'
+      preLoaderRoute: typeof DevRevisionRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/dev/ui': {
       id: '/dev/ui'
@@ -556,6 +576,7 @@ const rootRouteChildren: RootRouteChildren = {
   BuscarRoute: BuscarRoute,
   ProgresoRoute: ProgresoRoute,
   RepasoRoute: RepasoRoute,
+  DevRevisionRoute: DevRevisionRoute,
   DevUiRoute: DevUiRoute,
   HerramientasTenseLabRoute: HerramientasTenseLabRoute,
   PracticarFlashcardsRoute: PracticarFlashcardsRoute,
