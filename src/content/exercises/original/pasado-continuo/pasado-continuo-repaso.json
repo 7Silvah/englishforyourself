@@ -1,0 +1,96 @@
+{
+  "title": "Past continuous: review",
+  "titleEs": "Pasado continuo: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-continuo",
+  "topics": [
+    "past-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "___ you sleeping when I called?",
+      "options": [
+        "Were",
+        "Did",
+        "Was"
+      ],
+      "answer": 0,
+      "explanationEs": "Pregunta en pasado continuo con you: Were you…? Did no va con -ing."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "I ___ my keys while I was running.",
+      "options": [
+        "lost",
+        "was lose",
+        "losing"
+      ],
+      "answer": 0,
+      "explanationEs": "Perder las llaves es algo corto que pasa de repente: pasado simple, lost."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "It was raining when we left the cinema.",
+      "answer": true,
+      "explanationEs": "La lluvia es el fondo (was raining); salir, lo que pasó (left)."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "While I was cooking, my brother was set the table.",
+      "answer": false,
+      "explanationEs": "Después de was, el verbo con -ing: was setting the table."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Were they playing in the park?"
+      ],
+      "distractors": [
+        "Did"
+      ],
+      "explanationEs": "Pregunta: were + sujeto + verbo con -ing."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "When you phoned, I ___ (to take) a shower.",
+      "blanks": [
+        {
+          "answers": [
+            "was taking"
+          ]
+        }
+      ],
+      "explanationEs": "Lo que estaba haciendo cuando sonó el teléfono: was taking."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "The children were making a lot of noise.",
+      "to": "neg",
+      "answers": [
+        "The children weren't making a lot of noise."
+      ],
+      "explanationEs": "Negativa con un plural: weren't + verbo con -ing."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "I was walk to school when it started to rain.",
+      "wrong": "walk",
+      "answers": [
+        "walking"
+      ],
+      "explanationEs": "Después de was, el verbo con -ing: was walking."
+    }
+  ]
+}
