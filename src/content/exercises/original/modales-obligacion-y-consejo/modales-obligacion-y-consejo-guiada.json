@@ -1,0 +1,75 @@
+{
+  "title": "Modals: obligation and advice: guided practice",
+  "titleEs": "Modales: obligación y consejo: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "modales-obligacion-y-consejo",
+  "topics": [
+    "modals",
+    "obligation"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "You ___ smoke in the hospital. It's forbidden.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "shouldn't to"
+      ],
+      "answer": 0,
+      "explanationEs": "Está prohibido: mustn't."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "It's Sunday, so I ___ get up early.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "haven't to"
+      ],
+      "answer": 0,
+      "explanationEs": "No hace falta (pero no está prohibido): don't have to."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "You should drink more water.",
+      "answer": true,
+      "explanationEs": "Un consejo: should + verbo sin to."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "He musts finish the report today.",
+      "answer": false,
+      "explanationEs": "Must no cambia con la persona: He must finish…"
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Do you have to wear a uniform?"
+      ],
+      "distractors": [
+        "Are"
+      ],
+      "explanationEs": "Have to hace la pregunta con do: Do you have to…?"
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "You shouldn't drive so fast."
+      ],
+      "distractors": [
+        "to"
+      ],
+      "explanationEs": "Después de shouldn't, el verbo sin to."
+    }
+  ]
+}
