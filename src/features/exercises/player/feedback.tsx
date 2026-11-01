@@ -21,21 +21,23 @@ export function Feedback({ item, result }: { item: ExerciseItem; result: CheckRe
   const showSolution = result.status === "wrong" || (result.status === "correct" && listen);
 
   return (
-    <div className={cn("space-y-2 rounded-lg border p-4", statusClasses[result.status])}>
-      <p className="flex items-center gap-2 font-semibold">
-        <Icon className="size-5 shrink-0" aria-hidden />
-        {t[result.status]}
-      </p>
-      {showSolution && (
-        <p className="flex flex-wrap items-center gap-x-2">
-          {result.status === "wrong" && <span>{t.solution}</span>}
-          <strong lang="en">{solutionText(item)}</strong>
-          {listen && <SpeakButton text={solutionSentence(item)} />}
-        </p>
-      )}
-      {result.status !== "almost" && item.explanationEs && (
-        <p className="text-foreground">{item.explanationEs}</p>
-      )}
+    <div className={cn("flex gap-3 rounded-xl border p-4", statusClasses[result.status])}>
+      <span className="flex size-9 shrink-0 items-center justify-center rounded-full border border-current/30">
+        <Icon className="size-5" aria-hidden />
+      </span>
+      <div className="min-w-0 flex-1 space-y-2">
+        <p className="pt-1.5 font-semibold">{t[result.status]}</p>
+        {showSolution && (
+          <p className="flex flex-wrap items-center gap-x-2">
+            {result.status === "wrong" && <span>{t.solution}</span>}
+            <strong lang="en">{solutionText(item)}</strong>
+            {listen && <SpeakButton text={solutionSentence(item)} />}
+          </p>
+        )}
+        {result.status !== "almost" && item.explanationEs && (
+          <p className="text-foreground">{item.explanationEs}</p>
+        )}
+      </div>
     </div>
   );
 }
