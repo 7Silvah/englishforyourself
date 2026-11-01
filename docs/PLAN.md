@@ -12,7 +12,7 @@
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
-| R · Revisión crítica del contenido | R1–R4 | 🟨 en curso — R1 ✅ R2 ✅ |
+| R · Revisión crítica del contenido | R1–R4 | 🟨 en curso — R1 ✅ R2 ✅ R3 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -21,25 +21,27 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 31/10/2026, con R2 terminada en la rama `r2-revision-unidades-9-16` (sale
-de `desarrollo`, que ya tiene F15, D1 y R1).*
+*Actualizado el 31/10/2026, con R3 terminada en la rama `r3-revision-worksheets` (sale
+de `main` en 6029cbb: al fusionar el PR #14, GitHub borró `desarrollo`, que tenía lo mismo).*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `r2-revision-unidades-9-16` hacia `desarrollo`** y fusionarlo con la CI en verde.
-- [ ] **Decidir los dos hallazgos del motor** de R1 y R2 (§11, «R1»): la coma en
-  `check.ts` y el `error-correction` con varias palabras. No bloquean.
-- [ ] **Proteger `desarrollo`** si aún no lo hiciste: *Settings → Rules → Rulesets*, regla
-  **Restrict deletions** (así *Automatically delete head branches* no la borra al pasarla a `main`).
+- [ ] **Recuperar `desarrollo`**: `git push origin main:refs/heads/desarrollo`, o en GitHub
+  *Branches → New branch* desde `main`. Y **protegerla** para que no vuelva a pasar:
+  *Settings → Rules → Rulesets*, regla **Restrict deletions** sobre `desarrollo` (*Automatically
+  delete head branches* la borra al fusionar el PR de `desarrollo` hacia `main`).
+- [ ] **Abrir el PR de `r3-revision-worksheets` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Decidir los hallazgos del motor** de R1–R3 (§11, «R1» y «R3»): la coma en
+  `check.ts`, el `error-correction` con varias palabras y las tag questions sin contraer. No bloquean.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
   [DESPLIEGUE.md](DESPLIEGUE.md).
 - [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–16, sus sets,
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, y los 207 phrasal verbs de
   F15. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: R3, revisión crítica de los 35 worksheets** (§11, «Revisión de
-contenido»). Después R4 (traducciones de las listas) y luego la Etapa 4 (F16,
-unidades B1–B2), que sale con sets de muestra según D1 (§14).
+**2. Siguiente: R4, revisión crítica de las traducciones de las listas** (§11,
+«Revisión de contenido»). Después la Etapa 4 (F16, unidades B1–B2), que sale con
+sets de muestra según D1 (§14).
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -859,7 +861,13 @@ hacen en commits propios; `reviewed` sigue en `false` (D1).
 - [x] Ejercicios (14): la unidad 12 usaba *did* en 4 ítems antes de la unidad 13 (cambiados por errores de tiempo y de concordancia: *Are you at work yesterday?*, *Was you at home?*, *The exam no was…*); dictados que acepten la frase sin coma y *10* por *ten*; edades con letras; *I think that…*; superlativos sin *the* en la tabla; *usually* al principio; en la tabla de *in/on/at*, *the table* y *school* tenían dos respuestas válidas (*at the table*, *in school* en EE. UU.) y pasan a *the wall* y *home*; *Because I was tired, so I went* admite quitar cualquiera de los dos conectores; explicación de cómo suena *can't*.
 - **Dudas para el profesional:** unidad 10, más práctica 1: *Vamos a la playa* se empareja con *Let's go to the beach*, pero también puede ser *We're going to the beach*. Unidad 16: el orden «cómo → dónde → cuándo» cambia con verbos de movimiento (*I went home quickly*); la explicación no lo menciona.
 #### R3 — Worksheets
-- [ ] 35 sets `source: "worksheet"`.
+- [x] 35 sets `source: "worksheet"` (350 huecos, todos `fill-blank`). No llevan `explanationEs`: escribirlas sería contenido nuevo, y no se pidió.
+- [x] Errores evidentes en el enunciado (5, indicados en el commit): *the most expensive **from** the store* → ***in*** (la unidad 15 enseña justo eso); *nap **for** all morning*; *will have been reading **two books*** (el continuo no va con una cantidad terminada → *for two hours*); *seek **for** help*; *I hope to see **you** very soon* (faltaba el objeto).
+- [x] Claves con respuestas no válidas (2): *if she **'d** more money* (had de poseer no se contrae) y la tag ***'s he***.
+- [x] Respuestas que faltaban: ortografía británica (*learnt*, *burnt*, *organise*, *memorised*), *'m* en *verb-to-be* (ya aceptaba *'s*) y el condicional mixto en *third-conditional* #6 y #8 (*I would know how to paint*).
+- **Hallazgo del motor (pendiente de decidir):**
+  - [ ] Las tag questions aceptan la forma sin contraer (*are not you*, *does not she*), que no es correcta: `canonical` desarrolla *n't* antes de comparar. Afecta a los 6 ítems con tag negativa de *tag-questions*. Propuesta: no desarrollar las contracciones cuando la respuesta es una tag (un campo en el ítem o en el set).
+- **Dudas para el profesional:** *past-continuous-negative* #6 *answer the exam* (calco de «contestar el examen»: *do/take the exam*, pero el verbo lo da el enunciado); *zero-conditional* #6 *If you put chicken in oil, it fries* (solo en aceite caliente); *first-conditional* #10 *do a presentation* (más natural *give*); *past-perfect-negative* #10 y *future-perfect-continuous* #7, frases correctas pero de sentido raro.
 #### R4 — Traducciones de las listas
 - [ ] 19 listas A1–A2 (con sus 5 falsos amigos) y 12 de phrasal verbs.
 
