@@ -14,7 +14,7 @@
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
-| 4 · Gramática intermedia (B1–B2) | F16–F17 | ✅ terminada — F16 ✅ F17 ✅ |
+| 4 · Gramática intermedia (B1–B2) | F16–F17b | ✅ terminada — F16 ✅ F17 ✅ F17b ✅ |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
@@ -22,19 +22,21 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 01/11/2026, con F17 terminada en la rama `f17-prueba-de-nivel`: con ella se
+*Actualizado el 01/11/2026, con F17b terminada en la rama `f17b-niveles-mcer`: con ella se
 cierra la Etapa 4.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `f17-prueba-de-nivel` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [x] **Abrir el PR de `f17-prueba-de-nivel` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Abrir el PR de `f17b-niveles-mcer`** cuando termine F17b.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)**, cuando decidas (el 01/11/2026 decidiste dejarlo para más adelante), con
   [DESPLIEGUE.md](DESPLIEGUE.md).
 - [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–29, sus sets,
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: Etapa 5, F18 (calidad y PWA)**: Playwright de punta a punta, axe en las
+**2. Siguiente: Etapa 5, F18 (calidad y PWA)**, aplazada el 01/11/2026 para hacer antes F17b
+(ya terminada) y los ajustes del curso que decidas: Playwright de punta a punta, axe en las
 páginas clave, la app instalable y sin conexión (`vite-plugin-pwa`), JS inicial < 200 KB y
 metadatos por ruta. F19 (publicación) espera a resolver los derechos del contenido (§14).
 
@@ -163,10 +165,12 @@ llega con un nivel previo.
 |---|---|
 | F16 | Unidades intermedias (tiempos perfectos y continuos, condicionales, voz pasiva, gerundio/infinitivo, tag questions, estilo indirecto, relativos, modales) |
 | F17 | Prueba de nivel inicial que recomienda desde qué unidad empezar |
+| F17b | Niveles del MCER en el curso y en la prueba: un bloque por nivel (A1, A2, B1, B2) y «tu nivel» |
 
 **Terminada cuando:**
 - Todos los worksheets restantes están enlazados a una unidad.
 - La prueba de nivel recomienda una unidad.
+- El curso se organiza por niveles del MCER y el estudiante sabe en cuál está.
 
 ### Etapa 5 — Calidad, offline y publicación
 | Fase | Qué se construye |
@@ -324,20 +328,21 @@ la acompaña.
 | 14 | Futuro | *will* vs. *going to* | *going to* para planes; *will* para decisiones en el momento | Future Simple, Going To, Future Negative |
 | 15 | Comparativos y superlativos | *-er/-est*, *more/most*, irregulares | *more big* ✗ | Comparative & Superlative |
 | 16 | Unir ideas | *and, but, or, because, so*; orden de los adverbios | — | — |
+| 17 | Pasado continuo | *was/were + -ing*; con el pasado simple (*when/while*) | — | Past Continuous (+ negativa) |
 
-**Intermedio — B1–B2 (etapa 4, F16)**, con los worksheets restantes:
-- Present perfect (+ continuo) y su contraste con el past simple.
-- Past continuous.
-- Past perfect (+ continuo).
-- Future continuous y future perfect (+ continuo).
-- Condicionales 0, 1, 2 y 3.
-- Voz pasiva.
-- Gerundio e infinitivo.
-- Tag questions.
-- Estilo indirecto.
-- Oraciones de relativo.
-- Modales de obligación y consejo.
-- Deseos y arrepentimientos.
+La unidad 17 se escribió en F16, pero es A2: desde F17b está en Fundamentos II.
+
+**Intermedio I — B1 (etapa 4, F16)**, con los worksheets restantes: 18 presente perfecto
+(+ continuo) y su contraste con el pasado simple, 19 pasado perfecto (+ continuo),
+20 condicionales 0 y 1, 21 condicionales 2 y 3, 22 voz pasiva, 23 gerundio e infinitivo,
+24 tag questions, 25 oraciones de relativo, 26 modales de obligación y consejo.
+
+**Intermedio II — B2 (etapa 4, F16)**: 27 futuro continuo y perfecto (+ continuo),
+28 estilo indirecto, 29 deseos y arrepentimientos.
+
+Desde F17b los bloques son los niveles (campo `level`) y no se mezclan: la antigua unidad 20
+(futuro continuo y perfecto) pasó a ser la 27, y las F16 que en el historial aparecen como
+21–27 son ahora las 20–26.
 
 ### 6.2 Anatomía de una unidad
 
@@ -376,11 +381,10 @@ el prefijo `NN`. Esquema en `content/schema.ts` (`UnitMeta`).
 ```mdx
 ---
 number: 3
-block: fundamentos-1          # fundamentos-1 | fundamentos-2 | intermedio
 title: The Verb To Be
 titleEs: El verbo to be (ser y estar)
 summaryEs: Am, is y are en afirmativa, negativa y pregunta…   # para el mapa del curso
-level: A1
+level: A1                     # A1 | A2 | B1 | B2: también decide el bloque del curso
 objectivesEs:                 # 2–4; entre comillas si llevan ": "
   - Usar am, is y are con cada pronombre.
   - Hacer frases negativas y preguntas con to be.
@@ -909,6 +913,38 @@ Trece unidades (17–29), una por tema de §6.1 salvo los condicionales, que van
 - [x] Se guarda en el progreso (`placement`, store v3 con migración): el curso recomienda desde esa unidad y muestra las anteriores sin empezar como «Vista en la prueba» (`shownStatus`). Acceso desde el curso (con «Repetir la prueba») y desde la portada si aún no hay progreso. 216 tests.
 
 **Listo cuando:** la prueba recomienda una unidad y el curso parte de ella. ✅
+
+#### F17b — Niveles del MCER en el curso y en la prueba
+Añadida el 01/11/2026 (F18 queda aplazada hasta cerrarla). Cada nivel del MCER tiene un
+propósito y el estudiante tiene que saber en cuál está. Las unidades B1 ya existen con sus
+ejercicios (18, 19 y 21–27, cada una con 4 sets de muestra de 26 ítems) y la prueba ya las
+mide, pero el curso las mezclaba con A2 y B2 bajo «Intermedio» y el resultado no decía
+ningún nivel. Rama `f17b-niveles-mcer`.
+- [x] La unidad 17 (pasado continuo, A2) pasa al bloque Fundamentos II.
+- [x] **Reordenar para que no se mezclen niveles**: la 20 (futuro continuo y perfecto, B2)
+  pasa detrás de las B1, como unidad 27; las 21–27 bajan a 20–26. Los slugs no cambian (el
+  progreso, los sets y la prueba usan el slug): cambian el número del archivo, `number` y las
+  referencias a otras unidades en la 21, la 26 y la 29. Las 20–26 no usan futuro continuo
+  ni perfecto (comprobado en sus explicaciones y sets).
+- [x] **Un bloque por nivel**: el curso, `/progreso` y `/repaso` agrupan por `level` con
+  `groupByLevel` (`features/course/logic.ts`, sustituye a `levelRange`) y se quita el campo
+  `block`. Títulos «A1 · Fundamentos I» … «B2 · Intermedio II», cada uno con lo que sabrás
+  hacer al terminarlo (`es.course.levels`).
+- [x] **La prueba dice el nivel**: «Empiezas en el nivel B1 · Intermedio I», el nivel de la
+  unidad recomendada, con lo que significa. Se calcula, no se guarda aparte.
+- [x] **Medir mejor B2**: segunda pregunta para las 3 unidades B2 (*will have finished*,
+  *told us to be*, *should have gone*), 34 preguntas, `reviewed: false`. La de futuro
+  continuo pasa detrás de las B1, para que el orden siga de más fácil a más difícil.
+- [x] **El curso y `/progreso` muestran «Estás en el nivel B1 · Intermedio I»**: el nivel de la
+  unidad recomendada (la de la prueba o la primera sin dominar).
+- [x] Tests (`groupByLevel`, el nivel en el resultado de la prueba) y `content:check`, que ya
+  exige que `number` coincida con el nombre del archivo. 216 tests.
+
+Fuera de esta fase: subir las unidades B1–B2 a 40–60 ítems, que se hace por tandas y bajo
+petición (D1).
+
+**Listo cuando:** `/curso` muestra cuatro bloques (A1, A2, B1, B2) en orden y sin niveles
+mezclados, la prueba dice el nivel MCER y la unidad, y el curso muestra el nivel actual. ✅
 
 ### Etapa 5 — Calidad, offline y publicación
 #### F18 — Calidad y PWA

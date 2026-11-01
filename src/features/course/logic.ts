@@ -1,6 +1,6 @@
 // Estado de las unidades del curso. No se guarda: se calcula a partir de las notas
 // de los sets (store de progreso), así no hay dos fuentes que mantener sincronizadas.
-import type { UnitMeta } from "@/content/schema";
+import type { Level, UnitMeta } from "@/content/schema";
 import type { Attempt } from "@/features/progress/logic";
 
 export type UnitStatus = "new" | "started" | "completed" | "mastered";
@@ -67,10 +67,12 @@ export function shownStatus<T extends { slug: string; meta: UnitSets }>(
   return status === "new" && placed > units.indexOf(unit) ? "seen" : status;
 }
 
-/** Niveles de un bloque para su título: "A1" o, si mezcla niveles, "A2–B2" */
-export function levelRange(levels: readonly string[]): string {
-  const sorted = [...new Set(levels)].sort();
-  const first = sorted[0] ?? "";
-  const last = sorted[sorted.length - 1] ?? "";
-  return first === last ? first : `${first}–${last}`;
+/** Bloques del curso: las unidades agrupadas por nivel, en el orden en que aparecen */
+export function groupByLevel<T extends { meta: { level: Level } }>(
+  units: readonly T[],
+): [Level, T[]][] {
+  const groups = new Map<Level, T[]>();
+  for (const unit of units)
+    groups.set(unit.meta.level, [...(groups.get(unit.meta.level) ?? []), unit]);
+  return [...groups];
 }

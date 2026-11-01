@@ -64,6 +64,10 @@ export function PlacementTest({ items }: { items: readonly PlacementItem[] }) {
         <h2 className="font-heading text-xl font-semibold">{t.resultTitle}</h2>
         {recommended && (
           <>
+            <p className="text-2xl font-bold">
+              {t.level(recommended.meta.level, es.course.levels[recommended.meta.level].name)}
+            </p>
+            <p className="text-muted-foreground">{es.course.levels[recommended.meta.level].goal}</p>
             <p className="text-lg">
               {allGood
                 ? t.allGood

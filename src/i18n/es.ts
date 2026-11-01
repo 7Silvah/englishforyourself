@@ -58,11 +58,31 @@ export const es = {
     unitN: (n: number) => `Unidad ${n}`,
     intro:
       "Puedes seguir el orden o saltar a la unidad que necesites: ninguna está bloqueada. Te recomendamos la primera que todavía no dominas.",
-    blocks: {
-      "fundamentos-1": "Fundamentos I",
-      "fundamentos-2": "Fundamentos II",
-      intermedio: "Intermedio",
+    // Un bloque por nivel del MCER, con lo que sabrás hacer al terminarlo
+    levels: {
+      A1: {
+        name: "Fundamentos I",
+        goal: "Al terminarlo podrás presentarte y hablar de ti, de tu día a día y de lo que te rodea con frases sencillas.",
+      },
+      A2: {
+        name: "Fundamentos II",
+        goal: "Al terminarlo podrás contar lo que hiciste y lo que vas a hacer, comparar cosas y desenvolverte en situaciones cotidianas.",
+      },
+      B1: {
+        name: "Intermedio I",
+        goal: "Al terminarlo podrás hablar de tus experiencias, imaginar situaciones, describir con detalle y defenderte en casi cualquier conversación cotidiana.",
+      },
+      B2: {
+        name: "Intermedio II",
+        goal: "Al terminarlo podrás matizar cuándo pasan las cosas, contar lo que otros dijeron y expresar deseos y arrepentimientos con soltura.",
+      },
+      C1: {
+        name: "Avanzado",
+        goal: "Al terminarlo podrás usar el inglés con flexibilidad en contextos sociales, académicos y profesionales.",
+      },
     },
+    blockTitle: (level: string, name: string) => `${level} · ${name}`,
+    youAreIn: (level: string, name: string) => `Estás en el nivel ${level} · ${name}.`,
     status: {
       new: "Sin empezar",
       started: "Empezada",
@@ -410,7 +430,7 @@ export const es = {
   placement: {
     title: "Prueba de nivel",
     description:
-      "Unas 30 preguntas, de lo más básico a lo intermedio, para saber por qué unidad empezar.",
+      "Unas 35 preguntas, de A1 a B2, para saber en qué nivel estás y por qué unidad empezar.",
     intro: [
       "Son preguntas de opción múltiple, ordenadas de más fácil a más difícil. Tardarás unos 10 minutos.",
       "No verás si aciertas hasta el final, y no hay pistas.",
@@ -418,6 +438,7 @@ export const es = {
     ],
     start: "Empezar la prueba",
     resultTitle: "Tu resultado",
+    level: (level: string, name: string) => `Empiezas en el nivel ${level} · ${name}`,
     recommendation: (n: number, title: string) =>
       `Te recomendamos empezar por la unidad ${n}: ${title}.`,
     allGood:

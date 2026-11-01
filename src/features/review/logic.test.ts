@@ -70,7 +70,6 @@ describe("Repaso mixto", () => {
   const unit = (review: string, guided: string): { meta: UnitMeta } => ({
     meta: {
       number: 1,
-      block: "fundamentos-1",
       title: "t",
       titleEs: "t",
       summaryEs: "s",

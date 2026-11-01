@@ -3,8 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { getExerciseSet, getUnits } from "@/content";
-import type { UnitBlock } from "@/content/schema";
-import { unitStatus } from "@/features/course/logic";
+import { groupByLevel, recommendedUnit, unitStatus } from "@/features/course/logic";
 import { FlashcardSummary } from "@/features/flashcards/flashcard-summary";
 import { es } from "@/i18n/es";
 import { useProgressStore } from "./store";
@@ -24,6 +23,7 @@ function Stat({ label, value }: { label: string; value: string }) {
 
 export function ProgressOverview() {
   const { attempts, mistakes, streak, reset } = useProgressStore();
+  const placement = useProgressStore((state) => state.placement?.unit ?? null);
 
   // Los más recientes primero; se ignoran sets que ya no existen
   const done = Object.entries(attempts)
@@ -44,9 +44,8 @@ export function ProgressOverview() {
       </div>
     );
 
-  const unitsByBlock = new Map<UnitBlock, ReturnType<typeof getUnits>>();
-  for (const unit of getUnits())
-    unitsByBlock.set(unit.meta.block, [...(unitsByBlock.get(unit.meta.block) ?? []), unit]);
+  const units = getUnits();
+  const current = recommendedUnit(units, attempts, placement)?.meta.level;
 
   const average = Math.round(done.reduce((sum, d) => sum + d.attempt.best, 0) / done.length);
 
@@ -64,14 +63,19 @@ export function ProgressOverview() {
           <h2 id="progress-units" className="font-semibold">
             {t.units}
           </h2>
+          {current && (
+            <p className="text-sm font-medium">
+              {es.course.youAreIn(current, es.course.levels[current].name)}
+            </p>
+          )}
           <ul className="space-y-1 text-sm">
-            {[...unitsByBlock].map(([block, units]) => (
-              <li key={block} className="flex justify-between gap-2">
-                <span>{es.course.blocks[block]}</span>
+            {groupByLevel(units).map(([level, blockUnits]) => (
+              <li key={level} className="flex justify-between gap-2">
+                <span>{es.course.blockTitle(level, es.course.levels[level].name)}</span>
                 <span className="text-muted-foreground tabular-nums">
                   {t.unitsMastered(
-                    units.filter((u) => unitStatus(u.meta, attempts) === "mastered").length,
-                    units.length,
+                    blockUnits.filter((u) => unitStatus(u.meta, attempts) === "mastered").length,
+                    blockUnits.length,
                   )}
                 </span>
               </li>
