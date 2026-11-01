@@ -34,3 +34,9 @@ Thumbs.db
 
 # Temporales de @tanstack/router-plugin
 .tanstack/
+
+# Face2Face (F17c): los libros (5 GB) y lo que extrae scripts/face2face-extract.ts.
+# Material con derechos: solo en local. En .gitignore y no en .git/info/exclude
+# porque Prettier solo lee este archivo.
+/docs/Cambridg*Face2Face*/
+/.face2face/
