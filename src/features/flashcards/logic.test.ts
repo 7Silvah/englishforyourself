@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   buildSession,
   cardKey,
+  deckCards,
   deckStats,
   MAX_BOX,
   NEW_PER_SESSION,
@@ -88,5 +89,17 @@ describe("estadísticas", () => {
 
   it("seenStats no necesita las palabras: solo el total de la lista", () => {
     expect(seenStats("a", 5, states, today)).toEqual({ due: 1, fresh: 3, mastered: 1 });
+  });
+});
+
+describe("deckCards", () => {
+  it("solo las palabras con traducción, y una vez cada una aunque se repitan", () => {
+    const cards = deckCards("vocabulary/house", [
+      { en: "Fork", es: "tenedor" },
+      { en: "Knife", es: "cuchillo" },
+      { en: "Fork", es: "tenedor" },
+      { en: "Shaddock" },
+    ]);
+    expect(cards.map((c) => c.key)).toEqual(["vocabulary/house#Fork", "vocabulary/house#Knife"]);
   });
 });

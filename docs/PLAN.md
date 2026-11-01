@@ -22,24 +22,20 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 01/11/2026, con F16 terminada: la tanda 3 (unidades 26–29) está en la rama
-`f16-unidades-26-29`, que sale de `desarrollo` con las tandas 1 y 2.*
+*Actualizado el 01/11/2026, con los cinco hallazgos del motor de R1–R4 arreglados en la rama
+`motor-hallazgos`, que sale de `desarrollo` con F16 completa.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `f16-unidades-26-29` hacia `desarrollo`** y fusionarlo con la CI en verde.
-- [ ] **Decidir los hallazgos del motor** de R1–R4 (§11, «R1», «R3» y «R4»): la coma en
-  `check.ts`, el `error-correction` con varias palabras, las tag questions sin contraer, los
-  distractores sinónimos en el vocabulario y las palabras repetidas en las flashcards. No bloquean.
-- [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
+- [ ] **Abrir el PR de `motor-hallazgos` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)**, cuando decidas (el 01/11/2026 decidiste dejarlo para más adelante), con
   [DESPLIEGUE.md](DESPLIEGUE.md).
 - [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–29, sus sets,
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
 **2. Siguiente: F17, la prueba de nivel** (unos 30 ítems escalonados A1→B2 que recomiendan
-una unidad y marcan como vistas las anteriores). Con ella termina la Etapa 4. Antes conviene decidir los hallazgos del motor: arreglarlos después obliga a
-revisar otra vez los ítems que se resolvieron con respuestas extra.
+una unidad y marcan como vistas las anteriores). Con ella termina la Etapa 4.
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -864,8 +860,8 @@ hacen en commits propios; `reviewed` sigue en `false` (D1).
 - [x] Explicaciones: plural en **-o** (no siempre -es: *photos*, *pianos*) y vocal + y (*boys*) en la unidad 4; *lo/la/le* «suelen» ir antes del verbo en la unidad 2.
 - [x] Ejercicios (11): respuestas válidas que faltaban (*a large house*, *There's not…*, edades con letras, *usually* al principio, *Yes I do* sin coma); `error-correction` acepta también la corrección de la palabra tocada (*an engineer*, *do you*); *hers* → *him* como distractor; contexto en *I like ___* (*the cats* también era correcto).
 - **Hallazgos del motor (pendientes de decidir, no son contenido; R1 y R2):**
-  - [ ] `normalize` (`check.ts`) no quita las comas internas: «Yes I do» cuenta como fallo. Afecta sobre todo a los **dictados**, donde la coma no se oye (*Don't be late, please*; *I was tired, so I went to bed*). En R1 y R2 se resolvió con respuestas extra; arreglarlo en `check.ts` evitaría repetirlo ítem a ítem.
-  - [ ] `error-correction` con un fragmento de varias palabras: solo se marca la palabra tocada, pero hay que reescribir el fragmento entero. Casos sin arreglar con respuestas: *My sister have 12 years* (quien toca *have* escribe *is*), *She can to drive* y *I will to call* (quien toca *to* no tiene qué escribir: hay que borrarlo). Propuesta: mostrar el fragmento completo al tocar cualquiera de sus palabras.
+  - [x] `normalize` (`check.ts`) no quita las comas internas: «Yes I do» cuenta como fallo. Afecta sobre todo a los **dictados**, donde la coma no se oye (*Don't be late, please*; *I was tired, so I went to bed*). En R1 y R2 se resolvió con respuestas extra; arreglarlo en `check.ts` evitaría repetirlo ítem a ítem. **Arreglado (rama `motor-hallazgos`):** `normalize` ignora las comas. Las respuestas sin coma añadidas en R1 y R2 sobran, pero no estorban.
+  - [x] `error-correction` con un fragmento de varias palabras: solo se marca la palabra tocada, pero hay que reescribir el fragmento entero. Casos sin arreglar con respuestas: *My sister have 12 years* (quien toca *have* escribe *is*), *She can to drive* y *I will to call* (quien toca *to* no tiene qué escribir: hay que borrarlo). Propuesta: mostrar el fragmento completo al tocar cualquiera de sus palabras. **Arreglado (rama `motor-hallazgos`):** en lugar de mostrar el fragmento (delataría dónde está el error), también vale cambiar solo la palabra tocada si así la frase queda bien, y dejarla vacía la borra (*She can to drive*: tocar *to* y dejarlo vacío). La instrucción lo dice.
 - **Dudas para el profesional:** unidad 1, guiada 1 (*___ is cold today*): los distractores *They*/*We* son de concordancia, no el error típico de omitir *it*.
 
 #### R2 — Unidades 9–16
@@ -879,15 +875,15 @@ hacen en commits propios; `reviewed` sigue en `false` (D1).
 - [x] Claves con respuestas no válidas (2): *if she **'d** more money* (had de poseer no se contrae) y la tag ***'s he***.
 - [x] Respuestas que faltaban: ortografía británica (*learnt*, *burnt*, *organise*, *memorised*), *'m* en *verb-to-be* (ya aceptaba *'s*) y el condicional mixto en *third-conditional* #6 y #8 (*I would know how to paint*).
 - **Hallazgo del motor (pendiente de decidir):**
-  - [ ] Las tag questions aceptan la forma sin contraer (*are not you*, *does not she*), que no es correcta: `canonical` desarrolla *n't* antes de comparar. Afecta a los 6 ítems con tag negativa de *tag-questions*. Propuesta: no desarrollar las contracciones cuando la respuesta es una tag (un campo en el ítem o en el set).
+  - [x] Las tag questions aceptan la forma sin contraer (*are not you*, *does not she*), que no es correcta: `canonical` desarrolla *n't* antes de comparar. Afecta a los 6 ítems con tag negativa de *tag-questions*. Propuesta: no desarrollar las contracciones cuando la respuesta es una tag (un campo en el ítem o en el set). **Arreglado (rama `motor-hallazgos`):** `canonical` no desarrolla *n't* cuando va seguido del sujeto (*aren't you*, *don't they*): ese orden solo existe contraído. La unidad 25 puede llevar ya tags negativas escritas.
 - **Dudas para el profesional:** *past-continuous-negative* #6 *answer the exam* (calco de «contestar el examen»: *do/take the exam*, pero el verbo lo da el enunciado); *zero-conditional* #6 *If you put chicken in oil, it fries* (solo en aceite caliente); *first-conditional* #10 *do a presentation* (más natural *give*); *past-perfect-negative* #10 y *future-perfect-continuous* #7, frases correctas pero de sentido raro.
 #### R4 — Traducciones de las listas
 - [x] 19 listas A1–A2 (1672 palabras, con sus 5 falsos amigos) y 12 de phrasal verbs (207). Español neutro: ninguna forma de *vosotros*; las variantes por país van juntas («papa / patata»). Los 5 falsos amigos son correctos. Las traducciones de los phrasal verbs, sin cambios.
 - [x] Traducciones (4): *Curb* decía «banqueta», que en México es la acera; *Teacher* (trabajos y escuela) mezclaba géneros («profesor / maestra»); *To drive / go to work* atribuía el coche también a *go*.
 - [x] Inglés original (commit aparte): *Mince* → *Mincer* (la máquina), *Hairbrush hairdryer* sin separar, *Veterinary* (adjetivo) → *Veterinarian*, y dos países repetidos (*Croatia – Croat*, *Serbia – Serbian*). Las flashcards guardan el progreso por la palabra en inglés: esas tres tarjetas empiezan de cero.
 - **Hallazgos del motor (pendientes de decidir):**
-  - [ ] **Sinónimos como distractores** (`generators/vocabulary.ts`): de español a inglés, «agradecido» puede ofrecer *Grateful* y *Thankful*, y las dos son correctas. `options()` solo quita textos iguales. Hay 70 parejas que comparten alguna traducción en 13 listas (*Shy/Timid*, *Pumpkin/Squash*, *Caretaker/Janitor*, *Cake/Pie/Tart*…). Propuesta: no usar como distractor una palabra que comparta alguna traducción (separada por «/») con la correcta.
-  - [ ] **Palabras repetidas en una lista** (13 en 4 listas: *Hand*, *Door*, *Fork*, *Otter*…): comparten clave de flashcard, la sesión las muestra dos veces y el contador de nuevas de la lista nunca llega a 0. Están en dos grupos con sentido (el tenedor, en comedor y cocina), así que el arreglo va en el código: quitar repetidas por clave en `/practicar/flashcards` y en el total.
+  - [x] **Sinónimos como distractores** (`generators/vocabulary.ts`): de español a inglés, «agradecido» puede ofrecer *Grateful* y *Thankful*, y las dos son correctas. `options()` solo quita textos iguales. Hay 70 parejas que comparten alguna traducción en 13 listas (*Shy/Timid*, *Pumpkin/Squash*, *Caretaker/Janitor*, *Cake/Pie/Tart*…). Propuesta: no usar como distractor una palabra que comparta alguna traducción (separada por «/») con la correcta. **Arreglado (rama `motor-hallazgos`):** `sameMeaning()` compara las traducciones (sin lo que va entre paréntesis); ni las opciones ni el emparejar mezclan palabras que comparten alguna.
+  - [x] **Palabras repetidas en una lista** (13 en 4 listas: *Hand*, *Door*, *Fork*, *Otter*…): comparten clave de flashcard, la sesión las muestra dos veces y el contador de nuevas de la lista nunca llega a 0. Están en dos grupos con sentido (el tenedor, en comedor y cocina), así que el arreglo va en el código: quitar repetidas por clave en `/practicar/flashcards` y en el total. **Arreglado (rama `motor-hallazgos`):** `deckCards()` (`flashcards/logic.ts`) quita las repetidas al montar el mazo y `translatedCount` cuenta palabras distintas. 203 tests.
 - **Dudas para el profesional:** *Traffic warden* («agente de tránsito»: en el Reino Unido pone multas de aparcamiento, no dirige el tráfico); *Bell pepper* «pimiento / pimentón» y *Paprika* «pimentón» (pimentón es las dos cosas según el país); *Overcast* marcado como (n); *Agenda* en objetos de clase (en inglés es «orden del día»; la libreta es *planner* o *diary*); *Lecturer* con falso amigo «lector» (en España un lector sí da clase en la universidad).
 
 ### Etapa 4 — Gramática intermedia
