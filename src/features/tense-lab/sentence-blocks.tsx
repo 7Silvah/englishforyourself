@@ -20,7 +20,7 @@ export function SentenceBlocks({
       {pieces.map((piece, i) => (
         <span key={i} className="flex items-center gap-1.5">
           <span
-            className={cn("rounded-md border px-2.5 py-1 font-medium", blockClasses[piece.role])}
+            className={cn("rounded-full border px-3 py-1 font-medium", blockClasses[piece.role])}
           >
             <span className="sr-only">{es.tenseLab.roles[piece.role]}: </span>
             {piece.text}

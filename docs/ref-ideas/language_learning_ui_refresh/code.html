@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary-container":"#00374d","surface-variant":"#333538","on-background":"#e2e2e6","inverse-primary":"#0053db","on-secondary-fixed":"#001e2c","tertiary-fixed":"#6ffbbe","on-tertiary":"#003824","on-surface":"#e2e2e6","surface-container":"#1e2023","tertiary-container":"#007d55","secondary-fixed-dim":"#7bd0ff","surface-container-low":"#1a1c1f","on-surface-variant":"#c3c6d7","inverse-surface":"#e2e2e6","on-error-container":"#ffdad6","on-tertiary-fixed":"#002113","outline":"#8d90a0","on-error":"#690005","on-secondary":"#00354a","secondary-fixed":"#c4e7ff","surface-tint":"#b4c5ff","surface":"#111317","on-tertiary-container":"#bdffdb","primary-fixed":"#dbe1ff","inverse-on-surface":"#2f3034","surface-bright":"#37393d","on-primary-container":"#eeefff","error":"#ffb4ab","on-primary-fixed":"#00174b","tertiary-fixed-dim":"#4edea3","primary-container":"#2563eb","background":"#111317","tertiary":"#4edea3","primary-fixed-dim":"#b4c5ff","surface-container-highest":"#333538","surface-container-lowest":"#0c0e11","outline-variant":"#434655","on-tertiary-fixed-variant":"#005236","on-primary":"#002a78","secondary-container":"#00a6e0","primary":"#b4c5ff","on-secondary-fixed-variant":"#004c69","secondary":"#7bd0ff","error-container":"#93000a","on-primary-fixed-variant":"#003ea8","surface-container-high":"#282a2d","surface-dim":"#111317"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-lg":"1.5rem","space-xl":"2.5rem","margin-mobile":"1rem","space-sm":"0.5rem","space-md":"1rem",gutter:"1.25rem",margin:"2rem","gutter-mobile":"0.75rem","space-xs":"0.25rem"},fontFamily:{caption:["Geist"],"body-sm":["Geist"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-lg":["Geist"],"headline-xl-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-md":["Geist"],"label-code":["JetBrains Mono"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-tag":["JetBrains Mono"]},fontSize:{caption:["12px",{lineHeight:"16px",fontWeight:"400"}],"body-sm":["13px",{lineHeight:"18px",fontWeight:"400"}],"headline-lg-mobile":["22px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"headline-xl-mobile":["30px",{lineHeight:"36px",letterSpacing:"-0.015em",fontWeight:"700"}],"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-xl":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-md":["15px",{lineHeight:"22px",fontWeight:"400"}],"label-code":["13px",{lineHeight:"16px",letterSpacing:"-0.01em",fontWeight:"500"}],"headline-sm":["16px",{lineHeight:"24px",fontWeight:"600"}],"headline-md":["20px",{lineHeight:"28px",fontWeight:"600"}],"label-tag":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-low/95 backdrop-blur-md border-b border-outline-variant/30"><div class="h-16 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><div class="flex items-center gap-space-sm"><div class="h-8 w-8 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center font-headline-sm text-headline-sm">E</div><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight hidden sm:inline">English for Yourself</span></div><span class="px-space-sm py-0.5 rounded-full bg-surface-container border border-outline-variant text-secondary font-label-tag text-label-tag hidden lg:inline-flex items-center">Tokens &amp; Components /dev/ui</span></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-surface-container-high text-on-surface font-semibold border-b-2 border-primary"><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors font-body-sm text-body-sm" data-path="curso" href="#">Curso</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors font-body-sm text-body-sm" data-path="ejercicios" href="#">Ejercicios</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors font-body-sm text-body-sm" data-path="biblioteca" href="#">Biblioteca</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors font-body-sm text-body-sm" data-path="tense-lab" href="#">Tense Lab</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors font-body-sm text-body-sm" data-path="progreso" href="#">Progreso</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors font-body-sm text-body-sm" data-path="sistema-de-diseno" href="#">Sistema de diseño</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="hidden md:flex items-center gap-space-sm px-space-sm py-1.5 rounded-lg bg-surface-container-lowest border border-outline-variant text-on-surface-variant"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-body-sm text-body-sm text-outline">Buscar</span><kbd class="px-1.5 py-0.5 rounded bg-surface-container-high border border-outline-variant font-label-code text-label-tag text-on-surface-variant">Ctrl+K</kbd></div><button aria-label="Toggle dark mode" class="h-8 w-8 rounded-lg bg-surface-container border border-outline-variant flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">dark_mode</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/3 w-[600px] h-72 bg-gradient-to-br from-primary-container/15 via-secondary/10 to-transparent blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/2 -right-40 w-96 h-96 bg-tertiary-container/10 blur-3xl pointer-events-none -z-10"></div>
+<div class="w-full px-margin py-space-xl flex flex-col gap-space-xl max-w-7xl mx-auto">
+<!-- 1. Header breadcrumb & title area -->
+<section class="flex flex-col md:flex-row md:items-end justify-between gap-space-lg pb-space-lg shadow-sm">
+<div class="flex flex-col gap-space-sm max-w-2xl">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-label-code text-caption text-on-surface-variant">
+<span>Inicio</span>
+<span class="text-outline">/</span>
+<span>Dev</span>
+<span class="text-outline">/</span>
+<span class="text-secondary font-semibold">Sistema de diseño</span>
+</nav>
+<div class="flex items-center gap-space-sm flex-wrap">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Sistema de diseño</h1>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container-high text-primary font-label-tag text-label-tag tracking-wider uppercase">v2.4 LTS</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Tokens semánticos, componentes canónicos y bloques didácticos de la plataforma · <code class="font-label-code text-caption text-secondary bg-surface-container px-1.5 py-0.5 rounded">/dev/ui</code>
+</p>
+</div>
+<div class="flex items-center gap-space-sm flex-wrap shrink-0">
+<span class="px-space-sm py-1.5 rounded-lg bg-surface-container-low text-tertiary font-label-code text-caption flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+            Syntactic Slate Engine
+          </span>
+<span class="px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant font-label-code text-caption flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">dark_mode</span>
+            Dark Mode Master
+          </span>
+<button class="px-space-md py-2 rounded-lg bg-primary-container hover:bg-primary-container/85 text-on-primary-container font-headline-sm text-caption flex items-center gap-space-xs shadow-md transition-all active:scale-95" id="btn-export-tokens" type="button">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+            Exportar Tokens CSS
+          </button>
+</div>
+</section>
+<!-- Navigation Jump Anchors / Filter Bar -->
+<section class="flex items-center gap-space-xs overflow-x-auto pb-space-xs text-caption font-label-code text-on-surface-variant">
+<span class="text-outline uppercase text-[10px] tracking-widest mr-1">Secciones:</span>
+<a class="px-3 py-1 rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" href="#marca">01. Marca &amp; Tokens</a>
+<a class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors" href="#modos">02. Modos Gramaticales</a>
+<a class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors" href="#estructura">03. Bloques Sintácticos</a>
+<a class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors" href="#feedback">04. Estados de Corrección</a>
+<a class="px-3 py-1 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors" href="#componentes">05. Componentes UI</a>
+</section>
+<!-- 2. Sección de Marca y Tokens Base (Marca) -->
+<section class="flex flex-col gap-space-md" id="marca">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-code text-caption text-secondary font-semibold">01</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Marca &amp; Tokens Base</h2>
+</div>
+<span class="font-label-code text-caption text-outline">color-primitives.json</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Official EFY Badge Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-tag text-label-tag text-outline uppercase tracking-wider">Identidad Canónica</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Emblema Oficial</span>
+</div>
+<div class="my-space-lg flex items-center gap-space-sm bg-surface-container p-3 rounded-full shadow-sm w-fit">
+<div class="h-9 px-3 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-headline-sm text-headline-sm tracking-tight shadow">
+                EFY
+              </div>
+<span class="font-headline-sm text-headline-sm text-on-surface pr-3">English for Yourself</span>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">
+              Monograma elíptico en tono azul eléctrico con tipografía satélite Plus Jakarta Sans.
+            </p>
+</div>
+<!-- Color Token 1: Primary Electric -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-tag text-label-tag text-outline uppercase">Primary / Accent</span>
+<span class="w-3 h-3 rounded-full bg-primary-container"></span>
+</div>
+<div class="h-20 w-full rounded-lg bg-primary-container my-space-md flex items-end p-2.5 shadow-inner">
+<span class="font-label-code text-caption text-on-primary-container font-semibold">#2563EB</span>
+</div>
+<div class="flex flex-col font-label-code text-caption">
+<span class="text-on-surface font-semibold">primary-container</span>
+<span class="text-on-surface-variant text-[11px]">Acción principal &amp; enfoque sintáctico</span>
+</div>
+</div>
+<!-- Color Token 2: Brand Purple -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-tag text-label-tag text-outline uppercase">Complementary / Purple</span>
+<span class="w-3 h-3 rounded-full bg-[#8b5cf6]"></span>
+</div>
+<div class="h-20 w-full rounded-lg bg-[#8b5cf6] my-space-md flex items-end p-2.5 shadow-inner">
+<span class="font-label-code text-caption text-white font-semibold">#8B5CF6</span>
+</div>
+<div class="flex flex-col font-label-code text-caption">
+<span class="text-on-surface font-semibold">brand-purple</span>
+<span class="text-on-surface-variant text-[11px]">Complementos directos &amp; modales</span>
+</div>
+</div>
+<!-- Color Token 3: Carbon Base Surface -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-tag text-label-tag text-outline uppercase">Surface Spectrum</span>
+<span class="w-3 h-3 rounded-full bg-surface-container-highest"></span>
+</div>
+<div class="h-20 w-full rounded-lg bg-surface-container my-space-md flex items-center justify-around px-2 shadow-inner">
+<span class="w-9 h-9 rounded bg-surface flex items-center justify-center font-label-code text-[10px] text-outline">11</span>
+<span class="w-9 h-9 rounded bg-surface-container-low flex items-center justify-center font-label-code text-[10px] text-outline">1A</span>
+<span class="w-9 h-9 rounded bg-surface-container flex items-center justify-center font-label-code text-[10px] text-on-surface">1E</span>
+<span class="w-9 h-9 rounded bg-surface-container-high flex items-center justify-center font-label-code text-[10px] text-on-surface">28</span>
+</div>
+<div class="flex flex-col font-label-code text-caption">
+<span class="text-on-surface font-semibold">surface-container-low</span>
+<span class="text-on-surface-variant text-[11px]">Luminancia graduada `#111317`</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Modos Gramaticales (pos / neg / q / nq) -->
+<section class="flex flex-col gap-space-md" id="modos">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-code text-caption text-secondary font-semibold">02</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Modos Gramaticales</h2>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">Matriz de estados sintácticos cuaternarios</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Positive Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 right-0 h-1 bg-tertiary"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="inline-flex items-center gap-1 font-label-tag text-label-tag px-2.5 py-1 rounded-full bg-tertiary-container/30 text-tertiary">
+<span class="material-symbols-outlined text-[14px]">check</span> Positive
+              </span>
+<span class="font-label-code text-caption text-outline">token: pos</span>
+</div>
+<div class="my-space-md bg-surface-container p-space-md rounded-lg">
+<p class="font-headline-md text-headline-md text-on-surface font-semibold">"She loves comics."</p>
+<span class="font-caption text-caption text-tertiary mt-1 block">Tercera persona singular (loves)</span>
+</div>
+<div class="flex items-center justify-between font-label-code text-caption text-on-surface-variant pt-space-xs">
+<span>Modo Afirmativo</span>
+<span class="text-tertiary font-semibold">AA 4.8:1</span>
+</div>
+</div>
+<!-- Negative Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 right-0 h-1 bg-[#f59e0b]"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="inline-flex items-center gap-1 font-label-tag text-label-tag px-2.5 py-1 rounded-full bg-[#f59e0b]/20 text-[#f59e0b]">
+<span class="material-symbols-outlined text-[14px]">close</span> Negative
+              </span>
+<span class="font-label-code text-caption text-outline">token: neg</span>
+</div>
+<div class="my-space-md bg-surface-container p-space-md rounded-lg">
+<p class="font-headline-md text-headline-md text-on-surface font-semibold">"She doesn't love comics."</p>
+<span class="font-caption text-caption text-[#f59e0b] mt-1 block">Auxiliar negativo + verbo base</span>
+</div>
+<div class="flex items-center justify-between font-label-code text-caption text-on-surface-variant pt-space-xs">
+<span>Modo Negativo</span>
+<span class="text-[#f59e0b] font-semibold">AA 5.1:1</span>
+</div>
+</div>
+<!-- Question Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 right-0 h-1 bg-[#fbbf24]"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="inline-flex items-center gap-1 font-label-tag text-label-tag px-2.5 py-1 rounded-full bg-[#fbbf24]/20 text-[#fbbf24]">
+<span class="material-symbols-outlined text-[14px]">help</span> Question
+              </span>
+<span class="font-label-code text-caption text-outline">token: q</span>
+</div>
+<div class="my-space-md bg-surface-container p-space-md rounded-lg">
+<p class="font-headline-md text-headline-md text-on-surface font-semibold">"Does she love comics?"</p>
+<span class="font-caption text-caption text-[#fbbf24] mt-1 block">Inversión auxiliar sujeto</span>
+</div>
+<div class="flex items-center justify-between font-label-code text-caption text-on-surface-variant pt-space-xs">
+<span>Modo Interrogativo</span>
+<span class="text-[#fbbf24] font-semibold">AA 4.9:1</span>
+</div>
+</div>
+<!-- Negative Question Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden group">
+<div class="absolute top-0 left-0 right-0 h-1 bg-secondary"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="inline-flex items-center gap-1 font-label-tag text-label-tag px-2.5 py-1 rounded-full bg-secondary-container/20 text-secondary">
+<span class="material-symbols-outlined text-[14px]">question_mark</span> Negative Q
+              </span>
+<span class="font-label-code text-caption text-outline">token: nq</span>
+</div>
+<div class="my-space-md bg-surface-container p-space-md rounded-lg">
+<p class="font-headline-md text-headline-md text-on-surface font-semibold">"Doesn't she love comics?"</p>
+<span class="font-caption text-caption text-secondary mt-1 block">Contracción inicial enfática</span>
+</div>
+<div class="flex items-center justify-between font-label-code text-caption text-on-surface-variant pt-space-xs">
+<span>Pregunta Negativa</span>
+<span class="text-secondary font-semibold">AAA 7.2:1</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Bloques de Estructura Sintáctica (Bloques de estructura) -->
+<section class="flex flex-col gap-space-md" id="estructura">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-code text-caption text-secondary font-semibold">03</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Bloques de Estructura Sintáctica</h2>
+</div>
+<span class="font-label-code text-caption text-outline">parser/engine.token</span>
+</div>
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col gap-space-lg shadow-sm">
+<!-- Palette of Syntax Token Pills -->
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-tag text-label-tag text-outline uppercase tracking-wider">Librería de Componentes Tokenizados</span>
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Sujeto -->
+<div class="flex items-center gap-1 bg-surface-container px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-label-code text-caption text-outline mr-2">Sujeto:</span>
+<span class="px-3 py-1 rounded-full bg-primary-container/20 text-secondary font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-primary-container/30 transition-colors">She</span>
+<span class="px-3 py-1 rounded-full bg-primary-container/20 text-secondary font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-primary-container/30 transition-colors">I / You / We / They</span>
+</div>
+<!-- Auxiliar -->
+<div class="flex items-center gap-1 bg-surface-container px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-label-code text-caption text-outline mr-2">Auxiliar:</span>
+<span class="px-3 py-1 rounded-full bg-[#f59e0b]/20 text-[#f59e0b] font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-[#f59e0b]/30 transition-colors">doesn't</span>
+<span class="px-3 py-1 rounded-full bg-[#f59e0b]/20 text-[#f59e0b] font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-[#f59e0b]/30 transition-colors">Does</span>
+<span class="px-3 py-1 rounded-full bg-[#f59e0b]/20 text-[#f59e0b] font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-[#f59e0b]/30 transition-colors">is / are</span>
+</div>
+<!-- Verbo -->
+<div class="flex items-center gap-1 bg-surface-container px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-label-code text-caption text-outline mr-2">Verbo:</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/30 text-tertiary font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-tertiary-container/40 transition-colors">love</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/30 text-tertiary font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-tertiary-container/40 transition-colors">plays</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/30 text-tertiary font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-tertiary-container/40 transition-colors">watch</span>
+</div>
+<!-- Complemento -->
+<div class="flex items-center gap-1 bg-surface-container px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-label-code text-caption text-outline mr-2">Complemento:</span>
+<span class="px-3 py-1 rounded-full bg-[#8b5cf6]/20 text-[#c084fc] font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-[#8b5cf6]/30 transition-colors">comics</span>
+<span class="px-3 py-1 rounded-full bg-[#8b5cf6]/20 text-[#c084fc] font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-[#8b5cf6]/30 transition-colors">tennis</span>
+<span class="px-3 py-1 rounded-full bg-[#8b5cf6]/20 text-[#c084fc] font-label-code text-caption font-semibold cursor-grab active:cursor-grabbing hover:bg-[#8b5cf6]/30 transition-colors">fast?</span>
+</div>
+</div>
+</div>
+<!-- Assembled Sentence Breakdowns -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
+<!-- Schema 1: Declarative Negative Chain -->
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col gap-space-sm shadow-sm">
+<div class="flex items-center justify-between text-caption font-label-code text-on-surface-variant">
+<span>Estructura Lineal: Negación</span>
+<span class="text-tertiary">Enlazado y validado</span>
+</div>
+<div class="flex flex-wrap items-center gap-2 py-space-sm">
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-primary-container/20 text-secondary font-headline-sm text-headline-sm shadow-sm font-semibold">She</span>
+<span class="font-label-tag text-[10px] text-outline mt-1 uppercase">Sujeto</span>
+</div>
+<span class="text-outline text-lg font-label-code pb-4">+</span>
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-[#f59e0b]/20 text-[#f59e0b] font-headline-sm text-headline-sm shadow-sm font-semibold">doesn't</span>
+<span class="font-label-tag text-[10px] text-outline mt-1 uppercase">Aux. Neg</span>
+</div>
+<span class="text-outline text-lg font-label-code pb-4">+</span>
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-tertiary-container/30 text-tertiary font-headline-sm text-headline-sm shadow-sm font-semibold">love</span>
+<span class="font-label-tag text-[10px] text-outline mt-1 uppercase">Verbo Base</span>
+</div>
+<span class="text-outline text-lg font-label-code pb-4">+</span>
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-[#8b5cf6]/20 text-[#c084fc] font-headline-sm text-headline-sm shadow-sm font-semibold">comics</span>
+<span class="font-label-tag text-[10px] text-outline mt-1 uppercase">Complemento</span>
+</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-low text-caption font-body-sm text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">info</span>
+<span>El auxiliar absorbe la tercera persona (-s); el verbo conserva su forma infinitiva desnuda.</span>
+</div>
+</div>
+<!-- Schema 2: Inversion Question Chain -->
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col gap-space-sm shadow-sm">
+<div class="flex items-center justify-between text-caption font-label-code text-on-surface-variant">
+<span>Estructura con Inversión: Interrogación</span>
+<span class="text-[#fbbf24]">Relación de intercambio</span>
+</div>
+<div class="flex flex-wrap items-center gap-2 py-space-sm">
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-[#f59e0b]/20 text-[#f59e0b] font-headline-sm text-headline-sm shadow-sm font-semibold">Does</span>
+<span class="font-label-tag text-[10px] text-[#f59e0b] mt-1 uppercase">Auxiliar</span>
+</div>
+<span class="text-secondary text-sm font-label-code pb-4 flex items-center px-1">
+<span class="material-symbols-outlined text-[16px]">swap_horiz</span>
+</span>
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-primary-container/20 text-secondary font-headline-sm text-headline-sm shadow-sm font-semibold">she</span>
+<span class="font-label-tag text-[10px] text-secondary mt-1 uppercase">Sujeto</span>
+</div>
+<span class="text-outline text-lg font-label-code pb-4">+</span>
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-tertiary-container/30 text-tertiary font-headline-sm text-headline-sm shadow-sm font-semibold">love</span>
+<span class="font-label-tag text-[10px] text-outline mt-1 uppercase">Verbo Base</span>
+</div>
+<span class="text-outline text-lg font-label-code pb-4">+</span>
+<div class="flex flex-col items-center">
+<span class="px-4 py-2 rounded-xl bg-[#8b5cf6]/20 text-[#c084fc] font-headline-sm text-headline-sm shadow-sm font-semibold">comics?</span>
+<span class="font-label-tag text-[10px] text-outline mt-1 uppercase">Comp. + Q-Mark</span>
+</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-low text-caption font-body-sm text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-[#fbbf24] text-[16px]">psychology</span>
+<span>Inversión sintáctica obligatoria: el auxiliar precede al sujeto pronominal.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Estados de Corrección y Feedback Didáctico (Estados de corrección) -->
+<section class="flex flex-col gap-space-md" id="feedback">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-code text-caption text-secondary font-semibold">04</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Estados de Corrección &amp; Feedback Didáctico</h2>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">Lógica adaptativa de refuerzo</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Success / Correcto -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="absolute inset-0 bg-tertiary/5 pointer-events-none"></div>
+<div class="flex items-start gap-space-sm z-10">
+<div class="h-10 w-10 rounded-full bg-tertiary-container/40 text-tertiary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[22px]">check_circle</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-tertiary">¡Correcto!</span>
+<span class="font-label-tag text-label-tag text-tertiary-fixed-dim uppercase">Syntax Verified</span>
+</div>
+</div>
+<div class="my-space-md z-10 flex flex-col gap-1.5">
+<p class="font-body-md text-body-md text-on-surface">
+                Con <strong class="text-tertiary font-semibold">he / she / it</strong> el verbo en presente simple siempre añade sufijo <strong class="text-tertiary font-semibold">-s</strong> o <strong class="text-tertiary font-semibold">-es</strong>.
+              </p>
+<span class="font-caption text-caption text-on-surface-variant italic">
+                Tip pedagógico: "She loves, he works, it runs."
+              </span>
+</div>
+<div class="z-10 flex items-center justify-between font-label-code text-caption pt-space-xs text-outline">
+<span>Token: state-success</span>
+<span class="text-tertiary font-semibold">+10 XP</span>
+</div>
+</div>
+<!-- Warning / Casi -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="absolute inset-0 bg-[#f59e0b]/5 pointer-events-none"></div>
+<div class="flex items-start gap-space-sm z-10">
+<div class="h-10 w-10 rounded-full bg-[#f59e0b]/20 text-[#f59e0b] flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[22px]">error_outline</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-[#f59e0b]">Casi: revisa la ortografía</span>
+<span class="font-label-tag text-label-tag text-[#fbbf24] uppercase">Orthography Alert</span>
+</div>
+</div>
+<div class="my-space-md z-10 flex flex-col gap-1.5">
+<p class="font-body-md text-body-md text-on-surface">
+                Escribiste <code class="px-1.5 py-0.5 rounded bg-surface-container text-[#f59e0b] font-label-code text-caption">travled</code> en vez de la grafía estándar <code class="px-1.5 py-0.5 rounded bg-surface-container text-tertiary font-label-code text-caption">traveled</code> (US) o <code class="px-1.5 py-0.5 rounded bg-surface-container text-tertiary font-label-code text-caption">travelled</code> (UK).
+              </p>
+<span class="font-caption text-caption text-on-surface-variant italic">
+                Tip: La regla de doblar la consonante final aplica en sílabas acentuadas.
+              </span>
+</div>
+<div class="z-10 flex items-center justify-between font-label-code text-caption pt-space-xs text-outline">
+<span>Token: state-warning</span>
+<span class="text-[#f59e0b] font-semibold">+5 XP</span>
+</div>
+</div>
+<!-- Error / Incorrecto -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="absolute inset-0 bg-error/5 pointer-events-none"></div>
+<div class="flex items-start gap-space-sm z-10">
+<div class="h-10 w-10 rounded-full bg-error-container/40 text-error flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[22px]">cancel</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-error">Incorrecto</span>
+<span class="font-label-tag text-label-tag text-error uppercase">Grammar Fault</span>
+</div>
+</div>
+<div class="my-space-md z-10 flex flex-col gap-1.5">
+<p class="font-body-md text-body-md text-on-surface">
+                Después de <strong class="text-error font-semibold">didn't</strong> el verbo debe permanecer en forma base infinitiva: <strong class="text-tertiary font-semibold">go</strong>, no "went".
+              </p>
+<span class="font-caption text-caption text-on-surface-variant italic">
+                Regla canónica: "Did / Didn't" ya expresan el pasado en la cláusula.
+              </span>
+</div>
+<div class="z-10 flex items-center justify-between font-label-code text-caption pt-space-xs text-outline">
+<span>Token: state-error</span>
+<span class="text-error font-semibold">0 XP</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Biblioteca de Componentes UI (Componentes) -->
+<section class="flex flex-col gap-space-lg" id="componentes">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-code text-caption text-secondary font-semibold">05</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Biblioteca de Componentes UI</h2>
+</div>
+<span class="font-label-code text-caption text-outline">ui/canonical-kit</span>
+</div>
+<!-- Buttons Gallery -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col gap-space-md shadow-sm">
+<span class="font-label-tag text-label-tag text-outline uppercase tracking-wider">Variantes de Botones Canónicos</span>
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Primary -->
+<button class="px-4 py-2 rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-caption hover:bg-primary-container/85 shadow transition-all active:scale-95 flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px]">play_arrow</span> Primary
+            </button>
+<!-- Secondary -->
+<button class="px-4 py-2 rounded-lg bg-surface-container text-on-surface font-headline-sm text-caption hover:bg-surface-container-high shadow-sm transition-all active:scale-95 flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px]">layers</span> Secondary
+            </button>
+<!-- Outline -->
+<button class="px-4 py-2 rounded-lg bg-surface-container-high/60 text-secondary font-headline-sm text-caption hover:bg-surface-container-high transition-all active:scale-95 flex items-center gap-2 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">tune</span> Outline
+            </button>
+<!-- Ghost -->
+<button class="px-4 py-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-headline-sm text-caption transition-colors flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span> Ghost
+            </button>
+<!-- Destructive -->
+<button class="px-4 py-2 rounded-lg bg-error-container/30 text-error font-headline-sm text-caption hover:bg-error-container/50 shadow-sm transition-colors flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px]">delete</span> Destructive
+            </button>
+<!-- Link -->
+<button class="px-2 py-2 text-secondary underline hover:text-primary font-headline-sm text-caption transition-colors" type="button">
+              Enlace de acción →
+            </button>
+<!-- Disabled -->
+<button class="px-4 py-2 rounded-lg bg-surface-container-high text-outline cursor-not-allowed font-headline-sm text-caption opacity-60" disabled="" type="button">
+              Deshabilitado
+            </button>
+</div>
+</div>
+<!-- Taxonomy Pills & Utility Badges -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col gap-space-md shadow-sm">
+<span class="font-label-tag text-label-tag text-outline uppercase tracking-wider">Taxonomía de Contenido &amp; Píldoras de Utilidad</span>
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- CEFR Levels -->
+<span class="px-3 py-1 rounded-full bg-secondary-container/20 text-secondary font-label-code text-caption font-semibold">A1 Acceso</span>
+<span class="px-3 py-1 rounded-full bg-primary-container/20 text-primary font-label-code text-caption font-semibold">A2 Plataforma</span>
+<span class="px-3 py-1 rounded-full bg-tertiary-container/20 text-tertiary font-label-code text-caption font-semibold">B1 Intermedio</span>
+<span class="h-4 w-px bg-surface-variant mx-1"></span>
+<!-- Skill Tags -->
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-body-sm text-caption flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-tertiary">menu_book</span> Vocabulario
+            </span>
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-body-sm text-caption flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">assignment</span> Worksheet
+            </span>
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-body-sm text-caption flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">account_tree</span> Gramática
+            </span>
+<span class="px-3 py-1 rounded-lg bg-surface-container text-on-surface font-body-sm text-caption flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-[#fbbf24]">mic</span> Speaking
+            </span>
+<span class="h-4 w-px bg-surface-variant mx-1"></span>
+<!-- Overlays -->
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-tag text-label-tag uppercase">Tooltip</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-tag text-label-tag uppercase">Diálogo</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-tag text-label-tag uppercase">Panel Lateral</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-tag text-label-tag uppercase">Aviso Toast</span>
+</div>
+</div>
+<!-- Two Living Interactive Widgets Side-by-Side -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Widget Left: Tarjeta de ejercicio 'Unidad 3 · El verbo to be' -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between gap-space-md shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-tag text-label-tag text-secondary uppercase tracking-wider">Unidad 3 · Sintaxis Esencial</span>
+<span class="font-label-code text-caption text-outline">45% completado</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">El verbo to be</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Ser y estar sintetizados en un solo verbo copulativo inglés.</p>
+<!-- Progress Bar -->
+<div class="w-full h-2 rounded-full bg-surface-container-highest mt-2 overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+<!-- Challenge Interactive Area -->
+<div class="bg-surface-container p-space-md rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-code text-caption text-on-surface">Completa el espacio en blanco:</span>
+<span class="font-label-tag text-label-tag px-2 py-0.5 rounded bg-tertiary-container/20 text-tertiary">Actividad 04</span>
+</div>
+<div class="text-body-lg font-body-lg text-on-surface flex items-center gap-2 flex-wrap">
+<span>They</span>
+<input class="px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline font-label-code text-body-md shadow-inner focus:outline-none focus:bg-surface-container-lowest max-w-[200px]" id="demo-blank-input" placeholder="Escribe tu respuesta..." type="text" value="are"/>
+<span>engineers at EFY.</span>
+</div>
+<!-- Visual Feedback helper -->
+<div class="flex items-center gap-2 text-caption text-tertiary font-body-sm" id="demo-input-status">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>¡Concordancia de sujeto plural correcta!</span>
+</div>
+</div>
+<!-- Control Switch Bar -->
+<div class="flex items-center justify-between pt-space-xs">
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<div class="relative">
+<input checked="" class="sr-only peer" id="toggle-translation" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-high rounded-full peer peer-checked:bg-primary-container transition-colors"></div>
+<div class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform peer-checked:translate-x-5 shadow"></div>
+</div>
+<span class="font-body-md text-body-sm text-on-surface">Mostrar traducciones contextuales</span>
+</label>
+<button class="px-4 py-2 rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-caption hover:bg-primary-container/85 shadow transition-all active:scale-95" type="button">
+                Comprobar
+              </button>
+</div>
+</div>
+<!-- Widget Right: Panel 'Explicación / Práctica' -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col justify-between gap-space-md shadow-sm">
+<!-- Pill Segmented Tabs -->
+<div class="flex items-center justify-between">
+<div class="flex items-center p-1 rounded-xl bg-surface-container shadow-inner">
+<button class="tab-btn px-4 py-1.5 rounded-lg text-caption font-headline-sm transition-all bg-primary-container text-on-primary-container shadow" id="tab-explicacion" type="button">
+                  Explicación
+                </button>
+<button class="tab-btn px-4 py-1.5 rounded-lg text-caption font-headline-sm text-on-surface-variant hover:text-on-surface transition-all" id="tab-practica" type="button">
+                  Práctica Rápida
+                </button>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">lightbulb</span>
+<span class="font-label-code text-caption">Regla 3.1</span>
+</div>
+</div>
+<!-- Explanatory Text -->
+<div class="flex flex-col gap-space-sm" id="tab-content-area">
+<div class="p-space-sm rounded-lg bg-surface-container text-body-sm font-body-sm text-on-surface">
+                Usamos <strong class="text-secondary font-semibold font-label-code">am</strong>, <strong class="text-secondary font-semibold font-label-code">is</strong> o <strong class="text-secondary font-semibold font-label-code">are</strong> estrictamente según la categoría de la persona gramatical:
+              </div>
+<!-- Interactive Radio Choices -->
+<div class="flex flex-col gap-2 font-body-sm">
+<!-- Option 1 -->
+<label class="flex items-center justify-between p-3 rounded-lg bg-surface-container hover:bg-surface-container-high cursor-pointer transition-colors">
+<div class="flex items-center gap-space-sm">
+<input class="accent-primary-container h-4 w-4" name="be-practice" type="radio" value="am"/>
+<span class="text-on-surface-variant">She am happy.</span>
+</div>
+<span class="font-label-tag text-[10px] text-error uppercase">Incongruente</span>
+</label>
+<!-- Option 2 (Correct Selected) -->
+<label class="flex items-center justify-between p-3 rounded-lg bg-surface-container-high cursor-pointer shadow-sm">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="accent-primary-container h-4 w-4" name="be-practice" type="radio" value="is"/>
+<span class="text-on-surface font-semibold">She is happy.</span>
+</div>
+<span class="font-label-tag text-[10px] text-tertiary uppercase flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">check</span> Correcto
+                  </span>
+</label>
+<!-- Option 3 -->
+<label class="flex items-center justify-between p-3 rounded-lg bg-surface-container hover:bg-surface-container-high cursor-pointer transition-colors">
+<div class="flex items-center gap-space-sm">
+<input class="accent-primary-container h-4 w-4" name="be-practice" type="radio" value="are"/>
+<span class="text-on-surface-variant">She are happy.</span>
+</div>
+<span class="font-label-tag text-[10px] text-error uppercase">Incongruente</span>
+</label>
+</div>
+</div>
+<!-- Lower Filter Buttons -->
+<div class="flex items-center justify-between pt-space-xs flex-wrap gap-2">
+<span class="font-label-tag text-label-tag text-outline uppercase">Filtro sintáctico:</span>
+<div class="flex items-center gap-1.5">
+<button class="mode-filter-btn px-2.5 py-1 rounded bg-tertiary-container/30 text-tertiary font-label-tag text-caption flex items-center gap-1 hover:brightness-110" type="button">
+<span class="material-symbols-outlined text-[14px]">check</span> Afirmativa
+                </button>
+<button class="mode-filter-btn px-2.5 py-1 rounded bg-[#f59e0b]/20 text-[#f59e0b] font-label-tag text-caption flex items-center gap-1 hover:brightness-110" type="button">
+<span class="material-symbols-outlined text-[14px]">close</span> Negativa
+                </button>
+<button class="mode-filter-btn px-2.5 py-1 rounded bg-[#fbbf24]/20 text-[#fbbf24] font-label-tag text-caption flex items-center gap-1 hover:brightness-110" type="button">
+<span class="material-symbols-outlined text-[14px]">help</span> Pregunta
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Canonical Tokens Snippet Footer Block -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="h-12 w-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary shadow-inner">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Instalación y Consumo en React / Web Components</span>
+<span class="font-caption text-caption text-on-surface-variant"><code>npm i @efy/syntactic-tokens@2.4.0</code></span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm w-full md:w-auto">
+<code class="px-3 py-2 rounded-lg bg-surface-container text-secondary font-label-code text-caption flex-1 md:flex-none">
+              import { SubjectPill, VerbParser } from '@efy/ui';
+            </code>
+<button class="p-2 rounded-lg bg-surface-container-high hover:bg-surface-container text-on-surface transition-colors shrink-0" id="btn-copy-code" title="Copiar comando" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Interactive JavaScript logic for micro-interactions -->
+<script>
+    (function initDesignSystemPage() {
+      // Tab switching between Explicación / Práctica
+      const tabExp = document.getElementById('tab-explicacion');
+      const tabPrac = document.getElementById('tab-practica');
+      const contentArea = document.getElementById('tab-content-area');
+
+      if (tabExp && tabPrac && contentArea) {
+        tabExp.addEventListener('click', () => {
+          tabExp.className = 'tab-btn px-4 py-1.5 rounded-lg text-caption font-headline-sm transition-all bg-primary-container text-on-primary-container shadow';
+          tabPrac.className = 'tab-btn px-4 py-1.5 rounded-lg text-caption font-headline-sm text-on-surface-variant hover:text-on-surface transition-all';
+        });
+
+        tabPrac.addEventListener('click', () => {
+          tabPrac.className = 'tab-btn px-4 py-1.5 rounded-lg text-caption font-headline-sm transition-all bg-primary-container text-on-primary-container shadow';
+          tabExp.className = 'tab-btn px-4 py-1.5 rounded-lg text-caption font-headline-sm text-on-surface-variant hover:text-on-surface transition-all';
+        });
+      }
+
+      // Input validator for exercise card
+      const blankInput = document.getElementById('demo-blank-input');
+      const inputStatus = document.getElementById('demo-input-status');
+
+      if (blankInput && inputStatus) {
+        blankInput.addEventListener('input', (e) => {
+          const val = e.target.value.trim().toLowerCase();
+          if (val === 'are') {
+            inputStatus.innerHTML = '<span class="material-symbols-outlined text-[16px]">verified</span><span>¡Concordancia de sujeto plural correcta!</span>';
+            inputStatus.className = 'flex items-center gap-2 text-caption text-tertiary font-body-sm';
+          } else if (val === 'is' || val === 'am') {
+            inputStatus.innerHTML = '<span class="material-symbols-outlined text-[16px]">cancel</span><span>Error: They es plural en 3ra persona. Requiere "are".</span>';
+            inputStatus.className = 'flex items-center gap-2 text-caption text-error font-body-sm';
+          } else if (val.length === 0) {
+            inputStatus.innerHTML = '<span class="material-symbols-outlined text-[16px]">help</span><span>Introduce la conjugación adecuada.</span>';
+            inputStatus.className = 'flex items-center gap-2 text-caption text-outline font-body-sm';
+          } else {
+            inputStatus.innerHTML = '<span class="material-symbols-outlined text-[16px]">error_outline</span><span>Verbo no reconocido en presente simple.</span>';
+            inputStatus.className = 'flex items-center gap-2 text-caption text-[#f59e0b] font-body-sm';
+          }
+        });
+      }
+
+      // Copy buttons feedback
+      const btnExport = document.getElementById('btn-export-tokens');
+      if (btnExport) {
+        btnExport.addEventListener('click', () => {
+          const originalText = btnExport.innerHTML;
+          btnExport.innerHTML = '<span class="material-symbols-outlined text-[18px]">check</span> ¡Exportado!';
+          setTimeout(() => {
+            btnExport.innerHTML = originalText;
+          }, 2000);
+        });
+      }
+
+      const btnCopyCode = document.getElementById('btn-copy-code');
+      if (btnCopyCode) {
+        btnCopyCode.addEventListener('click', () => {
+          navigator.clipboard.writeText("import { SubjectPill, VerbParser } from '@efy/ui';").then(() => {
+            btnCopyCode.innerHTML = '<span class="material-symbols-outlined text-[18px] text-tertiary">done</span>';
+            setTimeout(() => {
+              btnCopyCode.innerHTML = '<span class="material-symbols-outlined text-[18px]">content_copy</span>';
+            }, 1800);
+          }).catch(() => {});
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low border-t border-outline-variant/30 py-space-md"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-sm font-caption text-caption text-on-surface-variant"><div class="flex items-center gap-space-xs text-center md:text-left"><span>Hecho para hispanohablantes que aprenden inglés</span><span class="text-outline-variant">•</span><span>EFY Design System</span></div><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">Acerca de</a><span class="text-outline-variant">•</span><a class="hover:text-on-surface transition-colors" href="#">Documentación</a><span class="text-outline-variant">•</span><span class="font-label-code text-secondary">Tokens v2.4</span></div></div></footer></body></html>

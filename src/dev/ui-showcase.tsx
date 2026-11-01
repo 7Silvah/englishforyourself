@@ -1,10 +1,11 @@
 // Página de muestra del sistema de diseño: solo existe en desarrollo (/dev/ui).
 // Sus textos van sueltos a propósito: no es interfaz para el estudiante.
-import { CircleAlert, CircleCheck, CircleX } from "lucide-react";
 import type { ReactNode } from "react";
 import { toast } from "sonner";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Formula } from "@/components/lesson/formula";
+import { Modes } from "@/components/lesson/modes";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Dialog,
@@ -30,6 +31,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Toaster } from "@/components/ui/sonner";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import type { ExerciseItem } from "@/features/exercises/check";
+import { Feedback } from "@/features/exercises/player/feedback";
+import type { Piece } from "@/features/tense-lab/conjugate";
+import { SentenceBlocks } from "@/features/tense-lab/sentence-blocks";
 import { cn } from "@/lib/utils";
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
@@ -50,58 +55,36 @@ function Swatch({ className, label }: { className: string; label: string }) {
   );
 }
 
-const moods = [
-  { key: "pos", label: "✓ Positive", head: "bg-pos text-pos-ink", cell: "bg-pos-soft" },
-  { key: "neg", label: "✗ Negative", head: "bg-neg text-neg-ink", cell: "bg-neg-soft" },
-  { key: "q", label: "? Question", head: "bg-q text-q-ink", cell: "bg-q-soft" },
-  { key: "nq", label: "?✗ Negative question", head: "bg-nq text-nq-ink", cell: "bg-nq-soft" },
+const surfaces = [
+  ["bg-background", "background"],
+  ["bg-card", "card"],
+  ["bg-muted", "muted"],
+  ["bg-popover", "popover"],
+  ["bg-border", "border"],
 ] as const;
 
-const moodExamples = [
-  "She loves comics",
-  "She doesn't love comics",
-  "Does she love comics?",
-  "Doesn't she love comics?",
+const negative: Piece[] = [
+  { role: "subj", text: "She" },
+  { role: "aux", text: "doesn't" },
+  { role: "verb", text: "love" },
+  { role: "obj", text: "comics." },
+];
+const question: Piece[] = [
+  { role: "aux", text: "Does" },
+  { role: "subj", text: "she" },
+  { role: "verb", text: "love" },
+  { role: "obj", text: "comics?" },
 ];
 
-const blockStyles = {
-  subj: "bg-subj border-subj-border text-subj-fg",
-  aux: "bg-aux border-aux-border text-aux-fg",
-  verb: "bg-verb border-verb-border text-verb-fg",
-  obj: "bg-obj border-obj-border text-obj-fg font-normal",
-} as const;
-
-function Block({ type, children }: { type: keyof typeof blockStyles; children: ReactNode }) {
-  return (
-    <span className={cn("rounded-md border-2 px-3 py-1.5 font-semibold", blockStyles[type])}>
-      {children}
-    </span>
-  );
-}
-
-const states = [
-  {
-    key: "correct",
-    Icon: CircleCheck,
-    title: "¡Correcto!",
-    text: "Con he/she/it el verbo lleva -s.",
-    className: "bg-correct border-correct-border text-correct-fg",
-  },
-  {
-    key: "almost",
-    Icon: CircleAlert,
-    title: "Casi: revisa la ortografía",
-    text: "Escribiste «travled».",
-    className: "bg-almost border-almost-border text-almost-fg",
-  },
-  {
-    key: "wrong",
-    Icon: CircleX,
-    title: "Incorrecto",
-    text: "Después de didn't el verbo va en forma base: go.",
-    className: "bg-wrong border-wrong-border text-wrong-fg",
-  },
-] as const;
+// Un ítem de muestra para ver el aviso de corrección real en sus tres estados
+const sampleItem: ExerciseItem = {
+  id: "1",
+  type: "fill-blank",
+  text: "I didn't ___ to school yesterday.",
+  blanks: [{ answers: ["go"] }],
+  explanationEs: "Después de didn't, el verbo va en forma base: go, no went.",
+};
+const statuses = ["correct", "almost", "wrong"] as const;
 
 // Toaster y TooltipProvider solo hacen falta aquí: la app no usa avisos ni tooltips,
 // así que no se cargan en main.tsx (ahorran peso en la carga inicial).
@@ -128,56 +111,39 @@ export function UiShowcase() {
           </div>
         </Section>
 
-        <Section title="Modos gramaticales (pos / neg / q / nq)">
-          <div className="overflow-x-auto rounded-lg border">
-            <table className="w-full text-sm" lang="en">
-              <thead>
-                <tr>
-                  {moods.map((m) => (
-                    <th key={m.key} scope="col" className={cn("px-3 py-2 text-left", m.head)}>
-                      {m.label}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  {moods.map((m, i) => (
-                    <td key={m.key} className={cn("px-3 py-2", m.cell)}>
-                      {moodExamples[i]}
-                    </td>
-                  ))}
-                </tr>
-              </tbody>
-            </table>
+        <Section title="Superficies">
+          <p className="text-sm text-muted-foreground">
+            Capas de fondo a zona elevada, separadas por bordes finos en lugar de sombras.
+          </p>
+          <div className="flex flex-wrap gap-6">
+            {surfaces.map(([className, label]) => (
+              <Swatch key={label} className={className} label={label} />
+            ))}
           </div>
+        </Section>
+
+        <Section title="Modos gramaticales (pos / neg / q / nq)">
+          <Modes
+            pos="She loves comics."
+            neg="She doesn't love comics."
+            q="Does she love comics?"
+            nq="Doesn't she love comics?"
+          />
         </Section>
 
         <Section title="Bloques de estructura">
-          <div className="flex flex-wrap items-center gap-2" lang="en">
-            <Block type="subj">She</Block>
-            <Block type="aux">doesn't</Block>
-            <Block type="verb">love</Block>
-            <Block type="obj">comics</Block>
-          </div>
-          <div className="flex flex-wrap items-center gap-2" lang="en">
-            <Block type="aux">Does</Block>
-            <Block type="subj">she</Block>
-            <Block type="verb">love</Block>
-            <Block type="obj">comics?</Block>
-          </div>
+          <Formula
+            parts={["subj:Sujeto", "aux:auxiliar", "verb:verbo base", "obj:complemento"]}
+            example={["She", "doesn't", "love", "comics."]}
+          />
+          <SentenceBlocks pieces={negative} />
+          <SentenceBlocks pieces={question} swap />
         </Section>
 
         <Section title="Estados de corrección">
-          <div className="grid gap-3 sm:grid-cols-3">
-            {states.map(({ key, Icon, title, text, className }) => (
-              <div key={key} className={cn("flex gap-3 rounded-lg border p-4", className)}>
-                <Icon className="mt-0.5 size-5 shrink-0" aria-hidden />
-                <div>
-                  <p className="font-semibold">{title}</p>
-                  <p className="text-sm">{text}</p>
-                </div>
-              </div>
+          <div className="grid gap-3 lg:grid-cols-3">
+            {statuses.map((status) => (
+              <Feedback key={status} item={sampleItem} result={{ status }} />
             ))}
           </div>
         </Section>
