@@ -14,7 +14,7 @@
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
-| 4 · Gramática intermedia (B1–B2) | F16–F17 | 🟨 en curso — F16 ✅ F17 ⬜ |
+| 4 · Gramática intermedia (B1–B2) | F16–F17 | ✅ terminada — F16 ✅ F17 ✅ |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
@@ -22,20 +22,21 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 01/11/2026, con los cinco hallazgos del motor de R1–R4 arreglados en la rama
-`motor-hallazgos`, que sale de `desarrollo` con F16 completa.*
+*Actualizado el 01/11/2026, con F17 terminada en la rama `f17-prueba-de-nivel`: con ella se
+cierra la Etapa 4.*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir el PR de `motor-hallazgos` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Abrir el PR de `f17-prueba-de-nivel` hacia `desarrollo`** y fusionarlo con la CI en verde.
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)**, cuando decidas (el 01/11/2026 decidiste dejarlo para más adelante), con
   [DESPLIEGUE.md](DESPLIEGUE.md).
 - [ ] **Revisión por un profesional, en el futuro** (no bloquea): unidades 1–29, sus sets,
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: F17, la prueba de nivel** (unos 30 ítems escalonados A1→B2 que recomiendan
-una unidad y marcan como vistas las anteriores). Con ella termina la Etapa 4.
+**2. Siguiente: Etapa 5, F18 (calidad y PWA)**: Playwright de punta a punta, axe en las
+páginas clave, la app instalable y sin conexión (`vite-plugin-pwa`), JS inicial < 200 KB y
+metadatos por ruta. F19 (publicación) espera a resolver los derechos del contenido (§14).
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -903,7 +904,11 @@ Trece unidades (17–29), una por tema de §6.1 salvo los condicionales, que van
 **Listo cuando:** las 13 unidades intermedias están en el curso con sus sets de muestra y todos los worksheets tienen unidad. ✅
 - [x] Página `/dev/revision` (solo en desarrollo): sets y listas con `reviewed: false`, agrupados por unidad (con su papel: guiada, libre, worksheet, repaso), los sets fuera de las unidades y las listas por sección, con enlaces para jugarlos, Flashcards y Practicar. Adelantada a petición del dueño del repo. 193 tests.
 #### F17 — Prueba de nivel
-- [ ] Unos 30 ítems escalonados A1→B2; recomienda una unidad y marca como vistas las anteriores.
+- [x] `/prueba-de-nivel`: 31 preguntas de opción múltiple escalonadas A1→B2, una por unidad y dos en las que más separan (presente perfecto, condicionales). Sin audio (puede no haber voces) y en modo examen: sin corrección hasta el final. Contenido en `content/placement/placement-test.json` (`reviewed: false`), con su esquema (`PlacementTest`: cada ítem lleva la unidad que mide) y validado por `content:check`, que ahora comparte las comprobaciones por tipo de ítem (`checkItemContent`). No es un set: no sale en el catálogo ni cuenta en el progreso.
+- [x] Recomendación (`features/placement/logic.ts`): la primera unidad fallada con otro fallo en una de las dos siguientes (un despiste suelto no manda atrás); sin fallos, la última. Aciertos por nivel en el resultado.
+- [x] Se guarda en el progreso (`placement`, store v3 con migración): el curso recomienda desde esa unidad y muestra las anteriores sin empezar como «Vista en la prueba» (`shownStatus`). Acceso desde el curso (con «Repetir la prueba») y desde la portada si aún no hay progreso. 216 tests.
+
+**Listo cuando:** la prueba recomienda una unidad y el curso parte de ella. ✅
 
 ### Etapa 5 — Calidad, offline y publicación
 #### F18 — Calidad y PWA
