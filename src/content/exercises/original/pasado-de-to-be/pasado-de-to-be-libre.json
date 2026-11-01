@@ -76,7 +76,9 @@
       "wrong": "had 10 years",
       "answers": [
         "was 10 years old",
-        "was 10"
+        "was 10",
+        "was ten years old",
+        "was ten"
       ],
       "explanationEs": "La edad, también en pasado, se dice con to be: I was 10."
     }

@@ -92,7 +92,10 @@
       "id": "4",
       "type": "dictation",
       "text": "I was tired, so I went to bed.",
-      "explanationEs": "So introduce la consecuencia."
+      "explanationEs": "So introduce la consecuencia.",
+      "answers": [
+        "I was tired so I went to bed."
+      ]
     },
     {
       "id": "5",

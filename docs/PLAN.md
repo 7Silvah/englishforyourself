@@ -12,7 +12,7 @@
 | 1 · Base técnica + Fundamentos I (A1) | F0–F7 | 🟨 en curso — F0 ✅ F1 ✅ F2 ✅ F3 ✅ F4 ✅ F5 ✅ F6 ✅ F7 🟨 (CI en verde en `main`; despliegue por confirmar) |
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
-| R · Revisión crítica del contenido | R1–R4 | 🟨 en curso — R1 ✅ |
+| R · Revisión crítica del contenido | R1–R4 | 🟨 en curso — R1 ✅ R2 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17 | ⬜ pendiente |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -21,14 +21,14 @@ Leyenda: ⬜ pendiente · 🟨 en curso · ✅ terminada.
 
 ## Próximo paso
 
-*Actualizado el 31/10/2026. Las ramas van encadenadas porque `desarrollo` todavía tiene
-hasta F14: `f15-phrasal-verbs` (F15 + D1) → `r1-revision-unidades-1-8` → `r2-revision-unidades-9-16`.*
+*Actualizado el 31/10/2026, con R2 terminada en la rama `r2-revision-unidades-9-16` (sale
+de `desarrollo`, que ya tiene F15, D1 y R1).*
 
 **1. Te toca a ti (dueño del repo):**
 
-- [ ] **Abrir y fusionar los PR hacia `desarrollo` en orden**: primero
-  `f15-phrasal-verbs`, después `r1-revision-unidades-1-8` y después `r2-revision-unidades-9-16`. Cada uno
-  con la CI en verde; al fusionar el anterior, el siguiente solo muestra sus cambios.
+- [ ] **Abrir el PR de `r2-revision-unidades-9-16` hacia `desarrollo`** y fusionarlo con la CI en verde.
+- [ ] **Decidir los dos hallazgos del motor** de R1 y R2 (§11, «R1»): la coma en
+  `check.ts` y el `error-correction` con varias palabras. No bloquean.
 - [ ] **Proteger `desarrollo`** si aún no lo hiciste: *Settings → Rules → Rulesets*, regla
   **Restrict deletions** (así *Automatically delete head branches* no la borra al pasarla a `main`).
 - [ ] **Activar el despliegue privado (cierra F7 y la Etapa 1)** con
@@ -37,9 +37,9 @@ hasta F14: `f15-phrasal-verbs` (F15 + D1) → `r1-revision-unidades-1-8` → `r2
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, y los 207 phrasal verbs de
   F15. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: R2, revisión crítica de las unidades 9–16** (§11, «Revisión de
-contenido»). Después R3 (worksheets) y R4 (traducciones de las listas), y luego la
-Etapa 4 (F16, unidades B1–B2), que sale con sets de muestra según D1 (§14).
+**2. Siguiente: R3, revisión crítica de los 35 worksheets** (§11, «Revisión de
+contenido»). Después R4 (traducciones de las listas) y luego la Etapa 4 (F16,
+unidades B1–B2), que sale con sets de muestra según D1 (§14).
 
 **3. Cómo se trabaja cada fase** (regla fija en CLAUDE.md, «Ramas»):
 
@@ -845,16 +845,19 @@ se haya enseñado todavía; español neutro con tuteo. Las correcciones evidente
 hacen en commits propios; `reviewed` sigue en `false` (D1).
 
 #### R1 — Unidades 1–8
-- [x] 8 explicaciones y 33 sets (~230 ítems). Ninguna estructura adelantada (las unidades 1–6 no usan la -s del presente simple, *don't* ni preguntas con *do*).
+- [x] 8 explicaciones y 33 sets (220 ítems, con el set de muestra). Ninguna estructura adelantada (las unidades 1–6 no usan la -s del presente simple, *don't* ni preguntas con *do*).
 - [x] Explicaciones: plural en **-o** (no siempre -es: *photos*, *pianos*) y vocal + y (*boys*) en la unidad 4; *lo/la/le* «suelen» ir antes del verbo en la unidad 2.
 - [x] Ejercicios (11): respuestas válidas que faltaban (*a large house*, *There's not…*, edades con letras, *usually* al principio, *Yes I do* sin coma); `error-correction` acepta también la corrección de la palabra tocada (*an engineer*, *do you*); *hers* → *him* como distractor; contexto en *I like ___* (*the cats* también era correcto).
-- **Hallazgos del motor (pendientes de decidir, no son contenido):**
-  - [ ] `normalize` (`check.ts`) no quita las comas internas: «Yes I do» cuenta como fallo. En R1 se resolvió con respuestas extra; arreglarlo en `check.ts` evitaría repetirlo ítem a ítem.
-  - [ ] `error-correction` con un fragmento de varias palabras: solo se marca la palabra tocada, pero hay que reescribir el fragmento entero. Caso sin arreglar con respuestas: *My sister have 12 years* (quien toca *have* escribe *is*). Propuesta: mostrar el fragmento completo al tocar cualquiera de sus palabras.
+- **Hallazgos del motor (pendientes de decidir, no son contenido; R1 y R2):**
+  - [ ] `normalize` (`check.ts`) no quita las comas internas: «Yes I do» cuenta como fallo. Afecta sobre todo a los **dictados**, donde la coma no se oye (*Don't be late, please*; *I was tired, so I went to bed*). En R1 y R2 se resolvió con respuestas extra; arreglarlo en `check.ts` evitaría repetirlo ítem a ítem.
+  - [ ] `error-correction` con un fragmento de varias palabras: solo se marca la palabra tocada, pero hay que reescribir el fragmento entero. Casos sin arreglar con respuestas: *My sister have 12 years* (quien toca *have* escribe *is*), *She can to drive* y *I will to call* (quien toca *to* no tiene qué escribir: hay que borrarlo). Propuesta: mostrar el fragmento completo al tocar cualquiera de sus palabras.
 - **Dudas para el profesional:** unidad 1, guiada 1 (*___ is cold today*): los distractores *They*/*We* son de concordancia, no el error típico de omitir *it*.
 
 #### R2 — Unidades 9–16
-- [ ] 8 explicaciones y sus sets, con la misma lista.
+- [x] 8 explicaciones y 32 sets (208 ítems). Sin formas de *vosotros* en todo el curso salvo una (corregida).
+- [x] Explicaciones: la regla de doblar la consonante decía «vocal + consonante» y contradecía sus propios ejemplos (*read → reading*, *need → needed*, *cheap → cheaper*): ahora «una sola vocal + una consonante» en las unidades 9, 13 y 15. Unidad 10: «haréis» (vosotros) → «hacer algo juntos». Unidad 12: el error común *Did you be tired?* usaba *did* antes de enseñarlo (unidad 13). Unidad 13: -ed suena /t/ también tras *f* y *x*. Unidad 14: «Para ofrecerte» → «Para ofrecer ayuda». Unidad 15: *farther* / *the farthest* y el título de los adjetivos largos.
+- [x] Ejercicios (14): la unidad 12 usaba *did* en 4 ítems antes de la unidad 13 (cambiados por errores de tiempo y de concordancia: *Are you at work yesterday?*, *Was you at home?*, *The exam no was…*); dictados que acepten la frase sin coma y *10* por *ten*; edades con letras; *I think that…*; superlativos sin *the* en la tabla; *usually* al principio; en la tabla de *in/on/at*, *the table* y *school* tenían dos respuestas válidas (*at the table*, *in school* en EE. UU.) y pasan a *the wall* y *home*; *Because I was tired, so I went* admite quitar cualquiera de los dos conectores; explicación de cómo suena *can't*.
+- **Dudas para el profesional:** unidad 10, más práctica 1: *Vamos a la playa* se empareja con *Let's go to the beach*, pero también puede ser *We're going to the beach*. Unidad 16: el orden «cómo → dónde → cuándo» cambia con verbos de movimiento (*I went home quickly*); la explicación no lo menciona.
 #### R3 — Worksheets
 - [ ] 35 sets `source: "worksheet"`.
 #### R4 — Traducciones de las listas
