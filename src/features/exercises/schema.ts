@@ -139,3 +139,13 @@ export const ExerciseSet = z.strictObject({
   items: z.array(ExerciseItem).min(1),
 });
 export type ExerciseSet = z.infer<typeof ExerciseSet>;
+
+// Prueba de nivel (F17): ítems normales, cada uno con la unidad del curso que mide
+export const PlacementItem = z.intersection(ExerciseItem, z.object({ unit: z.string().min(1) }));
+export type PlacementItem = z.infer<typeof PlacementItem>;
+
+export const PlacementTest = z.strictObject({
+  reviewed: z.boolean().optional(), // revisada por una persona (decisión D1)
+  items: z.array(PlacementItem).min(20),
+});
+export type PlacementTest = z.infer<typeof PlacementTest>;

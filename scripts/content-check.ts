@@ -12,7 +12,7 @@ import { IRREGULAR_TOPIC } from "@/content/data/practice-topics";
 import { TENSES } from "@/content/data/tense-index";
 import { sections } from "@/content/sections";
 import { particleMatches } from "@/features/exercises/generators/phrasal-verbs";
-import { ExerciseSet } from "@/features/exercises/schema";
+import { ExerciseSet, PlacementTest, type ExerciseItem } from "@/features/exercises/schema";
 import { readFrontmatter } from "./vite-plugin-content-meta";
 
 const ROOT = "src/content";
@@ -110,6 +110,78 @@ for (const file of await files(`${ROOT}/tables`, ".json"))
 
 // ---------- Ejercicios ----------
 
+/** Comprobaciones que el esquema no puede hacer, por tipo de ítem */
+function checkItemContent(item: ExerciseItem, where: string) {
+  switch (item.type) {
+    case "fill-blank": {
+      const holes = item.text.split("___").length - 1;
+      if (holes !== item.blanks.length)
+        errors.push(
+          `${where}: la frase tiene ${holes} huecos (___) y hay ${item.blanks.length} respuestas`,
+        );
+      break;
+    }
+    case "multiple-choice":
+    case "listen-choose":
+      if (item.answer >= item.options.length) errors.push(`${where}: answer fuera de options`);
+      break;
+    case "error-correction":
+      if (!item.sentence.includes(item.wrong))
+        errors.push(`${where}: "${item.wrong}" no está en la frase`);
+      else if (item.sentence.indexOf(item.wrong) !== item.sentence.lastIndexOf(item.wrong))
+        errors.push(`${where}: "${item.wrong}" aparece más de una vez en la frase`);
+      break;
+    case "match": {
+      const lefts = item.pairs.map((p) => p.left);
+      const rights = item.pairs.map((p) => p.right);
+      if (new Set(lefts).size !== lefts.length || new Set(rights).size !== rights.length)
+        errors.push(`${where}: hay elementos repetidos en una columna del match`);
+      break;
+    }
+    case "categorize": {
+      const words = item.categories.flatMap((c) => c.items);
+      if (new Set(words).size !== words.length)
+        errors.push(`${where}: una palabra aparece en más de una categoría`);
+      if (item.categories.some((c) => c.items.length === 0))
+        errors.push(`${where}: hay una categoría sin palabras`);
+      break;
+    }
+    case "translate": {
+      // Con banco de palabras, cada respuesta debe poder formarse con sus fichas
+      if (!item.wordBank) break;
+      const bank = item.wordBank;
+      for (const answer of item.answers) {
+        const left = [...bank];
+        for (const word of answer.split(/\s+/).filter(Boolean)) {
+          const at = left.indexOf(word);
+          if (at < 0) {
+            errors.push(`${where}: "${answer}" usa "${word}", que no está en wordBank`);
+            break;
+          }
+          left.splice(at, 1);
+        }
+      }
+      break;
+    }
+    case "table-fill": {
+      if (item.rows.some((r) => r.cells.length !== item.columns.length))
+        errors.push(`${where}: cada fila debe tener una celda por columna`);
+      if (!item.rows.some((r) => r.cells.some((c) => typeof c !== "string")))
+        errors.push(`${where}: la tabla no tiene ningún hueco`);
+      break;
+    }
+    case "word-order": {
+      // Las fichas salen de la primera respuesta: las demás deben usar las mismas
+      const tiles = (s: string) => s.split(/\s+/).filter(Boolean).sort().join(" ");
+      const first = tiles(item.answers[0] ?? "");
+      for (const answer of item.answers.slice(1))
+        if (tiles(answer) !== first)
+          errors.push(`${where}: "${answer}" no usa las mismas fichas que la primera respuesta`);
+      break;
+    }
+  }
+}
+
 const setIds = new Map<string, string>();
 const setUnits = new Map<string, string | undefined>(); // id del set → campo "unit"
 let unreviewed = 0;
@@ -133,74 +205,7 @@ for (const file of await files(`${ROOT}/exercises`, ".json")) {
     itemIds.add(item.id);
     if (set.source === "original" && !item.explanationEs)
       errors.push(`${where}: falta explanationEs (obligatoria en los sets original)`);
-    switch (item.type) {
-      case "fill-blank": {
-        const holes = item.text.split("___").length - 1;
-        if (holes !== item.blanks.length)
-          errors.push(
-            `${where}: la frase tiene ${holes} huecos (___) y hay ${item.blanks.length} respuestas`,
-          );
-        break;
-      }
-      case "multiple-choice":
-      case "listen-choose":
-        if (item.answer >= item.options.length) errors.push(`${where}: answer fuera de options`);
-        break;
-      case "error-correction":
-        if (!item.sentence.includes(item.wrong))
-          errors.push(`${where}: "${item.wrong}" no está en la frase`);
-        else if (item.sentence.indexOf(item.wrong) !== item.sentence.lastIndexOf(item.wrong))
-          errors.push(`${where}: "${item.wrong}" aparece más de una vez en la frase`);
-        break;
-      case "match": {
-        const lefts = item.pairs.map((p) => p.left);
-        const rights = item.pairs.map((p) => p.right);
-        if (new Set(lefts).size !== lefts.length || new Set(rights).size !== rights.length)
-          errors.push(`${where}: hay elementos repetidos en una columna del match`);
-        break;
-      }
-      case "categorize": {
-        const words = item.categories.flatMap((c) => c.items);
-        if (new Set(words).size !== words.length)
-          errors.push(`${where}: una palabra aparece en más de una categoría`);
-        if (item.categories.some((c) => c.items.length === 0))
-          errors.push(`${where}: hay una categoría sin palabras`);
-        break;
-      }
-      case "translate": {
-        // Con banco de palabras, cada respuesta debe poder formarse con sus fichas
-        if (!item.wordBank) break;
-        const bank = item.wordBank;
-        for (const answer of item.answers) {
-          const left = [...bank];
-          for (const word of answer.split(/\s+/).filter(Boolean)) {
-            const at = left.indexOf(word);
-            if (at < 0) {
-              errors.push(`${where}: "${answer}" usa "${word}", que no está en wordBank`);
-              break;
-            }
-            left.splice(at, 1);
-          }
-        }
-        break;
-      }
-      case "table-fill": {
-        if (item.rows.some((r) => r.cells.length !== item.columns.length))
-          errors.push(`${where}: cada fila debe tener una celda por columna`);
-        if (!item.rows.some((r) => r.cells.some((c) => typeof c !== "string")))
-          errors.push(`${where}: la tabla no tiene ningún hueco`);
-        break;
-      }
-      case "word-order": {
-        // Las fichas salen de la primera respuesta: las demás deben usar las mismas
-        const tiles = (s: string) => s.split(/\s+/).filter(Boolean).sort().join(" ");
-        const first = tiles(item.answers[0] ?? "");
-        for (const answer of item.answers.slice(1))
-          if (tiles(answer) !== first)
-            errors.push(`${where}: "${answer}" no usa las mismas fichas que la primera respuesta`);
-        break;
-      }
-    }
+    checkItemContent(item, where);
   }
 }
 
@@ -252,6 +257,26 @@ for (const file of await files(`${ROOT}/course/units`, ".mdx")) {
 for (const [id, unit] of setUnits)
   if (unit && setOwner.get(id) !== unit)
     errors.push(`set ${id}: dice "unit": "${unit}", pero esa unidad no lo incluye`);
+
+// ---------- Prueba de nivel ----------
+
+const PLACEMENT = `${ROOT}/placement/placement-test.json`;
+if (!existsSync(PLACEMENT)) errors.push(`${PLACEMENT}: falta la prueba de nivel`);
+else {
+  const test = validate(PlacementTest, JSON.parse(await readFile(PLACEMENT, "utf8")), PLACEMENT);
+  const ids = new Set<string>();
+  for (const item of test?.items ?? []) {
+    const where = `${PLACEMENT} ítem ${item.id}`;
+    if (ids.has(item.id)) errors.push(`${where}: id de ítem repetido`);
+    ids.add(item.id);
+    if (!unitSlugs.has(item.unit)) errors.push(`${where}: la unidad "${item.unit}" no existe`);
+    // En la prueba no se oye nada: el estudiante puede no tener voces en inglés
+    if (item.type === "dictation" || item.type === "listen-choose")
+      errors.push(`${where}: la prueba de nivel no usa ítems de audio`);
+    checkItemContent(item, where);
+  }
+  if (test) info.push(`Prueba de nivel: ${test.items.length} ítems`);
+}
 
 // ---------- Referencias y enlaces ----------
 
