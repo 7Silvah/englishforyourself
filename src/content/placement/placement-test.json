@@ -1,0 +1,377 @@
+{
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "unit": "la-oracion",
+      "type": "multiple-choice",
+      "prompt": "___ is cold today.",
+      "options": [
+        "It",
+        "He",
+        "There"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "2",
+      "unit": "pronombres",
+      "type": "multiple-choice",
+      "prompt": "Can you help ___?",
+      "options": [
+        "me",
+        "I",
+        "my"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "3",
+      "unit": "verbo-to-be",
+      "type": "multiple-choice",
+      "prompt": "I ___ 25 years old.",
+      "options": [
+        "am",
+        "have",
+        "is"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "4",
+      "unit": "articulos-y-plurales",
+      "type": "multiple-choice",
+      "prompt": "She is ___ engineer.",
+      "options": [
+        "an",
+        "a",
+        "—"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "5",
+      "unit": "posesivos-y-demostrativos",
+      "type": "multiple-choice",
+      "prompt": "This is Maria, and that is ___ brother.",
+      "options": [
+        "her",
+        "his",
+        "she"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "6",
+      "unit": "there-is-there-are",
+      "type": "multiple-choice",
+      "prompt": "___ two banks near my house.",
+      "options": [
+        "There are",
+        "There is",
+        "It has"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "7",
+      "unit": "presente-simple",
+      "type": "multiple-choice",
+      "prompt": "My brother ___ in a bank.",
+      "options": [
+        "works",
+        "work",
+        "is work"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "8",
+      "unit": "preguntas",
+      "type": "multiple-choice",
+      "prompt": "___ your sister like coffee?",
+      "options": [
+        "Does",
+        "Do",
+        "Is"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "9",
+      "unit": "presente-continuo",
+      "type": "multiple-choice",
+      "prompt": "Look! The children ___ in the garden.",
+      "options": [
+        "are playing",
+        "is playing",
+        "play"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "10",
+      "unit": "imperativo-y-can",
+      "type": "multiple-choice",
+      "prompt": "___ touch that! It's hot.",
+      "options": [
+        "Don't",
+        "No",
+        "Not"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "11",
+      "unit": "preposiciones-in-on-at",
+      "type": "multiple-choice",
+      "prompt": "The meeting is ___ Monday.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "12",
+      "unit": "pasado-de-to-be",
+      "type": "multiple-choice",
+      "prompt": "Where ___ you yesterday?",
+      "options": [
+        "were",
+        "was",
+        "did"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "13",
+      "unit": "pasado-simple",
+      "type": "multiple-choice",
+      "prompt": "I ___ to the cinema last night.",
+      "options": [
+        "went",
+        "go",
+        "goed"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "14",
+      "unit": "futuro",
+      "type": "multiple-choice",
+      "prompt": "Look at those clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "will to",
+        "goes to"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "15",
+      "unit": "comparativos-y-superlativos",
+      "type": "multiple-choice",
+      "prompt": "This book is ___ than the film.",
+      "options": [
+        "better",
+        "more good",
+        "best"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "16",
+      "unit": "unir-ideas",
+      "type": "multiple-choice",
+      "prompt": "I was tired, ___ I went to bed early.",
+      "options": [
+        "so",
+        "because",
+        "but"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "17",
+      "unit": "pasado-continuo",
+      "type": "multiple-choice",
+      "prompt": "I ___ dinner when you called.",
+      "options": [
+        "was having",
+        "were having",
+        "was have"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "18",
+      "unit": "presente-perfecto",
+      "type": "multiple-choice",
+      "prompt": "I ___ in Madrid since 2018.",
+      "options": [
+        "have lived",
+        "live",
+        "lived"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "19",
+      "unit": "presente-perfecto",
+      "type": "multiple-choice",
+      "prompt": "___ you ever been to Japan?",
+      "options": [
+        "Have",
+        "Did",
+        "Are"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "20",
+      "unit": "pasado-perfecto",
+      "type": "multiple-choice",
+      "prompt": "When we arrived at the cinema, the film ___.",
+      "options": [
+        "had already started",
+        "has already started",
+        "had already start"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "21",
+      "unit": "futuro-continuo-y-perfecto",
+      "type": "multiple-choice",
+      "prompt": "This time tomorrow I ___ to Paris.",
+      "options": [
+        "will be flying",
+        "will flying",
+        "am fly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "22",
+      "unit": "condicionales-0-y-1",
+      "type": "multiple-choice",
+      "prompt": "If it ___ tomorrow, we'll stay at home.",
+      "options": [
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "23",
+      "unit": "condicionales-2-y-3",
+      "type": "multiple-choice",
+      "prompt": "If I ___ more money, I would buy a car.",
+      "options": [
+        "had",
+        "have",
+        "would have"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "24",
+      "unit": "condicionales-2-y-3",
+      "type": "multiple-choice",
+      "prompt": "If you had told me, I ___ you.",
+      "options": [
+        "would have helped",
+        "had helped",
+        "will have helped"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "25",
+      "unit": "voz-pasiva",
+      "type": "multiple-choice",
+      "prompt": "This castle ___ in the 12th century.",
+      "options": [
+        "was built",
+        "built",
+        "is built"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "26",
+      "unit": "gerundio-e-infinitivo",
+      "type": "multiple-choice",
+      "prompt": "I enjoy ___ in the sea.",
+      "options": [
+        "swimming",
+        "to swim",
+        "swim"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "27",
+      "unit": "tag-questions",
+      "type": "multiple-choice",
+      "prompt": "You're a student, ___?",
+      "options": [
+        "aren't you",
+        "isn't it",
+        "don't you"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "28",
+      "unit": "oraciones-de-relativo",
+      "type": "multiple-choice",
+      "prompt": "That's the woman ___ son is a famous singer.",
+      "options": [
+        "whose",
+        "who",
+        "which"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "29",
+      "unit": "modales-obligacion-y-consejo",
+      "type": "multiple-choice",
+      "prompt": "You ___ bring anything. There's plenty of food.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "haven't"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "30",
+      "unit": "estilo-indirecto",
+      "type": "multiple-choice",
+      "prompt": "She asked me where ___.",
+      "options": [
+        "I lived",
+        "did I live",
+        "I did live"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "31",
+      "unit": "deseos-y-arrepentimientos",
+      "type": "multiple-choice",
+      "prompt": "I wish I ___ taller.",
+      "options": [
+        "were",
+        "am",
+        "will be"
+      ],
+      "answer": 0
+    }
+  ]
+}
