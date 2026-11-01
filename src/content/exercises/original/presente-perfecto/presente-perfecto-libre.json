@@ -1,0 +1,96 @@
+{
+  "title": "Present perfect: free practice",
+  "titleEs": "Presente perfecto: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "presente-perfecto",
+  "topics": [
+    "present-perfect",
+    "present-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "My sister ___ (to break) her leg, so she can't play today.",
+      "blanks": [
+        {
+          "answers": [
+            "has broken",
+            "’s broken"
+          ]
+        }
+      ],
+      "explanationEs": "Pasó antes y tiene un efecto ahora: has + participio de break (broken)."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I ___ (to live) in this city ___ 2015.",
+      "blanks": [
+        {
+          "answers": [
+            "have lived",
+            "’ve lived",
+            "have been living",
+            "’ve been living"
+          ]
+        },
+        {
+          "answers": [
+            "since"
+          ]
+        }
+      ],
+      "explanationEs": "Algo que dura hasta hoy, en presente perfecto. 2015 es el momento en que empezó: since."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "They ___ (not / see) the new film yet.",
+      "blanks": [
+        {
+          "answers": [
+            "haven't seen",
+            "have not seen",
+            "’ve not seen"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa: haven't + participio de see (seen). Yet va al final: todavía no."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "You have finished the report.",
+      "to": "q",
+      "answers": [
+        "Have you finished the report?"
+      ],
+      "explanationEs": "Pregunta: have pasa delante del sujeto."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "He has been sleeping all afternoon.",
+      "to": "neg",
+      "answers": [
+        "He hasn't been sleeping all afternoon.",
+        "He’s not been sleeping all afternoon."
+      ],
+      "explanationEs": "Negativa: hasn't + been + verbo con -ing."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "She has wrote three books.",
+      "wrong": "wrote",
+      "answers": [
+        "written"
+      ],
+      "explanationEs": "Después de has, el participio de write: written. Wrote es el pasado."
+    }
+  ]
+}

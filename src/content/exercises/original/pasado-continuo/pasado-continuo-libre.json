@@ -1,0 +1,84 @@
+{
+  "title": "Past continuous: free practice",
+  "titleEs": "Pasado continuo: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "A2",
+  "unit": "pasado-continuo",
+  "topics": [
+    "past-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "At midnight, my neighbours ___ (to play) loud music.",
+      "blanks": [
+        {
+          "answers": [
+            "were playing"
+          ]
+        }
+      ],
+      "explanationEs": "Algo en curso a una hora del pasado. My neighbours es plural: were playing."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "I ___ (to drive) home when I saw the accident.",
+      "blanks": [
+        {
+          "answers": [
+            "was driving"
+          ]
+        }
+      ],
+      "explanationEs": "La acción larga, en pasado continuo (was driving); la corta (saw), en pasado simple."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "We ___ (not / listen) when the teacher explained it.",
+      "blanks": [
+        {
+          "answers": [
+            "weren't listening",
+            "were not listening"
+          ]
+        }
+      ],
+      "explanationEs": "Negativa con we: weren't + verbo con -ing."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "He was working in the garden.",
+      "to": "q",
+      "answers": [
+        "Was he working in the garden?"
+      ],
+      "explanationEs": "Pregunta: was pasa delante del sujeto, como en el pasado de to be."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "They were laughing at the joke.",
+      "to": "neg",
+      "answers": [
+        "They weren't laughing at the joke."
+      ],
+      "explanationEs": "Negativa: were + not (weren't) y el verbo con -ing."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "Sara were reading when I arrived.",
+      "wrong": "were",
+      "answers": [
+        "was"
+      ],
+      "explanationEs": "Sara es una persona (she): was, no were."
+    }
+  ]
+}

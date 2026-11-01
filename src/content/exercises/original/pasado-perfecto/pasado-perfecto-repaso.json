@@ -1,0 +1,98 @@
+{
+  "title": "Past perfect: review",
+  "titleEs": "Pasado perfecto: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "pasado-perfecto",
+  "topics": [
+    "past-perfect",
+    "past-perfect-continuous"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "By the time I got to the party, everyone ___.",
+      "options": [
+        "had left",
+        "has left",
+        "had leave"
+      ],
+      "answer": 0,
+      "explanationEs": "Se fueron antes de que yo llegara: had + participio (left)."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "She was exhausted because she ___ all night.",
+      "options": [
+        "had been studying",
+        "has been studying",
+        "had been study"
+      ],
+      "answer": 0,
+      "explanationEs": "Algo que llevaba tiempo pasando hasta un momento del pasado: had been + -ing."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "When I phoned him, he had already gone to bed.",
+      "answer": true,
+      "explanationEs": "Se acostó antes de mi llamada: had gone."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "They hadn't never seen snow before.",
+      "answer": false,
+      "explanationEs": "Sin doble negación: They had never seen snow (o They hadn't ever seen snow)."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "How long had you been waiting?"
+      ],
+      "distractors": [
+        "have"
+      ],
+      "explanationEs": "Pregunta: how long + had + sujeto + been + -ing."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "I ___ (never / be) on a plane before that holiday.",
+      "blanks": [
+        {
+          "answers": [
+            "had never been",
+            "’d never been"
+          ]
+        }
+      ],
+      "explanationEs": "Experiencia hasta un momento del pasado: had + never + participio (been)."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "You had met him before.",
+      "to": "q",
+      "answers": [
+        "Had you met him before?"
+      ],
+      "explanationEs": "Pregunta: had + sujeto + participio."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "We had already ate when they arrived.",
+      "wrong": "ate",
+      "answers": [
+        "eaten"
+      ],
+      "explanationEs": "Después de had, el participio de eat: eaten."
+    }
+  ]
+}
