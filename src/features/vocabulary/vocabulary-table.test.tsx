@@ -8,10 +8,9 @@ import {
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { WordList } from "@/content/schema";
 import { useSettingsStore } from "@/features/settings/store";
 import { speak } from "@/lib/speech";
-import { WORD_TYPES, type VocabularyFilters } from "./logic";
+import { buildVocabulary, parseFilters, type VocabularySource } from "./logic";
 import { VocabularyTable } from "./vocabulary-table";
 
 // En jsdom no hay voces: se simula que sí las hay y se espía speak()
@@ -21,57 +20,61 @@ vi.mock("@/lib/speech", async (importOriginal) => ({
   speak: vi.fn(),
 }));
 
-const list: WordList = {
-  kind: "wordlist",
-  title: "Starter Vocabulary",
-  groups: [
-    {
-      title: "A",
-      items: [
-        { en: "apple", es: "manzana", ipa: "ˈæp.l̩", pos: "noun", meanings: ["a round fruit"] },
-        { en: "angry", es: "enojado / enfadado", ipa: "ˈæŋ.ɡri", pos: "adjective" },
-      ],
-    },
-    {
-      title: "B",
-      items: [
-        {
-          en: "billion",
-          es: "mil millones",
-          pos: "noun",
-          falseFriend: "billón",
-          note: "No es un billón español.",
-        },
-        { en: "buy", es: "comprar", pos: "verb", example: "I buy bread every day." },
-      ],
-    },
-  ],
-};
+const sources: VocabularySource[] = [
+  {
+    slug: "starter-a1",
+    title: "Vocabulario A1 · Starter",
+    level: "A1",
+    source: "face2face",
+    words: [
+      { en: "apple", ipa: "ˈæp.l̩", pos: "noun", meanings: ["a round fruit"] },
+      { en: "angry", es: "enojado / enfadado", ipa: "ˈæŋ.ɡri", pos: "adjective" },
+      {
+        en: "billion",
+        es: "mil millones",
+        pos: "noun",
+        falseFriend: "billón",
+        note: "No es un billón español.",
+      },
+      { en: "buy", es: "comprar", pos: "verb", example: "I buy bread every day." },
+    ],
+  },
+  {
+    slug: "fruits",
+    title: "Frutas",
+    words: [
+      { en: "Apple", es: "manzana", level: "A1" },
+      { en: "Kumquat", es: "kumquat", level: "C1" },
+    ],
+  },
+  { slug: "hobbies", title: "Aficiones", words: [{ en: "Knitting", es: "tejer", level: "C1" }] },
+];
+const groups = buildVocabulary(sources);
+const topics = [
+  { slug: "hobbies", title: "Aficiones" },
+  { slug: "fruits", title: "Frutas" },
+];
 
-// La tabla usa <Link> y navigate() de la ruta de la Biblioteca: la misma ruta, en memoria
+// La tabla usa <Link> y navigate() de la página de sección: la misma ruta, en memoria
 function renderAt(url: string) {
   const rootRoute = createRootRoute();
-  const lessonRoute = createRoute({
+  const sectionRoute = createRoute({
     getParentRoute: () => rootRoute,
-    path: "/biblioteca/$section/$",
-    validateSearch: (search: Record<string, unknown>): VocabularyFilters => ({
-      letra: typeof search.letra === "string" ? search.letra : undefined,
-      tipo: WORD_TYPES.find((type) => type === search.tipo),
-      q: typeof search.q === "string" && search.q ? search.q : undefined,
-    }),
+    path: "/biblioteca/$section/",
+    validateSearch: parseFilters,
     component: function Page() {
-      return <VocabularyTable list={list} filters={lessonRoute.useSearch()} />;
+      return <VocabularyTable groups={groups} topics={topics} filters={sectionRoute.useSearch()} />;
     },
   });
   const router = createRouter({
-    routeTree: rootRoute.addChildren([lessonRoute]),
+    routeTree: rootRoute.addChildren([sectionRoute]),
     history: createMemoryHistory({ initialEntries: [url] }),
   });
   render(<RouterProvider router={router} />);
   return router;
 }
 
-const BASE = "/biblioteca/vocabulary-by-level/starter-a1";
+const BASE = "/biblioteca/vocabulary/";
 const rowWords = () =>
   screen
     .queryAllByRole("row")
@@ -83,16 +86,19 @@ beforeEach(() => {
 });
 
 describe("VocabularyTable", () => {
-  it("muestra cada palabra con su IPA, su tipo en español y su traducción", async () => {
+  it("muestra IPA, nivel, tipo en español, traducción y tema de cada palabra", async () => {
     renderAt(BASE);
     const row = (await screen.findByText("apple")).closest("tr");
     expect(row).not.toBeNull();
     const cells = within(row as HTMLElement);
     expect(cells.getByText("/ˈæp.l̩/")).toBeInTheDocument();
+    expect(cells.getByText("A1")).toBeInTheDocument();
     expect(cells.getByText("sustantivo")).toBeInTheDocument();
     expect(cells.getByText("manzana")).toBeInTheDocument();
     expect(cells.getByText("a round fruit")).toBeInTheDocument();
-    expect(screen.getByText("4 palabras")).toBeInTheDocument();
+    expect(cells.getByRole("link", { name: "Frutas" })).toBeInTheDocument();
+    // apple está en el libro y en Frutas: una sola fila
+    expect(screen.getByText("6 palabras")).toBeInTheDocument();
   });
 
   it("marca el falso amigo con texto y muestra la nota", async () => {
@@ -108,34 +114,55 @@ describe("VocabularyTable", () => {
     expect(speak).toHaveBeenCalledWith("buy");
   });
 
-  it("filtra por tipo y por letra desde la URL", async () => {
+  it("filtra por nivel y por tipo desde la URL", async () => {
     const user = userEvent.setup();
     const router = renderAt(BASE);
-    const types = await screen.findByRole("group", { name: "Tipo" });
-    await user.click(within(types).getByRole("link", { name: "Verbos" }));
-    expect(await screen.findByText("1 de 4 palabras")).toBeInTheDocument();
-    expect(rowWords()).toEqual(["buy"]);
-    expect(router.state.location.search).toEqual({ tipo: "verb" });
+    await user.click(
+      within(await screen.findByRole("group", { name: "Nivel" })).getByRole("link", {
+        name: "C1",
+      }),
+    );
+    expect(await screen.findByText("2 de 6 palabras")).toBeInTheDocument();
+    expect(rowWords()).toEqual(["Knitting", "Kumquat"]);
+    expect(router.state.location.search).toEqual({ nivel: "C1" });
 
-    const letters = screen.getByRole("group", { name: "Letra" });
-    await user.click(within(letters).getByRole("link", { name: "A" }));
+    await user.click(
+      within(screen.getByRole("group", { name: "Tipo" })).getByRole("link", { name: "Verbos" }),
+    );
     expect(
       await screen.findByText("Ninguna palabra coincide con estos filtros."),
     ).toBeInTheDocument();
   });
 
-  it("busca en inglés y en español sin tildes, y «Quitar filtros» lo deshace", async () => {
+  it("el tema de una fila filtra la tabla por ese tema", async () => {
+    const user = userEvent.setup();
+    renderAt(BASE);
+    const row = (await screen.findByText("Knitting")).closest("tr") as HTMLElement;
+    await user.click(within(row).getByRole("link", { name: "Aficiones" }));
+    expect(await screen.findByText("1 de 6 palabras")).toBeInTheDocument();
+    expect(screen.getByRole("combobox", { name: "Tema" })).toHaveValue("hobbies");
+  });
+
+  it("elige el tema en el selector", async () => {
+    const user = userEvent.setup();
+    const router = renderAt(BASE);
+    await user.selectOptions(await screen.findByRole("combobox", { name: "Tema" }), "Frutas");
+    expect(await screen.findByText("2 de 6 palabras")).toBeInTheDocument();
+    expect(router.state.location.search).toEqual({ tema: "fruits" });
+  });
+
+  it("busca sin tildes en todas las letras y «Quitar filtros» lo deshace", async () => {
     const user = userEvent.setup();
     renderAt(`${BASE}?letra=B`);
     await user.type(
       await screen.findByRole("searchbox", { name: "Buscar en la lista" }),
       "enfadado",
     );
-    expect(await screen.findByText("1 de 4 palabras")).toBeInTheDocument();
+    expect(await screen.findByText("1 de 6 palabras")).toBeInTheDocument();
     expect(rowWords()).toEqual(["angry"]);
 
     await user.click(screen.getByRole("button", { name: "Quitar filtros" }));
-    expect(await screen.findByText("4 palabras")).toBeInTheDocument();
+    expect(await screen.findByText("6 palabras")).toBeInTheDocument();
     expect(screen.getByRole("searchbox", { name: "Buscar en la lista" })).toHaveValue("");
   });
 
