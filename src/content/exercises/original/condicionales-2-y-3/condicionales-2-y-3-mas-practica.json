@@ -1,0 +1,166 @@
+{
+  "title": "Second and third conditionals: more practice",
+  "titleEs": "Condicionales 2 y 3: más práctica",
+  "instructionEs": "Empareja, clasifica, traduce, escucha y completa.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-2-y-3",
+  "topics": [
+    "second-conditional",
+    "third-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "Si tuviera tiempo…",
+          "right": "If I had time…"
+        },
+        {
+          "left": "Si hubiera sabido…",
+          "right": "If I had known…"
+        },
+        {
+          "left": "…lo haría.",
+          "right": "…I would do it."
+        },
+        {
+          "left": "…lo habría hecho.",
+          "right": "…I would have done it."
+        },
+        {
+          "left": "Yo que tú…",
+          "right": "If I were you…"
+        }
+      ],
+      "explanationEs": "Si + -ra / -se es if + pasado (o had + participio). -ría es would; habría es would have."
+    },
+    {
+      "id": "2",
+      "type": "categorize",
+      "categories": [
+        {
+          "label": "Second conditional",
+          "labelEs": "imaginar el presente",
+          "items": [
+            "If I won, I'd travel.",
+            "If she knew, she'd tell us.",
+            "I'd be happier if I lived by the sea."
+          ]
+        },
+        {
+          "label": "Third conditional",
+          "labelEs": "imaginar el pasado",
+          "items": [
+            "If I had won, I'd have travelled.",
+            "If she had known, she'd have told us.",
+            "I'd have been happier if I'd stayed."
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 2: if + pasado y would. Condicional 3: if + had + participio y would have + participio."
+    },
+    {
+      "id": "3",
+      "type": "translate",
+      "es": "Si fuera rico, compraría una casa grande.",
+      "answers": [
+        "If I were rich, I would buy a big house.",
+        "If I were rich I would buy a big house.",
+        "I would buy a big house if I were rich.",
+        "If I were rich, I'd buy a big house.",
+        "If I were rich I'd buy a big house.",
+        "I'd buy a big house if I were rich.",
+        "If I was rich, I would buy a big house.",
+        "If I was rich I would buy a big house.",
+        "I would buy a big house if I was rich.",
+        "If I was rich, I'd buy a big house.",
+        "If I was rich I'd buy a big house.",
+        "I'd buy a big house if I was rich."
+      ],
+      "explanationEs": "Si fuera es if I were (o if I was); compraría es would buy."
+    },
+    {
+      "id": "4",
+      "type": "dictation",
+      "text": "I would have called you if I had known.",
+      "explanationEs": "Condicional 3: would have + participio (called) y if + had + participio (known)."
+    },
+    {
+      "id": "5",
+      "type": "table-fill",
+      "caption": "Conditionals 2 and 3",
+      "columns": [
+        "Second (if…)",
+        "Third (if…)"
+      ],
+      "rows": [
+        {
+          "header": "know",
+          "cells": [
+            {
+              "answers": [
+                "knew"
+              ]
+            },
+            {
+              "answers": [
+                "had known",
+                "’d known"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "be",
+          "cells": [
+            {
+              "answers": [
+                "were",
+                "was"
+              ]
+            },
+            {
+              "answers": [
+                "had been",
+                "’d been"
+              ]
+            }
+          ]
+        },
+        {
+          "header": "have",
+          "cells": [
+            {
+              "answers": [
+                "had"
+              ]
+            },
+            {
+              "answers": [
+                "had had",
+                "’d had"
+              ]
+            }
+          ]
+        }
+      ],
+      "explanationEs": "Después de if: pasado simple en el condicional 2 (were con todas las personas) y had + participio en el 3."
+    },
+    {
+      "id": "6",
+      "type": "listen-choose",
+      "audioText": "If I'd known, I'd have come.",
+      "options": [
+        "If I'd known, I'd have come.",
+        "If I know, I'll come.",
+        "If I knew, I'd come."
+      ],
+      "answer": 0,
+      "explanationEs": "If I'd known (had known), I'd have come (would have come): condicional 3."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Gerunds and infinitives: guided practice",
+  "titleEs": "Gerundio e infinitivo: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "gerundio-e-infinitivo",
+  "topics": [
+    "gerund",
+    "infinitive"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "I really enjoy ___ in the mountains.",
+      "options": [
+        "walking",
+        "to walk",
+        "walk"
+      ],
+      "answer": 0,
+      "explanationEs": "Enjoy va con -ing: enjoy walking."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "We decided ___ at home tonight.",
+      "options": [
+        "to stay",
+        "staying",
+        "stay"
+      ],
+      "answer": 0,
+      "explanationEs": "Decide va con to + verbo: decided to stay."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "She's interested in learning Chinese.",
+      "answer": true,
+      "explanationEs": "Después de una preposición (in), -ing: in learning."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "I hope seeing you soon.",
+      "answer": false,
+      "explanationEs": "Hope va con to + verbo: I hope to see you soon."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Do you mind opening the window?"
+      ],
+      "distractors": [
+        "to"
+      ],
+      "explanationEs": "Mind va con -ing: mind opening."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "They promised to help us."
+      ],
+      "distractors": [
+        "helping"
+      ],
+      "explanationEs": "Promise va con to + verbo: promised to help."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Second and third conditionals: free practice",
+  "titleEs": "Condicionales 2 y 3: práctica libre",
+  "instructionEs": "Escribe, transforma y corrige las frases.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-2-y-3",
+  "topics": [
+    "second-conditional",
+    "third-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "fill-blank",
+      "text": "If I ___ (to live) in London, I ___ (to visit) museums every weekend.",
+      "blanks": [
+        {
+          "answers": [
+            "lived"
+          ]
+        },
+        {
+          "answers": [
+            "would visit",
+            "’d visit"
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 2: if + pasado simple (lived) y would + verbo (would visit)."
+    },
+    {
+      "id": "2",
+      "type": "fill-blank",
+      "text": "If they ___ (to leave) earlier, they ___ (to catch) the train.",
+      "blanks": [
+        {
+          "answers": [
+            "had left",
+            "’d left"
+          ]
+        },
+        {
+          "answers": [
+            "would have caught",
+            "’d have caught"
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 3: if + had + participio (had left) y would have + participio (caught)."
+    },
+    {
+      "id": "3",
+      "type": "fill-blank",
+      "text": "She ___ (not / be) so tired if she went to bed earlier.",
+      "blanks": [
+        {
+          "answers": [
+            "wouldn't be",
+            "would not be",
+            "’d not be"
+          ]
+        }
+      ],
+      "explanationEs": "Resultado imaginario en el presente: wouldn't + verbo."
+    },
+    {
+      "id": "4",
+      "type": "transform",
+      "source": "You would accept the job.",
+      "to": "q",
+      "answers": [
+        "Would you accept the job?"
+      ],
+      "explanationEs": "Pregunta: would pasa delante del sujeto."
+    },
+    {
+      "id": "5",
+      "type": "transform",
+      "source": "We would have won the match.",
+      "to": "neg",
+      "answers": [
+        "We wouldn't have won the match.",
+        "We’d not have won the match."
+      ],
+      "explanationEs": "Negativa: wouldn't + have + participio."
+    },
+    {
+      "id": "6",
+      "type": "error-correction",
+      "sentence": "If I had more money, I will buy a new car.",
+      "wrong": "will",
+      "answers": [
+        "would",
+        "’d"
+      ],
+      "explanationEs": "Una situación imaginaria (no tengo más dinero) pide would, no will."
+    }
+  ]
+}

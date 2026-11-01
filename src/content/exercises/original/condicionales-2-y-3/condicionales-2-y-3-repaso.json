@@ -1,0 +1,106 @@
+{
+  "title": "Second and third conditionals: review",
+  "titleEs": "Condicionales 2 y 3: repaso",
+  "instructionEs": "Preguntas mezcladas de toda la unidad.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-2-y-3",
+  "topics": [
+    "second-conditional",
+    "third-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "If I ___ you, I'd apologise.",
+      "options": [
+        "were",
+        "am",
+        "will be"
+      ],
+      "answer": 0,
+      "explanationEs": "Yo que tú: If I were you."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "If we had left on time, we ___ the plane.",
+      "options": [
+        "wouldn't have missed",
+        "didn't miss",
+        "won't miss"
+      ],
+      "answer": 0,
+      "explanationEs": "Pasado imaginario: wouldn't have + participio."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "If he had studied, he would have passed.",
+      "answer": true,
+      "explanationEs": "Condicional 3 correcto: had studied + would have passed."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "If I had known, I would told you.",
+      "answer": false,
+      "explanationEs": "Después de would, have + participio: I would have told you."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "Would you help me if I asked you?"
+      ],
+      "distractors": [
+        "will"
+      ],
+      "explanationEs": "Pregunta imaginaria: would + sujeto + verbo, y if + pasado simple (asked)."
+    },
+    {
+      "id": "6",
+      "type": "fill-blank",
+      "text": "If it ___ (not / rain) yesterday, we ___ (to go) to the beach.",
+      "blanks": [
+        {
+          "answers": [
+            "hadn't rained",
+            "had not rained",
+            "’d not rained"
+          ]
+        },
+        {
+          "answers": [
+            "would have gone",
+            "’d have gone"
+          ]
+        }
+      ],
+      "explanationEs": "Condicional 3: hadn't + participio y would have + participio de go (gone)."
+    },
+    {
+      "id": "7",
+      "type": "transform",
+      "source": "They would live in the countryside.",
+      "to": "neg",
+      "answers": [
+        "They wouldn't live in the countryside.",
+        "They’d not live in the countryside."
+      ],
+      "explanationEs": "Negativa: wouldn't + verbo."
+    },
+    {
+      "id": "8",
+      "type": "error-correction",
+      "sentence": "If she had called me, I would have answer.",
+      "wrong": "answer",
+      "answers": [
+        "answered"
+      ],
+      "explanationEs": "Después de would have, el participio: answered."
+    }
+  ]
+}

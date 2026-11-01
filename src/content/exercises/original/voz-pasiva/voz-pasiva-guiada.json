@@ -1,0 +1,74 @@
+{
+  "title": "The passive voice: guided practice",
+  "titleEs": "La voz pasiva: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "voz-pasiva",
+  "topics": [
+    "passive-voice"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "This bridge ___ in 1890.",
+      "options": [
+        "was built",
+        "built",
+        "is built"
+      ],
+      "answer": 0,
+      "explanationEs": "Pasiva en pasado (1890): was + participio."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "Spanish ___ in many countries.",
+      "options": [
+        "is spoken",
+        "speaks",
+        "is speak"
+      ],
+      "answer": 0,
+      "explanationEs": "El idioma no habla: se habla. Pasiva en presente: is + participio (spoken)."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "My phone was stolen last night.",
+      "answer": true,
+      "explanationEs": "No importa quién lo robó: pasiva, was + participio (stolen)."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "The letters was sent yesterday.",
+      "answer": false,
+      "explanationEs": "The letters es plural: were sent."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "The museum is visited by thousands of people."
+      ],
+      "distractors": [
+        "visits"
+      ],
+      "explanationEs": "Pasiva en presente: is + participio; quién lo hace va con by."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "Were the windows cleaned yesterday?"
+      ],
+      "distractors": [
+        "Did"
+      ],
+      "explanationEs": "Pregunta en pasiva: were + sujeto + participio. Did no va con la pasiva."
+    }
+  ]
+}

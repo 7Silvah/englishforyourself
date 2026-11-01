@@ -1,0 +1,75 @@
+{
+  "title": "Second and third conditionals: guided practice",
+  "titleEs": "Condicionales 2 y 3: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-2-y-3",
+  "topics": [
+    "second-conditional",
+    "third-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "If I ___ more time, I would read more.",
+      "options": [
+        "had",
+        "have",
+        "would have"
+      ],
+      "answer": 0,
+      "explanationEs": "Condicional 2: después de if, pasado simple (had). Would va solo en el resultado."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "If you had asked me, I ___ you.",
+      "options": [
+        "would have helped",
+        "would have help",
+        "will help"
+      ],
+      "answer": 0,
+      "explanationEs": "Condicional 3: would have + participio (helped)."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "If I were you, I'd buy the blue one.",
+      "answer": true,
+      "explanationEs": "If I were you (yo que tú) + would: un consejo."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "If she would know the answer, she would tell us.",
+      "answer": false,
+      "explanationEs": "Después de if no va would: If she knew the answer, she would tell us."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What would you do if you won the lottery?"
+      ],
+      "distractors": [
+        "will"
+      ],
+      "explanationEs": "Situación imaginaria: would en la pregunta y pasado simple después de if (won)."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "We would have arrived earlier if we had taken a taxi."
+      ],
+      "distractors": [
+        "will"
+      ],
+      "explanationEs": "Condicional 3: would have + participio, y had + participio después de if."
+    }
+  ]
+}

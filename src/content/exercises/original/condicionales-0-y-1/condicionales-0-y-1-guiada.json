@@ -1,0 +1,75 @@
+{
+  "title": "Zero and first conditionals: guided practice",
+  "titleEs": "Condicionales 0 y 1: práctica guiada",
+  "instructionEs": "Elige, decide y ordena. Fíjate en la estructura.",
+  "source": "original",
+  "level": "B1",
+  "unit": "condicionales-0-y-1",
+  "topics": [
+    "zero-conditional",
+    "first-conditional"
+  ],
+  "reviewed": false,
+  "items": [
+    {
+      "id": "1",
+      "type": "multiple-choice",
+      "prompt": "If you heat water to 100 °C, it ___.",
+      "options": [
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": 0,
+      "explanationEs": "Un hecho que siempre se cumple: condicional 0, presente en las dos partes (boils)."
+    },
+    {
+      "id": "2",
+      "type": "multiple-choice",
+      "prompt": "If it ___ tomorrow, we'll go to the beach.",
+      "options": [
+        "is sunny",
+        "will be sunny",
+        "was sunny"
+      ],
+      "answer": 0,
+      "explanationEs": "Después de if, presente aunque hables del futuro: if it is sunny."
+    },
+    {
+      "id": "3",
+      "type": "true-false",
+      "statement": "If you don't water plants, they die.",
+      "answer": true,
+      "explanationEs": "Condicional 0: un hecho general, con presente en las dos partes."
+    },
+    {
+      "id": "4",
+      "type": "true-false",
+      "statement": "If I will see her, I'll tell her.",
+      "answer": false,
+      "explanationEs": "Después de if no va will: If I see her, I'll tell her."
+    },
+    {
+      "id": "5",
+      "type": "word-order",
+      "answers": [
+        "What will you do if you lose your job?"
+      ],
+      "distractors": [
+        "lost"
+      ],
+      "explanationEs": "Pregunta en el resultado (what will you do) y presente después de if (lose)."
+    },
+    {
+      "id": "6",
+      "type": "word-order",
+      "answers": [
+        "We'll miss the train if we don't hurry."
+      ],
+      "distractors": [
+        "won't"
+      ],
+      "explanationEs": "Resultado con will ('ll) y condición en presente negativo (don't hurry)."
+    }
+  ]
+}
