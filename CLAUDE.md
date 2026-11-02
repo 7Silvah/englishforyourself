@@ -69,6 +69,7 @@ en lugar de fiarte de la memoria. Tailwind v4 y TanStack Router cambian a menudo
 | `src/routes/` | Rutas de TanStack Router | Archivos delgados: leen params, piden contenido al manifiesto y renderizan. Sin lógica de negocio. |
 | `src/components/ui/` | Componentes generados por shadcn | Se añaden con `npx shadcn@latest add <x>`. Edítalos lo mínimo y nunca los reescribas a mano desde cero. |
 | `src/components/layout/` | Header, footer, breadcrumbs, theme toggle | |
+| `src/components/shared/` | Piezas visuales comunes a toda la app: `LevelBadge`, `SpeakButton`, `Segmented` y estilos de filtro (`filter-styles.ts`), `SectionCard` | Se ven en `/dev/ui`. Antes de dibujar un nivel, un 🔊, un filtro o una tarjeta de sección, usa estas (fase U2). |
 | `src/components/lesson/` | Piezas de lección usadas desde MDX | Solo presentación; se registran en `mdx-components.tsx`. |
 | `src/features/exercises/` | Motor de ejercicios: `schema.ts`, `check.ts` (corrección), `solution.ts` (qué solución se muestra), `player/`, `types/` (un componente por tipo), `generators/` | Un tipo nuevo = esquema en la unión discriminada + `ItemResponse` y `checkItem` en `check.ts` + componente controlado en `types/` (recibe `ItemProps`) + `case` en `player/item-view.tsx` + tests. La corrección siempre pasa por `check.ts`. |
 | `src/features/<x>/` | Otras funcionalidades con estado o lógica (course, progress, review, search, settings, tense-lab con su motor `conjugate.ts`, flashcards con Leitner) | La lógica pura va en `logic.ts` con tests; el store en `store.ts`. |
@@ -120,6 +121,7 @@ Importa con el alias `@/` (`@/components/ui/button`), nunca con `../../..`.
 - Las traducciones van en campos `*Es` / `es`, en español **neutro** y con **tuteo**. Si no estás seguro de una traducción, déjala vacía antes que inventarla.
 - Todo texto en inglés dentro de la UI lleva `lang="en"`.
 - Los colores de modo gramatical son fijos en todo el sitio: **pos = verde**, **neg = naranja**, **q = amarillo**, `nq` = pregunta negativa. Úsalos siempre con texto o símbolo además del color.
+- **Sistema visual común (U2)**: un nivel del MCER se muestra siempre con `LevelBadge` (o `LevelHeading`), nunca con un `Badge` suelto; un audio, con `SpeakButton` (círculo con 🔊); los filtros, con `Segmented` + `segmentedItem` y chips `filterChip`; los bloques, con `SectionCard`. Todo está en `src/components/shared/` y la regla completa, con ejemplos, en `/dev/ui` («Reglas») y `docs/PLAN.md` §9.2. Si una pantalla necesita algo que no encaja, propón ampliar el componente compartido antes de dibujar uno propio.
 - Bloques del Tense Lab: sujeto azul, auxiliar ámbar, verbo verde, objeto gris.
 - Las explicaciones para hispanohablantes usan los componentes `Explain`, `CommonMistake`, `FalseFriend` y `Tip`, no HTML suelto.
 - Los slugs de las lecciones no se cambian: hay redirecciones que dependen de ellos.

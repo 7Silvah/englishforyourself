@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { Badge } from "@/components/ui/badge";
+import { LevelHeading } from "@/components/shared/level-heading";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { getExerciseSet, getUnits } from "@/content";
@@ -65,13 +66,13 @@ export function ProgressOverview() {
           </h2>
           {current && (
             <p className="text-sm font-medium">
-              {es.course.youAreIn(current, es.course.levels[current].name)}
+              <LevelHeading level={current} prefix={es.course.youAreIn} />
             </p>
           )}
           <ul className="space-y-1 text-sm">
             {groupByLevel(units).map(([level, blockUnits]) => (
               <li key={level} className="flex justify-between gap-2">
-                <span>{es.course.blockTitle(level, es.course.levels[level].name)}</span>
+                <LevelHeading level={level} />
                 <span className="text-muted-foreground tabular-nums">
                   {t.unitsMastered(
                     blockUnits.filter((u) => unitStatus(u.meta, attempts) === "mastered").length,
@@ -108,7 +109,7 @@ export function ProgressOverview() {
             <Link to="/ejercicios/$id" params={{ id }} className="font-medium hover:underline">
               {set.meta.titleEs}
             </Link>
-            <Badge variant="secondary">{set.meta.level}</Badge>
+            <LevelBadge level={set.meta.level} />
             <span className="ml-auto flex gap-3 text-sm text-muted-foreground tabular-nums">
               <span>{es.exercises.best(attempt.best)}</span>
               <span>{t.last(attempt.last)}</span>

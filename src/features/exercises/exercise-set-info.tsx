@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowLeft, Printer } from "lucide-react";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { useProgressStore } from "@/features/progress/store";
@@ -42,7 +43,7 @@ export function ExerciseSetInfo({
         </Link>
       )}
       <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
-        <Badge variant="secondary">{set.level}</Badge>
+        <LevelBadge level={set.level} />
         <span>{t.itemsCount(set.items.length)}</span>
         {best !== undefined && <Badge variant="outline">{t.best(best)}</Badge>}
         <Link

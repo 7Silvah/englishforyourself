@@ -82,7 +82,7 @@ export const es = {
       },
     },
     blockTitle: (level: string, name: string) => `${level} · ${name}`,
-    youAreIn: (level: string, name: string) => `Estás en el nivel ${level} · ${name}.`,
+    youAreIn: "Estás en el nivel",
     status: {
       new: "Sin empezar",
       started: "Empezada",
@@ -243,6 +243,8 @@ export const es = {
       other: "Otros",
     },
     empty: "No hay ejercicios con estos filtros.",
+    showing: (shown: number, total: number) =>
+      shown === total ? `${total} sets` : `${shown} de ${total} sets`,
     generated: "Práctica generada (ejercicios nuevos en cada ronda)",
     generatedTenses: "Tiempos verbales: elige uno en el Tense Lab",
     best: (n: number) => `Mejor: ${n} %`,
@@ -381,6 +383,14 @@ export const es = {
       false: "Falso",
     },
   },
+  // Filtros con chips (Vocabulario, Ejercicios): mismos textos en toda la app (U2)
+  filters: {
+    applied: "Filtros aplicados:",
+    removeFilter: (label: string) => `Quitar el filtro ${label}`,
+    chipLevel: (level: string) => `Nivel: ${level}`,
+    chipTopic: (topic: string) => `Tema: ${topic}`,
+    resetAll: "Restablecer todos",
+  },
   library: {
     title: "Biblioteca",
     description: "Lecciones de consulta organizadas por temas.",
@@ -419,15 +429,10 @@ export const es = {
       allLevels: "Todos",
       onlyFavorites: "Solo favoritas",
       topicsOf: "Temas",
-      applied: "Filtros aplicados:",
-      removeFilter: (label: string) => `Quitar el filtro ${label}`,
-      chipLevel: (level: string) => `Nivel: ${level}`,
-      chipTopic: (topic: string) => `Tema: ${topic}`,
       chipType: (type: string) => `Tipo: ${type}`,
       chipLetter: (letter: string) => `Letra: ${letter}`,
       chipSearch: (q: string) => `Búsqueda: «${q}»`,
       chipFavorites: "Favoritas",
-      resetAll: "Restablecer todos",
       // Título de las prácticas de lo filtrado: «Vocabulario · C1 · Deportes»
       filteredTitle: (parts: string[]) =>
         parts.length ? `Vocabulario · ${parts.join(" · ")}` : "Vocabulario · todas las palabras",
@@ -527,7 +532,7 @@ export const es = {
     ],
     start: "Empezar la prueba",
     resultTitle: "Tu resultado",
-    level: (level: string, name: string) => `Empiezas en el nivel ${level} · ${name}`,
+    level: "Empiezas en el nivel",
     recommendation: (n: number, title: string) =>
       `Te recomendamos empezar por la unidad ${n}: ${title}.`,
     allGood:

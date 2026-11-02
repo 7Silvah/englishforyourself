@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Badge } from "@/components/ui/badge";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { getAllLessons } from "@/content";
 import { getSection } from "@/content/sections";
 import { es } from "@/i18n/es";
@@ -30,7 +30,7 @@ export function VocabularyLists() {
                     </span>
                     {list.meta.titleEs && <span className="text-sm">{list.meta.titleEs}</span>}
                     <span className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
-                      {list.meta.level && <Badge variant="secondary">{list.meta.level}</Badge>}
+                      {list.meta.level && <LevelBadge level={list.meta.level} />}
                       {list.translatedCount > 0
                         ? es.library.wordsCount(list.translatedCount)
                         : es.generated.vocabulary.itemsCount(list.wordCount)}

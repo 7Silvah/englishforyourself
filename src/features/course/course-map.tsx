@@ -1,4 +1,6 @@
 import { Link } from "@tanstack/react-router";
+import { LevelHeading } from "@/components/shared/level-heading";
+import { LEVEL_TONE } from "@/components/shared/level-styles";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { getUnits } from "@/content";
@@ -24,8 +26,8 @@ export function CourseMap() {
         <div className="flex flex-wrap items-center gap-3 rounded-xl border bg-card p-4">
           <p className="flex-1">
             {current && (
-              <strong className="block">
-                {es.course.youAreIn(current, es.course.levels[current].name)}
+              <strong className="mb-1 block">
+                <LevelHeading level={current} prefix={es.course.youAreIn} />
               </strong>
             )}
             {placed
@@ -41,7 +43,7 @@ export function CourseMap() {
         <section key={level} aria-labelledby={`block-${level}`} className="space-y-4">
           <div className="space-y-1">
             <h2 id={`block-${level}`} className="font-heading text-xl font-semibold">
-              {es.course.blockTitle(level, es.course.levels[level].name)}
+              <LevelHeading level={level} />
             </h2>
             <p className="max-w-3xl text-sm text-muted-foreground">
               {es.course.levels[level].goal}
@@ -62,7 +64,10 @@ export function CourseMap() {
                   >
                     <span
                       aria-hidden
-                      className="flex size-10 shrink-0 items-center justify-center rounded-full bg-muted font-heading text-lg font-bold"
+                      className={cn(
+                        "flex size-10 shrink-0 items-center justify-center rounded-full border font-heading text-lg font-bold",
+                        LEVEL_TONE[level],
+                      )}
                     >
                       {unit.meta.number}
                     </span>

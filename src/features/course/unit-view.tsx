@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { ChevronLeft, ChevronRight, ClipboardCheck, Target } from "lucide-react";
 import type { ComponentType } from "react";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { mdxComponents } from "@/components/lesson/mdx-components";
 import { PageHeader } from "@/components/layout/page-header";
 import { Badge } from "@/components/ui/badge";
@@ -91,7 +92,7 @@ export function UnitView({ unit, Content }: { unit: UnitEntry; Content: Content 
       <PageHeader title={meta.titleEs} description={meta.summaryEs}>
         <div className="flex flex-wrap items-center gap-2 pt-2">
           <Badge variant="secondary">{t.unitN(meta.number)}</Badge>
-          <Badge variant="secondary">{meta.level}</Badge>
+          <LevelBadge level={meta.level} />
           <UnitStatusBadge status={shownStatus(unit, getUnits(), attempts, placement)} />
           <span lang="en" className="text-sm text-muted-foreground">
             {meta.title}

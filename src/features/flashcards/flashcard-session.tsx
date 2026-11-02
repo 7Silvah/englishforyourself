@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowLeftRight, Check, RotateCcw, X } from "lucide-react";
 import { useEffect, useEffectEvent, useState } from "react";
-import { SpeakButton } from "@/components/lesson/speak-button";
+import { SpeakButton } from "@/components/shared/speak-button";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Progress, ProgressLabel } from "@/components/ui/progress";
 import { dayKey } from "@/features/progress/logic";
@@ -147,7 +147,7 @@ export function FlashcardSession({ cards }: { cards: readonly Card[] }) {
       <div className="flex min-h-56 flex-col items-center justify-center gap-4 rounded-2xl border-2 bg-card p-6 text-center shadow-sm">
         <p className="flex items-center gap-2 font-heading text-3xl font-bold">
           <span lang={reverse ? "es" : "en"}>{front}</span>
-          {!reverse && <SpeakButton text={current.en} />}
+          {!reverse && <SpeakButton text={current.en} size="lg" />}
         </p>
         {!reverse && current.ipa && <Ipa ipa={current.ipa} />}
         {/* aria-live: al girar la tarjeta, el lector de pantalla lee la respuesta */}
@@ -155,7 +155,7 @@ export function FlashcardSession({ cards }: { cards: readonly Card[] }) {
           {flipped && (
             <p className="flex items-center gap-2 text-2xl text-muted-foreground">
               <span lang={reverse ? "en" : "es"}>{back}</span>
-              {reverse && <SpeakButton text={current.en} />}
+              {reverse && <SpeakButton text={current.en} size="lg" />}
             </p>
           )}
           {flipped && reverse && current.ipa && <Ipa ipa={current.ipa} />}

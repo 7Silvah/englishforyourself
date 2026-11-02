@@ -56,7 +56,10 @@ describe("PlacementTest", () => {
     expect(
       screen.getByText("Te recomendamos empezar por la unidad 2: Unidad de prueba 2."),
     ).toBeInTheDocument();
-    expect(screen.getByText("Empiezas en el nivel B1 · Intermedio I")).toBeInTheDocument();
+    // El nivel va en su insignia de color, en medio de la frase
+    expect(screen.getByText("Empiezas en el nivel").closest("p")).toHaveTextContent(
+      "Empiezas en el nivel B1 Intermedio I",
+    );
     expect(screen.getByRole("link", { name: /Ir a la unidad: Unidad 2/ })).toBeInTheDocument();
     expect(screen.getByText("1 de 1")).toBeInTheDocument(); // A1
     expect(screen.getByText("0 de 2")).toBeInTheDocument(); // B1

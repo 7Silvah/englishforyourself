@@ -1,8 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { BookOpen, PencilLine } from "lucide-react";
 import { useState } from "react";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { blockClasses, toneSolid } from "@/components/lesson/tones";
-import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { TENSES, type TenseId } from "@/content/data/tense-index";
 import { getTenseChart } from "@/content/data/tenses";
@@ -61,7 +61,7 @@ export function TenseLab({ tense }: { tense: TenseId }) {
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
-            <Badge variant="secondary">{info.level}</Badge>
+            <LevelBadge level={info.level} />
             <Link
               to="/biblioteca/$section/$"
               params={{ section: section ?? "", _splat: slug.join("/") }}

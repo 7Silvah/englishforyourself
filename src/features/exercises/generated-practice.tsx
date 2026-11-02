@@ -1,8 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { FlaskConical, RefreshCw } from "lucide-react";
 import { useMemo, useState } from "react";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { PageHeader } from "@/components/layout/page-header";
-import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { getTenseInfo } from "@/content/data/tense-index";
 import { es } from "@/i18n/es";
@@ -26,7 +26,7 @@ export function GeneratedPractice({ topic }: { topic: string }) {
     <div className="mx-auto max-w-3xl">
       <PageHeader title={set.titleEs} description={set.instructionEs}>
         <div className="flex flex-wrap items-center gap-2 pt-2">
-          <Badge variant="secondary">{set.level}</Badge>
+          <LevelBadge level={set.level} />
           <Button variant="outline" size="sm" onClick={() => setSeed(newSeed())}>
             <RefreshCw data-icon="inline-start" aria-hidden />
             {es.generated.newRound}

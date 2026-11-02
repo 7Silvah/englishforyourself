@@ -1,6 +1,7 @@
 // Contenido pendiente de revisión (decisión D1): solo existe en desarrollo (/dev/revision).
 // Sus textos van sueltos a propósito: no es interfaz para el estudiante.
 import { Link } from "@tanstack/react-router";
+import { LevelBadge } from "@/components/shared/level-badge";
 import { Badge } from "@/components/ui/badge";
 import { getAllExerciseSets, getAllLessons, getUnits, type ExerciseSetEntry } from "@/content";
 import { getSection } from "@/content/sections";
@@ -27,7 +28,7 @@ function SetRow({ set, role }: { set: ExerciseSetEntry; role?: SetRole }) {
       {set.meta.source === "worksheet" && role !== "worksheet" && (
         <Badge variant="outline">worksheet</Badge>
       )}
-      <Badge variant="secondary">{set.meta.level}</Badge>
+      <LevelBadge level={set.meta.level} />
     </li>
   );
 }

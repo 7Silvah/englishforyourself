@@ -13,7 +13,7 @@
 | 2 · Fundamentos II (A2) + herramientas | F8–F12 | ✅ terminada — F8 ✅ F9 ✅ F10 ✅ F11 ✅ F12 ✅ |
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
-| U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
+| U · Refresco visual | U1–U2 | ✅ terminada — U1 ✅ U2 ✅ |
 | 4 · Gramática intermedia (B1–B2) | F16–F17c | ✅ terminada — F16 ✅ F17 ✅ F17b ✅ F17c ✅ (V1–V6) |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
@@ -40,7 +40,7 @@ las wordlists de Face2Face) y V2 (las tres listas en la Biblioteca) terminadas e
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente:** abrir el PR de `f17c-vocabulario-v6`; después la
+**2. Siguiente:** abrir los PR de `f17c-vocabulario-v6` y, cuando esté fusionado, de `u2-sistema-visual`; después la
 Etapa 5, F18 (calidad y PWA), aplazada el 01/11/2026 para hacer antes F17b, F17c y los
 ajustes del curso que decidas: Playwright de punta a punta, axe en las
 páginas clave, la app instalable y sin conexión (`vite-plugin-pwa`), JS inicial < 200 KB y
@@ -160,6 +160,51 @@ XP y el objeto en morado (la regla fija lo quiere gris).
 - [x] Tense Lab: bloques redondeados, como en `Formula`.
 - [x] Corrección del player: icono en un círculo a la izquierda y el texto a su lado.
 - [x] `/dev/ui` muestra los componentes reales (no copias) y las superficies. 193 tests.
+
+#### U2 — Sistema visual unificado
+Añadida el 01/11/2026, antes de F18 (decidido por el dueño del repo): lo que se diseñó para
+Vocabulario en F17c V6 pasa a toda la app y queda como regla. Rama `u2-sistema-visual`,
+creada desde `f17c-vocabulario-v6` (aún sin fusionar).
+- [x] **Paso 1 · Componentes compartidos** en `src/components/shared/`: `LevelBadge` (nivel
+  con su color; movido desde Vocabulario), `SpeakButton` redondo (círculo con el icono de
+  audio, tamaños `sm`/`md`/`lg`; se oculta si no hay voces en inglés; movido desde
+  `components/lesson`), `Segmented` y estilos `segmentedItem`/`filterChip` (`cva`, como
+  `buttonVariants`, para el `<Link>` tipado de cada pantalla) y `SectionCard` (tarjeta con
+  cabecera y pie). Vocabulario ya los usa; las listas de la Biblioteca, las lecciones, la
+  corrección y las flashcards ya tienen el 🔊 redondo. Se ven en `/dev/ui` («Componentes
+  compartidos (U2)») y `CLAUDE.md` tiene la carpeta en «Dónde va cada cosa». 254 tests,
+  JS inicial 201,6 KB gzip (sin cambios).
+- [x] **Paso 2 · Aplicarlos en toda la app**. `LevelBadge` en los 10 sitios que tenían un
+  `Badge` gris (unidad, catálogo, info del set, práctica generada, listas de práctica,
+  práctica de vocabulario, progreso, Tense Lab, `/dev/revision`…). `LevelHeading` («[B1]
+  Intermedio I», con inicio de frase opcional) en los bloques del curso, «Estás en el nivel…»
+  (curso y progreso), los bloques de progreso y el resultado de la prueba de nivel; el
+  número de cada unidad del curso lleva el color de su nivel (`LEVEL_TONE`,
+  `level-styles.ts`). Catálogo de ejercicios con `Segmented`, chips de filtros aplicados,
+  «Restablecer todos» y recuento; los textos comunes de filtros pasan a `es.filters`. El 🔊
+  de los ejercicios de escucha conserva el texto («Escuchar», «Más despacio») pero lleva el
+  icono en un círculo. 254 tests; JS inicial 201,7 KB gzip.
+  - Un test detectó que «Empiezas en el nivel» y la insignia se leían pegados
+    («nivelB1Intermedio»): `LevelHeading` pone espacios reales entre las piezas.
+  - Sin tocar a propósito: los selectores de tiempo y sujeto del Tense Lab (son pestañas,
+    no filtros) y el Tense Lab no tiene audio. Progreso con datos solo lo cubren los tests.
+- [x] **Paso 3 · Regla escrita**: sección «Reglas» al principio de `/dev/ui` con cuatro
+  reglas (nivel, audio, filtros y bloques), cada una con cuándo se usa, su componente y un
+  ejemplo vivo de «✓ Así» frente a «✗ No así»; la §9.2 de este plan describe el sistema
+  visual común, y `CLAUDE.md` lo pide en «Reglas de contenido» (si algo no encaja, se
+  amplía el componente compartido en lugar de dibujar uno propio).
+  - Visto al comprobarlo: `/dev/ui` da en la consola un aviso de React sobre `use()` dentro
+    de un `Lazy` (modo desarrollo). Ya pasaba antes de U2 (comprobado con los cambios
+    apartados); se revisa en F18.
+- [x] **Paso 4 · Comprobar**. `src/components/shared/shared.test.tsx` (13 tests): 🔊 con
+  nombre accesible, ratón y teclado, texto leído al pulsar, tamaños y oculto sin voces en
+  inglés; nivel con su texto y su color; `LevelHeading` que se lee como frase; grupo
+  segmentado con nombre; `SectionCard` con y sin cabecera y pie. Repaso en el navegador en
+  claro y oscuro: curso, unidad, lección con ejemplos, ejercicios, Vocabulario, flashcards,
+  Progreso (con datos de prueba en el navegador de prueba, borrados después) y `/dev/ui`.
+  - Arreglado al repasar: el círculo del 🔊 era `bg-muted` y desaparecía sobre los
+    recuadros de ejemplos (también `bg-muted`); ahora es primario suave (`bg-primary/10`).
+  - 267 tests; JS inicial 201,7 KB gzip.
 
 **Listo cuando:** `/dev/ui`, una unidad y un ejercicio se ven con el estilo nuevo en claro y en oscuro, con contraste AA. ✅
 
@@ -621,6 +666,22 @@ En `features/progress/store.ts` (Zustand + `persist`, clave `efy-progress`, con
   práctica.
 - Estados de corrección: correcto, casi y fallo, siempre con icono y texto.
 - Modo oscuro con su propia paleta (contraste AA). Fuente Geist Variable (la del preset Nova).
+- **Sistema visual común (U2)**: lo que se repite en varias pantallas se dibuja siempre con
+  los componentes de `src/components/shared/`, que se ven en `/dev/ui` («Reglas» y
+  «Componentes compartidos»):
+  - **Nivel del MCER** → `LevelBadge` (o `LevelHeading` si va con su nombre: «[B1]
+    Intermedio I»). Cada nivel tiene su color (tokens `level-a1` … `level-c1`: verde
+    azulado, cian, índigo, violeta y fucsia), distinto de los colores gramaticales y
+    siempre con el texto del nivel. Como acento (el número de una unidad), `LEVEL_TONE`.
+  - **Audio** → `SpeakButton`: un círculo con el icono 🔊 (tamaños `sm`, `md`, `lg`), que
+    no aparece si el navegador no tiene voces en inglés. Si el audio es la acción
+    principal de la pantalla (ejercicios de escucha), botón con texto y el icono en un
+    círculo.
+  - **Filtros** → `Segmented` con `segmentedItem` para cada opción (un enlace que cambia la
+    URL), chips `filterChip` en «Filtros aplicados» (al pulsarlos se quita el filtro),
+    «Restablecer todos» y el recuento con `aria-live`. Textos en `es.filters`.
+  - **Bloques de contenido** → `SectionCard` (borde fino, esquinas amplias, cabecera y pie
+    opcionales); botones de la página en `PageHeader` con `actions`.
 
 ### 9.3 Funciones pensadas para hispanohablantes
 - Explicaciones en español con equivalencias y diferencias respecto al español.
