@@ -8,7 +8,7 @@
       "prompt": "___ is cold today.",
       "options": [
         "It",
-        "He",
+        "They",
         "There"
       ],
       "answer": 0
@@ -53,11 +53,11 @@
       "id": "5",
       "unit": "posesivos-y-demostrativos",
       "type": "multiple-choice",
-      "prompt": "This is Maria, and that is ___ brother.",
+      "prompt": "This is Maria. ___ brother is a doctor.",
       "options": [
-        "her",
-        "his",
-        "she"
+        "Her",
+        "His",
+        "She"
       ],
       "answer": 0
     },
@@ -93,7 +93,7 @@
       "options": [
         "Does",
         "Do",
-        "Is"
+        "Are"
       ],
       "answer": 0
     },
@@ -329,7 +329,7 @@
       "id": "28",
       "unit": "modales-obligacion-y-consejo",
       "type": "multiple-choice",
-      "prompt": "You ___ bring anything. There's plenty of food.",
+      "prompt": "You ___ bring anything, but you can if you want.",
       "options": [
         "don't have to",
         "mustn't",

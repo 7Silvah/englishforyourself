@@ -262,6 +262,7 @@ export const es = {
       progress: (n: number, total: number) => `${n} de ${total}`,
       check: "Comprobar",
       next: "Siguiente",
+      previous: "Anterior",
       finish: "Ver resultado",
       hint: "Pista",
       emptyAnswer: "Escribe o elige una respuesta antes de comprobar.",
@@ -528,6 +529,7 @@ export const es = {
     intro: [
       "Son preguntas de opción múltiple, ordenadas de más fácil a más difícil. Tardarás unos 10 minutos.",
       "No verás si aciertas hasta el final, y no hay pistas.",
+      "Puedes volver a las preguntas anteriores con «Anterior» para revisar o cambiar tu respuesta.",
       "Si no sabes una respuesta, elige la que te parezca: no pasa nada. La prueba no cuenta en tu progreso.",
     ],
     start: "Empezar la prueba",

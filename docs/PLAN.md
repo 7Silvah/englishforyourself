@@ -980,6 +980,13 @@ Trece unidades (17–29), una por tema de §6.1 salvo los condicionales, que van
 - [x] Recomendación (`features/placement/logic.ts`): la primera unidad fallada con otro fallo en una de las dos siguientes (un despiste suelto no manda atrás); sin fallos, la última. Aciertos por nivel en el resultado.
 - [x] Se guarda en el progreso (`placement`, store v3 con migración): el curso recomienda desde esa unidad y muestra las anteriores sin empezar como «Vista en la prueba» (`shownStatus`). Acceso desde el curso (con «Repetir la prueba») y desde la portada si aún no hay progreso. 216 tests.
 
+- [x] **Volver a preguntas anteriores** (01/11/2026, pedido por el dueño del repo; rama
+  `prueba-de-nivel-volver`): en modo examen (la prueba y los sets en examen) el reproductor
+  guarda las respuestas por posición y tiene «Anterior», que vuelve con la respuesta puesta
+  para revisarla o cambiarla; lo escrito sin enviar se guarda como borrador. En práctica no
+  hay «Anterior»: cada respuesta ya se corrigió. La introducción de la prueba lo explica.
+  3 tests nuevos (270).
+
 **Listo cuando:** la prueba recomienda una unidad y el curso parte de ella. ✅
 
 #### F17b — Niveles del MCER en el curso y en la prueba
