@@ -11,118 +11,147 @@
       "items": [
         {
           "en": "Accordion",
+          "es": "acordeón",
           "level": "C1"
         },
         {
           "en": "Acoustic guitar",
+          "es": "guitarra acústica",
           "level": "B2"
         },
         {
           "en": "Bagpipes",
+          "es": "gaita",
           "level": "C1"
         },
         {
           "en": "Banjo",
+          "es": "banjo",
           "level": "C1"
         },
         {
           "en": "Bass drum",
+          "es": "bombo",
           "level": "B2"
         },
         {
           "en": "Bass guitar",
+          "es": "bajo (eléctrico)",
           "level": "B2"
         },
         {
           "en": "Bell",
+          "es": "campana",
           "level": "A2"
         },
         {
           "en": "Bongo drums",
+          "es": "bongós",
           "level": "C1"
         },
         {
           "en": "Bugle",
+          "es": "corneta / clarín",
           "level": "C1"
         },
         {
           "en": "Cello",
+          "es": "violonchelo",
           "level": "C1"
         },
         {
           "en": "Clarinet",
+          "es": "clarinete",
           "level": "C1"
         },
         {
           "en": "Conga",
+          "es": "conga",
           "level": "C1"
         },
         {
           "en": "Double bass",
+          "es": "contrabajo",
           "level": "B1"
         },
         {
           "en": "Drums",
+          "es": "batería / tambores",
           "level": "B2"
         },
         {
           "en": "Electric guitar",
+          "es": "guitarra eléctrica",
           "level": "B1"
         },
         {
           "en": "Electric keyboard",
+          "es": "teclado (eléctrico)",
           "level": "B2"
         },
         {
           "en": "French horn",
+          "es": "trompa / corno francés",
           "level": "B2"
         },
         {
           "en": "Guitar",
+          "es": "guitarra",
           "level": "B1"
         },
         {
           "en": "Harmonica",
+          "es": "armónica",
           "level": "C1"
         },
         {
           "en": "Harp",
+          "es": "arpa",
           "level": "C1"
         },
         {
           "en": "Maracas",
+          "es": "maracas",
           "level": "C1"
         },
         {
           "en": "Piano",
+          "es": "piano",
           "level": "B1"
         },
         {
           "en": "Saxophone",
+          "es": "saxofón",
           "level": "C1"
         },
         {
           "en": "Tambourine",
+          "es": "pandereta",
           "level": "C1"
         },
         {
           "en": "Trombone",
+          "es": "trombón",
           "level": "C1"
         },
         {
           "en": "Trumpet",
+          "es": "trompeta",
           "level": "C1"
         },
         {
           "en": "Tuba",
+          "es": "tuba",
           "level": "C1"
         },
         {
           "en": "Violin",
+          "es": "violín",
           "level": "C1"
         },
         {
           "en": "Xylophone",
+          "es": "xilófono",
           "level": "C1"
         }
       ]

@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import type { Level } from "@/content/schema";
+import type { PracticeSearch } from "@/features/vocabulary/filters";
 import { es } from "@/i18n/es";
 import { generateCollocationSet } from "./generators/collocations";
 import { generatePhrasalVerbSet } from "./generators/phrasal-verbs";
@@ -28,19 +29,20 @@ function generate(title: string, level: Level, practice: ListPractice, seed: str
   }
 }
 
-// Práctica generada de una lista de la Biblioteca: ejercicios nuevos en cada ronda
+// Práctica generada de una lista de la Biblioteca (o de lo filtrado en Vocabulario):
+// ejercicios nuevos en cada ronda. `flashcards` es la búsqueda de sus flashcards, si las hay.
 export function VocabularyPractice({
-  listPath,
+  id,
   title,
   level,
   practice,
-  hasFlashcards,
+  flashcards,
 }: {
-  listPath: string;
+  id: string;
   title: string;
   level: Level;
   practice: ListPractice;
-  hasFlashcards: boolean;
+  flashcards?: PracticeSearch;
 }) {
   const [seed, setSeed] = useState(newSeed);
   const set = useMemo(() => generate(title, level, practice, seed), [title, level, practice, seed]);
@@ -53,10 +55,10 @@ export function VocabularyPractice({
           <RefreshCw data-icon="inline-start" aria-hidden />
           {es.generated.newRound}
         </Button>
-        {hasFlashcards && (
+        {flashcards && (
           <Link
             to="/practicar/flashcards"
-            search={{ lista: listPath }}
+            search={flashcards}
             className={buttonVariants({ variant: "ghost", size: "sm" })}
           >
             <Layers data-icon="inline-start" aria-hidden />
@@ -69,7 +71,7 @@ export function VocabularyPractice({
       {/* key: cada semilla es un set distinto, así que la sesión empieza de cero */}
       <ExerciseSession
         key={seed}
-        setId={`vocabulario-${listPath}`}
+        setId={`vocabulario-${id}`}
         items={set.items}
         mode="practice"
         record={false}

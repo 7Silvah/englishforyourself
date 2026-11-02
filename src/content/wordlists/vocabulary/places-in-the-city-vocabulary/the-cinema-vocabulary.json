@@ -11,118 +11,147 @@
       "items": [
         {
           "en": "Film (UK) / movie (US)",
+          "es": "película",
           "level": "A2"
         },
         {
           "en": "Full-length film / movie",
+          "es": "largometraje",
           "level": "A1"
         },
         {
           "en": "Short film / movie",
+          "es": "cortometraje",
           "level": "A1"
         },
         {
           "en": "Actor",
+          "es": "actor",
           "level": "A1"
         },
         {
           "en": "Actress",
+          "es": "actriz",
           "level": "A1"
         },
         {
           "en": "Box office",
+          "es": "taquilla",
           "level": "A1"
         },
         {
           "en": "Cameraman",
+          "es": "camarógrafo / cámara",
           "level": "C1"
         },
         {
           "en": "Cast",
+          "es": "reparto",
           "level": "A2"
         },
         {
           "en": "Character",
+          "es": "personaje",
           "level": "A1"
         },
         {
           "en": "Critic",
+          "es": "crítico",
           "level": "B2"
         },
         {
           "en": "Dialogue",
+          "es": "diálogo",
           "level": "B1"
         },
         {
           "en": "Director",
+          "es": "director",
           "level": "A1"
         },
         {
           "en": "Editor",
+          "es": "montador / editor",
           "level": "A2"
         },
         {
           "en": "Hairstylist",
+          "es": "peluquero / estilista",
           "level": "C1"
         },
         {
           "en": "Lighting",
+          "es": "iluminación",
           "level": "B1"
         },
         {
           "en": "Movie stars",
+          "es": "estrellas de cine",
           "level": "A2"
         },
         {
           "en": "Plot",
+          "es": "trama / argumento",
           "level": "A2"
         },
         {
           "en": "Premiere",
+          "es": "estreno",
           "level": "B2"
         },
         {
           "en": "Prequel",
+          "es": "precuela",
           "level": "C1"
         },
         {
           "en": "Producer",
+          "es": "productor",
           "level": "B1"
         },
         {
           "en": "Role",
+          "es": "papel",
           "level": "A1"
         },
         {
           "en": "Scene",
+          "es": "escena",
           "level": "A2"
         },
         {
           "en": "Screenwriter",
+          "es": "guionista",
           "level": "C1"
         },
         {
           "en": "Sequel",
+          "es": "secuela / continuación",
           "level": "B2"
         },
         {
           "en": "Set",
+          "es": "plató / set de rodaje",
           "level": "A1"
         },
         {
           "en": "Soundtrack",
+          "es": "banda sonora",
           "level": "B2"
         },
         {
           "en": "Special effects",
+          "es": "efectos especiales",
           "level": "A2"
         },
         {
           "en": "Supporting actor",
+          "es": "actor secundario / de reparto",
           "level": "A2"
         },
         {
           "en": "Supporting role",
+          "es": "papel secundario",
           "level": "A2"
         }
       ]
@@ -132,82 +161,102 @@
       "items": [
         {
           "en": "Action",
+          "es": "acción",
           "level": "A1"
         },
         {
           "en": "Adventure",
+          "es": "aventuras",
           "level": "B1"
         },
         {
           "en": "Animated",
+          "es": "animación",
           "level": "B2"
         },
         {
           "en": "Comedy",
+          "es": "comedia",
           "level": "B1"
         },
         {
           "en": "Crime",
+          "es": "policiaco / de crímenes",
           "level": "A2"
         },
         {
           "en": "Documentary",
+          "es": "documental",
           "level": "B1"
         },
         {
           "en": "Drama",
+          "es": "drama",
           "level": "B1"
         },
         {
           "en": "Fantasy",
+          "es": "fantasía",
           "level": "A2"
         },
         {
           "en": "Historical",
+          "es": "histórica",
           "level": "A2"
         },
         {
           "en": "Horror",
+          "es": "terror",
           "level": "B1"
         },
         {
           "en": "Musical",
+          "es": "musical",
           "level": "A2"
         },
         {
           "en": "Mystery",
+          "es": "misterio",
           "level": "B1"
         },
         {
           "en": "Paranormal",
+          "es": "paranormal",
           "level": "C1"
         },
         {
           "en": "Psychological",
+          "es": "psicológica",
           "level": "B1"
         },
         {
           "en": "Romance",
+          "es": "romántica",
           "level": "B1"
         },
         {
           "en": "Sci-fi",
+          "es": "ciencia ficción",
           "level": "B2"
         },
         {
           "en": "Sport",
+          "es": "deportes",
           "level": "A2"
         },
         {
           "en": "Suspense",
+          "es": "suspenso / suspense",
           "level": "C1"
         },
         {
           "en": "Thriller",
+          "es": "thriller / de suspenso",
           "level": "B2"
         },
         {
           "en": "Western",
+          "es": "western / del oeste",
           "level": "A1"
         }
       ]

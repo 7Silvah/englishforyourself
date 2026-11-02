@@ -11,58 +11,72 @@
       "items": [
         {
           "en": "Block of flats",
+          "es": "edificio de departamentos / de pisos",
           "level": "C1"
         },
         {
           "en": "Bungalow",
+          "es": "casa de una planta",
           "level": "C1"
         },
         {
           "en": "Castle",
+          "es": "castillo",
           "level": "A2"
         },
         {
           "en": "Cottage",
+          "es": "casita de campo",
           "level": "B1"
         },
         {
           "en": "Detached house",
+          "es": "casa independiente",
           "level": "C1"
         },
         {
           "en": "Flat (UK) / apartment (US)",
+          "es": "departamento / apartamento / piso",
           "level": "A2"
         },
         {
           "en": "Igloo",
+          "es": "iglú",
           "level": "C1"
         },
         {
           "en": "Lighthouse",
+          "es": "faro",
           "level": "C1"
         },
         {
           "en": "Semi-detached house",
+          "es": "casa pareada / dúplex",
           "level": "C1"
         },
         {
           "en": "Skyscraper",
+          "es": "rascacielos",
           "level": "B1"
         },
         {
           "en": "Terraced house (UK) / row house (US)",
+          "es": "casa adosada",
           "level": "B1"
         },
         {
           "en": "Tower",
+          "es": "torre",
           "level": "A2"
         },
         {
           "en": "Villa",
+          "es": "chalet / villa",
           "level": "B1"
         },
         {
           "en": "Windmill",
+          "es": "molino de viento",
           "level": "C1"
         }
       ]

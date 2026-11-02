@@ -14,7 +14,7 @@
 | 3 · Vocabulario activo | F13–F15 | ✅ terminada — F13 ✅ F14 ✅ F15 ✅ |
 | R · Revisión crítica del contenido | R1–R4 | ✅ terminada — R1 ✅ R2 ✅ R3 ✅ R4 ✅ |
 | U · Refresco visual | U1 | ✅ terminada — U1 ✅ |
-| 4 · Gramática intermedia (B1–B2) | F16–F17c | 🟨 en curso — F16 ✅ F17 ✅ F17b ✅ F17c 🟨 (V1 ✅ V2 ✅ V3 🟨 V4 ✅ V5 ✅) |
+| 4 · Gramática intermedia (B1–B2) | F16–F17c | ✅ terminada — F16 ✅ F17 ✅ F17b ✅ F17c ✅ (V1–V6) |
 | 5 · Calidad, offline y publicación | F18–F19 | ⬜ pendiente |
 | Backlog · funcionalidades futuras | — | ideas sin fecha |
 
@@ -40,7 +40,7 @@ las wordlists de Face2Face) y V2 (las tres listas en la Biblioteca) terminadas e
   las traducciones de las 19 listas A1–A2 y sus 5 falsos amigos, los 207 phrasal verbs de
   F15 y los 35 worksheets. Lo que R1–R4 dejó para el profesional está en §11. Todo sigue con `reviewed: false` hasta entonces (decisión D1, §14).
 
-**2. Siguiente: F17c V3, el resto del español de las listas por nivel (por tandas)**; después la
+**2. Siguiente:** abrir el PR de `f17c-vocabulario-v6`; después la
 Etapa 5, F18 (calidad y PWA), aplazada el 01/11/2026 para hacer antes F17b, F17c y los
 ajustes del curso que decidas: Playwright de punta a punta, axe en las
 páginas clave, la app instalable y sin conexión (`vite-plugin-pwa`), JS inicial < 200 KB y
@@ -989,7 +989,7 @@ se escribe desde el inglés y la definición, y el ruso solo sirve para confirma
     una lista. JS inicial 199,4 KB gzip (+0,3 KB: los metadatos de las listas); cada lista
     es un chunk diferido (17, 24 y 56 KB gzip). De momento se ven con `WordList` (sin IPA
     ni tipo): la tabla es V4.
-- [ ] **V3 · Español por tandas** de ~150 palabras (Starter → Elementary → Intermediate),
+- [x] **V3 · Español de todo el vocabulario** (por tandas) de ~150 palabras (Starter → Elementary → Intermediate),
   `reviewed: false`, con falsos amigos marcados. Criterios (los de las listas de F14):
   minúsculas, variantes regionales con « / » (*coche / carro / auto*, *computadora /
   ordenador*), aclaraciones entre paréntesis, `note` solo para errores típicos de
@@ -998,8 +998,19 @@ se escribe desde el inglés y la definición, y el ruso solo sirve para confirma
   - [x] Tanda 1: Starter 1–150 (*1987* … *egg sandwich*). Falso amigo: *billion* (no es
     «billón»). Notas: *bored/boring*, *20 years ago*, años leídos de dos en dos, UK/US
     (*biscuit*, *chips*, *chemist's*, *at the weekend*).
-  - [ ] Tandas 2–5: Starter 151–633.
-  - [ ] Elementary (869) e Intermediate (1144, con `exampleEs`).
+  - [x] Resto de Face2Face: Starter 633/633, Elementary 869/869, Intermediate 1144/1144.
+    Falsos amigos marcados: *excited*, *embarrassed*, *carpet*, *college*, *advertise*,
+    *notice*, *revise*, *sensible*, *rude*, *compass*, *costume*, *bizarre*, *success*,
+    *suburb*, *parent*. En el PDF de Elementary las definiciones de *clean* (verbo y
+    adjetivo) están cruzadas: se traduce según el tipo. Sin `exampleEs` todavía: los
+    ejemplos son de Cambridge y quizá se reescriban antes de F19 (§15).
+  - [x] Las 1426 palabras de los 32 temas que el sitio original no tenía traducidas
+    (Adjetivos de personalidad, Festivos, Medio ambiente, Derecho, Salud, Cine,
+    Aeropuerto…), en el sentido de su tema (*Bat* en Halloween = murciélago). Falsos
+    amigos: *sympathetic*, *vague*, *miserable*, *evidence*.
+  - Resultado: Vocabulario 5742/5742 palabras traducidas; la tabla no tiene ninguna fila
+    sin español. Fuera de Vocabulario siguen sin traducir collocations (449), idioms (255)
+    y ways to say (249).
 - [x] **V4 · Tabla en la Biblioteca** (misma rama). `features/vocabulary/`:
   `VocabularyTable` con cuatro columnas (palabra con 🔊 e IPA, tipo en español, español
   con nota y falso amigo, significado y ejemplo), una fila por palabra y la letra como
@@ -1054,6 +1065,27 @@ se escribe desde el inglés y la definición, y el ruso solo sirve para confirma
     desplegable de Base UI en la tabla costaba +2,5 KB (su código pasaba a un chunk
     compartido): por eso el tema es un `<select>`.
 
+- [x] **V6 · Rediseño de Vocabulario** (rama `f17c-vocabulario-v6`; inspirado en una
+  maqueta del dueño del repo). Cabecera con «Practicar N palabras con flashcards» y «Modo
+  quiz»; panel de filtros con buscador grande (atajo `/`, botón ×), Nivel y Tipo como
+  controles segmentados, Tema con su recuento («Deportes (41)»), letras, chips de «Filtros
+  aplicados» que se quitan y «Restablecer todos»; tabla en tarjeta con cabecera por letra,
+  🔊 + IPA monoespaciada, **nivel con color propio** (tokens `level-a1` … `level-c1`, en
+  `/dev/ui`; distintos de los colores gramaticales), la palabra resaltada en el ejemplo y
+  paginación numerada (50 por página, `?pagina=`).
+  - **Favoritas** (⭐): `features/vocabulary/store.ts` (Zustand `persist`, por id de fila)
+    y filtro «Solo favoritas» (`?fav=true`).
+  - **Flashcards y quiz de lo filtrado**: `/practicar/flashcards` y `/practicar/vocabulario`
+    aceptan `?vocabulario=true` + los filtros. Cada tarjeta usa la clave de la lista
+    principal de su palabra (`home`: la de Face2Face o su primer tema), así que repasarla
+    cuenta igual que en esa lista (`mixedDeckCards`).
+  - Módulos separados por peso: `filters.ts` (validar la URL) y `lessons.ts` (temas,
+    redirecciones) van en el paquete principal; `load.ts` (cargar, unir, filtrar) se
+    importa con `import()` en los loaders; `logic.ts` solo lo usa la página. JS inicial
+    201,6 KB gzip (+0,2 sobre V5). `PageHeader` gana `actions` (botones a la derecha).
+  - 254 tests. Comprobado en el navegador en claro y oscuro: filtros, chips, favoritas,
+    flashcards y quiz de lo filtrado, paginación.
+
 **Listo cuando:** Starter, Elementary e Intermediate están en la Biblioteca con todas sus
 columnas y traducción al español, y se pueden practicar como las otras listas.
 
@@ -1061,7 +1093,7 @@ columnas y traducción al español, y se pueden practicar como las otras listas.
 #### F18 — Calidad y PWA
 - [ ] Playwright: portada → unidad → set → resultado → repaso; axe en 6 páginas clave.
 - [ ] `vite-plugin-pwa` (precache de la app y del contenido).
-- [ ] JS inicial < 200 KB gzip (en F17c V5 quedó en 201,4); Lighthouse ≥ 90 en rendimiento y accesibilidad.
+- [ ] JS inicial < 200 KB gzip (en F17c V6 quedó en 201,6); Lighthouse ≥ 90 en rendimiento y accesibilidad.
 - [ ] Metadatos por ruta (`head` de TanStack Router).
 #### F19 — SEO y publicación
 - [ ] Migrar a TanStack Start con prerender de las rutas del manifiesto; `sitemap.xml`.

@@ -11,226 +11,282 @@
       "items": [
         {
           "en": "Acid rain",
+          "es": "lluvia ácida",
           "level": "B1"
         },
         {
           "en": "Air pollution",
+          "es": "contaminación del aire",
           "level": "B2"
         },
         {
           "en": "Animal rights",
+          "es": "derechos de los animales",
           "level": "A2"
         },
         {
           "en": "Biodiversity",
+          "es": "biodiversidad",
           "level": "C1"
         },
         {
           "en": "Bioenergy",
+          "es": "bioenergía",
           "level": "C1"
         },
         {
           "en": "Biomass",
+          "es": "biomasa",
           "level": "C1"
         },
         {
           "en": "Carbon dioxide",
+          "es": "dióxido de carbono",
           "level": "C1"
         },
         {
           "en": "Carbon footprint",
+          "es": "huella de carbono",
           "level": "C1"
         },
         {
           "en": "Climate change",
+          "es": "cambio climático",
           "level": "B1"
         },
         {
           "en": "Compost",
+          "es": "compost / composta",
           "level": "C1"
         },
         {
           "en": "Conservation",
+          "es": "conservación",
           "level": "B1"
         },
         {
           "en": "Contaminant",
+          "es": "contaminante",
           "level": "C1"
         },
         {
           "en": "Contamination",
+          "es": "contaminación",
           "level": "C1"
         },
         {
           "en": "Deforestation",
+          "es": "deforestación",
           "level": "C1"
         },
         {
           "en": "Ecologist",
+          "es": "ecologista / ecólogo",
           "level": "C1"
         },
         {
           "en": "Ecology",
+          "es": "ecología",
           "level": "C1"
         },
         {
           "en": "Ecosystem",
+          "es": "ecosistema",
           "level": "C1"
         },
         {
           "en": "Ecotourism",
+          "es": "ecoturismo",
           "level": "C1"
         },
         {
           "en": "Endangered species",
+          "es": "especie en peligro de extinción",
           "level": "B2"
         },
         {
           "en": "Environmentalist",
+          "es": "ecologista / ambientalista",
           "level": "C1"
         },
         {
           "en": "Erosion",
+          "es": "erosión",
           "level": "C1"
         },
         {
           "en": "Extinction",
+          "es": "extinción",
           "level": "C1"
         },
         {
           "en": "Fauna",
+          "es": "fauna",
           "level": "C1"
         },
         {
           "en": "Flora",
+          "es": "flora",
           "level": "C1"
         },
         {
           "en": "Fossil fuels",
+          "es": "combustibles fósiles",
           "level": "C1"
         },
         {
           "en": "Global warming",
+          "es": "calentamiento global",
           "level": "B1"
         },
         {
           "en": "Greenhouse effect",
+          "es": "efecto invernadero",
           "level": "C1"
         },
         {
           "en": "Land pollution",
+          "es": "contaminación del suelo",
           "level": "B2"
         },
         {
           "en": "Landfills",
+          "es": "vertederos / rellenos sanitarios",
           "level": "C1"
         },
         {
           "en": "Marine pollution",
+          "es": "contaminación marina",
           "level": "B2"
         },
         {
           "en": "Natural habitat",
+          "es": "hábitat natural",
           "level": "B2"
         },
         {
           "en": "Natural resources",
+          "es": "recursos naturales",
           "level": "A2"
         },
         {
           "en": "Nuclear energy",
+          "es": "energía nuclear",
           "level": "A2"
         },
         {
           "en": "Oil spill",
+          "es": "derrame de petróleo / marea negra",
           "level": "B2"
         },
         {
           "en": "Overpopulation",
+          "es": "superpoblación / sobrepoblación",
           "level": "C1"
         },
         {
           "en": "Pesticides",
+          "es": "pesticidas",
           "level": "C1"
         },
         {
           "en": "Poaching",
+          "es": "caza furtiva",
           "level": "C1"
         },
         {
           "en": "Pollutant",
+          "es": "contaminante",
           "level": "C1"
         },
         {
           "en": "Pollution",
+          "es": "contaminación",
           "level": "B1"
         },
         {
           "en": "Radioactive waste",
+          "es": "residuos radiactivos",
           "level": "C1"
         },
         {
           "en": "Rainforest",
+          "es": "selva tropical",
           "level": "C1"
         },
         {
           "en": "Recycling",
+          "es": "reciclaje",
           "level": "C1"
         },
         {
           "en": "Reforestation",
+          "es": "reforestación",
           "level": "C1"
         },
         {
           "en": "Sewage",
+          "es": "aguas residuales",
           "level": "C1"
         },
         {
           "en": "Sewage farm (UK) / sewage plant (US)",
+          "es": "depuradora / planta de tratamiento de aguas",
           "level": "C1"
         },
         {
           "en": "Smog",
+          "es": "smog / esmog",
           "level": "C1"
         },
         {
           "en": "Solar energy",
+          "es": "energía solar",
           "level": "B1"
         },
         {
           "en": "Solar panels",
+          "es": "paneles solares",
           "level": "B2"
         },
         {
           "en": "Solar power",
+          "es": "energía solar",
           "level": "B1"
         },
         {
           "en": "Sustainability",
+          "es": "sostenibilidad / sustentabilidad",
           "level": "C1"
         },
         {
           "en": "Tidal energy",
+          "es": "energía mareomotriz",
           "level": "C1"
         },
         {
           "en": "Toxic waste",
+          "es": "residuos tóxicos",
           "level": "B2"
         },
         {
           "en": "Wildfires",
+          "es": "incendios forestales",
           "level": "C1"
         },
         {
           "en": "Wildlife",
+          "es": "fauna (salvaje) / vida silvestre",
           "level": "B1"
         },
         {
           "en": "Wind power",
+          "es": "energía eólica",
           "level": "A2"
         },
         {
           "en": "Wind turbine",
+          "es": "aerogenerador",
           "level": "C1"
         }
       ]

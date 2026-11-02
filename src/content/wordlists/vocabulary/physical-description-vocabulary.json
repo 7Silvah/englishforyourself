@@ -11,130 +11,162 @@
       "items": [
         {
           "en": "Tall",
+          "es": "alto",
           "level": "A2"
         },
         {
           "en": "Small",
+          "es": "pequeño / bajo",
           "level": "A1"
         },
         {
           "en": "Short",
+          "es": "bajo",
           "level": "A1"
         },
         {
           "en": "Medium height",
+          "es": "de estatura media",
           "level": "B1"
         },
         {
           "en": "Young",
+          "es": "joven",
           "level": "A1"
         },
         {
           "en": "Old",
+          "es": "viejo / mayor",
           "level": "A1"
         },
         {
           "en": "Skinny",
+          "es": "flaco / delgaducho",
           "level": "B2"
         },
         {
           "en": "Thin",
+          "es": "delgado",
           "level": "A2"
         },
         {
           "en": "Slim",
+          "es": "delgado / esbelto",
           "level": "A2"
         },
         {
           "en": "Chubby",
+          "es": "gordito / rellenito",
           "level": "C1"
         },
         {
           "en": "Overweight or fat",
+          "es": "con sobrepeso / gordo",
           "level": "A2"
         },
         {
           "en": "Large",
+          "es": "grande / corpulento",
           "level": "A1"
         },
         {
           "en": "Muscular",
+          "es": "musculoso",
           "level": "C1"
         },
         {
           "en": "Slender",
+          "es": "esbelto",
           "level": "C1"
         },
         {
           "en": "Well-built",
+          "es": "fornido / corpulento",
           "level": "A1"
         },
         {
           "en": "Beautiful",
+          "es": "hermoso / guapa",
           "level": "A1"
         },
         {
           "en": "Pretty",
+          "es": "bonita / guapa",
           "level": "A1"
         },
         {
           "en": "Handsome",
+          "es": "guapo (hombre)",
           "level": "B1"
         },
         {
           "en": "Sun-tanned",
+          "es": "bronceado / moreno",
           "level": "C1"
         },
         {
           "en": "Pale",
+          "es": "pálido",
           "level": "B2"
         },
         {
           "en": "Long hair",
+          "es": "pelo largo",
           "level": "A1"
         },
         {
           "en": "Short hair",
+          "es": "pelo corto",
           "level": "A2"
         },
         {
           "en": "Straight hair",
+          "es": "pelo lacio / liso",
           "level": "A2"
         },
         {
           "en": "Wavy hair",
+          "es": "pelo ondulado",
           "level": "C1"
         },
         {
           "en": "Curly hair",
+          "es": "pelo rizado / chino",
           "level": "C1"
         },
         {
           "en": "Brown / black / blonde / red / dyed hair",
+          "es": "pelo castaño / negro / rubio / pelirrojo / teñido",
           "level": "A1"
         },
         {
           "en": "Blue / green / brown eyes",
+          "es": "ojos azules / verdes / marrones",
           "level": "A1"
         },
         {
           "en": "(A) small / big / long nose",
+          "es": "nariz pequeña / grande / larga",
           "level": "A1"
         },
         {
           "en": "Bald",
+          "es": "calvo / pelón",
           "level": "A2"
         },
         {
           "en": "Beard",
+          "es": "barba",
           "level": "A2"
         },
         {
           "en": "Pimples",
+          "es": "granos / espinillas",
           "level": "C1"
         },
         {
           "en": "Scruffy",
+          "es": "desaliñado / desarreglado",
           "level": "C1"
         }
       ]

@@ -11,30 +11,37 @@
       "items": [
         {
           "en": "North America",
+          "es": "América del Norte / Norteamérica",
           "level": "A2"
         },
         {
           "en": "South America",
+          "es": "América del Sur / Sudamérica",
           "level": "A1"
         },
         {
           "en": "Africa",
+          "es": "África",
           "level": "A2"
         },
         {
           "en": "Europe",
+          "es": "Europa",
           "level": "A1"
         },
         {
           "en": "Asia",
+          "es": "Asia",
           "level": "A2"
         },
         {
           "en": "Australia / Oceania",
+          "es": "Australia / Oceanía",
           "level": "A1"
         },
         {
           "en": "Antarctica",
+          "es": "Antártida",
           "level": "C1"
         }
       ]

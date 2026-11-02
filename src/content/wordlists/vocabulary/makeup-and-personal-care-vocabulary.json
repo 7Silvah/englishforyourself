@@ -11,86 +11,107 @@
       "items": [
         {
           "en": "Blush",
+          "es": "rubor / colorete",
           "level": "B1"
         },
         {
           "en": "Brightener",
+          "es": "iluminador",
           "level": "C1"
         },
         {
           "en": "Bronzer",
+          "es": "bronceador (en polvo)",
           "level": "C1"
         },
         {
           "en": "Brushes",
+          "es": "brochas / pinceles",
           "level": "C1"
         },
         {
           "en": "Concealer",
+          "es": "corrector",
           "level": "C1"
         },
         {
           "en": "Curling tong",
+          "es": "tenacillas / rizador de pelo",
           "level": "C1"
         },
         {
           "en": "Eye liner",
+          "es": "delineador de ojos / lápiz de ojos",
           "level": "C1"
         },
         {
           "en": "Eye shadow",
+          "es": "sombra de ojos",
           "level": "B1"
         },
         {
           "en": "Face powder",
+          "es": "polvos faciales",
           "level": "B1"
         },
         {
           "en": "Foundation",
+          "es": "base de maquillaje",
           "level": "A2"
         },
         {
           "en": "Hair dryer",
+          "es": "secador de pelo / secadora",
           "level": "C1"
         },
         {
           "en": "Lip gloss",
+          "es": "brillo de labios / gloss",
           "level": "C1"
         },
         {
           "en": "Lip liner",
+          "es": "delineador de labios / perfilador",
           "level": "C1"
         },
         {
           "en": "Lipstick",
+          "es": "lápiz labial / pintalabios",
           "level": "C1"
         },
         {
           "en": "Lotion",
+          "es": "loción / crema",
           "level": "C1"
         },
         {
           "en": "Makeup kit",
+          "es": "estuche de maquillaje",
           "level": "B2"
         },
         {
           "en": "Mascara",
+          "es": "rímel / máscara de pestañas",
           "level": "C1"
         },
         {
           "en": "Nail polish",
+          "es": "esmalte de uñas",
           "level": "B2"
         },
         {
           "en": "Primer",
+          "es": "prebase / primer",
           "level": "C1"
         },
         {
           "en": "Sponge",
+          "es": "esponja",
           "level": "C1"
         },
         {
           "en": "Straightener",
+          "es": "plancha de pelo / alisador",
           "level": "C1"
         }
       ]
@@ -100,66 +121,82 @@
       "items": [
         {
           "en": "Conditioner",
+          "es": "acondicionador / suavizante (para el pelo)",
           "level": "C1"
         },
         {
           "en": "Cotton buds (UK) / cotton swabs (US)",
+          "es": "bastoncillos / hisopos",
           "level": "C1"
         },
         {
           "en": "Dental floss",
+          "es": "hilo dental",
           "level": "C1"
         },
         {
           "en": "Deodorant",
+          "es": "desodorante",
           "level": "C1"
         },
         {
           "en": "Hair gel",
+          "es": "gel para el pelo",
           "level": "B2"
         },
         {
           "en": "Hair spray",
+          "es": "laca / spray para el pelo",
           "level": "B2"
         },
         {
           "en": "Hand lotion",
+          "es": "crema de manos",
           "level": "C1"
         },
         {
           "en": "Mouthwash",
+          "es": "enjuague bucal",
           "level": "C1"
         },
         {
           "en": "Nail polish remover",
+          "es": "quitaesmalte",
           "level": "C1"
         },
         {
           "en": "Perfume / cologne",
+          "es": "perfume / colonia",
           "level": "B1"
         },
         {
           "en": "Razor",
+          "es": "rastrillo / maquinilla de afeitar",
           "level": "C1"
         },
         {
           "en": "Shampoo",
+          "es": "champú",
           "level": "C1"
         },
         {
           "en": "Tissues",
+          "es": "pañuelos de papel",
           "level": "B2"
         },
         {
           "en": "Toothbrush",
+          "es": "cepillo de dientes",
           "level": "C1"
         },
         {
           "en": "Toothpaste",
+          "es": "pasta de dientes / dentífrico",
           "level": "C1"
         },
         {
           "en": "Tweezers",
+          "es": "pinzas",
           "level": "C1"
         }
       ]
@@ -169,54 +206,67 @@
       "items": [
         {
           "en": "Day / night cream",
+          "es": "crema de día / de noche",
           "level": "A1"
         },
         {
           "en": "Essence",
+          "es": "esencia",
           "level": "B2"
         },
         {
           "en": "Exfoliant",
+          "es": "exfoliante",
           "level": "C1"
         },
         {
           "en": "Eye cream",
+          "es": "contorno de ojos / crema para ojos",
           "level": "B1"
         },
         {
           "en": "Facial spray",
+          "es": "bruma facial",
           "level": "B2"
         },
         {
           "en": "Foam cleanser",
+          "es": "limpiador en espuma",
           "level": "C1"
         },
         {
           "en": "Lip balm",
+          "es": "bálsamo labial / protector de labios",
           "level": "C1"
         },
         {
           "en": "Moisturizer",
+          "es": "crema hidratante",
           "level": "C1"
         },
         {
           "en": "Oil cleanser",
+          "es": "aceite desmaquillante",
           "level": "C1"
         },
         {
           "en": "Serum",
+          "es": "sérum",
           "level": "C1"
         },
         {
           "en": "Sheet mask",
+          "es": "mascarilla de tela",
           "level": "B2"
         },
         {
           "en": "Sunscreen",
+          "es": "protector solar / bloqueador",
           "level": "C1"
         },
         {
           "en": "Toner",
+          "es": "tónico",
           "level": "C1"
         }
       ]

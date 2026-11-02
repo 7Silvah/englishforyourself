@@ -5,24 +5,29 @@ import { PageHeader } from "@/components/layout/page-header";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { getChildLessons, getSectionLessons, type LessonEntry } from "@/content";
-import { canPractice } from "@/features/exercises/list-practice";
+import { VOCABULARY_SECTION, vocabularyTopics } from "@/features/vocabulary/lessons";
 import {
-  loadVocabulary,
-  practiceLesson,
-  VOCABULARY_SECTION,
-  vocabularyTopics,
-} from "@/features/vocabulary/lessons";
-import { buildVocabulary, parseFilters } from "@/features/vocabulary/logic";
+  buildVocabulary,
+  entriesOf,
+  filterGroups,
+  type VocabularySource,
+} from "@/features/vocabulary/logic";
+import { parseFilters, wordFilters } from "@/features/vocabulary/filters";
+import { useVocabularyStore } from "@/features/vocabulary/store";
 import { VocabularyTable } from "@/features/vocabulary/vocabulary-table";
 import { es } from "@/i18n/es";
 
 export const Route = createFileRoute("/biblioteca/$section/")({
-  // Filtros de la tabla de Vocabulario: ?nivel=A2&tema=animals-vocabulary&tipo=noun&q=casa
+  // Filtros de la tabla de Vocabulario: ?nivel=A2&tema=animals-vocabulary&tipo=noun&q=casa&fav=true&pagina=2
   validateSearch: parseFilters,
   // Vocabulario es una sola tabla con todas sus listas: se cargan todas aquí (cada una es
   // un chunk aparte). Las demás secciones solo listan sus lecciones.
   loader: async ({ params }) => ({
-    vocabulary: params.section === VOCABULARY_SECTION ? await loadVocabulary() : null,
+    // import(): cargar y unir el vocabulario no entra en la carga inicial de la app
+    vocabulary:
+      params.section === VOCABULARY_SECTION
+        ? await (await import("@/features/vocabulary/load")).loadVocabulary()
+        : null,
   }),
   component: SectionPage,
 });
@@ -69,46 +74,57 @@ function LessonItem({ lesson }: { lesson: LessonEntry }) {
   );
 }
 
-// Flashcards y ejercicios de la lista que se está viendo (tema o nivel elegido)
-function PracticeButtons({ lesson }: { lesson: LessonEntry }) {
-  if (lesson.translatedCount === 0) return null;
-  return (
-    <div className="flex flex-wrap gap-2">
-      <Link
-        to="/practicar/flashcards"
-        search={{ lista: lesson.path }}
-        className={buttonVariants({ variant: "outline" })}
-      >
-        <Layers data-icon="inline-start" aria-hidden />
-        {es.flashcards.practiceList(lesson.translatedCount)}
-      </Link>
-      {canPractice(lesson) && (
-        <Link
-          to="/practicar/vocabulario"
-          search={{ lista: lesson.path }}
-          className={buttonVariants({ variant: "outline" })}
-        >
-          <PencilLine data-icon="inline-start" aria-hidden />
-          {es.generated.vocabulary.practice}
-        </Link>
-      )}
-    </div>
-  );
-}
-
-function VocabularyPage({ sources }: { sources: Awaited<ReturnType<typeof loadVocabulary>> }) {
+function VocabularyPage({ sources }: { sources: VocabularySource[] }) {
   const { section } = sectionRoute.useLoaderData();
   const filters = Route.useSearch();
-  // Juntar más de 5000 palabras cuesta: una vez por visita, no en cada filtro
+  const favoriteIds = useVocabularyStore((state) => state.favorites);
+  const favorites = useMemo(() => new Set(favoriteIds), [favoriteIds]);
+  // Juntar y filtrar más de 4000 palabras cuesta: solo cuando cambian las fuentes o los filtros
   const groups = useMemo(() => buildVocabulary(sources), [sources]);
-  const practice = practiceLesson(filters);
+  const filtered = useMemo(
+    () => filterGroups(groups, wordFilters(filters), favorites),
+    [groups, filters, favorites],
+  );
+  const translated = entriesOf(filtered).filter((e) => e.es).length;
+  // Las prácticas reciben los mismos filtros (sin la página): ?vocabulario=true&nivel=…
+  const practice = { vocabulario: true as const, ...wordFilters(filters) };
+  const t = es.library.vocabularyTable;
+
   return (
     <>
-      <PageHeader title={section.titleEs} description={section.descriptionEs} />
-      <div className="space-y-6">
-        {practice && <PracticeButtons lesson={practice} />}
-        <VocabularyTable groups={groups} topics={vocabularyTopics()} filters={filters} />
-      </div>
+      <PageHeader
+        title={section.titleEs}
+        description={t.intro}
+        actions={
+          translated > 0 && (
+            <>
+              <Link
+                to="/practicar/flashcards"
+                search={practice}
+                className={buttonVariants({ size: "lg" })}
+              >
+                <Layers data-icon="inline-start" aria-hidden />
+                {t.practiceFlashcards(translated)}
+              </Link>
+              <Link
+                to="/practicar/vocabulario"
+                search={practice}
+                className={buttonVariants({ variant: "outline", size: "lg" })}
+              >
+                <PencilLine data-icon="inline-start" aria-hidden />
+                {t.practiceQuiz}
+              </Link>
+            </>
+          )
+        }
+      />
+      <VocabularyTable
+        groups={groups}
+        filtered={filtered}
+        topics={vocabularyTopics()}
+        filters={filters}
+        favorites={favorites}
+      />
     </>
   );
 }

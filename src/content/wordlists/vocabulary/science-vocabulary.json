@@ -10,150 +10,187 @@
       "items": [
         {
           "en": "Science",
+          "es": "ciencia",
           "level": "A1"
         },
         {
           "en": "Atom",
+          "es": "átomo",
           "level": "C1"
         },
         {
           "en": "Electron",
+          "es": "electrón",
           "level": "B2"
         },
         {
           "en": "Neutron",
+          "es": "neutrón",
           "level": "C1"
         },
         {
           "en": "Proton",
+          "es": "protón",
           "level": "C1"
         },
         {
           "en": "Nucleus",
+          "es": "núcleo",
           "level": "C1"
         },
         {
           "en": "Alcohol burner",
+          "es": "mechero de alcohol",
           "level": "C1"
         },
         {
           "en": "Bacteria",
+          "es": "bacterias",
           "level": "B2"
         },
         {
           "en": "Barometer",
+          "es": "barómetro",
           "level": "C1"
         },
         {
           "en": "Beaker",
+          "es": "vaso de precipitados",
           "level": "C1"
         },
         {
           "en": "Bunsen burner",
+          "es": "mechero Bunsen",
           "level": "C1"
         },
         {
           "en": "Cell",
+          "es": "célula",
           "level": "A2"
         },
         {
           "en": "Cell culture",
+          "es": "cultivo celular",
           "level": "A2"
         },
         {
           "en": "Chemical",
+          "es": "sustancia química",
           "level": "B1"
         },
         {
           "en": "DNA",
+          "es": "ADN",
           "level": "B1"
         },
         {
           "en": "Dropper",
+          "es": "cuentagotas / gotero",
           "level": "C1"
         },
         {
           "en": "Erlenmeyer flask",
+          "es": "matraz Erlenmeyer",
           "level": "C1"
         },
         {
           "en": "Experiment",
+          "es": "experimento",
           "level": "B1"
         },
         {
           "en": "Flask",
+          "es": "matraz",
           "level": "C1"
         },
         {
           "en": "Funnel",
+          "es": "embudo",
           "level": "C1"
         },
         {
           "en": "Genetics",
+          "es": "genética",
           "level": "B2"
         },
         {
           "en": "Graduated cylinder",
+          "es": "probeta",
           "level": "C1"
         },
         {
           "en": "Laboratory / lab",
+          "es": "laboratorio",
           "level": "B1"
         },
         {
           "en": "Magnet",
+          "es": "imán",
           "level": "C1"
         },
         {
           "en": "Magnifier",
+          "es": "lupa",
           "level": "C1"
         },
         {
           "en": "Microscope",
+          "es": "microscopio",
           "level": "C1"
         },
         {
           "en": "Molecule",
+          "es": "molécula",
           "level": "C1"
         },
         {
           "en": "Organism",
+          "es": "organismo",
           "level": "C1"
         },
         {
           "en": "Periodic table",
+          "es": "tabla periódica",
           "level": "C1"
         },
         {
           "en": "Pipettes",
+          "es": "pipetas",
           "level": "C1"
         },
         {
           "en": "Scale",
+          "es": "balanza / báscula",
           "level": "A2"
         },
         {
           "en": "Scientist",
+          "es": "científico / científica",
           "level": "A2"
         },
         {
           "en": "Test tube",
+          "es": "tubo de ensayo",
           "level": "B1"
         },
         {
           "en": "Test tube racks",
+          "es": "gradillas",
           "level": "C1"
         },
         {
           "en": "Theory",
+          "es": "teoría",
           "level": "A2"
         },
         {
           "en": "Thermometer",
+          "es": "termómetro",
           "level": "C1"
         },
         {
           "en": "Virus",
+          "es": "virus",
           "level": "B1"
         }
       ]

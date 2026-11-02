@@ -1,11 +1,8 @@
-// Vocabulario en una sola tabla (docs/PLAN.md F17c, V4–V5). Lógica pura.
-// La importan el validateSearch y el loader de la Biblioteca: solo tipos y funciones pequeñas.
+// Vocabulario en una sola tabla (docs/PLAN.md F17c, V4–V6). Lógica pura: la usan la página
+// (que se carga aparte) y load.ts. Los filtros de la URL están en filters.ts.
 import { LEVELS } from "@/content/levels";
 import type { Level, PartOfSpeech, Word } from "@/content/schema";
-
-// Los 16 tipos de la fuente, en 6 grupos que entiende un estudiante
-export const WORD_TYPES = ["noun", "verb", "adjective", "adverb", "phrase", "other"] as const;
-export type WordType = (typeof WORD_TYPES)[number];
+import type { VocabularyFilters, WordType } from "./filters";
 
 export function wordType(pos: PartOfSpeech): WordType {
   switch (pos) {
@@ -23,27 +20,6 @@ export function wordType(pos: PartOfSpeech): WordType {
     default:
       return "other";
   }
-}
-
-/** Filtros de la tabla, en la URL: ?nivel=A2&tema=animals-vocabulary&tipo=noun&letra=B&q=casa */
-export type VocabularyFilters = {
-  nivel?: Level;
-  tema?: string;
-  tipo?: WordType;
-  letra?: string;
-  q?: string;
-};
-
-/** Lo que la URL trae, validado: lo que no sea válido se ignora */
-export function parseFilters(search: Record<string, unknown>): VocabularyFilters {
-  const text = (value: unknown) => (typeof value === "string" && value ? value : undefined);
-  return {
-    nivel: LEVELS.find((level) => level === search.nivel),
-    tema: text(search.tema),
-    tipo: WORD_TYPES.find((type) => type === search.tipo),
-    letra: text(search.letra),
-    q: text(search.q),
-  };
 }
 
 /**
@@ -91,8 +67,12 @@ export type VocabularySource = {
 
 export type Topic = { slug: string; title: string };
 
-/** Una fila: la palabra, su nivel y los temas en los que aparece */
-export type VocabularyEntry = Word & { id: string; topics: Topic[] };
+/**
+ * Una fila: la palabra, su nivel y los temas en los que aparece. `home` es su lista
+ * principal (la de Face2Face o su primer tema): las flashcards de lo filtrado guardan el
+ * progreso con la clave de esa lista, así que cuenta igual que al repasarla.
+ */
+export type VocabularyEntry = Word & { id: string; home: string; topics: Topic[] };
 export type VocabularyGroup = { title: string; items: VocabularyEntry[] };
 
 const levelRank = (level: Level | undefined) => (level ? LEVELS.indexOf(level) : LEVELS.length);
@@ -121,7 +101,13 @@ export function buildVocabulary(sources: readonly VocabularySource[]): Vocabular
       const id = `${w.en}|${w.pos ?? ""}`;
       if (bookIds.has(id)) continue;
       bookIds.add(id);
-      const entry: VocabularyEntry = { ...w, id, level: w.level ?? book.level, topics: [] };
+      const entry: VocabularyEntry = {
+        ...w,
+        id,
+        home: book.slug,
+        level: w.level ?? book.level,
+        topics: [],
+      };
       entries.push(entry);
       for (const k of wordKeys(w.en)) bookByKey.set(k, [...(bookByKey.get(k) ?? []), entry]);
     }
@@ -150,7 +136,13 @@ export function buildVocabulary(sources: readonly VocabularySource[]): Vocabular
         addTopic(seen, topic, w);
         continue;
       }
-      const entry: VocabularyEntry = { ...w, id, level: w.level ?? list.level, topics: [topic] };
+      const entry: VocabularyEntry = {
+        ...w,
+        id,
+        home: list.slug,
+        level: w.level ?? list.level,
+        topics: [topic],
+      };
       topicIds.set(id, entry);
       entries.push(entry);
     }
@@ -169,10 +161,15 @@ export function buildVocabulary(sources: readonly VocabularySource[]): Vocabular
   return [...groups].map(([title, items]) => ({ title, items }));
 }
 
-function matches(entry: VocabularyEntry, { nivel, tema, tipo, q }: VocabularyFilters): boolean {
+function matches(
+  entry: VocabularyEntry,
+  { nivel, tema, tipo, q, fav }: VocabularyFilters,
+  favorites: ReadonlySet<string>,
+): boolean {
   if (nivel && entry.level !== nivel) return false;
   if (tema && !entry.topics.some((t) => t.slug === tema)) return false;
   if (tipo && (!entry.pos || wordType(entry.pos) !== tipo)) return false;
+  if (fav && !favorites.has(entry.id)) return false;
   if (!q?.trim()) return true;
   const query = fold(q.trim());
   return fold(entry.en).includes(query) || fold(entry.es ?? "").includes(query);
@@ -181,27 +178,61 @@ function matches(entry: VocabularyEntry, { nivel, tema, tipo, q }: VocabularyFil
 /**
  * Grupos (letras) con las palabras que pasan los filtros; los grupos vacíos se quitan.
  * Si hay texto, busca en todas las letras: la letra elegida dejaría fuera lo que se busca.
+ * `favorites` son los ids marcados con ⭐ (solo cuentan con ?fav=true).
  */
 export function filterGroups(
   groups: readonly VocabularyGroup[],
   filters: VocabularyFilters,
+  favorites: ReadonlySet<string> = new Set(),
 ): VocabularyGroup[] {
   const letter = filters.q?.trim() ? undefined : filters.letra;
   return groups
     .filter((g) => !letter || g.title === letter)
-    .map((g) => ({ ...g, items: g.items.filter((e) => matches(e, filters)) }))
+    .map((g) => ({ ...g, items: g.items.filter((e) => matches(e, filters, favorites)) }))
     .filter((g) => g.items.length > 0);
 }
 
-/** Las primeras `limit` filas, sin romper los grupos por letra */
-export function firstRows(groups: readonly VocabularyGroup[], limit: number): VocabularyGroup[] {
+/** Las palabras de unos grupos, en orden */
+export const entriesOf = (groups: readonly VocabularyGroup[]) => groups.flatMap((g) => g.items);
+
+/** Filas de la página `page` (desde 1), sin romper los grupos por letra */
+export function pageOf(
+  groups: readonly VocabularyGroup[],
+  page: number,
+  size: number,
+): VocabularyGroup[] {
+  let skip = (page - 1) * size;
+  let left = size;
   const result: VocabularyGroup[] = [];
-  let left = limit;
   for (const g of groups) {
     if (left <= 0) break;
-    const items = g.items.slice(0, left);
-    result.push({ ...g, items });
+    if (skip >= g.items.length) {
+      skip -= g.items.length;
+      continue;
+    }
+    const items = g.items.slice(skip, skip + left);
+    skip = 0;
     left -= items.length;
+    result.push({ ...g, items });
   }
   return result;
+}
+
+/** Páginas que mostrar: la primera, la última y las dos vecinas de la actual («…» entre medias) */
+export function pageNumbers(current: number, total: number): (number | "…")[] {
+  const pages = [...new Set([1, current - 1, current, current + 1, total])]
+    .filter((p) => p >= 1 && p <= total)
+    .sort((a, b) => a - b);
+  return pages.flatMap((p, i) => {
+    const prev = pages[i - 1];
+    return prev !== undefined && p - prev > 1 ? (["…", p] as const) : [p];
+  });
+}
+
+/** Cuántas palabras tiene cada tema (para el selector: «Deportes (41)») */
+export function countByTopic(groups: readonly VocabularyGroup[]): Map<string, number> {
+  const counts = new Map<string, number>();
+  for (const entry of entriesOf(groups))
+    for (const t of entry.topics) counts.set(t.slug, (counts.get(t.slug) ?? 0) + 1);
+  return counts;
 }

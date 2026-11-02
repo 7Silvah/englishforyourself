@@ -11,94 +11,118 @@
       "items": [
         {
           "en": "Barcode",
+          "es": "código de barras",
           "level": "C1"
         },
         {
           "en": "Bargain-hunter",
+          "es": "cazador de gangas / de ofertas",
           "level": "B2"
         },
         {
           "en": "Basket",
+          "es": "cesta / canasta",
           "level": "B2"
         },
         {
           "en": "Brand",
+          "es": "marca",
           "level": "A2"
         },
         {
           "en": "Cashier",
+          "es": "cajero / cajera",
           "level": "C1"
         },
         {
           "en": "Checker / cash register",
+          "es": "caja registradora",
           "level": "B1"
         },
         {
           "en": "Clerk",
+          "es": "dependiente / empleado",
           "level": "B2"
         },
         {
           "en": "Coins",
+          "es": "monedas",
           "level": "B1"
         },
         {
           "en": "Credit card",
+          "es": "tarjeta de crédito",
           "level": "A1"
         },
         {
           "en": "Customer",
+          "es": "cliente",
           "level": "A1"
         },
         {
           "en": "Debit card",
+          "es": "tarjeta de débito",
           "level": "C1"
         },
         {
           "en": "Discount",
+          "es": "descuento",
           "level": "B1"
         },
         {
           "en": "Factory outlet",
+          "es": "outlet / tienda de fábrica",
           "level": "B2"
         },
         {
           "en": "Gift voucher",
+          "es": "vale de regalo / tarjeta de regalo",
           "level": "C1"
         },
         {
           "en": "Knock-down price",
+          "es": "precio de saldo / precio rebajado",
           "level": "B1"
         },
         {
           "en": "Money",
+          "es": "dinero",
           "level": "A1"
         },
         {
           "en": "Price",
+          "es": "precio",
           "level": "A1"
         },
         {
           "en": "Receipt",
+          "es": "recibo / ticket de compra",
           "level": "B2"
         },
         {
           "en": "Retailer",
+          "es": "minorista / tienda",
           "level": "C1"
         },
         {
           "en": "Returns policy",
+          "es": "política de devoluciones",
           "level": "A2"
         },
         {
           "en": "Salesman / saleswoman",
+          "es": "vendedor / vendedora",
           "level": "C1"
         },
         {
           "en": "Trolley",
-          "level": "C1"
+          "es": "carrito (de la compra)",
+          "level": "C1",
+          "note": "Inglés británico; en Estados Unidos, cart."
         },
         {
           "en": "Wallet / purse",
+          "es": "billetera / monedero",
           "level": "A1"
         }
       ]

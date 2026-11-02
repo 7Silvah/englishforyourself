@@ -32,8 +32,23 @@ export function deckCards(
   listPath: string,
   words: readonly { en: string; es?: string | undefined; ipa?: string | undefined }[],
 ): Card[] {
+  return mixedDeckCards(words.map((w) => ({ ...w, listPath })));
+}
+
+/**
+ * Tarjetas de palabras de varias listas (lo filtrado en la tabla de Vocabulario): cada una
+ * con la clave de su lista, así que repasarla aquí cuenta igual que en su lista.
+ */
+export function mixedDeckCards(
+  words: readonly {
+    listPath: string;
+    en: string;
+    es?: string | undefined;
+    ipa?: string | undefined;
+  }[],
+): Card[] {
   const cards = new Map<string, Card>();
-  for (const { en, es, ipa } of words) {
+  for (const { listPath, en, es, ipa } of words) {
     if (!es) continue;
     const key = cardKey(listPath, en);
     const card = cards.get(key);
